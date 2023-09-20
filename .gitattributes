@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+campaign_maps/**/startpos/** eol=lf
+campaigns/**/startpos/** eol=lf
