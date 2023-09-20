@@ -90,6 +90,7 @@ x_india_sword_pistol	east_sword	pistol		east_infantry_equipment
 x_natam_axe	euro_tomahawk				
 x_natam_bow_axe	bow_default	euro_tomahawk		archer_equipment	
 x_natam_cavalry_axe	euro_tomahawk				
+x_natam_cavalry_bow_axe	bow_horse	euro_tomahawk			
 x_natam_cavalry_lance	lance				
 x_natam_cavalry_musket_axe	euro_carbine	euro_tomahawk			
 x_natam_musket	euro_musket				
@@ -100,4 +101,6 @@ x_natam_throwingaxe_axe	euro_tomahawk
 x_pr_custom_pistol_only	pistol				
 x_pr_custom_spear_only	euro_spear				
 x_sword_pistol_only	east_sword	pistol			
-x_natam_cavalry_bow_axe	bow_horse	euro_tomahawk			
+x_east_cavalry_axe	east_handaxe			east_infantry_equipment	
+x_east_cavalry_sabre_shield	east_cavalry_sabre		east_shield	east_infantry_equipment	
+x_east_blunderbuss	east_grenadelauncher	east_cavalry_sabre			

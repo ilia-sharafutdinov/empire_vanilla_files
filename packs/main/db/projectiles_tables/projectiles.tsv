@@ -90,7 +90,7 @@ musket_breech_loader	missile	bullet	bullet	projectile_musketball		alpha_bullet	n
 musket_carbine	missile	bullet	bullet	projectile_musketball		alpha_bullet	none	1	n	low	70	0	88	150.0000	0.0000	0.0000	0.7500	ap			false	false	0.1000	20	1	medium	0.1000	0.0000	small_arm	small	MusketFire		musket_ball
 musket_double	missile	bullet	bullet	projectile_musketball		alpha_bullet	none	2	n	low	90	0	88	150.0000	0.0000	1.0000	0.7500	ap			false	false	0.1000	30	1	medium	0.1000	0.0000	small_arm	small	MusketFire		musket_ball
 musket_flintlock	missile	bullet	bullet	projectile_musketball		alpha_bullet	none	1		low	70	0	88	150.0000	0.0000	0.0000	0.7500	ap			false	false	0.1000	20	1	medium	0.1000	0.0000	small_arm	small	MusketFire		musket_ball
-musket_light_carbine	missile	bullet	bullet	projectile_musketball		alpha_bullet	none	1	n	low	90	0	88	150.0000	0.0000	0.0000	0.7500	ap			false	false	0.1000	20	1	medium	0.1000	0.0000	small_arm	small	MusketFire		musket_ball
+musket_light_carbine	missile	bullet	bullet	projectile_musketball		alpha_bullet	none	1	n	low	70	0	88	150.0000	0.0000	0.0000	0.7500	ap			false	false	0.1000	20	1	medium	0.1000	0.0000	small_arm	small	MusketFire		musket_ball
 musket_light_infantry_flintlock	missile	bullet	bullet	projectile_musketball		alpha_bullet	none	1		low	90	0	88	150.0000	0.0000	0.0000	0.7500	ap			false	false	0.1000	25	1	medium	0.1000	0.0000	small_arm	small	MusketFire		musket_ball
 musket_matchlock	missile	bullet	bullet	projectile_musketball		alpha_bullet	none	1		low	70	0	88	150.0000	0.0000	0.0000	0.7500	ap			false	false	0.1000	24	1	high	0.1000	0.0000	small_arm	small	MusketFire		musket_ball
 musket_matchlock_tutorial	missile	bullet	bullet	projectile_musketball		alpha_bullet	none	1	n	low	70	0	88	150.0000	0.0000	0.0000	0.9900	ap			false	false	0.1000	20	1	high	0.1000	0.0000	small_arm	small	MusketFire		musket_ball
@@ -167,3 +167,4 @@ siege_cannon_64_pounder_shrapnel	artillery	shrapnel	shrapnel	projectile_cannonba
 throwing_axe	missile	throwing_axe	axe	projectile_tomahawk		none	axe_spin	1		low	40	0	30	30.0000	0.0000	0.0000	0.9900				false	false	0.1000	8	0		0.1000	0.0000	flight	small			musket_ball
 tutorial_cannister	artillery	canister	bullet	projectile_musketball		alpha_bullet	none	50	n	low	100	0	30	75.0000	0.0000	8.0000	0.9900				false	false	0.1000	30	0		0.2000	0.0000	gun	small	LandGunFire_canister		musket_ball
 tutorial_shot	artillery	round_shot	cannon_ball	projectile_cannonbal		alpha	none	1	n	low	100	0	30	125.0000	0.0000	0.0000	42.0000	high	low	impact	true	false	0.0000	10	0		0.1000	0.0000	gun	large	LandGunFire		default_ball
+blunderbuss	missile	bullet	bullet	projectile_musketball		alpha_bullet	none	5		low	35	0	88	150.0000	0.0000	8.0000	0.7500	ap			false	false	0.1000	30	1	medium	0.1000	0.0000	small_arm	small	MusketFire		musket_ball
