@@ -1,0 +1,68 @@
+Marker name: FOOTSTEP_WALK
+Position: 395 ms
+Type: Generic
+
+Marker name: sabre_stab_in
+Position: 726 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 842 ms
+Type: Generic
+
+Marker name: axe_impact_ground
+Position: 951 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 14 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 34 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 425 ms
+Type: Generic
+
+Marker name: sabre_stab_out
+Position: 1 s 687 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 2 s 412 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 490 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 2 s 598 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 876 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 3 s 756 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 4 s 423 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 4 s 686 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 4 s 778 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 4 s 969 ms
+Type: Generic
+

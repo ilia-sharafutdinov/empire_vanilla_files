@@ -1,0 +1,8 @@
+Marker name: Equipment_Rattle
+Position: 2 s 401 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 3 s 50 ms
+Type: Generic
+

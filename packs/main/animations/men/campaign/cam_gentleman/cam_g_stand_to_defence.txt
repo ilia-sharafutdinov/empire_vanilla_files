@@ -1,0 +1,12 @@
+Marker name: FOOTSTEP_walk
+Position: 912 ms
+Type: Generic
+
+Marker name: human_foley_medium
+Position: 932 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 340 ms
+Type: Generic
+

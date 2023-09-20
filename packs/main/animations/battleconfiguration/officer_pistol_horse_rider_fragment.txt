@@ -1,0 +1,19 @@
+version 1
+
+RIDER_SHOOT_READY						filename = "Animations/MEN/HORSE_RIDER/C_PIS/C_PIST_Sit.anim",							blend_in_time = 0.25
+RIDER_SHOOT_READY_TO_RIDER_RELOAD		filename = "Animations/MEN/HORSE_RIDER/C_PIS/C_PIST_Sit_to_Guard.anim",					blend_in_time = 0.25
+
+RIDER_RELOAD							filename = "Animations/MEN/HORSE_RIDER/C_PIS/C_PIST_Guard.anim",						blend_in_time = 0.25
+RIDER_RELOAD_TO_RIDER_SHOOT_READY		filename = "Animations/MEN/HORSE_RIDER/C_PIS/C_PIST_Guard_to_Sit.anim",					blend_in_time = 0.25
+
+RIDER_FIRE_FORWARD_LOW					filename = "Animations/MEN/HORSE_RIDER/C_PIS/C_PIST_Guard_Fire_Forward_Low.anim",		blend_in_time = 0.25
+RIDER_FIRE_FORWARD_LEVEL				filename = "Animations/MEN/HORSE_RIDER/C_PIS/C_PIST_Guard_Fire_Forward_Level.anim",		blend_in_time = 0.25
+RIDER_FIRE_FORWARD_HIGH					filename = "Animations/MEN/HORSE_RIDER/C_PIS/C_PIST_Guard_Fire_Forward_high.anim",		blend_in_time = 0.25
+
+RIDER_FIRE_LEFT_LOW						filename = "Animations/MEN/HORSE_RIDER/C_PIS/C_PIST_Guard_Fire_Left_Low.anim",			blend_in_time = 0.25
+RIDER_FIRE_LEFT_LEVEL					filename = "Animations/MEN/HORSE_RIDER/C_PIS/C_PIST_Guard_Fire_Left_Level.anim",		blend_in_time = 0.25
+RIDER_FIRE_LEFT_HIGH					filename = "Animations/MEN/HORSE_RIDER/C_PIS/C_PIST_Guard_Fire_Left_high.anim",			blend_in_time = 0.25
+
+RIDER_FIRE_RIGHT_LOW					filename = "Animations/MEN/HORSE_RIDER/C_PIS/C_PIST_Guard_Fire_Right_Low.anim",			blend_in_time = 0.25
+RIDER_FIRE_RIGHT_LEVEL					filename = "Animations/MEN/HORSE_RIDER/C_PIS/C_PIST_Guard_Fire_Right_Level.anim",		blend_in_time = 0.25
+RIDER_FIRE_RIGHT_HIGH					filename = "Animations/MEN/HORSE_RIDER/C_PIS/C_PIST_Guard_Fire_Right_high.anim",		blend_in_time = 0.25

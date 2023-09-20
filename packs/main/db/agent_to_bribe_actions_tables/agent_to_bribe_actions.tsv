@@ -1,0 +1,5 @@
+agent	bribe_action
+#agent_to_bribe_actions_tables;0;db/agent_to_bribe_actions_tables/agent_to_bribe_actions	
+admiral	no_orders
+captain	no_orders
+colonel	no_orders

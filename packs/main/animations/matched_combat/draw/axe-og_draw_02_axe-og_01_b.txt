@@ -1,0 +1,48 @@
+Marker name: Footstep_Walk
+Position: 238 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 511 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 120 ms
+Type: Generic
+
+Marker name: sword_swoosh
+Position: 1 s 789 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 1 s 968 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 2 s 293 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 2 s 821 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 3 s 187 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 3 s 663 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 4 s 46 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 4 s 418 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 4 s 824 ms
+Type: Generic
+

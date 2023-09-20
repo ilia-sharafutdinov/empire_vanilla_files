@@ -1,0 +1,15 @@
+ability	associated_attribute	associated_cursor_mode	cannot_fail
+#abilities_tables;0;db/abilities_tables/abilities			
+can_assassinate	subterfuge	action	true
+can_attack_land	command_land	attack	true
+can_attack_naval	command_sea	attack	true
+can_build_fort	command_land	normal	true
+can_build_religious	zeal	normal	true
+can_convert	zeal	normal	false
+can_duel	duelling_pistols	action	true
+can_exchange		exchange	true
+Can_Hide_In_Woods	command_land	normal	false
+can_receive_duel	duelling_pistols	action	true
+can_research	research	normal	false
+can_sabotage	subterfuge	action	true
+can_spy	subterfuge	action	true

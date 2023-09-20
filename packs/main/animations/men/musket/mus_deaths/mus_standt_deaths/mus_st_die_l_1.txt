@@ -1,0 +1,12 @@
+Marker name: EQUIPMENT_RATTLE
+Position: 120 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 652 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 794 ms
+Type: Generic
+

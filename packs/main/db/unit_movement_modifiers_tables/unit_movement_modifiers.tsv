@@ -1,0 +1,23 @@
+key	artillery	artillery_horse	cavalry	infantry
+#unit_movement_modifiers_tables;0;db/unit_movement_modifiers_tables/unit_movement_modifiers				
+field_ploughed	0.7500	0.8000	0.8500	0.9500
+field_ploughed_wet	0.6000	0.6500	0.7000	0.8000
+grassland	1.0000	1.0000	1.0000	1.0000
+mud	0.6000	0.6500	0.8000	0.8000
+mud_wet	0.4000	0.4500	0.5000	0.5000
+road	1.1000	1.1000	1.1000	1.1000
+road_frozen	0.7000	0.7000	0.7000	0.7000
+rock	0.7500	0.8000	0.8500	0.9500
+sand	0.6000	0.6500	0.8000	0.8000
+sand_wet	1.1000	1.1000	1.1000	1.1000
+scree	0.6000	0.6500	0.7000	0.8000
+snow	0.6000	0.6500	0.8000	0.6500
+stone_masonry	1.1000	1.1000	1.1000	1.1000
+vegetation_dense_forest	0.4000	0.4000	0.4000	0.7000
+vegetation_light_scrub	0.7000	0.8000	0.9000	0.9500
+vegetation_medium_woodland	0.4000	0.4000	0.8000	0.9000
+water_deep	0.1000	0.1000	0.1000	0.1000
+water_frozen	0.5000	0.5000	0.5000	0.5000
+water_medium_ford	0.4000	0.4000	0.6000	0.6000
+water_shallow	0.7500	0.8000	0.8000	0.8000
+wood	1.1000	1.1000	1.1000	1.1000

@@ -1,0 +1,40 @@
+Marker name: musket_impact_ground
+Position: 351 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 406 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 593 ms
+Type: Generic
+
+Marker name: human_foley_medium
+Position: 713 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 944 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 594 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 16 ms
+Type: Generic
+
+Marker name: BODYFALL_light
+Position: 2 s 284 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 4 s 583 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 4 s 783 ms
+Type: Generic
+

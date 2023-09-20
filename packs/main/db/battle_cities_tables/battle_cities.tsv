@@ -1,0 +1,6 @@
+city	minimum_building_scale	maximum_building_scale	town_min_distance	city_min_distance	town_radius	city_radius	number_of_town_buildings	number_of_city_buildings
+#battle_cities_tables;0;db/battle_cities_tables/battle_cities								
+European	0.7500	1.2500	2100.0000	3000.0000	500.0000	1500.0000	400	900
+American	0.7500	1.2500	2100.0000	3000.0000	500.0000	1500.0000	400	900
+Native	1.0000	1.0000	2000.0000	2000.0000	600.0000	600.0000	15	15
+Eastern	0.7500	1.2500	2100.0000	3000.0000	500.0000	1500.0000	400	900

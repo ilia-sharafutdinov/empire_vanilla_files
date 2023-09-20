@@ -1,0 +1,16 @@
+Marker name: cannon_ram_out
+Position: 272 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 801 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 1 s 246 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 1 s 513 ms
+Type: Generic
+

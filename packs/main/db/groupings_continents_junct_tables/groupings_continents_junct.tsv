@@ -1,0 +1,4 @@
+group	continent
+#groupings_continents_junct_tables;0;db/groupings_continents_junct_tables/groupings_continents_junct	
+factions_in_america	cont_america_north
+factions_in_caribbean	cont_america_latin

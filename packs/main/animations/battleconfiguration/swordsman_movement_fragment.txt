@@ -1,0 +1,383 @@
+version 1
+
+// STAND --------------------------------------------------------------------------------------------------------------------------------
+STAND								filename = "Animations/MEN\AXE\AXE_Stand_Irregular/AXE_Stand.anim",
+STAND_TRAINED						filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_StandT.anim",				blend_in_time = 0.25
+STAND_TRAINED						filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_StandT_Alt1.anim",			blend_in_time = 0.25
+STAND_TRAINED						filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_StandT_Alt2.anim",			blend_in_time = 0.25
+STAND_TRAINED						filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_StandT_Alt3.anim",			blend_in_time = 0.25
+STAND_TRAINED						filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_StandT_Alt4.anim",			blend_in_time = 0.25
+
+COMBAT_READY						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard.anim",				blend_in_time = 0.5
+COMBAT_READY						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Alt1.anim",			blend_in_time = 0.5		
+COMBAT_READY						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Alt2.anim",			blend_in_time = 0.5
+COMBAT_READY						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Alt3.anim",			blend_in_time = 0.5
+COMBAT_READY						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Alt4.anim",			blend_in_time = 0.5
+
+STAND_TRAINED_IDLE_1				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_1.anim",				blend_in_time = 0.25
+STAND_TRAINED_IDLE_1				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_1_Alt1.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_1				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_1_Alt2.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_1				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_1_Alt3.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_1				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_1_Alt4.anim",			blend_in_time = 0.25
+
+STAND_TRAINED_IDLE_2				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_2.anim",				blend_in_time = 0.25
+STAND_TRAINED_IDLE_2				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_2_Alt1.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_2				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_2_Alt2.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_2				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_2_Alt3.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_2				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_2_Alt4.anim",			blend_in_time = 0.25
+
+STAND_TRAINED_IDLE_3				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_3.anim",				blend_in_time = 0.25
+STAND_TRAINED_IDLE_3				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_3_Alt1.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_3				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_3_Alt2.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_3				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_3_Alt3.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_3				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_3_Alt4.anim",			blend_in_time = 0.25
+
+STAND_TRAINED_IDLE_4				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_4_Alt1.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_4				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_4_Alt2.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_4				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_4_Alt3.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_4				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_4_Alt4.anim",			blend_in_time = 0.25
+
+STAND_TRAINED_IDLE_5				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_5.anim",				blend_in_time = 0.25
+STAND_TRAINED_IDLE_5				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_5_Alt1.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_5				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_5_Alt2.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_5				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_5_Alt3.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_5				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_5_Alt4.anim",			blend_in_time = 0.25
+
+STAND_TRAINED_IDLE_6				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_5.anim",				blend_in_time = 0.25
+STAND_TRAINED_IDLE_6				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_5_Alt1.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_6				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_5_Alt2.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_6				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_5_Alt3.anim",			blend_in_time = 0.25
+STAND_TRAINED_IDLE_6				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_IDLE_5_Alt4.anim",			blend_in_time = 0.25
+
+// MOVEMENT WALKS  ----------------------------------------------------------------------------------------------------------------------------
+WALK_1								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Walk_100.anim",			blend_in_time = 0.5
+WALK_1								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Walk_100_Alt1.anim",		blend_in_time = 0.5
+WALK_1								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Walk_100_Alt2.anim",		blend_in_time = 0.5
+WALK_1								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Walk_100_Alt3.anim",		blend_in_time = 0.5
+WALK_1								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Walk_100_Alt4.anim",		blend_in_time = 0.5
+
+WALK_2								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Walk_127cm.anim",			blend_in_time = 0.5
+WALK_2								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Walk_127cm_Alt1.anim",	blend_in_time = 0.5
+WALK_2								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Walk_127cm_Alt2.anim",	blend_in_time = 0.5
+WALK_2								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Walk_127cm_Alt3.anim",	blend_in_time = 0.5
+WALK_2								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Walk_127cm_Alt4.anim",	blend_in_time = 0.5
+
+WALK_3								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Walk_173cm.anim",			blend_in_time = 0.5
+WALK_3								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Walk_173cm_Alt1.anim",	blend_in_time = 0.5
+WALK_3								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Walk_173cm_Alt2.anim",	blend_in_time = 0.5
+WALK_3								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Walk_173cm_Alt3.anim",	blend_in_time = 0.5
+WALK_3								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Walk_173cm_Alt4.anim",	blend_in_time = 0.5
+
+WALK_4								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Jog_219cm.anim",			blend_in_time = 0.5
+WALK_4								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Jog_219cm_Alt1.anim",		blend_in_time = 0.5
+WALK_4								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Jog_219cm_Alt2.anim",		blend_in_time = 0.5
+WALK_4								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Jog_219cm_Alt3.anim",		blend_in_time = 0.5
+WALK_4								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Jog_219cm_Alt4.anim",		blend_in_time = 0.5
+
+WALK_5								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Jog_313cm.anim",			blend_in_time = 0.5
+WALK_5								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Jog_313cm_Alt1.anim",		blend_in_time = 0.5
+WALK_5								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Jog_313cm_Alt2.anim",		blend_in_time = 0.5
+WALK_5								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Jog_313cm_Alt3.anim",		blend_in_time = 0.5
+WALK_5								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Jog_313cm_Alt4.anim",		blend_in_time = 0.5
+
+WALK_TRAINED_1						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Walk_T_100cm.anim",			blend_in_time = 0.5
+WALK_TRAINED_1						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Walk_T_100cm_Alt1.anim",	blend_in_time = 0.5
+WALK_TRAINED_1						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Walk_T_100cm_Alt2.anim",	blend_in_time = 0.5
+WALK_TRAINED_1						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Walk_T_100cm_Alt3.anim",	blend_in_time = 0.5
+WALK_TRAINED_1						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Walk_T_100cm_Alt4.anim",	blend_in_time = 0.5
+
+WALK_TRAINED_2						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Walk_T_127cm.anim",			blend_in_time = 0.5
+WALK_TRAINED_2						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Walk_T_127cm_Alt1.anim",	blend_in_time = 0.5
+WALK_TRAINED_2						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Walk_T_127cm_Alt2.anim",	blend_in_time = 0.5
+WALK_TRAINED_2						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Walk_T_127cm_Alt3.anim",	blend_in_time = 0.5
+WALK_TRAINED_2						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Walk_T_127cm_Alt4.anim",	blend_in_time = 0.5
+
+WALK_TRAINED_3						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Walk_T_173cm.anim",			blend_in_time = 0.5
+WALK_TRAINED_3						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Walk_T_173cm_Alt1.anim",	blend_in_time = 0.5
+WALK_TRAINED_3						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Walk_T_173cm_Alt2.anim",	blend_in_time = 0.5
+WALK_TRAINED_3						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Walk_T_173cm_Alt3.anim",	blend_in_time = 0.5
+WALK_TRAINED_3						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Walk_T_173cm_Alt4.anim",	blend_in_time = 0.5
+
+WALK_TRAINED_4						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Jog_T_219cm.anim",			blend_in_time = 0.5
+WALK_TRAINED_4						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Jog_T_219cm_Alt1.anim",		blend_in_time = 0.5
+WALK_TRAINED_4						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Jog_T_219cm_Alt2.anim",		blend_in_time = 0.5
+WALK_TRAINED_4						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Jog_T_219cm_Alt3.anim",		blend_in_time = 0.5
+WALK_TRAINED_4						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Jog_T_219cm_Alt4.anim",		blend_in_time = 0.5
+
+WALK_TRAINED_5						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Jog_T_313cm.anim",			blend_in_time = 0.5
+WALK_TRAINED_5						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Jog_T_313cm_Alt1.anim",		blend_in_time = 0.5
+WALK_TRAINED_5						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Jog_T_313cm_Alt2.anim",		blend_in_time = 0.5
+WALK_TRAINED_5						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Jog_T_313cm_Alt3.anim",		blend_in_time = 0.5
+WALK_TRAINED_5						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Jog_T_313cm_Alt4.anim",		blend_in_time = 0.5
+
+RUN_1								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Jog_313cm.anim",			blend_in_time = 0.5
+RUN_1								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Jog_313cm_Alt1.anim",		blend_in_time = 0.5
+RUN_1								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Jog_313cm_Alt2.anim",		blend_in_time = 0.5
+RUN_1								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Jog_313cm_Alt3.anim",		blend_in_time = 0.5
+RUN_1								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Jog_313cm_Alt4.anim",		blend_in_time = 0.5
+
+RUN_2								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Run_407cm.anim",			blend_in_time = 0.5
+RUN_2								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Run_407cm_Alt1.anim",		blend_in_time = 0.5
+RUN_2								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Run_407cm_Alt2.anim",		blend_in_time = 0.5
+RUN_2								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Run_407cm_Alt3.anim",		blend_in_time = 0.5
+RUN_2								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Run_407cm_Alt4.anim",		blend_in_time = 0.5
+
+RUN_3								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Run_456cm.anim",			blend_in_time = 0.5
+RUN_3								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Run_456cm_Alt1.anim",		blend_in_time = 0.5
+RUN_3								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Run_456cm_Alt2.anim",		blend_in_time = 0.5
+RUN_3								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Run_456cm_Alt3.anim",		blend_in_time = 0.5
+RUN_3								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Run_456cm_Alt4.anim",		blend_in_time = 0.5
+
+RUN_4								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Run_543cm.anim",			blend_in_time = 0.5
+RUN_4								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Run_543cm_Alt1.anim",		blend_in_time = 0.5
+RUN_4								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Run_543cm_Alt2.anim",		blend_in_time = 0.5
+RUN_4								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Run_543cm_Alt3.anim",		blend_in_time = 0.5
+RUN_4								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Run_543cm_Alt4.anim",		blend_in_time = 0.5
+
+RUN_5								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/SAB_Sprint_609cm.anim",		blend_in_time = 0.5
+RUN_5								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/Sab_Sprint_609cm_Alt1.anim",	blend_in_time = 0.5
+RUN_5								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/Sab_Sprint_609cm_Alt2.anim",	blend_in_time = 0.5
+RUN_5								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/Sab_Sprint_609cm_Alt3.anim",	blend_in_time = 0.5
+RUN_5								filename = "Animations/MEN/SABRE/SAB_IRREGULAR_LOCOMOTION/Sab_Sprint_609cm_Alt4.anim",	blend_in_time = 0.5
+
+RUN_TRAINED_1						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Jog_T_313cm.anim",			blend_in_time = 0.5
+RUN_TRAINED_1						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Jog_T_313cm_Alt1.anim",		blend_in_time = 0.5
+RUN_TRAINED_1						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Jog_T_313cm_Alt2.anim",		blend_in_time = 0.5
+RUN_TRAINED_1						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Jog_T_313cm_Alt3.anim",		blend_in_time = 0.5
+RUN_TRAINED_1						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Jog_T_313cm_Alt4.anim",		blend_in_time = 0.5
+
+RUN_TRAINED_2						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Run_T_407cm.anim",			blend_in_time = 0.5
+RUN_TRAINED_2						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Run_T_407cm_Alt1.anim",		blend_in_time = 0.5
+RUN_TRAINED_2						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Run_T_407cm_Alt2.anim",		blend_in_time = 0.5
+RUN_TRAINED_2						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Run_T_407cm_Alt3.anim",		blend_in_time = 0.5
+RUN_TRAINED_2						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Run_T_407cm_Alt4.anim",		blend_in_time = 0.5
+
+RUN_TRAINED_3						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Run_T_456cm.anim",			blend_in_time = 0.5
+RUN_TRAINED_3						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Run_T_456cm_Alt1.anim",		blend_in_time = 0.5
+RUN_TRAINED_3						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Run_T_456cm_Alt2.anim",		blend_in_time = 0.5
+RUN_TRAINED_3						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Run_T_456cm_Alt3.anim",		blend_in_time = 0.5
+RUN_TRAINED_3						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Run_T_456cm_Alt4.anim",		blend_in_time = 0.5
+
+RUN_TRAINED_4						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Run_T_543cm.anim",			blend_in_time = 0.5
+RUN_TRAINED_4						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Run_T_543cm_Alt1.anim",		blend_in_time = 0.5
+RUN_TRAINED_4						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Run_T_543cm_Alt2.anim",		blend_in_time = 0.5
+RUN_TRAINED_4						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Run_T_543cm_Alt3.anim",		blend_in_time = 0.5
+RUN_TRAINED_4						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Run_T_543cm_Alt4.anim",		blend_in_time = 0.5
+
+RUN_TRAINED_5						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/SAB_Sprint_T_609cm.anim",		blend_in_time = 0.5
+RUN_TRAINED_5						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/Sab_Sprint_T_609cm_Alt1.anim",	blend_in_time = 0.5
+RUN_TRAINED_5						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/Sab_Sprint_T_609cm_Alt2.anim",	blend_in_time = 0.5
+RUN_TRAINED_5						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/Sab_Sprint_T_609cm_Alt3.anim",	blend_in_time = 0.5
+RUN_TRAINED_5						filename = "Animations/MEN/SABRE/SAB_TRAINED_LOCOMOTION/Sab_Sprint_T_609cm_Alt4.anim",	blend_in_time = 0.5
+
+
+// STEP MOVEMENTS ----------------------------------------------------------------------------------------------------------------------------
+COMBAT_READY_ADVANCE				filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Advance.anim",		blend_in_time = 0.25
+COMBAT_READY_RETREAT				filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Retire.anim",			blend_in_time = 0.25
+COMBAT_READY_STEP_LEFT				filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Step_Left.anim",		blend_in_time = 0.25
+COMBAT_READY_STEP_RIGHT				filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Step_Right.anim",		blend_in_time = 0.25
+
+STEP_FORWARD						filename = "Animations/MEN/AXE/AXE_Stand_Irregular/Axe_Step_forward.anim",			blend_in_time = 0.25
+STEP_BACKWARD						filename = "Animations/MEN/AXE/AXE_Stand_Irregular/Axe_Step_back.anim",				blend_in_time = 0.25
+STEP_LEFT							filename = "Animations/MEN/AXE/AXE_Stand_Irregular/Axe_Step_left.anim",				blend_in_time = 0.25
+STEP_RIGHT							filename = "Animations/MEN/AXE/AXE_Stand_Irregular/Axe_Step_right.anim",			blend_in_time = 0.25
+
+STEP_FORWARD_TRAINED				filename = "Animations/MEN\SABRE\SAB_STAND_TRAINED/SAB_T_step_forward.anim",		blend_in_time = 0.25
+STEP_BACKWARD_TRAINED				filename = "Animations/MEN\SABRE\SAB_STAND_TRAINED/SAB_T_step_back.anim",			blend_in_time = 0.25
+STEP_LEFT_TRAINED					filename = "Animations/MEN\SABRE\SAB_STAND_TRAINED/SAB_T_step_left.anim",			blend_in_time = 0.25
+STEP_RIGHT_TRAINED					filename = "Animations/MEN\SABRE\SAB_STAND_TRAINED/SAB_T_step_right.anim",			blend_in_time = 0.25
+
+STEP_FORWARD_CROUCH					filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_STEP_BACK.anim",
+STEP_BACKWARD_CROUCH				filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_STEP_FORWARD.anim",
+STEP_LEFT_CROUCH					filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_STEP_LEFT.anim",
+STEP_RIGHT_CROUCH					filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_STEP_RIGHT.anim",
+
+
+
+CROSS_OBSTACLE_STAND_TO_STAND		filename = "Animations/MEN/SABRE/SAB_CLIMB/SAB_Climb_obsracle2.anim",	
+WALK_JUMP							filename = "Animations/MEN\SABRE/SAB_CLIMB/SAB_Walk_climb_obstacle1.anim",			blend_in_time = 0.5
+RUN_JUMP							filename = "Animations/MEN\SABRE/SAB_CLIMB/SAB_Run_climb_obstacle1.anim",			blend_in_time = 0.5				
+
+CHARGE								filename = "Animations/MEN/SABRE/SAB_CHARGE/SAB_Charge.anim",						blend_in_time = 0.5
+CHARGE								filename = "Animations/MEN/SABRE/SAB_CHARGE/SAB_Charge_alt1.anim",					blend_in_time = 0.5
+CHARGE								filename = "Animations/MEN/SABRE/SAB_CHARGE/SAB_Charge_alt2.anim",					blend_in_time = 0.5
+CHARGE								filename = "Animations/MEN/SABRE/SAB_CHARGE/SAB_Charge_alt3.anim",					blend_in_time = 0.5
+CHARGE								filename = "Animations/MEN/SABRE/SAB_CHARGE/SAB_Charge_alt4.anim",					blend_in_time = 0.5
+
+// TURN --------------------------------------------------------------------------------------------------------------------------------
+TURN_LEFT_45						filename = "Animations/MEN/AXE/AXE_STAND_Irregular/AXE_cw45.anim",							blend_in_time = 0.25
+TURN_RIGHT_45						filename = "Animations/MEN/AXE/AXE_STAND_Irregular/AXE_CW45.anim",							blend_in_time = 0.25
+TURN_LEFT_90						filename = "Animations/MEN/AXE/AXE_STAND_Irregular/AXE_ccw90.anim",							blend_in_time = 0.25
+TURN_RIGHT_90						filename = "Animations/MEN/AXE/AXE_STAND_Irregular/AXE_cw90.anim",							blend_in_time = 0.25
+TURN_LEFT_180						filename = "Animations/MEN/AXE/AXE_STAND_Irregular/AXE_cw180.anim",							blend_in_time = 0.25
+TURN_RIGHT_180						filename = "Animations/MEN/AXE/AXE_STAND_Irregular/Axe_ccw180.anim",		
+
+
+TURN_LEFT_TRAINED_45				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_cc45.anim",				blend_in_time = 0.25
+TURN_RIGHT_TRAINED_45				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_cw45.anim",				blend_in_time = 0.25
+TURN_LEFT_TRAINED_90				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_cc90.anim",				blend_in_time = 0.25
+TURN_RIGHT_TRAINED_90				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_cw90.anim",				blend_in_time = 0.25
+TURN_LEFT_TRAINED_180				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_cc45.anim",				blend_in_time = 0.25
+TURN_RIGHT_TRAINED_180				filename = "Animations/MEN/SABRE/SAB_STAND_TRAINED/SAB_T_cw180.anim",				blend_in_time = 0.25
+
+TURN_LEFT_CROUCH_45					filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CCW45.anim",
+TURN_RIGHT_CROUCH_45				filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CW45.anim",
+TURN_LEFT_CROUCH_90					filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CCW90.anim",
+TURN_RIGHT_CROUCH_90				filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CW90.anim",
+TURN_CROUCH_180						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_180.anim",
+
+COMBAT_READY_TURN_LEFT_45			filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_45_ccw.anim",			blend_in_time = 0.25
+COMBAT_READY_TURN_RIGHT_45			filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_45_cw.anim",			blend_in_time = 0.25
+COMBAT_READY_TURN_LEFT_90			filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGUARD_90_CCW.anim",			blend_in_time = 0.25
+COMBAT_READY_TURN_RIGHT_90			filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGUARD_90_CW.anim",			blend_in_time = 0.25
+COMBAT_READY_TURN_LEFT_180			filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGUARD_180ccw.anim",			blend_in_time = 0.25
+COMBAT_READY_TURN_RIGHT_180			filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_180cw.anim",			blend_in_time = 0.25
+
+TURN_LEFT_TO_WALK_45				filename = "Animations/MEN/SABRE/SAB_MGUARD_WALK/SAB_MGuard_ccw45_to_MGwalk.anim",
+TURN_RIGHT_TO_WALK_45				filename = "Animations/MEN/SABRE/SAB_MGUARD_WALK/SAB_MGuard_cw45_to_MGwalk.anim",
+TURN_LEFT_TO_WALK_90				filename = "Animations/MEN/SABRE/SAB_MGUARD_WALK/SAB_MGuard_ccw90_to_MGwalk.anim",
+TURN_RIGHT_TO_WALK_90				filename = "Animations/MEN/SABRE/SAB_MGUARD_WALK/SAB_MGuard_cw90_to_MGwalk.anim",
+TURN_LEFT_TO_WALK_180				filename = "Animations/MEN/SABRE/SAB_MGUARD_WALK/SAB_MG_ccw180_to_MGwalk.anim",
+TURN_RIGHT_TO_WALK_180				filename = "Animations/MEN/SABRE/SAB_MGUARD_WALK/SAB_MGuard_cw180_to_MGwalk.anim",
+
+TURN_LEFT_TO_WALK_TRAINED_45		filename = "Animations/MEN/SABRE/SAB_WALK/SAB_T_ccw45_to_walk.anim",				blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_TRAINED_45		filename = "Animations/MEN/SABRE/SAB_WALK/SAB_T_cw45_to_walk.anim",					blend_in_time = 0.25
+TURN_LEFT_TO_WALK_TRAINED_90		filename = "Animations/MEN/SABRE/SAB_WALK/SAB_T_cc90_to_walk.anim",					blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_TRAINED_90		filename = "Animations/MEN/SABRE/SAB_WALK/SAB_T_cw90_to_walk.anim",					blend_in_time = 0.25
+TURN_LEFT_TO_WALK_TRAINED_180		filename = "Animations/MEN/SABRE/SAB_WALK/SAB_T_ccw180_to_walk.anim",				blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_TRAINED_180		filename = "Animations/MEN/SABRE/SAB_WALK/SAB_T_cw_180_to_walk.anim",				blend_in_time = 0.25
+
+// TRANSITIONS --------------------------------------------------------------------------------------------------------------------------
+STAND_TO_WALK						filename = "Animations/MEN/SABRE/SAB_WALK/SAB_StandT_to_Walk.anim",
+STAND_TO_PRONE						filename = "Animations/MEN/SABRE/SAB_TAKING_COVER/SAB_StandT_to_Cover.anim",					
+
+STAND_TO_STAND_ALT_1				filename = "Animations/MEN/MUSKET/MUS_ALT_STAND1/MUS_stand_to_altstand1.anim",			
+STAND_TO_STAND_ALT_2				filename = "Animations/MEN/MUSKET/MUS_ALT_STAND2/MUS_stand_to_altstand2.anim",			
+STAND_TO_STAND_ALT_3				filename = "Animations/MEN/MUSKET/MUS_ALT_STAND3/MUS_stand_to_altstand3.anim",			
+
+
+STAND_TO_COMBAT_READY				filename = "Animations/MEN/SABRE/SAB_TRANSITIONS/SAB_Stand_to_MGuard.anim",			
+STAND_TRAINED_TO_COMBAT_READY		filename = "Animations/MEN/SABRE/SAB_TRANSITIONS/SAB_StandT_to_MGuard.anim",				
+COMBAT_READY_TO_STAND				filename = "Animations/MEN/SABRE/SAB_TRANSITIONS/SAB_MGuard_to_Stand.anim",					
+COMBAT_READY_TO_STAND_TRAINED		filename = "Animations/MEN/SABRE/SAB_TRANSITIONS/SAB_MGuard_to_StandT.anim",					
+
+COMBAT_READY_TO_COMBAT_READY_KNEEL	filename = "Animations/MEN/SABRE/SAB_TAKING_COVER/SAB_MGuard_to_Cover.anim",		blend_in_time = 0
+WALK_TO_STAND						filename = "Animations/MEN/AXE/AXE_Walk/Axe_walk_to_stand.anim",					blend_in_time = 0.25
+WALK_TO_RUN							filename = "Animations/MEN/AXE/AXE_Walk/Axe_walk_to_run.anim",						blend_in_time = 0.25
+RUN_TO_WALK							filename = "Animations/MEN/AXE/AXE_RUN_IR/Axe_run_to_walk.anim",					blend_in_time = 0.25
+
+COMBAT_READY_KNEEL_TO_COMBAT_READY	filename = "Animations/MEN/SABRE/SAB_TAKING_COVER/SAB_Cover_to_MGuard.anim",
+COMBAT_READY_KNEEL_TO_PRONE			filename = "Animations/MEN/AXE/AXE_Taking_Cover/Axe_cover.anim",
+
+PRONE								filename = "Animations/MEN/AXE/AXE_Taking_Cover/Axe_cover.anim",						
+PRONE_TO_STAND						filename = "Animations/MEN/AXE/AXE_Taking_Cover/Axe_cover_to_stand.anim",							
+PRONE_TO_COMBAT_READY_KNEEL			filename = "Animations/MEN/AXE/AXE_Taking_Cover/Axe_cover.anim",								
+
+
+
+CROUCH_TO_STAND						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TO_STAND.anim",
+STAND_TO_CROUCH						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_STAND_TO_CROUCH.anim",
+CROUCH_TO_KNEEL						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TO_COVER.anim",
+KNEEL_TO_CROUCH						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_COVER_TO_CROUCH.anim",
+
+CROUCH_TO_SNEAK						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TO_CRWALK.anim",
+SNEAK_TO_CROUCH						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CRWALK_TO_CROUCH.anim",
+TURN_LEFT_CROUCH_TO_WALK_180		filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_180_TO_WALK.anim",
+TURN_RIGHT_CROUCH_TO_WALK_180		filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_180_RIGHT_TO_WALK.anim",
+TURN_LEFT_CROUCH_TO_WALK_90			filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CCW90_TO_WALK.anim",
+TURN_RIGHT_CROUCH_TO_WALK_90		filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CW90_TO_WALK.anim",
+TURN_LEFT_CROUCH_TO_WALK_45			filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CCW45_TO_WALK.anim",
+TURN_RIGHT_CROUCH_TO_WALK_45		filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CW45_TO_WALK.anim",
+
+
+// COMBAT READY IDLES ---------------------------------------------------------------------------------------------------------------------------------
+
+COMBAT_IDLE_1						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Feint_1.anim",						blend_in_time = 0.25
+COMBAT_IDLE_2						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Feint_2.anim",						blend_in_time = 0.25
+COMBAT_IDLE_3						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Feint_3.anim",						blend_in_time = 0.25
+COMBAT_IDLE_4						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Feint_4.anim",						blend_in_time = 0.25
+COMBAT_IDLE_5						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGUARD_IDLE1.anim",						blend_in_time = 0.25
+COMBAT_IDLE_6						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGUARD_IDLE2.anim",						blend_in_time = 0.25
+COMBAT_IDLE_7						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGUARD_IDLE3.anim",						blend_in_time = 0.25
+COMBAT_IDLE_8						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGUARD_IDLE4.anim",						blend_in_time = 0.25
+COMBAT_IDLE_9						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGUARD_IDLE5.anim",						blend_in_time = 0.25
+COMBAT_IDLE_10						filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGUARD_IDLE6.anim",						blend_in_time = 0.25
+
+// SNEAK --------------------------------------------------------------------------------------------------------------------------------
+SNEAK								filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CRWALK.anim",
+
+									
+// KNEEL --------------------------------------------------------------------------------------------------------------------------------
+COMBAT_READY_KNEEL					filename = "Animations/MEN/AXE/AXE_Taking_Cover/Axe_cover.anim",
+
+// CROUCH -------------------------------------------------------------------------------------------------------------------------------
+CROUCH								filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH.anim",						blend_in_time = 0.5
+CROUCH								filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_ALT1.anim",					blend_in_time = 0.5
+CROUCH								filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_ALT2.anim",					blend_in_time = 0.5
+CROUCH								filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_ALT3.anim",					blend_in_time = 0.5
+CROUCH								filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_ALT4.anim",					blend_in_time = 0.5
+
+CROUCH_IDLE_1						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_IDLE_1.anim",				blend_in_time = 0.5
+CROUCH_IDLE_1						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_1_Alt1.anim",			blend_in_time = 0.5
+CROUCH_IDLE_1						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_1_Alt2.anim",			blend_in_time = 0.5
+CROUCH_IDLE_1						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_1_Alt3.anim",			blend_in_time = 0.5
+CROUCH_IDLE_1						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_1_Alt4.anim",			blend_in_time = 0.5
+
+CROUCH_IDLE_2						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_IDLE_2.anim",				blend_in_time = 0.5
+CROUCH_IDLE_2						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_2_Alt1.anim",			blend_in_time = 0.5
+CROUCH_IDLE_2						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_2_Alt2.anim",			blend_in_time = 0.5
+CROUCH_IDLE_2						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_2_Alt3.anim",			blend_in_time = 0.5
+CROUCH_IDLE_2						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_2_Alt4.anim",			blend_in_time = 0.5
+
+CROUCH_IDLE_3						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_IDLE_3.anim",				blend_in_time = 0.5
+CROUCH_IDLE_3						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_3_Alt1.anim",			blend_in_time = 0.5
+CROUCH_IDLE_3						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_3_Alt2.anim",			blend_in_time = 0.5
+CROUCH_IDLE_3						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_3_Alt3.anim",			blend_in_time = 0.5
+CROUCH_IDLE_3						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_3_Alt4.anim",			blend_in_time = 0.5
+
+CROUCH_IDLE_4						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_IDLE_4.anim",				blend_in_time = 0.5
+CROUCH_IDLE_4						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_4_Alt1.anim",			blend_in_time = 0.5
+CROUCH_IDLE_4						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_4_Alt2.anim",			blend_in_time = 0.5
+CROUCH_IDLE_4						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_4_Alt3.anim",			blend_in_time = 0.5
+CROUCH_IDLE_4						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_4_Alt4.anim",			blend_in_time = 0.5
+
+CROUCH_IDLE_5						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_IDLE_4.anim",				blend_in_time = 0.5
+CROUCH_IDLE_5						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_4_Alt1.anim",			blend_in_time = 0.5
+CROUCH_IDLE_5						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_4_Alt2.anim",			blend_in_time = 0.5
+CROUCH_IDLE_5						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_4_Alt3.anim",			blend_in_time = 0.5
+CROUCH_IDLE_5						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_Crouch_IDLE_4_Alt4.anim",			blend_in_time = 0.5
+
+// FALL ---------------------------------------------------------------------------------------------------------------------------------
+FALL_OVER_BACKWARDS					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FU_FALLDOWN_F1.anim",				blend_in_time = 0.25
+FALL_OVER_FORWARDS					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FD_FALLDOWN_B1.anim",				blend_in_time = 0.25
+FALL_OVER_LEFTSIDE					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FU_FALLDOWN_R1.anim",				blend_in_time = 0.25
+FALL_OVER_RIGHTSIDE					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FD_FALLDOWN_L1.anim",				blend_in_time = 0.25
+FACE_DOWN_GET_UP					filename = "Animations/MEN/SABRE/SAB_FACE_DOWN_GETUPS/SAB_FD_Get_Up_Slow.anim",		
+FACE_UP_GET_UP						filename = "Animations/MEN/SABRE/SAB_FACE_UP_GETUPS/SAB_FU_Get_Up_Slow.anim",
+LYING_DOWN_FACE_DOWN				filename = "Animations/MEN/AXE/AXE_FACE_DOWN_GETUPS/AXE_FD_Idle.anim",
+LYING_DOWN_FACE_UP					filename = "Animations/MEN/AXE/AXE_FACE_UP_GETUPS/AXE_FU_Idle.anim",
+
+
+// KNOCKBACK IMPACTS ---------------------------------------------------------------------------------------------------------------------------------
+KNOCKBACK_1							filename = "Animations/MEN/SABRE/SAB_IMPACTS/SAB_Impact_B1.anim",					
+KNOCKBACK_2							filename = "Animations/MEN/SABRE/SAB_IMPACTS/SAB_Impact_F1.anim",					
+KNOCKBACK_3							filename = "Animations/MEN/SABRE/SAB_IMPACTS/SAB_Impact_F2.anim",					
+KNOCKBACK_4							filename = "Animations/MEN/SABRE/SAB_IMPACTS/SAB_Impact_L1.anim",					
+KNOCKBACK_5							filename = "Animations/MEN/SABRE/SAB_IMPACTS/SAB_Impact_R1.anim",					
+
+// KNOCK DOWN ------------------------------------------------------------------------------------------------------------------------------------
+KNOCKDOWN_1							filename = "Animations/MEN/SABRE/SAB_KNOCKDOWN/SAB_KNOCKDOWN_B1.anim",				
+KNOCKDOWN_2							filename = "Animations/MEN/SABRE/SAB_KNOCKDOWN/SAB_KNOCKDOWN_F1.anim",				
+KNOCKDOWN_3							filename = "Animations/MEN/SABRE/SAB_KNOCKDOWN/SAB_KNOCKDOWN_L1.anim",				
+KNOCKDOWN_4							filename = "Animations/MEN/SABRE/SAB_KNOCKDOWN/SAB_KNOCKDOWN_R1.anim",				
+
+
+WOUNDED_FRONT_IDLE					filename = "Animations/MEN/AXE/AXE_FACE_DOWN_GETUPS/AXE_FD_Idle.anim",			primary_weapon = off, secondary_weapon = off, defensive = off
+WOUNDED_BACK_IDLE					filename = "Animations/MEN/AXE/AXE_FACE_UP_GETUPS/AXE_FU_Idle.anim",			primary_weapon = off, secondary_weapon = off, defensive = off
+
+// CLIMB --------------------------------------------------------------------------------------------------------------------------------
+CLIMB_UP_STAIRS						filename = "Animations/MEN/SABRE/SAB_STAIRS/SAB_Up_Stairs.anim",
+CLIMB_DOWN_STAIRS					filename = "Animations/MEN/SABRE/SAB_STAIRS/SAB_Down_Stairs.anim",
+
+// UNIQUE ACTIONS -----------------------------------------------------------------------------------------------------------------------
+SMASH_WINDOW						filename = "Animations/MEN/MUSKET/MUS_UNIQUE_ACTIONS/MUS_Window_Butt_Bash.anim",			

@@ -1,0 +1,12 @@
+version 1
+
+STAND						filename = "Animations/Engine/NavalCannon/naval_CANNON_anim_idle.anim"
+
+STEP_FORWARD				filename = "Animations/Engine/NavalCannon/naval_CANNON_anim_move_forward.anim",	blend_in_time = 0.25
+STEP_BACKWARD				filename = "Animations/Engine/NavalCannon/naval_CANNON_anim_move_forward.anim",	blend_in_time = 0.25
+
+TURN_LEFT_45				filename = "Animations/Engine/NavalCannon/naval_CANNON_anim_turn_left.anim",	blend_in_time = 0.25
+TURN_RIGHT_45				filename = "Animations/Engine/NavalCannon/naval_CANNON_anim_turn_right.anim",	blend_in_time = 0.25
+
+FIRE						filename = "Animations/Engine/NavalCannon/naval_CANNON_anim_fire.anim"
+RETURN_TO_FIRING_POSITION	filename = "Animations/Engine/NavalCannon/naval_CANNON_anim_finishfire.anim"

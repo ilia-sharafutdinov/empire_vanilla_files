@@ -1,0 +1,48 @@
+Marker name: sword_swoosh
+Position: 851 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 104 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 1 s 332 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 551 ms
+Type: Generic
+
+Marker name: bayonet_hit_flesh
+Position: 1 s 649 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 3 s 133 ms
+Type: Generic
+
+Marker name: axe_hit_flesh
+Position: 3 s 196 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 407 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 4 s 771 ms
+Type: Generic
+
+Marker name: sabre_hit_flesh
+Position: 4 s 832 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 5 s 70 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 5 s 870 ms
+Type: Generic
+

@@ -1,0 +1,96 @@
+version 1
+
+COMBAT_READY						filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard.anim",													primary_weapon = on
+COMBAT_READY_TO_STAND				filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_to_stand.anim",											primary_weapon = on
+COMBAT_READY_TO_STAND_TRAINED		filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_to_stand.anim",											primary_weapon = on
+COMBAT_READY_TO_COMBAT_READY_KNEEL	filename = "Animations/MEN/FLAG_BEARER/FLA_TAKING_COVER/FLA_Stand_to_Cover.anim",					 blend_in_time = 0,
+
+COMBAT_READY_TO_AIM					filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Stand_To_Pistol_Aim_M.anim",							blend_in_time = 0,		primary_weapon = on
+COMBAT_READY_TO_RELOAD_1			filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_HG_to_Reload_01.anim",								blend_in_time = 0,		primary_weapon = on
+COMBAT_READY_TO_RELOAD_2			filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_HG_to_Reload_02.anim",								blend_in_time = 0,		primary_weapon = on
+
+
+COMBAT_READY_ADVANCE				filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_advance.anim",					blend_in_time = 0.25,	primary_weapon = on
+COMBAT_READY_RETREAT				filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_retire.anim",					blend_in_time = 0.25,	primary_weapon = on
+COMBAT_READY_STEP_LEFT				filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_step_left.anim",					blend_in_time = 0.25,	primary_weapon = on
+COMBAT_READY_STEP_RIGHT				filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_step_right.anim",				blend_in_time = 0.25,	primary_weapon = on
+
+COMBAT_READY_TURN_LEFT_45			filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_turn_ccw45.anim",				blend_in_time = 0.25,	primary_weapon = on
+COMBAT_READY_TURN_RIGHT_45			filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_turn_cw45.anim",					blend_in_time = 0.25,	primary_weapon = on
+COMBAT_READY_TURN_LEFT_90			filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_turn_ccw90.anim",				blend_in_time = 0.25,	primary_weapon = on
+COMBAT_READY_TURN_RIGHT_90			filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_turn_cw90.anim",					blend_in_time = 0.25,	primary_weapon = on
+COMBAT_READY_TURN_LEFT_180			filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_turn_cw180.anim",				blend_in_time = 0.25,	primary_weapon = on
+
+
+COMBAT_READY_KNEEL					filename = "Animations/MEN/FLAG_BEARER/FLA_TAKING_COVER/FLA_Cover.anim",						                            
+COMBAT_READY_KNEEL_TO_COMBAT_READY	filename = "Animations/MEN/FLAG_BEARER/FLA_TAKING_COVER/Fla_Cover_to_Stand.anim", 
+COMBAT_READY_KNEEL_TO_PRONE			filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_GKnee_to_prone.anim",
+COMBAT_READY_KNEEL_TO_KNEEL_AIM		filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_GKneel_to_Mpoise.anim",
+COMBAT_READY_KNEEL_TO_KNEEL_RELOAD	filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Gkneel_to_Kreload_01.anim",
+
+
+// MATCHED COMBAT
+// FLAG KILLS  FLAG ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+COMBAT_1							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_FLA-MG_01_A.anim",						blend_in_time = 0.25,	primary_weapon = on
+COMBAT_2							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_FLA-MG_01_B.anim",						blend_in_time = 0.25,	primary_weapon = on
+
+COMBAT_3							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_02_FLA-MG_01_A.anim",						blend_in_time = 0.25,	primary_weapon = on
+COMBAT_4							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_02_FLA-MG_01_B.anim",						blend_in_time = 0.25,	primary_weapon = on
+
+COMBAT_5							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_03_FLA-MG_01_A.anim",						blend_in_time = 0.25,	primary_weapon = on
+COMBAT_6							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_03_FLA-MG_01_B.anim",						blend_in_time = 0.25,	primary_weapon = on
+
+COMBAT_7							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_04_FLA-MG_01_A.anim",						blend_in_time = 0.25,	primary_weapon = on
+COMBAT_8							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_04_FLA-MG_01_B.anim",						blend_in_time = 0.25,	primary_weapon = on
+
+// FLAG KILLS AXE -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+COMBAT_9							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_AXE-OG_01_B.anim",						blend_in_time = 0.25,	primary_weapon = on
+
+// FLAG KILLS MUSKET --------------------------------------------------------------------------------------------------------------------------------------------------------------
+COMBAT_10							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_MUS-HG_01_A.anim",						blend_in_time = 0.25,	primary_weapon = on
+
+// FLAG KILLS SABRE ---------------------------------------------------------------------------------------------------------------------------------------------------------------
+COMBAT_11							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_SAB-MG_01_A.anim",						blend_in_time = 0.25,	primary_weapon = on
+
+// FLAG KILLS SWORD AND SHIELD ----------------------------------------------------------------------------------------------------------------------------------------------------
+COMBAT_12							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_SWS-OG_01_A.anim",						blend_in_time = 0.25,	primary_weapon = on
+
+COMBAT_13							filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_FLA-MG_01_B.anim",						blend_in_time = 0.25,	primary_weapon = on
+COMBAT_14							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_FLA-MG_01_B.anim",						blend_in_time = 0.25,	primary_weapon = on
+
+COMBAT_15							filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_FLA-MG_01_B.anim",						blend_in_time = 0.25,	primary_weapon = on
+COMBAT_16							filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_FLA-HG_01_B.anim",						blend_in_time = 0.25,	primary_weapon = on
+
+
+// FLAG DRAWS WITH AXE -------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+COMBAT_17   						filename = "Animations/Matched_Combat/Draw/FLA-MG_AXE-OG_01_A.anim",								blend_in_time = 0.25,	primary_weapon = on
+COMBAT_18   						filename = "Animations/Matched_Combat/Draw/FLA-MG_AXE-OG_03_A.anim",								blend_in_time = 0.25,	primary_weapon = on
+
+COMBAT_19   						filename = "Animations/Matched_Combat/Draw/FLAG-MG_FLAG-MG_01_A.anim",								blend_in_time = 0.25,	primary_weapon = on
+COMBAT_20							filename = "Animations/Matched_Combat/Draw/FLAG-MG_FLAG-MG_01_B.anim",								blend_in_time = 0.25,	primary_weapon = on
+
+
+// FLAG DRAWS WITH MUSKET ---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+COMBAT_21	  						filename = "Animations/Matched_Combat/Draw/MUS-HG_FLA-MG_04_B.anim",								blend_in_time = 0.25,	primary_weapon = on
+COMBAT_22							filename = "Animations/Matched_Combat/Draw/MUS-HG_FLA-MG_07_B.anim",								blend_in_time = 0.25,	primary_weapon = on
+
+
+// FLAG DRAWS WITH SABRE ------------------------------------------------------------------------------------------------------------------------------------------------------
+COMBAT_23							filename = "Animations/Matched_Combat/Draw/SAB-MG_FLAG-MG_01_B.anim",								blend_in_time = 0.25,	primary_weapon = on
+COMBAT_24							filename = "Animations/Matched_Combat/Draw/SAB-MG_FLAG-MG_02_B.anim",								blend_in_time = 0.25,	primary_weapon = on
+COMBAT_25							filename = "Animations/Matched_Combat/Draw/SAB-MG_FLAG-MG_03_B.anim",								blend_in_time = 0.25,	primary_weapon = on
+
+
+
+ATTACK_1							filename = "Animations/MEN/FLAG_BEARER/FLA_SLASH_KILLS/FLA_MG_SLASH_KILL_01.anim",											primary_weapon = on		equipment_usage = sword
+ATTACK_2							filename = "Animations/MEN/FLAG_BEARER/FLA_SLASH_KILLS/FLA_MG_SLASH_KILL_02.anim",											primary_weapon = on		equipment_usage = sword
+ATTACK_3							filename = "Animations/MEN/FLAG_BEARER/FLA_SLASH_KILLS/FLA_MG_SLASH_KILL_03.anim",											primary_weapon = on		equipment_usage = sword
+ATTACK_4							filename = "Animations/MEN/FLAG_BEARER/FLA_SLASH_KILLS/FLA_MG_SLASH_KILL_03.anim",											primary_weapon = on		equipment_usage = sword
+ATTACK_5							filename = "Animations/MEN/FLAG_BEARER/FLA_STAB_KILLS/FLA_MG_STAB_KILL_01.anim",											primary_weapon = on		equipment_usage = sword
+ATTACK_6							filename = "Animations/MEN/FLAG_BEARER/FLA_STAB_KILLS/FLA_MG_STAB_KILL_02.anim",											primary_weapon = on		equipment_usage = sword
+ATTACK_7							filename = "Animations/MEN/FLAG_BEARER/FLA_STAB_KILLS/FLA_MG_STAB_KILL_03.anim",											primary_weapon = on		equipment_usage = sword
+
+DEFEND_1							filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_High_Block.anim",										primary_weapon = on		equipment_usage = sword			

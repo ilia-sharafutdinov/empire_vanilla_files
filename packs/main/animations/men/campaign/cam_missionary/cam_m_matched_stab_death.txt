@@ -1,0 +1,40 @@
+Marker name: FOOTSTEP_walk
+Position: 757 ms
+Type: Generic
+
+Marker name: human_foley_medium
+Position: 1 s 102 ms
+Type: Generic
+
+Marker name: pike_impact_ground
+Position: 1 s 150 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 236 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 563 ms
+Type: Generic
+
+Marker name: bodyfall_light
+Position: 3 s 33 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 3 s 164 ms
+Type: Generic
+
+Marker name: Bodyfall_Heavy
+Position: 3 s 574 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 3 s 935 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 4 s 411 ms
+Type: Generic
+

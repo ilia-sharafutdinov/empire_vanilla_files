@@ -1,0 +1,28 @@
+Marker name: footstep_walk
+Position: 830 ms
+Type: Generic
+
+Marker name: horse_cheval
+Position: 1 s 350 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 1 s 483 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 1 s 550 ms
+Type: Generic
+
+Marker name: footstep_turn
+Position: 1 s 609 ms
+Type: Generic
+
+Marker name: bodyfall_heavy
+Position: 1 s 713 ms
+Type: Generic
+
+Marker name: bodyfall_light
+Position: 2 s 944 ms
+Type: Generic
+

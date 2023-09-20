@@ -1,0 +1,8 @@
+Marker name: human_foley_medium
+Position: 190 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 222 ms
+Type: Generic
+

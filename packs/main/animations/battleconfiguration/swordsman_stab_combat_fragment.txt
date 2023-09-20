@@ -1,0 +1,95 @@
+version 1
+
+ATTACK_1							filename = "Animations/MEN/SABRE/SAB_MG_STAB_KILLS/SAB_MG_STAB_KILL_01.anim",								equipment_usage = sword			
+
+DEFEND_1							filename = "Animations/MEN/SABRE/SAB_MEDIUM_GUARDS/SAB_MGuard_Block.anim",									equipment_usage = sword
+
+// MATCHED COMBAT ------------------------------------------------------------------------------------------------------------------------
+COMBAT_1							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_01_SAB-MG_01_A.anim",		blend_in_time = 0.25
+COMBAT_2							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_01_SAB-MG_01_B.anim",		blend_in_time = 0.25
+
+COMBAT_3							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_02_SAB-MG_01_A.anim",		blend_in_time = 0.25
+COMBAT_4							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_02_SAB-MG_01_B.anim",		blend_in_time = 0.25
+
+COMBAT_5							filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_AXE-OG_01_A.anim",		blend_in_time = 0.25
+COMBAT_6							filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_02_AXE-OG_01_A.anim",		blend_in_time = 0.25
+COMBAT_7							filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_03_AXE-OG_01_A.anim",		blend_in_time = 0.25
+COMBAT_8							filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_04_AXE-OG_01_A.anim",		blend_in_time = 0.25
+COMBAT_9							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_01_MUS-HG_01_A.anim",		blend_in_time = 0.25
+COMBAT_10							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_02_MUS-HG_01_A.anim",		blend_in_time = 0.25
+COMBAT_11							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_03_MUS-HG_01_A.anim",		blend_in_time = 0.25
+COMBAT_12							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_04_MUS-HG_01_A.anim",		blend_in_time = 0.25
+COMBAT_13							filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_SWS-OG_01_A.anim",		blend_in_time = 0.25
+COMBAT_14							filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_SAB-MG_01_B.anim",		blend_in_time = 0.25
+COMBAT_15							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_SAB-MG_01_B.anim",		blend_in_time = 0.25
+COMBAT_16							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_02_SAB-MG_01_B.anim",		blend_in_time = 0.25
+COMBAT_17							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_03_SAB-MG_01_B.anim",		blend_in_time = 0.25
+COMBAT_18							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_04_SAB-MG_01_B.anim",		blend_in_time = 0.25
+COMBAT_19							filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_FLA-MG_01_A.anim",		blend_in_time = 0.25
+COMBAT_20							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_SAB-MG_01_B.anim",		blend_in_time = 0.25
+COMBAT_21							filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_SAB-HG_01_B.anim",		blend_in_time = 0.25
+
+COMBAT_22							filename = "Animations/Matched_Combat/Parry/SAB_MG_TO_PARRY_01_A.anim",				blend_in_time = 0.25
+COMBAT_23							filename = "Animations/Matched_Combat/Parry/SAB_MG_TO_PARRY_01_B.anim",				blend_in_time = 0.25
+
+COMBAT_24							filename = "Animations/Matched_Combat/Parry/SAB_MG_PARRY_TO_MG_01_A.anim",			blend_in_time = 0.25
+COMBAT_25							filename = "Animations/Matched_Combat/Parry/SAB_MG_PARRY_TO_MG_01_B.anim",			blend_in_time = 0.25
+
+COMBAT_26							filename = "Animations/Matched_Combat/Parry/SAB_MG_PARRY_01_A.anim",				blend_in_time = 0.25
+COMBAT_27							filename = "Animations/Matched_Combat/Parry/SAB_MG_PARRY_01_B.anim",				blend_in_time = 0.25
+
+COMBAT_28   						filename = "Animations/Matched_Combat/Draw/SAB-MG_AXE-OG_01_B.anim",				blend_in_time = 0.25
+COMBAT_29   						filename = "Animations/Matched_Combat/Draw/SAB-MG_AXE-OG_02_B.anim",				blend_in_time = 0.25
+COMBAT_30   						filename = "Animations/Matched_Combat/Draw/SAB-MG_AXE-OG_03_A.anim",				blend_in_time = 0.25
+
+COMBAT_31   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_01_A.anim",				blend_in_time = 0.25
+COMBAT_32   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_01_B.anim",				blend_in_time = 0.25
+
+COMBAT_33   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_02_A.anim",				blend_in_time = 0.25
+COMBAT_34   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_02_B.anim",				blend_in_time = 0.25
+                                                                                                                                         
+COMBAT_35   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_03_A.anim",				blend_in_time = 0.25
+COMBAT_36							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_03_B.anim",				blend_in_time = 0.25
+
+COMBAT_37   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_04_A.anim",				blend_in_time = 0.25
+COMBAT_38							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_04_B.anim",				blend_in_time = 0.25
+
+COMBAT_39   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_05_A.anim",				blend_in_time = 0.25
+COMBAT_40							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_05_B.anim",				blend_in_time = 0.25
+
+COMBAT_41	  						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_06_A.anim",				blend_in_time = 0.25
+COMBAT_42							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_06_B.anim",				blend_in_time = 0.25
+
+COMBAT_43   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_07_A.anim",				blend_in_time = 0.25
+COMBAT_44							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_07_B.anim",				blend_in_time = 0.25
+
+COMBAT_45   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_08_A.anim",				blend_in_time = 0.25
+COMBAT_46							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_08_B.anim",				blend_in_time = 0.25
+
+COMBAT_47   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_09_A.anim",				blend_in_time = 0.25
+COMBAT_48							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_09_B.anim",				blend_in_time = 0.25
+
+COMBAT_49   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_10_A.anim",				blend_in_time = 0.25
+COMBAT_50							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_10_B.anim",				blend_in_time = 0.25
+
+COMBAT_51	  						filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_11_A.anim",				blend_in_time = 0.25
+COMBAT_52							filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_11_B.anim",				blend_in_time = 0.25
+
+COMBAT_53							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_01_B.anim",				blend_in_time = 0.25
+COMBAT_54							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_02_B.anim",				blend_in_time = 0.25
+COMBAT_55							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_03_B.anim",				blend_in_time = 0.25
+COMBAT_56							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_04_B.anim",				blend_in_time = 0.25
+COMBAT_57							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_05_B.anim",				blend_in_time = 0.25
+COMBAT_58							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_06_B.anim",				blend_in_time = 0.25
+COMBAT_59							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_07_B.anim",				blend_in_time = 0.25
+COMBAT_60							filename = "Animations/Matched_Combat/Draw/SAB-MG_FLAG-MG_01_A.anim",				blend_in_time = 0.25
+COMBAT_61							filename = "Animations/Matched_Combat/Draw/SAB-MG_FLAG-MG_02_A.anim",				blend_in_time = 0.25
+COMBAT_62							filename = "Animations/Matched_Combat/Draw/SAB-MG_FLAG-MG_03_A.anim",				blend_in_time = 0.25
+COMBAT_63							filename = "Animations/Matched_Combat/Draw/SAB-MG_SWS-OG_01_A.anim",				blend_in_time = 0.25
+COMBAT_64							filename = "Animations/Matched_Combat/Draw/SAB-MG_SWS-OG_02_A.anim",				blend_in_time = 0.25
+
+CHARGE_COMBAT_1						filename = "Animations/Matched_Combat/Kill/SAB-CH_KILL_01_SAB-MG_01_A.anim",		blend_in_time = 0.25
+CHARGE_COMBAT_2						filename = "Animations/Matched_Combat/Kill/SAB-CH_KILL_01_SAB-MG_01_B.anim",		blend_in_time = 0.25
+
+CHARGE_COMBAT_3						filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_SAB-CH_01_A.anim",		blend_in_time = 0.25
+CHARGE_COMBAT_4						filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_SAB-CH_01_B.anim",		blend_in_time = 0.25

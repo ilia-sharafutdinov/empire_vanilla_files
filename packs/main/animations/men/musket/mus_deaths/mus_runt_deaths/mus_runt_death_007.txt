@@ -1,0 +1,24 @@
+Marker name: footstep_run
+Position: 194 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 314 ms
+Type: Generic
+
+Marker name: bodyfall_heavy
+Position: 754 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 865 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 1 s 227 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 1 s 368 ms
+Type: Generic
+

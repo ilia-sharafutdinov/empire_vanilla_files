@@ -1,0 +1,20 @@
+Marker name: FOOTSTEP_RUN
+Position: 67 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 183 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 254 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 781 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 1 s 565 ms
+Type: Generic
+

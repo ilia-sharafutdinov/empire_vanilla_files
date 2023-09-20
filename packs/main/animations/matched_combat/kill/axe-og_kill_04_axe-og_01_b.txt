@@ -1,0 +1,52 @@
+Marker name: FOOTSTEP_TURN
+Position: 361 ms
+Type: Generic
+
+Marker name: axe_hit_flesh
+Position: 604 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 787 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 807 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 124 ms
+Type: Generic
+
+Marker name: bayonet_hit_flesh
+Position: 1 s 183 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 1 s 324 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 581 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 806 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 2 s 20 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 2 s 159 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 2 s 368 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 2 s 617 ms
+Type: Generic
+

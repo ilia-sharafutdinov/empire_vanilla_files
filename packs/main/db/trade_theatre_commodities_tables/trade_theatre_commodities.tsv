@@ -1,0 +1,6 @@
+theatre	commodity	base_quantity	percentage_increase_per_agent	maximum_percentage_increase
+#trade_theatre_commodities_tables;0;db/trade_theatre_commodities_tables/trade_theatre_commodities				
+-1133129049	res_spices	20	0.8500	100.0000
+836795134	res_ivory	20	0.7500	100.0000
+1197997136	res_sugar	20	0.7000	100.0000
+2113354257	res_ivory	20	0.6500	100.0000

@@ -1,0 +1,47 @@
+key	tech_category_tab	tech_category_position	chain_category
+#building_chains_tables;0;db/building_chains_tables/building_chains			
+army-admin	military	0	military
+coffee			money
+corn	industry	0	agriculture
+cotton			money
+culture			happiness
+education	enlightenment	0	research
+fort			military
+furs			money
+gems			money
+gold			money
+government			government
+government_minor			government
+happiness			happiness
+industry-metal	industry	1	money
+industry-pottery			money
+industry-textile	industry	2	money
+iron			money
+navy-admin	military	2	military
+ordnance	military	1	military
+port-fish			agriculture
+port-navy			military
+port-trade			money
+rel_catholic			happiness
+rel_hindu			happiness
+rel_islam			happiness
+rel_orthodox			happiness
+rel_protestant			happiness
+rice	industry	0	agriculture
+roads			money
+settlement_fortifications			military
+sheep	industry	0	agriculture
+silver			money
+spices			money
+sugar			money
+tea			money
+timber			money
+tobacco			money
+tribal_barracks			military
+tribal_corn			agriculture
+tribal_culture			happiness
+tribal_government			government
+tribal_happiness			happiness
+tribal_wheat			agriculture
+wheat	industry	0	agriculture
+wine			agriculture

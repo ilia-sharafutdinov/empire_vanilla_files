@@ -1,0 +1,28 @@
+Marker name: Equipment_Rattle
+Position: 475 ms
+Type: Generic
+
+Marker name: Hand_Grab
+Position: 938 ms
+Type: Generic
+
+Marker name: Hand_Grab
+Position: 1 s 827 ms
+Type: Generic
+
+Marker name: Bodyfall_Light
+Position: 1 s 944 ms
+Type: Generic
+
+Marker name: Bodyfall_Heavy
+Position: 2 s 267 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 2 s 383 ms
+Type: Generic
+
+Marker name: Hand_Grab
+Position: 2 s 566 ms
+Type: Generic
+

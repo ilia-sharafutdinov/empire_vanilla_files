@@ -1,0 +1,28 @@
+Marker name: FOOTSTEP_WALK
+Position: 486 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 938 ms
+Type: Generic
+
+Marker name: human_foley_medium
+Position: 1 s 338 ms
+Type: Generic
+
+Marker name: musket_powder_pour
+Position: 2 s 507 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 3 s 750 ms
+Type: Generic
+
+Marker name: musket_impact_ground
+Position: 4 s 370 ms
+Type: Generic
+
+Marker name: bayonet_impact_wooden_haft_weapon
+Position: 4 s 908 ms
+Type: Generic
+

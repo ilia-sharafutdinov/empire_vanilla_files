@@ -1,0 +1,28 @@
+Marker name: bayonet_impact_wooden_haft_weapon
+Position: 661 ms
+Type: Generic
+
+Marker name: Footstep_run
+Position: 771 ms
+Type: Generic
+
+Marker name: bayonet_impact_wooden_haft_weapon
+Position: 1 s 235 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 435 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 820 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 942 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 2 s 294 ms
+Type: Generic
+

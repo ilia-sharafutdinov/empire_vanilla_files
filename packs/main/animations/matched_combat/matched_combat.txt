@@ -1,0 +1,812 @@
+version 1
+
+// AXE KILLS --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+matched_combat 
+{
+	entry alliance = 0, start = charging,		end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/AXE-CH_KILL_01_AXE-OG_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/AXE-CH_KILL_01_AXE-OG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_AXE-CH_01_A.anim"		   
+	entry alliance = 0, start = charging,		end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_AXE-CH_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_AXE-OG_01_A.anim"		   
+	entry alliance = 0, start = combat_ready,	end = dead,			equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_AXE-OG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_03_AXE-OG_01_A.anim"		   
+	entry alliance = 0, start = combat_ready,	end = dead,			equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_03_AXE-OG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_04_AXE-OG_01_A.anim"		   
+	entry alliance = 0, start = combat_ready,	end = dead,			equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_04_AXE-OG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_FLA-MG_01_A.anim"		   
+	entry alliance = 0, start = combat_ready,	end = dead,			equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_FLA-MG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_MUS-HG_01_A.anim"		   
+	entry alliance = 0, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_MUS-HG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_SAB-MG_01_A.anim"		   
+	entry alliance = 0, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_SAB-MG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_SWS-OG_01_A.anim"		   
+	entry alliance = 0, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_SWS-OG_01_B.anim"		   
+}
+
+
+// AXE DRAWS ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/AXE-OG_DRAW_01_AXE-OG_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/AXE-OG_DRAW_01_AXE-OG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/AXE-OG_DRAW_02_AXE-OG_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/AXE-OG_DRAW_02_AXE-OG_01_B.anim"		   
+}
+
+
+// MUSKET KILLS --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+matched_combat 
+{
+	entry alliance = 0, start = charging,		end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-CH_KILL_01_MUS-HG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/MUS-CH_KILL_01_MUS-HG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS-CG_01_A.anim"
+	entry alliance = 1, start = charging,		end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS-CG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS_HG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS_HG_01_B.anim"
+}
+
+matched_combat
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS_HG_02_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS_HG_02_B.anim"
+}
+
+matched_combat
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS-HG_03_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS-HG_03_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_02_MUS_HG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_02_MUS_HG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_02_MUS-HG_02_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_02_MUS-HG_02_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_03_MUS_HG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_03_MUS_HG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_03_MUS-HG_02_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_03_MUS-HG_02_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_04_MUS_HG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_04_MUS_HG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_04_MUS-HG_02_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_04_MUS-HG_02_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_05_MUS-HG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_05_MUS-HG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_06_MUS-HG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_06_MUS-HG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_SAB-MG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_SAB-MG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_02_SAB-MG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_02_SAB-MG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_03_SAB-MG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_03_SAB-MG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle_bayonet,	filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_04_SAB-MG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_04_SAB-MG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_FLA-MG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_FLA-MG_01_B.anim"
+}
+
+
+// PARRYS ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = parry_a,		equipment_usage = rifle,			filename = "Animations/Matched_Combat/Parry/MUS_HG_TO_PARRY_01_A.anim"	   
+	entry alliance = 1, start = combat_ready,	end = parry_b,		equipment_usage = rifle,			filename = "Animations/Matched_Combat/Parry/MUS_HG_TO_PARRY_01_B.anim"	   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = parry_a,		end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_TO_HG_01_A.anim"  
+	entry alliance = 1, start = parry_b,		end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_TO_HG_01_B.anim"  
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = parry_a,		end = parry_a,		equipment_usage = rifle,			filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_01_A.anim"		   
+	entry alliance = 1, start = parry_b,		end = parry_b,		equipment_usage = rifle,			filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = parry_a,		end = parry_a,		equipment_usage = rifle,			filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_02_A.anim"		   
+	entry alliance = 1, start = parry_b,		end = parry_b,		equipment_usage = rifle,			filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_02_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = parry_a,		end = parry_a,		equipment_usage = rifle,			filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_03_A.anim"		   
+	entry alliance = 1, start = parry_b,		end = parry_b,		equipment_usage = rifle,			filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_03_B.anim"		   
+}
+
+// MUSKET DRAWS ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_02_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_02_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_03_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_03_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_04_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_04_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_05_MUS-HG_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_05_MUS-HG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_06_MUS-HG_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_06_MUS-HG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_07_MUS-HG_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_07_MUS-HG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_08_MUS-HG_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_08_MUS-HG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_09_MUS-HG_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_09_MUS-HG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_02_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_02_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_03_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_03_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_04_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_04_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_05_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_05_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_06_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_06_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_07_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_07_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_08_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_08_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/FLA-MG_AXE-OG_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/FLA-MG_AXE-OG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/FLA-MG_AXE-OG_03_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/FLA-MG_AXE-OG_03_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_10_MUS-HG_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_10_MUS-HG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_02_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_02_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_03_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_03_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_04_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_04_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_05_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_05_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_06_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_06_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_07_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_07_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = charging,		end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-CG_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-CG_01_B.anim"	
+}
+	
+
+
+// MUSKET VERSUS FLAG DRAW --------------------------------------------------------------------------------------------------------------------------------------------------	
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_FLA-MG_04_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/MUS-HG_FLA-MG_04_B.anim"	
+}	
+	
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/MUS-HG_FLA-MG_07_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/MUS-HG_FLA-MG_07_B.anim"	
+}			
+
+// SABRE KILLS ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_AXE-OG_01_A.anim"	
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_AXE-OG_01_B.anim"
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_02_AXE-OG_01_A.anim"	
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_02_AXE-OG_01_B.anim"
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_03_AXE-OG_01_A.anim"	
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_03_AXE-OG_01_B.anim"
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_04_AXE-OG_01_A.anim"	
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_04_AXE-OG_01_B.anim"
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_01_MUS-HG_01_A.anim"	
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_01_MUS-HG_01_B.anim"
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_02_MUS-HG_01_A.anim"	
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_02_MUS-HG_01_B.anim"
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_03_MUS-HG_01_A.anim"	
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_03_MUS-HG_01_B.anim"
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_04_MUS-HG_01_A.anim"	
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_04_MUS-HG_01_B.anim"
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_FLA-MG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_FLA-MG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_01_SAB-MG_01_A.anim"	
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_01_SAB-MG_01_B.anim"
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_02_SAB-MG_01_A.anim"	
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_02_SAB-MG_01_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_SWS-OG_01_A.anim"	
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_SWS-OG_01_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = charging,		end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-CH_KILL_01_SAB-MG_01_A.anim"	
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-CH_KILL_01_SAB-MG_01_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_SAB-CH_01_A.anim"	
+	entry alliance = 1, start = charging,		end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_SAB-CH_01_B.anim"	
+}			
+
+// SWORD PARRYS --------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = parry_a,		equipment_usage = sword,			filename = "Animations/Matched_Combat/Parry/SAB_MG_TO_PARRY_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = parry_b,		equipment_usage = sword,			filename = "Animations/Matched_Combat/Parry/SAB_MG_TO_PARRY_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = parry_a,		end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Parry/SAB_MG_PARRY_TO_MG_01_A.anim"		   
+	entry alliance = 1, start = parry_b,		end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Parry/SAB_MG_PARRY_TO_MG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = parry_a,		end = parry_a,		equipment_usage = sword,			filename = "Animations/Matched_Combat/Parry/SAB_MG_PARRY_01_A.anim"		   
+	entry alliance = 1, start = parry_b,		end = parry_b,		equipment_usage = sword,			filename = "Animations/Matched_Combat/Parry/SAB_MG_PARRY_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/SAB-MG_AXE-OG_01_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_AXE-OG_01_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/SAB-MG_AXE-OG_02_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_AXE-OG_02_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_AXE-OG_03_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = axe,				filename = "Animations/Matched_Combat/Draw/SAB-MG_AXE-OG_03_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_01_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_01_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_02_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_02_B.anim"	
+}			
+
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_03_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_03_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_04_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_04_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_05_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_05_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_06_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_06_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_07_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_07_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_08_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_08_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_09_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_09_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_10_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_10_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_11_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SAB-MG_11_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_FLAG-MG_01_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_FLAG-MG_01_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_FLAG-MG_02_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_FLAG-MG_02_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_FLAG-MG_03_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_FLAG-MG_03_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_AXE-OG_01_A.anim"
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_AXE-OG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_FLA-MG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_FLA-MG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_02_FLA-MG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_02_FLA-MG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_03_FLA-MG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_03_FLA-MG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_04_FLA-MG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_04_FLA-MG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_MUS-HG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_MUS-HG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_SAB-MG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_SAB-MG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_SWS-OG_01_A.anim"
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_SWS-OG_01_B.anim"
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/FLAG-MG_FLAG-MG_01_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/FLAG-MG_FLAG-MG_01_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_AXE-OG_01_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = axe,				filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_AXE-OG_01_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_FLA-HG_01_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_FLA-HG_01_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SWS-OG_01_KILL_MUS-HG_02_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = rifle,			filename = "Animations/Matched_Combat/Kill/SWS-OG_01_KILL_MUS-HG_02_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_SAB-HG_01_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_SAB-HG_01_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_SWS-OG_01_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_SWS-OG_01_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_02_SWS-OG_01_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_02_SWS-OG_01_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = charging,		end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SWS-CH_KILL_01_SWS-OG_01_A.anim"		   
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/SWS-CH_KILL_01_SWS-OG_01_B.anim"		   
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SWS-OG_01_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SWS-OG_01_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SWS-OG_02_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SAB-MG_SWS-OG_02_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/SWS-OG_MUS-HG_01_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SWS-OG_MUS-HG_01_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/SWS-OG_MUS-HG_02_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SWS-OG_MUS-HG_02_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/SWS-OG_MUS-HG_03_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SWS-OG_MUS-HG_03_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_01_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_01_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_02_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_02_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_03_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_03_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_04_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_04_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_05_A.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_05_B.anim"	
+}			
+
+matched_combat 
+{
+	entry alliance = 0, start = standing,		end = standing,		equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/horse/HORSE-C_SAB_KILL_01_MUS-HG_01_Horse.anim"				
+	entry alliance = 1, start = combat_ready,	end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/HORSE-C_SAB_KILL_01_MUS-HG_01_Mus.anim"	
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = standing,		end = standing,		equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/horse/HORSE-C_SAB_DRAW_01_MUS-HG_01_Horse.anim"
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/HORSE-C_SAB_DRAW_01_MUS-HG_01_Mus.anim"	
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = standing,		end = standing,		equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/horse/HORSE-C_SAB_DRAW_02_MUS-HG_01_Horse.anim"
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/HORSE-C_SAB_DRAW_02_MUS-HG_01_Mus.anim"	
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = standing,		end = standing,		equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/horse/HORSE_C_SAB_DRAW_03_MUS-HG_01_Horse.anim"
+	entry alliance = 1, start = combat_ready,	end = combat_ready,	equipment_usage = rifle,			filename = "Animations/Matched_Combat/Draw/HORSE_C_SAB_DRAW_03_MUS-HG_01_Mus.anim"	
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = standing,		end = standing,		equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/horse/HORSE-C_SAB_DRAW_01_HORSE-C_SAB_01_Horse01.anim"
+	entry alliance = 1, start = standing,		end = standing,		equipment_usage = sword,			filename = "Animations/Matched_Combat/Draw/horse/HORSE-C_SAB_DRAW_01_HORSE-C_SAB_01_Horse02.anim"	
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = standing,		end = standing,		equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/horse/HORSE-C_SAB_KILL_01_HORSE-C_SAB_01_Horse01.anim"
+	entry alliance = 1, start = standing,		end = dead,			equipment_usage = sword,			filename = "Animations/Matched_Combat/Kill/horse/HORSE-C_SAB_KILL_01_HORSE-C_SAB_01_Horse02.anim"	
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = standing,		end = dead,				equipment_usage = sword,		filename = "Animations/Matched_Combat/Kill/horse/MUS-HG_01_KILL_HORSE-C_SAB_01_Horse.anim"				
+	entry alliance = 1, start = combat_ready,	end = combat_ready,		equipment_usage = rifle,		filename = "Animations/Matched_Combat/Kill/MUS-HG_01_KILL_HORSE-C_SAB_01_Mus.anim"	
+}
+
+matched_combat 
+{
+	entry alliance = 0, start = pikeman_charged_front,	end = pikeman_charged_front,	equipment_usage = pike,				filename = "Animations/MEN/PIKE/PIK_Charged_Cavalry/PIK_Charged_Cav_Impact_Gallop.anim"	
+	entry alliance = 1, start = charging,		end = dead,			equipment_usage = sword,			filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Gallop_Stake.anim"
+}
+
+

@@ -1,0 +1,62 @@
+version 1
+
+STAND								filename = "Animations/MEN/CAPTAIN/CAP_Stand.anim",
+STAND_TO_WALK						filename = "Animations/MEN/CAPTAIN/CAP_Stand_to_Walk.anim",
+STAND_ALT_1							filename = "Animations/MEN/CAPTAIN/CAP_Stand_to_Art_Stand.anim",			
+STAND_ALT_1_TO_STAND				filename = "Animations/MEN/CAPTAIN/CAP_Art_Stand_to_CAP_Stand.anim",			
+
+STAND_IDLE_1						filename = "Animations/MEN/CAPTAIN/CAP_Idle_1.anim",						
+STAND_IDLE_2						filename = "Animations/MEN/CAPTAIN/CAP_Idle_2.anim",						
+STAND_IDLE_3						filename = "Animations/MEN/CAPTAIN/CAP_Idle_3.anim",						
+STAND_IDLE_4						filename = "Animations/MEN/CAPTAIN/CAP_Idle_4.anim",						
+STAND_IDLE_5						filename = "Animations/MEN/CAPTAIN/CAP_Idle_5.anim",						
+
+STAND_IDLE_6						filename = "Animations/MEN/CAPTAIN/CAP_General_Shouting.anim",						
+STAND_IDLE_7						filename = "Animations/MEN/CAPTAIN/CAP_General_Shouting_Pointing.anim",						
+STAND_IDLE_8						filename = "Animations/MEN/CAPTAIN/CAP_Giving_Orders_Point_Left.anim",						
+STAND_IDLE_9						filename = "Animations/MEN/CAPTAIN/CAP_Giving_Orders_Point_Right.anim",						
+STAND_IDLE_10						filename = "Animations/MEN/CAPTAIN/CAP_Giving_Orders_Point_Straight_Ahead.anim",						
+STAND_IDLE_11_TELESCOPE				filename = "Animations/MEN/CAPTAIN/CAP_Telescope.anim",											personal = on
+
+WALK_1								filename = "Animations/MEN/CAPTAIN/CAP_Walk.anim",			
+WALK_2								filename = "Animations/MEN/SABRE/SAB_RUN_TRAINED/SAB_RunT.anim",
+WALK_3								cancel
+WALK_4								cancel
+WALK_5								cancel				
+WALK_TO_STAND						filename = "Animations/MEN/CAPTAIN/CAP_Walk_to_Stand.anim",			
+WALK_TO_RUN							filename = "Animations/MEN/SABRE/SAB_WALK/SAB_Walk_to_Run.anim",
+
+RUN_1								filename = "Animations/MEN/SABRE/SAB_RUN_TRAINED/SAB_RunT.anim",
+RUN_2								cancel
+RUN_3								cancel
+RUN_4								cancel
+RUN_5								cancel
+								
+
+STEP_FORWARD						filename = "Animations/MEN/CAPTAIN/CAP_Step_Forward.anim",						blend_in_time = 0.25
+STEP_BACKWARD						filename = "Animations/MEN/CAPTAIN/CAP_Step_Back.anim",							blend_in_time = 0.25
+STEP_LEFT							filename = "Animations/MEN/CAPTAIN/CAP_Step_Left.anim",							blend_in_time = 0.25
+STEP_RIGHT							filename = "Animations/MEN/CAPTAIN/CAP_Step_Right.anim",						blend_in_time = 0.25
+
+TURN_LEFT_45						filename = "Animations/MEN/CAPTAIN/CAP_cc45.anim",							
+TURN_RIGHT_45						filename = "Animations/MEN/CAPTAIN/CAP_cw45.anim",							
+TURN_LEFT_90						filename = "Animations/MEN/CAPTAIN/CAP_ccw90.anim",							
+TURN_RIGHT_90						filename = "Animations/MEN/CAPTAIN/CAP_cw90.anim",							
+TURN_LEFT_180						filename = "Animations/MEN/CAPTAIN/CAP_ccw180.anim",
+TURN_RIGHT_180						filename = "Animations/MEN/CAPTAIN/CAP_cw180.anim",							
+
+TURN_LEFT_TO_WALK_45				filename = "Animations/MEN/CAPTAIN/CAP_ccw45_to_walk.anim",										blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_45				filename = "Animations/MEN/CAPTAIN/CAP_cw45_to_walk.anim",										blend_in_time = 0.25
+TURN_LEFT_TO_WALK_90				filename = "Animations/MEN/CAPTAIN/CAP_ccw90_to_walk.anim",										blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_90				filename = "Animations/MEN/CAPTAIN/CAP_cw90_to_walk.anim",										blend_in_time = 0.25
+TURN_LEFT_TO_WALK_180				filename = "Animations/MEN/CAPTAIN/CAP_ccw180_to_walk.anim",									blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_180				filename = "Animations/MEN/CAPTAIN/CAP_cw180_to_Walk.anim",										blend_in_time = 0.25
+
+FALL_OVER_BACKWARDS					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FU_FALLDOWN_F1.anim",
+FALL_OVER_FORWARDS					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FD_FALLDOWN_B1.anim",
+FALL_OVER_LEFTSIDE					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FU_FALLDOWN_R1.anim",
+FALL_OVER_RIGHTSIDE					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FD_FALLDOWN_L1.anim",
+FACE_DOWN_GET_UP					filename = "Animations/MEN/SABRE/SAB_FACE_DOWN_GETUPS/SAB_FD_Get_Up_Slow.anim",		
+FACE_UP_GET_UP						filename = "Animations/MEN/SABRE/SAB_FACE_UP_GETUPS/SAB_FU_Get_Up_Slow.anim",
+LYING_DOWN_FACE_DOWN				filename = "Animations/MEN/AXE/AXE_FACE_DOWN_GETUPS/AXE_FD_Idle.anim",
+LYING_DOWN_FACE_UP					filename = "Animations/MEN/AXE/AXE_FACE_UP_GETUPS/AXE_FU_Idle.anim",

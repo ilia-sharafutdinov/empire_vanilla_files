@@ -1,0 +1,44 @@
+Marker name: FOOTSTEP_WALK
+Position: 515 ms
+Type: Generic
+
+Marker name: FOLEY
+Position: 948 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 82 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 2 s 119 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 2 s 226 ms
+Type: Generic
+
+Marker name: bayonet_hit_flesh
+Position: 2 s 310 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 2 s 826 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 2 s 879 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 612 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 7 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 312 ms
+Type: Generic
+

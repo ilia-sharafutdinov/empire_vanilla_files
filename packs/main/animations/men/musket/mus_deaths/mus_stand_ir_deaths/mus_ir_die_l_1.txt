@@ -1,0 +1,16 @@
+Marker name: BODYFALL_LIGHT
+Position: 415 ms
+Type: Generic
+
+Marker name: HAND_GRAB
+Position: 536 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 683 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 710 ms
+Type: Generic
+

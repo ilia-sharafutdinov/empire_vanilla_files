@@ -1,0 +1,595 @@
+version 1
+
+// UNTRAINED STANDS ------------------------------------------------------------------------------------------------------------------------------
+STAND								filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_Stand.anim",
+
+STAND								filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_stand_alt1.anim",
+STAND								filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_stand_alt2.anim",
+STAND								filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_stand_alt3.anim",
+STAND								filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_stand_alt4.anim",
+
+
+// UNTRAINED IDLES --------------------------------------------------------------------------------------------------------------------------------------
+
+STAND_IDLE_1						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle.anim",								blend_in_time = 0.25
+
+STAND_IDLE_1						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle_alt1.anim",							blend_in_time = 0.25
+STAND_IDLE_1						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle_alt2.anim",							blend_in_time = 0.25
+STAND_IDLE_1						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle_alt3.anim",							blend_in_time = 0.25
+STAND_IDLE_1						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle_alt4.anim",							blend_in_time = 0.25
+
+
+STAND_IDLE_2						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle2.anim",								blend_in_time = 0.25
+
+STAND_IDLE_2						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle2_alt1.anim",							blend_in_time = 0.25
+STAND_IDLE_2						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle2_alt2.anim",							blend_in_time = 0.25
+STAND_IDLE_2						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle2_alt3.anim",							blend_in_time = 0.25
+STAND_IDLE_2						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle2_alt4.anim",							blend_in_time = 0.25
+
+
+STAND_IDLE_3						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle3.anim",								blend_in_time = 0.25
+
+STAND_IDLE_3						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/Mus_idle3_alt1.anim",							blend_in_time = 0.25
+STAND_IDLE_3						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/Mus_idle3_alt2.anim",							blend_in_time = 0.25
+STAND_IDLE_3						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/Mus_idle3_alt3.anim",							blend_in_time = 0.25
+STAND_IDLE_3						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/Mus_idle3_alt4.anim",							blend_in_time = 0.25
+
+
+STAND_IDLE_4						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle4.anim",								blend_in_time = 0.25
+
+STAND_IDLE_4						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle4_alt1.anim",							blend_in_time = 0.25
+STAND_IDLE_4						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle4_alt2.anim",							blend_in_time = 0.25
+STAND_IDLE_4						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle4_alt3.anim",							blend_in_time = 0.25
+STAND_IDLE_4						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle4_alt4.anim",							blend_in_time = 0.25
+
+
+STAND_IDLE_5						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle5.anim",								blend_in_time = 0.25
+
+STAND_IDLE_5						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_Idle5_alt1.anim",							blend_in_time = 0.25
+STAND_IDLE_5						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_Idle5_alt2.anim",							blend_in_time = 0.25
+STAND_IDLE_5						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_Idle5_alt3.anim",							blend_in_time = 0.25
+STAND_IDLE_5						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_Idle5_alt4.anim",							blend_in_time = 0.25
+
+
+
+// ALT IDLES UNTRAINED --------------------------------------------------------------------------------------------------------------------------------------
+
+STAND_ALT_1							filename = "Animations/MEN/MUSKET/MUS_ALT_STAND1/MUS_altstand1.anim",
+STAND_ALT_1_TO_STAND				filename = "Animations/MEN/MUSKET/MUS_ALT_STAND1/MUS_altstand1_to_stand.anim",
+
+STAND_ALT_1_IDLE_1					filename = "Animations/MEN/MUSKET/MUS_ALT_STAND1/MUS_altstand1_idle_1.anim",					blend_in_time = 0.25
+STAND_ALT_1_IDLE_2					filename = "Animations/MEN/MUSKET/MUS_ALT_STAND1/MUS_altstand1_idle_2.anim",					blend_in_time = 0.25
+STAND_ALT_1_IDLE_3					filename = "Animations/MEN/MUSKET/MUS_ALT_STAND1/MUS_altstand1_idle_3.anim",					blend_in_time = 0.25
+STAND_ALT_1_IDLE_4					filename = "Animations/MEN/MUSKET/MUS_ALT_STAND1/MUS_altstand1_idle_4.anim",					blend_in_time = 0.25
+STAND_ALT_1_IDLE_5					filename = "Animations/MEN/MUSKET/MUS_ALT_STAND1/MUS_altstand1_idle_5.anim",					blend_in_time = 0.25
+
+STAND_ALT_2							filename = "Animations/MEN/MUSKET/MUS_ALT_STAND2/MUS_altstand2.anim",
+STAND_ALT_2_TO_STAND				filename = "Animations/MEN/MUSKET/MUS_ALT_STAND2/MUS_altstand2_to_stand.anim",
+
+STAND_ALT_2_IDLE_1					filename = "Animations/MEN/MUSKET/MUS_ALT_STAND2/MUS_altstand2_idle_1.anim",					blend_in_time = 0.25
+STAND_ALT_2_IDLE_2					filename = "Animations/MEN/MUSKET/MUS_ALT_STAND2/MUS_altstand2_idle_2.anim",					blend_in_time = 0.25
+STAND_ALT_2_IDLE_3					filename = "Animations/MEN/MUSKET/MUS_ALT_STAND2/MUS_altstand2_idle_3.anim",					blend_in_time = 0.25
+STAND_ALT_2_IDLE_4					filename = "Animations/MEN/MUSKET/MUS_ALT_STAND2/MUS_altstand2_idle_4.anim",					blend_in_time = 0.25
+STAND_ALT_2_IDLE_5					filename = "Animations/MEN/MUSKET/MUS_ALT_STAND2/MUS_altstand2_idle_5.anim",					blend_in_time = 0.25
+
+STAND_ALT_3							filename = "Animations/MEN/MUSKET/MUS_ALT_STAND3/MUS_altstand3.anim",
+STAND_ALT_3_TO_STAND				filename = "Animations/MEN/MUSKET/MUS_ALT_STAND3/MUS_altstand3_to_stand.anim",
+
+STAND_ALT_3_IDLE_1					filename = "Animations/MEN/MUSKET/MUS_ALT_STAND3/MUS_altstand3_idle_1.anim",					blend_in_time = 0.25
+STAND_ALT_3_IDLE_2					filename = "Animations/MEN/MUSKET/MUS_ALT_STAND3/MUS_altstand3_idle_2.anim",					blend_in_time = 0.25
+STAND_ALT_3_IDLE_3					filename = "Animations/MEN/MUSKET/MUS_ALT_STAND3/MUS_altstand3_idle_3.anim",					blend_in_time = 0.25
+STAND_ALT_3_IDLE_4					filename = "Animations/MEN/MUSKET/MUS_ALT_STAND3/MUS_altstand3_idle_4.anim",					blend_in_time = 0.25
+STAND_ALT_3_IDLE_5					filename = "Animations/MEN/MUSKET/MUS_ALT_STAND3/MUS_altstand3_idle_5.anim",					blend_in_time = 0.25
+
+
+// TRANSISTIONS ---------------------------------------------------------------------------------------------------------------------------------------
+STAND_TO_WALK						filename = "Animations/MEN/MUSKET/MUS_WALK/MUS_stand_to_walk.anim",
+STAND_TO_COMBAT_READY				filename = "Animations/MEN/MUSKET/MUS_TRANSITIONS/MUS_stand_to_Hguard.anim",
+STAND_TO_STAND_ALT_1				filename = "Animations/MEN/MUSKET/MUS_ALT_STAND1/MUS_stand_to_altstand1.anim",
+STAND_TO_STAND_ALT_2				filename = "Animations/MEN/MUSKET/MUS_ALT_STAND3/MUS_stand_to_altstand3.anim",
+STAND_TO_STAND_ALT_3				filename = "Animations/MEN/MUSKET/MUS_ALT_STAND3/MUS_stand_to_altstand3.anim",
+
+// WALK --------------------------------------------------------------------------------------------------------------------------------------------
+WALK_1								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_100.anim",					blend_in_time = 0.5
+WALK_1								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_100_Alt1.anim",				blend_in_time = 0.5
+WALK_1								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_100_Alt2.anim",				blend_in_time = 0.5
+WALK_1								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_100_Alt3.anim",				blend_in_time = 0.5
+WALK_1								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_100_Alt4.anim",				blend_in_time = 0.5
+WALK_2								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_127.anim",					blend_in_time = 0.5
+WALK_2								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_127cm_Alt1.anim",			blend_in_time = 0.5
+WALK_2								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_127cm_Alt2.anim",			blend_in_time = 0.5
+WALK_2								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_127cm_Alt3.anim",			blend_in_time = 0.5
+WALK_2								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_127cm_Alt4.anim",			blend_in_time = 0.5
+WALK_3								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_173.anim",					blend_in_time = 0.5
+WALK_3								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_173cm_Alt1.anim",			blend_in_time = 0.5
+WALK_3								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_173cm_Alt2.anim",			blend_in_time = 0.5
+WALK_3								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_173cm_Alt3.anim",			blend_in_time = 0.5
+WALK_3								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_173cm_Alt4.anim",			blend_in_time = 0.5
+WALK_4								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_219.anim",					blend_in_time = 0.5
+WALK_4								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_219cm_Alt1.anim",			blend_in_time = 0.5
+WALK_4								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_219cm_Alt2.anim",			blend_in_time = 0.5
+WALK_4								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_219cm_Alt3.anim",			blend_in_time = 0.5
+WALK_4								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_219cm_Alt4.anim",			blend_in_time = 0.5
+WALK_5								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313.anim",					blend_in_time = 0.5
+WALK_5								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt1.anim",			blend_in_time = 0.5
+WALK_5								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt2.anim",			blend_in_time = 0.5
+WALK_5								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt3.anim",			blend_in_time = 0.5
+WALK_5								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt4.anim",			blend_in_time = 0.5
+
+WALK_TO_STAND						filename = "Animations/MEN/MUSKET/MUS_WALK/MUS_Walk_to_Stand.anim",
+
+// RUN IRREGULAR ---------------------------------------------------------------------------------------------------------------------------------------
+RUN_1								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313.anim",					blend_in_time = 0.5
+RUN_1								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt1.anim",			blend_in_time = 0.5
+RUN_1								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt2.anim",			blend_in_time = 0.5
+RUN_1								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt3.anim",			blend_in_time = 0.5
+RUN_1								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt4.anim",			blend_in_time = 0.5
+RUN_2								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_407.anim",					blend_in_time = 0.5
+RUN_2								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_407cm_Alt1.anim",			blend_in_time = 0.5
+RUN_2								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_407cm_Alt2.anim",			blend_in_time = 0.5
+RUN_2								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_407cm_Alt3.anim",			blend_in_time = 0.5
+RUN_2								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_407cm_Alt4.anim",			blend_in_time = 0.5
+RUN_3								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_456cm.anim",					blend_in_time = 0.5
+RUN_3								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_456cm_Alt1.anim",			blend_in_time = 0.5
+RUN_3								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_456cm_Alt2.anim",			blend_in_time = 0.5
+RUN_3								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_456cm_Alt3.anim",			blend_in_time = 0.5
+RUN_3								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_456cm_Alt4.anim",			blend_in_time = 0.5
+RUN_4								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_543.anim",					blend_in_time = 0.5
+RUN_4								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_543cm_Alt1.anim",			blend_in_time = 0.5
+RUN_4								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_543cm_Alt2.anim",			blend_in_time = 0.5
+RUN_4								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_543cm_Alt3.anim",			blend_in_time = 0.5
+RUN_4								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_543cm_Alt4.anim",			blend_in_time = 0.5
+RUN_5								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Sprint_609.anim",				blend_in_time = 0.5
+RUN_5								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Sprint_609cm_Alt1.anim",			blend_in_time = 0.5
+RUN_5								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Sprint_609cm_Alt2.anim",			blend_in_time = 0.5
+RUN_5								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Sprint_609cm_Alt3.anim",			blend_in_time = 0.5
+RUN_5								filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Sprint_609cm_Alt4.anim",			blend_in_time = 0.5
+
+STEP_FORWARD						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_step_forward.anim",					blend_in_time = 0.25
+STEP_BACKWARD						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_step_back.anim",						blend_in_time = 0.25
+STEP_LEFT							filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_step_left.anim",						blend_in_time = 0.25
+STEP_RIGHT							filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_step_right.anim",						blend_in_time = 0.25
+
+// UNTRAINED TURNS -------------------------------------------------------------------------------------------------------------------------------------
+TURN_LEFT_45						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_ccw45.anim",							blend_in_time = 0.25
+TURN_RIGHT_45						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_cw45.anim",							blend_in_time = 0.25
+TURN_LEFT_90						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_ccw90.anim",
+TURN_RIGHT_90						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_CW90.anim",
+TURN_LEFT_180						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_ccw180.anim",
+TURN_RIGHT_180						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_180.anim",
+
+// UNTRAINED TURN TO WALKS -----------------------------------------------------------------------------------------------------------------------------
+TURN_LEFT_TO_WALK_45				filename = "Animations/MEN/MUSKET/MUS_WALK/MUS_ccw45_to_walk.anim",
+TURN_RIGHT_TO_WALK_45				filename = "Animations/MEN/MUSKET/MUS_WALK/MUS_cw45_to_walk.anim",
+TURN_LEFT_TO_WALK_90				filename = "Animations/MEN/MUSKET/MUS_WALK/MUS_ccw90_to_walk.anim",								blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_90				filename = "Animations/MEN/MUSKET/MUS_WALK/MUS_cw90_to_walk.anim",								blend_in_time = 0.25
+TURN_LEFT_TO_WALK_180				filename = "Animations/MEN/MUSKET/MUS_WALK/MUS_ccw180_to_walk.anim",							blend_in_time =	0.25
+TURN_RIGHT_TO_WALK_180				filename = "Animations/MEN/MUSKET/MUS_WALK/MUS_180_to_walk.anim",								blend_in_time =	0.25
+
+
+// STAND TRAINED BASE POSES----------------------------------------------------------------------------------------------------------------------------------
+
+STAND_TRAINED						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_Stand.anim",
+STAND_TRAINED						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_stand_alt1.anim",
+STAND_TRAINED						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_stand_alt2.anim",
+STAND_TRAINED						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_stand_alt3.anim",
+STAND_TRAINED						filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_stand_alt4.anim",
+
+// STAND TRAINED IDLES ---------------------------------------------------------------------------------------------------------------------------------------
+
+STAND_TRAINED_IDLE_1				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle.anim",							blend_in_time = 0.5
+
+STAND_TRAINED_IDLE_1				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle_alt1.anim",					blend_in_time = 0.5
+STAND_TRAINED_IDLE_1				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle_alt2.anim",					blend_in_time = 0.5
+STAND_TRAINED_IDLE_1				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle_alt3.anim",					blend_in_time = 0.5
+STAND_TRAINED_IDLE_1				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle_alt4.anim",					blend_in_time = 0.5
+
+STAND_TRAINED_IDLE_2				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle2.anim",							blend_in_time = 0.5
+
+STAND_TRAINED_IDLE_2				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle2_alt1.anim",					blend_in_time = 0.5
+STAND_TRAINED_IDLE_2				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle2_alt2.anim",					blend_in_time = 0.5
+STAND_TRAINED_IDLE_2				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle2_alt3.anim",					blend_in_time = 0.5
+STAND_TRAINED_IDLE_2				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle2_alt4.anim",					blend_in_time = 0.5
+
+STAND_TRAINED_IDLE_3				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle3.anim",							blend_in_time = 0.5
+
+STAND_TRAINED_IDLE_3				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/Mus_idle3_alt1.anim",					blend_in_time = 0.5
+STAND_TRAINED_IDLE_3				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/Mus_idle3_alt2.anim",					blend_in_time = 0.5
+STAND_TRAINED_IDLE_3				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/Mus_idle3_alt3.anim",					blend_in_time = 0.5
+STAND_TRAINED_IDLE_3				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/Mus_idle3_alt4.anim",					blend_in_time = 0.5
+
+STAND_TRAINED_IDLE_4				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle4.anim",							blend_in_time = 0.5
+
+STAND_TRAINED_IDLE_4				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle4_alt1.anim",					blend_in_time = 0.5
+STAND_TRAINED_IDLE_4				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle4_alt2.anim"					blend_in_time = 0.5
+STAND_TRAINED_IDLE_4				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle4_alt3.anim",					blend_in_time = 0.5
+STAND_TRAINED_IDLE_4				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle4_alt4.anim",					blend_in_time = 0.5
+
+STAND_TRAINED_IDLE_5				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_idle5.anim",							blend_in_time = 1
+
+STAND_TRAINED_IDLE_5				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_Idle5_alt1.anim",					blend_in_time = 1
+STAND_TRAINED_IDLE_5				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_Idle5_alt2.anim",					blend_in_time = 1
+STAND_TRAINED_IDLE_5				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_Idle5_alt3.anim",					blend_in_time = 1
+STAND_TRAINED_IDLE_5				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_Idle5_alt4.anim",					blend_in_time = 1
+
+
+// WALK TRAINED ---------------------------------------------------------------------------------------------------------------------------------------
+WALK_TRAINED_1						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_100.anim",					blend_in_time = 0.5
+WALK_TRAINED_1						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_100_Alt1.anim",				blend_in_time = 0.5
+WALK_TRAINED_1						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_100_Alt2.anim",				blend_in_time = 0.5
+WALK_TRAINED_1						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_100_Alt3.anim",				blend_in_time = 0.5
+WALK_TRAINED_1						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_100_Alt4.anim",				blend_in_time = 0.5
+WALK_TRAINED_2						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_127.anim",					blend_in_time = 0.5
+WALK_TRAINED_2						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_127cm_Alt1.anim",			blend_in_time = 0.5
+WALK_TRAINED_2						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_127cm_Alt2.anim",			blend_in_time = 0.5
+WALK_TRAINED_2						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_127cm_Alt3.anim",			blend_in_time = 0.5
+WALK_TRAINED_2						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_127cm_Alt4.anim",			blend_in_time = 0.5
+WALK_TRAINED_3						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_173.anim",					blend_in_time = 0.5
+WALK_TRAINED_3						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_173cm_Alt1.anim",			blend_in_time = 0.5
+WALK_TRAINED_3						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_173cm_Alt2.anim",			blend_in_time = 0.5
+WALK_TRAINED_3						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_173cm_Alt3.anim",			blend_in_time = 0.5
+WALK_TRAINED_3						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Walk_173cm_Alt4.anim",			blend_in_time = 0.5
+WALK_TRAINED_4						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_219.anim",					blend_in_time = 0.5
+WALK_TRAINED_4						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_219cm_Alt1.anim",			blend_in_time = 0.5
+WALK_TRAINED_4						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_219cm_Alt2.anim",			blend_in_time = 0.5
+WALK_TRAINED_4						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_219cm_Alt3.anim",			blend_in_time = 0.5
+WALK_TRAINED_4						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_219cm_Alt4.anim",			blend_in_time = 0.5
+WALK_TRAINED_5						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313.anim"					blend_in_time = 0.5
+WALK_TRAINED_5						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt1.anim",			blend_in_time = 0.5
+WALK_TRAINED_5						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt2.anim",			blend_in_time = 0.5
+WALK_TRAINED_5						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt3.anim",			blend_in_time = 0.5
+WALK_TRAINED_5						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt4.anim",			blend_in_time = 0.5
+
+// RUN TRAINED ----------------------------------------------------------------------------------------------------------------------------------------
+
+RUN_TRAINED_1						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313.anim"					blend_in_time = 0.5
+RUN_TRAINED_1						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt1.anim",			blend_in_time = 0.5
+RUN_TRAINED_1						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt2.anim",			blend_in_time = 0.5
+RUN_TRAINED_1						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt3.anim",			blend_in_time = 0.5
+RUN_TRAINED_1						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Jog_313cm_Alt4.anim",			blend_in_time = 0.5
+RUN_TRAINED_2						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_407.anim",					blend_in_time = 0.5
+RUN_TRAINED_2						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_407cm_Alt1.anim",			blend_in_time = 0.5
+RUN_TRAINED_2						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_407cm_Alt2.anim",			blend_in_time = 0.5
+RUN_TRAINED_2						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_407cm_Alt3.anim",			blend_in_time = 0.5
+RUN_TRAINED_2						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_407cm_Alt4.anim",			blend_in_time = 0.5
+RUN_TRAINED_3						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_456cm.anim",					blend_in_time = 0.5
+RUN_TRAINED_3						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_456cm_Alt1.anim",			blend_in_time = 0.5
+RUN_TRAINED_3						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_456cm_Alt2.anim",			blend_in_time = 0.5
+RUN_TRAINED_3						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_456cm_Alt3.anim",			blend_in_time = 0.5
+RUN_TRAINED_3						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_456cm_Alt4.anim",			blend_in_time = 0.5
+RUN_TRAINED_4						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_543.anim",					blend_in_time = 0.5
+RUN_TRAINED_4						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_543cm_Alt1.anim",			blend_in_time = 0.5
+RUN_TRAINED_4						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_543cm_Alt2.anim",			blend_in_time = 0.5
+RUN_TRAINED_4						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_543cm_Alt3.anim",			blend_in_time = 0.5
+RUN_TRAINED_4						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Run_543cm_Alt4.anim"				blend_in_time = 0.5
+RUN_TRAINED_5						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Sprint_609.anim",				blend_in_time = 0.5
+RUN_TRAINED_5						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Sprint_609cm_Alt1.anim",			blend_in_time = 0.5
+RUN_TRAINED_5						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Sprint_609cm_Alt2.anim",			blend_in_time = 0.5
+RUN_TRAINED_5						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Sprint_609cm_Alt3.anim",			blend_in_time = 0.5
+RUN_TRAINED_5						filename = "Animations/MEN/MUSKET/MUS_IRREGULAR_LOCOMOTION/MUS_Sprint_609cm_Alt4.anim",			blend_in_time = 0.5
+
+
+
+STAND_TRAINED_TO_COMBAT_READY		filename = "Animations/MEN/MUSKET/MUS_TRANSITIONS/MUS_stand_to_Hguard.anim",
+
+
+STEP_FORWARD_TRAINED				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_step_forward.anim",					blend_in_time = 0.25
+STEP_BACKWARD_TRAINED				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_step_back.anim",						blend_in_time = 0.25
+STEP_LEFT_TRAINED					filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_step_left.anim",						blend_in_time = 0.25
+STEP_RIGHT_TRAINED					filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_step_right.anim",						blend_in_time = 0.25
+
+
+// TRAINED TURNS -------------------------------------------------------------------------------------------------------------------------------------
+
+TURN_LEFT_TRAINED_45				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_ccw45.anim",							blend_in_time = 0.25
+TURN_RIGHT_TRAINED_45				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_cw45.anim",							blend_in_time = 0.25
+TURN_LEFT_TRAINED_90				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_ccw90.anim",							blend_in_time = 0.25
+TURN_RIGHT_TRAINED_90				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_CW90.anim",							blend_in_time = 0.25
+TURN_LEFT_TRAINED_180				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_ccw180.anim",							blend_in_time = 0.25
+TURN_RIGHT_TRAINED_180				filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_180.anim",							blend_in_time = 0.25
+
+// TRAINED WALK TO TURNS -------------------------------------------------------------------------------------------------------------------------------------
+TURN_LEFT_TO_WALK_TRAINED_45		filename = "Animations/MEN/MUSKET/MUS_WALK/MUS_ccw45_to_walk.anim",								blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_TRAINED_45		filename = "Animations/MEN/MUSKET/MUS_WALK/MUS_cw45_to_walk.anim"								blend_in_time = 0.25
+TURN_LEFT_TO_WALK_TRAINED_90		filename = "Animations/MEN/MUSKET/MUS_WALK/MUS_ccw90_to_walk.anim"								blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_TRAINED_90		filename = "Animations/MEN/MUSKET/MUS_WALK/MUS_cw90_to_walk.anim",								blend_in_time = 0.25
+TURN_LEFT_TO_WALK_TRAINED_180		filename = "Animations/MEN/MUSKET/MUS_WALK/MUS_ccw180_to_walk.anim",							blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_TRAINED_180		filename = "Animations/MEN/MUSKET/MUS_WALK/MUS_180_to_walk.anim",								blend_in_time = 0.25
+
+
+
+// COMBAT_READY ----------------------------------------------------------------------------------------------------------------------------------------
+
+COMBAT_READY						filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard.anim",								blend_in_time = 0.25
+
+COMBAT_READY						filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD_ALT1/MUS_Hguard_alt1.anim",					blend_in_time = 0.25		
+COMBAT_READY						filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD_ALT1/MUS_Hguard_alt2.anim",					blend_in_time = 0.25
+COMBAT_READY						filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD_ALT1/MUS_Hguard_alt3.anim",					blend_in_time = 0.25
+COMBAT_READY						filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD_ALT1/MUS_Hguard_alt4.anim",					blend_in_time = 0.25
+
+// COMBAT READY IDLES ---------------------------------------------------------------------------------------------------------------------------------
+
+COMBAT_IDLE_1						filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_Idle1.anim",						blend_in_time = 0.25
+COMBAT_IDLE_2						filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_Idle2.anim",						blend_in_time = 0.25
+COMBAT_IDLE_3						filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_Idle3.anim",						blend_in_time = 0.25
+COMBAT_IDLE_4						filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_Idle4.anim",						blend_in_time = 0.25
+COMBAT_IDLE_5						filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_Idle5.anim",						blend_in_time = 0.25
+COMBAT_IDLE_6						filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_Idle6.anim",						blend_in_time = 0.25
+COMBAT_IDLE_7						filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_Idle7.anim",						blend_in_time = 0.25
+COMBAT_IDLE_8						filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_Idle8.anim",						blend_in_time = 0.25
+COMBAT_IDLE_9						filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_Idle9.anim",						blend_in_time = 0.25
+COMBAT_IDLE_10						filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_Idle10.anim",						blend_in_time = 0.25
+
+
+COMBAT_READY_TO_STAND				filename = "Animations/MEN/MUSKET/MUS_TRANSITIONS/MUS_HGuard_to_Stand.anim",
+COMBAT_READY_TO_STAND_TRAINED		filename =  "Animations/MEN/MUSKET/MUS_TRANSITIONS/MUS_HGuard_to_Stand.anim",
+COMBAT_READY_TO_COMBAT_READY_KNEEL	filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Hguard_to_Gkneel.anim",						blend_in_time = 0
+COMBAT_READY_TO_AIM					filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Hguard_to_MPoise.anim",						blend_in_time = 0
+COMBAT_READY_TO_RELOAD_1			filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_HG_to_Reload_01.anim",						blend_in_time = 0
+COMBAT_READY_TO_RELOAD_2			filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_HG_to_Reload_02.anim",						blend_in_time = 0
+
+COMBAT_READY_ADVANCE				filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_advance.anim",							blend_in_time = 0.25
+COMBAT_READY_RETREAT				filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_retire.anim",								blend_in_time = 0.25
+COMBAT_READY_STEP_LEFT				filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_step_left.anim",					blend_in_time = 0.25
+COMBAT_READY_STEP_RIGHT				filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_step_right.anim",					blend_in_time = 0.25
+
+COMBAT_READY_TURN_LEFT_45			filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_ccw45.anim",						blend_in_time = 0.25
+COMBAT_READY_TURN_RIGHT_45			filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_cw45.anim",						blend_in_time = 0.25
+COMBAT_READY_TURN_LEFT_90			filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_ccw90.anim",						blend_in_time = 0.25
+COMBAT_READY_TURN_RIGHT_90			filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_cw90.anim",							blend_in_time = 0.25
+COMBAT_READY_TURN_LEFT_180			filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_HGuard_ccw180.anim",						blend_in_time = 0.25
+COMBAT_READY_TURN_RIGHT_180			filename = "Animations/MEN/MUSKET/MUS_HIGH_GUARD/MUS_Hguard_cw180.anim",							blend_in_time = 0.25
+
+COMBAT_READY_KNEEL					filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_GKneel.anim",									blend_in_time = 0.25
+COMBAT_READY_KNEEL					filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_GKneel_Alt1.anim",								blend_in_time = 0.25
+COMBAT_READY_KNEEL					filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_GKneel_Alt2.anim",								blend_in_time = 0.25
+COMBAT_READY_KNEEL					filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_GKneel_Alt3.anim",								blend_in_time = 0.25
+COMBAT_READY_KNEEL					filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_GKneel_Alt4.anim",								blend_in_time = 0.25
+
+
+
+
+COMBAT_READY_KNEEL_TO_COMBAT_READY	filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Gkneel_to_Hguard.anim",
+COMBAT_READY_KNEEL_TO_PRONE			filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_GKnee_to_prone.anim",
+COMBAT_READY_KNEEL_TO_KNEEL_AIM		filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_GKneel_to_Mpoise.anim",
+COMBAT_READY_KNEEL_TO_KNEEL_RELOAD	filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Gkneel_to_Kreload_01.anim",
+
+PRONE								filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone.anim",
+PRONE_TO_STAND						filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone_to_stand.anim",
+PRONE_TO_COMBAT_READY_KNEEL			filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone_to_GKneel.anim",
+
+// CHARGE ---------------------------------------------------------------------------------------------------------------------------------------------
+CHARGE								filename = "Animations/MEN/MUSKET/MUS_CHARGE/MUS_Charge_651cm.anim",							blend_in_time = 0.5
+
+CHARGE								filename = "Animations/MEN/MUSKET/MUS_CHARGE/MUS_charge_651cm_alt1.anim",						blend_in_time = 0.5
+CHARGE								filename = "Animations/MEN/MUSKET/MUS_CHARGE/MUS_charge_651cm_alt2.anim",						blend_in_time = 0.5
+CHARGE								filename = "Animations/MEN/MUSKET/MUS_CHARGE/MUS_charge_651cm_alt3.anim",						blend_in_time = 0.5
+CHARGE								filename = "Animations/MEN/MUSKET/MUS_CHARGE/MUS_charge_651cm_alt4.anim",	
+
+AIM									filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_MPoise.anim",
+AIM_TO_COMBAT_READY					filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_MPoise_to_HGuard.anim",						blend_in_time = 0
+
+KNEEL_AIM							filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Kneel_Mpoise.anim",
+KNEEL_AIM_TO_COMBAT_READY_KNEEL		filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Mpoise_to_Gkneel.anim",						blend_in_time = 0
+
+FIRE								filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_fire_med.anim",								blend_in_time = 0
+
+KNEEL_FIRE							filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Kneel_fire_Mid.anim",							blend_in_time = 0
+
+RELOAD_1							filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Reload_01.anim",
+RELOAD_2							filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Reload_02.anim",
+RELOAD_TO_COMBAT_READY				filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Reload_to_HG.anim",							blend_in_time = 0
+
+KNEEL_RELOAD						filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Kreload.anim",
+KNEEL_RELOAD_TO_COMBAT_READY_KNEEL	filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Kreload_to_GKneel.anim",						blend_in_time = 0
+
+
+
+// MATCHED COMBAT --------------------------------------------------------------------------------------------------------------------------------
+
+
+COMBAT_1							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS_HG_01_A.anim",		blend_in_time = 0.25
+COMBAT_2							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS_HG_01_B.anim",		blend_in_time = 0.25
+
+COMBAT_3							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS_HG_02_A.anim",		blend_in_time = 0.25
+COMBAT_4							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS_HG_02_B.anim",		blend_in_time = 0.25
+
+COMBAT_5							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS-HG_03_A.anim",		blend_in_time = 0.25
+COMBAT_6							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS-HG_03_B.anim",		blend_in_time = 0.25
+
+COMBAT_7							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_02_MUS_HG_01_A.anim",		blend_in_time = 0.25
+COMBAT_8							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_02_MUS_HG_01_B.anim",		blend_in_time = 0.25
+
+COMBAT_9							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_02_MUS-HG_02_A.anim",		blend_in_time = 0.25
+COMBAT_10							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_02_MUS-HG_02_B.anim",		blend_in_time = 0.25
+
+COMBAT_11							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_03_MUS_HG_01_A.anim",		blend_in_time = 0.25
+COMBAT_12							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_03_MUS_HG_01_B.anim",		blend_in_time = 0.25
+
+COMBAT_13							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_03_MUS-HG_02_A.anim",		blend_in_time = 0.25
+COMBAT_14							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_03_MUS-HG_02_B.anim",		blend_in_time = 0.25
+
+COMBAT_15							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_04_MUS_HG_01_A.anim",		blend_in_time = 0.25
+COMBAT_16							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_04_MUS_HG_01_B.anim",		blend_in_time = 0.25
+
+COMBAT_17   						filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_04_MUS-HG_02_A.anim",		blend_in_time = 0.25
+COMBAT_18   						filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_04_MUS-HG_02_B.anim",		blend_in_time = 0.25
+
+COMBAT_19   						filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_05_MUS-HG_01_A.anim",		blend_in_time = 0.25
+COMBAT_20   						filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_05_MUS-HG_01_B.anim",		blend_in_time = 0.25
+
+COMBAT_21							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_FLA-MG_01_A.anim",		blend_in_time = 0.25
+COMBAT_22							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_SAB-MG_01_A.anim",		blend_in_time = 0.25
+COMBAT_23							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_02_SAB-MG_01_A.anim",		blend_in_time = 0.25
+COMBAT_24							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_03_SAB-MG_01_A.anim",		blend_in_time = 0.25
+COMBAT_25							filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_04_SAB-MG_01_A.anim",		blend_in_time = 0.25
+COMBAT_26							filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_MUS-HG_01_B.anim",		blend_in_time = 0.25
+COMBAT_27							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_MUS-HG_01_B.anim",		blend_in_time = 0.25
+COMBAT_28   						filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_01_MUS-HG_01_B.anim",		blend_in_time = 0.25
+COMBAT_29							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_02_MUS-HG_01_B.anim",		blend_in_time = 0.25
+COMBAT_30							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_03_MUS-HG_01_B.anim",		blend_in_time = 0.25
+COMBAT_31							filename = "Animations/Matched_Combat/Kill/SAB-MG_Kill_04_MUS-HG_01_B.anim",		blend_in_time = 0.25
+
+COMBAT_32   						filename = "Animations/Matched_Combat/Parry/MUS_HG_TO_PARRY_01_A.anim",				blend_in_time = 0.25
+COMBAT_33							filename = "Animations/Matched_Combat/Parry/MUS_HG_TO_PARRY_01_B.anim",				blend_in_time = 0.25
+
+COMBAT_34							filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_TO_HG_01_A.anim",			blend_in_time = 0.25
+COMBAT_35							filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_TO_HG_01_B.anim",			blend_in_time = 0.25
+
+COMBAT_36							filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_01_A.anim",				blend_in_time = 0.25
+COMBAT_37							filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_01_B.anim",				blend_in_time = 0.25
+
+COMBAT_38							filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_02_A.anim",				blend_in_time = 0.25
+COMBAT_39							filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_02_B.anim",				blend_in_time = 0.25
+
+COMBAT_40							filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_03_A.anim",				blend_in_time = 0.25
+COMBAT_41							filename = "Animations/Matched_Combat/Parry/MUS_HG_PARRY_03_B.anim",				blend_in_time = 0.25
+
+COMBAT_42							filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_01_B.anim",				blend_in_time = 0.25
+COMBAT_43							filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_02_B.anim",				blend_in_time = 0.25
+COMBAT_44							filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_03_B.anim",				blend_in_time = 0.25
+COMBAT_45							filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_04_A.anim",				blend_in_time = 0.25
+COMBAT_46							filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_05_A.anim",				blend_in_time = 0.25
+COMBAT_47							filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_06_A.anim",				blend_in_time = 0.25
+COMBAT_48							filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_07_A.anim",				blend_in_time = 0.25
+COMBAT_49							filename = "Animations/Matched_Combat/Draw/MUS-HG_AXE-OG_08_A.anim",				blend_in_time = 0.25
+
+COMBAT_50							filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_01_A.anim",				blend_in_time = 0.25
+COMBAT_51							filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_01_B.anim",				blend_in_time = 0.25
+
+COMBAT_52							filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_02_A.anim",				blend_in_time = 0.25
+COMBAT_53							filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_02_B.anim",				blend_in_time = 0.25
+
+COMBAT_54							filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_03_A.anim",				blend_in_time = 0.25
+COMBAT_55							filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_03_B.anim",				blend_in_time = 0.25
+
+COMBAT_56							filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_04_A.anim",				blend_in_time = 0.25
+COMBAT_57							filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-HG_04_B.anim",				blend_in_time = 0.25
+
+COMBAT_58							filename = "Animations/Matched_Combat/Draw/MUS-HG_05_MUS-HG_01_A.anim",				blend_in_time = 0.25
+COMBAT_59							filename = "Animations/Matched_Combat/Draw/MUS-HG_05_MUS-HG_01_B.anim",				blend_in_time = 0.25
+
+COMBAT_60							filename = "Animations/Matched_Combat/Draw/MUS-HG_06_MUS-HG_01_A.anim",				blend_in_time = 0.25
+COMBAT_61							filename = "Animations/Matched_Combat/Draw/MUS-HG_06_MUS-HG_01_B.anim",				blend_in_time = 0.25
+
+COMBAT_62							filename = "Animations/Matched_Combat/Draw/MUS-HG_07_MUS-HG_01_A.anim",				blend_in_time = 0.25
+COMBAT_63							filename = "Animations/Matched_Combat/Draw/MUS-HG_07_MUS-HG_01_B.anim",				blend_in_time = 0.25
+
+COMBAT_64							filename = "Animations/Matched_Combat/Draw/MUS-HG_08_MUS-HG_01_A.anim",				blend_in_time = 0.25
+COMBAT_65							filename = "Animations/Matched_Combat/Draw/MUS-HG_08_MUS-HG_01_B.anim",				blend_in_time = 0.25
+
+COMBAT_66							filename = "Animations/Matched_Combat/Draw/MUS-HG_09_MUS-HG_01_A.anim",				blend_in_time = 0.25
+COMBAT_67							filename = "Animations/Matched_Combat/Draw/MUS-HG_09_MUS-HG_01_B.anim",				blend_in_time = 0.25
+
+COMBAT_68							filename = "Animations/Matched_Combat/Draw/MUS-HG_10_MUS-HG_01_A.anim",				blend_in_time = 0.25
+COMBAT_69							filename = "Animations/Matched_Combat/Draw/MUS-HG_10_MUS-HG_01_B.anim",				blend_in_time = 0.25
+
+COMBAT_70							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_01_A.anim",				blend_in_time = 0.25
+COMBAT_71							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_02_A.anim",				blend_in_time = 0.25
+COMBAT_72							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_03_A.anim",				blend_in_time = 0.25
+COMBAT_73							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_04_A.anim",				blend_in_time = 0.25
+COMBAT_74							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_05_A.anim",				blend_in_time = 0.25
+COMBAT_75							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_06_A.anim",				blend_in_time = 0.25
+COMBAT_76							filename = "Animations/Matched_Combat/Draw/MUS-HG_SAB-MG_07_A.anim",				blend_in_time = 0.25
+
+COMBAT_77							filename = "Animations/Matched_Combat/Kill/HORSE-C_SAB_KILL_01_MUS-HG_01_Mus.anim"	blend_in_time = 0.25
+
+CHARGE_COMBAT_1						filename = "Animations/Matched_Combat/Kill/MUS-CH_KILL_01_MUS-HG_01_A.anim",		blend_in_time = 0.25
+CHARGE_COMBAT_2						filename = "Animations/Matched_Combat/Kill/MUS-CH_KILL_01_MUS-HG_01_B.anim",		blend_in_time = 0.25
+
+CHARGE_COMBAT_3						filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS-CG_01_A.anim",		blend_in_time = 0.25
+CHARGE_COMBAT_4						filename = "Animations/Matched_Combat/Kill/MUS-HG_KILL_01_MUS-CG_01_B.anim",		blend_in_time = 0.25
+
+CHARGE_COMBAT_5						filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-CG_01_A.anim",				blend_in_time = 0.25
+CHARGE_COMBAT_6						filename = "Animations/Matched_Combat/Draw/MUS-HG_MUS-CG_01_B.anim",				blend_in_time = 0.25
+
+ATTACK_1							filename = "Animations/MEN/MUSKET/MUS_HG_KILLS/MUS-HG_KILL_HIGH_01.anim",						equipment_usage = rifle_bayonet
+ATTACK_2							filename = "Animations/MEN/MUSKET/MUS_HG_BLOWS/MUS_HG_BLOW_03.anim",							equipment_usage = rifle_butt
+
+DEFEND_1							filename = "Animations/MEN/MUSKET/MUS_HG_PARRYS/MUS_parry_high.anim",							equipment_usage = rifle
+
+// Wall Climbing -----------------------------------------------------------------------------------------------------------------------------------------
+
+CROSS_OBSTACLE_STAND_TO_STAND		filename = "Animations/MEN/MUSKET/MUS_CLIMB/MUS_climb_obstacle1.anim",
+CROSS_OBSTACLE_STAND_TO_STAND		filename = "Animations/MEN/MUSKET/MUS_CLIMB/MUS_climb_obstacle2.anim",
+WALK_JUMP							filename = "Animations/MEN/MUSKET/MUS_CLIMB/MUS_Walk_Climb_Obstacle1.anim",							blend_in_time = 0.5
+RUN_JUMP							filename = "Animations/MEN/MUSKET/MUS_CLIMB/MUS_Run_Climb_Obstacle1.anim",
+
+SMASH_WINDOW						filename = "Animations/MEN/MUSKET/MUS_UNIQUE_ACTIONS/MUS_Window_Butt_Bash.anim",					equipment_usage = rifle_butt
+
+FIX_BAYONET							filename = "Animations/MEN/MUSKET/MUS_UNIQUE_ACTIONS/MUS_Bayonet.anim",	
+
+CROUCH								filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH.anim",
+SNEAK								filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CRWALK.anim",
+
+STEP_FORWARD_CROUCH					filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_STEP_BACK.anim",
+STEP_BACKWARD_CROUCH				filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_STEP_FORWARD.anim",
+STEP_LEFT_CROUCH					filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_STEP_LEFT.anim",
+STEP_RIGHT_CROUCH					filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_STEP_RIGHT.anim",
+
+TURN_LEFT_CROUCH_45					filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_TURN_CCW45.anim",
+TURN_RIGHT_CROUCH_45				filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_TURN_CW45.anim",
+
+TURN_LEFT_CROUCH_90					filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_TURN_CCW90.anim",
+TURN_RIGHT_CROUCH_90				filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_TURN_CW90.anim",
+
+TURN_CROUCH_180						filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_TURN_180.anim",
+
+CROUCH_TO_STAND						filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_TO_STAND.anim",
+STAND_TO_CROUCH						filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_STAND_TO_CROUCH.anim",
+CROUCH_TO_KNEEL						filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_TO_KNEEL.anim",
+KNEEL_TO_CROUCH						filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_KNEEL_TO_CROUCH.anim",
+
+CROUCH_TO_SNEAK						filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_TO_CRWALK.anim",
+SNEAK_TO_CROUCH						filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CRWALK_TO_CROUCH.anim",
+TURN_LEFT_CROUCH_TO_WALK_180		filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_TURN_ccw180_to_walk.anim",
+TURN_RIGHT_CROUCH_TO_WALK_180		filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_TURN_180_TO_WALK.anim",
+TURN_LEFT_CROUCH_TO_WALK_90			filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_TURN_CCW90_TO_WALK.anim",
+TURN_RIGHT_CROUCH_TO_WALK_90		filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_TURN_CW90_TO_WALK.anim",
+TURN_LEFT_CROUCH_TO_WALK_45			filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_TURN_CCW45_TO_WALK.anim",
+TURN_RIGHT_CROUCH_TO_WALK_45		filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_TURN_CW45_TO_WALK.anim",
+
+CROUCH_IDLE_1						filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_IDLE_1.anim",							blend_in_time = 0.25
+CROUCH_IDLE_2						filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_IDLE_2.anim",							blend_in_time = 0.25
+CROUCH_IDLE_3						filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_IDLE_3.anim",							blend_in_time = 0.25
+CROUCH_IDLE_4						filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_IDLE_4.anim",							blend_in_time = 0.25
+CROUCH_IDLE_5						filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_IDLE_5.anim",							blend_in_time = 0.25
+
+CLIMB_UP_STAIRS						filename = "Animations/MEN/MUSKET/MUS_STAIRS/MUS_UP_Stairs.anim",
+CLIMB_DOWN_STAIRS					filename = "Animations/MEN/MUSKET/MUS_STAIRS/MUS_Down_Stairs.anim",
+
+FALL_OVER_BACKWARDS					filename = "Animations/MEN/MUSKET/MUS_FALLDOWN/MUS_FU_FALLDOWN_F1.anim",
+FALL_OVER_FORWARDS					filename = "Animations/MEN/MUSKET/MUS_FALLDOWN/MUS_FD_FALLDOWN_B1.anim",
+FALL_OVER_LEFTSIDE					filename = "Animations/MEN/MUSKET/MUS_FALLDOWN/MUS_FU_FALLDOWN_R1.anim",
+FALL_OVER_RIGHTSIDE					filename = "Animations/MEN/MUSKET/MUS_FALLDOWN/MUS_FD_FALLDOWN_L1.anim",
+FACE_DOWN_GET_UP					filename = "Animations/MEN/MUSKET/MUS_FACE_DOWN_GETUPS/MUS_FD_Getup_Slow.anim",		
+FACE_UP_GET_UP						filename = "Animations/MEN/MUSKET/MUS_FACE_UP_GETUPS/MUS_FU_Getup_Slow.anim",	
+LYING_DOWN_FACE_DOWN				filename = "Animations/MEN/MUSKET/MUS_FACE_DOWN_GETUPS/MUS_FD_Idle.anim",
+LYING_DOWN_FACE_UP					filename = "Animations/MEN/MUSKET/MUS_FACE_UP_GETUPS/MUS_FU_Idle.anim",
+
+// KNOOCKBACK --------------------------------------------------------------------------------------------------------------------------------------------
+KNOCKBACK_1							filename = "Animations/MEN/MUSKET/MUS_IMPACTS/MUS_Impact_B1.anim",						
+KNOCKBACK_2							filename = "Animations/MEN/MUSKET/MUS_IMPACTS/MUS_Impact_F1.anim",						
+KNOCKBACK_3							filename = "Animations/MEN/MUSKET/MUS_IMPACTS/MUS_Impact_F2.anim",						
+KNOCKBACK_4							filename = "Animations/MEN/MUSKET/MUS_IMPACTS/MUS_Impact_L1.anim",						
+KNOCKBACK_5							filename = "Animations/MEN/MUSKET/MUS_IMPACTS/MUS_Impact_R1.anim",						
+
+// KNOCKDOWN ------------------------------------------------------------------------------------------------------------------------------------------------
+KNOCKDOWN_1							filename = "Animations/MEN/MUSKET/MUS_KNOCKDOWN/MUS_FU_KNOCKDOWN_B1.anim",				
+KNOCKDOWN_2							filename = "Animations/MEN/MUSKET/MUS_KNOCKDOWN/MUS_FU_KNOCKDOWN_F1.anim",				
+KNOCKDOWN_3							filename = "Animations/MEN/MUSKET/MUS_KNOCKDOWN/MUS_FU_KNOCKDOWN_F2.anim",				
+KNOCKDOWN_4							filename = "Animations/MEN/MUSKET/MUS_KNOCKDOWN/MUS_FU_KNOCKDOWN_L1.anim",				
+KNOCKDOWN_5							filename = "Animations/MEN/MUSKET/MUS_KNOCKDOWN/MUS_FD_KNOCKDOWN_R1.anim",	
+
+
+// WOUNDED --------------------------------------------------------------------------------------------------------------------------------------------------
+WOUNDED_FRONT_IDLE					filename = "Animations/MEN/MUSKET/MUS_FACE_DOWN_GETUPS/MUS_FD_Idle.anim",			
+WOUNDED_FRONT_INJURY1				filename = "Animations/MEN/MUSKET/MUS_FACE_DOWN_GETUPS/MUS_FD_Injury_1.anim",		
+WOUNDED_FRONT_INJURY2				filename = "Animations/MEN/MUSKET/MUS_FACE_DOWN_GETUPS/MUS_FD_Injury_2.anim",		
+WOUNDED_FRONT_INJURY3				filename = "Animations/MEN/MUSKET/MUS_FACE_DOWN_GETUPS/MUS_FD_Injury_3.anim",		
+WOUNDED_FRONT_CRAWL					filename = "Animations/MEN/MUSKET/MUS_FACE_DOWN_GETUPS/MUS_FD_Crawl.anim",			
+
+WOUNDED_BACK_IDLE					filename = "Animations/MEN/MUSKET/MUS_FACE_UP_GETUPS/MUS_FU_Idle.anim",				
+WOUNDED_BACK_INJURY1				filename = "Animations/MEN/MUSKET/MUS_FACE_UP_GETUPS/MUS_FU_Injury_1.anim",			
+WOUNDED_BACK_INJURY2				filename = "Animations/MEN/MUSKET/MUS_FACE_UP_GETUPS/MUS_FU_Injury_2.anim",			
+WOUNDED_BACK_CRAWL					filename = "Animations/MEN/MUSKET/MUS_FACE_UP_GETUPS/MUS_FU_Crawl.anim",			

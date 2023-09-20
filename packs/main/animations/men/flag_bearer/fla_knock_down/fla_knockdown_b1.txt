@@ -1,0 +1,16 @@
+Marker name: footstep_run
+Position: 196 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 475 ms
+Type: Generic
+
+Marker name: bodyfall_heavy
+Position: 611 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 1 s 73 ms
+Type: Generic
+

@@ -1,0 +1,28 @@
+version 1
+
+STAND						filename = "Animations/Engine/puckle/puckle_gun_barrel_anim_idle.anim"
+
+STEP_FORWARD				filename = "Animations/Engine/puckle/puckle_gun_barrel_anim_idle.anim",	blend_in_time = 0.25
+STEP_BACKWARD				filename = "Animations/Engine/puckle/puckle_gun_barrel_anim_idle.anim",	blend_in_time = 0.25
+
+TURN_LEFT_45				filename = "Animations/Engine/puckle/puckle_gun_barrel_anim_idle.anim",	blend_in_time = 0.25
+TURN_RIGHT_45				filename = "Animations/Engine/puckle/puckle_gun_barrel_anim_idle.anim",	blend_in_time = 0.25
+
+FIRE						filename = "Animations/Engine/puckle/puckle_gun_barrel_anim_fire.anim"
+RETURN_TO_FIRING_POSITION	filename = "Animations/Engine/puckle/puckle_gun_barrel_anim_idle.anim"
+
+
+
+
+
+ENGINE_LIMBER				filename = "Animations/Engine/puckle/puckle_gun_barrel_anim_idle.anim"
+ENGINE_UNLIMBER				filename = "Animations/Engine/puckle/puckle_gun_barrel_anim_idle.anim"
+
+ENGINE_LIMBERED				filename = "Animations/Engine/puckle/puckle_gun_barrel_anim_idle.anim"
+
+ENGINE_LIMBERED_FORWARDS	filename = "Animations/Engine/puckle/puckle_gun_barrel_anim_idle.anim"
+ENGINE_LIMBERED_BACKWARDS	filename = "Animations/Engine/puckle/puckle_gun_barrel_anim_idle.anim"
+
+ENGINE_LIMBERED_TURN_LEFT	filename = "Animations/Engine/puckle/puckle_gun_barrel_anim_idle.anim"
+ENGINE_LIMBERED_TURN_RIGHT	filename = "Animations/Engine/puckle/puckle_gun_barrel_anim_idle.anim"
+

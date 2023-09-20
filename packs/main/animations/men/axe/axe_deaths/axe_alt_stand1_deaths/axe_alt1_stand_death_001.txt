@@ -1,0 +1,36 @@
+Marker name: FOOTSTEP_turn
+Position: 38 ms
+Type: Generic
+
+Marker name: FOOTSTEP_walk
+Position: 197 ms
+Type: Generic
+
+Marker name: axe_impact_ground
+Position: 499 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 797 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 131 ms
+Type: Generic
+
+Marker name: human_foley_medium
+Position: 1 s 442 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 2 s 591 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 3 s 422 ms
+Type: Generic
+
+Marker name: footstep_turn
+Position: 3 s 716 ms
+Type: Generic
+

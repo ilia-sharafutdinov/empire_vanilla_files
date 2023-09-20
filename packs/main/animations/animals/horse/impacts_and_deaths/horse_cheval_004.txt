@@ -1,0 +1,76 @@
+Marker name: FOOTSTEP_RUN
+Position: 171 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 195 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 269 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 342 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 639 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 731 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 803 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 930 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 150 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 252 ms
+Type: Generic
+
+Marker name: horse_cheval
+Position: 1 s 656 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 1 s 787 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 1 s 847 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 1 s 928 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 2 s 874 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 2 s 960 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 3 s 947 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 4 s 172 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 4 s 259 ms
+Type: Generic
+

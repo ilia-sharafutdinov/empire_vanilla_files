@@ -1,0 +1,28 @@
+Marker name: Equipment_Rattle
+Position: 949 ms
+Type: Generic
+
+Marker name: human_foley_medium
+Position: 1 s 870 ms
+Type: Generic
+
+Marker name: musket_powder_pour
+Position: 2 s 969 ms
+Type: Generic
+
+Marker name: musket_powder_pour
+Position: 3 s 163 ms
+Type: Generic
+
+Marker name: human_foley_medium
+Position: 3 s 937 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 4 s 559 ms
+Type: Generic
+
+Marker name: bayonet_impact_wooden_haft_weapon
+Position: 5 s 110 ms
+Type: Generic
+

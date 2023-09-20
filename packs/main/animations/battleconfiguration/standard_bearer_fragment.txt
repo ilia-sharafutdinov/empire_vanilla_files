@@ -1,0 +1,231 @@
+version 1
+
+// STAND --------------------------------------------------------------------------------------------------------------------------------
+
+STAND								filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_StandT.anim",
+		
+STAND_TRAINED						filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_StandT.anim",
+
+STAND_TRAINED_IDLE_1				filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_idle1.anim",									blend_in_time = 0.25
+STAND_TRAINED_IDLE_2				filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_idle2.anim",									blend_in_time = 0.25
+STAND_TRAINED_IDLE_3				filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_idle3.anim",									blend_in_time = 0.25
+STAND_TRAINED_IDLE_4				filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_idle4.anim",									blend_in_time = 0.25
+STAND_TRAINED_IDLE_5				filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_idle5.anim",									blend_in_time = 0.25
+STAND_TRAINED_IDLE_6				filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_idle6.anim",									blend_in_time = 0.25
+
+// MOVEMENT TRAINED ----------------------------------------------------------------------------------------------------------------------------
+// WALK TRAINED ---------------------------------------------------------------------------------------------------------------------------------------
+
+WALK_TRAINED_1						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Walk_100.anim",					blend_in_time = 0.25
+WALK_TRAINED_2						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Walk_127.anim",					blend_in_time = 0.25
+WALK_TRAINED_3						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Walk_173.anim",					blend_in_time = 0.25
+WALK_TRAINED_4						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Jog_219.anim",					blend_in_time = 0.25
+WALK_TRAINED_5						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Jog_313.anim",					blend_in_time = 0.25
+
+
+// RUN TRAINED ----------------------------------------------------------------------------------------------------------------------------------------
+
+RUN_TRAINED_1						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Jog_313.anim",					blend_in_time = 0.25
+RUN_TRAINED_2						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Run_407.anim",					blend_in_time = 0.25
+RUN_TRAINED_3						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Run_456.anim",					blend_in_time = 0.25
+RUN_TRAINED_4						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Run_543.anim",					blend_in_time = 0.25
+RUN_TRAINED_5						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Run_609.anim",					blend_in_time = 0.25
+
+// MOVEMENT UNTRAINED --------------------------------------------------------------------------------------------------------------------------------
+// WALK IRREGULAR ---------------------------------------------------------------------------------------------------------------------------------------
+
+WALK_1						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Walk_100.anim",					blend_in_time = 0.25
+WALK_2						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Walk_127.anim",					blend_in_time = 0.25
+WALK_3						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Walk_173.anim",					blend_in_time = 0.25
+WALK_4						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Jog_219.anim",					blend_in_time = 0.25
+WALK_5						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Jog_313.anim",					blend_in_time = 0.25
+
+
+// RUN IRREGULAR  ----------------------------------------------------------------------------------------------------------------------------------------
+
+RUN_1						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Jog_313.anim",					blend_in_time = 0.25
+RUN_2						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Run_407.anim",					blend_in_time = 0.25
+RUN_3						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Run_456.anim",					blend_in_time = 0.25
+RUN_4						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Run_543.anim",					blend_in_time = 0.25
+RUN_5						filename = "Animations/MEN/FLAG_BEARER/FLA_LOCOMOTION/FLA_Run_609.anim",					blend_in_time = 0.25
+
+// COMBAT READY IDLES ---------------------------------------------------------------------------------------------------------------------------------
+
+COMBAT_IDLE_1						filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_feint_1.anim",					blend_in_time = 0.25
+COMBAT_IDLE_2						filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_feint.anim",						blend_in_time = 0.25
+COMBAT_IDLE_3						filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_feint_2.anim",					blend_in_time = 0.25
+COMBAT_IDLE_4						filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_Mguard_feint_3.anim",					blend_in_time = 0.25
+COMBAT_IDLE_5						filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_MGuard_Idle1.anim",						blend_in_time = 0.25
+COMBAT_IDLE_6						filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_MGuard_Idle2.anim",						blend_in_time = 0.25
+COMBAT_IDLE_7						filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_MGuard_Idle3.anim",						blend_in_time = 0.25
+COMBAT_IDLE_8						filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_MGuard_Idle4.anim",						blend_in_time = 0.25
+
+
+STEP_FORWARD						filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_step_forward.anim",							blend_in_time = 0.25
+STEP_BACKWARD						filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_step_back.anim",								blend_in_time = 0.25
+STEP_LEFT							filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_step_left.anim",								blend_in_time = 0.25
+STEP_RIGHT							filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_step_right.anim",							blend_in_time = 0.25
+
+STEP_FORWARD_TRAINED				filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_step_forward.anim",							blend_in_time = 0.25
+STEP_BACKWARD_TRAINED				filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_step_back.anim",								blend_in_time = 0.25
+STEP_LEFT_TRAINED					filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_step_left.anim",								blend_in_time = 0.25
+STEP_RIGHT_TRAINED					filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_step_right.anim",							blend_in_time = 0.25
+
+WALK_JUMP							filename = "Animations/MEN/FLAG_BEARER/FLA_CLIMB/FLA_walk_jump_obstacle1.anim",
+RUN_JUMP							filename = "Animations/MEN/FLAG_BEARER/FLA_CLIMB/FLA_Run_jump_obstacle1.anim",						blend_in_time = 0.5
+
+CROSS_OBSTACLE_STAND_TO_STAND		filename = "Animations/MEN/FLAG_BEARER/FLA_CLIMB/FLA_climb_obstacle1.anim",
+WALK_JUMP							filename = "Animations/MEN/FLAG_BEARER/FLA_CLIMB/FLA_walk_jump_obstacle1.anim",						blend_in_time = 0.5
+RUN_JUMP							filename = "Animations/MEN/FLAG_BEARER/FLA_CLIMB/FLA_Run_jump_obstacle1.anim",						blend_in_time = 0.5
+
+CLIMB_UP_STAIRS						filename = "Animations/MEN/FLAG_BEARER/FLA_STAIRS/FLA_Up_Stairs.anim",
+CLIMB_DOWN_STAIRS					filename = "Animations/MEN/FLAG_BEARER/FLA_STAIRS/FLA_Down_Stairs.anim",
+
+CHARGE								filename = "Animations/MEN/FLAG_BEARER/FLA_CHARGE/FLA_Charge.anim",									blend_in_time = 0.5,	primary_weapon = on
+
+// TURN --------------------------------------------------------------------------------------------------------------------------------
+
+TURN_LEFT_45						filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_ccw45.anim",									blend_in_time = 0.25
+TURN_RIGHT_45						filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_cw45.anim",									blend_in_time = 0.25
+TURN_LEFT_90						filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_ccw90.anim",									blend_in_time = 0.25
+TURN_RIGHT_90						filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_cw90.anim",									blend_in_time = 0.25
+TURN_LEFT_180						filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_ccw180.anim",									blend_in_time = 0.25
+TURN_RIGHT_180						filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_cw180.anim",									blend_in_time = 0.25
+
+
+TURN_LEFT_TO_WALK_45				filename = "Animations/MEN/FLAG_BEARER/FLA_WALK/FLA_ccw45_to_walk.anim",							blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_45				filename = "Animations/MEN/FLAG_BEARER/FLA_WALK/FLA_cw45_to_walk.anim",								blend_in_time = 0.25
+TURN_LEFT_TO_WALK_90				filename = "Animations/MEN/FLAG_BEARER/FLA_WALK/FLA_ccw90_to_walk.anim",							blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_90				filename = "Animations/MEN/FLAG_BEARER/FLA_WALK/FLA_cw90_to_walk.anim",								blend_in_time = 0.25
+TURN_LEFT_TO_WALK_180				filename = "Animations/MEN/FLAG_BEARER/FLA_WALK/FLA_180_to_walk.anim",								blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_180				filename = "Animations/MEN/FLAG_BEARER/FLA_WALK/FLA_180_right_to_walk.anim",						blend_in_time = 0.25
+
+TURN_LEFT_TRAINED_45				filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_ccw45.anim",									blend_in_time = 0.25
+TURN_RIGHT_TRAINED_45				filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_cw45.anim",									blend_in_time = 0.25	
+TURN_LEFT_TRAINED_90				filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_ccw90.anim",									blend_in_time = 0.25
+TURN_RIGHT_TRAINED_90				filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_cw90.anim",									blend_in_time = 0.25	
+TURN_LEFT_TRAINED_180				filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_ccw180.anim",									blend_in_time = 0.25
+TURN_RIGHT_TRAINED_180				filename = "Animations/MEN/FLAG_BEARER/FLA_STAND/FLA_T_cw180.anim",									blend_in_time = 0.25	
+
+// TRANSITIONS --------------------------------------------------------------------------------------------------------------------------
+
+STAND_TO_WALK						filename = "Animations/MEN/FLAG_BEARER/FLA_WALK/FLA_standT_to_walk.anim",
+STAND_TO_COMBAT_READY				filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_stand_to_Mguard.anim",												primary_weapon = on
+STAND_TO_PRONE						filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_stand_to_prone.anim",					
+STAND_TO_STAND_ALT_1				filename = "Animations/MEN/MUSKET/MUS_ALT_STAND1/MUS_stand_to_altstand1.anim",			
+STAND_TO_STAND_ALT_2				filename = "Animations/MEN/MUSKET/MUS_ALT_STAND2/MUS_stand_to_altstand2.anim",			
+STAND_TO_STAND_ALT_3				filename = "Animations/MEN/MUSKET/MUS_ALT_STAND3/MUS_stand_to_altstand3.anim",	
+
+STAND_TRAINED_TO_COMBAT_READY		filename = "Animations/MEN/FLAG_BEARER/FLA_MEDIUM_GUARD/FLA_stand_to_Mguard.anim",												primary_weapon = on
+
+WALK_TO_STAND						filename = "Animations/MEN/FLAG_BEARER/FLA_WALK/FLA_walk_to_standT.anim",							blend_in_time = 0.25
+
+RUN_TO_WALK							filename = "Animations/MEN/FLAG_BEARER/FLA_RUN/FLA_RunT_to_standT.anim",							blend_in_time = 0.25
+
+PRONE_TO_STAND						filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone_to_stand.anim",							
+PRONE_TO_COMBAT_READY_KNEEL			filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone_to_GKneel.anim",								
+
+AIM_TO_COMBAT_READY					filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Pistol_Aim_M_to_Stand.anim",							blend_in_time = 0,		secondary_weapon = on
+
+KNEEL_AIM_TO_COMBAT_READY_KNEEL		filename = "Animations/MEN/AXE/AXE_Pistol_Kneel/Axe_PistolK_Aim_M_to_Stand.anim",					blend_in_time = 0
+
+RELOAD_TO_COMBAT_READY				filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Reload_to_HG.anim",								blend_in_time = 0
+
+//FIX_BAYONET							filename = "Animations/MEN/MUSKET/MUS_UNIQUE_ACTIONS/MUS_Bayonet.anim",					
+
+// CROUCH --------------------------------------------------------------------------------------------------------------------------
+
+CROUCH								filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH.anim",
+SNEAK								filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CRWALK.anim",
+
+STEP_FORWARD_CROUCH					filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_STEP_BACK.anim",
+STEP_BACKWARD_CROUCH				filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_STEP_FORWARD.anim",
+STEP_LEFT_CROUCH					filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_STEP_LEFT.anim",
+STEP_RIGHT_CROUCH					filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_STEP_RIGHT.anim",
+
+TURN_LEFT_CROUCH_45					filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_TURN_CCW45.anim",
+TURN_RIGHT_CROUCH_45				filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_TURN_CW45.anim",
+
+TURN_LEFT_CROUCH_90					filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_TURN_CCW90.anim",
+TURN_RIGHT_CROUCH_90				filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_TURN_CW90.anim",
+
+TURN_CROUCH_180						filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_TURN_180.anim",
+
+CROUCH_TO_STAND						filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_TO_STAND.anim", 
+STAND_TO_CROUCH						filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_STAND_TO_CROUCH.anim",
+CROUCH_TO_KNEEL						filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_TO_COVER.anim",
+KNEEL_TO_CROUCH						filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_COVER_TO_CROUCH.anim",
+
+CROUCH_TO_SNEAK						filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_TO_CRWALK.anim",
+SNEAK_TO_CROUCH						filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CRWALK_TO_CROUCH.anim",
+TURN_LEFT_CROUCH_TO_WALK_180		filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_TURN_180CCW_TO_WALK.anim",
+TURN_RIGHT_CROUCH_TO_WALK_180		filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_TURN_180_TO_WALK.anim",
+TURN_LEFT_CROUCH_TO_WALK_90			filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_TURN_CCW90_TO_WALK.anim",
+TURN_RIGHT_CROUCH_TO_WALK_90		filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_TURN_CW90_TO_WALK.anim",
+TURN_LEFT_CROUCH_TO_WALK_45			filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_TURN_CCW45_TO_WALK.anim",
+TURN_RIGHT_CROUCH_TO_WALK_45		filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_TURN_CW45_TO_WALK.anim",
+
+CROUCH_IDLE_1						filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_IDLE_1.anim",							blend_in_time = 0.25
+CROUCH_IDLE_2						filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_IDLE_2.anim",							blend_in_time = 0.25
+CROUCH_IDLE_3						filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_IDLE_3.anim",							blend_in_time = 0.25
+CROUCH_IDLE_4						filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_IDLE_4.anim",							blend_in_time = 0.25
+CROUCH_IDLE_5						filename = "Animations/MEN/FLAG_BEARER/FLA_CROUCH/FLA_CROUCH_IDLE_4.anim",							blend_in_time = 0.25
+
+// FACIAL ANIMATION ---------------------------------------------------------------------------------------------------------------
+
+FACIAL_ANIMATION_BLINK_1			filename = "Animations/FacialAnimation/face_anim_blink1.anim",				
+FACIAL_ANIMATION_FROWN_1			filename = "Animations/FacialAnimation/face_anim_frown.anim",				
+FACIAL_ANIMATION_NARROW_EYES_1		filename = "Animations/FacialAnimation/face_anim_narrow_eyes.anim",			
+FACIAL_ANIMATION_SHOUT_1			filename = "Animations/FacialAnimation/face_anim_shout1.anim",				
+FACIAL_ANIMATION_SHOUT_2			filename = "Animations/FacialAnimation/face_anim_shout2.anim",				
+FACIAL_ANIMATION_SPEAK_1			filename = "Animations/FacialAnimation/face_anim_speak1.anim",				
+FACIAL_ANIMATION_SPEAK_2			filename = "Animations/FacialAnimation/face_anim_speak2.anim",				
+FACIAL_ANIMATION_SPEAK_3			filename = "Animations/FacialAnimation/face_anim_speak3.anim",				
+FACIAL_ANIMATION_SURPRISE_1			filename = "Animations/FacialAnimation/face_anim_surprise.anim",	
+
+// FALLS --------------------------------------------------------------------------------------------------------------------------
+
+FALL_OVER_BACKWARDS					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FU_FALLDOWN_F1.anim",															primary_weapon = off, secondary_weapon = off, defensive = off, ambient = off, personal = off
+FALL_OVER_FORWARDS					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FD_FALLDOWN_B1.anim",															primary_weapon = off, secondary_weapon = off, defensive = off, ambient = off, personal = off
+FALL_OVER_LEFTSIDE					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FU_FALLDOWN_R1.anim",															primary_weapon = off, secondary_weapon = off, defensive = off, ambient = off, personal = off
+FALL_OVER_RIGHTSIDE					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FD_FALLDOWN_L1.anim",															primary_weapon = off, secondary_weapon = off, defensive = off, ambient = off, personal = off
+FACE_DOWN_GET_UP					filename = "Animations/MEN/FLAG_BEARER/FLA_FACE_DOWN_GETUPS/FLA_FD_Get_Up_Slow.anim",		
+FACE_UP_GET_UP						filename = "Animations/MEN/FLAG_BEARER/FLA_FACE_UP_GETUPS/FLA_FU_Get_Up_Slow.anim",
+LYING_DOWN_FACE_DOWN				filename = "Animations/MEN/FLAG_BEARER/FLA_FACE_DOWN_GETUPS/FLA_FD_IDLE.anim",															primary_weapon = off, secondary_weapon = off, defensive = off, ambient = off, personal = off
+LYING_DOWN_FACE_UP					filename = "Animations/MEN/FLAG_BEARER/FLA_FACE_UP_GETUPS/FLA_FU_Idle.anim",															primary_weapon = off, secondary_weapon = off, defensive = off, ambient = off, personal = off
+
+KNOCKBACK_1							filename = "Animations/MEN/FLAG_BEARER/FLA_IMPACTS/FLA_Impact_B1.anim",						
+KNOCKBACK_2							filename = "Animations/MEN/FLAG_BEARER/FLA_IMPACTS/FLA_Impact_F1.anim",						
+KNOCKBACK_3							filename = "Animations/MEN/FLAG_BEARER/FLA_IMPACTS/FLA_Impact_F1.anim",						
+KNOCKBACK_4							filename = "Animations/MEN/FLAG_BEARER/FLA_IMPACTS/FLA_Impact_L1.anim",						
+KNOCKBACK_5							filename = "Animations/MEN/FLAG_BEARER/FLA_IMPACTS/FLA_Impact_R1.anim",						
+
+KNOCKDOWN_1							filename = "Animations/MEN/FLAG_BEARER/FLA_KNOCK_DOWN/FLA_KNOCKDOWN_B1.anim",				
+KNOCKDOWN_2							filename = "Animations/MEN/FLAG_BEARER/FLA_KNOCK_DOWN/FLA_KNOCKDOWN_F1.anim",				
+KNOCKDOWN_3							filename = "Animations/MEN/FLAG_BEARER/FLA_KNOCK_DOWN/FLA_KNOCKDOWN_L1.anim",				
+KNOCKDOWN_4							filename = "Animations/MEN/FLAG_BEARER/FLA_KNOCK_DOWN/FLA_KNOCKDOWN_R1.anim",				
+
+
+WOUNDED_FRONT_IDLE					filename = "Animations/MEN/FLAG_BEARER/FLA_FACE_DOWN_GETUPS/FLA_FD_IDLE.anim",			
+WOUNDED_BACK_IDLE					filename = "Animations/MEN/FLAG_BEARER/FLA_FACE_UP_GETUPS/FLA_FU_Idle.anim",			
+
+
+GRENADIER							filename = "Animations/MEN/FLAG_BEARER/FLA_GRENADIER/FLA_GRENADIER.anim",						blend_in_time = 0.1		
+
+
+// MISC --------------------------------------------------------------------------------------------------------------------------
+
+SMASH_WINDOW						filename = "Animations/MEN/MUSKET/MUS_UNIQUE_ACTIONS/MUS_Window_Butt_Bash.anim",
+
+PRONE								filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone.anim",
+
+AIM									filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Pistol_Aim_M.anim",															secondary_weapon = on
+
+KNEEL_AIM							filename = "Animations/MEN/AXE/AXE_Pistol_Kneel/Axe_PistolK_Aim_M.anim",
+
+FIRE								filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Pistol_Fire_M.anim",									blend_in_time = 0,		secondary_weapon = on
+
+KNEEL_FIRE							filename = "Animations/MEN/AXE/AXE_Pistol_Kneel/Axe_PistolK_Fire_M.anim",							blend_in_time = 0,		secondary_weapon = on
+
+RELOAD_1							filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Reload_01.anim",
+RELOAD_2							filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Reload_02.anim",

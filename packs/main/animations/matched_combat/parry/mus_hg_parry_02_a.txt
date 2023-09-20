@@ -1,0 +1,128 @@
+Marker name: Footstep_Walk
+Position: 891 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 686 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 2 s 782 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 2 s 915 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 3 s 292 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 4 s 138 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 4 s 709 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 4 s 807 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 5 s 224 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 5 s 394 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 5 s 817 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 6 s 721 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 7 s 279 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 7 s 558 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 7 s 882 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 8 s 8 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 8 s 361 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 8 s 728 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 9 s 191 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 9 s 369 ms
+Type: Generic
+
+Marker name: bayonet_impact_wooden_haft_weapon
+Position: 9 s 426 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 9 s 655 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 10 s 44 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 10 s 221 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 10 s 800 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 10 s 934 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 11 s 320 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 11 s 485 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 12 s 284 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 12 s 441 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 12 s 557 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 12 s 885 ms
+Type: Generic
+

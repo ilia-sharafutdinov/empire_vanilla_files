@@ -1,0 +1,16 @@
+Marker name: rope creak
+Position: 586 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 934 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 1 s 496 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 3 s 311 ms
+Type: Generic
+

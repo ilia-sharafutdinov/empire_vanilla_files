@@ -1,0 +1,16 @@
+version 1
+
+
+COMBAT_READY_TO_RELOAD_1				filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_HGuard_to_Rifle_Reload.anim",							blend_in_time = 0.25
+COMBAT_READY_TO_RELOAD_2				filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_HGuard_to_Rifle_Reload.anim",							blend_in_time = 0.25
+
+RELOAD_1						filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Rifle_Reload_cycle.anim",
+RELOAD_2						filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Rifle_Reload_cycle.anim",
+RELOAD_TO_COMBAT_READY					filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Rifle_Reload_to_HGuard.anim",							blend_in_time = 0
+
+
+// KNEELING RELOAD ACTIONS ---------------------------------------------------------------------------------------------------------------------------------------------------
+COMBAT_READY_KNEEL_TO_KNEEL_RELOAD			filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_GKneel_to_rifle_reload.anim",
+KNEEL_RELOAD						filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Gkneel_Rifle_reload_cycle.anim",
+KNEEL_RELOAD_TO_COMBAT_READY_KNEEL			filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_reload_cycle_to_MUS_Gkneel.anim",						blend_in_time = 0
+				

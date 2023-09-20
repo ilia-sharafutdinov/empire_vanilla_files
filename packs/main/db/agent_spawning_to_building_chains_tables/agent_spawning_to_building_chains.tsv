@@ -1,0 +1,13 @@
+spawning	building_chain	modifier_per_level
+#agent_spawning_to_building_chains_tables;0;db/agent_spawning_to_building_chains_tables/agent_spawning_to_building_chains		
+assassin	happiness	0.0200
+catholic_missionary	culture	0.0100
+Eastern_Scholar	culture	0.0100
+Eastern_Scholar	education	0.0100
+gentleman	army-admin	0.0100
+gentleman	education	0.0100
+indian_missionary	education	0.0100
+indian_missionary	happiness	0.0100
+middle_east_missionary	education	0.0000
+orthodox_missionary	education	0.0100
+Protestant_Missionary	education	0.0000

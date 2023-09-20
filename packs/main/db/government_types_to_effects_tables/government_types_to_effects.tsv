@@ -1,0 +1,17 @@
+gov_type	effect	value
+#government_types_to_effects_tables;0;db/government_types_to_effects_tables/government_types_to_effects		
+gov_absolute_monarchy	happy_active_lower_gov_type	-2.0000
+gov_absolute_monarchy	happy_active_upper_gov_type	2.0000
+gov_absolute_monarchy	recruitment_cost_mod_land_all	-5.0000
+gov_absolute_monarchy	repression_gov_type	5.0000
+gov_absolute_monarchy	tw_growth_ministers_home_theatre	-10.0000
+gov_constitutional_monarchy	education_happy_mod	-25.0000
+gov_constitutional_monarchy	happy_active_lower_gov_type	1.0000
+gov_constitutional_monarchy	happy_active_upper_gov_type	1.0000
+gov_constitutional_monarchy	repression_gov_type	3.0000
+gov_constitutional_monarchy	tw_growth_ministers_home_theatre	3.0000
+gov_republic	education_happy_mod	-60.0000
+gov_republic	happy_active_lower_gov_type	3.0000
+gov_republic	happy_active_upper_gov_type	1.0000
+gov_republic	repression_gov_type	2.0000
+gov_republic	tw_growth_ministers_home_theatre	10.0000

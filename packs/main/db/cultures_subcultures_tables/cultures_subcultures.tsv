@@ -1,0 +1,13 @@
+subculture	culture	index	farm
+#cultures_subcultures_tables;0;db/cultures_subcultures_tables/cultures_subcultures			
+sc_european_america	european	12	American
+sc_european_east	european	4	EU_East
+sc_european_north	european	3	EU_North
+sc_european_south	european	2	EU_South
+sc_european_west	european	1	EU_West
+sc_indian_hindu	indian	9	Indian
+sc_indian_islamic	indian	8	Ottoman
+sc_indian_sikh	indian	13	Indian
+sc_mideast_islamic	middle_east	7	Ottoman
+sc_tribal_american	tribal	5	Native
+sc_tribal_steppe	tribal	11	Native

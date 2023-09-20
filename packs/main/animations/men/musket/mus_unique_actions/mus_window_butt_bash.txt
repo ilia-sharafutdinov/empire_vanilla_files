@@ -1,0 +1,16 @@
+Marker name: Equipment_Rattle
+Position: 614 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 796 ms
+Type: Generic
+
+Marker name: MUSKET_WINDOW_BUTT_BASH
+Position: 929 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 510 ms
+Type: Generic
+

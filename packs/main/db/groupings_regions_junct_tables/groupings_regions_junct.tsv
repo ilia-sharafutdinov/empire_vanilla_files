@@ -1,0 +1,10 @@
+group	region
+#groupings_regions_junct_tables;0;db/groupings_regions_junct_tables/groupings_regions_junct	
+region_brescia	naples
+region_delaware	pennsylvania
+region_egypt	egypt
+region_georgia_us	georgia_usa
+region_ireland	ireland
+region_libya	tripoli
+region_massachusetts	new_england
+region_new_york	new_york

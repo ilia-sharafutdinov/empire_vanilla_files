@@ -1,0 +1,64 @@
+Marker name: FOOTSTEP_WALK
+Position: 618 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 937 ms
+Type: Generic
+
+Marker name: sabre_impact_wooden_shield
+Position: 1 s 226 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 355 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 637 ms
+Type: Generic
+
+Marker name: sword_swoosh
+Position: 1 s 809 ms
+Type: Generic
+
+Marker name: club_hit_flesh
+Position: 1 s 852 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 918 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 387 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 50 ms
+Type: Generic
+
+Marker name: sword_swoosh
+Position: 3 s 157 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 408 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 107 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 313 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 643 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 743 ms
+Type: Generic
+

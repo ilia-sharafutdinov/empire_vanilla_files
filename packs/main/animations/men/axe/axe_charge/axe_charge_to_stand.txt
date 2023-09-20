@@ -1,0 +1,28 @@
+Marker name: Equipment_Rattle
+Position: 61 ms
+Type: Generic
+
+Marker name: Footstep_Run
+Position: 171 ms
+Type: Generic
+
+Marker name: Footstep_Run
+Position: 351 ms
+Type: Generic
+
+Marker name: Footstep_Run
+Position: 572 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 614 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 872 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 945 ms
+Type: Generic
+

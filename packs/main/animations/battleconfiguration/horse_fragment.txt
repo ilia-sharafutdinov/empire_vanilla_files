@@ -1,0 +1,96 @@
+version 1
+
+STAND							filename = "Animations/ANIMALS/HORSE/Horse_Stand.anim"
+STAND_TO_WALK					filename = "Animations/ANIMALS/HORSE/Horse_Stand_to_walk.anim",								blend_in_time =	0.5
+
+WALK_1							filename = "Animations/ANIMALS/HORSE/Horse_Walk.anim",										blend_in_time =	0.5
+WALK_TO_STAND					filename = "Animations/ANIMALS/HORSE/Horse_Walk_to_Stand.anim",								blend_in_time =	0.5
+WALK_TO_TROT					filename = "Animations/ANIMALS/HORSE/Horse_Walk_to_Trot.anim",								blend_in_time =	0.5
+WALK_JUMP						filename = "Animations/ANIMALS/HORSE/Horse_Walk_Jump.anim",									blend_in_time =	0.5
+
+
+TROT							filename = "Animations/ANIMALS/HORSE/Horse_Trot.anim",										blend_in_time =	0.5
+TROT_TO_STAND					filename = "Animations/ANIMALS/HORSE/Horse_Trot_to_Stand.anim",								blend_in_time =	0.5
+TROT_TO_WALK					filename = "Animations/ANIMALS/HORSE/Horse_Trot_to_Walk.anim",								blend_in_time =	0.5
+TROT_TO_CANTER					filename = "Animations/ANIMALS/HORSE/Horse_Trot_to_Canter.anim",							blend_in_time =	0.5
+
+CANTER							filename = "Animations/ANIMALS/HORSE/Horse_Canter.anim",									blend_in_time =	0.5
+CANTER_TO_STAND					filename = "Animations/ANIMALS/HORSE/Horse_Canter_to_Stand.anim",							blend_in_time =	0.5
+CANTER_TO_TROT					filename = "Animations/ANIMALS/HORSE/Horse_Canter_to_Trot.anim",							blend_in_time =	0.5
+CANTER_TO_GALLOP				filename = "Animations/ANIMALS/HORSE/Horse_Canter_to_Gallop.anim",							blend_in_time =	0.5
+CANTER_JUMP						filename = "Animations/ANIMALS/HORSE/Horse_Canter_Jump.anim",								blend_in_time =	0.5
+
+GALLOP							filename = "Animations/ANIMALS/HORSE/Horse_Gallop.anim",									blend_in_time =	0.5
+GALLOP_TO_STAND					filename = "Animations/ANIMALS/HORSE/Horse_Gallop_to_Stand.anim",							blend_in_time =	0.5
+GALLOP_TO_CANTER				filename = "Animations/ANIMALS/HORSE/Horse_Gallop_to_Canter.anim",							blend_in_time =	0.5
+GALLOP_JUMP						filename = "Animations/ANIMALS/HORSE/Horse_Gallop_Jump.anim",								blend_in_time =	0.5
+
+STEP_FORWARD					filename = "Animations/ANIMALS/HORSE/Horse_Step_Forward.anim",								blend_in_time =	0.25
+STEP_BACKWARD					filename = "Animations/ANIMALS/HORSE/Horse_Step_Back.anim",									blend_in_time =	0.25
+STEP_LEFT						filename = "Animations/ANIMALS/HORSE/Horse_Step_Left.anim",									blend_in_time =	0.25
+STEP_RIGHT						filename = "Animations/ANIMALS/HORSE/Horse_Step_Right.anim",								blend_in_time =	0.25
+
+TURN_LEFT_45					filename = "Animations/ANIMALS/HORSE/Horse_Turn_ccw_45.anim",								blend_in_time =	0.25
+TURN_RIGHT_45					filename = "Animations/ANIMALS/HORSE/Horse_Turn_cw_45.anim",								blend_in_time =	0.25
+TURN_LEFT_90					filename = "Animations/ANIMALS/HORSE/Horse_Turn_ccw_90.anim",								blend_in_time =	0.25
+TURN_RIGHT_90					filename = "Animations/ANIMALS/HORSE/Horse_Turn_cw_90.anim",								blend_in_time =	0.25
+TURN_LEFT_180					filename = "Animations/ANIMALS/HORSE/Horse_Turn_ccw_180.anim",								blend_in_time =	0.25
+TURN_RIGHT_180					filename = "Animations/ANIMALS/HORSE/Horse_Turn_cw_180.anim",								blend_in_time =	0.25
+
+STAND_IDLE_1					filename = "Animations/ANIMALS/HORSE/Horse_Idle_1.anim",									blend_in_time = 0.25
+STAND_IDLE_2					filename = "Animations/ANIMALS/HORSE/Horse_Idle_2.anim",									blend_in_time = 0.25
+STAND_IDLE_3					filename = "Animations/ANIMALS/HORSE/Horse_Idle_3.anim",									blend_in_time = 0.25
+STAND_IDLE_4					filename = "Animations/ANIMALS/HORSE/Horse_Idle_4.anim",									blend_in_time = 0.25
+STAND_IDLE_5					filename = "Animations/ANIMALS/HORSE/Horse_Stand.anim"
+
+CROSS_OBSTACLE_STAND_TO_STAND	filename = "Animations/ANIMALS/HORSE/Horse_Stand_to_Jump_Stand.anim"
+
+REFUSE_1						filename = "Animations/ANIMALS/HORSE/Horse_Refuse_to_Jump.anim",							blend_in_time = 0.5
+REFUSE_2						filename = "Animations/ANIMALS/HORSE/Horse_Refuse_to_Jump_02.anim",							blend_in_time = 0.5
+REFUSE_3						filename = "Animations/ANIMALS/HORSE/Horse_Refuse_to_Jump_03.anim",							blend_in_time = 0.5
+REFUSE_4						filename = "Animations/ANIMALS/HORSE/Horse_Refuse_to_Jump_04.anim",							blend_in_time = 0.5
+
+
+BE_MOUNTED_LEFT					filename = "Animations/ANIMALS/HORSE/Horse_Mount.anim"
+BE_MOUNTED_RIGHT				filename = "Animations/ANIMALS/HORSE/Horse_Mount_Right.anim"
+
+BE_DISMOUNTED_LEFT				filename = "Animations/ANIMALS/HORSE/Horse_Dismount.anim"
+BE_DISMOUNTED_RIGHT				filename = "Animations/ANIMALS/HORSE/Horse_Dismount_Right.anim"
+
+DEATH_STAND_1					filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Stand_Collapse_001.anim"
+DEATH_STAND_2					filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Stand_Collapse_002.anim"
+DEATH_STAND_3					filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Stand_Collapse_003.anim"
+DEATH_STAND_4					filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Stand_Collapse_004.anim"
+
+DEATH_JUMP_1					filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Cheval_001.anim"
+DEATH_JUMP_2					filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Cheval_002.anim"
+DEATH_JUMP_3					filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Cheval_003.anim"
+DEATH_JUMP_4					filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Cheval_004.anim"
+DEATH_JUMP_5					filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Cheval_005.anim"
+DEATH_JUMP_6					filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Cheval_006.anim"
+DEATH_JUMP_7					filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Cheval_007.anim"
+DEATH_JUMP_8					filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Cheval_008.anim"
+
+STAND_CHEVAUX_DE_FRISE_DEATH_1	filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Stand_to_Jump_Cheval.anim"
+WALK_CHEVAUX_DE_FRISE_DEATH_1	filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Walk_to_Jump_Cheval.anim"
+CANTER_CHEVAUX_DE_FRISE_DEATH_1	filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Canter_to_Jump_Cheval.anim"
+GALLOP_CHEVAUX_DE_FRISE_DEATH_1	filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Gallop_to_Jump_Cheval.anim"
+
+COMBAT_1						filename = "Animations/Matched_Combat/Kill/horse/HORSE-C_SAB_KILL_01_MUS-HG_01_Horse.anim",			blend_in_time = 0.25
+COMBAT_2						filename = "Animations/Matched_Combat/Draw/horse/HORSE-C_SAB_DRAW_01_MUS-HG_01_Horse.anim",			blend_in_time = 0.25
+COMBAT_3						filename = "Animations/Matched_Combat/Draw/horse/HORSE-C_SAB_DRAW_02_MUS-HG_01_Horse.anim",			blend_in_time = 0.25
+COMBAT_4						filename = "Animations/Matched_Combat/Draw/horse/HORSE_C_SAB_DRAW_03_MUS-HG_01_Horse.anim",			blend_in_time = 0.25
+COMBAT_5						filename = "Animations/ANIMALS/HORSE/Impacts_and_Deaths/Horse_Gallop_Stake.anim",					blend_in_time = 0.25
+COMBAT_6						filename = "Animations/Matched_Combat/Draw/horse/HORSE-C_SAB_DRAW_01_HORSE-C_SAB_01_Horse01.anim",	blend_in_time = 0.25
+COMBAT_7						filename = "Animations/Matched_Combat/Draw/horse/HORSE-C_SAB_DRAW_01_HORSE-C_SAB_01_Horse02.anim",	blend_in_time = 0.25
+COMBAT_8						filename = "Animations/Matched_Combat/Kill/horse/HORSE-C_SAB_KILL_01_HORSE-C_SAB_01_Horse01.anim",	blend_in_time = 0.25
+COMBAT_9						filename = "Animations/Matched_Combat/Kill/horse/HORSE-C_SAB_KILL_01_HORSE-C_SAB_01_Horse02.anim",	blend_in_time = 0.25
+COMBAT_10						filename = "Animations/Matched_Combat/Kill/horse/MUS-HG_01_KILL_HORSE-C_SAB_01_Horse.anim",			blend_in_time = 0.25
+
+COMBAT_IDLE_1					filename = "Animations/ANIMALS/HORSE/Horse_Combat_Idle_1.anim",										blend_in_time =	0.25
+COMBAT_IDLE_2					filename = "Animations/ANIMALS/HORSE/Horse_Combat_Idle_2.anim",										blend_in_time =	0.25
+COMBAT_IDLE_3					filename = "Animations/ANIMALS/HORSE/Matched_Horse_combat_idle_3_Horse.anim",						blend_in_time =	0.25
+COMBAT_IDLE_4					filename = "Animations/ANIMALS/HORSE/Matched_Horse_combat_idle_4_Horse.anim",						blend_in_time =	0.25
+COMBAT_IDLE_5					filename = "Animations/ANIMALS/HORSE/Matched_Horse_combat_idle_5_Horse.anim",						blend_in_time =	0.25
+COMBAT_IDLE_6					filename = "Animations/ANIMALS/HORSE/Horse_Idle_5.anim",											blend_in_time =	0.25
+COMBAT_IDLE_7					filename = "Animations/ANIMALS/HORSE/Horse_Idle_6.anim",											blend_in_time =	0.25

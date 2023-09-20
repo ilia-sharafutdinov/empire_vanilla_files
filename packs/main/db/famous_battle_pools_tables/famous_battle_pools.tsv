@@ -1,0 +1,5 @@
+pool_id	pool_posX	pool_posY	pool_radius	battle_name
+#famous_battle_pools_tables;0;db/famous_battle_pools_tables/famous_battle_pools				
+1	-19.0000	396.0000	12	Battle Of Edinburgh
+2	1.0000	370.0000	13	Battle of Sussex
+3	-10.0000	280.0000	20	Spanish Battle

@@ -1,0 +1,16 @@
+Marker name: FOOTSTEP_run
+Position: 1 s 353 ms
+Type: Generic
+
+Marker name: SWORD_SHEATH
+Position: 1 s 393 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 177 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 554 ms
+Type: Generic
+

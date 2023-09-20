@@ -1,0 +1,40 @@
+Marker name: FOOTSTEP_RUN
+Position: 134 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 269 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 376 ms
+Type: Generic
+
+Marker name: horse_cheval
+Position: 557 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 612 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 694 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 913 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 1 s 702 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 1 s 946 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 2 s 270 ms
+Type: Generic
+

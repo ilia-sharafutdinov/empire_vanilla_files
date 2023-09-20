@@ -1,0 +1,158 @@
+trigger	event	conditions
+#trait_triggers_tables;0;db/trait_triggers_tables/trait_triggers		
+C_Admiral_Attacker_Bad_Trigger	CharacterCompletedBattle	CharacterType("admiral") and CharacterWasAttacker() and not CharacterWonBattle()
+C_Admiral_Attacker_Good_Trigger	CharacterCompletedBattle	CharacterType("admiral") and CharacterWasAttacker() and CharacterWonBattle()
+C_Admiral_Bad_Trigger	CharacterCompletedBattle	CharacterType("admiral") and not CharacterWonBattle()
+C_Admiral_Blockade_Runner_Good_Trigger	CharacterCompletedBattle	CharacterType("admiral") and CampaignBattleType("naval_breakout") and CharacterWasAttacker() and CharacterWonBattle()
+C_Admiral_Blockader_Good_Trigger	CharacterCompletedBattle	CharacterType("admiral") and CampaignBattleType("naval_blockade") and not CharacterWasAttacker() and CharacterWonBattle()
+C_Admiral_Brave_Trigger	CharacterCompletedBattle	CharacterType("admiral") and CommanderFoughtInBattle() and not CharacterRouted()
+C_Admiral_British_Drakes_Drum_Trigger	CharacterCreated	CharacterType("admiral") and CharacterFactionName("britain")
+C_Admiral_Coward_Trigger	CharacterCompletedBattle	CharacterType("admiral") and CharacterRouted()
+C_Admiral_Created_Trigger	CharacterCreated	CharacterType("admiral")
+C_Admiral_Cruisers_Trigger	CharacterCompletedBattle	CharacterType("admiral") and CharacterWonBattle() and CampaignPercentageOfUnitCategory("naval_frigate") >= 50
+C_Admiral_Defend_Bad_Trigger	CharacterCompletedBattle	CharacterType("admiral") and not CharacterWasAttacker() and not CharacterWonBattle()
+C_Admiral_Defend_Good_Trigger	CharacterCompletedBattle	CharacterType("admiral") and not CharacterWasAttacker() and CharacterWonBattle()
+C_Admiral_Drunkard_Trigger	CharacterTurnEnd	CharacterType("admiral") and NoActionThisTurn()
+C_Admiral_Dutch_Seamanship_Trigger	CharacterCreated	CharacterType("admiral") and CharacterFactionName("netherlands")
+C_Admiral_Good_Trigger	CharacterCompletedBattle	CharacterType("admiral") and CharacterWonBattle()
+C_Admiral_Lampooned_Trigger	CharacterCompletedBattle	CharacterType("admiral") and not CharacterWonBattle() and [BattleResult("crushing_defeat") or CampaignPercentageOfOwnRouted() >= 50 or CampaignPercentageOfOwnKilled() >= 50 or CampaignPercentageOfOwnCaptured() >= 30]
+C_Admiral_Mad_Trigger	CharacterTurnEnd	CharacterType("admiral") and CharacterTurnsAtSea() > 15 and BattlesFought(5)
+C_Admiral_Press_Hero_Trigger	CharacterCompletedBattle	CharacterType("admiral") and CharacterWonBattle() and [BattleResult("heroic_victory") or CampaignPercentageOfThemRouted() >= 50 or CampaignPercentageOfThemKilled() >= 50 or CampaignPercentageOfThemCaptured() >= 30]
+C_Admiral_Rated_Ships_Trigger	CharacterCompletedBattle	CharacterType("admiral") and CharacterWonBattle() and CampaignPercentageOfUnitCategory("naval_line_of_battle") >= 50
+C_Admiral_Spanish_National_Pride_Trigger	CharacterCreated	CharacterType("admiral") and CharacterFactionName("spain")
+C_Admiral_Swashbuckling_Trigger	CharacterCompletedBattle	CharacterType("admiral") and CommanderFoughtInMelee() and not CharacterRouted()
+C_Agent_Secret_Police_Trigger	CharacterTurnEnd	CharacterType("rake") and CharacterTurnsAtHome() > 5
+C_Agent_Spy_Network_Trigger	CharacterTurnEnd	CharacterType("rake") and CharacterTurnsInEnemyLands() > 5
+C_Feck_Vice_Trigger	CharacterTurnEnd	NoActionThisTurn() and InSettlement() and not CharacterType("catholic_missionary") and not CharacterType("indian_missionary") and not CharacterType("middle_east_missionary") and not CharacterType("orthodox_missionary") and not CharacterType("Protestant_Missionary")
+C_General_Ambush_Bad_Trigger	CharacterCompletedBattle	CharacterType("General") and CampaignBattleType("land_ambush") and CharacterWasAttacker() and not CharacterWonBattle()
+C_General_Ambush_Good_Trigger	CharacterCompletedBattle	CharacterType("General") and CampaignBattleType("land_ambush") and CharacterWasAttacker() and CharacterWonBattle()
+C_General_Americas_Bad_Trigger	CharacterCompletedBattle	CharacterType("General") and CharacterInTheatre(1) and not CharacterWonBattle()
+C_General_Americas_Good_Trigger	CharacterCompletedBattle	CharacterType("General") and CharacterInTheatre(1) and CharacterWonBattle()
+C_General_Attacker_Bad_Trigger	CharacterCompletedBattle	CharacterType("General") and CharacterWasAttacker() and not CharacterWonBattle()
+C_General_Attacker_Good_Trigger	CharacterCompletedBattle	CharacterType("General") and CharacterWasAttacker() and CharacterWonBattle()
+C_General_Austrian_Hates_Ottomans_Trigger	CharacterCreated	CharacterType("General") and CharacterFactionName("austria")
+C_General_Bad_Field_Commander_Trigger	CharacterCompletedBattle	CharacterType("General") and CampaignBattleType("normal") and not CharacterWonBattle()
+C_General_Bloody_Trigger	CharacterCompletedBattle	CharacterType("General") and CharacterWonBattle() and CampaignPercentageOfOwnKilled() > 40
+C_General_Brave_Trigger	CharacterCompletedBattle	CharacterType("General") and CommanderFoughtInBattle() and not CharacterRouted()
+C_General_Coward_Trigger	CharacterCompletedBattle	CharacterType("General") and CharacterRouted()
+C_General_Created_Trigger	CharacterCreated	CharacterType("General")
+C_General_Defender_Bad_Trigger	CharacterCompletedBattle	CharacterType("General") and not CharacterWasAttacker() and not CharacterWonBattle()
+C_General_Defender_Good_Trigger	CharacterCompletedBattle	CharacterType("General") and not CharacterWasAttacker() and CharacterWonBattle()
+C_General_Drunkard_Trigger	CharacterTurnEnd	CharacterType("General") and NoActionThisTurn()
+C_General_French_Elan_Trigger	CharacterCreated	CharacterType("General") and CharacterFactionName("france")
+C_General_Good_Field_Commander_Trigger	CharacterCompletedBattle	CharacterType("General") and CampaignBattleType("normal") and CharacterWonBattle()
+C_General_India_Bad_Trigger	CharacterCompletedBattle	CharacterType("General") and CharacterInTheatre(3) and not CharacterWonBattle()
+C_General_India_Good_Trigger	CharacterCompletedBattle	CharacterType("General") and CharacterInTheatre(3) and CharacterWonBattle()
+C_General_Lampooned_Trigger	CharacterCompletedBattle	CharacterType("General") and not CharacterWonBattle() and [BattleResult("crushing_defeat") or CampaignPercentageOfOwnRouted() >= 50 or CampaignPercentageOfOwnKilled() >= 50 or CampaignPercentageOfOwnCaptured() >= 30]
+C_General_Mad_Trigger	CharacterTurnEnd	CharacterType("General") and CharacterTurnsInEnemyLands() > 15 and BattlesFought(5)
+C_General_Mughal_Anti_European_Trigger	CharacterCreated	CharacterType("General") and CharacterFactionName("mughal")
+C_General_of_Artillery_Trigger	CharacterCompletedBattle	CharacterType("General") and CharacterWonBattle() and CampaignPercentageOfUnitCategory("artillery") >= 40
+C_General_of_Cavalry_Trigger	CharacterCompletedBattle	CharacterType("General") and CharacterWonBattle() and CampaignPercentageOfUnitCategory("cavalry") >= 40
+C_General_of_Infantry_Trigger	CharacterCompletedBattle	CharacterType("General") and CharacterWonBattle() and CampaignPercentageOfUnitCategory("infantry") >= 40
+C_General_Polish_Stubborn_Trigger	CharacterCompletedBattle	CharacterType("General") and CharacterFactionName("poland_lithuania")
+C_General_Press_Hero_Trigger	CharacterCompletedBattle	CharacterType("General") and CharacterWonBattle() and [BattleResult("heroic_victory") or CampaignPercentageOfThemRouted() >= 50 or CampaignPercentageOfThemKilled() >= 50 or CampaignPercentageOfThemCaptured() >= 30]
+C_General_Prussian_Blue_Trigger	CharacterCreated	CharacterType("General") and CharacterFactionName("prussia")
+C_General_Russian_Vodka_Trigger	CharacterCreated	CharacterType("General") and CharacterFactionName("russia")
+C_General_Scout_Trigger	CharacterCompletedBattle	CharacterType("General") and CharacterWonBattle() and CharacterMPPercentageRemaining() == 0
+C_General_Siege_Attack_Bad_Trigger	CharacterCompletedBattle	CharacterType("General") and [CampaignBattleType("fort_standard") or CampaignBattleType("fort_relief") or CampaignBattleType("fort_sally") or CampaignBattleType("settlement_standard") or CampaignBattleType("settlement_relief") or CampaignBattleType("settlement_sally")] and CharacterWasAttacker() and not CharacterWonBattle()
+C_General_Siege_Attack_Good_Trigger	CharacterCompletedBattle	CharacterType("General") and [CampaignBattleType("fort_standard") or CampaignBattleType("fort_relief") or CampaignBattleType("fort_sally") or CampaignBattleType("settlement_standard") or CampaignBattleType("settlement_relief") or CampaignBattleType("settlement_sally")] and CharacterWasAttacker() and CharacterWonBattle()
+C_General_Siege_Defend_Bad_Trigger	CharacterCompletedBattle	CharacterType("General") and [CampaignBattleType("fort_standard") or CampaignBattleType("fort_relief") or CampaignBattleType("fort_sally") or CampaignBattleType("settlement_standard") or CampaignBattleType("settlement_relief") or CampaignBattleType("settlement_sally")] and not CharacterWasAttacker() and not CharacterWonBattle()
+C_General_Siege_Defend_Good_Trigger	CharacterCompletedBattle	CharacterType("General") and [CampaignBattleType("fort_standard") or CampaignBattleType("fort_relief") or CampaignBattleType("fort_sally") or CampaignBattleType("settlement_standard") or CampaignBattleType("settlement_relief") or CampaignBattleType("settlement_sally")] and not CharacterWasAttacker() and CharacterWonBattle()
+C_General_Swedish_Aggression_Trigger	CharacterCreated	CharacterType("General") and CharacterFactionName("sweden")
+C_General_Turkish_Master_Gunner_Trigger	CharacterCreated	CharacterType("General") and CharacterFactionName("ottomans")
+C_General_US_Backwoodsman_Trigger	CharacterCreated	CharacterType("General") and CharacterFactionName("united_states")
+C_General_Warlord_Trigger	CharacterCompletedBattle	CharacterType("General") and CharacterCultureType("tribal")
+C_Gent_Academic_Honours_Trigger	CharacterTurnEnd	[CharacterType("gentleman") or CharacterType("Eastern_Scholar")] and RandomPercentCampaign(21)
+C_Gent_Created_Trigger	CharacterCreated	[CharacterType("gentleman") or CharacterType("Eastern_Scholar")]
+C_Gent_Duelling_Pistol_Trigger	DuelFought	CharacterDuelWeapon("duelling_pistols") and CharacterWonDuel() and [CharacterType("gentleman") or CharacterType("rake")]
+C_Gent_Duelling_Sword_Trigger	DuelFought	CharacterDuelWeapon("duelling_sword") and CharacterWonDuel() and [CharacterType("gentleman") or CharacterType("rake")]
+C_Gent_Research_Agriculture_Trigger	DummyEvent	ResearchThreadType("techtree_agriculture") and RandomPercentCampaign(21)
+C_Gent_Research_Economics_Trigger	DummyEvent	ResearchType("tech_wealth_of_nations") and RandomPercentCampaign(21)
+C_Gent_Research_Industry_Trigger	DummyEvent	ResearchThreadType("techtree_industry") and RandomPercentCampaign(21)
+C_Gent_Research_Military_Trigger	DummyEvent	ResearchThreadType("techtree_army") and RandomPercentCampaign(21)
+C_Gent_Research_Navy_Trigger	DummyEvent	ResearchThreadType("techtree_naval") and RandomPercentCampaign(21)
+C_Gent_Research_Philosophy_Trigger	DummyEvent	ResearchThreadType("techtree_philosophy") and RandomPercentCampaign(21)
+C_Gent_Science_Club_Trigger	CharacterTurnEnd	CharacterType("gentleman") and RandomPercentCampaign(21)
+C_Infected_Cholera_Trigger	CharacterTurnEnd	CharacterInAffectedRegion() and DiseaseType("cholera") and RandomPercentCampaign(50)
+C_Infected_Dengue_Fever_Trigger	CharacterTurnEnd	CharacterInAffectedRegion() and DiseaseType("dengue_fever") and RandomPercentCampaign(50)
+C_Infected_Dysentry_Trigger	CharacterTurnEnd	CharacterInAffectedRegion() and DiseaseType("dysentry") and RandomPercentCampaign(50)
+C_Infected_Influenza_Trigger	CharacterTurnEnd	CharacterInAffectedRegion() and DiseaseType("influenza") and RandomPercentCampaign(50)
+C_Infected_Leprosy_Trigger	CharacterTurnEnd	CharacterInAffectedRegion() and DiseaseType("leprosy") and RandomPercentCampaign(50)
+C_Infected_Malaria_Trigger	CharacterTurnEnd	CharacterInAffectedRegion() and DiseaseType("malaria") and RandomPercentCampaign(50)
+C_Infected_Measles_Trigger	CharacterTurnEnd	CharacterInAffectedRegion() and DiseaseType("measles") and RandomPercentCampaign(50)
+C_Infected_Scurvy_Trigger	CharacterTurnEnd	CharacterTurnsAtSea() > 10 and DiseaseType("scurvy") and RandomPercentCampaign(50)
+C_Infected_Smallpox_Trigger	CharacterTurnEnd	CharacterInAffectedRegion() and DiseaseType("smallpox") and RandomPercentCampaign(50)
+C_Infected_TB_Trigger	CharacterTurnEnd	CharacterInAffectedRegion() and DiseaseType("yellow_fever") and RandomPercentCampaign(50)
+C_Infected_Typhus_Trigger	CharacterTurnEnd	CharacterInAffectedRegion() and DiseaseType("tb") and RandomPercentCampaign(50)
+C_Infected_Yellow_Fever_Trigger	CharacterTurnEnd	CharacterInAffectedRegion() and DiseaseType("yellow_fever") and RandomPercentCampaign(50)
+C_Leader_Agent_99_Trigger	SufferSpyingAttempt	CharacterType("minister") and IsFactionLeader()
+C_Leader_Army_Buff_Trigger	DummyEvent	[IsBuildingInChain("army-admin") or IsBuildingInChain("ordnance")]
+C_Leader_Enlightened_Despot_Trigger	DummyEvent	[ResearchThreadType("techtree_philosophy") or ResearchThreadType("techtree_industry") or ResearchThreadType("techtree_agriculture")]
+C_Leader_Favourites_Trigger	CharacterPromoted	not CharacterPromotedOnMerit()
+C_Leader_Fertile_Trigger	DummyEvent	CharacterType("minister") and [IsFactionLeader() or IsFactionLeaderFemale()] and CharacterNumberOfChildren() >= 1
+C_Leader_Harsh_Ruler_Trigger	CharacterTurnEnd	CharacterType("minister") and IsFactionLeader() and not IsFactionLeaderFemale()
+C_Leader_Infertile_Trigger	CharacterTurnEnd	CharacterType("minister") and [IsFactionLeader() or IsFactionLeaderFemale()] and CharacterNumberOfChildren() == 0
+C_Leader_Intellectual_Pretensions_Trigger	DummyEvent	IsBuildingInChain("education")
+C_Leader_M_Trigger	SpyingAttemptSuccess	n
+C_Leader_Merit_Trigger	CharacterPromoted	CharacterPromotedOnMerit()
+C_Leader_Navy_Buff_Trigger	DummyEvent	[IsBuildingInChain("navy-admin") or IsBuildingInChain("ordnance")]
+C_Leader_Or_Heir_Female_Created_Trigger	CharacterCreated	CharacterType("minister") and IsFactionLeaderFemale()
+C_Leader_Or_Heir_Male_Created_Trigger	CharacterCreated	CharacterType("minister") and IsFactionLeader()
+C_Leader_Philistine_Trigger	DummyEvent	not IsBuildingInChain("education")
+C_Minister_Army_Good_Trigger	DummyEvent	IsBuildingInChain("army-admin")
+C_Minister_Corrupt_Trigger	CharacterTurnEnd	CharacterType("minister") and RandomPercentCampaign(50)
+C_Minister_Created_Trigger	CharacterCreated	CharacterType("minister") and not IsFactionLeader()
+C_Minister_Entertainer_Trigger	DummyEvent	[IsBuildingInChain("happiness") or IsBuildingInChain("culture")]
+C_Minister_Fiscal_Genius_Trigger	DummyEvent	ResearchType("tech_wealth_of_nations")
+C_Minister_Industrialist_Trigger	DummyEvent	[IsBuildingInChain("industry-metal") or IsBuildingInChain("industry-pottery") or IsBuildingInChain("industry-textile")]
+C_Minister_Miser_Trigger	CharacterTurnEnd	CharacterType("minister") and not IsFactionLeader() and PercentageUnspentIncome() >= 50
+C_Minister_Navy_Good_Trigger	DummyEvent	IsBuildingInChain("navy-admin")
+C_Minister_Physiocrat_Trigger	DummyEvent	ResearchType("tech_physiocracy")
+C_Minister_Trader_Trigger	DummyEvent	ResearchType("tech_free_trade_doctrine")
+C_Minister_Unjust_Trigger	CharacterTurnEnd	CharacterType("minister") and not IsFactionLeader() and InsurrectionCrushed()
+C_Missionary_Created_Trigger	CharacterCreated	[CharacterType("catholic_missionary") or CharacterType("indian_missionary") or CharacterType("middle_east_missionary") or CharacterType("orthodox_missionary") or CharacterType("Protestant_Missionary")] and RandomPercentCampaign(5)
+C_Missionary_Gone_Native_Trigger	CharacterTurnEnd	CharacterInTheatre(1) and [CharacterType("catholic_missionary") or CharacterType("indian_missionary") or CharacterType("middle_east_missionary") or CharacterType("orthodox_missionary") or CharacterType("Protestant_Missionary")]
+C_Missionary_Hate_America_Trigger	CharacterTurnEnd	CharacterInTheatre(1) and [CharacterType("catholic_missionary") or CharacterType("indian_missionary") or CharacterType("middle_east_missionary") or CharacterType("orthodox_missionary") or CharacterType("Protestant_Missionary")] and RandomPercentCampaign(15)
+C_Missionary_Hate_Europe_Trigger	CharacterTurnEnd	CharacterInTheatre(2) and [CharacterType("catholic_missionary") or CharacterType("indian_missionary") or CharacterType("middle_east_missionary") or CharacterType("orthodox_missionary") or CharacterType("Protestant_Missionary")] and RandomPercentCampaign(15)
+C_Missionary_Hate_India_Trigger	CharacterTurnEnd	CharacterInTheatre(3) and [CharacterType("catholic_missionary") or CharacterType("indian_missionary") or CharacterType("middle_east_missionary") or CharacterType("orthodox_missionary") or CharacterType("Protestant_Missionary")] and RandomPercentCampaign(15)
+C_Missionary_Like_America_Trigger	CharacterTurnEnd	CharacterInTheatre(1) and [CharacterType("catholic_missionary") or CharacterType("indian_missionary") or CharacterType("middle_east_missionary") or CharacterType("orthodox_missionary") or CharacterType("Protestant_Missionary")] and RandomPercentCampaign(50)
+C_Missionary_Like_Europe_Trigger	CharacterTurnEnd	CharacterInTheatre(2) and [CharacterType("catholic_missionary") or CharacterType("indian_missionary") or CharacterType("middle_east_missionary") or CharacterType("orthodox_missionary") or CharacterType("Protestant_Missionary")] and RandomPercentCampaign(50)
+C_Missionary_Like_India_Trigger	CharacterTurnEnd	CharacterInTheatre(3) and [CharacterType("catholic_missionary") or CharacterType("indian_missionary") or CharacterType("middle_east_missionary") or CharacterType("orthodox_missionary") or CharacterType("Protestant_Missionary")] and RandomPercentCampaign(50)
+C_Personal_Hale_Trigger	CharacterTurnEnd	RandomPercentCampaign(50) and not InSettlement() and not NoActionThisTurn()
+C_Personal_High_Personal_Security_Trigger	SufferAssassinationAttempt	n
+C_Personal_Sickly_Trigger	CharacterTurnEnd	InSettlement() and NoActionThisTurn() and RandomPercentCampaign(50)
+C_Rake_Assassin_Good_Trigger	AssassinationAttemptSuccess	[CharacterType("rake") or CharacterType("assassin")]
+C_Rake_Counter_Spy_Trigger	EspionageAgentApprehended	[CharacterType("rake") or CharacterType("assassin")]
+C_Rake_Created_Trigger	CharacterCreated	[CharacterType("rake") or CharacterType("assassin")]
+C_Rake_Gate_Opener_Trigger	DummyEvent	[CharacterType("rake") or CharacterType("assassin")]
+C_Rake_Naughty_Club_Trigger	AssassinationAttemptSuccess	[CharacterType("rake") or CharacterType("assassin")]
+C_Rake_Sabot_Good_Trigger	SabotageAttemptSuccess	[CharacterType("rake") or CharacterType("assassin")]
+C_Rake_Spy_Good_Trigger	SpyingAttemptSuccess	[CharacterType("rake") or CharacterType("assassin")]
+C_Sausage_Vice_Trigger	CharacterTurnEnd	InSettlement() and NoActionThisTurn() and RandomPercentCampaign(50)
+C_Siege_Engineering_Trigger	CharacterCompletedBattle	CharacterType("General") and [CampaignBattleType("fort_standard") or CampaignBattleType("fort_relief") or CampaignBattleType("fort_sally") or CampaignBattleType("settlement_standard") or CampaignBattleType("settlement_relief") or CampaignBattleType("settlement_sally")] and CharacterWonBattle()
+U_Acclimatised_Americas_Trigger	DummyEvent	UnitInTheatre("1") and not UnitCultureType("tribal")
+U_Acclimatised_Europe_Trigger	DummyEvent	UnitInTheatre("2") and not UnitCultureType("european")
+U_Acclimatised_India_Trigger	DummyEvent	UnitInTheatre("3") and not UnitCultureType("indian")
+U_Acclimatised_Middle_East_Trigger	DummyEvent	UnitOnContinent("cont_middle_east") and not UnitCultureType("middle_east")
+U_American_Expert_Troops_Trigger	DummyEvent	UnitInTheatre("1") and not UnitCultureType("tribal") and UnitWonBattle()
+U_Bright_Sabres_Trigger	DummyEvent	UnitCategory("cavalry") and not UnitClass("cavalry_missile") and UnitChargedInBattle()
+U_Cold_Steel_Trigger	DummyEvent	UnitFoughtInMelee() and UnitCausedRout()
+U_European_Expert_Troops_Trigger	UnitCompletedBattle	UnitInTheatre("2") and not UnitCultureType("european") and UnitWonBattle()
+U_Indian_Expert_Troops_Trigger	DummyEvent	UnitInTheatre("3") and not UnitCultureType("indian") and UnitWonBattle()
+U_Infected_Cholera_Trigger	DummyEvent	UnitInAffectedRegion() and DiseaseType("cholera") and RandomPercentCampaign(50)
+U_Infected_Dengue_Fever_Trigger	DummyEvent	UnitInAffectedRegion() and DiseaseType("dengue_fever") and RandomPercentCampaign(50)
+U_Infected_Dysentry_Trigger	DummyEvent	UnitInAffectedRegion() and DiseaseType("dysentry") and RandomPercentCampaign(50)
+U_Infected_Influenza_Trigger	DummyEvent	UnitInAffectedRegion() and DiseaseType("influenza") and RandomPercentCampaign(50)
+U_Infected_Malaria_Trigger	DummyEvent	UnitInAffectedRegion() and DiseaseType("malaria") and RandomPercentCampaign(50)
+U_Infected_Measles_Trigger	DummyEvent	UnitInAffectedRegion() and DiseaseType("measles") and RandomPercentCampaign(50)
+U_Infected_Scurvy_Trigger	DummyEvent	UnitTurnsAtSea() > 10 and DiseaseType("scurvy") and RandomPercentCampaign(50)
+U_Infected_Smallpox_Trigger	DummyEvent	UnitInAffectedRegion() and DiseaseType("smallpox") and RandomPercentCampaign(50)
+U_Infected_TB_Trigger	DummyEvent	UnitInAffectedRegion() and DiseaseType("tb") and RandomPercentCampaign(50)
+U_Infected_Typhus_Trigger	DummyEvent	UnitInAffectedRegion() and DiseaseType("typhus") and RandomPercentCampaign(50)
+U_Infected_Yellow_Fever_Trigger	DummyEvent	UnitInAffectedRegion() and DiseaseType("yellow_fever") and RandomPercentCampaign(50)
+U_Magic_Talismans_Trigger	UnitCreated	UnitCultureType("tribal")
+U_Prime_Mover_Trigger	DummyEvent	UnitCategory("artillery") and UnitTurnsInEnemyLands() >= 10
+U_Repressive_Policing_Trigger	UnitTurnEnd	UnitCrushedInsurrection()
+U_Sharpshooters_Trigger	UnitCompletedBattle	UnitFought() and not UnitFoughtInMelee()
+U_Ship_Boarding_Attack_Trigger	DummyEvent	[CampaignBattleType("naval_normal") or CampaignBattleType("naval_blockade") or CampaignBattleType("naval_breakout")] and UnitFoughtInMelee() and UnitWasAttacker()
+U_Ship_Boarding_Defence_Trigger	DummyEvent	[CampaignBattleType("naval_normal") or CampaignBattleType("naval_blockade") or CampaignBattleType("naval_breakout")] and UnitFoughtInMelee() and not UnitWasAttacker()

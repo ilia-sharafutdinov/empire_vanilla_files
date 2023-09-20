@@ -1,0 +1,12 @@
+Marker name: FOOTSTEP_WALK
+Position: 301 ms
+Type: Generic
+
+Marker name: Bayonet_impact_sword
+Position: 390 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 367 ms
+Type: Generic
+

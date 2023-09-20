@@ -1,0 +1,60 @@
+Marker name: Footstep_Turn
+Position: 374 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 569 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 1 s 193 ms
+Type: Generic
+
+Marker name: bayonet_impact_wooden_haft_weapon
+Position: 1 s 213 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 283 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 762 ms
+Type: Generic
+
+Marker name: bayonet_impact_wooden_haft_weapon
+Position: 1 s 797 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 1 s 834 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 2 s 386 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 2 s 525 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 2 s 563 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 3 s 42 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 3 s 294 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 3 s 344 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 3 s 628 ms
+Type: Generic
+

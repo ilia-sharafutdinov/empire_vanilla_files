@@ -1,0 +1,52 @@
+Marker name: footstep_run
+Position: 221 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 314 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 382 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 660 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 749 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 863 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 1 s 206 ms
+Type: Generic
+
+Marker name: horse_cheval
+Position: 1 s 874 ms
+Type: Generic
+
+Marker name: bodyfall_light
+Position: 1 s 950 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 2 s 100 ms
+Type: Generic
+
+Marker name: bodyfall_heavy
+Position: 2 s 291 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 3 s 307 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 3 s 656 ms
+Type: Generic
+

@@ -1,0 +1,14 @@
+category	icon_path
+#trait_categories_tables;0;db/trait_categories_tables/trait_categories	
+Character Quirk	data/ui/campaign ui/pips/effect_characters.tga
+Construction	data/ui/campaign ui/pips/effect_building.tga
+Espionage	data/ui/campaign ui/pips/effect_characters.tga
+Finance	data/ui/campaign ui/pips/effect_economy.tga
+Law & Order	data/ui/campaign ui/pips/effect_upper_classes.tga
+Military	data/ui/campaign ui/pips/effect_army.tga
+Naval	data/ui/campaign ui/pips/effect_navy.tga
+Personal	data/ui/campaign ui/pips/effect_characters.tga
+Religion (Christian)	data/ui/campaign ui/pips/protestant.tga
+Religion (Islam)	data/ui/campaign ui/pips/islamic.tga
+Religion (Pagan)	data/ui/campaign ui/pips/animism.tga
+Technology	data/ui/campaign ui/pips/effect_tech.tga

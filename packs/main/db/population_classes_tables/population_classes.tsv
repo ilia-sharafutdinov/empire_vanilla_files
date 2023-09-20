@@ -1,0 +1,5 @@
+population_class	riots	demands	spawn_rebel_general
+#population_classes_tables;0;db/population_classes_tables/population_classes			
+lower	true	false	false
+middle	true	false	false
+upper	false	true	true

@@ -1,0 +1,20 @@
+Marker name: hand_grab
+Position: 709 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 1 s 376 ms
+Type: Generic
+
+Marker name: human_foley_medium
+Position: 2 s 162 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 2 s 591 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 2 s 703 ms
+Type: Generic
+

@@ -1,0 +1,28 @@
+Marker name: sabre_hit_flesh
+Position: 395 ms
+Type: Generic
+
+Marker name: wooden_shield_impact_ground
+Position: 528 ms
+Type: Generic
+
+Marker name: sword_impact_ground
+Position: 602 ms
+Type: Generic
+
+Marker name: bodyfall_light
+Position: 1 s 525 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 2 s 749 ms
+Type: Generic
+
+Marker name: bodyfall_heavy
+Position: 2 s 836 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 3 s 177 ms
+Type: Generic
+

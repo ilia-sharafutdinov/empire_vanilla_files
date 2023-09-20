@@ -1,0 +1,16 @@
+Marker name: footstep_walk
+Position: 482 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 848 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 911 ms
+Type: Generic
+
+Marker name: sabre_impact_sword
+Position: 999 ms
+Type: Generic
+

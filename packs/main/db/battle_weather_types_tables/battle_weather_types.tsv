@@ -1,0 +1,12 @@
+key	level	precipitation_type	num_particles	particle_size	particle_speed	list_order	naval_appropiate
+#battle_weather_types_tables;0;db/battle_weather_types_tables/battle_weather_types							
+dry	0	3	0	0.0000	0.0000	0	true
+heavy_dust	2	2	750	5.0000	7.0000	6	false
+heavy_rain	2	0	400	10.0000	9.0000	4	true
+heavy_snow	2	1	150	20.0000	0.5000	5	true
+light_dust	1	2	500	5.0000	5.0000	3	false
+light_rain	1	0	100	10.0000	7.8000	1	true
+light_snow	1	1	90	15.0000	0.3000	2	true
+torrential_dust	3	2	1000	5.0000	10.0000	9	false
+torrential_rain	3	0	800	10.0000	11.0000	7	true
+torrential_snow	3	1	250	20.0000	0.7000	8	true

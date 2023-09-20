@@ -1,0 +1,24 @@
+Marker name: human_foley_light
+Position: 60 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 362 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 438 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 924 ms
+Type: Generic
+
+Marker name: Footstep_walk
+Position: 1 s 720 ms
+Type: Generic
+
+Marker name: Footstep_walk
+Position: 2 s 359 ms
+Type: Generic
+

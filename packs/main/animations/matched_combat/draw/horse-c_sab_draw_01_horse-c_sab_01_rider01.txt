@@ -1,0 +1,16 @@
+Marker name: Sabre_Impact_Sword
+Position: 718 ms
+Type: Generic
+
+Marker name: Sword_Impact_Sword
+Position: 2 s 228 ms
+Type: Generic
+
+Marker name: Sword_Impact_Sword
+Position: 2 s 678 ms
+Type: Generic
+
+Marker name: Sword_Impact_Sword
+Position: 3 s 294 ms
+Type: Generic
+

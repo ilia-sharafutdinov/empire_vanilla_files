@@ -1,0 +1,37 @@
+version 1
+
+
+RIDER_ATTACK_1								filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_LG_Thrust_Level.anim",			blend_in_time = 0.25		equipment_usage = lance
+RIDER_ATTACK_2								filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_LG_Thrust_low.anim",				blend_in_time = 0.25		equipment_usage = lance
+RIDER_ATTACK_3								filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_RG_Thrust_level.anim",			blend_in_time = 0.25		equipment_usage = lance	
+RIDER_ATTACK_4								filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_RG_Thrust_low.anim",				blend_in_time = 0.25		equipment_usage = lance	
+RIDER_ATTACK_5								filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_FG_Thrust_level.anim",			blend_in_time = 0.25		equipment_usage = lance	
+RIDER_ATTACK_6								filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_FG_Thrust_low.anim",				blend_in_time = 0.25		equipment_usage = lance	
+
+RIDER_ATTACK_BLOCKED_1						filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_FGuard_Block.anim",				blend_in_time = 0.25		equipment_usage = lance	
+
+RIDER_CHARGE								filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_Charge_Guard.anim",				blend_in_time = 0.25		equipment_usage = lance
+
+RIDER_CHARGE_ATTACK_1						filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_CG_Thrust_low.anim",				blend_in_time = 0.25		equipment_usage = lance	
+RIDER_CHARGE_ATTACK_2						filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_RG_Thrust_level.anim",			blend_in_time = 0.25		equipment_usage = lance	
+
+RIDER_CARRY_WEAPON							filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LANCE_Sit.anim"						blend_in_time = 0.25
+
+RIDER_COMBAT_READY							filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_FGuard.anim",					blend_in_time = 0.25
+
+// COMMENTED OUT
+//RIDER_COMBAT_1			cancel						
+//RIDER_COMBAT_2			cancel						
+//RIDER_COMBAT_3			cancel						
+//RIDER_COMBAT_4			cancel							
+//RIDER_COMBAT_6			cancel							
+//RIDER_COMBAT_7			cancel						
+//RIDER_COMBAT_8			cancel								
+//RIDER_COMBAT_9			cancel						
+RIDER_COMBAT_10				filename = "Animations/Matched_Combat/Kill/MUS-HG_01_KILL_HORSE-C_SAB_01_Rider.anim"					blend_in_time = 0.25	 primary_weapon = off									
+
+							
+
+
+
+

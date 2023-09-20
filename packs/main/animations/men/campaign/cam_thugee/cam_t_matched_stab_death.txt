@@ -1,0 +1,24 @@
+Marker name: FOOTSTEP_TURN
+Position: 697 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 363 ms
+Type: Generic
+
+Marker name: sabre_impact_ground
+Position: 1 s 409 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 858 ms
+Type: Generic
+
+Marker name: Bodyfall_Light
+Position: 2 s 878 ms
+Type: Generic
+
+Marker name: Bodyfall_heavy
+Position: 3 s 113 ms
+Type: Generic
+

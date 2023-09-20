@@ -1,0 +1,28 @@
+Marker name: hand_grab
+Position: 921 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 1 s 347 ms
+Type: Generic
+
+Marker name: footstep_turn
+Position: 2 s 188 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 2 s 294 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 2 s 625 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 2 s 667 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATtLE
+Position: 2 s 941 ms
+Type: Generic
+

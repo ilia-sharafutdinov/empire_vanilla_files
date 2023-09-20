@@ -1,0 +1,10 @@
+key	baseline_price_per_unit	price_elasticy_of_demand
+#commodities_tables;0;db/commodities_tables/commodities		
+res_coffee	8.0000	1.3000
+res_cotton	12.0000	1.0000
+res_furs	9.0000	1.1000
+res_ivory	16.0000	1.0000
+res_spices	16.0000	1.1000
+res_sugar	12.0000	1.2000
+res_tea	11.0000	1.2000
+res_tobacco	11.0000	0.7000

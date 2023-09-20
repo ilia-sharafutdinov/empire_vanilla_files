@@ -1,0 +1,28 @@
+Marker name: FOOTSTEP_WALK
+Position: 795 ms
+Type: Generic
+
+Marker name: HAND_GRAB
+Position: 1 s 234 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 368 ms
+Type: Generic
+
+Marker name: Puckle_Gun_Crank
+Position: 1 s 632 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 41 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 343 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 849 ms
+Type: Generic
+

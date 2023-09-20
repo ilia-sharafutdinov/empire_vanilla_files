@@ -1,0 +1,64 @@
+Marker name: Footstep_Walk
+Position: 325 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 543 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 641 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 1 s 463 ms
+Type: Generic
+
+Marker name: bodyfall_light
+Position: 1 s 794 ms
+Type: Generic
+
+Marker name: Bodyfall_Heavy
+Position: 2 s 210 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 2 s 625 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 2 s 679 ms
+Type: Generic
+
+Marker name: bayonet_impact_ground
+Position: 2 s 709 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 2 s 955 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 3 s 196 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 3 s 327 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 3 s 742 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 4 s 296 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 4 s 449 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 4 s 664 ms
+Type: Generic
+

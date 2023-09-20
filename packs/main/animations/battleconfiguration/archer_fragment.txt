@@ -1,0 +1,165 @@
+version 1
+
+// STAND --------------------------------------------------------------------------------------------------------------------------------
+STAND								filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_Stand.anim",								special = arrow_man
+STAND_TRAINED						filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_Stand.anim",								special = arrow_man				
+
+STAND_IDLE_1						filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_idle_1.anim",								special = arrow_man								blend_in_time = 0.25
+STAND_IDLE_2						filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_idle_2.anim",								special = arrow_man							blend_in_time = 0.25
+
+COMBAT_READY						filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_Stand.anim",								special = arrow_man
+AIM									filename = "Animations/MEN/ARCHER/ARC_FIRE/ARC_aim_med.anim",								special = arrow_man
+
+RELOAD_1							filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_Stand.anim",								special = arrow_man
+RELOAD_2							filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_Stand.anim",								special = arrow_man
+
+// MOVEMENT -----------------------------------------------------------------------------------------------------------------------------
+
+WALK_1								filename = "Animations/MEN/ARCHER/ARC_WALK/ARC_walk.anim",									special = arrow_man					
+
+RUN_1								filename = "Animations/MEN/ARCHER/ARC_Run/ARC_run.anim",									special = arrow_man							blend_in_time = 0.5
+
+COMBAT_READY_ADVANCE				filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_step_forward.anim",							special = arrow_man						blend_in_time = 0.25
+COMBAT_READY_RETREAT				filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_step_back.anim",							special = arrow_man							blend_in_time = 0.25
+COMBAT_READY_STEP_LEFT				filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_step_left.anim",							special = arrow_man							blend_in_time = 0.25
+COMBAT_READY_STEP_RIGHT				filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_step_right.anim",							special = arrow_man						blend_in_time = 0.25
+
+STEP_FORWARD						filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_step_forward.anim",							special = arrow_man					blend_in_time = 0.25
+STEP_BACKWARD						filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_step_back.anim",							special = arrow_man						blend_in_time = 0.25
+STEP_LEFT							filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_step_left.anim",							special = arrow_man					blend_in_time = 0.25
+STEP_RIGHT							filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_step_right.anim",							special = arrow_man							blend_in_time = 0.25
+
+STEP_FORWARD_CROUCH					filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Step_back.anim",							special = arrow_man
+STEP_BACKWARD_CROUCH				filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Step_Forward.anim",						special = arrow_man
+STEP_LEFT_CROUCH					filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Step_Left.anim",							special = arrow_man
+STEP_RIGHT_CROUCH					filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Step_Right.anim",							special = arrow_man
+
+STEP_FORWARD_TRAINED				filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_step_forward.anim",   						special = arrow_man							blend_in_time = 0.25
+STEP_BACKWARD_TRAINED				filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_step_back.anim",							special = arrow_man							blend_in_time = 0.25
+STEP_LEFT_TRAINED					filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_step_left.anim",  							special = arrow_man							blend_in_time = 0.25
+STEP_RIGHT_TRAINED					filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_step_right.anim",  							special = arrow_man							blend_in_time = 0.25
+
+// TURN --------------------------------------------------------------------------------------------------------------------------------
+TURN_LEFT_45						filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_ccw45.anim",								special = arrow_man							blend_in_time = 0.25
+TURN_RIGHT_45						filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_cw45.anim",									special = arrow_man							blend_in_time = 0.25
+TURN_LEFT_90						filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_ccw90.anim",								special = arrow_man							blend_in_time = 0.25
+TURN_RIGHT_90						filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_cw90.anim",									special = arrow_man							blend_in_time = 0.25
+TURN_LEFT_180						filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_cw180.anim",								special = arrow_man
+TURN_RIGHT_180						filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_cw180.anim",								special = arrow_man
+
+
+TURN_LEFT_TRAINED_45				filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_ccw45.anim",								special = arrow_man							blend_in_time = 0.25
+TURN_RIGHT_TRAINED_45				filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_cw45.anim",									special = arrow_man							blend_in_time = 0.25
+
+TURN_LEFT_CROUCH_45					filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Step_CCw45.anim",							special = arrow_man
+TURN_RIGHT_CROUCH_45				filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Step_CW45.anim",							special = arrow_man
+
+TURN_LEFT_CROUCH_90					filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Step_CCW90.anim",							special = arrow_man
+TURN_RIGHT_CROUCH_90				filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Step_CW90.anim",							special = arrow_man
+
+TURN_CROUCH_180						filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Step_CW180.anim",							special = arrow_man
+
+COMBAT_READY_TURN_LEFT_45			filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_ccw45.anim",								special = arrow_man							blend_in_time = 0.25
+COMBAT_READY_TURN_RIGHT_45			filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_cw45.anim",									special = arrow_man							blend_in_time = 0.25
+
+
+// TRANSITIONS --------------------------------------------------------------------------------------------------------------------------
+STAND_TO_WALK						filename = "Animations/MEN/ARCHER/ARC_WALK/ARC_stand_to_walk.anim",							special = arrow_man
+STAND_TO_PRONE						filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_stand_to_prone.anim",						special = arrow_man			
+
+STAND_TO_COMBAT_READY				filename = "Animations/MEN/ARCHER/ARC_TRANSITIONS/ARC_Stand_to_Combat_Ready.anim",			special = arrow_man		
+STAND_TRAINED_TO_COMBAT_READY		filename = "Animations/MEN/ARCHER/ARC_TRANSITIONS/ARC_Stand_to_Combat_Ready.anim",			special = arrow_man			
+
+COMBAT_READY_TO_STAND				filename = "Animations/MEN/ARCHER/ARC_TRANSITIONS/ARC_Combat_Ready_to_Stand.anim",			special = arrow_man				
+COMBAT_READY_TO_STAND_TRAINED		filename = "Animations/MEN/ARCHER/ARC_TRANSITIONS/ARC_Combat_Ready_to_Stand.anim",			special = arrow_man				
+COMBAT_READY_TO_COMBAT_READY_KNEEL	filename = "Animations/MEN/ARCHER/ARC_Kneel/ARC_HGuard_to_GKneel.anim",						special = arrow_man				blend_in_time = 0
+
+COMBAT_READY_TO_AIM					filename = "Animations/MEN/ARCHER/ARC_FIRE/ARC_stand_to_aim_med.anim",						special = arrow_man				blend_in_time = 0
+AIM_TO_COMBAT_READY					filename = "Animations/MEN/ARCHER/ARC_FIRE/ARC_aim_medium_to_stand.anim",												blend_in_time = 0
+
+COMBAT_READY_TO_RELOAD_1			filename = "Animations/MEN/ARCHER/ARC_FIRE/ARC_Reload.anim",								special = arrow_man				blend_in_time = 0
+COMBAT_READY_TO_RELOAD_2			filename = "Animations/MEN/ARCHER/ARC_FIRE/ARC_Reload.anim",								special = arrow_man				blend_in_time = 0
+RELOAD_TO_COMBAT_READY				filename = "Animations/MEN/ARCHER/ARC_STAND/ARC_Stand.anim",								special = arrow_man				blend_in_time = 0
+
+WALK_TO_STAND						filename = "Animations/MEN/ARCHER/ARC_WALK/ARC_stand_to_walk.anim",							special = arrow_man		
+WALK_TO_RUN							filename = "Animations/MEN/ARCHER/ARC_WALK/ARC_walk_to_run.anim",							special = arrow_man
+
+KNEEL_TO_CROUCH						filename = "Animations/MEN/ARCHER/ARC_Kneel/ARC_GKneel_to_Crouch.anim",						special = arrow_man
+CROUCH_TO_STAND						filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Crouch_to_Stand.anim",						special = arrow_man
+STAND_TO_CROUCH						filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Stand_to_Crouch.anim",						special = arrow_man
+CROUCH_TO_KNEEL						filename = "Animations/MEN/ARCHER/ARC_Kneel/ARC_Crouch_to_Gkneel.anim",						special = arrow_man
+
+CROUCH_TO_SNEAK						filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Crouch_to_Walk.anim",						special = arrow_man
+SNEAK_TO_CROUCH						filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Crwalk_to_Crouch.anim",					special = arrow_man
+
+TURN_LEFT_CROUCH_TO_WALK_180		filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Crouch_Turn_ccw180_to_CRwalk.anim",		special = arrow_man
+
+TURN_LEFT_CROUCH_TO_WALK_90			filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Crouch_Turn_ccw90_to_CRwalk.anim",			special = arrow_man
+TURN_RIGHT_CROUCH_TO_WALK_90		filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Crouch_Turn_cw90_to_CRwalk.anim",			special = arrow_man
+TURN_LEFT_CROUCH_TO_WALK_45			filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Crouch_Turn_ccw45_to_CRwalk.anim",			special = arrow_man
+TURN_RIGHT_CROUCH_TO_WALK_45		filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Crouch_Turn_cw45_to_CRwalk.anim",			special = arrow_man
+
+TURN_LEFT_TO_WALK_45				filename = "Animations/MEN/ARCHER/ARC_WALK/ARC_ccw45_to_walk.anim",							special = arrow_man					blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_45				filename = "Animations/MEN/ARCHER/ARC_WALK/ARC_cw45_to_walk.anim",							special = arrow_man						blend_in_time = 0.25
+TURN_LEFT_TO_WALK_90				filename = "Animations/MEN/ARCHER/ARC_WALK/ARC_ccw_90_to_walk.anim",						special = arrow_man						blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_90				filename = "Animations/MEN/ARCHER/ARC_WALK/ARC_cw90_to_walk.anim",							special = arrow_man						blend_in_time = 0.25
+TURN_LEFT_TO_WALK_180				filename = "Animations/MEN/ARCHER/ARC_WALK/ARC_ccw180_to_walk.anim",						special = arrow_man						blend_in_time = 0.25
+TURN_RIGHT_TO_WALK_180				filename = "Animations/MEN/ARCHER/ARC_WALK/ARC_cw180_to_walk.anim",							special = arrow_man						blend_in_time = 0.25
+
+// SNEAK --------------------------------------------------------------------------------------------------------------------------------
+SNEAK								filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Walk.anim",								special = arrow_man
+
+// CROUCH -------------------------------------------------------------------------------------------------------------------------------
+CROUCH								filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Crouch.anim",
+
+CROUCH_IDLE_1						filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_CRidle1.anim",								special = arrow_man			blend_in_time = 0.25
+CROUCH_IDLE_2						filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_CRidle2.anim",								special = arrow_man			blend_in_time = 0.25
+CROUCH_IDLE_3						filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_CRidle3.anim",								special = arrow_man			blend_in_time = 0.25
+CROUCH_IDLE_4						filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_CRidle4.anim",								special = arrow_man					blend_in_time = 0.25
+CROUCH_IDLE_5						filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_CRidle5.anim",								special = arrow_man
+
+
+
+
+// FALL AXE ANIMS ########################################################################################################################
+FALL_OVER_BACKWARDS					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FU_FALLDOWN_F1.anim",												primary_weapon = off, secondary_weapon = off, defensive = off, ambient = off, personal = off												
+FALL_OVER_FORWARDS					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FD_FALLDOWN_B1.anim",												primary_weapon = off, secondary_weapon = off, defensive = off, ambient = off, personal = off
+FALL_OVER_LEFTSIDE					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FU_FALLDOWN_R1.anim",												primary_weapon = off, secondary_weapon = off, defensive = off, ambient = off, personal = off
+FALL_OVER_RIGHTSIDE					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FD_FALLDOWN_L1.anim",												primary_weapon = off, secondary_weapon = off, defensive = off, ambient = off, personal = off
+FACE_DOWN_GET_UP					filename = "Animations/MEN/AXE/AXE_FACE_DOWN_GETUPS/AXE_FD_Getup_Slow.anim",										primary_weapon = off, secondary_weapon = off, defensive = off, ambient = off, personal = off		
+LYING_DOWN_FACE_DOWN				filename = "Animations/MEN/AXE/AXE_FACE_DOWN_GETUPS/AXE_FD_Idle.anim",												primary_weapon = off, secondary_weapon = off, defensive = off, ambient = off, personal = off
+FACE_UP_GET_UP						filename = "Animations/MEN/AXE/AXE_FACE_UP_GETUPS/AXE_FU_Getup_Slow.anim",											primary_weapon = off, secondary_weapon = off, defensive = off, ambient = off, personal = off
+LYING_DOWN_FACE_UP					filename = "Animations/MEN/AXE/AXE_FACE_UP_GETUPS/AXE_FU_Idle.anim",												primary_weapon = off, secondary_weapon = off, defensive = off, ambient = off, personal = off
+
+// END OF AXE AIMS ##############################################################################################################################
+
+FIRE								filename = "Animations/MEN/ARCHER/ARC_FIRE/ARC_fire_med.anim",								blend_in_time = 0
+
+
+
+CLIMB_UP_STAIRS						filename = "Animations/MEN/ARCHER/ARC_Stairs/ARC_climb_up_Stairs.anim",						special = arrow_man
+CLIMB_DOWN_STAIRS					filename = "Animations/MEN/ARCHER/ARC_Stairs/ARC_climb_down_Stairs.anim",					special = arrow_man
+
+CROSS_OBSTACLE_STAND_TO_STAND		filename = "Animations/MEN/ARCHER/ARC_Climb/ARC_Climb_Obstacle.anim",						special = arrow_man
+
+// MUSKET GUARD KNEEL ANIMS BODGE TO FIX LEE'S BUG #################################################################################################################
+
+COMBAT_READY_KNEEL					filename = "Animations/MEN/ARCHER/ARC_Kneel/ARC_GKneel.anim",						special = arrow_man
+COMBAT_READY_KNEEL_TO_COMBAT_READY	filename = "Animations/MEN/ARCHER/ARC_Kneel/ARC_GKneel_to_HGuard.anim",				special = arrow_man
+COMBAT_READY_KNEEL_TO_PRONE			filename = "Animations/MEN/ARCHER/ARC_Kneel/ARC_GKneel.anim",						special = arrow_man
+COMBAT_READY_KNEEL_TO_KNEEL_AIM		filename = "Animations/MEN/ARCHER/ARC_Kneel/ARC_GNeel_to_Mpoise.anim",				special = arrow_man
+COMBAT_READY_KNEEL_TO_KNEEL_RELOAD	filename = "Animations/MEN/ARCHER/ARC_Kneel/ARC_GKneel.anim",						special = arrow_man
+
+COMBAT_READY_TO_COMBAT_READY_KNEEL	filename = "Animations/MEN/ARCHER/ARC_Kneel/ARC_HGuard_to_GKneel.anim",				special = arrow_man
+
+KNEEL_AIM							filename = "Animations/MEN/ARCHER/ARC_Kneel/ARC_Kneel_Mpoise.anim",					special = arrow_man
+KNEEL_AIM_TO_COMBAT_READY_KNEEL		filename = "Animations/MEN/ARCHER/ARC_Kneel/ARC_Mpoise_to_GKneel.anim",				special = arrow_man						blend_in_time = 0
+
+KNEEL_FIRE							filename = "Animations/MEN/ARCHER/ARC_Kneel/ARC_GKneel_fire_mid.anim",				special = arrow_man						blend_in_time = 0
+
+KNEEL_RELOAD						filename = "Animations/MEN/ARCHER/ARC_Kneel/ARC_Reload.anim",						special = arrow_man	
+KNEEL_RELOAD_TO_COMBAT_READY_KNEEL	filename = "Animations/MEN/ARCHER/ARC_Kneel/ARC_GKneel.anim",						special = arrow_man							blend_in_time = 0
+
+KNEEL_TO_CROUCH						filename = "Animations/MEN/ARCHER/ARC_Kneel/ARC_GKneel_to_Crouch.anim",				special = arrow_man						blend_in_time = 0.25
+
+					

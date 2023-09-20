@@ -1,0 +1,43 @@
+version 1
+
+STAND					filename = "Animations/ANIMALS/CAMEL/Camel_Stand.anim"
+STAND_TO_WALK			filename = "Animations/ANIMALS/CAMEL/Camel_Stand_to_walk.anim",			blend_in_time =	0.5
+
+STAND_IDLE_1			filename = "Animations/ANIMALS/CAMEL/Camel_Stand.anim",					blend_in_time = 0.25
+STAND_IDLE_2			filename = "Animations/ANIMALS/CAMEL/Camel_Idle_2.anim",				blend_in_time = 0.25
+STAND_IDLE_3			filename = "Animations/ANIMALS/CAMEL/Camel_Idle_3.anim",				blend_in_time = 0.25
+
+CROSS_OBSTACLE_STAND_TO_STAND	filename = "Animations/ANIMALS/CAMEL/Camel_Stand_Climb.anim",				blend_in_time = 0.25
+
+WALK_1					filename = "Animations/ANIMALS/CAMEL/Camel_Walk.anim",					blend_in_time =	0.5
+WALK_TO_STAND			filename = "Animations/ANIMALS/CAMEL/Camel_Walk_to_Stand.anim",			blend_in_time =	0.5
+WALK_TO_RUN				filename = "Animations/ANIMALS/CAMEL/Camel_Walk_To_Run.anim",			blend_in_time =	0.5
+
+RUN_1					filename = "Animations/ANIMALS/CAMEL/Camel_Run.anim",					blend_in_time =	0.5
+RUN_TO_STAND			filename = "Animations/ANIMALS/CAMEL/Camel_Run_to_Stand.anim",			blend_in_time =	0.5
+RUN_TO_WALK				filename = "Animations/ANIMALS/CAMEL/Camel_Run_to_Walk.anim",			blend_in_time =	0.5
+RUN_TO_GALLOP			filename = "Animations/ANIMALS/CAMEL/Camel_Run_to_Gallop.anim",			blend_in_time =	0.5
+
+GALLOP					filename = "Animations/ANIMALS/CAMEL/Camel_Gallop.anim",				blend_in_time =	0.5
+GALLOP_TO_STAND			filename = "Animations/ANIMALS/CAMEL/Camel_Gallop_to_Stand.anim",		blend_in_time =	0.5
+GALLOP_TO_RUN			filename = "Animations/ANIMALS/CAMEL/Camel_Gallop_to_Run.anim",			blend_in_time =	0.5
+
+STEP_FORWARD			filename = "Animations/ANIMALS/CAMEL/Camel_Step_Forward.anim",			blend_in_time =	0.25
+STEP_BACKWARD			filename = "Animations/ANIMALS/CAMEL/Camel_Step_Back.anim",				blend_in_time =	0.25
+STEP_LEFT				filename = "Animations/ANIMALS/CAMEL/Camel_Step_Left.anim",				blend_in_time =	0.25
+STEP_RIGHT				filename = "Animations/ANIMALS/CAMEL/Camel_Step_Right.anim",			blend_in_time =	0.25
+
+TURN_LEFT_45			filename = "Animations/ANIMALS/CAMEL/Camel_Turn_ccw_45.anim",			blend_in_time =	0.25
+TURN_RIGHT_45			filename = "Animations/ANIMALS/CAMEL/Camel_Turn_cw_45.anim",			blend_in_time =	0.25
+TURN_LEFT_90			filename = "Animations/ANIMALS/CAMEL/Camel_Turn_CCW_90.anim",			blend_in_time =	0.25
+TURN_RIGHT_90			filename = "Animations/ANIMALS/CAMEL/Camel_Turn_CW_90.anim",			blend_in_time =	0.25
+TURN_LEFT_180			filename = "Animations/ANIMALS/CAMEL/Camel_Turn_180.anim",			blend_in_time =	0.25
+
+
+BE_MOUNTED_LEFT			filename = "Animations/ANIMALS/CAMEL/Camel_Stand.anim"
+BE_MOUNTED_RIGHT		filename = "Animations/ANIMALS/CAMEL/Camel_Stand.anim"
+
+BE_DISMOUNTED_LEFT		filename = "Animations/ANIMALS/CAMEL/Camel_Stand.anim"
+BE_DISMOUNTED_RIGHT		filename = "Animations/ANIMALS/CAMEL/Camel_Stand.anim"
+
+DEATH_STAND_1			filename = "Animations/ANIMALS/CAMEL/Deaths/Stand_Camel_Shot_001.anim"

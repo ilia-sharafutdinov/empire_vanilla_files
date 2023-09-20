@@ -1,0 +1,121 @@
+version 1
+
+STAND								filename = "Animations/MEN/AXE/AXE_Stand_Irregular/AXE_Stand.anim",
+STAND_TO_WALK						filename = "Animations/MEN/AXE/AXE_WALK/Axe_stand_to_walk.anim",
+STAND_TO_STAND_ALT_1				filename = "Animations/MEN/AXE/AXE_altstand1/Axe_altstand1.anim",			
+STAND_TO_STAND_ALT_2				filename = "Animations/MEN/AXE/AXE_altstand2/Axe_altstand2.anim",			
+STAND_TO_STAND_ALT_3				filename = "Animations/MEN/AXE/AXE_altstand3/Axe_altstand3.anim",			
+
+WALK_1								filename = "Animations/MEN/AXE/AXE_WALK/Axe_walk.anim",		
+WALK_2								filename = "Animations/MEN/AXE/AXE_Run_IR/Axe_run.anim",
+WALK_3								cancel
+WALK_4								cancel
+WALK_5								cancel					
+WALK_TO_STAND						filename = "Animations/MEN/AXE/AXE_WALK/Axe_walk_to_stand.anim",			
+WALK_TO_RUN							filename = "Animations/MEN/AXE/AXE_WALK/Axe_walk_to_run.anim",
+RUN_1								filename = "Animations/MEN/AXE/AXE_Run_IR/Axe_run.anim",
+RUN_2								cancel
+RUN_3								cancel
+RUN_4								cancel
+RUN_5								cancel	
+RUN_TO_WALK							filename = "Animations/MEN/AXE/AXE_Run_IR/Axe_run_to_walk.anim",		
+RUN_TO_STAND						filename = "Animations/MEN/AXE/AXE_Run_IR/Axe_run_to_stand.anim",		
+
+STEP_FORWARD						filename = "Animations/MEN/AXE/AXE_Stand_Irregular/AXE_Step_forward.anim",					
+STEP_BACKWARD						filename = "Animations/MEN/AXE/AXE_Stand_Irregular/AXE_Step_back.anim",						
+STEP_LEFT							filename = "Animations/MEN/AXE/AXE_Stand_Irregular/AXE_Step_left.anim",						
+STEP_RIGHT							filename = "Animations/MEN/AXE/AXE_Stand_Irregular/AXE_Step_right.anim",					
+
+TURN_LEFT_45						filename = "Animations/MEN/AXE/AXE_Stand_Irregular/AXE_cw45.anim",							
+TURN_RIGHT_45						filename = "Animations/MEN/AXE/AXE_Stand_Irregular/AXE_CCW45.anim",							
+
+TURN_LEFT_TO_WALK_45				filename = "Animations/MEN/AXE/AXE_WALK/Axe_ccw45_to_walk.anim",							
+TURN_RIGHT_TO_WALK_45				filename = "Animations/MEN/AXE/AXE_WALK/Axe_cw45_to_walk.anim",							
+TURN_LEFT_TO_WALK_90				filename = "Animations/MEN/AXE/AXE_WALK/Axe_ccw90_to_walk.anim",							
+TURN_RIGHT_TO_WALK_90				filename = "Animations/MEN/AXE/AXE_WALK/Axe_cw90_to_walk.anim",							
+TURN_RIGHT_TO_WALK_180				filename = "Animations/MEN/AXE/AXE_WALK/Axe_cw180_to_walk.anim",							
+
+COMBAT_READY_KNEEL					filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_GKneel.anim",						
+COMBAT_READY_KNEEL_TO_COMBAT_READY	filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Gkneel_to_Hguard.anim",						
+COMBAT_READY_KNEEL_TO_PRONE			filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_GKnee_to_prone.anim",							
+COMBAT_READY_KNEEL_TO_KNEEL_AIM		filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_GKneel_to_Mpoise.anim",						
+COMBAT_READY_KNEEL_TO_KNEEL_RELOAD	filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Gkneel_to_Kreload_01.anim",							
+
+PRONE								filename = "Animations/MEN/MUSKET/MUS_PRONE/MUS_prone.anim",
+
+AIM									filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Pistol_Aim_M.anim",									
+AIM_TO_COMBAT_READY					filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Pistol_Aim_M_to_Stand.anim",				blend_in_time = 0
+
+KNEEL_AIM							filename = "Animations/MEN/AXE/AXE_Pistol_Kneel/Axe_PistolK_Aim_M.anim",							
+KNEEL_AIM_TO_COMBAT_READY_KNEEL		filename = "Animations/MEN/AXE/AXE_Pistol_Kneel/Axe_PistolK_Aim_M_to_Stand.anim",		blend_in_time = 0
+
+FIRE								filename = "Animations/MEN/AXE/AXE_Pistol/Axe_Pistol_Fire_M.anim",						blend_in_time = 0
+
+KNEEL_FIRE							filename = "Animations/MEN/AXE/AXE_Pistol_Kneel/Axe_PistolK_Fire_M.anim",				blend_in_time = 0
+
+RELOAD_1							filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Reload_01.anim",								
+RELOAD_2							filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Reload_02.anim",								
+RELOAD_TO_COMBAT_READY				filename = "Animations/MEN/MUSKET/MUS_POISED/MUS_Reload_to_HG.anim",								blend_in_time = 0
+
+KNEEL_RELOAD						filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Kreload.anim",						
+KNEEL_RELOAD_TO_COMBAT_READY_KNEEL	filename = "Animations/MEN/MUSKET/MUS_KNEEL/MUS_Kreload_to_GKneel.anim",							blend_in_time = 0
+
+
+FACIAL_ANIMATION_BLINK_1			filename = "Animations/FacialAnimation/face_anim_blink1.anim",				
+FACIAL_ANIMATION_FROWN_1			filename = "Animations/FacialAnimation/face_anim_frown.anim",				
+FACIAL_ANIMATION_NARROW_EYES_1		filename = "Animations/FacialAnimation/face_anim_narrow_eyes.anim",			
+FACIAL_ANIMATION_SHOUT_1			filename = "Animations/FacialAnimation/face_anim_shout1.anim",				
+FACIAL_ANIMATION_SHOUT_2			filename = "Animations/FacialAnimation/face_anim_shout2.anim",				
+FACIAL_ANIMATION_SPEAK_1			filename = "Animations/FacialAnimation/face_anim_speak1.anim",				
+FACIAL_ANIMATION_SPEAK_2			filename = "Animations/FacialAnimation/face_anim_speak2.anim",				
+FACIAL_ANIMATION_SPEAK_3			filename = "Animations/FacialAnimation/face_anim_speak3.anim",				
+FACIAL_ANIMATION_SURPRISE_1			filename = "Animations/FacialAnimation/face_anim_surprise.anim",			
+
+FIX_BAYONET							filename = "Animations/MEN/MUSKET/MUS_UNIQUE_ACTIONS/MUS_Bayonet.anim",					
+
+CROUCH								filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH.anim",
+SNEAK								filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CRWALK.anim",
+
+STEP_FORWARD_CROUCH					filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_STEP_BACK.anim",
+STEP_BACKWARD_CROUCH				filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_STEP_FORWARD.anim",
+STEP_LEFT_CROUCH					filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_STEP_LEFT.anim",
+STEP_RIGHT_CROUCH					filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_STEP_RIGHT.anim",
+
+TURN_LEFT_CROUCH_45					filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CCW45.anim",
+TURN_RIGHT_CROUCH_45				filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CW45.anim",
+
+TURN_LEFT_CROUCH_90					filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CCW90.anim",
+TURN_RIGHT_CROUCH_90				filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CW90.anim",
+
+TURN_CROUCH_180						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_180.anim",
+
+CROUCH_TO_STAND						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TO_STAND.anim",
+STAND_TO_CROUCH						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_STAND_TO_CROUCH.anim",
+CROUCH_TO_KNEEL						filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_CROUCH_TO_KNEEL.anim",
+KNEEL_TO_CROUCH						filename = "Animations/MEN/MUSKET/MUS_CROUCH/MUS_KNEEL_TO_CROUCH.anim",
+
+CROUCH_TO_SNEAK						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TO_CRWALK.anim",
+SNEAK_TO_CROUCH						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CRWALK_TO_CROUCH.anim",
+TURN_LEFT_CROUCH_TO_WALK_180		filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_180_TO_WALK.anim",
+TURN_LEFT_CROUCH_TO_WALK_90			filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CCW90_TO_WALK.anim",
+TURN_RIGHT_CROUCH_TO_WALK_90		filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CW90_TO_WALK.anim",
+TURN_LEFT_CROUCH_TO_WALK_45			filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CCW45_TO_WALK.anim",
+TURN_RIGHT_CROUCH_TO_WALK_45		filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_CW45_TO_WALK.anim",
+
+CROUCH_IDLE_1						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_IDLE_1.anim",					blend_in_time = 0.25
+CROUCH_IDLE_2						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_IDLE_2.anim",					blend_in_time = 0.25
+CROUCH_IDLE_3						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_IDLE_3.anim",					blend_in_time = 0.25
+CROUCH_IDLE_4						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_IDLE_4.anim",					blend_in_time = 0.25
+CROUCH_IDLE_5						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_IDLE_4.anim",	
+
+CLIMB_UP_STAIRS						filename = "Animations/MEN/AXE/AXE_STAIRS/AXE_Up_Stairs.anim",
+CLIMB_DOWN_STAIRS					filename = "Animations/MEN/AXE/AXE_STAIRS/AXE_Down_Stairs.anim",
+
+FALL_OVER_BACKWARDS					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FU_FALLDOWN_F1.anim",
+FALL_OVER_FORWARDS					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FD_FALLDOWN_B1.anim",
+FALL_OVER_LEFTSIDE					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FU_FALLDOWN_R1.anim",
+FALL_OVER_RIGHTSIDE					filename = "Animations/MEN/AXE/AXE_FALLDOWN/AXE_FD_FALLDOWN_L1.anim",
+FACE_DOWN_GET_UP					filename = "Animations/MEN/SABRE/SAB_FACE_DOWN_GETUPS/SAB_FD_Get_Up_Slow.anim",		
+FACE_UP_GET_UP						filename = "Animations/MEN/SABRE/SAB_FACE_UP_GETUPS/SAB_FU_Get_Up_Slow.anim",
+LYING_DOWN_FACE_DOWN				filename = "Animations/MEN/AXE/AXE_FACE_DOWN_GETUPS/AXE_FD_Idle.anim",
+LYING_DOWN_FACE_UP					filename = "Animations/MEN/AXE/AXE_FACE_UP_GETUPS/AXE_FU_Idle.anim",

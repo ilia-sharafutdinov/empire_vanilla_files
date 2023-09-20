@@ -1,0 +1,12 @@
+xp_level	melee_attack	melee_defense	core_reloading_skill	morale	core_marksmanship	fatigue	mp_fixed_cost	mp_experience_cost_multiplier
+#unit_stats_land_experience_bonuses_tables;0;db/unit_stats_land_experience_bonuses_tables/unit_stats_land_experience_bonuses								
+0	0	0	0	0	0	0	0	1.0000
+1	1	1	2	1	2	0	20	1.1000
+2	2	2	4	1	4	0	45	1.2000
+3	3	3	6	2	6	0	75	1.3000
+4	4	4	8	2	8	0	110	1.4000
+5	5	5	10	3	10	-1	150	1.5000
+6	6	6	12	3	12	-1	195	1.6000
+7	7	7	14	4	14	-2	245	1.7000
+8	8	8	16	4	16	-2	300	1.8000
+9	9	9	18	5	18	-3	360	1.9000

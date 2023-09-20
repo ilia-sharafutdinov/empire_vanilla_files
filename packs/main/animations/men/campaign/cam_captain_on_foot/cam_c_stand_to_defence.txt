@@ -1,0 +1,12 @@
+Marker name: human_foley_medium
+Position: 632 ms
+Type: Generic
+
+Marker name: SWORD_DRAW
+Position: 1 s 284 ms
+Type: Generic
+
+Marker name: FOOTSTEP_run
+Position: 1 s 498 ms
+Type: Generic
+

@@ -1,0 +1,76 @@
+Marker name: FOOTSTEP_WALK
+Position: 655 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 853 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 994 ms
+Type: Generic
+
+Marker name: bayonet_impact_sword
+Position: 1 s 11 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 1 s 172 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 644 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 840 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 2 s 253 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 384 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 944 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 3 s 396 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 557 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 749 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 444 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 792 ms
+Type: Generic
+
+Marker name: sword_swoosh
+Position: 4 s 862 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 5 s 184 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 5 s 534 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 5 s 663 ms
+Type: Generic
+

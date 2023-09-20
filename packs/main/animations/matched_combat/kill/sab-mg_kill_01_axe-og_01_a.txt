@@ -1,0 +1,48 @@
+Marker name: FOOTSTEP_RUN
+Position: 918 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 938 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 929 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 284 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 618 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 956 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 320 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 911 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 235 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 737 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 5 s 208 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 5 s 484 ms
+Type: Generic
+

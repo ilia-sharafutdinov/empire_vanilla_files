@@ -1,0 +1,6 @@
+key	index	fallback_ui_culture
+#cultures_tables;0;db/cultures_tables/cultures		
+european	1	
+indian	5	middle_east
+middle_east	2	indian
+tribal	3	european

@@ -1,0 +1,44 @@
+Marker name: sword_impact_ground
+Position: 233 ms
+Type: Generic
+
+Marker name: shiedl_impact_ground
+Position: 292 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 314 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 674 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 737 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 114 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 1 s 719 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 1 s 965 ms
+Type: Generic
+
+Marker name: equipmetnt_rattle
+Position: 2 s 85 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 2 s 348 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 2 s 617 ms
+Type: Generic
+

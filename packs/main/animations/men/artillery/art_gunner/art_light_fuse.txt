@@ -1,0 +1,24 @@
+Marker name: Footstep_Walk
+Position: 1 s 13 ms
+Type: Generic
+
+Marker name: Cannon_Light_Fuse
+Position: 1 s 790 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 733 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 3 s 869 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 6 s 954 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 7 s 649 ms
+Type: Generic
+

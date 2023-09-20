@@ -1,0 +1,19 @@
+version 1
+
+RIDER_SHOOT_READY						filename = "Animations/MEN/HORSE_RIDER/C_ARC/C_ARC_Sit.anim",							blend_in_time = 0.25
+RIDER_SHOOT_READY_TO_RIDER_RELOAD		filename = "Animations/MEN/HORSE_RIDER/C_ARC/C_ARC_Sit.anim",							blend_in_time = 0.25
+
+RIDER_RELOAD							filename = "Animations/MEN/HORSE_RIDER/C_ARC/C_ARC_Sit.anim",							blend_in_time = 0.25
+RIDER_RELOAD_TO_RIDER_SHOOT_READY		filename = "Animations/MEN/HORSE_RIDER/C_ARC/C_ARC_Sit.anim",							blend_in_time = 0.25
+
+RIDER_FIRE_FORWARD_LOW					filename = "Animations/MEN/HORSE_RIDER/C_ARC/C_ARC_F_FIRE_LOW.anim",					blend_in_time = 0.25	special = arrow_rider
+RIDER_FIRE_FORWARD_LEVEL				filename = "Animations/MEN/HORSE_RIDER/C_ARC/C_ARC_F_FIRE_LEVEL.anim",					blend_in_time = 0.25	special = arrow_rider
+RIDER_FIRE_FORWARD_HIGH					filename = "Animations/MEN/HORSE_RIDER/C_ARC/C_ARC_F_FIRE_HIGH.anim",					blend_in_time = 0.25	special = arrow_rider
+
+RIDER_FIRE_LEFT_LOW						filename = "Animations/MEN/HORSE_RIDER/C_ARC/C_ARC_L_FIRE_LOW.anim",					blend_in_time = 0.25	special = arrow_rider
+RIDER_FIRE_LEFT_LEVEL					filename = "Animations/MEN/HORSE_RIDER/C_ARC/C_ARC_L_FIRE_LEVEL.anim",					blend_in_time = 0.25	special = arrow_rider
+RIDER_FIRE_LEFT_HIGH					filename = "Animations/MEN/HORSE_RIDER/C_ARC/C_ARC_L_FIRE_HIGH.anim",					blend_in_time = 0.25	special = arrow_rider
+
+RIDER_FIRE_RIGHT_LOW					filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_R_FIRE_LOW.anim",					blend_in_time = 0.25	special = arrow_rider
+RIDER_FIRE_RIGHT_LEVEL					filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_R_FIRE_LEVEL.anim",					blend_in_time = 0.25	special = arrow_rider
+RIDER_FIRE_RIGHT_HIGH					filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_R_FIRE_HIGH.anim",					blend_in_time = 0.25	special = arrow_rider

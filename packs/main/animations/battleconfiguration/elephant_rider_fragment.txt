@@ -1,0 +1,93 @@
+version 1
+
+STAND								filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Stand.anim"
+
+RIDER_STAND							filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Stand.anim"
+RIDER_STAND_TO_WALK					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Stand_to_Walk.anim"
+
+RIDER_STAND_IDLE_1					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Stand_Idle_1.anim"
+RIDER_STAND_IDLE_2					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Stand_Idle_2.anim"
+RIDER_STAND_IDLE_3					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Stand_Idle_3.anim"
+
+RIDER_CROSS_OBSTACLE_STAND_TO_STAND		filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Stand_Climb.anim"
+
+RIDER_WALK							filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Walk.anim"
+RIDER_WALK_TO_STAND					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Walk_to_Stand.anim"
+RIDER_WALK_TO_RUN					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Walk_to_RUn.anim"
+
+RIDER_RUN							filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Run.anim"
+RIDER_RUN_TO_STAND					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Run_to_Stand.anim"
+RIDER_RUN_TO_WALK					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Run_to_Walk.anim"
+
+RIDER_STEP_FORWARD					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Step_Forward.anim"
+RIDER_STEP_BACKWARD					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Step_Back.anim"
+RIDER_STEP_LEFT						filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Step_Left.anim"
+RIDER_STEP_RIGHT					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Step_Right.anim"
+
+RIDER_TURN_LEFT_45					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_CcW45.anim"
+RIDER_TURN_RIGHT_45					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_CW45.anim"
+RIDER_TURN_LEFT_90					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_CCW90.anim"
+RIDER_TURN_RIGHT_90					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_CW90.anim"
+RIDER_TURN_LEFT_180					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_180ccw.anim"
+RIDER_TURN_RIGHT_180				filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_180.anim"
+
+RIDER_DEATH_STAND_1					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Deaths/Rider1_Stand_Elephant_Shot_001.anim"
+
+// RIDER LANCE ATTACK ANIMS----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RIDER_CHARGE_SYNCHED				filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Charge_Attack.anim",blend_in_time = 0.5	primary_weapon = off, secondary_weapon = on, defensive = off, ambient = on, personal = off		equipment_usage = lance
+
+RIDER_ATTACK_1						filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_LG_Thrust_Level.anim",				blend_in_time = 0.25		primary_weapon = off, secondary_weapon = on, defensive = off, ambient = on, personal = off		equipment_usage = lance
+RIDER_ATTACK_2						filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_LG_Thrust_low.anim",					blend_in_time = 0.25		primary_weapon = off, secondary_weapon = on, defensive = off, ambient = on, personal = off		equipment_usage = lance
+RIDER_ATTACK_3						filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_RG_Thrust_level.anim",				blend_in_time = 0.25		primary_weapon = off, secondary_weapon = on, defensive = off, ambient = on, personal = off		equipment_usage = lance	
+RIDER_ATTACK_4						filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_RG_Thrust_low.anim",					blend_in_time = 0.25		primary_weapon = off, secondary_weapon = on, defensive = off, ambient = on, personal = off		equipment_usage = lance
+RIDER_ATTACK_5						filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_FG_Thrust_level.anim",				blend_in_time = 0.25		primary_weapon = off, secondary_weapon = on, defensive = off, ambient = on, personal = off		equipment_usage = lance	
+RIDER_ATTACK_6						filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_FG_Thrust_low.anim",					blend_in_time = 0.25		primary_weapon = off, secondary_weapon = on, defensive = off, ambient = on, personal = off		equipment_usage = lance
+
+RIDER_ATTACK_BLOCKED_1				filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_FGuard_Block.anim",					blend_in_time = 0.25		primary_weapon = off, secondary_weapon = on, defensive = off, ambient = on, personal = off		equipment_usage = lance
+
+RIDER_CHARGE						filename = "Animations/MEN/HORSE_RIDER/C_LAN/E_LAN_Charge_Guard.anim",					blend_in_time = 0.5			primary_weapon = off, secondary_weapon = on, defensive = off, ambient = on, personal = off		equipment_usage = lance
+
+RIDER_CHARGE_ATTACK_1				filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_CG_Thrust_low.anim",					blend_in_time = 0.25		primary_weapon = off, secondary_weapon = on, defensive = off, ambient = on, personal = off		equipment_usage = lance
+RIDER_CHARGE_ATTACK_2				filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_RG_Thrust_level.anim",				blend_in_time = 0.25		primary_weapon = off, secondary_weapon = on, defensive = off, ambient = on, personal = off		equipment_usage = lance
+
+RIDER_COMBAT_READY					filename = "Animations/MEN/HORSE_RIDER/C_LAN/C_LAN_FGuard.anim",						blend_in_time = 0.25		primary_weapon = off, secondary_weapon = on, defensive = off, ambient = on, personal = off
+
+RIDER_MOUNT_ATTACK_1				filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Standing_Attack_Low_1.anim"
+RIDER_MOUNT_ATTACK_2				filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_1/Elephant_Rider_1_Rear_and_Stomp.anim"
+
+// RIDER MUSKET ATTACK ANIMS----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RIDER_SHOOT_READY					filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CARB_Sit.anim",							blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+RIDER_SHOOT_READY_TO_RIDER_RELOAD	filename = "Animations/MEN/HORSE_RIDER/C_CAR/E_CAR_Sit_to_Reload.anim",					blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+
+RIDER_RELOAD						filename = "Animations/MEN/HORSE_RIDER/C_CAR/E_CAR_Reload2.anim",						blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+RIDER_RELOAD_TO_RIDER_SHOOT_READY	filename = "Animations/MEN/HORSE_RIDER/C_CAR/E_CAR_Reload_to_Sit.anim",					blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+
+RIDER_FIRE_FORWARD_LOW				filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_F_FIRE_LOW.anim",					blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+RIDER_FIRE_FORWARD_LEVEL			filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_F_FIRE_LEVEL.anim",					blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+RIDER_FIRE_FORWARD_HIGH				filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_F_FIRE_HIGH.anim",					blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+
+RIDER_FIRE_LEFT_LOW					filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_L_FIRE_LOW.anim",					blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+RIDER_FIRE_LEFT_LEVEL				filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_L_FIRE_LEVEL.anim",					blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+RIDER_FIRE_LEFT_HIGH				filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_L_FIRE_HIGH.anim",					blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+
+RIDER_FIRE_RIGHT_LOW				filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_R_FIRE_LOW.anim",					blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+RIDER_FIRE_RIGHT_LEVEL				filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_R_FIRE_LEVEL.anim",					blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+RIDER_FIRE_RIGHT_HIGH				filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_R_FIRE_HIGH.anim",					blend_in_time = 0.25		primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+
+
+// RIDER DISMOUNT --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+RIDER_DISMOUNT_LEFT					filename = "Animations/MEN/HORSE_RIDER/H_Rider_Dismount.anim"
+RIDER_DISMOUNT_RIGHT				filename = "Animations/MEN/HORSE_RIDER/H_Rider_Dismount_Right.anim"
+
+FALL_OVER_BACKWARDS					filename = "Animations/MEN/MUSKET/MUS_FALLDOWN/MUS_FU_FALLDOWN_F1.anim",
+FALL_OVER_FORWARDS					filename = "Animations/MEN/MUSKET/MUS_FALLDOWN/MUS_FD_FALLDOWN_B1.anim",
+FALL_OVER_LEFTSIDE					filename = "Animations/MEN/MUSKET/MUS_FALLDOWN/MUS_FU_FALLDOWN_R1.anim",
+FALL_OVER_RIGHTSIDE					filename = "Animations/MEN/MUSKET/MUS_FALLDOWN/MUS_FD_FALLDOWN_L1.anim",
+FACE_DOWN_GET_UP					filename = "Animations/MEN/MUSKET/MUS_FACE_DOWN_GETUPS/MUS_FD_Getup_Slow.anim",		
+FACE_UP_GET_UP						filename = "Animations/MEN/MUSKET/MUS_FACE_UP_GETUPS/MUS_FU_Getup_Slow.anim",	
+LYING_DOWN_FACE_DOWN				filename = "Animations/MEN/MUSKET/MUS_FACE_DOWN_GETUPS/MUS_FD_Idle.anim",
+LYING_DOWN_FACE_UP					filename = "Animations/MEN/MUSKET/MUS_FACE_UP_GETUPS/MUS_FU_Idle.anim",

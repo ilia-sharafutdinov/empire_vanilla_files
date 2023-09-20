@@ -1,0 +1,8 @@
+Marker name: Footstep_Walk
+Position: 139 ms
+Type: Generic
+
+Marker name: Footstep_WALK
+Position: 530 ms
+Type: Generic
+

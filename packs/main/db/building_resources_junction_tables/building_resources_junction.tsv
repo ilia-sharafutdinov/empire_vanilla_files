@@ -1,0 +1,9 @@
+building	resource	build_cost_reduction
+#building_resources_junction_tables;0;db/building_resources_junction_tables/building_resources_junction		
+cannon_foundry	res_iron	0.0500
+ceramics_factory	res_iron	0.0500
+great_arsenal	res_iron	0.0500
+ordnance_factory	res_iron	0.0500
+steam_engine_factory	res_iron	0.0500
+steam-powered_cloth_mill	res_iron	0.0500
+water-powered_cloth_mill	res_iron	0.0500

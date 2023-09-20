@@ -1,0 +1,284 @@
+version 1
+
+// This missing anim, will prevent crash except for when there's a missing anim in a non-man slot, like for instance horse or elephant
+MISSING_ANIM								filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Stand.anim",							blend_in_time = 0.4
+
+JUMP										filename = "Animations/MEN/ARTILLERY/ART_JUMP/ART_Jump01_Take0ff.anim",						blend_in_time = 0.4
+FALL_CONTROLLED								filename = "Animations/MEN/ARTILLERY/ART_JUMP/ART_Jump01_Cycle_1.anim"
+FALL_FLAILING								filename = "Animations/MEN/ARTILLERY/ART_JUMP/ART_Jump01_Cycle_2.anim"
+FALL_TUMBLING								filename = "Animations/MEN/ARTILLERY/ART_JUMP/ART_Jump01_Spin_Cycle.anim"
+ANTICIPATE_LANDING							filename = "Animations/MEN/ARTILLERY/ART_JUMP/ART_Jump01_Anticipation.anim"
+LAND_WITH_MOVEMENT							filename = "Animations/MEN/ARTILLERY/ART_JUMP/ART_Jump01_Land01.anim"
+LAND_ON_SPOT								filename = "Animations/MEN/ARTILLERY/ART_JUMP/ART_Jump01_Land02.anim"
+LAND_DEATH									filename = "Animations/MEN/ARTILLERY/ART_JUMP/ART_Jump_Land_Death.anim"
+
+SEA_FLOATING_FLAIL_1						filename = "Animations/MEN/SEA/SEA_FLAIL/SEA_Flailing_in_water_1.anim"
+SEA_FLOATING_FLAIL_2						filename = "Animations/MEN/SEA/SEA_FLAIL/SEA_Flailing_in_water_2.anim"
+SEA_FLOATING_FLAIL_3						filename = "Animations/MEN/SEA/SEA_FLAIL/SEA_Flailing_in_water_3.anim"
+SEA_FLOATING_FLAIL_4						filename = "Animations/MEN/SEA/SEA_FLAIL/SEA_Flailing_in_water_4.anim"
+
+SEA_FLOATING_DEAD_1							filename = "Animations/MEN/SEA/SEA_FLAIL/SEA_Floating_Body_1.anim"
+SEA_FLOATING_DEAD_2							filename = "Animations/MEN/SEA/SEA_FLAIL/SEA_Floating_Body_2.anim"
+
+
+FACIAL_ANIMATION_BLINK_1					filename = "Animations/FacialAnimation/face_anim_blink1.anim",
+FACIAL_ANIMATION_FROWN_1					filename = "Animations/FacialAnimation/face_anim_frown.anim",
+FACIAL_ANIMATION_NARROW_EYES_1				filename = "Animations/FacialAnimation/face_anim_narrow_eyes.anim",
+FACIAL_ANIMATION_SHOUT_1					filename = "Animations/FacialAnimation/face_anim_shout1.anim",
+FACIAL_ANIMATION_SHOUT_2					filename = "Animations/FacialAnimation/face_anim_shout2.anim",
+FACIAL_ANIMATION_SPEAK_1					filename = "Animations/FacialAnimation/face_anim_speak1.anim",
+FACIAL_ANIMATION_SPEAK_2					filename = "Animations/FacialAnimation/face_anim_speak2.anim",
+FACIAL_ANIMATION_SPEAK_3					filename = "Animations/FacialAnimation/face_anim_speak3.anim",
+FACIAL_ANIMATION_SURPRISE_1					filename = "Animations/FacialAnimation/face_anim_surprise.anim",
+
+GRAPPLE_STAND_TO_SWING						filename = "Animations/MEN/ARTILLERY/ART_GRAPPLE/ART_Stand_to_Grapple_Swing.anim",
+GRAPPLE_SWING								filename = "Animations/MEN/ARTILLERY/ART_GRAPPLE/ART_Grapple_Swing.anim",
+GRAPPLE_SWING_TO_THROW						filename = "Animations/MEN/ARTILLERY/ART_GRAPPLE/ART_Grapple_Swing_to_Throw_to_Pull.anim",
+GRAPPLE_PULL								filename = "Animations/MEN/ARTILLERY/ART_GRAPPLE/ART_Grapple_Pull.anim",
+GRAPPLE_PULL_TO_STAND						filename = "Animations/MEN/ARTILLERY/ART_GRAPPLE/ART_Grapple_Pull_to_Stand.anim",
+
+BOARDING_PLANK_PICKUP						filename = "Animations/MEN/ARTILLERY/ART_PLANK/ART_plank_part1.anim",
+BOARDING_PLANK_LIFT							filename = "Animations/MEN/ARTILLERY/ART_PLANK/ART_plank_part2.anim",
+BOARDING_PLANK_DROP							filename = "Animations/MEN/ARTILLERY/ART_PLANK/ART_plank_part3.anim",
+
+STAND_TO_STAND_NO_WEAPON					filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Stand.anim"
+
+STAND_NO_WEAPON								filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_stand.anim"
+STAND_NO_WEAPON_TO_STAND					filename = "Animations/MEN/MUSKET/MUS_STAND_IRREGULAR/MUS_Stand.anim"
+
+STAND_NO_WEAPON_WALK						filename = "Animations/MEN/AXE/AXE_WALK/AXE_Walk.anim"
+
+STAND_NO_WEAPON_RUN							filename = "Animations/MEN/AXE/AXE_Run_IR/Axe_run.anim",						blend_in_time = 0.5
+
+STAND_NO_WEAPON_STEP_FORWARD				filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_step_Forward.anim"
+STAND_NO_WEAPON_STEP_BACKWARD				filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_step_Back.anim"
+STAND_NO_WEAPON_STEP_LEFT					filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_step_Left.anim"
+STAND_NO_WEAPON_STEP_RIGHT					filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_step_Right.anim"
+
+STAND_NO_WEAPON_TURN_LEFT_45				filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_CCW45.anim"
+STAND_NO_WEAPON_TURN_RIGHT_45				filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_CW45.anim"
+STAND_NO_WEAPON_TURN_LEFT_90				filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_CCW90.anim"
+STAND_NO_WEAPON_TURN_RIGHT_90				filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_CW90.anim"
+STAND_NO_WEAPON_TURN_LEFT_180				filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_CW180.anim"
+STAND_NO_WEAPON_TURN_RIGHT_180				filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_CW180.anim"
+
+//STAND_NO_WEAPON_TURN_LEFT_TO_WALK_45		filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_RSTAND_CCW45_to_walk.anim"
+//STAND_NO_WEAPON_TURN_RIGHT_TO_WALK_45		filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_RSTAND_CW45_to_walk.anim"
+//STAND_NO_WEAPON_TURN_LEFT_TO_WALK_90		filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_RSTAND_CCW90_to_walk.anim"
+//STAND_NO_WEAPON_TURN_RIGHT_TO_WALK_90		filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_RSTAND_CW90_to_walk.anim"
+//STAND_NO_WEAPON_TURN_LEFT_TO_WALK_180		filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_RSTAND_CW180_to_walk.anim"
+//STAND_NO_WEAPON_TURN_RIGHT_TO_WALK_180	filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_RSTAND_CW180_to_walk.anim"
+
+
+STAND_NO_WEAPON_IDLE_1						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Idle1.anim",						blend_in_time = 0.5
+STAND_NO_WEAPON_IDLE_2						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Idle2.anim",						blend_in_time = 0.5
+STAND_NO_WEAPON_IDLE_3						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Idle3.anim",						blend_in_time = 0.5
+STAND_NO_WEAPON_IDLE_4						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Idle4.anim",						blend_in_time = 0.5
+
+
+//default walks.......
+
+WALK_1										filename = "Animations/MEN/AXE/AXE_Walk/Axe_walk.anim",	
+WALK_2										filename = "Animations/MEN/AXE/AXE_RUN_IR/Axe_run.anim",
+WALK_TO_STAND								filename = "Animations/MEN/AXE/Axe_Walk/Axe_walk_to_stand.anim",			
+RUN_1										filename = "Animations/MEN/AXE/AXE_Run_IR/Axe_run.anim",							blend_in_time = 0.5
+
+WALK_JUMP									filename = "Animations/MEN/AXE/AXE_CLIMB/Axe_walk_climb_obstacle1.anim",
+RUN_JUMP									filename = "Animations/MEN/AXE/AXE_CLIMB/Axe_run_climb_obstacle1.anim",				blend_in_time = 0.5
+
+// SPECIAL ANIMS -------------------------------------------------------------------------------------------------------------------
+GRENADIER							filename = "Animations/MEN/MUSKET/MUS_GRENADIER/MUS_GRENADIER.anim",						blend_in_time = 0.1		primary_weapon = off, secondary_weapon = off, defensive = off, ambient = on, personal = off,	special = grenade
+DEPLOY_WOODEN_STAKES				filename = "Animations/MEN/MUSKET/MUS_UNIQUE_ACTIONS/MUS_STAKE_PLANT.anim",					blend_in_time = 0.25	primary_weapon = off, secondary_weapon = off, defensive = off, ambient = on, personal = off,	special = wooden_stake
+
+
+// CANNON CREW ---------------------------------------------------------------------------------------------------------------------
+
+STAND_FOR_STOKE_TO_STOKE					filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_RStand_to_Stoke.anim",			special = cannon_ramrod
+
+STAND_TO_PUSH_ENGINE_LEFT_READY				filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_Stand_to_L_Push.anim"
+STAND_TO_PUSH_ENGINE_RIGHT_READY			filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_Stand_to_R_Push.anim"
+
+PUSH_ENGINE_LEFT_READY						filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_L_Push_Ready.anim"
+PUSH_ENGINE_LEFT_FORWARDS					filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_L_Push.anim"
+PUSH_ENGINE_LEFT_BACKWARDS					filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_L_Pull_Shuffle.anim"
+
+PUSH_ENGINE_RIGHT_READY						filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_R_Push_Ready.anim"
+PUSH_ENGINE_RIGHT_FORWARDS					filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_R_Push.anim"
+PUSH_ENGINE_RIGHT_BACKWARDS					filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_R_Pull_Shuffle.anim"
+
+LIGHT_FUSE									filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_Light_Fuse.anim"
+LOAD_CANNON									filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_Load_Cannon.anim",					special = cannon_ball
+STOKE										filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_Stoke.anim",						special = cannon_ramrod
+STOKE_TO_STAND_FOR_STOKE					filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_Stoke_to_Rstand.anim",				special = cannon_ramrod
+
+
+LOAD_MORTAR									filename = "Animations/MEN/ARTILLERY/ART_MORTAR/ART_Load_Mortar.anim",					special = cannon_ball
+LIGHT_MORTAR								filename = "Animations/MEN/ARTILLERY/ART_N_GUNNER/ART_N_Light_Fuse.anim"
+MORTAR_STOKE								filename = "Animations/MEN/ARTILLERY/ART_MORTAR/ART_STOKE_MORTAR.anim"					special = cannon_ramrod
+MORTAR_STOKE_TO_STAND_FOR_STOKE				filename = "Animations/MEN/ARTILLERY/ART_MORTAR/ART_STOKE_MORTAR_TO_ART_RSTAND.anim"	special = cannon_ramrod
+MORTAR_STAND_FOR_STOKE_TO_STOKE				filename = "Animations/MEN/ARTILLERY/ART_MORTAR/ART_TO_STOKE_MORTAR.anim"				special = cannon_ramrod
+
+
+LOAD_ROCKET									filename = "Animations/MEN/ARTILLERY/ART_ROCKET/ART_Load_Rocket.anim",					special = rocket
+SET_ROCKET									filename = "Animations/MEN/ARTILLERY/ART_MORTAR/ART_Load_Mortar.anim"
+LIGHT_ROCKET								filename = "Animations/MEN/ARTILLERY/ART_ROCKET/ART_Light_Rocket.anim"
+
+
+NAVAL_LIGHT_FUSE							filename = "Animations/MEN/ARTILLERY/ART_N_GUNNER/ART_N_Light_Fuse.anim"
+NAVAL_LOAD_CANNON							filename = "Animations/MEN/ARTILLERY/ART_N_GUNNER/ART_N_Load_Ball.anim",				special = cannon_ball
+NAVAL_PUSH									filename = "Animations/MEN/ARTILLERY/ART_N_GUNNER/ART_N_Push_Cannon_left.anim"
+
+FORT_LIGHT_FUSE								filename = "Animations/MEN/ARTILLERY/ART_N_GUNNER/ART_N_Light_Fuse.anim"
+FORT_PUSH									filename = "Animations/MEN/ARTILLERY/ART_N_GUNNER/ART_N_Push_Cannon.anim"
+
+
+NAVAL_STOKE									filename = "Animations/MEN/ARTILLERY/ART_N_GUNNER/ART_N_RAM.anim",						special = cannon_ramrod
+NAVAL_STOKE_TO_STAND_FOR_STOKE				filename = "Animations/MEN/ARTILLERY/ART_N_GUNNER/ART_N_RAM_to_StandR.anim",			special = cannon_ramrod
+NAVAL_STAND_FOR_STOKE_TO_STOKE				filename = "Animations/MEN/ARTILLERY/ART_N_GUNNER/ART_N_RStand_To_Ram.anim",			special = cannon_ramrod
+
+STAND_TO_STAND_FOR_STOKE					filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_Stand_to_StandR.anim",				special = cannon_ramrod
+
+STAND_FOR_STOKE								filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_Rstand.anim",						special = cannon_ramrod
+STAND_FOR_STOKE_TO_STAND					filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_StandR_to_Stand.anim",				special = cannon_ramrod
+
+STAND_FOR_STOKE_WALK						filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_RWalk.anim",						special = cannon_ramrod
+
+STAND_FOR_STOKE_STEP_FORWARD				filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_RStand_step_Forward.anim",			special = cannon_ramrod
+STAND_FOR_STOKE_STEP_BACKWARD				filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_RStand_step_Back.anim",				special = cannon_ramrod
+STAND_FOR_STOKE_STEP_LEFT					filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_RStand_step_Left.anim",				special = cannon_ramrod
+STAND_FOR_STOKE_STEP_RIGHT					filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_RStand_step_Right.anim",			special = cannon_ramrod
+
+STAND_FOR_STOKE_TURN_LEFT_45				filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_Rstand_CCW45.anim",					special = cannon_ramrod
+STAND_FOR_STOKE_TURN_RIGHT_45				filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_Rstand_CW45.anim",					special = cannon_ramrod
+STAND_FOR_STOKE_TURN_LEFT_90				filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_Rstand_CCW90.anim",					special = cannon_ramrod
+STAND_FOR_STOKE_TURN_RIGHT_90				filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_Rstand_CW90.anim",					special = cannon_ramrod
+STAND_FOR_STOKE_TURN_LEFT_180				filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_Rstand_CW180.anim",					special = cannon_ramrod
+STAND_FOR_STOKE_TURN_RIGHT_180				filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_Rstand_CW180.anim",					special = cannon_ramrod
+
+STAND_FOR_STOKE_TURN_LEFT_TO_WALK_45		filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_RSTAND_CCW45_to_walk.anim",			special = cannon_ramrod
+STAND_FOR_STOKE_TURN_RIGHT_TO_WALK_45		filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_RSTAND_CW45_to_walk.anim",			special = cannon_ramrod
+STAND_FOR_STOKE_TURN_LEFT_TO_WALK_90		filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_RSTAND_CCW90_to_walk.anim",			special = cannon_ramrod
+STAND_FOR_STOKE_TURN_RIGHT_TO_WALK_90		filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_RSTAND_CW90_to_walk.anim",			special = cannon_ramrod
+STAND_FOR_STOKE_TURN_LEFT_TO_WALK_180		filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_RSTAND_CCW180_to_walk.anim",		special = cannon_ramrod
+STAND_FOR_STOKE_TURN_RIGHT_TO_WALK_180		filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_RSTAND_CW180_to_walk.anim",			special = cannon_ramrod
+
+STAND_FOR_STOKE_IDLE_1						filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_Rstand_Idle_1.anim",				special = cannon_ramrod
+STAND_FOR_STOKE_IDLE_2						filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_Rstand_Idle_2.anim",				special = cannon_ramrod
+STAND_FOR_STOKE_IDLE_3						filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_Rstand_Idle_3.anim",				special = cannon_ramrod
+STAND_FOR_STOKE_IDLE_4						filename = "Animations/MEN/ARTILLERY/ART_RSTAND/ART_Rstand_Idle_4.anim",				special = cannon_ramrod
+
+COVER_EARS_L								filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_Cover_Ears_L.anim"
+COVER_EARS_R								filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_Cover_Ears_R.anim"
+COVER_EARS_S								filename = "Animations/MEN/ARTILLERY/ART_GUNNER/ART_Cover_Ears_S.anim"					special = cannon_ramrod
+
+KNOCKBACK_1									filename = "Animations/MEN/AXE/AXE_IMPACTS/AXE_Impact_B1.anim",						primary_weapon = off, secondary_weapon = off, defensive = off
+KNOCKBACK_2									filename = "Animations/MEN/AXE/AXE_IMPACTS/AXE_Impact_F1.anim",						primary_weapon = off, secondary_weapon = off, defensive = off
+KNOCKBACK_3									filename = "Animations/MEN/AXE/AXE_IMPACTS/AXE_Impact_F1.anim",						primary_weapon = off, secondary_weapon = off, defensive = off
+KNOCKBACK_4									filename = "Animations/MEN/AXE/AXE_IMPACTS/AXE_Impact_L1.anim",						primary_weapon = off, secondary_weapon = off, defensive = off
+KNOCKBACK_5									filename = "Animations/MEN/AXE/AXE_IMPACTS/AXE_Impact_R1.anim",						primary_weapon = off, secondary_weapon = off, defensive = off
+
+KNOCKDOWN_1									filename = "Animations/MEN/AXE/AXE_KNOCKDOWN/AXE_KNOCKDOWN_B1.anim",				primary_weapon = off, secondary_weapon = off, defensive = off
+KNOCKDOWN_2									filename = "Animations/MEN/AXE/AXE_KNOCKDOWN/AXE_KNOCKDOWN_F1.anim",				primary_weapon = off, secondary_weapon = off, defensive = off
+KNOCKDOWN_3									filename = "Animations/MEN/AXE/AXE_KNOCKDOWN/AXE_KNOCKDOWN_L1.anim",				primary_weapon = off, secondary_weapon = off, defensive = off
+KNOCKDOWN_4									filename = "Animations/MEN/AXE/AXE_KNOCKDOWN/AXE_KNOCKDOWN_R1.anim",				primary_weapon = off, secondary_weapon = off, defensive = off
+
+KNOCKED_FLYING_1							filename = "Animations/MEN/ARTILLERY/ART_Air_Impact_Loop/ART_Air_Impact_Loop.anim",	primary_weapon = off, secondary_weapon = off, defensive = off
+
+WOUNDED_FRONT_IDLE							filename = "Animations/MEN/MUSKET/MUS_FACE_DOWN_GETUPS/MUS_FD_Idle.anim",			primary_weapon = off, secondary_weapon = off, defensive = off
+WOUNDED_FRONT_INJURY1						filename = "Animations/MEN/MUSKET/MUS_FACE_DOWN_GETUPS/MUS_FD_Injury_1.anim",		primary_weapon = off, secondary_weapon = off, defensive = off
+WOUNDED_FRONT_INJURY2						filename = "Animations/MEN/MUSKET/MUS_FACE_DOWN_GETUPS/MUS_FD_Injury_2.anim",		primary_weapon = off, secondary_weapon = off, defensive = off
+WOUNDED_FRONT_INJURY3						filename = "Animations/MEN/MUSKET/MUS_FACE_DOWN_GETUPS/MUS_FD_Injury_3.anim",		primary_weapon = off, secondary_weapon = off, defensive = off
+WOUNDED_FRONT_CRAWL							filename = "Animations/MEN/MUSKET/MUS_FACE_DOWN_GETUPS/MUS_FD_Crawl.anim",			primary_weapon = off, secondary_weapon = off, defensive = off
+
+WOUNDED_BACK_IDLE							filename = "Animations/MEN/MUSKET/MUS_FACE_UP_GETUPS/MUS_FU_Idle.anim",				primary_weapon = off, secondary_weapon = off, defensive = off
+WOUNDED_BACK_INJURY1						filename = "Animations/MEN/MUSKET/MUS_FACE_UP_GETUPS/MUS_FU_Injury_1.anim",			primary_weapon = off, secondary_weapon = off, defensive = off
+WOUNDED_BACK_INJURY2						filename = "Animations/MEN/MUSKET/MUS_FACE_UP_GETUPS/MUS_FU_Injury_2.anim",			primary_weapon = off, secondary_weapon = off, defensive = off
+WOUNDED_BACK_CRAWL							filename = "Animations/MEN/MUSKET/MUS_FACE_UP_GETUPS/MUS_FU_Crawl.anim",			primary_weapon = off, secondary_weapon = off, defensive = off
+
+//PLACEHOLDERS!
+
+STAND_FOR_FIRE_PUCKLE_GUN					filename = "Animations/MEN/ARTILLERY/ART_PUCKLE/ART_Buckle_Fire.anim"
+LOAD_PUCKLE									filename = "Animations/MEN/ARTILLERY/ART_PUCKLE/ART_Load_Puckle.anim"
+
+SMASH_WINDOW								filename = "Animations/MEN/ARTILLERY/ART_UNIQUE_ACTIONS/ART_SMASH_WINDOW.anim",													
+
+// PETE'S COMMANDS ------------------------------------------------------------------------------------------------------------------------------
+ACTION_1							filename = "Animations/MEN/PETE/PETE_CAV_COM1_02.anim",	
+ACTION_2							filename = "Animations/MEN/PETE/PETE_CAV_COM2_03.anim",	
+ACTION_3							filename = "Animations/MEN/PETE/PETE_INFO_CAM1_11.anim",	
+ACTION_4							filename = "Animations/MEN/PETE/PETE_INFO_CAM2_02.anim",	
+ACTION_5							filename = "Animations/MEN/PETE/PETE_NAV_COM1_05.anim",
+ACTION_6							filename = "Animations/MEN/PETE/PETE_NAV_COM2_01.anim",	
+ACTION_7							filename = "Animations/MEN/PETE/EPISODIC/Panic_one.anim",
+ACTION_8							filename = "Animations/MEN/PETE/EPISODIC/Panic_three.anim",
+ACTION_9							filename = "Animations/MEN/PETE/EPISODIC/Panic_two.anim",
+ACTION_10							filename = "Animations/MEN/PETE/EPISODIC/sALute_1.anim",
+ACTION_11							filename = "Animations/MEN/PETE/EPISODIC/sALute_2.anim"
+ACTION_12							filename = "Animations/MEN/PETE/EPISODIC/GW_overlooking_burning_town.anim",
+ACTION_13							filename = "Animations/MEN/PETE/EPISODIC/GW_TENT.anim",
+ACTION_14							filename = "Animations/MEN/PETE/EPISODIC/Native__american_behind_tree.anim",
+ACTION_15							filename = "Animations/MEN/PETE/EPISODIC/Indian_chief_.anim",
+ACTION_16							filename = "Animations/MEN/PETE/EPISODIC/Native__american_behind_tree2.anim",
+ACTION_17							filename = "Animations/MEN/PETE/EPISODIC/NEW_Native__american_behind_tree_Reverse.anim",
+ACTION_18							filename = "Animations/MEN/PETE/EPISODIC/NEW_Native__american_behind_tree.anim",
+ACTION_19							filename = "Animations/MEN/PETE/EPISODIC/John_smith_Pulls_out_sword_1.anim",
+ACTION_20							filename = "Animations/MEN/PETE/EPISODIC/Nervous_sword_3.anim",
+ACTION_21							filename = "Animations/MEN/PETE/EPISODIC/Nervous_sword_1.anim",
+ACTION_22							filename = "Animations/MEN/PETE/EPISODIC/John's_hand_on_sword.anim",
+ACTION_23							filename = "Animations/MEN/PETE/EPISODIC/Nervous_sword_2.anim",
+ACTION_24							filename = "Animations/MEN/PETE/EPISODIC/Misc_nervous__sword.anim",
+ACTION_25							filename = "Animations/MEN/PETE/EPISODIC/Misc_nervous__Muskeet.anim",							primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_26							filename = "Animations/MEN/PETE/EPISODIC/Misc_nervous__Open_sword.anim",
+ACTION_27							filename = "Animations/MEN/PETE/EPISODIC/BRITISH_SOLDIER_A002.anim",							primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_28							filename = "Animations/MEN/PETE/EPISODIC/BRITISH_SOLDIER_A003.anim",							primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_29							filename = "Animations/MEN/PETE/EPISODIC/BRITISH_SOLDIER_A004.anim",							primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_30							filename = "Animations/MEN/PETE/EPISODIC/BRITISH_SOLDIER_KNEELING_A3.anim",						primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_31							filename = "Animations/MEN/PETE/EPISODIC/FRENCH_COMMANDER01.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_32							filename = "Animations/MEN/PETE/EPISODIC/FRENCH_COMMANDER02.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_33							filename = "Animations/MEN/PETE/EPISODIC/FRENCH_COMMANDER03.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_34							filename = "Animations/MEN/PETE/EPISODIC/FRENCH_SOLDIER_A.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_35							filename = "Animations/MEN/PETE/EPISODIC/FRENCH_SOLDIER_A001.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_36							filename = "Animations/MEN/PETE/EPISODIC/FRENCH_SOLDIER_A003.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_37							filename = "Animations/MEN/PETE/EPISODIC/FRENCH_SOLDIER_A004.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_38							filename = "Animations/MEN/PETE/EPISODIC/FRENCH_SOLDIER_B.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_39							filename = "Animations/MEN/PETE/EPISODIC/FRENCH_SOLDIER_B001.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_40							filename = "Animations/MEN/PETE/EPISODIC/FRENCH_SOLDIER_B002.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_41							filename = "Animations/MEN/PETE/EPISODIC/FRENCH_SOLDIER_C.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_42							filename = "Animations/MEN/PETE/EPISODIC/JAMES_TOWN_GUARD01.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_43							filename = "Animations/MEN/PETE/EPISODIC/JAMES_TOWN_GUARD02.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_44							filename = "Animations/MEN/PETE/EPISODIC/John_smith_on_deck01.anim",							primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_45							filename = "Animations/MEN/PETE/EPISODIC/John_smith_on_deck02.anim",							primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_46							filename = "Animations/MEN/PETE/EPISODIC/Misc_nervous__Pistol.anim",
+ACTION_47							filename = "Animations/MEN/PETE/EPISODIC/Misc_nervous__Pistol2.anim",
+ACTION_48							filename = "Animations/MEN/PETE/EPISODIC/SCALPING_03_crawler.anim",
+ACTION_49							filename = "Animations/MEN/PETE/EPISODIC/SCALPING_03_Native.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_50							filename = "Animations/MEN/PETE/EPISODIC/ThrowingTchest.anim",									primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_51							filename = "Animations/MEN/PETE/EPISODIC/ThrowingTchest2.anim",									primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_52							filename = "Animations/MEN/PETE/EPISODIC/Cheer_1.anim",											
+ACTION_53							filename = "Animations/MEN/PETE/EPISODIC/Cheer_2.anim",											
+ACTION_54							filename = "Animations/MEN/PETE/EPISODIC/Indian_Gaurd_dude_1.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_55							filename = "Animations/MEN/PETE/EPISODIC/Indian_Gaurd_dude_2.anim",								primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off
+ACTION_56							filename = "Animations/MEN/PETE/EPISODIC/Tpointer.anim",
+ACTION_57							filename = "Animations/MEN/PETE/EPISODIC/Cheerer_02.anim",
+ACTION_58							filename = "Animations/MEN/PETE/EPISODIC/Cheerer_01.anim",
+ACTION_59							filename = "Animations/MEN/PETE/EPISODIC/Carrying_two.anim",
+ACTION_60							filename = "Animations/MEN/PETE/EPISODIC/Carrying_Three.anim",
+ACTION_61							filename = "Animations/MEN/PETE/EPISODIC/Carrying_one.anim",
+ACTION_62							filename = "Animations/MEN/PETE/EPISODIC/TChest_Pick-UP.anim",							
+ACTION_63							filename = "Animations/MEN/PETE/EPISODIC/a_3_musketeers.anim",
+ACTION_64							filename = "Animations/MEN/PETE/EPISODIC/a_3_musketeers_2.anim",
+ACTION_65							filename = "Animations/MEN/PETE/EPISODIC/a_3_musketeers_3.anim",
+ACTION_66							filename = "Animations/MEN/PETE/EPISODIC/a_dditional_Nervous_sword001.anim",
+ACTION_67							filename = "Animations/MEN/PETE/EPISODIC/a_Nervous_or_Johnsmith_sword001.anim",
+ACTION_68							filename = "Animations/MEN/PETE/EPISODIC/a_Nervous_pistal001.anim",
+ACTION_69							filename = "Animations/MEN/PETE/EPISODIC/a_Nervous_pistol002.anim",
+ACTION_70							filename = "Animations/MEN/PETE/EPISODIC/a_Nervous_sword_3.anim",
+ACTION_71							filename = "Animations/MEN/PETE/EPISODIC/additional_muskeet_nervous_walk.anim",
+//ACTION_72							filename = "Animations/MEN/PETE/EPISODIC/a_Indian_dude_B.anim",
+//ACTION_73							filename = "Animations/MEN/PETE/EPISODIC/a_Indian_dude_C.anim",
+
+
+
+
+
+

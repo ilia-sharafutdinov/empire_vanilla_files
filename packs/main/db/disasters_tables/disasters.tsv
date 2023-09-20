@@ -1,0 +1,9 @@
+key	frequency	season	one_year_warning	linked_to_object	climate_restriction	minimum_scale	maximum_scale
+#disasters_tables;0;db/disasters_tables/disasters							
+dustbowl	0.0000	both	false	n	hot_dry	2.0000	5.0000
+earthquake	20.0000	both	false	n	n	2.0000	5.0000
+flood	10.0000	summer	false	rivers	n	2.0000	5.0000
+hurricane	10.0000	summer	false	n	tropical	2.0000	5.0000
+locusts	0.0000	both	false	n	hot_dry	2.0000	5.0000
+storm	4.0000	both	false	n	n	2.0000	5.0000
+volcano	50.0000	both	true	volcano	n	2.0000	5.0000

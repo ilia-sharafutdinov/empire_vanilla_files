@@ -1,0 +1,44 @@
+Marker name: EQUIPMENT_RATTLE
+Position: 415 ms
+Type: Generic
+
+Marker name: HAND_GRAB
+Position: 502 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 585 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 16 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 646 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 951 ms
+Type: Generic
+
+Marker name: HAND_GRAB
+Position: 2 s 312 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 2 s 405 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 3 s 170 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 4 s 547 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 4 s 722 ms
+Type: Generic
+

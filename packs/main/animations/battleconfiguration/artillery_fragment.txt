@@ -1,0 +1,28 @@
+version 1
+
+STAND								filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Stand.anim",
+
+STEP_FORWARD						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Step_forward.anim",						blend_in_time = 0.25
+STEP_BACKWARD						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Step_back.anim",							blend_in_time = 0.25
+STEP_LEFT							filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Step_left.anim",							blend_in_time = 0.25
+STEP_RIGHT							filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Step_right.anim",						blend_in_time = 0.25
+
+TURN_LEFT_45						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_CCW45.anim",								blend_in_time = 0.25
+TURN_RIGHT_45						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_cw45.anim",								blend_in_time = 0.25
+TURN_LEFT_90						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_ccw90.anim",								blend_in_time = 0.25
+TURN_RIGHT_90						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_cw90.anim",								blend_in_time = 0.25
+TURN_LEFT_180						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_cw180.anim",								blend_in_time = 0.25
+TURN_RIGHT_180						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_ccw180.anim",								blend_in_time = 0.25
+
+STAND_TRAINED						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Stand.anim",
+
+STAND_IDLE_1						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Idle1.anim",								blend_in_time = 0.25
+STAND_IDLE_2						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Idle2.anim",								blend_in_time = 0.25
+STAND_IDLE_3						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Idle3.anim",								blend_in_time = 0.25
+STAND_IDLE_4						filename = "Animations/MEN/ARTILLERY/ART_STAND/ART_Idle4.anim",								blend_in_time = 0.25
+
+
+FALL_OVER_BACKWARDS					filename = "Animations/MEN/ARTILLERY/ART_FALLDOWN/ART_FU_FALLDOWN_F1.anim",
+FALL_OVER_FORWARDS					filename = "Animations/MEN/ARTILLERY/ART_FALLDOWN/ART_FD_FALLDOWN_B1.anim",
+FALL_OVER_LEFTSIDE					filename = "Animations/MEN/ARTILLERY/ART_FALLDOWN/ART_FU_FALLDOWN_R1.anim",
+FALL_OVER_RIGHTSIDE					filename = "Animations/MEN/ARTILLERY/ART_FALLDOWN/ART_FD_FALLDOWN_L1.anim",

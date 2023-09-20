@@ -1,0 +1,13 @@
+type	movement_modifier	can_ambush
+#campaign_ground_types_tables;0;db/campaign_ground_types_tables/campaign_ground_types		
+dense_forest	0.0000	true
+desert	0.6000	false
+grassland	0.9000	false
+hills	0.6000	true
+hilly_light_forest	0.4000	true
+jungle	0.0000	false
+light_forest	0.5000	true
+marsh	0.4000	true
+plains	1.3000	false
+swamp	0.2000	true
+tundra	0.8000	false

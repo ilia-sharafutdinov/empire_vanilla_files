@@ -1,0 +1,9 @@
+version 1
+
+STAND						filename = "Animations/Engine/mortar/mortar_anim_idle.anim"
+
+TURN_LEFT_45				filename = "Animations/Engine/mortar/mortar_anim_turnleft.anim",	blend_in_time = 0.25
+TURN_RIGHT_45				filename = "Animations/Engine/mortar/mortar_anim_turnright.anim",	blend_in_time = 0.25
+
+FIRE						filename = "Animations/Engine/mortar/mortar_anim_fire.anim"
+RETURN_TO_FIRING_POSITION	filename = "Animations/Engine/mortar/mortar_anim_idle.anim"

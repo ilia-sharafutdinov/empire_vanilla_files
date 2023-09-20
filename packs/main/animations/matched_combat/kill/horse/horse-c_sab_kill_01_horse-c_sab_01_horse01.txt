@@ -1,0 +1,84 @@
+Marker name: FOOTSTEP_WALK
+Position: 423 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 877 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 930 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 317 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 506 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 622 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 870 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 82 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 2 s 320 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 2 s 483 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 2 s 623 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 3 s 169 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 3 s 215 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 3 s 404 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 669 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 965 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 81 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 244 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 360 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 547 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 812 ms
+Type: Generic
+

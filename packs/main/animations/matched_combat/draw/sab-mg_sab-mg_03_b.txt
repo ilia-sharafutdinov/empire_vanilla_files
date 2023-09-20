@@ -1,0 +1,32 @@
+Marker name: FOOTSTEP_WALK
+Position: 684 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 760 ms
+Type: Generic
+
+Marker name: FOOTSTEP_run
+Position: 1 s 82 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 357 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 545 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 61 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 2 s 251 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 801 ms
+Type: Generic
+

@@ -1,0 +1,28 @@
+Marker name: FOOTSTEP_WALK
+Position: 111 ms
+Type: Generic
+
+Marker name: human_foley_medium
+Position: 174 ms
+Type: Generic
+
+Marker name: shield_impact_ground
+Position: 481 ms
+Type: Generic
+
+Marker name: sword_impact_ground
+Position: 667 ms
+Type: Generic
+
+Marker name: human_foley_medium
+Position: 816 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 1 s 723 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 1 s 837 ms
+Type: Generic
+

@@ -1,0 +1,7 @@
+tax_level	percentage
+#taxes_levels_tables;0;db/taxes_levels_tables/taxes_levels	
+tax_extortionate	25
+tax_high	20
+tax_low	10
+tax_minimal	5
+tax_normal	15

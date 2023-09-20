@@ -1,0 +1,84 @@
+Marker name: Footstep_Walk
+Position: 331 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 952 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 364 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 643 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 759 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 2 s 676 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 2 s 833 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 3 s 1000 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 4 s 63 ms
+Type: Generic
+
+Marker name: Kick
+Position: 4 s 441 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 4 s 726 ms
+Type: Generic
+
+Marker name: Bodyfall_Heavy
+Position: 4 s 981 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 5 s 265 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 6 s 275 ms
+Type: Generic
+
+Marker name: Musket_impact_body
+Position: 6 s 310 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 6 s 756 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 7 s 703 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 7 s 964 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 8 s 231 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 8 s 580 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 8 s 610 ms
+Type: Generic
+

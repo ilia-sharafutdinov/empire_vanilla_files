@@ -1,0 +1,44 @@
+Marker name: FOOTSTEP_TURN
+Position: 155 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 484 ms
+Type: Generic
+
+Marker name: HAND_GRAB
+Position: 709 ms
+Type: Generic
+
+Marker name: Cannon_Light_Fuse
+Position: 874 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 1 s 200 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 311 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 1 s 910 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 977 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 495 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 872 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 184 ms
+Type: Generic
+

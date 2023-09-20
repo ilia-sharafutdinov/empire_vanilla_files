@@ -1,0 +1,24 @@
+key	anim_set	agent_key	culture_key
+#campaign_character_anim_set_agent_junctions_tables;0;db/campaign_character_anim_set_agent_junctions_tables/campaign_character_anim_set_agent_junctions			
+1	rake	assassin	
+2	default_ship	admiral	
+3	rake	rake	
+4	default_human	bandit	
+5	default_ship	captain	
+6	missionary	catholic_missionary	
+7	default_human	colonel	
+8	scholar	Eastern_Scholar	
+9	default_human	General	
+10	gentleman	gentleman	
+11	missionary	indian_missionary	
+12	missionary	middle_east_missionary	
+13	default_human	minister	
+14	missionary	orthodox_missionary	
+15	default_ship	pirate	
+16	missionary	Protestant_Missionary	
+19	thugee	assassin	indian
+21	eastern_ship	admiral	indian
+22	eastern_ship	admiral	middle_east
+23	eastern_ship	captain	indian
+24	eastern_ship	captain	middle_east
+25	eastern_ship	captain	tribal

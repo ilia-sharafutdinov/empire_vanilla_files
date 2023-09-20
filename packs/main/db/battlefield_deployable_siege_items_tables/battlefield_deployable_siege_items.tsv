@@ -1,0 +1,5 @@
+key	siege_point_cost	turns_to_build	string	icon_name	info_pic
+#battlefield_deployable_siege_items_tables;0;db/battlefield_deployable_siege_items_tables/battlefield_deployable_siege_items					
+ladder	50	1	Ladders	ladder	placeholder
+petardier	50	1	Petardier	petardier	placeholder
+sap_point	50	2	Sap Point	sap_point	placeholder

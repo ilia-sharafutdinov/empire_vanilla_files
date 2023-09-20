@@ -1,0 +1,52 @@
+Marker name: FootStep_Run
+Position: 168 ms
+Type: Generic
+
+Marker name: FootStep_Walk
+Position: 466 ms
+Type: Generic
+
+Marker name: FootStep_Walk
+Position: 1 s 138 ms
+Type: Generic
+
+Marker name: FootStep_Walk
+Position: 1 s 312 ms
+Type: Generic
+
+Marker name: FootStep_Walk
+Position: 1 s 489 ms
+Type: Generic
+
+Marker name: FootStep_Turn
+Position: 1 s 840 ms
+Type: Generic
+
+Marker name: FootStep_Turn
+Position: 1 s 919 ms
+Type: Generic
+
+Marker name: kick
+Position: 2 s 49 ms
+Type: Generic
+
+Marker name: FootStep_Walk
+Position: 2 s 273 ms
+Type: Generic
+
+Marker name: Bodyfall_Heavy
+Position: 3 s 53 ms
+Type: Generic
+
+Marker name: kick
+Position: 5 s 863 ms
+Type: Generic
+
+Marker name: bayonet_hit_flesh
+Position: 7 s 3 ms
+Type: Generic
+
+Marker name: Bodyfall_Light
+Position: 7 s 989 ms
+Type: Generic
+

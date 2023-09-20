@@ -1,0 +1,12 @@
+Marker name: Equipment_Rattle
+Position: 1 s 68 ms
+Type: Generic
+
+Marker name: sword_draw
+Position: 1 s 760 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 2 s 290 ms
+Type: Generic
+

@@ -1,0 +1,7 @@
+key	onscreen_name	contagion_chance	duration_turns	mortality_per_turn
+#diseases_tables;0;db/diseases_tables/diseases				
+bloody_flux	Bloody Flux	0.2000	8.0000	0.0100
+cholera	Cholera	0.3000	4.0000	0.0500
+malaria	Malaria	0.0000	10.0000	0.0200
+plague	Plague	0.6600	3.0000	0.2000
+smallpox	Smallpox	0.8000	3.0000	0.1300

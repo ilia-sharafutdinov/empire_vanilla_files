@@ -1,0 +1,5 @@
+ministerial_position	gov_type
+#ministerial_position_default_names_tables;0;db/ministerial_position_default_names_tables/ministerial_position_default_names	
+governor_europe	gov_absolute_monarchy
+governor_europe	gov_constitutional_monarchy
+governor_europe	gov_republic

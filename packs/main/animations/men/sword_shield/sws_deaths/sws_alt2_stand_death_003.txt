@@ -1,0 +1,44 @@
+Marker name: FOOTSTEP_WALK
+Position: 375 ms
+Type: Generic
+
+Marker name: shield_impact_ground
+Position: 647 ms
+Type: Generic
+
+Marker name: sword_impact_ground
+Position: 837 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 875 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 620 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 789 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 1 s 987 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 2 s 198 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 3 s 887 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 6 s 107 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 6 s 260 ms
+Type: Generic
+

@@ -1,0 +1,60 @@
+Marker name: FOOTSTEP_RUN
+Position: 67 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 183 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 254 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 689 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 805 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 876 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 277 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 393 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 464 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 881 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 997 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 2 s 68 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 2 s 443 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 2 s 559 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 2 s 630 ms
+Type: Generic
+

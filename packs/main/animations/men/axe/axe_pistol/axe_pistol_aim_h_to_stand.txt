@@ -1,0 +1,8 @@
+Marker name: pistol_sheath
+Position: 1 s 178 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 344 ms
+Type: Generic
+

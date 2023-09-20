@@ -1,0 +1,16 @@
+Marker name: Footstep_Walk
+Position: 402 ms
+Type: Generic
+
+Marker name: cannon_ram_in
+Position: 1 s 45 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 65 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 1 s 74 ms
+Type: Generic
+

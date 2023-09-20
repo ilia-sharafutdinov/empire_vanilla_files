@@ -1,0 +1,16 @@
+Marker name: HAND_GRAB
+Position: 803 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 658 ms
+Type: Generic
+
+Marker name: rocket_load
+Position: 1 s 717 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 685 ms
+Type: Generic
+

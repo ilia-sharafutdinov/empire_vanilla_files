@@ -1,0 +1,28 @@
+version 1
+
+STAND						filename = "Animations/Engine/Cannon/CANNON_anim_idle.anim"
+
+STEP_FORWARD				filename = "Animations/Engine/Cannon/CANNON_anim_idle.anim"
+STEP_BACKWARD				filename = "Animations/Engine/Cannon/CANNON_anim_idle.anim"
+
+TURN_LEFT_45				filename = "Animations/Engine/Cannon/CANNON_anim_idle.anim"
+TURN_RIGHT_45				filename = "Animations/Engine/Cannon/CANNON_anim_idle.anim"
+
+FIRE						filename = "Animations/Engine/Cannon/CANNON_anim_idle.anim"
+AIM							filename = "Animations/Engine/Cannon/CANNON_anim_idle.anim"
+RETURN_TO_FIRING_POSITION	filename = "Animations/Engine/Cannon/CANNON_anim_idle.anim"
+
+
+
+
+ENGINE_LIMBER				filename = "Animations/Engine/Cannon/field_cannon_anim_limber_up.anim"
+ENGINE_UNLIMBER				filename = "Animations/Engine/Cannon/field_cannon_anim_limber_down.anim"
+
+ENGINE_LIMBERED				filename = "Animations/Engine/Cannon/field_cannon_anim_limbered_idle.anim"
+
+ENGINE_LIMBERED_FORWARDS	filename = "Animations/Engine/Cannon/field_cannon_anim_limbered_move_forward.anim",		blend_in_time = 0.25
+ENGINE_LIMBERED_BACKWARDS	filename = "Animations/Engine/Cannon/field_cannon_anim_limbered_move_backwards.anim",	blend_in_time = 0.25
+
+ENGINE_LIMBERED_TURN_LEFT	filename = "Animations/Engine/Cannon/field_cannon_anim_limbered_turnleft.anim",			blend_in_time = 0.25
+ENGINE_LIMBERED_TURN_RIGHT	filename = "Animations/Engine/Cannon/field_cannon_anim_limbered_turnright.anim",		blend_in_time = 0.25
+

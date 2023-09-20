@@ -1,0 +1,24 @@
+Marker name: FOOTSTEP_TURN
+Position: 1 s 560 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 2 s 326 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 2 s 400 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 4 s 2 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 5 s 350 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 5 s 370 ms
+Type: Generic
+

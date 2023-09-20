@@ -1,0 +1,16 @@
+Marker name: FOOTSTEP_RUN
+Position: 47 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 317 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 489 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 603 ms
+Type: Generic
+

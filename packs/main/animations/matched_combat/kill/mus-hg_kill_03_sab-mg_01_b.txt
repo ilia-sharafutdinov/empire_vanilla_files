@@ -1,0 +1,32 @@
+Marker name: bayonet_hit_flesh
+Position: 743 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 46 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 1 s 66 ms
+Type: Generic
+
+Marker name: bayonet_hit_flesh
+Position: 2 s 14 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 2 s 102 ms
+Type: Generic
+
+Marker name: Musket_Impact_Body
+Position: 2 s 843 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 3 s 840 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 4 s 179 ms
+Type: Generic
+

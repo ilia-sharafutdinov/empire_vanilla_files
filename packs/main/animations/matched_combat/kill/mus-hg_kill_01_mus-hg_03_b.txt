@@ -1,0 +1,48 @@
+Marker name: bayonet_hit_flesh
+Position: 784 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 949 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 1 s 30 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 446 ms
+Type: Generic
+
+Marker name: FOOTSTEP_walk
+Position: 1 s 907 ms
+Type: Generic
+
+Marker name: bayonet_hit_flesh
+Position: 1 s 983 ms
+Type: Generic
+
+Marker name: FOOTSTEP_walk
+Position: 2 s 406 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 672 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 866 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 4 s 633 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 4 s 879 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 5 s 172 ms
+Type: Generic
+

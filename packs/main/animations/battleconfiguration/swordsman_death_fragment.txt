@@ -1,0 +1,116 @@
+version 1
+
+DEATH_STAND_1						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_STAND_DEATHS/AXE_Stand_Death_001.anim",	
+DEATH_STAND_2						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_STAND_DEATHS/AXE_Stand_Death_002.anim",	
+DEATH_STAND_3						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_STAND_DEATHS/AXE_Stand_Death_003.anim",	
+DEATH_STAND_4						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_STAND_DEATHS/AXE_Stand_Death_004.anim",	
+DEATH_STAND_5						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_STAND_DEATHS/AXE_Stand_Death_005.anim",	
+DEATH_STAND_6						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_STAND_DEATHS/AXE_Stand_Death_006.anim",	
+DEATH_STAND_7						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_STAND_DEATHS/AXE_Stand_Death_007.anim",	
+DEATH_STAND_8						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_STAND_DEATHS/AXE_Stand_Death_008.anim",	
+DEATH_STAND_9						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_STAND_DEATHS/AXE_Stand_Death_009.anim",	
+DEATH_STAND_10						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_STAND_DEATHS/AXE_Stand_Death_010.anim",	
+DEATH_STAND_11						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_STAND_DEATHS/AXE_Stand_Death_011.anim",	
+DEATH_STAND_12						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_STAND_DEATHS/AXE_STAND_DIE_F1.anim",	
+DEATH_STAND_13						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_STAND_DEATHS/AXE_STAND_DIE_B1.anim",
+
+DEATH_STAND_TRAINED_1				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_STAND_TRAINED_DEATHS/SAB_Stand_T_Death_001.anim",	
+DEATH_STAND_TRAINED_2				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_STAND_TRAINED_DEATHS/SAB_Stand_T_Death_002.anim",	
+DEATH_STAND_TRAINED_3				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_STAND_TRAINED_DEATHS/SAB_Stand_T_Death_003.anim",	
+DEATH_STAND_TRAINED_4				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_STAND_TRAINED_DEATHS/SAB_Stand_T_Death_004.anim",	
+DEATH_STAND_TRAINED_5				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_STAND_TRAINED_DEATHS/SAB_Stand_T_Death_005.anim",
+DEATH_STAND_TRAINED_6				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_STAND_TRAINED_DEATHS/SAB_Stand_T_Death_006.anim",
+DEATH_STAND_TRAINED_7				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_STAND_TRAINED_DEATHS/SAB_Stand_T_Death_007.anim",
+DEATH_STAND_TRAINED_8				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_STAND_TRAINED_DEATHS/SAB_Stand_T_Death_008.anim",
+DEATH_STAND_TRAINED_9				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_STAND_TRAINED_DEATHS/SAB_Stand_T_Death_009.anim",
+DEATH_STAND_TRAINED_10				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_STAND_TRAINED_DEATHS/SAB_Stand_T_Death_010.anim",	
+
+DEATH_WALK_1						filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_WALK_DEATHS/SAB_WALK_DIE_F1.anim",	
+DEATH_WALK_2						filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_WALK_DEATHS/SAB_WALK_DIE_L1.anim",	
+DEATH_WALK_3						filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_WALK_DEATHS/SAB_WALK_DIE_R1.anim",	
+DEATH_WALK_4						filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_WALK_DEATHS/SAB_WALK_DIE_B1.anim",
+
+DEATH_MARCH_1						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_MARCH_DEATHS/MUS_MARCH_Die_F_1.anim",				primary_weapon = off, secondary_weapon = off
+DEATH_MARCH_2						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_MARCH_DEATHS/MUS_MARCH_Die_F_2.anim",				primary_weapon = off, secondary_weapon = off
+DEATH_MARCH_3						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_MARCH_DEATHS/MUS_MARCH_Die_L_1.anim",				primary_weapon = off, secondary_weapon = off
+DEATH_MARCH_4						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_MARCH_DEATHS/MUS_MARCH_Die_R_1.anim",				primary_weapon = off, secondary_weapon = off
+DEATH_MARCH_5						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_MARCH_DEATHS/MUS_MARCH_Die_B_1.anim",				primary_weapon = off, secondary_weapon = off
+
+DEATH_RELOAD_1						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_RELOAD_DEATHS/MUS_Relaod_Death_004.anim",			primary_weapon = off, secondary_weapon = off
+DEATH_RELOAD_2						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_RELOAD_DEATHS/MUS_Relaod_Death_005.anim",			primary_weapon = off, secondary_weapon = off
+DEATH_RELOAD_3						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_RELOAD_DEATHS/MUS_Relaod_Death_007.anim",			primary_weapon = off, secondary_weapon = off	
+DEATH_RELOAD_4						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_RELOAD_DEATHS/MUS_Relaod_Death_008.anim",			primary_weapon = off, secondary_weapon = off
+DEATH_RELOAD_5						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_RELOAD_DEATHS/MUS_Relaod_Death_011.anim",			primary_weapon = off, secondary_weapon = off
+
+DEATH_POISED_1						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_POISED_DEATHS/MUS_Poised_Death_001.anim",			primary_weapon = off, secondary_weapon = off
+DEATH_POISED_2						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_POISED_DEATHS/MUS_Poised_Death_002.anim",			primary_weapon = off, secondary_weapon = off
+DEATH_POISED_3						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_POISED_DEATHS/MUS_Poised_Death_003.anim",			primary_weapon = off, secondary_weapon = off
+DEATH_POISED_4						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_POISED_DEATHS/MUS_Poised_Death_004.anim",			primary_weapon = off, secondary_weapon = off
+DEATH_POISED_5						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_POISED_DEATHS/MUS_Poised_Death_005.anim",			primary_weapon = off, secondary_weapon = off
+DEATH_POISED_6						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_POISED_DEATHS/MUS_Poised_Death_006.anim",			primary_weapon = off, secondary_weapon = off
+DEATH_POISED_7						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_POISED_DEATHS/MUS_Poised_Death_007.anim",			primary_weapon = off, secondary_weapon = off
+DEATH_POISED_8						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_POISED_DEATHS/MUS_Poised_Death_008.anim",			primary_weapon = off, secondary_weapon = off
+DEATH_POISED_9						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_POISED_DEATHS/MUS_POISED_Die_F_6.anim",			primary_weapon = off, secondary_weapon = off
+DEATH_POISED_10						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_POISED_DEATHS/MUS_POISED_Die_F_7.anim",			primary_weapon = off, secondary_weapon = off
+
+DEATH_RUN_1							filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_RUN_DEATHS/MUS_RUN_Death_004.anim",				primary_weapon = off, secondary_weapon = off
+DEATH_RUN_2							filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_RUN_DEATHS/MUS_RUN_Death_005.anim",				primary_weapon = off, secondary_weapon = off	
+DEATH_RUN_3							filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_RUN_DEATHS/MUS_RUN_Death_006.anim",				primary_weapon = off, secondary_weapon = off		
+DEATH_RUN_4							filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_RUN_DEATHS/MUS_RUN_Death_007.anim",				primary_weapon = off, secondary_weapon = off	
+DEATH_RUN_5							filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_RUN_DEATHS/MUS_RUN_Die_F_2.anim",					primary_weapon = off, secondary_weapon = off
+DEATH_RUN_6							filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_RUN_DEATHS/MUS_RUN_Die_F_3.anim",					primary_weapon = off, secondary_weapon = off
+DEATH_RUN_7							filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_RUN_DEATHS/MUS_RUN_Die_F_4.anim",					primary_weapon = off, secondary_weapon = off
+
+DEATH_RUN_TRAINED_1					filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_RUN_TRAINED_DEATHS/SAB_RUN_TRAINED_DIE_F1.anim",	
+DEATH_RUN_TRAINED_2					filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_RUN_TRAINED_DEATHS/SAB_RUN_TRAINED_DIE_B1.anim",	
+DEATH_RUN_TRAINED_3					filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_RUN_TRAINED_DEATHS/SAB_RUN_TRAINED_DIE_L1.anim",	
+DEATH_RUN_TRAINED_4					filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_RUN_TRAINED_DEATHS/SAB_RUN_TRAINED_DIE_R1.anim",	
+
+DEATH_CHARGE_1						filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_CHARGE_DEATHS/SAB_CHARGE_DIE_F1.anim",	
+DEATH_CHARGE_2						filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_CHARGE_DEATHS/SAB_CHARGE_DIE_L1.anim",	
+DEATH_CHARGE_3						filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_CHARGE_DEATHS/SAB_CHARGE_DIE_R1.anim",	
+DEATH_CHARGE_4						filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_CHARGE_DEATHS/SAB_CHARGE_DIE_B1.anim",
+DEATH_CHARGE_5						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_CHARGE_DEATHS/AXE_CHARGE_DIE_B1.anim",
+DEATH_CHARGE_6						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_CHARGE_DEATHS/AXE_CHARGE_DIE_F1.anim",
+DEATH_CHARGE_7						filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_CHARGE_DEATHS/AXE_CHARGE_DIE_R1.anim",	
+
+DEATH_ALT_STAND1_1					filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_ALT_STAND1_DEATHS/AXE_AS1_DIE_F1.anim",	
+DEATH_ALT_STAND1_2					filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_ALT_STAND1_DEATHS/AXE_ALT1_Stand_Death_001.anim",	
+DEATH_ALT_STAND1_3					filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_ALT_STAND1_DEATHS/AXE_ALT1_Stand_Death_002.anim",	
+DEATH_ALT_STAND1_4					filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_ALT_STAND1_DEATHS/AXE_ALT1_Stand_Death_003.anim",	
+DEATH_ALT_STAND1_5					filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_ALT_STAND1_DEATHS/AXE_ALT1_Stand_Death_004.anim",	
+
+DEATH_ALT_STAND2_1					filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_ALT_STAND2_DEATHS/AXE_AS2_DIE_F1.anim",	
+DEATH_ALT_STAND2_2					filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_ALT_STAND2_DEATHS/AXE_ALT2_Stand_Death_001.anim",	
+DEATH_ALT_STAND2_3					filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_ALT_STAND2_DEATHS/AXE_ALT2_Stand_Death_002.anim",	
+DEATH_ALT_STAND2_4					filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_ALT_STAND2_DEATHS/AXE_ALT2_Stand_Death_003.anim",	
+DEATH_ALT_STAND2_5					filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_ALT_STAND2_DEATHS/AXE_ALT2_Stand_Death_004.anim",	
+
+DEATH_ALT_STAND3_1					filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_ALT_STAND3_DEATHS/AXE_AS3_DIE_F1.anim",	
+DEATH_ALT_STAND3_2					filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_ALT_STAND3_DEATHS/AXE_ALT3_Stand_Death_001.anim",	
+DEATH_ALT_STAND3_3					filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_ALT_STAND3_DEATHS/AXE_ALT3_Stand_Death_002.anim",	
+DEATH_ALT_STAND3_4					filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_ALT_STAND3_DEATHS/AXE_ALT3_Stand_Death_003.anim",	
+DEATH_ALT_STAND3_5					filename = "Animations/MEN/AXE/AXE_DEATHS/AXE_ALT_STAND3_DEATHS/AXE_ALT3_Stand_Death_004.anim",	
+
+DEATH_KNEEL_1						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_GUARD_KNEEL_DEATHS/MUS_GK_Die_F_1.anim",				primary_weapon = off, secondary_weapon = off
+DEATH_KNEEL_2						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_GUARD_KNEEL_DEATHS/MUS_GK_Die_F_2.anim",				primary_weapon = off, secondary_weapon = off
+DEATH_KNEEL_3						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_GUARD_KNEEL_DEATHS/MUS_GK_Die_L_1.anim",				primary_weapon = off, secondary_weapon = off
+DEATH_KNEEL_4						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_GUARD_KNEEL_DEATHS/MUS_GK_Die_R_1.anim",				primary_weapon = off, secondary_weapon = off
+DEATH_KNEEL_5						filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_GUARD_KNEEL_DEATHS/MUS_GK_Die_B_1.anim",				primary_weapon = off, secondary_weapon = off
+
+DEATH_KNEEL_POISED_1				filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_GUARD_KNEEL_POISED_DEATHS/MUS_GK_POISED_Die_F_1.anim",	primary_weapon = off, secondary_weapon = off
+DEATH_KNEEL_POISED_2				filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_GUARD_KNEEL_POISED_DEATHS/MUS_GK_POISED_Die_F_2.anim",	primary_weapon = off, secondary_weapon = off
+DEATH_KNEEL_POISED_3				filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_GUARD_KNEEL_POISED_DEATHS/MUS_GK_POISED_Die_L_1.anim",	primary_weapon = off, secondary_weapon = off
+DEATH_KNEEL_POISED_4				filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_GUARD_KNEEL_POISED_DEATHS/MUS_GK_POISED_Die_R_1.anim",	primary_weapon = off, secondary_weapon = off
+DEATH_KNEEL_POISED_5				filename = "Animations/MEN/MUSKET/MUS_DEATHS/MUS_GUARD_KNEEL_POISED_DEATHS/MUS_GK_POISED_Die_B_1.anim",	primary_weapon = off, secondary_weapon = off
+
+DEATH_COMBAT_READY_1				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_MEDIUM_GUARD_DEATHS/SAB_MG_DIE_F1.anim"
+DEATH_COMBAT_READY_2				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_MEDIUM_GUARD_DEATHS/SAB_MG_DIE_L1.anim"
+DEATH_COMBAT_READY_3				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_MEDIUM_GUARD_DEATHS/SAB_M_Guard_Death_001.anim"
+DEATH_COMBAT_READY_4				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_MEDIUM_GUARD_DEATHS/SAB_M_Guard_Death_003.anim"
+DEATH_COMBAT_READY_5				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_MEDIUM_GUARD_DEATHS/SAB_M_Guard_Death_004.anim"
+DEATH_COMBAT_READY_6				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_MEDIUM_GUARD_DEATHS/SAB_M_Guard_Death_005.anim"
+DEATH_COMBAT_READY_7				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_MEDIUM_GUARD_DEATHS/SAB_M_Guard_Death_006.anim"
+DEATH_COMBAT_READY_8				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_MEDIUM_GUARD_DEATHS/SAB_M_Guard_Death_007.anim"
+DEATH_COMBAT_READY_9				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_MEDIUM_GUARD_DEATHS/SAB_M_Guard_Death_008.anim"
+DEATH_COMBAT_READY_10				filename = "Animations/MEN/SABRE/SAB_DEATHS/SAB_MEDIUM_GUARD_DEATHS/SAB_M_Guard_Death_009.anim"

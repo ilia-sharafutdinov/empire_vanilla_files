@@ -1,0 +1,7 @@
+attitude	value
+#diplomatic_relations_attitudes_tables;0;db/diplomatic_relations_attitudes_tables/diplomatic_relations_attitudes	
+friendly	45
+hostile	-85
+neutral	0
+unfriendly	-45
+very_friendly	85

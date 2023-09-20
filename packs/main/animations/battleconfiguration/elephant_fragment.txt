@@ -1,0 +1,45 @@
+version 1
+
+STAND							filename = "Animations/ANIMALS/ELEPHANT/Elephant_Stand.anim"
+STAND_TO_WALK					filename = "Animations/ANIMALS/ELEPHANT/Elephant_Stand_to_walk.anim",			blend_in_time =	0.5
+
+STAND_IDLE_1					filename = "Animations/ANIMALS/ELEPHANT/Elephant_Stand_Idle_1.anim",			blend_in_time = 0.25
+STAND_IDLE_2					filename = "Animations/ANIMALS/ELEPHANT/Elephant_Stand_Idle_2.anim",			blend_in_time = 0.25
+STAND_IDLE_3					filename = "Animations/ANIMALS/ELEPHANT/Elephant_Stand_Idle_3.anim",			blend_in_time = 0.25
+
+CROSS_OBSTACLE_STAND_TO_STAND	filename = "Animations/ANIMALS/ELEPHANT/Elephant_Stand_Climb.anim",				blend_in_time = 0.25
+
+WALK_1							filename = "Animations/ANIMALS/ELEPHANT/Elephant_Walk.anim",					blend_in_time =	0.5
+WALK_TO_STAND					filename = "Animations/ANIMALS/ELEPHANT/Elephant_Walk_to_Stand.anim",			blend_in_time =	0.5
+WALK_TO_RUN						filename = "Animations/ANIMALS/ELEPHANT/Elephant_Walk_To_Run.anim",				blend_in_time =	0.5
+
+RUN_1							filename = "Animations/ANIMALS/ELEPHANT/Elephant_Run.anim",						blend_in_time =	0.5
+RUN_TO_STAND					filename = "Animations/ANIMALS/ELEPHANT/Elephant_Run_to_Stand.anim",			blend_in_time =	0.5
+RUN_TO_WALK						filename = "Animations/ANIMALS/ELEPHANT/Elephant_Run_to_Walk.anim",				blend_in_time =	0.5
+
+CHARGE							filename = "Animations/ANIMALS/ELEPHANT/Elephant_Charge_Attack.anim",			blend_in_time =	0.5
+
+STEP_FORWARD					filename = "Animations/ANIMALS/ELEPHANT/Elephant_Step_Forward.anim",			blend_in_time =	0.25
+STEP_BACKWARD					filename = "Animations/ANIMALS/ELEPHANT/Elephant_Step_Back.anim",				blend_in_time =	0.25
+STEP_LEFT						filename = "Animations/ANIMALS/ELEPHANT/Elephant_Step_Left.anim",				blend_in_time =	0.25
+STEP_RIGHT						filename = "Animations/ANIMALS/ELEPHANT/Elephant_Step_Right.anim",				blend_in_time =	0.25
+
+TURN_LEFT_45					filename = "Animations/ANIMALS/ELEPHANT/Elephant_ccw45.anim",					blend_in_time =	0.25
+TURN_RIGHT_45					filename = "Animations/ANIMALS/ELEPHANT/Elephant_cw45.anim",					blend_in_time =	0.25
+
+TURN_LEFT_90				    filename = "Animations/ANIMALS/ELEPHANT/Elephant_ccw90.anim",					blend_in_time =	0.25
+TURN_RIGHT_90					filename = "Animations/ANIMALS/ELEPHANT/Elephant_cw90.anim",					blend_in_time =	0.25
+
+TURN_LEFT_180					filename = "Animations/ANIMALS/ELEPHANT/Elephant_180.anim",						blend_in_time =	0.25
+TURN_RIGHT_180					filename = "Animations/ANIMALS/ELEPHANT/Elephant_180.anim",						blend_in_time =	0.25
+
+BE_MOUNTED_LEFT					filename = "Animations/ANIMALS/ELEPHANT/Elephant_Stand.anim"
+BE_MOUNTED_RIGHT				filename = "Animations/ANIMALS/ELEPHANT/Elephant_Stand.anim"
+
+BE_DISMOUNTED_LEFT				filename = "Animations/ANIMALS/ELEPHANT/Elephant_Stand.anim"
+BE_DISMOUNTED_RIGHT				filename = "Animations/ANIMALS/ELEPHANT/Elephant_Stand.anim"
+
+DEATH_STAND_1					filename = "Animations/ANIMALS/ELEPHANT/Deaths/Elephant_Stand_Elephant_Shot_001.anim"
+
+MOUNT_ATTACK_1					filename = "Animations/ANIMALS/ELEPHANT/Elephant_Standing_Attack_Low_1.anim"
+MOUNT_ATTACK_2					filename = "Animations/ANIMALS/ELEPHANT/Elephant_Rear_and_Stomp.anim"

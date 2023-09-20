@@ -1,0 +1,16 @@
+Marker name: FOOTSTEP_WALK
+Position: 539 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 189 ms
+Type: Generic
+
+Marker name: HAND_GRAB
+Position: 1 s 491 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 511 ms
+Type: Generic
+

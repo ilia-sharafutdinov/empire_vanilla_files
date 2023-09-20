@@ -1,0 +1,16 @@
+Marker name: Footstep_Walk
+Position: 1 s 120 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 1 s 435 ms
+Type: Generic
+
+Marker name: sword_sheath
+Position: 1 s 755 ms
+Type: Generic
+
+Marker name: Hand_Grab
+Position: 3 s 167 ms
+Type: Generic
+

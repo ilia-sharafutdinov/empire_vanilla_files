@@ -1,0 +1,20 @@
+Marker name: footstep_walk
+Position: 1 s 755 ms
+Type: Generic
+
+Marker name: pistol_draw
+Position: 2 s 231 ms
+Type: Generic
+
+Marker name: pistol_fire
+Position: 2 s 960 ms
+Type: Generic
+
+Marker name: pistol_sheath
+Position: 4 s 118 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 4 s 372 ms
+Type: Generic
+

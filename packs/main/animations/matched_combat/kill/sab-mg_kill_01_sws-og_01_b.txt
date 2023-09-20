@@ -1,0 +1,40 @@
+Marker name: sabre_stab_in
+Position: 769 ms
+Type: Generic
+
+Marker name: musket_impact_ground
+Position: 1 s 151 ms
+Type: Generic
+
+Marker name: Sabre_stab_out
+Position: 1 s 717 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 2 s 276 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 2 s 485 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 2 s 688 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 4 s 414 ms
+Type: Generic
+
+Marker name: Bodyfall_Heavy
+Position: 4 s 905 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 5 s 6 ms
+Type: Generic
+
+Marker name: Bodyfall_Light
+Position: 5 s 143 ms
+Type: Generic
+

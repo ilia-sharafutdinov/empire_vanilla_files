@@ -1,0 +1,26 @@
+key	requires_effect_enabling	is_grenade	supersedes_shot_type	small_arms	artillery
+#projectile_shot_type_enum_tables;0;db/projectile_shot_type_enum_tables/projectile_shot_type_enum					
+air_pellet	false	false		true	false
+arrow	false	false		false	false
+bullet	false	false		true	false
+canister	true	false		false	true
+carcass	true	false		false	true
+chain	false	false		false	true
+chakkar_ring	false	false		false	false
+explosive_shell	true	false		false	true
+fougasse	false	false		false	true
+fragment	false	false		false	true
+grape	false	false		false	true
+grappling_hook	false	false		false	false
+grenade	false	true		true	false
+hot_shot	false	false		false	true
+improved_grape	true	false	grape	false	true
+improved_grenade	true	true	grenade	true	false
+javelin	false	false		false	false
+percussive_shell	true	false	explosive_shell	false	true
+quicklime	true	false	carcass	false	true
+rifled_naval_cannon	true	false	round_shot	false	true
+rocket	false	false		false	true
+round_shot	false	false		false	true
+shrapnel	true	false		false	true
+throwing_axe	false	false		false	false

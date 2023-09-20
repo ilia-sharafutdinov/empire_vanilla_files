@@ -1,0 +1,24 @@
+Marker name: footstep_walk
+Position: 1 s 305 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 1 s 869 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 2 s 232 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 2 s 440 ms
+Type: Generic
+
+Marker name: cannon_ram_in
+Position: 2 s 706 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 2 s 795 ms
+Type: Generic
+

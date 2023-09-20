@@ -1,0 +1,68 @@
+Marker name: FOOTSTEP_WALK
+Position: 236 ms
+Type: Generic
+
+Marker name: sabre_impact_wooden_haft_weapon
+Position: 650 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 836 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 917 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 240 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 417 ms
+Type: Generic
+
+Marker name: sabre_impact_wooden_haft_weapon
+Position: 1 s 427 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 1 s 961 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 2 s 273 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 2 s 417 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 2 s 920 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 738 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 3 s 779 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 492 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 4 s 645 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 819 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 972 ms
+Type: Generic
+

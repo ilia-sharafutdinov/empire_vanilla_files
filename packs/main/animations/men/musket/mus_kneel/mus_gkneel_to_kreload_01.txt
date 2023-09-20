@@ -1,0 +1,24 @@
+Marker name: musket_prepare
+Position: 1 s 184 ms
+Type: Generic
+
+Marker name: musket_cartridge_tear
+Position: 3 s 54 ms
+Type: Generic
+
+Marker name: musket_powder_pour
+Position: 4 s 364 ms
+Type: Generic
+
+Marker name: musket_powder_pour
+Position: 4 s 863 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 9 s 35 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 9 s 719 ms
+Type: Generic
+

@@ -1,0 +1,8 @@
+version 1			
+
+WALK_TO_STAND						filename = "Animations/MEN/MUSICIAN/DRUMMER/Drummer_to_ART.anim",					blend_in_time = 0.25
+
+PLAY_INSTRUMENT						filename = "Animations/MEN/MUSICIAN/DRUMMER/Drummer_Cycle.anim",
+PLAY_INSTRUMENT_TO_STAND			filename = "Animations/MEN/MUSICIAN/DRUMMER/Drummer_to_ART.anim",
+STAND_TO_PLAY_INSTRUMENT			filename = "Animations/MEN/MUSICIAN/DRUMMER/ART_to_Drummer.anim",
+

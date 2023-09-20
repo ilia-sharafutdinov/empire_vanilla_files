@@ -1,0 +1,36 @@
+Marker name: FOOTSTEP_TURN
+Position: 1 s 39 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 1 s 68 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 1 s 193 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 1 s 663 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 2 s 413 ms
+Type: Generic
+
+Marker name: HAND_GRAB
+Position: 3 s 60 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 3 s 656 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 4 s 262 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 6 s 872 ms
+Type: Generic
+

@@ -1,0 +1,14 @@
+personality	is_default
+#campaign_ai_personalities_tables;0;db/campaign_ai_personalities_tables/campaign_ai_personalities	
+default	true
+episode_2_france	false
+episode_3_britain	false
+episode_3_dutch	false
+episode_3_france	false
+episode_3_native_americans	false
+episode_3_spain	false
+pirates	false
+episode_2_britain	false
+episode_2_huron	false
+episode_2_iroquois	false
+main_britain	false

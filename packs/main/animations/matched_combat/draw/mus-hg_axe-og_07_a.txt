@@ -1,0 +1,44 @@
+Marker name: Footstep_Walk
+Position: 673 ms
+Type: Generic
+
+Marker name: Axe_Impact_Wooden_Haft_Weapon
+Position: 1 s 46 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 364 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 876 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 2 s 573 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 2 s 624 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 2 s 926 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 3 s 326 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 3 s 724 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 3 s 805 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 4 s 81 ms
+Type: Generic
+

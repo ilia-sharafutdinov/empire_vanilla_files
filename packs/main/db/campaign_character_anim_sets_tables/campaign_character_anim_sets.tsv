@@ -1,0 +1,10 @@
+key	reference_pose
+#campaign_character_anim_sets_tables;0;db/campaign_character_anim_sets_tables/campaign_character_anim_sets	
+default_human	human
+default_ship	ship
+eastern_ship	eastern_ship
+gentleman	human
+missionary	human
+rake	human
+scholar	human
+thugee	human

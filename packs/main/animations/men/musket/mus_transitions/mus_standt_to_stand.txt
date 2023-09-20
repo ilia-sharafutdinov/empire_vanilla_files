@@ -1,0 +1,16 @@
+Marker name: Hand_Grab
+Position: 164 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 411 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 746 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 809 ms
+Type: Generic
+

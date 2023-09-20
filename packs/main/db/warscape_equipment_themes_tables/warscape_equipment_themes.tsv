@@ -1,0 +1,101 @@
+theme	primary_weapon	secondary_weapon	defensive	ambient	personal
+#warscape_equipment_themes_tables;0;db/warscape_equipment_themes_tables/warscape_equipment_themes					
+east_bugler	east_sword				east_bugle
+east_cavalry	east_sword			east_infantry_equipment	
+east_drummer	east_sword				east_drum_kit
+east_infantry	east_musket	east_sword		east_infantry_equipment	
+east_infantry2	east_musket	east_handaxe		east_infantry_equipment	
+east_lancer	east_spear	east_sword		east_infantry_equipment	
+east_swordsman	east_sword		east_shield		
+euro_bugler	euro_straightsabre				euro_bugle
+euro_cavalry	euro_cavalry_sabre			euro_cavalry_equipment	
+euro_dragoon	euro_carbine	euro_cavalry_sabre		euro_cavalry_equipment	
+euro_drummer	euro_straightsabre				euro_drum_kit
+euro_flutist	euro_straightsabre				euro_flute
+euro_gun	euro_hanger				
+euro_highland_clansman	euro_claymore		euro_shield		
+euro_infantry	euro_musket	euro_musket		euro_infantry_equipment	
+euro_lancer	lance	euro_cavalry_sabre		euro_cavalry_equipment	
+euro_naval_captain	euro_straightsabre				euro_telescope
+euro_naval_marine	euro_sea_musket	euro_hanger			
+euro_naval_seaman	euro_cutlass				
+euro_officer	euro_straightsabre	pistol			
+euro_pikemen	pike	euro_hanger			
+euro_standard_bearer	euro_hanger				euro_flagpole
+generic_bow	bow_default	euro_knife		archer_equipment	
+generic_cavalry	euro_cavalry_sabre				
+generic_infantry	euro_musket	euro_hanger			
+generic_lancer	lance				
+generic_melee	east_sword	east_shield			
+generic_peasant	pitchfork				
+native_american_warrior	euro_tomahawk	euro_knife			
+x_africa_musket	east_musket				
+x_africa_pitchfork	pitchfork				
+x_africa_spear_shield	pitchfork		east_shield		
+x_east_axe	east_handaxe			east_infantry_equipment	
+x_east_bow_knife	bow_east	euro_knife		archer_equipment	
+x_east_camelry_sabre		east_cavalry_sabre		east_infantry_equipment	
+x_east_cavalry_bow_sabre	bow_horse	east_cavalry_sabre		archer_equipment	
+x_east_cavalry_lance	lance			east_infantry_equipment	
+x_east_cavalry_lance_shield	lance		east_shield	east_infantry_equipment	
+x_east_cavalry_musket_axe	east_musket	east_handaxe		east_infantry_equipment	
+x_east_cavalry_musket_sabre	east_musket	east_cavalry_sabre		east_infantry_equipment	
+x_east_cavalry_sabre	east_cavalry_sabre			east_infantry_equipment	
+x_east_chakkar_sword_shield		east_sword	east_shield	east_infantry_equipment	
+x_east_grenadelauncher	east_grenadelauncher				
+x_east_musket	east_musket			east_infantry_equipment	
+x_east_musket_sword	east_musket	east_sword2		east_infantry_equipment	
+x_east_pike	pike	east_sword		east_infantry_equipment	
+x_east_pitchfork	pitchfork			east_infantry_equipment	
+x_east_rifle_sword	east_rifle	east_sword		east_infantry_equipment	
+x_east_sword	east_sword			east_infantry_equipment	
+x_east_sword_pistol	east_cavalry_sabre	pistol		east_infantry_equipment	
+x_east_sword_shield	east_sword2		east_shield	east_infantry_equipment	
+x_euro_cavalry_bow_sabre	bow_horse	euro_cavalry_sabre		archer_equipment	
+x_euro_cavalry_lance	lance			euro_cavalry_equipment	
+x_euro_cavalry_musket_sabre	euro_carbine	euro_cavalry_sabre		euro_cavalry_equipment	
+x_euro_cavalry_sabre	euro_cavalry_sabre			euro_cavalry_equipment	
+x_euro_cavalry_sword	euro_straightsabre			euro_cavalry_equipment	
+x_euro_claymore_shield	euro_claymore		euro_shield		
+x_euro_grenadelauncher	euro_grenadelauncher			euro_infantry_equipment	
+x_euro_musket	euro_musket			euro_infantry_equipment	
+x_euro_musket_axe	euro_musket	euro_hand_axe		euro_infantry_equipment	
+x_euro_musket_double_sword	musket_double	euro_hanger		euro_infantry_equipment	
+x_euro_musket_knife	euro_musket	euro_knife		euro_infantry_equipment	
+x_euro_musket_sword	euro_musket	euro_hanger		euro_infantry_equipment	
+x_euro_naval_gunner	club				
+x_euro_pike	pike	euro_hanger		euro_infantry_equipment	
+x_euro_pitchfork	pitchfork				
+x_euro_rifle_air	rifle_air			euro_infantry_equipment	
+x_euro_rifle_knife	euro_rifle	euro_knife		euro_infantry_equipment	
+x_euro_rifle_screw	euro_rifle			euro_infantry_equipment	
+x_euro_rifle_sword	euro_rifle	euro_hanger		euro_infantry_equipment	
+x_euro_streltsy	bardiche			euro_infantry_equipment	
+x_euro_sword	euro_hanger			euro_infantry_equipment	
+x_euro_sword_pistol	euro_hanger	pistol		euro_infantry_equipment	
+x_india_cavalry_bow_sabre	bow_horse	east_cavalry_sabre		archer_equipment	
+x_india_cavalry_lance	lance			east_infantry_equipment	
+x_india_cavalry_musket_lance	east_musket	lance			
+x_india_cavalry_musket_sabre	east_musket	east_cavalry_sabre		east_infantry_equipment	
+x_india_cavalry_pistol_sabre	pistol	east_cavalry_sabre			
+x_india_cavalry_sabre				east_infantry_equipment	
+x_india_musket	east_musket			east_infantry_equipment	
+x_india_musket_sword	east_musket	east_sword		east_infantry_equipment	
+x_india_pitchfork	pitchfork				
+x_india_sword				east_infantry_equipment	
+x_india_sword_pistol	east_sword	pistol		east_infantry_equipment	
+x_natam_axe	euro_tomahawk				
+x_natam_bow_axe	bow_default	euro_tomahawk		archer_equipment	
+x_natam_cavalry_axe	euro_tomahawk				
+x_natam_cavalry_lance	lance				
+x_natam_cavalry_musket_axe	euro_musket	euro_tomahawk			
+x_natam_musket	euro_musket				
+x_natam_musket_axe	euro_musket	euro_tomahawk			
+x_natam_pitchfork	pitchfork				
+x_natam_standard_bearer	euro_tomahawk				euro_flagpole
+x_natam_throwingaxe_axe	euro_tomahawk				
+x_pr_custom_pistol_only	pistol				
+x_pr_custom_spear_only		euro_spear			
+x_sword_pistol_only	east_sword	pistol			
+x_india_cavalry_pistol_lance	pistol	lance			
+x_india_elephant_lance		lance			

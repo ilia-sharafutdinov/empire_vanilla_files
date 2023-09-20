@@ -1,0 +1,32 @@
+Marker name: FOOTSTEP_RUN
+Position: 229 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 884 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 1 s 21 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 1 s 269 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 1 s 371 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 1 s 563 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 2 s 947 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 2 s 972 ms
+Type: Generic
+

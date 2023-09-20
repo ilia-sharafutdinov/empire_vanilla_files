@@ -1,0 +1,24 @@
+key	stationary_for_turn	supersedes_ability	requires_effect_enabling
+#unit_abilities_tables;0;db/unit_abilities_tables/unit_abilities			
+chevaux_de_frise	true		false
+diamond_formation	false	wedge_formation	true
+earthworks	true		false
+fire_and_advance	false		true
+fire_mounted	false		true
+fire_volley	false		false
+fougasse_basic	true		false
+fougasse_improved	true	fougasse_basic	true
+gabionade	true		false
+improved_platoon_fire_grouped	true	platoon_fire_grouped	true
+mass_fire	false	fire_volley	true
+pike_square_formation	false		true
+pike_wall_formation	false		true
+platoon_fire_grouped	false	rank_fire	true
+plug_bayonets	false		true
+rank_fire	false	mass_fire	true
+ring_bayonets	false	plug_bayonets	true
+socket_bayonets	false	ring_bayonets	true
+square_formation	false	pike_square_formation	true
+wedge_formation	false		true
+wooden_stakes	false		false
+light_infantry_behaviour	false		true

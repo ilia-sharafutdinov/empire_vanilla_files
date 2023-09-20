@@ -1,0 +1,15 @@
+version 1
+
+PLAY_INSTRUMENT						filename = "Animations/MEN/MUSICIAN/FLUTIST/Flautist_Cycle.anim",
+PLAY_INSTRUMENT_TO_STAND			filename = "Animations/MEN/MUSICIAN/FLUTIST/Flautist_to_ART.anim",
+STAND_TO_PLAY_INSTRUMENT			filename = "Animations/MEN/MUSICIAN/FLUTIST/ART_to_Flautist.anim",
+
+WALK_1								filename = "Animations/MEN/AXE/AXE_WALK/Axe_walk.anim",						
+WALK_2								filename = "Animations/MEN/AXE/AXE_RUN_IR/Axe_run.anim",							blend_in_time = 0.5
+
+WALK_TRAINED_1						filename = "Animations/MEN/AXE/AXE_WALK/Axe_walk.anim",
+WALK_TRAINED_2						filename = "Animations/MEN/AXE/AXE_RUN_IR/Axe_run.anim",							blend_in_time = 0.5
+
+RUN_TRAINED_1						filename = "Animations/MEN/AXE/AXE_RUN_IR/Axe_run.anim",							blend_in_time = 0.5
+
+RUN_1								filename = "Animations/MEN/AXE/AXE_RUN_IR/Axe_run.anim",							blend_in_time = 0.5

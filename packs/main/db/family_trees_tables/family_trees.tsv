@@ -1,0 +1,5 @@
+key	on_screen_name	category	faction	required_parent	birth_priority	birth_window_start	birth_window_end	other_spawn_conditions_1	other_spawn_conditions_2	other_spawn_conditions_3	trait_1	trait_2	trait_3	trait_4	trait_5	ancillary_1	ancillary_2	ancillary_3	ancillary_4	ancillary_5	gender
+#family_trees_tables;0;db/family_trees_tables/family_trees																					
+george_II	George	royalty	britain	george_I	1.0000	1700	1750	n	n	n	n	n	n	n	n	n	n	n	n	n	m
+william_IV	William	royalty	britain	george_IV	2.0000	1720	1770	n	n	n	n	n	n	n	n	n	n	n	n	n	m
+palmerstone	Palmerstone	minister	britain	n	3.0000	1740	1790	n	n	n	n	n	n	n	n	n	n	n	n	n	m

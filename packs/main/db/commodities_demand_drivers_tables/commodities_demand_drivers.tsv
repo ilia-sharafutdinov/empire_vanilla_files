@@ -1,0 +1,8 @@
+demand_driver
+#commodities_demand_drivers_tables;0;db/commodities_demand_drivers_tables/commodities_demand_drivers
+ddr_cotton_production
+ddr_GDP
+ddr_sugar_production
+ddr_textile_production
+ddr_tobacco_production
+ddr_TW

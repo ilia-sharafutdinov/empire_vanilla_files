@@ -1,0 +1,16 @@
+Marker name: HAND_GRAB
+Position: 367 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 387 ms
+Type: Generic
+
+Marker name: rope_pull
+Position: 1 s 413 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 688 ms
+Type: Generic
+

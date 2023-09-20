@@ -1,0 +1,48 @@
+Marker name: FOOTSTEP_TURN
+Position: 697 ms
+Type: Generic
+
+Marker name: human_foley_medium
+Position: 1 s 42 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 92 ms
+Type: Generic
+
+Marker name: sabre_impact_ground
+Position: 1 s 229 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 567 ms
+Type: Generic
+
+Marker name: human_foley_medium
+Position: 2 s 79 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 2 s 948 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 3 s 116 ms
+Type: Generic
+
+Marker name: Bodyfall_heavy
+Position: 3 s 223 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 3 s 774 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 4 s 3 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 4 s 382 ms
+Type: Generic
+

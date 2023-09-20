@@ -1,0 +1,4 @@
+disaster	ground_type
+#disaster_to_ground_types_tables;0;db/disaster_to_ground_types_tables/disaster_to_ground_types	
+dustbowl	desert
+flood	swamp

@@ -1,0 +1,5 @@
+government_type	elected_ministers	hereditary_ministers	rank	active_upper_class	active_lower_class
+#government_types_tables;0;db/government_types_tables/government_types					
+gov_absolute_monarchy	false	true	3	upper	lower
+gov_constitutional_monarchy	false	false	2	upper	middle
+gov_republic	true	false	1	middle	lower

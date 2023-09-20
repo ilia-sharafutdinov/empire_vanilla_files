@@ -1,0 +1,7 @@
+key	type	width	duration	min_aparent_width_distance	colour_r	colour_g	colour_b	opacity	fadeout_distance	distortion_cross_fade_start_distance	distortion_cross_fade_range
+#projectile_trails_tables;0;db/projectile_trails_tables/projectile_trails											
+alpha	alpha	0.2000	0.1000	50.0000	255.0000	255.0000	255.0000	128.0000	300.0000	30.0000	50.0000
+alpha_bullet	alpha	0.1000	0.0500	50.0000	255.0000	255.0000	255.0000	128.0000	300.0000	25.0000	50.0000
+alpha_shrapnel	add	0.0500	0.0500	25.0000	255.0000	255.0000	255.0000	128.0000	300.0000	25.0000	50.0000
+e3_rocket	alpha	2.0000	2.0000	500.0000	125.0000	125.0000	125.0000	100.0000	1000.0000	100.0000	50.0000
+none	none	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000	0.0000

@@ -1,0 +1,48 @@
+Marker name: human_foley_medium
+Position: 322 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 644 ms
+Type: Generic
+
+Marker name: axe_impact_ground
+Position: 664 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 973 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 476 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 882 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 2 s 69 ms
+Type: Generic
+
+Marker name: BODYFALL_light
+Position: 2 s 214 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 3 s 365 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 4 s 254 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 4 s 439 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 4 s 686 ms
+Type: Generic
+

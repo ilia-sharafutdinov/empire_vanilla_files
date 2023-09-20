@@ -1,0 +1,21 @@
+famous_battle_id	battle_name	battle_date	battle_desc	x_coord	y_coord
+#campaign_map_famous_battles_tables;0;db/campaign_map_famous_battles_tables/campaign_map_famous_battles					
+alcantara	Battle of Alcantara	1850-08-01T00:00:00	placeholder	-65.3040	275.2000
+berestechko	Battle of Berestechko	1651-06-01T00:00:00	placeholder	178.6070	358.0440
+dunes	Battle of the Dunes	1658-06-01T00:00:00	placeholder	16.9070	362.9390
+edgehill	Battle of Edgehill	1642-10-01T00:00:00	placeholder	-11.7450	373.9420
+fehrbellin	Battle of Fehrbellin	1675-07-01T00:00:00	placeholder	90.7850	375.4670
+klushino	Battle of Klushino	1610-07-01T00:00:00	placeholder	249.2680	395.8810
+lens	Battle of Lens	1648-08-01T00:00:00	placeholder	27.7330	359.4670
+lutzen	Battle of Lutzen	1632-11-01T00:00:00	placeholder	86.2810	364.4440
+mohacs	Battle of Mohacs	1687-08-01T00:00:00	placeholder	132.8340	327.0820
+naseby	Battle of Naseby	1645-06-01T00:00:00	placeholder	-7.0500	372.5970
+nieuwpoort	Battle of Nieuwpoort	1600-07-01T00:00:00	placeholder	19.5560	363.4960
+nordlingen	Battle of Nordlingen	1645-08-01T00:00:00	placeholder	74.6670	347.3780
+preston	Battle of Preston	1648-08-01T00:00:00	placeholder	-19.2240	382.2780
+sablat	Battle of Sablat	1619-07-01T00:00:00	placeholder	102.9310	348.2650
+stadtlohn	Battle of Stadtlohn	1623-08-01T00:00:00	placeholder	49.0670	369.6590
+turnhout	Battle of Turnhout	1597-01-01T00:00:00	placeholder	35.2000	364.9190
+vienna	Battle of Vienna	1683-09-01T00:00:00	placeholder	116.4230	342.8170
+warsaw	Battle of Warsaw	1656-07-01T00:00:00	placeholder	149.4100	371.4130
+zusmarshausen	Battle of Zusmarshausen	1645-05-01T00:00:00	placeholder	77.3930	343.9410

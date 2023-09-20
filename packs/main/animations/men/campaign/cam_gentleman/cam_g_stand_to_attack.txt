@@ -1,0 +1,12 @@
+Marker name: SWORD_DRAW
+Position: 775 ms
+Type: Generic
+
+Marker name: FOOTSTEP_run
+Position: 1 s 362 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 662 ms
+Type: Generic
+

@@ -1,0 +1,23 @@
+mount_key	display_key	weight
+#mount_variants_tables;0;db/mount_variants_tables/mount_variants		
+horse_artillery	horse_A_artillery	1.0000
+horse_mixed_browns	horse_A_default	0.5000
+camel_base	camel_base	1.0000
+horse_irregular	horse_A_default	0.5000
+horse_irregular	horse_D_default	0.5000
+horse_eastern	horse_A_eastern	1.0000
+horse_cavalry	horse_A_default	1.0000
+horse_irregular	horse_C_default	0.1000
+horse_heavy_mixed_browns	horse_D_heavy	0.7000
+horse_all_dark_brown	horse_D_default	1.0000
+horse_all_light_brown	horse_A_default	1.0000
+horse_irregular	horse_E_default	0.1000
+horse_heavy_all_white	horse_E_heavy	1.0000
+horse	horse_A_default	1.0000
+horse_irregular	horse_B_default	0.1000
+horse_mixed_browns	horse_D_default	0.5000
+elephant	elephant	1.0000
+horse_all_white	horse_E_default	1.0000
+horse_heavy_all_black	horse_C_heavy	1.0000
+horse_heavy_mixed_browns	horse_A_heavy	0.3000
+horse_heavy_all_grey	horse_B_heavy	1.0000

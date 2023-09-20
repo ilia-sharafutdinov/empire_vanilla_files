@@ -1,0 +1,28 @@
+Marker name: PROJECTILE_BulletImpactFlesh
+Position: 1 s 91 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 1 s 332 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 703 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 105 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 4 s 464 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 4 s 542 ms
+Type: Generic
+
+Marker name: Bodyfall_Heavy
+Position: 5 s 713 ms
+Type: Generic
+

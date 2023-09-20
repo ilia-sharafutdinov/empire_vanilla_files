@@ -1,0 +1,4 @@
+season	onscreen	order
+#seasons_tables;0;db/seasons_tables/seasons		
+season_summer	Summer	1
+season_winter	Winter	2

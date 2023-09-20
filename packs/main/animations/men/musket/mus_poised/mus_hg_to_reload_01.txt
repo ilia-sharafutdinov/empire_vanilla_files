@@ -1,0 +1,24 @@
+Marker name: musket_prepare
+Position: 1 s 780 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 3 s 891 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 4 s 493 ms
+Type: Generic
+
+Marker name: musket_cartridge_tear
+Position: 5 s 412 ms
+Type: Generic
+
+Marker name: musket_powder_pour
+Position: 6 s 509 ms
+Type: Generic
+
+Marker name: human_foley_medium
+Position: 10 s 936 ms
+Type: Generic
+

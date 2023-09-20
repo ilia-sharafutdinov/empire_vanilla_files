@@ -1,0 +1,20 @@
+Marker name: BODYFALL_LIGHT
+Position: 376 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 1 s 158 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 1 s 300 ms
+Type: Generic
+
+Marker name: footstep_turn
+Position: 1 s 799 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 2 s 18 ms
+Type: Generic
+

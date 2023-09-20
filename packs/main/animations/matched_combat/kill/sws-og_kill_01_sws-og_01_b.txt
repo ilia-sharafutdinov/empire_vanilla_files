@@ -1,0 +1,36 @@
+Marker name: footstep_walk
+Position: 231 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 495 ms
+Type: Generic
+
+Marker name: sabre_hit_flesh
+Position: 602 ms
+Type: Generic
+
+Marker name: footstep_turn
+Position: 617 ms
+Type: Generic
+
+Marker name: wooden_shield_impact_ground
+Position: 857 ms
+Type: Generic
+
+Marker name: sabre_impact_ground
+Position: 1 s 110 ms
+Type: Generic
+
+Marker name: Bodyfall_Light
+Position: 1 s 362 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 1 s 455 ms
+Type: Generic
+
+Marker name: Bodyfall_Heavy
+Position: 1 s 481 ms
+Type: Generic
+

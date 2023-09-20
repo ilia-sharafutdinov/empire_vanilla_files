@@ -1,0 +1,52 @@
+Marker name: BODYFALL_HEAVY
+Position: 1 s 276 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 1 s 362 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 1 s 653 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 2 s 82 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 2 s 199 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 2 s 219 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 2 s 974 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 362 ms
+Type: Generic
+
+Marker name: sabre_hit_flesh
+Position: 3 s 498 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 4 s 270 ms
+Type: Generic
+
+Marker name: sword_impact_ground
+Position: 4 s 582 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 4 s 673 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 4 s 816 ms
+Type: Generic
+

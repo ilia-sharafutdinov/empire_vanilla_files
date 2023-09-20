@@ -1,0 +1,88 @@
+Marker name: Footstep_Walk
+Position: 511 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 691 ms
+Type: Generic
+
+Marker name: sabre_impact_sword
+Position: 722 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 1 s 445 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 498 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 1 s 701 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 858 ms
+Type: Generic
+
+Marker name: sword_swoosh
+Position: 2 s 494 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 2 s 664 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 3 s 94 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 3 s 94 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 3 s 437 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 3 s 573 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 3 s 976 ms
+Type: Generic
+
+Marker name: sabre_impact_sword
+Position: 4 s 91 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 4 s 133 ms
+Type: Generic
+
+Marker name: sabre_impact_sword
+Position: 4 s 478 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 4 s 574 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 4 s 598 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 5 s 114 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 5 s 526 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 5 s 654 ms
+Type: Generic
+

@@ -1,0 +1,18 @@
+agent	base_chance
+#agent_spawnings_tables;0;db/agent_spawnings_tables/agent_spawnings	
+admiral	0.0000
+assassin	0.0100
+bandit	0.0100
+captain	0.0000
+catholic_missionary	0.0100
+colonel	0.0000
+Eastern_Scholar	0.0100
+General	0.0000
+gentleman	0.0100
+indian_missionary	0.0500
+middle_east_missionary	0.0100
+minister	0.0100
+orthodox_missionary	0.0100
+pirate	0.0100
+Protestant_Missionary	0.0100
+rake	0.0100

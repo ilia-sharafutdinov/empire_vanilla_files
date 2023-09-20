@@ -1,0 +1,20 @@
+Marker name: hand_grab
+Position: 554 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 515 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 649 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 959 ms
+Type: Generic
+
+Marker name: Cannon_Ram_In
+Position: 3 s 2 ms
+Type: Generic
+

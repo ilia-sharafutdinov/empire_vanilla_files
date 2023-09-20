@@ -1,0 +1,165 @@
+key	anim_set_key	anim_status	anim	anim_type	action_id	transition_to_status	idle_weighting
+#campaign_character_anims_junctions_tables;0;db/campaign_character_anims_junctions_tables/campaign_character_anims_junctions							
+-2125189416	rake	attack_trade	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Highway_Idle4.anim	idle			1.0000
+-2061138958	eastern_ship	attack_trade	Animations/CampaignPieces/east_campaign_ship_anim_unfurled_traderoute_idle.anim	idle			1.0000
+-2026103908	default_human	siege	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Seige_Idle3.anim	idle			1.0000
+-1961887118	eastern_ship	attack_trade	Animations/CampaignPieces/east_campaign_ship_anim_unfurled_sink.anim	action	die_character_stab		0.0000
+-1904534168	default_human	attack_trade	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand_to_Defence.anim	matched_action	attack_character		0.0000
+-1903363313	eastern_ship	attack_trade	Animations/CampaignPieces/east_campaign_ship_anim_unfurled_sink.anim	action	die_character_shoot		0.0000
+-1883304718	default_human	attack_trade	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand_to_Defence_Agent.anim	matched_action	assassinate		0.0000
+-1736451290	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Idle4.anim	idle			1.0000
+-1696124069	gentleman	normal	Animations/MEN/CAMPAIGN/CAM_GENTLEMAN/CAM_G_Idle4.anim	idle			1.0000
+-1690218237	missionary	normal	Animations/MEN/CAMPAIGN/CAM_MISSIONARY/CAM_M_Pistol_Death.anim	action	die_character_stab		0.0000
+-1686905827	default_human	stealthy	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Pistol_Death.anim	action	die_character_shoot		0.0000
+-1625736043	scholar	normal	Animations/MEN/CAMPAIGN/CAM_SCHOLAR/CAM_S_Idle_3.anim	idle			1.0000
+-1608678350	scholar	normal	Animations/MEN/CAMPAIGN/CAM_SCHOLAR/CAM_S_Idle_4.anim	idle			1.0000
+-1590147014	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Fire_Pistol.anim	action	kill_character_shoot		0.0000
+-1587560678	default_human	stealthy	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Fire_Pistol.anim	action	kill_character_shoot		0.0000
+-1578473180	eastern_ship	siege	Animations/CampaignPieces/east_campaign_ship_anim_unfurled_traderoute_idle.anim	idle			1.0000
+-1561652192	thugee	attack_trade	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Matched_Stab_Death.anim	action	die_character_stab		0.0000
+-1515531435	default_ship	attack_trade	Animations/CampaignPieces/euro_campaign_ship_anim_unfurled_traderoute_idle.anim	idle			1.0000
+-1501668740	default_human	siege	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Matched_Stab_Death.anim	action	die_character_stab		0.0000
+-1490893157	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand_to_Seige.anim	status_transition		siege	0.0000
+-1469588968	default_ship	attack_trade	Animations/CampaignPieces/euro_campaign_ship_anim_unfurled_sink.anim	action	die_character_shoot		0.0000
+-1469354409	default_human	attack_trade	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Seige_Idle3.anim	idle			1.0000
+-1443273345	default_ship	normal	animations/campaignpieces/euro_campaign_ship_anim_unfurled_idle.anim	idle			1.0000
+-1402784680	thugee	normal	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Selected.anim	to_selected			0.0000
+-1384481462	thugee	normal	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Idle4.anim	idle			1.0000
+-1374132450	default_human	siege	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand_to_Defence.anim	matched_action	attack_character		0.0000
+-1353616885	eastern_ship	siege	Animations/CampaignPieces/east_campaign_ship_anim_unfurled_sink.anim	action	die_character_stab		0.0000
+-1331641750	default_human	normal	animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand.anim	idle			1.0000
+-1292318807	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Idle5.anim	idle			1.0000
+-1248102499	missionary	normal	Animations/MEN/CAMPAIGN/CAM_MISSIONARY/CAM_M_Selection.anim	to_selected			0.0000
+-1240653063	missionary	normal	Animations/MEN/CAMPAIGN/CAM_MISSIONARY/CAM_M_Pistol_Death.anim	action	die_character_shoot		0.0000
+-1215056781	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Idle1.anim	idle			1.0000
+-1170109630	default_ship	siege	Animations/CampaignPieces/euro_campaign_ship_anim_unfurled_fire.anim	action	attack_character		0.0000
+-1127228582	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Stand_to_Defence.anim	matched_action	assassinate		0.0000
+-1087458681	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Matched_Stab_Death.anim	action	die_character_stab		0.0000
+-1070455989	missionary	normal	Animations/MEN/CAMPAIGN/CAM_MISSIONARY/CAM_M_Stand_to_Defence.anim	matched_action	attack_character		0.0000
+-1061357172	thugee	attack_trade	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Seige_Attack_Idle2.anim	idle			1.0000
+-1044730156	thugee	normal	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Matched_Stab.anim	action	kill_character_stab		0.0000
+-1040701033	thugee	attack_trade	animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Seige_Attack_Idle1.anim	idle			1.0000
+-1005463762	gentleman	normal	Animations/MEN/CAMPAIGN/CAM_GENTLEMAN/CAM_G_Stand_to_Attack.anim	action	duel		0.0000
+-959570983	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Idle3.anim	idle			1.0000
+-949941966	rake	attack_trade	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Highway_Stand_to_Stand.anim	status_transition		normal	0.0000
+-948102121	default_human	stealthy	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Matched_Stab_Death.anim	action	die_character_stab		0.0000
+-946977254	missionary	normal	Animations/MEN/CAMPAIGN/CAM_MISSIONARY/CAM_M_Idle_3.anim	idle			1.0000
+-884997854	thugee	attack_trade	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Stand_to_Attack.anim	action	attack_character		0.0000
+-880159865	thugee	normal	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Idle1.anim	idle			1.0000
+-872696875	eastern_ship	normal	Animations/CampaignPieces/east_campaign_ship_anim_unfurled_sink.anim	action	die_character_stab		0.0000
+-870086388	missionary	normal	Animations/MEN/CAMPAIGN/CAM_MISSIONARY/CAM_M_Idle_1.anim	idle			1.0000
+-864599175	default_human	attack_trade	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Selected.anim	to_selected			0.0000
+-832918596	thugee	normal	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Matched_Stab_Death.anim	action	die_character_stab		0.0000
+-709901864	missionary	normal	Animations/MEN/CAMPAIGN/CAM_MISSIONARY/CAM_M_Idle_5.anim	idle			1.0000
+-701792412	scholar	normal	Animations/MEN/CAMPAIGN/CAM_SCHOLAR/CAM_S_Idle_2.anim	idle			1.0000
+-698360035	missionary	normal	Animations/MEN/CAMPAIGN/CAM_MISSIONARY/CAM_M_Idle_2.anim	idle			1.0000
+-668878326	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Idle2.anim	idle			1.0000
+-666300218	rake	attack_trade	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Pistol_Death.anim	action	die_character_shoot		0.0000
+-605926407	rake	attack_trade	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Highway_Idle5.anim	idle			1.0000
+-597889133	rake	attack_trade	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Highway_Idle3.anim	idle			1.0000
+-589630059	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Stand_to_Highway_Stand.anim	status_transition		attack_trade	0.0000
+-559702645	default_ship	attack_trade	Animations/CampaignPieces/euro_campaign_ship_anim_unfurled_fire.anim	action	attack_character		0.0000
+-500683171	default_ship	attack_trade	Animations/CampaignPieces/euro_campaign_ship_anim_unfurled_sink.anim	action	die_character_stab		0.0000
+-470407401	missionary	normal	Animations/MEN/CAMPAIGN/CAM_MISSIONARY/CAM_M_Stand.anim	idle			1.0000
+-427774793	thugee	normal	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Stand_to_Seige_Attack.anim	status_transition		attack_trade	0.0000
+-426160445	default_human	attack_trade	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Fire_Pistol.anim	action	kill_character_shoot		0.0000
+-394802279	rake	attack_trade	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Stand_to_Defence.anim	matched_action	attack_character		0.0000
+-370720814	default_human	attack_trade	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Pistol_Death.anim	action	die_character_shoot		0.0000
+-352701004	gentleman	normal	Animations/MEN/CAMPAIGN/CAM_GENTLEMAN/CAM_G_Idle1.anim	idle			1.0000
+-348471250	default_human	stealthy	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand_to_Defence.anim	matched_action	attack_character		0.0000
+-342326781	thugee	normal	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Idle5.anim	idle			1.0000
+-323571061	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand_to_Defence_Agent.anim	matched_action	assassinate		0.0000
+-260811519	gentleman	normal	Animations/MEN/CAMPAIGN/CAM_GENTLEMAN/CAM_G_Pistol_Death.anim	action	die_character_shoot		0.0000
+-259732992	default_human	stealthy	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Ambush_to_Stand.anim	status_transition		normal	0.0000
+-191981746	thugee	attack_trade	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Matched_Stab.anim	action	kill_character_stab		0.0000
+-191802484	gentleman	normal	Animations/MEN/CAMPAIGN/CAM_GENTLEMAN/CAM_G_Selection.anim	to_selected			0.0000
+-186847601	default_ship	siege	Animations/CampaignPieces/euro_campaign_ship_anim_unfurled_traderoute_idle.anim	idle			1.0000
+-164436423	default_ship	siege	Animations/CampaignPieces/euro_campaign_ship_anim_unfurled_sink.anim	action	die_character_shoot		0.0000
+-99640503	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Matched_Stab.anim	action	kill_character_stab		0.0000
+-91568596	thugee	attack_trade	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Seige_Attack_to_Stand.anim	status_transition		normal	0.0000
+-58634291	default_human	siege	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Pistol_Death.anim	action	die_character_shoot		0.0000
+-12904435	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Matched_Stab_Death.anim	action	die_character_stab		0.0000
+7282957	thugee	normal	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Idle3.anim	idle			1.0000
+37418655	default_human	siege	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand_to_Attack.anim	action	attack_character		0.0000
+54208677	gentleman	normal	Animations/MEN/CAMPAIGN/CAM_GENTLEMAN/CAM_G_Idle2.anim	idle			1.0000
+74585928	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Idle4.anim	idle			1.0000
+117536946	scholar	normal	Animations/MEN/CAMPAIGN/CAM_SCHOLAR/CAM_G_Stand_to_Defence.anim	matched_action	attack_character		0.0000
+130945272	rake	attack_trade	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Stand_to_Attack.anim	action	attack_character		0.0000
+176961938	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Pistol_Death.anim	action	die_character_shoot		0.0000
+183827219	scholar	normal	Animations/MEN/CAMPAIGN/CAM_SCHOLAR/CAM_S_Selected.anim	to_selected			0.0000
+190364772	rake	attack_trade	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Matched_Stab_Death.anim	action	die_character_stab		0.0000
+235770736	eastern_ship	attack_trade	Animations/CampaignPieces/east_campaign_ship_anim_unfurled_fire.anim	action	attack_character		0.0000
+241735683	gentleman	normal	Animations/MEN/CAMPAIGN/CAM_GENTLEMAN/CAM_G_Fire_Pistol.anim	action	kill_character_shoot		0.0000
+292428214	thugee	normal	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Stand_to_Defence.anim	matched_action	assassinate		0.0000
+349405697	default_human	stealthy	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand_to_Attack.anim	action	attack_character		0.0000
+383126072	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Idle2.anim	idle			1.0000
+436566204	thugee	normal	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Idle2.anim	idle			1.0000
+462598083	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Idle3.anim	idle			1.0000
+528605654	default_human	attack_trade	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Matched_Stab.anim	action	kill_character_stab		0.0000
+543001736	thugee	normal	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Stand_to_Attack.anim	action	assassinate		0.0000
+588000026	rake	attack_trade	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Highway_Idle2.anim	idle			1.0000
+628568121	eastern_ship	normal	animations/campaignpieces/east_campaign_ship_anim_unfurled_idle.anim	idle			1.0000
+658128870	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Stand_to_Defence.anim	matched_action	attack_character		0.0000
+743631710	thugee	normal	animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Stand.anim	idle			1.0000
+798416727	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Stand_to_Attack.anim	action	duel		0.0000
+806032538	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Selected.anim	to_selected			0.0000
+844224603	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand_to_Ambush.anim	status_transition		stealthy	0.0000
+856272390	eastern_ship	normal	Animations/CampaignPieces/east_campaign_ship_anim_unfurled_sink.anim	action	die_character_shoot		0.0000
+908451695	default_human	attack_trade	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Seige_to_Stand.anim	status_transition		normal	0.0000
+917758953	thugee	normal	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Pistol_Death.anim	action	die_character_shoot		0.0000
+946803783	default_human	siege	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Matched_Stab.anim	action	kill_character_stab		0.0000
+950054375	default_human	siege	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Seige_Idle2.anim	idle			1.0000
+954050991	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Idle5.anim	idle			1.0000
+998040555	default_human	attack_trade	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand_to_Attack.anim	action	attack_character		0.0000
+1014311115	scholar	normal	Animations/MEN/CAMPAIGN/CAM_SCHOLAR/CAM_S_Idle_5.anim	idle			1.0000
+1040904058	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Pistol_Death.anim	action	die_character_shoot		0.0000
+1063733665	thugee	attack_trade	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Fire_Pistol.anim	action	kill_character_shoot		0.0000
+1116195072	gentleman	normal	Animations/MEN/CAMPAIGN/CAM_GENTLEMAN/CAM_G_Idle5.anim	idle			1.0000
+1118647562	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Fire_Pistol.anim	action	kill_character_shoot		0.0000
+1120177996	gentleman	normal	Animations/MEN/CAMPAIGN/CAM_GENTLEMAN/CAM_G_Stand_to_Defence.anim	matched_action	duel		0.0000
+1222117581	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Idle1.anim	idle			1.0000
+1222339069	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand_to_Attack.anim	action	attack_character		0.0000
+1222767884	default_ship	normal	Animations/CampaignPieces/euro_campaign_ship_anim_unfurled_fire.anim	action	attack_character		0.0000
+1225381727	gentleman	normal	Animations/MEN/CAMPAIGN/CAM_GENTLEMAN/CAM_G_Stand.anim	idle			1.0000
+1226679902	scholar	normal	Animations/MEN/CAMPAIGN/CAM_SCHOLAR/CAM_S_Pistol_Death.anim	action	die_character_stab		0.0000
+1226845079	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Selected.anim	to_selected			0.0000
+1226930205	rake	attack_trade	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Highway_Idle1.anim	idle			1.0000
+1228475198	default_human	siege	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Seige_Idle1.anim	idle			1.0000
+1228480390	eastern_ship	siege	Animations/CampaignPieces/east_campaign_ship_anim_unfurled_fire.anim	action	attack_character		0.0000
+1228759873	gentleman	normal	Animations/MEN/CAMPAIGN/CAM_GENTLEMAN/CAM_G_Stand_to_Attack.anim	action	assassinate		0.0000
+1228843850	gentleman	normal	Animations/MEN/CAMPAIGN/CAM_GENTLEMAN/CAM_G_Matched_Stab.anim	action	kill_character_stab		0.0000
+1229004885	default_human	siege	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand_to_Defence_Agent.anim	matched_action	assassinate		0.0000
+1229175810	default_human	stealthy	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Ambush_Idle1.anim	idle			1.0000
+1229708620	default_ship	normal	Animations/CampaignPieces/euro_campaign_ship_anim_unfurled_sink.anim	action	die_character_stab		0.0000
+1231268682	missionary	normal	Animations/MEN/CAMPAIGN/CAM_MISSIONARY/CAM_M_Stand_to_Defence.anim	matched_action	assassinate		0.0000
+1257937420	default_human	stealthy	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Matched_Stab.anim	action	kill_character_stab		0.0000
+1290628172	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Stand_to_Attack.anim	action	assassinate		0.0000
+1349232029	thugee	attack_trade	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Seige_Attack_Idle3.anim	idle			1.0000
+1379326062	gentleman	normal	Animations/MEN/CAMPAIGN/CAM_GENTLEMAN/CAM_G_Stand_to_Defence.anim	matched_action	assassinate		0.0000
+1414057523	rake	attack_trade	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Fire_Pistol.anim	action	kill_character_shoot		0.0000
+1457097393	default_human	attack_trade	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Matched_Stab_Death.anim	action	die_character_stab		0.0000
+1474507589	thugee	attack_trade	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Stand_to_Defence.anim	matched_action	attack_character		0.0000
+1506066171	thugee	attack_trade	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Pistol_Death.anim	action	die_character_shoot		0.0000
+1514455651	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand_to_Defence.anim	matched_action	attack_character		0.0000
+1525942527	thugee	normal	Animations/MEN/CAMPAIGN/CAM_THUGEE/CAM_T_Fire_Pistol.anim	action	kill_character_shoot		0.0000
+1552330758	eastern_ship	normal	Animations/CampaignPieces/east_campaign_ship_anim_unfurled_fire.anim	action	attack_character		0.0000
+1593740720	scholar	normal	Animations/MEN/CAMPAIGN/CAM_SCHOLAR/CAM_S_Pistol_Death.anim	action	die_character_shoot		0.0000
+1597971009	default_human	attack_trade	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Seige_Idle1.anim	idle			1.0000
+1626846298	default_ship	siege	Animations/CampaignPieces/euro_campaign_ship_anim_unfurled_sink.anim	action	die_character_stab		0.0000
+1644890097	scholar	normal	Animations/MEN/CAMPAIGN/CAM_SCHOLAR/CAM_S_Fire_Pistol.anim	action	attack_character		0.0000
+1714032068	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Matched_Stab.anim	action	kill_character_stab		0.0000
+1727823529	default_human	siege	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Selected.anim	to_selected			0.0000
+1735417277	rake	attack_trade	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Matched_Stab.anim	action	kill_character_stab		0.0000
+1735789128	default_human	siege	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Fire_Pistol.anim	action	kill_character_shoot		0.0000
+1747608322	gentleman	normal	Animations/MEN/CAMPAIGN/CAM_GENTLEMAN/CAM_G_Idle3.anim	idle			1.0000
+1803398803	missionary	normal	Animations/MEN/CAMPAIGN/CAM_MISSIONARY/CAM_M_Idle_4.anim	idle			1.0000
+1812484445	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Stand_to_Defence.anim	matched_action	duel		0.0000
+1813221331	default_ship	normal	Animations/CampaignPieces/euro_campaign_ship_anim_unfurled_sink.anim	action	die_character_shoot		0.0000
+1861934022	scholar	normal	Animations/MEN/CAMPAIGN/CAM_SCHOLAR/CAM_S_Stand.anim	idle			1.0000
+1897372580	eastern_ship	siege	Animations/CampaignPieces/east_campaign_ship_anim_unfurled_sink.anim	action	die_character_shoot		0.0000
+1997309391	scholar	normal	Animations/MEN/CAMPAIGN/CAM_SCHOLAR/CAM_S_Idle_1.anim	idle			1.0000
+2000611402	gentleman	normal	Animations/MEN/CAMPAIGN/CAM_GENTLEMAN/CAM_G_Matched_Stab_Death.anim	action	die_character_stab		0.0000
+2062418798	default_human	attack_trade	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Seige_Idle2.anim	idle			1.0000
+2082865284	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand_to_Seige.anim	status_transition		attack_trade	0.0000
+2104088271	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Stand_to_Attack.anim	action	attack_character		0.0000
+2135698240	default_human	siege	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Seige_to_Stand.anim	status_transition		normal	0.0000

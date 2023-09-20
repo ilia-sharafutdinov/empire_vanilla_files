@@ -1,0 +1,72 @@
+Marker name: FOOTSTEP_WALK
+Position: 357 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 712 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 875 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 219 ms
+Type: Generic
+
+Marker name: musket_impact_BODY
+Position: 1 s 480 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 508 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 700 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 145 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 397 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 772 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 2 s 807 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 527 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 783 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 4 s 36 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 188 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 444 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 834 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 5 s 128 ms
+Type: Generic
+

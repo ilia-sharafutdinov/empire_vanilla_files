@@ -1,0 +1,4 @@
+policy	prerequisites
+#policies_tables;0;db/policies_tables/policies	
+religious_persecution	n
+religious_tolerance	n

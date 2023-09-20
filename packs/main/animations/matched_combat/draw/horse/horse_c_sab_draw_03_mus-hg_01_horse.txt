@@ -1,0 +1,64 @@
+Marker name: Footstep_Walk
+Position: 399 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 637 ms
+Type: Generic
+
+Marker name: bayonet_impact_sword
+Position: 716 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 775 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 903 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 61 ms
+Type: Generic
+
+Marker name: bayonet_impact_sword
+Position: 1 s 133 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 152 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 572 ms
+Type: Generic
+
+Marker name: bayonet_impact_sword
+Position: 1 s 592 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 810 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 935 ms
+Type: Generic
+
+Marker name: sabre_impact_wooden_haft_weapon
+Position: 2 s 177 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 2 s 190 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 2 s 323 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 2 s 593 ms
+Type: Generic
+

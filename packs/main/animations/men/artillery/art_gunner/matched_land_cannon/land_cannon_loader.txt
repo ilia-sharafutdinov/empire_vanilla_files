@@ -1,0 +1,36 @@
+Marker name: footstep_walk
+Position: 1 s 91 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 1 s 227 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 1 s 777 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 2 s 58 ms
+Type: Generic
+
+Marker name: footstep_turn
+Position: 2 s 306 ms
+Type: Generic
+
+Marker name: cannon_ball_load
+Position: 2 s 373 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 2 s 812 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 3 s 26 ms
+Type: Generic
+
+Marker name: footstep_turn
+Position: 3 s 307 ms
+Type: Generic
+

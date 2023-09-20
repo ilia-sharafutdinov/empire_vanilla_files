@@ -1,0 +1,16 @@
+Marker name: Sabre_Impact_Wooden_Haft_Weapon
+Position: 631 ms
+Type: Generic
+
+Marker name: Bayonet_Impact_Sword
+Position: 1 s 123 ms
+Type: Generic
+
+Marker name: Sabre_Impact_Wooden_Haft_Weapon
+Position: 1 s 667 ms
+Type: Generic
+
+Marker name: Sabre_Impact_Wooden_Haft_Weapon
+Position: 2 s 228 ms
+Type: Generic
+

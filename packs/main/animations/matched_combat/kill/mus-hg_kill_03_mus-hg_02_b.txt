@@ -1,0 +1,40 @@
+Marker name: FOOTSTEP_TURN
+Position: 609 ms
+Type: Generic
+
+Marker name: bayonet_hit_flesh
+Position: 785 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 26 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 46 ms
+Type: Generic
+
+Marker name: bayonet_hit_flesh
+Position: 1 s 864 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 63 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 747 ms
+Type: Generic
+
+Marker name: musket_impact_body
+Position: 2 s 861 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 3 s 730 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 4 s 97 ms
+Type: Generic
+

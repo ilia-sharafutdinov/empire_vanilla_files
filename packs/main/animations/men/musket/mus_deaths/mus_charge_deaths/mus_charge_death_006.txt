@@ -1,0 +1,28 @@
+Marker name: FOOTSTEP_RUN
+Position: 49 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 136 ms
+Type: Generic
+
+Marker name: musket_impact_ground
+Position: 382 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 511 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 546 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 835 ms
+Type: Generic
+
+Marker name: HAND_GRAB
+Position: 1 s 472 ms
+Type: Generic
+

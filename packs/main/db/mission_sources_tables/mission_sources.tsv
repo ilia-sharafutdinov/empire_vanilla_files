@@ -1,0 +1,5 @@
+mission_source	description
+#mission_sources_tables;0;db/mission_sources_tables/mission_sources	
+absolute_monarchy	The Royal Council
+constitutional_monarchy	Parliament
+republic	The Government

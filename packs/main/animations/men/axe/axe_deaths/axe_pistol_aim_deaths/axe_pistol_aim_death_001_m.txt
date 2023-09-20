@@ -1,0 +1,52 @@
+Marker name: FOOTSTEP_WALK
+Position: 282 ms
+Type: Generic
+
+Marker name: axe_impact_ground
+Position: 319 ms
+Type: Generic
+
+Marker name: pistol_impact_ground
+Position: 482 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 897 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 111 ms
+Type: Generic
+
+Marker name: human_foley_medium
+Position: 1 s 309 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 389 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 416 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 900 ms
+Type: Generic
+
+Marker name: human_foley_medium
+Position: 2 s 542 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 3 s 296 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 3 s 423 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 3 s 503 ms
+Type: Generic
+

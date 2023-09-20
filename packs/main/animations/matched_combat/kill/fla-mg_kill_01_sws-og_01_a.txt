@@ -1,0 +1,60 @@
+Marker name: sabre_stab_in
+Position: 756 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 877 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 968 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 1 s 47 ms
+Type: Generic
+
+Marker name: sabre_stab_out
+Position: 1 s 439 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 529 ms
+Type: Generic
+
+Marker name: FOOTSTEP_run
+Position: 1 s 944 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 248 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 578 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 994 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 551 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 853 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 498 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 5 s 7 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 5 s 248 ms
+Type: Generic
+

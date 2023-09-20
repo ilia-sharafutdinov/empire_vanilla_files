@@ -1,0 +1,20 @@
+Marker name: hand_grab
+Position: 1 s 741 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 2 s 629 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 2 s 746 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 2 s 816 ms
+Type: Generic
+
+Marker name: bodyfall_heavy
+Position: 3 s 59 ms
+Type: Generic
+

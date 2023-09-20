@@ -1,0 +1,52 @@
+Marker name: FOOTSTEP_WALK
+Position: 635 ms
+Type: Generic
+
+Marker name: bayonet_impact_sword
+Position: 732 ms
+Type: Generic
+
+Marker name: musket_impact_ground
+Position: 865 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 1 s 132 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 245 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 511 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 1 s 609 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 737 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 2 s 524 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 637 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 798 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 203 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 665 ms
+Type: Generic
+

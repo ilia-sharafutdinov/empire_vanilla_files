@@ -1,0 +1,12 @@
+Marker name: HAND_GRAB
+Position: 1 s 287 ms
+Type: Generic
+
+Marker name: HAND_GRAB
+Position: 2 s 359 ms
+Type: Generic
+
+Marker name: HAND_GRAB
+Position: 3 s 307 ms
+Type: Generic
+

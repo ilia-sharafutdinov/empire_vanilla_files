@@ -1,0 +1,36 @@
+Marker name: FOOTSTEP_RUN
+Position: 134 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 269 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 376 ms
+Type: Generic
+
+Marker name: horse_cheval
+Position: 594 ms
+Type: Generic
+
+Marker name: hand_grab
+Position: 631 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 711 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 940 ms
+Type: Generic
+
+Marker name: footstep_turn
+Position: 1 s 34 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 2 s 179 ms
+Type: Generic
+

@@ -1,0 +1,52 @@
+Marker name: hand_grab
+Position: 817 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 1 s 313 ms
+Type: Generic
+
+Marker name: FOOTSTEP_run
+Position: 1 s 692 ms
+Type: Generic
+
+Marker name: sabre_impact_wooden_shield
+Position: 1 s 850 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 942 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 447 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 750 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 997 ms
+Type: Generic
+
+Marker name: FOOTSTEP_run
+Position: 3 s 369 ms
+Type: Generic
+
+Marker name: FOOTSTEP_run
+Position: 3 s 548 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 879 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 439 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 4 s 562 ms
+Type: Generic
+

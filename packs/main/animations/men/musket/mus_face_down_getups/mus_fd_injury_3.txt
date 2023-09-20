@@ -1,0 +1,16 @@
+Marker name: FOOTSTEP_TURN
+Position: 813 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 1 s 977 ms
+Type: Generic
+
+Marker name: FOOTSTEP_TURN
+Position: 4 s 154 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 4 s 319 ms
+Type: Generic
+

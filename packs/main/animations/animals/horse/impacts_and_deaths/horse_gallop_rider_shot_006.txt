@@ -1,0 +1,96 @@
+Marker name: FOOTSTEP_RUN
+Position: 108 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 174 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 213 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 315 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 645 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 713 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 762 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 858 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 160 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 232 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 277 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 400 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 1 s 712 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 1 s 785 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 1 s 839 ms
+Type: Generic
+
+Marker name: footstep_turn
+Position: 1 s 961 ms
+Type: Generic
+
+Marker name: BODYFALL_HEAVY
+Position: 2 s 208 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 2 s 308 ms
+Type: Generic
+
+Marker name: footstep_run
+Position: 2 s 986 ms
+Type: Generic
+
+Marker name: footstep_turn
+Position: 3 s 100 ms
+Type: Generic
+
+Marker name: footstep_turn
+Position: 3 s 502 ms
+Type: Generic
+
+Marker name: BODYFALL_LIGHT
+Position: 3 s 666 ms
+Type: Generic
+
+Marker name: EQUIPMENT_RATTLE
+Position: 3 s 858 ms
+Type: Generic
+
+Marker name: footstep_turn
+Position: 3 s 909 ms
+Type: Generic
+

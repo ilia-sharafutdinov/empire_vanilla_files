@@ -1,0 +1,8 @@
+Marker name: SWORD_DRAW
+Position: 1 s 716 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 3 s 176 ms
+Type: Generic
+

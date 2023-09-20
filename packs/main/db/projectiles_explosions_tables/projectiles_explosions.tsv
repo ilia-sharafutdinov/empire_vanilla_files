@@ -1,0 +1,36 @@
+key	detonator_type	detonation_type	detonation_radius	detonation_duration	detonation_speed	detonation_damage	particle_type	particle_number	explosion_particle_effect	distance_from_target	error_margin
+#projectiles_explosions_tables;0;db/projectiles_explosions_tables/projectiles_explosions											
+carcass_12lb	fuse	carcass	50.0000	1.0000	50.0000	0.9900	carcass_fragment	4	explode_cone	20.0000	1.0000
+carcass_24lb	fuse	carcass	60.0000	1.0000	50.0000	0.9900	carcass_fragment	8	explode_cone	20.0000	1.0000
+carcass_32lb	fuse	carcass	70.0000	1.0000	50.0000	0.9900	carcass_fragment	5	explode_cone	20.0000	1.0000
+carcass_4_mortar	fuse	carcass	50.0000	0.0000	40.0000	0.9900	carcass_fragment	4	explode_cone	5.0000	1.0000
+carcass_8_mortar	fuse	carcass	60.0000	0.0000	40.0000	0.9900	carcass_fragment	6	explode_cone	10.0000	1.0000
+grenade	fuse_grenade	shockwave	0.0000	0.0000	0.0000	0.0000	grenade_fragment	3	explode_grenade	0.0000	1.0000
+grenade_improved	fuse_grenade	shockwave	0.0000	0.0000	0.0000	0.0000	grenade_fragment	5	explode_grenade	0.0000	0.0000
+mortar_4_ball	percussive	shockwave	50.0000	0.0000	0.0000	5.0000	airgun	1		0.0000	0.0000
+mortar_4_shell	fuse	shockwave	4.0000	0.0000	10.0000	15.0000	shell_fragment	18	explode_frag_med	10.0000	0.0000
+mortar_8_shell	fuse	shockwave	6.0000	0.0000	10.0000	25.0000	shell_fragment	32	explode_frag_lrg	15.0000	0.0000
+naval_mortar_shell	fuse	shockwave	16.0000	0.0000	10.0000	35.0000	naval_mortar_shell_fragment	25	explode_frag_lrg	20.0000	0.0000
+quicklime_12lb	fuse	quicklime	40.0000	1.0000	20.0000	0.4000	quicklime_fragment	2	explode_quicklime_med	30.0000	1.0000
+quicklime_24lb	fuse	quicklime	50.0000	1.0000	20.0000	0.4000	quicklime_fragment	3	explode_quicklime_med	30.0000	1.0000
+quicklime_32lb	fuse	quicklime	60.0000	1.0000	20.0000	0.4000	quicklime_fragment	4	explode_quicklime_med	30.0000	1.0000
+quicklime_4_mortar	fuse	quicklime	60.0000	2.5000	20.0000	0.4000	quicklime_fragment	5	explode_quicklime_med	10.0000	1.0000
+quicklime_8_mortar	fuse	quicklime	80.0000	2.5000	20.0000	0.4000	quicklime_fragment	9	explode_quicklime_med	10.0000	1.0000
+rocket	fuse	shockwave	0.0000	0.0000	0.0000	0.0000	shell_fragment	5	explode_frag_med	5.0000	200.0000
+shell_12lb	fuse	shockwave	7.0000	0.0000	10.0000	10.0000	shell_fragment	12	explode_frag_med	0.0000	1.0000
+shell_18lb	fuse	shockwave	8.0000	0.0000	10.0000	12.0000	shell_fragment	18	explode_frag_med	0.0000	1.0000
+shell_24lb	fuse	shockwave	9.0000	0.0000	10.0000	14.0000	shell_fragment	24	explode_frag_lrg	0.0000	1.0000
+shell_32lb	fuse	shockwave	14.0000	0.0000	10.0000	16.0000	shell_fragment	32	explode_frag_lrg	0.0000	1.0000
+shell_64lb	fuse	shockwave	16.0000	0.0000	10.0000	18.0000	shell_fragment	64	explode_frag_lrg	0.0000	1.0000
+shell_percussive_12lb	percussive	shockwave	6.0000	0.0000	10.0000	14.0000	shell_fragment	12	explode_frag_sml	0.0000	0.0000
+shell_percussive_24lb	percussive	shockwave	8.0000	0.0000	10.0000	16.0000	shell_fragment	24	explode_frag_med	0.0000	0.0000
+shell_percussive_32lb	percussive	shockwave	10.0000	0.0000	10.0000	18.0000	shell_fragment	32	explode_frag_lrg	0.0000	0.0000
+ship_magazine	fuse	shockwave	70.0000	0.0000	10.0000	100.0000	ship_explosion_fragment	100	ShipExplosion	0.0000	0.0000
+shrapnel_12lb	fuse	shockwave	4.0000	0.0000	10.0000	6.0000	shrapnel	45	explode_frag_sml	45.0000	0.5000
+shrapnel_18lb	fuse	shockwave	5.0000	0.0000	10.0000	8.0000	shrapnel	60	explode_frag_med	45.0000	0.5000
+shrapnel_24lb	fuse	shockwave	6.0000	0.0000	10.0000	10.0000	shrapnel	80	explode_frag_med	50.0000	0.5000
+shrapnel_32lb	fuse	shockwave	7.0000	0.0000	10.0000	12.0000	shrapnel	100	explode_frag_lrg	55.0000	0.5000
+shrapnel_3lb	fuse	shockwave	1.0000	0.0000	10.0000	2.0000	shrapnel	24	explode_frag_sml	45.0000	0.5000
+shrapnel_64lb	fuse	shockwave	8.0000	0.0000	10.0000	14.0000	shrapnel	120	explode_frag_lrg	70.0000	0.5000
+shrapnel_6lb	fuse	shockwave	2.0000	0.0000	10.0000	3.0000	shrapnel	25	explode_frag_sml	45.0000	0.5000
+shrapnel_9lb	fuse	shockwave	3.0000	0.0000	10.0000	4.0000	shrapnel	35	explode_frag_med	45.0000	0.5000

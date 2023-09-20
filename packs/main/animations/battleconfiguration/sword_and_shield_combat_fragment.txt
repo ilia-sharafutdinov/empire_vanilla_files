@@ -1,0 +1,48 @@
+version 1
+
+ATTACK_1							filename = "Animations/MEN/SWORD_SHIELD/SWS_OG_KILLS/SWS-OG_kills_02.anim",									equipment_usage = sword
+ATTACK_1							filename = "Animations/MEN/SWORD_SHIELD/SWS_OG_KILLS/SWS-OG_kills_03.anim",									equipment_usage = sword
+
+CHARGE								filename = "Animations/MEN/SWORD_SHIELD/SWS_CHARGE/SWS_charge.anim",				blend_in_time = 0.5		
+
+DEFEND_1							filename = "Animations/MEN/SWORD_SHIELD/SWS_OUTSIDE_GUARDS/SWS_OGuard_Dodge.anim",							equipment_usage = shield
+
+// MATCHED COMBAT ------------------------------------------------------------------------------------------------------------------------
+COMBAT_1							filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_SWS-OG_01_A.anim",		blend_in_time = 0.25
+COMBAT_2							filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_SWS-OG_01_B.anim",		blend_in_time = 0.25
+
+COMBAT_3							filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_02_SWS-OG_01_A.anim",		blend_in_time = 0.25
+COMBAT_4							filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_02_SWS-OG_01_B.anim",		blend_in_time = 0.25
+
+COMBAT_5							filename = "Animations/Matched_Combat/Kill/AXE-OG_KILL_01_SWS-OG_01_B.anim",		blend_in_time = 0.25
+COMBAT_6							filename = "Animations/Matched_Combat/Kill/FLA-MG_KILL_01_SWS-OG_01_B.anim",		blend_in_time = 0.25
+COMBAT_7							filename = "Animations/Matched_Combat/Kill/SAB-MG_KILL_01_SWS-OG_01_B.anim",		blend_in_time = 0.25
+COMBAT_8							filename = "Animations/Matched_Combat/Kill/SWS-OG_01_KILL_MUS-HG_02_A.anim",		blend_in_time = 0.25
+COMBAT_9							filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_AXE-OG_01_A.anim",		blend_in_time = 0.25
+COMBAT_10							filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_FLA-HG_01_A.anim",		blend_in_time = 0.25
+COMBAT_11							filename = "Animations/Matched_Combat/Kill/SWS-OG_KILL_01_SAB-HG_01_A.anim",		blend_in_time = 0.25
+
+COMBAT_12   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SWS-OG_01_B.anim",				blend_in_time = 0.25
+COMBAT_13   						filename = "Animations/Matched_Combat/Draw/SAB-MG_SWS-OG_02_B.anim",				blend_in_time = 0.25
+
+COMBAT_14   						filename = "Animations/Matched_Combat/Draw/SWS-OG_MUS-HG_01_B.anim",				blend_in_time = 0.25
+COMBAT_15   						filename = "Animations/Matched_Combat/Draw/SWS-OG_MUS-HG_02_B.anim",				blend_in_time = 0.25
+COMBAT_16   						filename = "Animations/Matched_Combat/Draw/SWS-OG_MUS-HG_03_B.anim",				blend_in_time = 0.25
+
+COMBAT_17   						filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_01_A.anim",				blend_in_time = 0.25
+COMBAT_18   						filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_01_B.anim",				blend_in_time = 0.25
+
+COMBAT_19   						filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_02_A.anim",				blend_in_time = 0.25
+COMBAT_20   						filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_02_B.anim",				blend_in_time = 0.25
+                                                                                                                                         
+COMBAT_21   						filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_03_A.anim",				blend_in_time = 0.25
+COMBAT_22							filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_03_B.anim",				blend_in_time = 0.25
+
+COMBAT_23   						filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_04_A.anim",				blend_in_time = 0.25
+COMBAT_24							filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_04_B.anim",				blend_in_time = 0.25
+
+COMBAT_25   						filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_05_A.anim",				blend_in_time = 0.25
+COMBAT_26							filename = "Animations/Matched_Combat/Draw/SWS-OG_SWS-OG_05_B.anim",				blend_in_time = 0.25
+
+CHARGE_COMBAT_1						filename = "Animations/Matched_Combat/Kill/SWS-CH_KILL_01_SWS-OG_01_A.anim",		blend_in_time = 0.25
+CHARGE_COMBAT_2						filename = "Animations/Matched_Combat/Kill/SWS-CH_KILL_01_SWS-OG_01_B.anim",		blend_in_time = 0.25

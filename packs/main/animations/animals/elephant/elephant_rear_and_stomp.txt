@@ -1,0 +1,32 @@
+Marker name: elephant_melee
+Position: 272 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 318 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 822 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 62 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 141 ms
+Type: Generic
+
+Marker name: FOOTSTEP_RUN
+Position: 1 s 764 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 1 s 920 ms
+Type: Generic
+
+Marker name: FOOTSTEP_WALK
+Position: 2 s 81 ms
+Type: Generic
+

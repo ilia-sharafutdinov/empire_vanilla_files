@@ -1,0 +1,6 @@
+key	name
+#bribe_actions_tables;0;db/bribe_actions_tables/bribe_actions	
+defect	Defect
+give_info	Give Information
+give_tech	Give Technology
+no_orders	Drop Orders

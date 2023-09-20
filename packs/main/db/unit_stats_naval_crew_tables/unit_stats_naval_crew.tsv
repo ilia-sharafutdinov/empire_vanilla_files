@@ -1,0 +1,12 @@
+unit_type	core_loading_skill	core_marksmanship	melee_attack	melee_defence	melee_weapon_type	pistols	ammo	battle_entity	soldier_model	man_animations_table	equipment_theme	armour_audio	armour	spacing	discipline
+#unit_stats_naval_crew_tables;0;db/unit_stats_naval_crew_tables/unit_stats_naval_crew															
+barbary_guncrew	5	40	8	5	pike	false	0	infantry_euro_light	barbary_pirates	man_naval_cannon_crew	x_euro_naval_gunner	ph	1	1.5000	3
+barbary_marine	4	40	22	12	cutlass	true	10	infantry_euro_medium	barbary_pirates	man_musket	euro_naval_marine	ph	1	1.1000	5
+barbary_seaman	5	40	8	5	cutlass	false	0	infantry_euro_light	barbary_pirates	man_seaman	euro_naval_seaman	ph	1	1.5000	3
+euro_guncrew	5	40	4	3	pike	false	0	infantry_euro_light	euro_able_seamen	man_naval_cannon_crew	x_euro_naval_gunner	ph	1	1.5000	3
+euro_marine	5	45	13	7	bayonet	true	18	infantry_euro_medium	euro_marines	man_musket	euro_naval_marine	ph	3	1.2000	5
+euro_seaman	5	40	4	3	cutlass	false	0	infantry_euro_light	euro_able_seamen	man_seaman	euro_naval_seaman	ph	1	1.5000	3
+pirate_guncrew	5	40	8	5	pike	false	0	infantry_euro_heavy	euro_pirate	man_naval_cannon_crew	x_euro_naval_gunner	ph	1	1.5000	3
+pirate_marine	4	40	17	7	cutlass	true	10	infantry_euro_heavy	euro_pirate	man_musket	euro_naval_marine	ph	1	1.1000	5
+pirate_seaman	5	40	8	5	cutlass	false	0	infantry_euro_heavy	euro_pirate	man_seaman	euro_naval_seaman	ph	1	1.5000	3
+pr_custom_crate_dudes	0	0	0	0	cutlass	false	0	infantry_euro_heavy	Episodic_Euro_American	man_seaman	euro_naval_seaman	ph	0	1.5000	0

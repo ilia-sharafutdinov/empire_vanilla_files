@@ -1,0 +1,8 @@
+Marker name: pistol_draw
+Position: 334 ms
+Type: Generic
+
+Marker name: footstep_walk
+Position: 1 s 394 ms
+Type: Generic
+

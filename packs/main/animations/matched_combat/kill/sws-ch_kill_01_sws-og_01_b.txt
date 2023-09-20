@@ -1,0 +1,28 @@
+Marker name: sabre_impact_ground
+Position: 881 ms
+Type: Generic
+
+Marker name: Equipment_Rattle
+Position: 1 s 373 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 1 s 405 ms
+Type: Generic
+
+Marker name: wooden_shield_impact_ground
+Position: 1 s 493 ms
+Type: Generic
+
+Marker name: bodyfall_light
+Position: 2 s 6 ms
+Type: Generic
+
+Marker name: equipment_rattle
+Position: 2 s 92 ms
+Type: Generic
+
+Marker name: Bodyfall_Heavy
+Position: 2 s 206 ms
+Type: Generic
+

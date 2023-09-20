@@ -1,0 +1,7 @@
+type
+#battle_types_tables;0;db/battle_types_tables/battle_types
+capture_point
+classic
+historic
+naval
+siege

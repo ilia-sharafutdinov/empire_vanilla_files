@@ -1,0 +1,32 @@
+Marker name: Footstep_Turn
+Position: 197 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 993 ms
+Type: Generic
+
+Marker name: sword_swoosh
+Position: 1 s 329 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 1 s 535 ms
+Type: Generic
+
+Marker name: sword_swoosh
+Position: 1 s 959 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 2 s 162 ms
+Type: Generic
+
+Marker name: Footstep_Walk
+Position: 2 s 612 ms
+Type: Generic
+
+Marker name: Footstep_Turn
+Position: 2 s 734 ms
+Type: Generic
+
