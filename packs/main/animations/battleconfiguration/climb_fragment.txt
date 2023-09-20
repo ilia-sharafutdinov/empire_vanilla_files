@@ -5,6 +5,10 @@ CLIMB_DOWN_LADDER							filename = "Animations/MEN/ARTILLERY/ART_LADDER/ART_Clim
 
 CLIMB_UP_ROPE								filename = "Animations/MEN/ARTILLERY/ART_ROPE_CLIMB/ART_rope_climb_up_loop.anim",
 CLIMB_DOWN_ROPE								filename = "Animations/MEN/ARTILLERY/ART_ROPE_CLIMB/ART_rope_climb_down_loop_02.anim",
+CLIMB_ON_ROPE_BOTTOM						filename = "Animations/MEN/ARTILLERY/ART_ROPE_CLIMB/ART_rope_climb_up_onto.anim",
+CLIMB_OFF_ROPE_TOP							filename = "Animations/MEN/ARTILLERY/ART_ROPE_CLIMB/ART_rope_climb_up_off.anim",
+CLIMB_ON_ROPE_TOP							filename = "Animations/MEN/ARTILLERY/ART_ROPE_CLIMB/ART_rope_climb_down_onto.anim",
+CLIMB_OFF_ROPE_BOTTOM						filename = "Animations/MEN/ARTILLERY/ART_ROPE_CLIMB/ART_rope_climb_down_off.anim",
 
 CLIMB_UP_GRAPPLE							filename = "Animations/MEN/MUSKET/MUS_ROPE/Ascend_Vert.anim",
 CLIMB_DOWN_GRAPPLE							filename = "Animations/MEN/MUSKET/MUS_ROPE/Descend_Vert.anim",
@@ -13,6 +17,6 @@ CLIMB_UP_RIGGING							filename = "Animations/MEN/ARTILLERY/ART_RIGGING/ART_clim
 CLIMB_DOWN_RIGGING							filename = "Animations/MEN/ARTILLERY/ART_RIGGING/ART_climb_down.anim",
 
 CLIMB_ON_RIGGING_BOTTOM						filename = "Animations/MEN/ARTILLERY/ART_RIGGING/ART_step_on.anim",
-CLIMB_OFF_RIGGING_BOTTOM					filename = "Animations/MEN/ARTILLERY/ART_RIGGING/ART_step_off.anim",
-CLIMB_ON_RIGGING_TOP						filename = "Animations/MEN/ARTILLERY/ART_RIGGING/ART_climb_on.anim",
 CLIMB_OFF_RIGGING_TOP						filename = "Animations/MEN/ARTILLERY/ART_RIGGING/ART_climb_off.anim",
+CLIMB_ON_RIGGING_TOP						filename = "Animations/MEN/ARTILLERY/ART_RIGGING/ART_climb_on.anim",
+CLIMB_OFF_RIGGING_BOTTOM					filename = "Animations/MEN/ARTILLERY/ART_RIGGING/ART_step_off.anim",

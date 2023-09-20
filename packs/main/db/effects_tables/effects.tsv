@@ -22,8 +22,9 @@ agent_spawn_rate_mod_eastern_scholar	data/ui/campaign ui/pips/effect_characters.
 agent_spawn_rate_mod_gentleman	data/ui/campaign ui/pips/effect_characters.tga	106
 agent_spawn_rate_mod_missionary	data/ui/campaign ui/pips/effect_characters.tga	100
 agent_spawn_rate_mod_rake	data/ui/campaign ui/pips/effect_characters.tga	105
-agent_spawn_rate_rake	data/ui/campaign ui/pips/effect_characters.tga	100
+agent_spawn_rate_rake	data/ui/campaign ui/pips/effect_characters.tga	0
 ancillary_test	data/ui/campaign ui/pips/effect_characters.tga	0
+building_cost_mod_all		0
 building_cost_mod_farms	data/ui/campaign ui/pips/effect_building.tga	205
 building_cost_mod_happiness	data/ui/campaign ui/pips/effect_building.tga	204
 building_cost_mod_industry	data/ui/campaign ui/pips/effect_building.tga	203
@@ -68,7 +69,7 @@ conversion_sikh	data/ui/campaign ui/pips/sikh.tga	601
 diplomacy_bonus_faction_leader		2
 disband_cashback	data/ui/campaign ui/pips/effect_economy.tga	0
 education_happy_mod	data/ui/campaign ui/pips/effect_public_order.tga	1
-enable_airguns	data/ui/campaign ui/pips/effect_tech.tga	723
+enable_airguns	data/ui/campaign ui/pips/effect_tech.tga	0
 enable_cadenced_marching	data/ui/campaign ui/pips/effect_tech.tga	722
 enable_canister_shot	data/ui/campaign ui/pips/effect_tech.tga	721
 enable_carbines	data/ui/campaign ui/pips/effect_tech.tga	720
@@ -82,6 +83,7 @@ enable_explosive_shells	data/ui/campaign ui/pips/effect_tech.tga	716
 enable_fire_and_advance	data/ui/campaign ui/pips/effect_tech.tga	715
 enable_fire_by_rank	data/ui/campaign ui/pips/effect_tech.tga	714
 enable_improved_coppering	data/ui/campaign ui/pips/effect_tech.tga	0
+enable_improved_fougasse		0
 enable_improved_grape_shot	data/ui/campaign ui/pips/effect_tech.tga	713
 enable_improved_grenades	data/ui/campaign ui/pips/effect_tech.tga	712
 enable_improved_platoon_firing	data/ui/campaign ui/pips/effect_tech.tga	711
@@ -143,16 +145,16 @@ happy_industrialisation_middle	data/ui/campaign ui/pips/effect_upper_classes.tga
 happy_industrialisation_upper	data/ui/campaign ui/pips/effect_upper_classes.tga	9003
 happy_ministerial_position	data/ui/campaign ui/pips/effect_public_order.tga	9020
 happy_mod_religious_unrest	data/ui/campaign ui/pips/effect_public_order.tga	9021
-happy_religion_animist	data/ui/campaign ui/pips/effect_lower_classes.tga	9028
-happy_religion_buddhist	data/ui/campaign ui/pips/effect_lower_classes.tga	9029
-happy_religion_catholic	data/ui/campaign ui/pips/effect_lower_classes.tga	9030
-happy_religion_hindu	data/ui/campaign ui/pips/effect_lower_classes.tga	9031
-happy_religion_islam	data/ui/campaign ui/pips/effect_lower_classes.tga	9032
+happy_religion_animist	data/ui/campaign ui/pips/effect_public_order.tga	9028
+happy_religion_buddhist	data/ui/campaign ui/pips/effect_public_order.tga	9029
+happy_religion_catholic	data/ui/campaign ui/pips/effect_public_order.tga	9030
+happy_religion_hindu	data/ui/campaign ui/pips/effect_public_order.tga	9031
+happy_religion_islam	data/ui/campaign ui/pips/effect_public_order.tga	9032
 happy_religion_lower	data/ui/campaign ui/pips/effect_lower_classes.tga	9033
 happy_religion_middle	data/ui/campaign ui/pips/effect_upper_classes.tga	9034
-happy_religion_orthodox	data/ui/campaign ui/pips/effect_lower_classes.tga	9035
-happy_religion_protestant	data/ui/campaign ui/pips/effect_lower_classes.tga	9036
-happy_religion_sikh	data/ui/campaign ui/pips/effect_lower_classes.tga	9037
+happy_religion_orthodox	data/ui/campaign ui/pips/effect_public_order.tga	9035
+happy_religion_protestant	data/ui/campaign ui/pips/effect_public_order.tga	9036
+happy_religion_sikh	data/ui/campaign ui/pips/effect_public_order.tga	9037
 happy_religion_upper	data/ui/campaign ui/pips/effect_upper_classes.tga	9038
 happy_tax_active_lower	data/ui/campaign ui/pips/effect_lower_classes.tga	9027
 happy_tax_active_upper	data/ui/campaign ui/pips/effect_upper_classes.tga	9026
@@ -177,10 +179,10 @@ mod_faction_claim		0
 mod_factory_build_time	data/ui/campaign ui/pips/effect_building.tga	1
 mod_infantry_movement_campaign	data/ui/campaign ui/pips/effect_army.tga	0
 mod_infantry_training_battle	data/ui/campaign ui/pips/effect_army.tga	1
-mod_max_pop	data/ui/campaign ui/pips/pip_pop_growth_20.tga	1003
-mod_pop_growth	data/ui/campaign ui/pips/pip_pop_growth_20.tga	1004
-mod_pop_growth_wheat	data/ui/campaign ui/pips/pip_pop_growth_20.tga	1005
-mod_religion_conversion_rate	data/ui/campaign ui/pips/pip_pop_growth_20.tga	1
+mod_max_pop	data/ui/campaign ui/pips/effect_pop_growth.tga	1003
+mod_pop_growth	data/ui/campaign ui/pips/effect_pop_growth.tga	1004
+mod_pop_growth_wheat	data/ui/campaign ui/pips/effect_pop_growth.tga	1005
+mod_religion_conversion_rate	data/ui/campaign ui/pips/effect_pop_growth.tga	1
 mod_reload_rate_carbine	data/ui/campaign ui/pips/effect_army.tga	1
 mod_repair_cost_artillery	data/ui/campaign ui/pips/effect_army.tga	1
 mod_repair_cost_bldg	data/ui/campaign ui/pips/effect_building.tga	1
@@ -219,19 +221,20 @@ policing_cost_mod	data/ui/campaign ui/pips/effect_economy.tga	1
 pop_growth_farm	data/ui/campaign ui/pips/eco_agriculture.tga	1008
 pop_growth_government	data/ui/campaign ui/pips/government-happy.tga	1006
 pop_growth_port_fishing	data/ui/campaign ui/pips/eco-fishing.tga	1007
-pop_growth_tax_modifier	data/ui/campaign ui/pips/pip_pop_growth_20.tga	0
-pop_growth_tax_modifier_multiplier	data/ui/campaign ui/pips/pip_pop_growth_20.tga	0
-pop_growth_technology_modifier	data/ui/campaign ui/pips/pip_pop_growth_20.tga	1001
-pop_growth_visible_tax_effect_extortionate	data/ui/campaign ui/pips/pip_pop_growth_20.tga	8014
-pop_growth_visible_tax_effect_high	data/ui/campaign ui/pips/pip_pop_growth_20.tga	8013
-pop_growth_visible_tax_effect_low	data/ui/campaign ui/pips/pip_pop_growth_20.tga	8012
-pop_growth_visible_tax_effect_minimal	data/ui/campaign ui/pips/pip_pop_growth_20.tga	0
-pop_growth_visible_tax_effect_normal	data/ui/campaign ui/pips/pip_pop_growth_20.tga	8011
-pop_maxpop_modifier	data/ui/campaign ui/pips/pip_pop_growth_20.tga	1002
-pop_maxpop_modifier_tech_mod	data/ui/campaign ui/pips/pip_pop_growth_20.tga	1000
+pop_growth_tax_modifier	data/ui/campaign ui/pips/effect_pop_growth.tga	0
+pop_growth_tax_modifier_multiplier	data/ui/campaign ui/pips/effect_pop_growth.tga	0
+pop_growth_technology_modifier	data/ui/campaign ui/pips/effect_pop_growth.tga	1001
+pop_growth_visible_tax_effect_extortionate	data/ui/campaign ui/pips/effect_pop_growth.tga	8014
+pop_growth_visible_tax_effect_high	data/ui/campaign ui/pips/effect_pop_growth.tga	8013
+pop_growth_visible_tax_effect_low	data/ui/campaign ui/pips/effect_pop_growth.tga	8012
+pop_growth_visible_tax_effect_minimal	data/ui/campaign ui/pips/effect_pop_growth.tga	0
+pop_growth_visible_tax_effect_normal	data/ui/campaign ui/pips/effect_pop_growth.tga	8011
+pop_maxpop_modifier	data/ui/campaign ui/pips/effect_pop_growth.tga	1002
+pop_maxpop_modifier_tech_mod	data/ui/campaign ui/pips/effect_pop_growth.tga	1000
 prestige_enlightenment	data/ui/campaign ui/pips/effect_prestige.tga	0
 prestige_enlightenment_generic	data/ui/campaign ui/pips/effect_prestige.tga	0
 prestige_faction_leader	data/ui/campaign ui/pips/effect_prestige.tga	1
+prestige_message	data/ui/campaign ui/pips/effect_prestige.tga	1
 prestige_military	data/ui/campaign ui/pips/effect_prestige.tga	0
 prestige_military_generic	data/ui/campaign ui/pips/effect_prestige.tga	0
 prestige_wealth	data/ui/campaign ui/pips/effect_prestige.tga	0
@@ -250,7 +253,8 @@ recruitment_cost_mod_category_naval_specialist	data/ui/campaign ui/pips/effect_n
 recruitment_cost_mod_land_all	data/ui/campaign ui/pips/effect_army.tga	2013
 recruitment_cost_mod_naval_all	data/ui/campaign ui/pips/effect_navy.tga	2012
 recruitment_points	data/ui/campaign ui/pips/effect_army.tga	1
-region_turns_to_surrender	data/ui/campaign ui/pips/effect_army.tga	1
+recruitment_points_home_region		0
+region_turns_to_surrender	data/ui/campaign ui/pips/effect_army.tga	0
 repair_cost_modifier	data/ui/campaign ui/pips/effect_building.tga	1
 repression_building	data/ui/campaign ui/pips/buildings-repression.tga	8010
 repression_character	character_traits-repression.tga	8009
@@ -266,18 +270,18 @@ research_points_military	data/ui/campaign ui/pips/effect_tech.tga	7001
 research_rate_mod	data/ui/campaign ui/pips/effect_tech.tga	7000
 research_rate_mod_army_tech	data/ui/campaign ui/pips/effect_tech.tga	7000
 research_rate_mod_navy_tech	data/ui/campaign ui/pips/effect_tech.tga	7000
-resource_prod_cattle	data/ui/campaign ui/pips/cattle.tga	511
-resource_prod_corn	data/ui/campaign ui/pips/corn.tga	510
-resource_prod_fish	data/ui/campaign ui/pips/fish.tga	509
-resource_prod_gems	data/ui/campaign ui/pips/gems.tga	508
-resource_prod_gold	data/ui/campaign ui/pips/gold.tga	507
-resource_prod_iron	data/ui/campaign ui/pips/iron.tga	506
-resource_prod_rice	data/ui/campaign ui/pips/rice.tga	505
-resource_prod_sheep	data/ui/campaign ui/pips/sheep.tga	504
-resource_prod_silver	data/ui/campaign ui/pips/silver.tga	503
-resource_prod_timber	data/ui/campaign ui/pips/timber.tga	502
-resource_prod_wheat	data/ui/campaign ui/pips/wheat.tga	501
-resource_prod_wine	data/ui/campaign ui/pips/wine.tga	500
+resource_prod_cattle	data/ui/campaign ui/pips/cattle.tga	0
+resource_prod_corn	data/ui/campaign ui/pips/corn.tga	0
+resource_prod_fish	data/ui/campaign ui/pips/fish.tga	0
+resource_prod_gems	data/ui/campaign ui/pips/gems.tga	0
+resource_prod_gold	data/ui/campaign ui/pips/gold.tga	0
+resource_prod_iron	data/ui/campaign ui/pips/iron.tga	0
+resource_prod_rice	data/ui/campaign ui/pips/rice.tga	0
+resource_prod_sheep	data/ui/campaign ui/pips/sheep.tga	0
+resource_prod_silver	data/ui/campaign ui/pips/silver.tga	0
+resource_prod_timber	data/ui/campaign ui/pips/timber.tga	0
+resource_prod_wheat	data/ui/campaign ui/pips/wheat.tga	0
+resource_prod_wine	data/ui/campaign ui/pips/wine.tga	0
 small_city_fortifications	data/ui/campaign ui/pips/effect_army.tga	1
 subterfuge_assassination		1
 subterfuge_counterspying		3
@@ -285,6 +289,7 @@ subterfuge_sabotage		4
 subterfuge_spying		2
 tax_bonus_building	data/ui/campaign ui/pips/effect_economy.tga	8003
 tax_bonus_governor	data/ui/campaign ui/pips/effect_economy.tga	8002
+tax_bonus_minister	data/ui/campaign ui/pips/effect_economy.tga	8002
 trade_route_all_mod_growth_rate	data/ui/campaign ui/pips/effect_economy.tga	6002
 trade_routes_mod_max_land	data/ui/campaign ui/pips/effect_economy.tga	6001
 trade_routes_mod_max_sea	data/ui/campaign ui/pips/effect_economy.tga	6000
@@ -315,14 +320,10 @@ upkeep_cost_mod_category_naval_specialist	data/ui/campaign ui/pips/effect_navy.t
 upkeep_cost_mod_land_all	data/ui/campaign ui/pips/effect_army.tga	3013
 upkeep_cost_mod_naval_all	data/ui/campaign ui/pips/effect_navy.tga	3012
 Xcommodity_price_mod	data/ui/campaign ui/pips/effect_economy.tga	0
-Xgdp_building	data/ui/campaign ui/pips/pip_pop_growth_20.tga	0
-Xpop_growth_buildings	data/ui/campaign ui/pips/pip_pop_growth_20.tga	0
+Xgdp_building	data/ui/campaign ui/pips/effect_pop_growth.tga	0
+Xpop_growth_buildings	data/ui/campaign ui/pips/effect_pop_growth.tga	0
 Xtax_cap	data/ui/campaign ui/pips/effect_economy.tga	0
 Xtw_growth	data/ui/campaign ui/pips/effect_economy.tga	0
 zeal_america		111
 zeal_europe		112
 zeal_india		113
-enable_improved_fougasse		0
-tax_bonus_minister	data/ui/campaign ui/pips/effect_economy.tga	8002
-prestige_message	data/ui/campaign ui/pips/effect_prestige.tga	1
-recruitment_points_home_region		0

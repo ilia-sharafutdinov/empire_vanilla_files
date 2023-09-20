@@ -1,11 +1,11 @@
 government_type_from	government_type_to	attitude_on_change	base_attitude
 #diplomatic_relations_government_type_tables;0;db/diplomatic_relations_government_type_tables/diplomatic_relations_government_type			
 gov_absolute_monarchy	gov_absolute_monarchy	50	15
-gov_absolute_monarchy	gov_constitutional_monarchy	-50	-10
-gov_absolute_monarchy	gov_republic	-100	-30
-gov_constitutional_monarchy	gov_absolute_monarchy	-40	-10
+gov_absolute_monarchy	gov_constitutional_monarchy	-40	-10
+gov_absolute_monarchy	gov_republic	-140	-30
+gov_constitutional_monarchy	gov_absolute_monarchy	-50	-10
 gov_constitutional_monarchy	gov_constitutional_monarchy	50	10
-gov_constitutional_monarchy	gov_republic	-50	-15
-gov_republic	gov_absolute_monarchy	-140	-25
-gov_republic	gov_constitutional_monarchy	-40	-15
+gov_constitutional_monarchy	gov_republic	-40	-15
+gov_republic	gov_absolute_monarchy	-100	-25
+gov_republic	gov_constitutional_monarchy	-50	-15
 gov_republic	gov_republic	70	30

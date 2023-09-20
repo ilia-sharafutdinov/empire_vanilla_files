@@ -8,7 +8,7 @@ Law & Order	data/ui/campaign ui/pips/effect_upper_classes.tga
 Military	data/ui/campaign ui/pips/effect_army.tga
 Naval	data/ui/campaign ui/pips/effect_navy.tga
 Personal	data/ui/campaign ui/pips/effect_characters.tga
-Religion (Christian)	data/ui/campaign ui/pips/protestant.tga
-Religion (Islam)	data/ui/campaign ui/pips/islamic.tga
-Religion (Pagan)	data/ui/campaign ui/pips/animism.tga
+Religion (Christian)	data/ui/campaign ui/pips/effect_zeal.tga
+Religion (Islam)	data/ui/campaign ui/pips/effect_zeal.tga
+Religion (Pagan)	data/ui/campaign ui/pips/effect_zeal.tga
 Technology	data/ui/campaign ui/pips/effect_tech.tga

@@ -1,9 +1,9 @@
 version 1
 
-RIDER_SHOOT_READY						filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CARB_Sit.anim",							blend_in_time = 0.25
-RIDER_SHOOT_READY_TO_RIDER_RELOAD		filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_Sit_to_Reload.anim",					blend_in_time = 0.25
+RIDER_SHOOT_READY						filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CARB_Sit.anim",							blend_in_time = 0.25 
+RIDER_SHOOT_READY_TO_RIDER_RELOAD		filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_Sit_to_Reload.anim",					blend_in_time = 0.25 
 
-RIDER_RELOAD							filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_Reload2.anim",						blend_in_time = 0.25
+RIDER_RELOAD							filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_Reload2.anim",						blend_in_time = 0.25, special = musket_ramrod
 RIDER_RELOAD_TO_RIDER_SHOOT_READY		filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_Reload_to_Sit.anim",					blend_in_time = 0.25
 
 RIDER_FIRE_FORWARD_LOW					filename = "Animations/MEN/HORSE_RIDER/C_CAR/C_CAR_F_FIRE_LOW.anim",					blend_in_time = 0.25

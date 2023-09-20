@@ -8,160 +8,6 @@ module(..., package.seeall)
 events = require "data.events"
 -- Advice Triggers
 
---[[ 0032_Battle_Advice_Cavalry_In_Reserve_Trigger ]]--
-
-events.BattleDeploymentPhaseCommenced[#events.BattleDeploymentPhaseCommenced+1] =
-function (context)
-	if conditions.BattleIsLandConflict(context) and conditions.BattleAllianceIsPlayers(context) and conditions.BattlePlayerAlliancePercentageOfUnitCategory("cavalry", context) >= 10 then
-		effect.advance_contextual_advice_thread("0032_Battle_Advice_Cavalry_In_Reserve_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
---[[ 0033_Battle_Advice_Cavalry_Cycle_Trigger ]]--
-
-events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
-function (context)
-	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and  conditions.BattlePlayerUnitActionStatus("charging", context) and conditions.BattlePlayerUnitCategory("cavalry", context) and not conditions.BattlePlayerUnitClass("cavalry_missile", context) then
-		effect.advance_contextual_advice_thread("0033_Battle_Advice_Cavalry_Cycle_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
---[[ 0035_Battle_Advice_Cavalry_Against_Points_Trigger ]]--
-
-events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
-function (context)
-	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerDirectionOfMeleeAttack("front", context) and conditions.BattlePlayerUnitCategory("cavalry", context) and not conditions.BattleEnemyUnitActionStatus("routing", context) and (conditions.BattlePlayerUnitActionStatus("charging", context) or conditions.BattlePlayerUnitActionStatus("moving_fast", context)) and (conditions.BattleEnemyUnitSpecialAbilitySupported("plug_bayonets", context) or conditions.BattleEnemyUnitTechnologySupported("socket_bayonets", context) or conditions.BattleEnemyUnitTechnologySupported("ring_bayonets", context) or conditions.BattleEnemyUnitSpecialAbilitySupported("pike_square_formation", context) or conditions.BattleEnemyUnitSpecialAbilitySupported("pike_wall_formation", context)) then
-		effect.advance_contextual_advice_thread("0035_Battle_Advice_Cavalry_Against_Points_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
---[[ 0036_Battle_Advice_Cavalry_Against_Points_Trigger ]]--
-
-events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
-function (context)
-	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and (conditions.BattlePlayerDirectionOfMeleeAttack("left_flank", context) or conditions.BattlePlayerDirectionOfMeleeAttack("right_flank", context)) and conditions.BattlePlayerUnitCategory("cavalry", context) and (conditions.BattlePlayerUnitActionStatus("charging", context) or conditions.BattlePlayerUnitActionStatus("moving_fast", context)) and not conditions.BattleEnemyUnitCurrentFormation("square_formation", context) and (conditions.BattleEnemyUnitSpecialAbilitySupported("plug_bayonets", context) or conditions.BattleEnemyUnitTechnologySupported("socket_bayonets", context) or conditions.BattleEnemyUnitTechnologySupported("ring_bayonets", context) or conditions.BattleEnemyUnitSpecialAbilitySupported("pike_square_formation", context) or conditions.BattleEnemyUnitSpecialAbilitySupported("pike_wall_formation", context)) then
-		effect.advance_contextual_advice_thread("0036_Battle_Advice_Cavalry_Against_Points_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
---[[ 0037_Battle_Advice_Cavalry_Against_Points_Trigger ]]--
-
-events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
-function (context)
-	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerUnitCategory("cavalry", context) and conditions.BattlePlayerDirectionOfMeleeAttack("behind", context) and conditions.BattleEnemyUnitCategory("infantry", context) and not conditions.BattleEnemyUnitCurrentFormation("square_formation", context) then
-		effect.advance_contextual_advice_thread("0037_Battle_Advice_Cavalry_Against_Points_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
---[[ 0038_Battle_Advice_Defence_Against_Cavalry_Trigger ]]--
-
-events.BattleDeploymentPhaseCommenced[#events.BattleDeploymentPhaseCommenced+1] =
-function (context)
-	if conditions.BattleIsLandConflict(context) and conditions.BattleAllianceIsPlayers(context) and conditions.BattleAllianceNumberOfUnits(context) >= 7 and conditions.BattlePlayerAlliancePercentageOfUnitCategory("infantry", context) >= 10 and conditions.BattleEnemyAlliancePercentageOfUnitCategory("cavalry", context) >= 10 then
-		effect.advance_contextual_advice_thread("0038_Battle_Advice_Defence_Against_Cavalry_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
---[[ 0039_Battle_Advice_Defence_Against_Cavalry_Trigger ]]--
-
-events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
-function (context)
-	if conditions.BattleIsLandConflict(context) and not conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerUnitCategory("cavalry", context) and (conditions.BattlePlayerDirectionOfMeleeAttack("left_flank", context) or conditions.BattlePlayerDirectionOfMeleeAttack("right_flank", context)) and (conditions.BattlePlayerUnitActionStatus("charging", context) or conditions.BattlePlayerUnitActionStatus("moving_fast", context)) then
-		effect.advance_contextual_advice_thread("0039_Battle_Advice_Defence_Against_Cavalry_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
---[[ 0040_Battle_Advice_Defence_Against_Cavalry_Trigger ]]--
-
-events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
-function (context)
-	if conditions.BattleIsLandConflict(context) and not conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerUnitCategory("cavalry", context) and conditions.BattleEnemyUnitCategory("infantry", context) and (conditions.BattleEnemyUnitActionStatus("fighting_melee", context) or conditions.BattleEnemyUnitActionStatus("firing", context)) and (conditions.BattlePlayerDirectionOfMeleeAttack("left_flank", context) or conditions.BattlePlayerDirectionOfMeleeAttack("right_flank", context)) and (conditions.BattlePlayerUnitActionStatus("charging", context) or conditions.BattlePlayerUnitActionStatus("moving_fast", context)) then
-		effect.advance_contextual_advice_thread("0040_Battle_Advice_Defence_Against_Cavalry_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
---[[ 0041_Battle_Advice_Cavalry_Against_Camels_Trigger ]]--
-
-events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
-function (context)
-	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and conditions.BattleEnemyUnitClass("cavalry_camels", context) and conditions.BattlePlayerUnitCategory("cavalry", context) and not conditions.BattlePlayerUnitClass("cavalry_camels", context) and not conditions.BattlePlayerUnitClass("cavalry_missile", context) then
-		effect.advance_contextual_advice_thread("0041_Battle_Advice_Cavalry_Against_Camels_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
---[[ 0042_Battle_Advice_Cavalry_Against_Camels_Trigger ]]--
-
-events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
-function (context)
-	if conditions.BattleIsLandConflict(context) and not conditions.BattleUnitIsPlayers(context) and conditions.BattleEnemyUnitClass("cavalry_camels", context) and conditions.BattlePlayerUnitCategory("cavalry", context) and not conditions.BattlePlayerUnitClass("cavalry_camels", context) then
-		effect.advance_contextual_advice_thread("0042_Battle_Advice_Cavalry_Against_Camels_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
---[[ 0043_Battle_Advice_Cavalry_Against_Camels_Trigger ]]--
-
-events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
-function (context)
-	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and conditions.BattleEnemyUnitClass("cavalry_camels", context) and conditions.BattlePlayerUnitClass("cavalry_light", context) and conditions.BattlePlayerUnitEngagedInMelee(context) then
-		effect.advance_contextual_advice_thread("0043_Battle_Advice_Cavalry_Against_Camels_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
---[[ 0044_Battle_Advice_Camels_Against_Cavalry_Trigger ]]--
-
-events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
-function (context)
-	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerUnitClass("cavalry_camels", context) and conditions.BattleEnemyUnitCategory("cavalry", context) and not conditions.BattleEnemyUnitClass("cavalry_camels", context) then
-		effect.advance_contextual_advice_thread("0044_Battle_Advice_Camels_Against_Cavalry_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
---[[ 0045_Battle_Advice_Camels_Against_Cavalry_Trigger ]]--
-
-events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
-function (context)
-	if conditions.BattleIsLandConflict(context) and not conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerUnitClass("cavalry_camels", context) and conditions.BattleEnemyUnitCategory("cavalry", context) and not conditions.BattleEnemyUnitClass("cavalry_camels", context) then
-		effect.advance_contextual_advice_thread("0045_Battle_Advice_Camels_Against_Cavalry_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
---[[ 0046_Battle_Advice_Fighting_Skirmishers_Trigger ]]--
-
-events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
-function (context)
-	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerUnitClass("cavalry_heavy", context) and (conditions.BattleEnemyUnitClass("infantry_light", context) or conditions.BattleEnemyUnitClass("infantry_skirmishers", context)) then
-		effect.advance_contextual_advice_thread("0046_Battle_Advice_Fighting_Skirmishers_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
 --[[ 0001_Battle_Advice_Friendly_Fire_Trigger ]]--
 
 events.BattleConflictPhaseCommenced[#events.BattleConflictPhaseCommenced+1] =
@@ -492,6 +338,160 @@ function (context)
 	return false
 end
 
+--[[ 0032_Battle_Advice_Cavalry_In_Reserve_Trigger ]]--
+
+events.BattleDeploymentPhaseCommenced[#events.BattleDeploymentPhaseCommenced+1] =
+function (context)
+	if conditions.BattleIsLandConflict(context) and conditions.BattleAllianceIsPlayers(context) and conditions.BattlePlayerAlliancePercentageOfUnitCategory("cavalry", context) >= 10 then
+		effect.advance_contextual_advice_thread("0032_Battle_Advice_Cavalry_In_Reserve_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 0033_Battle_Advice_Cavalry_Cycle_Trigger ]]--
+
+events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
+function (context)
+	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and  conditions.BattlePlayerUnitActionStatus("charging", context) and conditions.BattlePlayerUnitCategory("cavalry", context) and not conditions.BattlePlayerUnitClass("cavalry_missile", context) then
+		effect.advance_contextual_advice_thread("0033_Battle_Advice_Cavalry_Cycle_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 0035_Battle_Advice_Cavalry_Against_Points_Trigger ]]--
+
+events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
+function (context)
+	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerDirectionOfMeleeAttack("front", context) and conditions.BattlePlayerUnitCategory("cavalry", context) and not conditions.BattleEnemyUnitActionStatus("routing", context) and (conditions.BattlePlayerUnitActionStatus("charging", context) or conditions.BattlePlayerUnitActionStatus("moving_fast", context)) and (conditions.BattleEnemyUnitSpecialAbilitySupported("plug_bayonets", context) or conditions.BattleEnemyUnitTechnologySupported("socket_bayonets", context) or conditions.BattleEnemyUnitTechnologySupported("ring_bayonets", context) or conditions.BattleEnemyUnitSpecialAbilitySupported("pike_square_formation", context) or conditions.BattleEnemyUnitSpecialAbilitySupported("pike_wall_formation", context)) then
+		effect.advance_contextual_advice_thread("0035_Battle_Advice_Cavalry_Against_Points_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 0036_Battle_Advice_Cavalry_Against_Points_Trigger ]]--
+
+events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
+function (context)
+	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and (conditions.BattlePlayerDirectionOfMeleeAttack("left_flank", context) or conditions.BattlePlayerDirectionOfMeleeAttack("right_flank", context)) and conditions.BattlePlayerUnitCategory("cavalry", context) and (conditions.BattlePlayerUnitActionStatus("charging", context) or conditions.BattlePlayerUnitActionStatus("moving_fast", context)) and not conditions.BattleEnemyUnitCurrentFormation("square_formation", context) and (conditions.BattleEnemyUnitSpecialAbilitySupported("plug_bayonets", context) or conditions.BattleEnemyUnitTechnologySupported("socket_bayonets", context) or conditions.BattleEnemyUnitTechnologySupported("ring_bayonets", context) or conditions.BattleEnemyUnitSpecialAbilitySupported("pike_square_formation", context) or conditions.BattleEnemyUnitSpecialAbilitySupported("pike_wall_formation", context)) then
+		effect.advance_contextual_advice_thread("0036_Battle_Advice_Cavalry_Against_Points_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 0037_Battle_Advice_Cavalry_Against_Points_Trigger ]]--
+
+events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
+function (context)
+	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerUnitCategory("cavalry", context) and conditions.BattlePlayerDirectionOfMeleeAttack("behind", context) and conditions.BattleEnemyUnitCategory("infantry", context) and not conditions.BattleEnemyUnitCurrentFormation("square_formation", context) then
+		effect.advance_contextual_advice_thread("0037_Battle_Advice_Cavalry_Against_Points_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 0038_Battle_Advice_Defence_Against_Cavalry_Trigger ]]--
+
+events.BattleDeploymentPhaseCommenced[#events.BattleDeploymentPhaseCommenced+1] =
+function (context)
+	if conditions.BattleIsLandConflict(context) and conditions.BattleAllianceIsPlayers(context) and conditions.BattleAllianceNumberOfUnits(context) >= 7 and conditions.BattlePlayerAlliancePercentageOfUnitCategory("infantry", context) >= 10 and conditions.BattleEnemyAlliancePercentageOfUnitCategory("cavalry", context) >= 10 then
+		effect.advance_contextual_advice_thread("0038_Battle_Advice_Defence_Against_Cavalry_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 0039_Battle_Advice_Defence_Against_Cavalry_Trigger ]]--
+
+events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
+function (context)
+	if conditions.BattleIsLandConflict(context) and not conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerUnitCategory("cavalry", context) and (conditions.BattlePlayerDirectionOfMeleeAttack("left_flank", context) or conditions.BattlePlayerDirectionOfMeleeAttack("right_flank", context)) and (conditions.BattlePlayerUnitActionStatus("charging", context) or conditions.BattlePlayerUnitActionStatus("moving_fast", context)) then
+		effect.advance_contextual_advice_thread("0039_Battle_Advice_Defence_Against_Cavalry_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 0040_Battle_Advice_Defence_Against_Cavalry_Trigger ]]--
+
+events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
+function (context)
+	if conditions.BattleIsLandConflict(context) and not conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerUnitCategory("cavalry", context) and conditions.BattleEnemyUnitCategory("infantry", context) and (conditions.BattleEnemyUnitActionStatus("fighting_melee", context) or conditions.BattleEnemyUnitActionStatus("firing", context)) and (conditions.BattlePlayerDirectionOfMeleeAttack("left_flank", context) or conditions.BattlePlayerDirectionOfMeleeAttack("right_flank", context)) and (conditions.BattlePlayerUnitActionStatus("charging", context) or conditions.BattlePlayerUnitActionStatus("moving_fast", context)) then
+		effect.advance_contextual_advice_thread("0040_Battle_Advice_Defence_Against_Cavalry_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 0041_Battle_Advice_Cavalry_Against_Camels_Trigger ]]--
+
+events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
+function (context)
+	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and conditions.BattleEnemyUnitClass("cavalry_camels", context) and conditions.BattlePlayerUnitCategory("cavalry", context) and not conditions.BattlePlayerUnitClass("cavalry_camels", context) and not conditions.BattlePlayerUnitClass("cavalry_missile", context) then
+		effect.advance_contextual_advice_thread("0041_Battle_Advice_Cavalry_Against_Camels_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 0042_Battle_Advice_Cavalry_Against_Camels_Trigger ]]--
+
+events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
+function (context)
+	if conditions.BattleIsLandConflict(context) and not conditions.BattleUnitIsPlayers(context) and conditions.BattleEnemyUnitClass("cavalry_camels", context) and conditions.BattlePlayerUnitCategory("cavalry", context) and not conditions.BattlePlayerUnitClass("cavalry_camels", context) then
+		effect.advance_contextual_advice_thread("0042_Battle_Advice_Cavalry_Against_Camels_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 0043_Battle_Advice_Cavalry_Against_Camels_Trigger ]]--
+
+events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
+function (context)
+	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and conditions.BattleEnemyUnitClass("cavalry_camels", context) and conditions.BattlePlayerUnitClass("cavalry_light", context) and conditions.BattlePlayerUnitEngagedInMelee(context) then
+		effect.advance_contextual_advice_thread("0043_Battle_Advice_Cavalry_Against_Camels_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 0044_Battle_Advice_Camels_Against_Cavalry_Trigger ]]--
+
+events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
+function (context)
+	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerUnitClass("cavalry_camels", context) and conditions.BattleEnemyUnitCategory("cavalry", context) and not conditions.BattleEnemyUnitClass("cavalry_camels", context) then
+		effect.advance_contextual_advice_thread("0044_Battle_Advice_Camels_Against_Cavalry_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 0045_Battle_Advice_Camels_Against_Cavalry_Trigger ]]--
+
+events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
+function (context)
+	if conditions.BattleIsLandConflict(context) and not conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerUnitClass("cavalry_camels", context) and conditions.BattleEnemyUnitCategory("cavalry", context) and not conditions.BattleEnemyUnitClass("cavalry_camels", context) then
+		effect.advance_contextual_advice_thread("0045_Battle_Advice_Camels_Against_Cavalry_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 0046_Battle_Advice_Fighting_Skirmishers_Trigger ]]--
+
+events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
+function (context)
+	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerUnitClass("cavalry_heavy", context) and (conditions.BattleEnemyUnitClass("infantry_light", context) or conditions.BattleEnemyUnitClass("infantry_skirmishers", context)) then
+		effect.advance_contextual_advice_thread("0046_Battle_Advice_Fighting_Skirmishers_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
 --[[ 0047_Battle_Advice_Good_Artillery_Target_Trigger ]]--
 
 events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
@@ -528,7 +528,7 @@ end
 
 events.BattleUnitAttacksEnemyUnit[#events.BattleUnitAttacksEnemyUnit+1] =
 function (context)
-	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerUnitCategory("artillery", context) and (conditions.BattleEnemyUnitActionStatus("moving_fast", context) or conditions.BattleEnemyUnitActionStatus("charging", context)) then
+	if conditions.BattleIsLandConflict(context) and conditions.BattleUnitIsPlayers(context) and conditions.BattlePlayerUnitCategory("artillery", context) and not conditions.BattlePlayerUnitActionStatus("fighting_melee", context) and (conditions.BattleEnemyUnitActionStatus("moving_fast", context) or conditions.BattleEnemyUnitActionStatus("charging", context)) then
 		effect.advance_contextual_advice_thread("0049_Battle_Advice_Poor_Artillery_Target_Thread", 1, context)
 		return true
 	end
@@ -786,17 +786,6 @@ function (context)
 	return false
 end
 
---[[ 0075_Battle_Advice_Artillery_Deployment_Trigger ]]--
-
-events.BattleDeploymentPhaseCommenced[#events.BattleDeploymentPhaseCommenced+1] =
-function (context)
-	if conditions.BattleIsLandConflict(context) and conditions.BattleAllianceIsPlayers(context) and conditions.BattlePlayerAlliancePercentageOfUnitCategory("artillery", context) >= 1 then
-		effect.advance_contextual_advice_thread("0075_Battle_Advice_Artillery_Deployment_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
 --[[ 0076_Battle_Advice_Skirmish_Mode_Button_Trigger ]]--
 
 events.BattleConflictPhaseCommenced[#events.BattleConflictPhaseCommenced+1] =
@@ -977,7 +966,6 @@ end
 events.BattleConflictPhaseCommenced[#events.BattleConflictPhaseCommenced+1] =
 function (context)
 	if conditions.BattleIsLandConflict(context) and conditions.BattleAllianceIsPlayers(context) and conditions.BattlePlayerAlliancePercentageOfUnitClass("general", context) >= 1 then
-		effect.advance_contextual_advice_thread("0092_Battle_Advice_Rallying_Thread", 1, context)
 		return true
 	end
 	return false
@@ -1435,7 +1423,6 @@ end
 events.BattleConflictPhaseCommenced[#events.BattleConflictPhaseCommenced+1] =
 function (context)
 	if conditions.BattleIsLandConflict(context) and conditions.BattleAllianceIsPlayers(context) and conditions.BattlePlayerAlliancePercentageOfTechnology("ring_bayonets", context) >= 1 then
-		effect.advance_contextual_advice_thread("0137_Battle_Advice_Ring_Bayonets_Thread", 1, context)
 		return true
 	end
 	return false
@@ -1764,7 +1751,7 @@ end
 
 events.BattleShipAttacksEnemyShip[#events.BattleShipAttacksEnemyShip+1] =
 function (context)
-	if conditions.BattleIsNavalConflict(context) and conditions.BattleShipIsPlayers(context) and (conditions.BattlePlayerShipClass("naval_galleon", context) or conditions.BattlePlayerShipClass("naval_heavy_galley", context) or conditions.BattlePlayerShipClass("naval_light_galley", context) or conditions.BattlePlayerShipClass("naval_medium_galley", context)) then
+	if conditions.BattleIsNavalConflict(context) and conditions.BattleShipIsPlayers(context) and (conditions.BattlePlayerShipClass("naval_heavy_galley", context) or conditions.BattlePlayerShipClass("naval_light_galley", context) or conditions.BattlePlayerShipClass("naval_medium_galley", context)) then
 		effect.advance_contextual_advice_thread("0171_Battle_Advice_Galley_Characteristics_Thread", 1, context)
 		return true
 	end
@@ -2049,7 +2036,7 @@ end
 
 events.BattleConflictPhaseCommenced[#events.BattleConflictPhaseCommenced+1] =
 function (context)
-	if conditions.BattleIsNavalConflict(context) then
+	if conditions.BattleIsNavalConflict(context) and conditions.BattleAllianceIsPlayers(context) and conditions.BattleAllianceNumberOfShips(context) >= 4 then
 		effect.advance_contextual_advice_thread("0198_Battle_Advice_Naval_Formations_Button_Thread", 1, context)
 		return true
 	end
@@ -3382,7 +3369,7 @@ end
 
 events.SlotOpens[#events.SlotOpens+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and conditions.IsColony(context) then
+	if conditions.SlotIsLocal(context) and conditions.IsColony(context) and not conditions.SlotType("port", context) then
 		effect.advance_contextual_advice_thread("1088_Campaign_Advice_New_Township_Emerges_Thread", 1, context)
 		return true
 	end
@@ -3393,7 +3380,7 @@ end
 
 events.SlotOpens[#events.SlotOpens+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and not conditions.IsColony(context) then
+	if conditions.SlotIsLocal(context) and not conditions.IsColony(context) and not conditions.SlotType("port", context) then
 		effect.advance_contextual_advice_thread("1089_Campaign_Advice_Town_Appears_Thread", 1, context)
 		return true
 	end
@@ -3470,7 +3457,7 @@ end
 
 events.UngarrisonedFort[#events.UngarrisonedFort+1] =
 function (context)
-	if conditions.FortIsLocal(context) and conditions.TurnsSinceThreadLastAdvanced("1096a_Campaign_Advice_Ungarrisoned_Fort_Thread", context) == 5 then
+	if conditions.FortIsLocal(context) and (conditions.TurnsSinceThreadLastAdvanced("1096a_Campaign_Advice_Ungarrisoned_Fort_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1096a_Campaign_Advice_Ungarrisoned_Fort_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1096a_Campaign_Advice_Ungarrisoned_Fort_Thread", 1, context)
 		return true
 	end
@@ -3558,7 +3545,7 @@ end
 
 events.SlotTurnStart[#events.SlotTurnStart+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and conditions.SlotBuildingQueueIdleDespiteCash(context) and (conditions.SlotType("sheep", context) or conditions.SlotType("wheat", context) or conditions.SlotType("rice", context) or conditions.SlotType("corn", context) or conditions.SlotType("cattle", context)) and conditions.TurnsSinceThreadLastAdvanced("1103_Campaign_Advice_Undeveloped_Farm_Thread", context) == 5 then
+	if conditions.SlotIsLocal(context) and conditions.SlotBuildingQueueIdleDespiteCash(context) and (conditions.SlotType("sheep", context) or conditions.SlotType("wheat", context) or conditions.SlotType("rice", context) or conditions.SlotType("corn", context) or conditions.SlotType("cattle", context)) and (conditions.TurnsSinceThreadLastAdvanced("1103_Campaign_Advice_Undeveloped_Farm_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1103_Campaign_Advice_Undeveloped_Farm_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1103_Campaign_Advice_Undeveloped_Farm_Thread", 1, context)
 		return true
 	end
@@ -3569,7 +3556,7 @@ end
 
 events.SlotTurnStart[#events.SlotTurnStart+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and conditions.SlotBuildingQueueIdleDespiteCash(context) and conditions.SlotType("port", context) and conditions.TurnsSinceThreadLastAdvanced("1104_Campaign_Advice_Undeveloped_Port_Thread", context) == 5 then
+	if conditions.SlotIsLocal(context) and conditions.SlotBuildingQueueIdleDespiteCash(context) and conditions.SlotType("port", context) and (conditions.TurnsSinceThreadLastAdvanced("1104_Campaign_Advice_Undeveloped_Port_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1104_Campaign_Advice_Undeveloped_Port_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1104_Campaign_Advice_Undeveloped_Port_Thread", 1, context)
 		return true
 	end
@@ -3580,7 +3567,7 @@ end
 
 events.SlotTurnStart[#events.SlotTurnStart+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and conditions.SlotBuildingQueueIdleDespiteCash(context) and (conditions.SlotType("southern_usa", context) or conditions.SlotType("caribbean", context) or conditions.SlotType("cuba", context) or conditions.SlotType("egypt", context) or conditions.SlotType("india_highlands", context) or conditions.SlotType("tropical_humid", context)) and conditions.TurnsSinceThreadLastAdvanced("1105_Campaign_Advice_Undeveloped_Plantation_Thread", context) == 5 then
+	if conditions.SlotIsLocal(context) and conditions.SlotBuildingQueueIdleDespiteCash(context) and (conditions.SlotType("southern_usa", context) or conditions.SlotType("caribbean", context) or conditions.SlotType("cuba", context) or conditions.SlotType("egypt", context) or conditions.SlotType("india_highlands", context) or conditions.SlotType("tropical_humid", context)) and (conditions.TurnsSinceThreadLastAdvanced("1105_Campaign_Advice_Undeveloped_Plantation_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1105_Campaign_Advice_Undeveloped_Plantation_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1105_Campaign_Advice_Undeveloped_Plantation_Thread", 1, context)
 		return true
 	end
@@ -3591,7 +3578,7 @@ end
 
 events.SlotTurnStart[#events.SlotTurnStart+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and conditions.SlotBuildingQueueIdleDespiteCash(context) and conditions.SlotType("town", context) and conditions.TurnsSinceThreadLastAdvanced("1106_Campaign_Advice_Undeveloped_Town_Thread", context) == 5 then
+	if conditions.SlotIsLocal(context) and conditions.SlotBuildingQueueIdleDespiteCash(context) and conditions.SlotType("town", context) and (conditions.TurnsSinceThreadLastAdvanced("1106_Campaign_Advice_Undeveloped_Town_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1106_Campaign_Advice_Undeveloped_Town_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1106_Campaign_Advice_Undeveloped_Town_Thread", 1, context)
 		return true
 	end
@@ -3602,7 +3589,7 @@ end
 
 events.SlotTurnStart[#events.SlotTurnStart+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and conditions.SlotBuildingQueueIdleDespiteCash(context) and (conditions.SlotType("iron", context) or conditions.SlotType("silver", context) or conditions.SlotType("gold", context) or conditions.SlotType("gems", context) or conditions.SlotType("iron", context) or conditions.SlotType("silver", context) or conditions.SlotType("gold", context) or conditions.SlotType("gems", context)) and conditions.TurnsSinceThreadLastAdvanced("1107_Campaign_Advice_Unexploited_Resources_Thread", context) == 5 then
+	if conditions.SlotIsLocal(context) and conditions.SlotBuildingQueueIdleDespiteCash(context) and (conditions.SlotType("iron", context) or conditions.SlotType("silver", context) or conditions.SlotType("gold", context) or conditions.SlotType("gems", context) or conditions.SlotType("iron", context) or conditions.SlotType("silver", context) or conditions.SlotType("gold", context) or conditions.SlotType("gems", context)) and (conditions.TurnsSinceThreadLastAdvanced("1107_Campaign_Advice_Unexploited_Resources_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1107_Campaign_Advice_Unexploited_Resources_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1107_Campaign_Advice_Unexploited_Resources_Thread", 1, context)
 		return true
 	end
@@ -3723,7 +3710,7 @@ end
 
 events.RegionRebels[#events.RegionRebels+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.IsHomeRegion(context) then
+	if conditions.RegionIsLocal(context) and conditions.IsHomeRegion(context) and conditions.WouldRebellionInRegionBeRevolution(context) then
 		effect.advance_contextual_advice_thread("1120_Campaign_Advice_Warning_Revolution_Thread", 1, context)
 		return true
 	end
@@ -3822,7 +3809,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.LosingMoney(context) and conditions.UnusedInternationalTradeRoute(context) and conditions.TurnsSinceThreadLastAdvanced("1127_Campaign_Advice_Warning_Trade_Thread", context) == 5 then
+	if conditions.FactionIsLocal(context) and conditions.LosingMoney(context) and conditions.UnusedInternationalTradeRoute(context) and (conditions.TurnsSinceThreadLastAdvanced("1127_Campaign_Advice_Warning_Trade_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1127_Campaign_Advice_Warning_Trade_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1127_Campaign_Advice_Warning_Trade_Thread", 1, context)
 		return true
 	end
@@ -3853,7 +3840,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.RegionTaxLevel("upper_classes", context) == conditions.TaxLevel("tax_extortionate", context) then
+	if conditions.RegionIsLocal(context) and conditions.RegionTaxLevel("upper_classes", context) == conditions.TaxLevel("tax_extortionate", context) and not conditions.RegionTaxExempt(context) then
 		effect.advance_contextual_advice_thread("1133_Campaign_Advice_Warning_High_Tax_Thread", 1, context)
 		return true
 	end
@@ -3864,7 +3851,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.RegionTaxLevel("lower_classes", context) == conditions.TaxLevel("tax_extortionate", context) then
+	if conditions.RegionIsLocal(context) and conditions.RegionTaxLevel("lower_classes", context) == conditions.TaxLevel("tax_extortionate", context) and not conditions.RegionTaxExempt(context) then
 		effect.advance_contextual_advice_thread("1134_Campaign_Advice_Warning_High_Tax_Thread", 1, context)
 		return true
 	end
@@ -3875,7 +3862,7 @@ end
 
 events.DummyEvent[#events.DummyEvent+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and not conditions.RegionCultureIsFactionCulture(context) and conditions.TurnsSinceThreadLastAdvanced("1135_Campaign_Advice_Warning_Culture_Shock_Thread", context) == 5 then
+	if conditions.RegionIsLocal(context) and not conditions.RegionCultureIsFactionCulture(context) and (conditions.TurnsSinceThreadLastAdvanced("1135_Campaign_Advice_Warning_Culture_Shock_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1135_Campaign_Advice_Warning_Culture_Shock_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1135_Campaign_Advice_Warning_Culture_Shock_Thread", 1, context)
 		return true
 	end
@@ -3886,7 +3873,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and not conditions.IsColony(context) and conditions.RegionReligiousEmigration(context) and conditions.TurnsSinceThreadLastAdvanced("1136_Campaign_Advice_Religious_Unrest_Thread", context) == 5 then
+	if conditions.RegionIsLocal(context) and not conditions.IsColony(context) and conditions.RegionReligiousEmigration(context) and (conditions.TurnsSinceThreadLastAdvanced("1136_Campaign_Advice_Religious_Unrest_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1136_Campaign_Advice_Religious_Unrest_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1136_Campaign_Advice_Religious_Unrest_Thread", 1, context)
 		return true
 	end
@@ -3897,7 +3884,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.IsColony(context) and not conditions.RegionReligionIsStateReligion(context) and conditions.TurnsSinceThreadLastAdvanced("1137_Campaign_Advice_Religious_Unrest_Thread", context) == 5 then
+	if conditions.RegionIsLocal(context) and conditions.IsColony(context) and not conditions.RegionReligionIsStateReligion(context) and (conditions.TurnsSinceThreadLastAdvanced("1137_Campaign_Advice_Religious_Unrest_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1137_Campaign_Advice_Religious_Unrest_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1137_Campaign_Advice_Religious_Unrest_Thread", 1, context)
 		return true
 	end
@@ -3908,7 +3895,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.RegionHasFoodShortages(context) and conditions.RegionPopulationLow(context) and conditions.TurnsSinceThreadLastAdvanced("1138_Campaign_Advice_Warning_Population_Thread", context) == 5 then
+	if conditions.RegionIsLocal(context) and conditions.RegionHasFoodShortages(context) and conditions.RegionPopulationLow(context) and (conditions.TurnsSinceThreadLastAdvanced("1138_Campaign_Advice_Warning_Population_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1138_Campaign_Advice_Warning_Population_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1138_Campaign_Advice_Warning_Population_Thread", 1, context)
 		return true
 	end
@@ -3919,7 +3906,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.RegionFoodShortageEmigration(context) and conditions.TurnsSinceThreadLastAdvanced("1139_Campaign_Advice_Warning_Population_Thread", context) == 5 then
+	if conditions.RegionIsLocal(context) and conditions.RegionFoodShortageEmigration(context) and (conditions.TurnsSinceThreadLastAdvanced("1139_Campaign_Advice_Warning_Population_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1139_Campaign_Advice_Warning_Population_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1139_Campaign_Advice_Warning_Population_Thread", 1, context)
 		return true
 	end
@@ -4096,7 +4083,7 @@ end
 events.SlotOccupied[#events.SlotOccupied+1] =
 function (context)
 	if conditions.SlotIsLocal(context) and conditions.SlotType("port", context) and conditions.IsPlayerTurn(context) then
-		effect.advance_contextual_advice_thread("1156_Campaign_Advice_Port_Occupied_Thread", 1, context)
+		effect.advance_contextual_advice_thread("1157_Campaign_Advice_Port_Occupied_Thread", 1, context)
 		return true
 	end
 	return false
@@ -4107,7 +4094,7 @@ end
 events.SlotOccupied[#events.SlotOccupied+1] =
 function (context)
 	if not conditions.SlotIsLocal(context) and conditions.SlotType("port", context) and conditions.IsPlayerTurn(context) then
-		effect.advance_contextual_advice_thread("1157_Campaign_Advice_Port_Occupied_Thread", 1, context)
+		effect.advance_contextual_advice_thread("1156_Campaign_Advice_Port_Occupied_Thread", 1, context)
 		return true
 	end
 	return false
@@ -4117,7 +4104,7 @@ end
 
 events.SlotTurnStart[#events.SlotTurnStart+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and conditions.SlotType("town", context) and not conditions.IsBuildingInChain("industry-metal", context) and not conditions.IsBuildingInChain("industry-pottery", context) and not conditions.IsBuildingInChain("industry-textile", context) and conditions.IsPlayerTurn(context) then
+	if conditions.SlotIsLocal(context) and conditions.SlotType("town", context) and not conditions.SlotType("port", context) and not conditions.IsBuildingInChain("industry-metal", context) and not conditions.IsBuildingInChain("industry-pottery", context) and not conditions.IsBuildingInChain("industry-textile", context) and not conditions.IsBuildingInChain("happiness", context) and conditions.IsPlayerTurn(context) then
 		effect.advance_contextual_advice_thread("1158_Campaign_Advice_Build_Industrial_Thread", 1, context)
 		return true
 	end
@@ -4139,7 +4126,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.IsColony(context) and not conditions.TradePortsAtMaxLevel(context) and conditions.RegionHasUnexportedTrade(context) and conditions.TurnsSinceThreadLastAdvanced("1161_Campaign_Advice_Trade_Export_Thread", context) == 5 then
+	if conditions.RegionIsLocal(context) and conditions.IsColony(context) and not conditions.TradePortsAtMaxLevel(context) and conditions.RegionHasUnexportedTrade(context) and (conditions.TurnsSinceThreadLastAdvanced("1161_Campaign_Advice_Trade_Export_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1161_Campaign_Advice_Trade_Export_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1161_Campaign_Advice_Trade_Export_Thread", 1, context)
 		return true
 	end
@@ -4150,7 +4137,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.IsColony(context) and conditions.TradePortsAtMaxLevel(context) and not conditions.HasUnspecialisedPort(context) and not conditions.RegionHasUnexportedTrade(context) and conditions.TurnsSinceThreadLastAdvanced("1162_Campaign_Advice_Trade_Export_Thread", context) == 5 then
+	if conditions.RegionIsLocal(context) and conditions.IsColony(context) and conditions.TradePortsAtMaxLevel(context) and not conditions.HasUnspecialisedPort(context) and conditions.RegionHasUnexportedTrade(context) and (conditions.TurnsSinceThreadLastAdvanced("1162_Campaign_Advice_Trade_Export_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1162_Campaign_Advice_Trade_Export_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1162_Campaign_Advice_Trade_Export_Thread", 1, context)
 		return true
 	end
@@ -4161,7 +4148,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.IsHomeRegion(context) and not conditions.TradePortsAtMaxLevel(context) and conditions.RegionHasUnexportedTrade(context) and conditions.TurnsSinceThreadLastAdvanced("1163_Campaign_Advice_Trade_Export_Thread", context) == 5 then
+	if conditions.RegionIsLocal(context) and conditions.IsHomeRegion(context) and not conditions.TradePortsAtMaxLevel(context) and conditions.RegionHasUnexportedTrade(context) and (conditions.TurnsSinceThreadLastAdvanced("1163_Campaign_Advice_Trade_Export_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1163_Campaign_Advice_Trade_Export_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1163_Campaign_Advice_Trade_Export_Thread", 1, context)
 		return true
 	end
@@ -4172,7 +4159,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.IsHomeRegion(context) and conditions.TradePortsAtMaxLevel(context) and conditions.HasUnspecialisedPort(context) and not conditions.RegionHasUnexportedTrade(context) and conditions.TurnsSinceThreadLastAdvanced("1164_Campaign_Advice_Trade_Export_Thread", context) == 5 then
+	if conditions.RegionIsLocal(context) and conditions.IsHomeRegion(context) and conditions.TradePortsAtMaxLevel(context) and conditions.HasUnspecialisedPort(context) and conditions.RegionHasUnexportedTrade(context) and (conditions.TurnsSinceThreadLastAdvanced("1164_Campaign_Advice_Trade_Export_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1164_Campaign_Advice_Trade_Export_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1164_Campaign_Advice_Trade_Export_Trigger", 1, context)
 		return true
 	end
@@ -4183,7 +4170,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.RegionPopulationGrowthLow(context) and conditions.TurnsSinceThreadLastAdvanced("1165_Campaign_Advice_Slow_Population_Growth_Thread", context) == 5 then
+	if conditions.RegionIsLocal(context) and conditions.RegionPopulationGrowthLow(context) and (conditions.TurnsSinceThreadLastAdvanced("1165_Campaign_Advice_Slow_Population_Growth_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1165_Campaign_Advice_Slow_Population_Growth_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1165_Campaign_Advice_Slow_Population_Growth_Thread", 1, context)
 		return true
 	end
@@ -4194,7 +4181,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.RegionEconomicGrowthLow(context) and conditions.TurnsSinceThreadLastAdvanced("1166_Campaign_Advice_Slow_Economic_Growth_Thread", context) == 5 then
+	if conditions.RegionIsLocal(context) and conditions.RegionEconomicGrowthLow(context) and (conditions.TurnsSinceThreadLastAdvanced("1166_Campaign_Advice_Slow_Economic_Growth_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1166_Campaign_Advice_Slow_Economic_Growth_Thread", context) == 5) then
 		effect.advance_contextual_advice_thread("1166_Campaign_Advice_Slow_Economic_Growth_Thread", 1, context)
 		return true
 	end
@@ -4203,9 +4190,9 @@ end
 
 --[[ 1167_Campaign_Advice_Warning_Ally_Betrayal_Trigger ]]--
 
-events.DummyEvent[#events.DummyEvent+1] =
+events.CharacterAttacksAlly[#events.CharacterAttacksAlly+1] =
 function (context)
-	if n then
+	if conditions.CharacterIsLocalCampaign(context) then
 		effect.advance_contextual_advice_thread("1167_Campaign_Advice_Warning_Ally_Betrayal_Thread", 1, context)
 		return true
 	end
@@ -4454,6 +4441,17 @@ function (context)
 	return false
 end
 
+--[[ 1201a_Campaign_Advice_UI_Help_Units_Trigger ]]--
+
+events.PanelAdviceRequestedCampaign[#events.PanelAdviceRequestedCampaign+1] =
+function (context)
+	if conditions.IsComponentType("CharacterInfoUnitInfoPopup", context) then
+		effect.advance_contextual_advice_thread("1201_Campaign_Advice_UI_Help_Units_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
 --[[ 1202_Campaign_Advice_UI_Help_Buildings_Trigger ]]--
 
 events.PanelAdviceRequestedCampaign[#events.PanelAdviceRequestedCampaign+1] =
@@ -4492,6 +4490,17 @@ end
 events.PanelAdviceRequestedCampaign[#events.PanelAdviceRequestedCampaign+1] =
 function (context)
 	if conditions.IsComponentType("agent_options", context) then
+		effect.advance_contextual_advice_thread("1206_Campaign_Advice_UI_Help_Agents_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 1206a_Campaign_Advice_UI_Help_Agents_Trigger ]]--
+
+events.PanelAdviceRequestedCampaign[#events.PanelAdviceRequestedCampaign+1] =
+function (context)
+	if conditions.IsComponentType("agent_action", context) then
 		effect.advance_contextual_advice_thread("1206_Campaign_Advice_UI_Help_Agents_Thread", 1, context)
 		return true
 	end
@@ -4586,23 +4595,23 @@ function (context)
 	return false
 end
 
---[[ 2189_Campaign_Advice_Flying_Columns_Trigger ]]--
-
-events.DummyEvent[#events.DummyEvent+1] =
-function (context)
-	if n then
-		effect.advance_contextual_advice_thread("2189_Campaign_Advice_Flying_Columns_Thread", 1, context)
-		return true
-	end
-	return false
-end
-
 --[[ 1216_Campaign_Advice_Interception_Attack_Trigger ]]--
 
 events.CharacterSelected[#events.CharacterSelected+1] =
 function (context)
 	if conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterType("General", context) or conditions.CharacterType("colonel", context) or conditions.CharacterType("admiral", context) or conditions.CharacterType("captain", context)) then
 		effect.advance_contextual_advice_thread("1216_Campaign_Advice_Interception_Attack_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 2189_Campaign_Advice_Flying_Columns_Trigger ]]--
+
+events.DummyEvent[#events.DummyEvent+1] =
+function (context)
+	if n then
+		effect.advance_contextual_advice_thread("2189_Campaign_Advice_Flying_Columns_Thread", 1, context)
 		return true
 	end
 	return false

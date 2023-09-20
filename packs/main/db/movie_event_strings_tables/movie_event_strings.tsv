@@ -39,6 +39,10 @@ game_victory_constitutional_monachy	middle_east	37	OTT_CON_VIC.bik
 game_victory_republic	european	38	EUR_REP_VIC.bik
 game_victory_republic	indian	39	IND_REP_VIC.bik
 game_victory_republic	middle_east	40	OTT_REP_VIC.bik
+gent_celebrating_gent	european	59	Social_gent_00.bik
+gent_celebrating_rake	european	60	Social_rake_00.bik
+gent_funeral	european	61	funeral_00.bik
+gent_hospitalised	european	58	Hospital_00.bik
 your_faction_revolution_monarchists_win_civil_war	european	41	EUR_Mon_Rev_Win.bik
 your_faction_revolution_monarchists_win_civil_war	middle_east	42	OTT_IND_Mon_Rev_Win.bik
 your_faction_revolution_monarchists_win_revolution	european	43	EUR_Mon_Rev_Win.bik
@@ -53,7 +57,3 @@ your_faction_revolution_republic_royalist	european	51	EUR_Mon_Rev_Start.bik
 your_faction_revolution_republic_royalist	middle_east	52	OTT_IND_Mon_Rev_Start.bik
 your_faction_revolution_republicans_win_all	european	53	EUR_Rep_Rev_Win.bik
 your_faction_revolution_republicans_win_all	middle_east	54	OTT_IND_Rep_Rev_Win.bik
-gent_hospitalised	european	58	Hospital_00.bik
-gent_celebrating_gent	european	59	Social_gent_00.bik
-gent_celebrating_rake	european	60	Social_rake_00.bik
-gent_funeral	european	61	funeral_00.bik

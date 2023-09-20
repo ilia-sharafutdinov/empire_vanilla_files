@@ -110,7 +110,7 @@ TURN_RIGHT_TO_WALK_180				filename = "Animations/MEN/ARCHER/ARC_WALK/ARC_cw180_t
 SNEAK								filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Walk.anim",								special = arrow_man
 
 // CROUCH -------------------------------------------------------------------------------------------------------------------------------
-CROUCH								filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Crouch.anim",
+CROUCH								filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_Crouch.anim",								special = arrow_man
 
 CROUCH_IDLE_1						filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_CRidle1.anim",								special = arrow_man			blend_in_time = 0.25
 CROUCH_IDLE_2						filename = "Animations/MEN/ARCHER/ARC_Crouch/ARC_CRidle2.anim",								special = arrow_man			blend_in_time = 0.25

@@ -26,8 +26,8 @@ C_Admiral_Slacker	1	false	1	Character Quirk
 C_Admiral_Sobriety	1	false	6	Personal
 C_Admiral_Spanish_National_Pride	1	false	9	Military
 C_Admiral_Swashbuckling	1	false	8	Naval
-C_Agent_Secret_Police	0	false	6	Espionage
-C_Agent_Spy_Network	0	false	6	Espionage
+C_Agent_Secret_Police	1	false	6	Espionage
+C_Agent_Spy_Network	1	false	6	Espionage
 C_Feck_Vice	1	false	1	Personal
 C_General_Ambush_Good	3	false	5	Military
 C_General_Ambusher_Bad	3	false	5	Military
@@ -44,7 +44,7 @@ C_General_Coward	3	false	7	Military
 C_General_Defender_Bad	3	false	4	Military
 C_General_Defender_Good	3	false	5	Military
 C_General_Drunkard	4	false	9	Personal
-C_General_French_Elan	0	false	9	Military
+C_General_French_Elan	1	false	9	Military
 C_General_Good_Field_Commander	3	false	9	Military
 C_General_India_Bad	2	false	5	Military
 C_General_India_Good	2	false	5	Military
@@ -61,14 +61,14 @@ C_General_Polish_Stubborn	1	false	9	Military
 C_General_Press_Hero	1	false	1	Personal
 C_General_Prussian_Blue	1	false	1	Character Quirk
 C_General_Russian_Vodka	1	false	9	Military
-C_General_Scout	0	false	4	Military
+C_General_Scout	1	false	4	Military
 C_General_Siege_Attack_Bad	3	false	5	Military
 C_General_Siege_Attack_Good	3	false	5	Military
 C_General_Siege_Defend_Bad	3	false	5	Military
 C_General_Siege_Defend_Good	3	false	5	Military
 C_General_Slacker	1	false	1	Character Quirk
 C_General_Swedish_Aggression	1	false	9	Military
-C_General_Turkish_Master_Gunner	0	false	9	Military
+C_General_Turkish_Master_Gunner	1	false	9	Military
 C_General_US_Backwoodsman	1	false	1	Character Quirk
 C_General_Warlord	1	false	1	Military
 C_Gent_Academic_Honours	1	false	1	Technology
@@ -80,17 +80,17 @@ C_Gent_Research_Industry	1	false	9	Technology
 C_Gent_Research_Military	1	false	9	Military
 C_Gent_Research_Navy	1	false	9	Naval
 C_Gent_Research_Philosophy	1	false	9	Technology
-C_Gent_Science_Club	0	false	0	Technology
+C_Gent_Science_Club	1	false	0	Technology
 C_Honourable_Service	1	false	9	Personal
 C_Infected_Cholera	2	false	9	Personal
-C_Infected_Dengue_Fever	0	false	9	Personal
-C_Infected_Dysentry	0	false	9	Personal
-C_Infected_Influenza	0	false	9	Personal
-C_Infected_Leprosy	0	false	9	Personal
-C_Infected_Malaria	0	false	9	Personal
-C_Infected_Measles	0	false	9	Personal
-C_Infected_Plague	0	false	9	Personal
-C_Infected_Scurvy	0	false	9	Personal
+C_Infected_Dengue_Fever	1	false	9	Personal
+C_Infected_Dysentry	1	false	9	Personal
+C_Infected_Influenza	1	false	9	Personal
+C_Infected_Leprosy	1	false	9	Personal
+C_Infected_Malaria	1	false	9	Personal
+C_Infected_Measles	1	false	9	Personal
+C_Infected_Plague	1	false	9	Personal
+C_Infected_Scurvy	1	false	9	Personal
 C_Infected_Smallpox	2	false	9	Personal
 C_Infected_TB	1	false	9	Personal
 C_Infected_Typhus	2	false	9	Personal
@@ -101,18 +101,18 @@ C_Leader_Clever_Stick	1	false	7	Personal
 C_Leader_Debauched	1	false	7	Personal
 C_Leader_Dullard	1	false	7	Personal
 C_Leader_Enlightened_Despot	1	false	6	Personal
-C_Leader_Favourites	0	false	3	Personal
-C_Leader_Fertile	0	false	7	Personal
+C_Leader_Favourites	1	false	3	Personal
+C_Leader_Fertile	1	false	7	Personal
 C_Leader_Foreign_Tastes	1	false	7	Personal
 C_Leader_Harsh_Ruler	3	false	5	Personal
 C_Leader_Humanist	1	false	7	Personal
 C_Leader_Huntin_Shootin_Fishin	1	false	7	Personal
-C_Leader_Inbred	0	false	9	Personal
+C_Leader_Inbred	1	false	9	Personal
 C_Leader_Infertile	3	false	3	Personal
 C_Leader_Intellectual_Pretensions	3	false	6	Personal
 C_Leader_M	1	false	7	Espionage
-C_Leader_Mad	0	false	9	Personal
-C_Leader_Merit	0	false	7	Personal
+C_Leader_Mad	1	false	9	Personal
+C_Leader_Merit	1	false	7	Personal
 C_Leader_Mr_Waverley	1	false	7	Espionage
 C_Leader_Natural_King	1	false	8	Personal
 C_Leader_Natural_President	1	false	8	Personal
@@ -125,10 +125,10 @@ C_Minister_Corrupt	1	false	3	Personal
 C_Minister_Entertainer	3	false	6	Personal
 C_Minister_Fiscal_Genius	1	false	8	Personal
 C_Minister_Industrialist	1	false	8	Personal
-C_Minister_Miser	0	false	6	Personal
+C_Minister_Miser	1	false	6	Personal
 C_Minister_Navy_Good	3	false	8	Personal
 C_Minister_Physiocrat	1	false	6	Personal
-C_Minister_Radical	0	false	7	Personal
+C_Minister_Radical	1	false	7	Personal
 C_Minister_Reactionary	1	false	6	Personal
 C_Minister_Trader	1	false	5	Construction
 C_Minister_Unjust	1	false	8	Personal
@@ -141,31 +141,31 @@ C_Missionary_Like_America	2	false	7	Personal
 C_Missionary_Like_Europe	2	false	7	Personal
 C_Missionary_Like_India	2	false	7	Personal
 C_Missionary_Touched_By_God	1	false	9	Personal
-C_Personal_Hale	0	false	5	Character Quirk
-C_Personal_High_Personal_Security	0	false	6	Character Quirk
+C_Personal_Hale	1	false	5	Character Quirk
+C_Personal_High_Personal_Security	1	false	6	Character Quirk
 C_Personal_Piety	3	false	5	Personal
-C_Personal_Sickly	0	false	4	Character Quirk
-C_Rake_Assassin_Good	0	false	9	Espionage
+C_Personal_Sickly	1	false	4	Character Quirk
+C_Rake_Assassin_Good	1	false	9	Espionage
 C_Rake_Born_Bounder	1	false	9	Espionage
 C_Rake_Counter_Spy	3	false	7	Espionage
 C_Rake_Gate_Opener	2	false	7	Personal
 C_Rake_Im_A_Laydee	1	false	9	Espionage
 C_Rake_Naughty_Club	1	false	6	Espionage
-C_Rake_Sabot_Good	0	false	7	Espionage
+C_Rake_Sabot_Good	1	false	7	Espionage
 C_Rake_Spy_Good	3	false	8	Espionage
 C_Sausage_Vice	3	false	1	Personal
 C_Siege_Engineering	1	false	1	Military
-R_Infected_Cholera	0	true	0	Personal
-R_Infected_Dengue_Fever	0	true	9	Personal
-R_Infected_Influenza	0	true	9	Personal
-R_Infected_Leprosy	0	true	9	Personal
-R_Infected_Malaria	0	true	9	Personal
-R_Infected_Measles	0	true	9	Personal
-R_Infected_Plague	0	true	9	Character Quirk
-R_Infected_Smallpox	0	true	9	Personal
-R_Infected_TB	0	true	9	Personal
-R_Infected_Typhus	0	true	9	Personal
-R_Infected_Yellow_Fever	0	true	9	Personal
+R_Infected_Cholera	1	true	0	Personal
+R_Infected_Dengue_Fever	1	true	9	Personal
+R_Infected_Influenza	1	true	9	Personal
+R_Infected_Leprosy	1	true	9	Personal
+R_Infected_Malaria	1	true	9	Personal
+R_Infected_Measles	1	true	9	Personal
+R_Infected_Plague	1	true	9	Character Quirk
+R_Infected_Smallpox	1	true	9	Personal
+R_Infected_TB	1	true	9	Personal
+R_Infected_Typhus	1	true	9	Personal
+R_Infected_Yellow_Fever	1	true	9	Personal
 U_Acclimatised_Americas	1	true	9	Personal
 U_Acclimatised_Europe	1	false	9	Military
 U_Acclimatised_India	1	false	9	Military
@@ -181,7 +181,7 @@ U_Infected_Dysentry	1	false	9	Military
 U_Infected_Influenza	1	false	9	Military
 U_Infected_Malaria	1	false	9	Military
 U_Infected_Measles	1	false	9	Military
-U_Infected_Plague	0	false	8	Personal
+U_Infected_Plague	1	false	8	Personal
 U_Infected_Scurvy	1	false	9	Military
 U_Infected_Smallpox	1	false	9	Military
 U_Infected_TB	1	false	9	Military

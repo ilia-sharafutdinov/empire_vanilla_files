@@ -1,4 +1,4 @@
 ancillary	attribute_situation	effect_value
 #ancillary_to_attribute_situation_effects_tables;0;db/ancillary_to_attribute_situation_effects_tables/ancillary_to_attribute_situation_effects		
 Ancillary_Army_Aide_Nephew	Command_Land_Ambushes	-1
-Ancillary_Army_Aide_Nephew	Movement_Points_Land_Cavalry	-1
+Ancillary_Army_Aide_Nephew	Movement_Points_Land_Cavalry	-10

@@ -31,7 +31,7 @@ RIDER_TURN_RIGHT_90					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER
 RIDER_TURN_LEFT_180					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_2/Elephant_Rider_2_180ccw.anim"
 RIDER_TURN_RIGHT_180				filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_2/Elephant_Rider_2_180.anim"
 
-RIDER_DEATH_STAND_1					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_2/Deaths/Rider2_Stand_Elephant_Shot_001.anim"
+RIDER_DEATH_STAND_1					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_2/Deaths/Rider2_Stand_Elephant_Shot_001.anim"						primary_weapon = off, secondary_weapon = off, defensive = off, ambient = on, personal = off
 
 RIDER_CARRY_WEAPON					filename = "Animations/MEN/ELEPHANT_RIDER/ELEPHANT_RIDER_2/Elephant_Rider_2_LAN_Sit.anim"							primary_weapon = off, secondary_weapon = on, defensive = off, ambient = on, personal = off	
 

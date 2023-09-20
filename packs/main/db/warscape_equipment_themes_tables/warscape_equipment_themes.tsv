@@ -77,12 +77,14 @@ x_india_cavalry_bow_sabre	bow_horse	east_cavalry_sabre		archer_equipment
 x_india_cavalry_lance	lance			east_infantry_equipment	
 x_india_cavalry_musket_lance	east_musket	lance			
 x_india_cavalry_musket_sabre	east_musket	east_cavalry_sabre		east_infantry_equipment	
+x_india_cavalry_pistol_lance	pistol	lance			
 x_india_cavalry_pistol_sabre	pistol	east_cavalry_sabre			
-x_india_cavalry_sabre				east_infantry_equipment	
+x_india_cavalry_sabre		east_cavalry_sabre		east_infantry_equipment	
+x_india_elephant_lance		lance			
 x_india_musket	east_musket			east_infantry_equipment	
 x_india_musket_sword	east_musket	east_sword		east_infantry_equipment	
 x_india_pitchfork	pitchfork				
-x_india_sword				east_infantry_equipment	
+x_india_sword	east_sword			east_infantry_equipment	
 x_india_sword_pistol	east_sword	pistol		east_infantry_equipment	
 x_natam_axe	euro_tomahawk				
 x_natam_bow_axe	bow_default	euro_tomahawk		archer_equipment	
@@ -95,7 +97,6 @@ x_natam_pitchfork	pitchfork
 x_natam_standard_bearer	euro_tomahawk				euro_flagpole
 x_natam_throwingaxe_axe	euro_tomahawk				
 x_pr_custom_pistol_only	pistol				
-x_pr_custom_spear_only		euro_spear			
+x_pr_custom_spear_only	euro_spear				
 x_sword_pistol_only	east_sword	pistol			
-x_india_cavalry_pistol_lance	pistol	lance			
-x_india_elephant_lance		lance			
+x_camel_sword_pistol	pistol	east_cavalry_sabre		east_infantry_equipment	

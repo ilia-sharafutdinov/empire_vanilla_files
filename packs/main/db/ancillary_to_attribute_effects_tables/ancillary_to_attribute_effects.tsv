@@ -12,6 +12,8 @@ Ancillary_Duelling_Pistols	duelling_pistols	2
 Ancillary_Duelling_Pistols_Manton	duelling_pistols	5
 Ancillary_Government_Controller	management	1
 Ancillary_Mistress_Circassian	management	-2
+Ancillary_Mystic_Useful	movement_points_land	-5
+Ancillary_Mystic_Useful	zeal	3
 Ancillary_Navy_Merc_Sea_Captain	command_sea	2
 Ancillary_Presentation_Sword_1	duelling_swords	1
 Ancillary_Presentation_Sword_2	duelling_swords	1

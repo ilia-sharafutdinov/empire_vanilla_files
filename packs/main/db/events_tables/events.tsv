@@ -1,7 +1,7 @@
 key	picture_category	dynamic	historical_date	season	conditions	picture
 #events_tables;0;db/events_tables/events						
 3_colour_printing	Industry_european.tga	false	1702	season_summer		Industry_european.tga
-air_loom	Crime_European.tga	true	1793	season_summer		Crime_European.tga
+air_loom	Crime_European.tga	false	1793	season_summer		Crime_European.tga
 alcoholic_apothecary	culture-eu.tga	false	1794	season_summer		culture-eu.tga
 alcoholic_apothecary_dies	culture-eu.tga	false	1800	season_winter		culture-eu.tga
 american_blizzard	disaster_eu.tga	false	1717	season_winter		disaster_eu.tga
@@ -16,7 +16,7 @@ bach_dies	small funeral-eu.tga	false	1750	season_summer		small funeral-eu.tga
 bach_toccata_and_fugue_in_d_minor	culture-eu.tga	false	1707	season_summer		culture-eu.tga
 bach_well_tempered_clavier_1	culture-eu.tga	false	1722	season_summer		culture-eu.tga
 bach_well_tempered_clavier_2	culture-eu.tga	false	1744	season_summer		culture-eu.tga
-ballistics_advanced	medicine_european.tga	true	1742	season_summer	(FactionBuildingExists("britain", "gunnery_school") or FactionBuildingExists("france", "gunnery_school") or FactionBuildingExists("austria", "gunnery_school") or FactionBuildingExists("spain", "gunnery_school") or FactionBuildingExists("prussia", "gunnery_school") or FactionBuildingExists("russia", "gunnery_school") or FactionBuildingExists("ottomans", "gunnery_school") or FactionBuildingExists("netherlands", "gunnery_school") or FactionBuildingExists("maratha", "gunnery_school") or FactionBuildingExists("mughal", "gunnery_school") or FactionBuildingExists("sweden", "gunnery_school"))	medicine_european.tga
+ballistics_advanced	medicine_european.tga	true	1742	season_summer	[FactionBuildingExists("britain", "gunnery_school") or FactionBuildingExists("france", "gunnery_school") or FactionBuildingExists("austria", "gunnery_school") or FactionBuildingExists("spain", "gunnery_school") or FactionBuildingExists("prussia", "gunnery_school") or FactionBuildingExists("russia", "gunnery_school") or FactionBuildingExists("ottomans", "gunnery_school") or FactionBuildingExists("netherlands", "gunnery_school") or FactionBuildingExists("maratha", "gunnery_school") or FactionBuildingExists("mughal", "gunnery_school") or FactionBuildingExists("sweden", "gunnery_school")]	medicine_european.tga
 bangorian_controversy	Religion_European.tga	true	1717	season_summer	FactionTechExists("britain", "enlightenment_secular_humanism")	Religion_European.tga
 bavarian_illuminai	culture-eu.tga	false	1784	season_summer		culture-eu.tga
 belfast_news_letter_published	culture-eu.tga	false	1737	season_summer		culture-eu.tga
@@ -58,7 +58,7 @@ electrical_condenser	medicine_european.tga	false	1745	season_summer		medicine_eu
 encyclopaedia_britannica	culture-eu.tga	false	1771	season_summer		culture-eu.tga
 encyclopedie_published	culture-eu.tga	false	1751	season_summer		culture-eu.tga
 enormous_bell	Industry_european.tga	false	1737	season_summer		Industry_european.tga
-euro_porcelain	Industry_european.tga	true	1708	season_summer	(FactionBuildingExists("prussia", "pottery_workshops") or FactionBuildingExists("austria", "pottery_workshops")	Industry_european.tga
+euro_porcelain	Industry_european.tga	true	1708	season_summer	[FactionBuildingExists("prussia", "pottery_workshops") or FactionBuildingExists("austria", "pottery_workshops")]	Industry_european.tga
 filth_and_naughtiness	culture-eu.tga	false	1747	season_summer		culture-eu.tga
 first_lord_of_lunch	culture-eu.tga	false	1762	season_summer		culture-eu.tga
 first_piano	culture-eu.tga	false	1709	season_winter		culture-eu.tga
@@ -69,7 +69,7 @@ flushing_toiletoscope	Industry_european.tga	false	1775	season_summer		Industry_e
 flute_player_mechanical_duck	Industry_european.tga	false	1738	season_winter		Industry_european.tga
 freemasons_america	culture-eu.tga	false	1733	season_summer		culture-eu.tga
 freemasons_founded	culture-eu.tga	false	1717	season_winter		culture-eu.tga
-fruit_kills_scurvy	medicine_european.tga	true	1747	season_winter	(FactionTechExists("britain", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("france", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("austria", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("spain", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("prussia", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("russia", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("ottomans", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("netherlands", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("maratha", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("mughal", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("sweden", "military_navy_lime_juice_and_sauerkraut"))	medicine_european.tga
+fruit_kills_scurvy	medicine_european.tga	true	1747	season_winter	[FactionTechExists("britain", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("france", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("austria", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("spain", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("prussia", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("russia", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("ottomans", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("netherlands", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("maratha", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("mughal", "military_navy_lime_juice_and_sauerkraut") or FactionTechExists("sweden", "military_navy_lime_juice_and_sauerkraut")]	medicine_european.tga
 gas_lighting	Industry_european.tga	false	1798	season_summer		Industry_european.tga
 gentleman_highwayman	Crime_European.tga	false	1750	season_winter		Crime_European.tga
 global_circulation	medicine_european.tga	true	1735	season_winter	FactionTechExists("britain", "military_navy_meteorological_studies")	medicine_european.tga
@@ -119,7 +119,7 @@ mungo_park_segu	culture-eu.tga	false	1796	season_summer		culture-eu.tga
 murder_most_horrid	Crime_European.tga	false	1725	season_winter		Crime_European.tga
 new_atomic_theory	medicine_european.tga	false	1758	season_summer		medicine_european.tga
 new_britain_discovered	culture-eu.tga	false	1700	season_winter		culture-eu.tga
-orrery_invented	medicine_european.tgamedicine_european.tga	false	1704	season_summer		medicine_european.tgamedicine_european.tga
+orrery_invented	medicine_european.tga	false	1704	season_summer		medicine_european.tga
 ottoman_press	culture-otoman.tga	false	1729	season_summer		culture-otoman.tga
 pants_on_fire	culture-eu.tga	false	1726	season_summer		culture-eu.tga
 petticoat_duel	culture-eu.tga	false	1792	season_summer		culture-eu.tga

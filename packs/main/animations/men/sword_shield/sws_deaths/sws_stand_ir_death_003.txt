@@ -30,7 +30,7 @@ Marker name: BODYFALL_HEAVY
 Position: 1 s 965 ms
 Type: Generic
 
-Marker name: equipmetnt_rattle
+Marker name: equipment_rattle
 Position: 2 s 85 ms
 Type: Generic
 

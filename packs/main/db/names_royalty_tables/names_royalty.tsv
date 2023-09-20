@@ -2,22 +2,15 @@ faction	name	numeral_start	gender	frequency	id
 #names_royalty_tables;0;db/names_royalty_tables/names_royalty					
 afghanistan	Abd al-Aziz	1	m	1	2114940813
 afghanistan	Ahmad	1	m	3	-213832440
-afghanistan	Ali	1	f	1	1299424887
 afghanistan	Ashraf	1	m	1	2048619651
-afghanistan	Ayub	1	f	1	262352108
-afghanistan	Bibi	1	f	1	1627331937
 afghanistan	Gurgin	1	m	2	1263476231
 afghanistan	Mahmud	1	m	3	1917979327
 afghanistan	Mir Mahmud	1	m	2	-257781444
 afghanistan	Mirwais	1	m	2	1214410718
 afghanistan	Safi	1	m	1	-382776886
-afghanistan	Sarwar	1	f	1	182734560
 afghanistan	Shuja	1	m	3	47414676
-afghanistan	Soroya	1	f	1	1954369550
 afghanistan	Timur	1	m	3	1793727081
-afghanistan	Wafa	1	f	1	-1386980165
 afghanistan	Zaman	1	m	3	1814100598
-afghanistan	Zarghoona	1	f	1	50334469
 afghanistan	Zulfikar	1	m	1	-114790942
 austria	Anton	1	m	1	161011545
 austria	Eleonore	1	f	1	-1968636092
@@ -35,33 +28,19 @@ austria	Maria	1	f	1	461167678
 austria	Maria Anna	1	f	1	-627584858
 austria	Maria Leopoldine	1	f	1	1548905191
 austria	Maria Theresia	1	f	3	-1307838731
-barbary_states	Aamaal	1	f	1	1438233880
 barbary_states	Abdul Hasan	1	m	1	-25947026
 barbary_states	Abdy	1	m	1	1009814772
-barbary_states	Afrah	1	f	1	356046682
 barbary_states	Ahmed Sharban	1	m	1	1555761005
-barbary_states	Aisha	1	f	1	1626912467
 barbary_states	Al-Husayn	1	m	1	512823105
 barbary_states	Ali	1	m	1	-481553344
 barbary_states	Ali Chauch	1	m	1	-1851469098
 barbary_states	Al-Mustafa	1	m	1	-1931671476
-barbary_states	Amal	1	f	1	-914501071
-barbary_states	Amatullah	1	f	1	-852100962
-barbary_states	Ameera	1	f	1	-1077204752
-barbary_states	Azeeza	1	f	1	-1202166471
 barbary_states	Baba Ali	1	m	1	-1055591525
 barbary_states	Baba Hassan	1	m	1	-1116450973
 barbary_states	Deli Ibrahim	1	m	1	1314779209
-barbary_states	Faiza	1	f	1	-1011154682
-barbary_states	Fareeda	1	f	1	-82499932
-barbary_states	Fatima	1	f	1	-280052387
-barbary_states	Fawziya	1	f	1	239768079
-barbary_states	Firyal	1	f	1	-1737547051
-barbary_states	Haadiya	1	f	1	-250315406
 barbary_states	Hadji Ahmed	1	m	1	-808698838
 barbary_states	Hadji Mustapha	1	m	1	-159062424
 barbary_states	Ibrahim	1	m	1	-1406402843
-barbary_states	Izdihaar	1	f	1	1808693515
 barbary_states	Kutchuk	1	m	1	-889353150
 barbary_states	Mehmed	1	m	1	1215082128
 barbary_states	Muhammad	1	m	1	-1226484833
@@ -196,20 +175,15 @@ huron	Tsouhahissen	1	m	1	20741744
 huron	Tyantet	1	m	1	1724511612
 inuit	Amaqjuaq	1	m	1	898192712
 inuit	Atanarjuat	3	m	1	1478206915
-inuit	Atuat	1	f	1	1784304567
 inuit	Kumaglak	1	m	1	1928492066
 inuit	Kumaglaq	1	m	1	352440319
-inuit	Niriuniq	1	f	1	1636718753
 inuit	Oki	1	m	1	-1762612780
 inuit	Pakak	1	m	1	-127395014
-inuit	Panikpak	1	f	1	-411765253
 inuit	Pittiulak	1	m	1	329145533
-inuit	Puja	1	f	1	300044869
 inuit	Qulitalik	1	m	1	-1672560864
 inuit	Sauri	1	m	1	-857327026
 inuit	Tulimaq	1	m	1	-1199678282
 inuit	Tungajuaq	1	m	1	1943478572
-inuit	Uluriaq	1	f	1	-1245532759
 ireland	Brian	1	m	1	1598219571
 ireland	Dermot	1	m	1	749028070
 ireland	Donchad	1	m	1	245851759

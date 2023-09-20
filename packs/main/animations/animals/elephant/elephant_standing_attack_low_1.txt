@@ -2,7 +2,4 @@ Marker name: elephant_melee
 Position: 493 ms
 Type: Generic
 
-Marker name: bodyfall_heavy
-Position: 789 ms
-Type: Generic
 

@@ -5,9 +5,11 @@ package.path = ";?.lua;data/ui/templates/?.lua;data/ui/?.lua"
 module(..., package.seeall)
 
 -- Import the events table so we can add callbacks for each game event
-local events = require "data.events"
-local message_handler = require "message_handler"
+local core = require "CoreUtils"
+local events = core.Require "data.events"
+local message_handler = core.Require "message_handler"
 
+out.ting("loading episodic scripting")
 
 --------------------------------------------------------------------------------------------------------------------
 -- Local variables - these are essentially private data
@@ -67,7 +69,7 @@ local m_starting_configuration =	{
 											["Battlefield"]			= { {-549.145, 292.321, 2.3, "BattleTerrain\\presets\\RTI_Ambush_4\\", false},
 																		{-549.894, 307.086, 2.3, "BattleTerrain\\presets\\RTI_Fort_1\\", true},
 																		{-563.431, 289.506, 2.3, "BattleTerrain\\presets\\RTI_Fort_2\\", true},
-																		{-541.857, 316.648, 2.3, "BattleTerrain\\presets\\RTI_Fort_3\\", true},
+																		{-541.857, 316.648, 4.3, "BattleTerrain\\presets\\RTI_Fort_3\\", true},
 																		{-458.897, 324.525, 2.3, "BattleTerrain\\presets\\RTI_Fort_4\\", true},
 																		{-557.553, 307.292, 2.3, "BattleTerrain\\presets\\RTI_Fort_5\\", true},
 																		{-428.576, 327.603, 2.3, "BattleTerrain\\presets\\RTI_Fort_6\\", true},
@@ -77,7 +79,7 @@ local m_starting_configuration =	{
 
 											["Exclusion_zone"]		= { { -553, 298, -550, 295, true, true, true, "france" } },
 											["Visibility_trigger"]	= { },
-											["Location_trigger"]	= { {-564, 289, 8, "virginia"}},
+											["Location_trigger"]	= { {-564, 289, 8, "virginia"}, {-449.57, 326.78, 36, "virginia"} },
 											["Settlement_override"]	= { },
 											["Building_override"]	= { }
 										},
@@ -119,6 +121,7 @@ local function RevealComponent(id)
 	local details = m_hidden_components[id]
 	
 	if details ~= nil then
+		out.ting("Revealing " .. id)
 		UIComponent(details.Parent):Adopt(details.Component, details.Index)	
 		
 		-- Run the components script as if it was removed from UI tree at startup then it won't have had it's script run
@@ -162,13 +165,13 @@ function ()
 
 	for s,v in pairs( m_highlighted_construction_items ) do
 
-		CampaignUI.HighlightConstructionItem( v.building_key, v.slot_key )
+		CampaignUI.HighlightConstructionItem( v, true )
 	
 	end
 
 	for s,v in pairs( m_highlighted_recruitment_items ) do
 
-		CampaignUI.HighlightRecruitmentItem( v.unit_key, v.slot_key )
+		CampaignUI.HighlightRecruitmentItem( v, true )
 	
 	end
 
@@ -209,12 +212,11 @@ function HighlightConstructionItem( building_key, enable )
 
 	if enable == true then
 	
-		m_highlighted_construction_items[ id ] = {}
-		m_highlighted_construction_items[ id ].building_key = building_key
+		m_highlighted_construction_items[ building_key ] = building_key
 		
 	else
 	
-		m_highlighted_construction_items[ id ] = nil
+		m_highlighted_construction_items[ building_key ] = nil
 		
 	end
 
@@ -225,28 +227,29 @@ end
 function HighlightRecruitmentItem( unit_key, enable )
 
 	if enable == true then
-	
-		m_highlighted_recruitment_items[ id ] = {}
-		m_highlighted_recruitment_items[ id ].unit_key = unit_key
-		
-	else
-	
-		m_highlighted_recruitment_items[ id ] = nil
-		
-	end
 
+		m_highlighted_recruitment_items[ unit_key ] = unit_key
+
+	else
+
+		m_highlighted_recruitment_items[ unit_key ] = nil
+
+	end
+	
 	CampaignUI.HighlightRecruitmentItem( unit_key, enable )
 
 end
 
 function ShowHUD(show)
 	UIComponent(m_root:Find("veneer_DY")):SetVisible(show)
+	message_handler.HideAllMessages(not show)
 end
 
 -- Go through all the hidden components we have and test if they have a parent
 -- If they haven't then they won't get deleted when the UI tree is destroyed, so delete it now
 local function OnDestroyed()
 	if m_in_campaign then
+		out.ting("exiting campaign, saving heirarchy")
 		m_saved_state = m_root:SaveUIHeirarchy()
 		
 		for k, v in pairs(m_hidden_components) do
@@ -254,7 +257,14 @@ local function OnDestroyed()
 				Component.Destroy(v.Component, true)
 			end
 		end
+	else
+		out.ting("exiting non-campaign")
 	end
+	
+	for k, v in pairs(m_hidden_components) do
+		out.ting(k)
+	end
+
 	m_root = nil
 	m_hidden_components = {}
 	ClearMessageAutoShowOverrides()
@@ -329,7 +339,7 @@ local m_features = {
 		["Enable"] = function()
 			game_interface:remove_barrier("shroud_map_2_2")
 			game_interface:unveil_black_shroud("shroud_map_2_3")
-			--game_interface:set_map_bounds(-567, 281, -533, 257)
+			game_interface:set_map_bounds(-614, 409, -353, 257)
 			game_interface:disable_shopping_for_ai_under_shroud(false)
 		end,
 		["Disable"] = function()	end
@@ -352,6 +362,7 @@ local m_features = {
 		["Enable"] = function()
 			RevealComponent("button_government")
 			RevealComponent("ornate back")
+			RevealComponent("faction_hud_flags")
 		end,
 		["Disable"] = function()	end
 		},
@@ -387,16 +398,17 @@ local m_features = {
 
 	["Hide_excess_on_region_details"] = {
 		["Enable"] = function()
-			HideComponent("tax_panel")
-			HideComponent("Public order panel layout")
-			HideComponent("tx_turns_until...")
+			-- again set invisible instead of Hide
+			UIComponent(m_root:Find("Public order panel layout")):SetVisible(false)
+			UIComponent(m_root:Find("tax_panel")):SetVisible(false)
+			UIComponent(m_root:Find("tx_turns_until...")):SetVisible(false)
 		end,
 		["Disable"] = function()	end
 		},
 		
 	["Hide_pop_on_region_details"] = {
 		["Enable"] = function()
-			HideComponent("tx_turns_until...")
+			UIComponent(m_root:Find("tx_turns_until...")):SetVisible(false)
 		end,
 		["Disable"] = function()	end
 		},
@@ -407,6 +419,7 @@ local m_features = {
 			if tab ~= nil then
 				UIComponent(tab):SetVisible(false)
 			end
+			out.ting("build_demolish")
 			UIComponent(m_root:Find("build_demolish")):SetVisible(false)
 			UIComponent(m_root:Find("build_demolish")):SetDisabled(true)
 		end,
@@ -451,6 +464,17 @@ local m_features = {
 			game_interface:disable_town_spawning(true)
 		end
 		},
+		
+	["disable_end_turn"] = {
+		["Enable"] = function()
+			out.ting("End turn disabled")
+			UIComponent(m_root:Find("button_end_turn")):SetVisible(false)
+		end,
+		["Disable"] = function()
+			out.ting("End turn re-enabled")
+			UIComponent(m_root:Find("button_end_turn")):SetVisible(true)
+		end
+		},
 	}
 
 local function OnNewSession(context)
@@ -466,11 +490,9 @@ end
 
 local function InitialiseCampaign()
 	if not m_saved_state then
+		out.ting("No saved heirarchy")
 
 		if m_campaign ~= nil then
-			game_interface:display_turns(true)
-			game_interface:override_advice_level(3)
-			effect.suspend_contextual_advice(true)
 			-- These are not saved and is always hidden when going into a campaign. Restore them if needed
 			out.ting("Starting campaign " .. m_campaign)
 			-- Hide all the components that aren't used at the start of this campaign
@@ -482,10 +504,11 @@ local function InitialiseCampaign()
 				EnableComponent(v, false)
 			end
 			if game_interface:is_new_game() then
+				effect.suspend_contextual_advice(true)
 				-- features are can be complex, initize them only on new games.
 				-- Call the function used to disable all the features at the start of this campaign
 				for i,v in ipairs(m_starting_configuration[m_campaign].Features) do
-					m_features[v].Disable()
+					InitFeature(v)
 				end
 				-- these are saved automatically, activate them once only.
 				-- Disable all the building listed
@@ -518,8 +541,14 @@ local function InitialiseCampaign()
 			end
 		end
 	else
-		m_disabled_components = m_root:RestoreUIHeirarchy(m_saved_state)
+		m_hidden_components = m_root:RestoreUIHeirarchy(m_saved_state)
 		m_saved_state = nil
+		
+		out.ting("Restoring old heirarchy")
+		for k, v in pairs(m_hidden_components) do
+			out.ting(k)
+		end
+
 	end
 
 	if m_campaign ~= nil then
@@ -567,7 +596,7 @@ local function InitialiseCampaign()
 		OverrideMessageAutoShow("your_new_faction_leader_president",false)
 		OverrideMessageAutoShow("your_new_faction_leader_queen",false)
 		OverrideMessageAutoShow("your_throne_disputed",false)
-		OverrideMessageAutoShow("campaign_won",false)
+		OverrideMessageAutoShow("campaign_won",true)
 	end
 end
 
@@ -592,7 +621,12 @@ end
 --------------------------------------------------------------------------------------------------------------------
 -- Global functions that will get exported
 --------------------------------------------------------------------------------------------------------------------
+function IsOnCampaignMap()
+	return m_in_campaign
+end
+
 function SetCampaign(campaign)
+	out.ting("Playing episodic campaign: "..campaign)
 	m_campaign = campaign
 end
 
@@ -614,6 +648,7 @@ end
 
 function EnableFeature(feature)
 	assert(m_features[feature] ~= nil, "Attempting to enable an unknown feature ("..feature..")")
+	out.ting("Enabling "..feature)
 
 	-- Call the feature function
 	m_features[feature].Enable()
@@ -622,6 +657,7 @@ end
 function InitFeature(feature)
 	assert(m_features[feature] ~= nil, "Attempting to disable an unknown feature ("..feature..")")
 
+	out.ting("Init "..feature)
 	-- Call the feature function
 	m_features[feature].Disable()
 end

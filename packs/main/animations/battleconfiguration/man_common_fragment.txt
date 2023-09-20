@@ -88,7 +88,7 @@ RUN_JUMP									filename = "Animations/MEN/AXE/AXE_CLIMB/Axe_run_climb_obstacle
 
 // SPECIAL ANIMS -------------------------------------------------------------------------------------------------------------------
 GRENADIER							filename = "Animations/MEN/MUSKET/MUS_GRENADIER/MUS_GRENADIER.anim",						blend_in_time = 0.1		primary_weapon = off, secondary_weapon = off, defensive = off, ambient = on, personal = off,	special = grenade
-DEPLOY_WOODEN_STAKES				filename = "Animations/MEN/MUSKET/MUS_UNIQUE_ACTIONS/MUS_STAKE_PLANT.anim",					blend_in_time = 0.25	primary_weapon = off, secondary_weapon = off, defensive = off, ambient = on, personal = off,	special = wooden_stake
+DEPLOY_WOODEN_STAKES				filename = "Animations/MEN/MUSKET/MUS_UNIQUE_ACTIONS/MUS_STAKE_PLANT.anim",					blend_in_time = 0.25	primary_weapon = on, secondary_weapon = off, defensive = off, ambient = on, personal = off,	special = wooden_stake
 
 
 // CANNON CREW ---------------------------------------------------------------------------------------------------------------------

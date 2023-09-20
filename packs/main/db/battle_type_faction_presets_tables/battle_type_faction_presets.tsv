@@ -24,14 +24,14 @@ france	143	354
 france	144	325
 france	149	366
 france	150	337
-poland_lithuania	143	355
-poland_lithuania	144	326
-poland_lithuania	149	367
-poland_lithuania	150	338
 maratha	26	403
 maratha	28	379
 maratha	89	415
 maratha	90	391
+maratha	143	426
+maratha	144	424
+maratha	149	427
+maratha	150	425
 netherlands	26	404
 netherlands	28	380
 netherlands	89	416
@@ -56,6 +56,10 @@ poland_lithuania	26	406
 poland_lithuania	28	382
 poland_lithuania	89	418
 poland_lithuania	90	394
+poland_lithuania	143	355
+poland_lithuania	144	326
+poland_lithuania	149	367
+poland_lithuania	150	338
 prussia	26	407
 prussia	28	383
 prussia	89	419
@@ -96,7 +100,3 @@ united_states	143	363
 united_states	144	334
 united_states	149	375
 united_states	150	346
-maratha	144	424
-maratha	150	425
-maratha	143	426
-maratha	149	427

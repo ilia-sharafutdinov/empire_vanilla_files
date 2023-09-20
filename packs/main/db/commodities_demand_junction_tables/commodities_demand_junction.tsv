@@ -2,8 +2,8 @@ commodity	driver	constantK	weight
 #commodities_demand_junction_tables;0;db/commodities_demand_junction_tables/commodities_demand_junction			
 res_coffee	ddr_GDP	1.1000	0.5000
 res_coffee	ddr_TW	1.1000	0.5000
-res_cotton	ddr_GDP	1.1000	0.4000
-res_cotton	ddr_textile_production	1.1000	0.6000
+res_cotton	ddr_GDP	1.1000	0.5000
+res_cotton	ddr_textile_production	1.1000	0.5000
 res_furs	ddr_GDP	1.1000	0.3000
 res_furs	ddr_TW	1.1000	0.7000
 res_ivory	ddr_GDP	1.1000	0.1000
@@ -12,7 +12,7 @@ res_spices	ddr_GDP	1.1000	0.2000
 res_spices	ddr_TW	1.1000	0.8000
 res_sugar	ddr_GDP	1.1000	0.8000
 res_sugar	ddr_TW	1.1000	0.2000
-res_tea	ddr_GDP	1.1000	0.6000
-res_tea	ddr_TW	1.1000	0.4000
-res_tobacco	ddr_GDP	1.1000	0.7000
-res_tobacco	ddr_TW	1.1000	0.3000
+res_tea	ddr_GDP	1.1000	0.5000
+res_tea	ddr_TW	1.1000	0.5000
+res_tobacco	ddr_GDP	1.1000	0.6000
+res_tobacco	ddr_TW	1.1000	0.4000

@@ -1,0 +1,3 @@
+Marker name: campaign_ship_move
+Position: 0 s
+Type: Generic

@@ -1,7 +1,7 @@
 key	continent	unnamed colour group_1
 #regions_tables;0;db/regions_tables/regions		
 acadia	cont_america_north	7D5D33
-afghanistan	cont_middle_east	FFF600
+afghanistan	cont_india	D1A949
 ahmadnagar	cont_india	DEA200
 algiers	cont_middle_east	07008C
 algonquin_territory	cont_america_north	225FC4
@@ -15,7 +15,7 @@ astrakhan	cont_europe	6D2323
 austria	cont_europe	930000
 azerbaijan	cont_middle_east	81A680
 bahamas	cont_america_north	C0C7FF
-baluchistan	cont_middle_east	886B26
+baluchistan	cont_india	886B26
 bashkira	cont_europe	FF008A
 bavaria	cont_europe	DCCA00
 belarus	cont_europe	7F86E5

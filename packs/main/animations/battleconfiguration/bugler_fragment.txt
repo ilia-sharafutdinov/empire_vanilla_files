@@ -4,6 +4,10 @@ PLAY_INSTRUMENT						filename = "Animations/MEN/MUSICIAN/BUGLE/Bugle.anim",
 PLAY_INSTRUMENT_TO_STAND			filename = "Animations/MEN/MUSICIAN/BUGLE/Bugle_to_ART.anim",
 STAND_TO_PLAY_INSTRUMENT			filename = "Animations/MEN/MUSICIAN/BUGLE/ART_to_Bugle.anim",
 
+RIDER_PLAY_INSTRUMENT				filename = "Animations/MEN/HORSE_RIDER/C_BUG/C_BUG_Bugle.anim",						blend_in_time = 0.5
+RIDER_PLAY_INSTRUMENT_TO_STAND		filename = "Animations/MEN/HORSE_RIDER/C_BUG/C_BUG_Bugle_to_Sit.anim",				blend_in_time = 0.5
+RIDER_STAND_TO_PLAY_INSTRUMENT		filename = "Animations/MEN/HORSE_RIDER/C_BUG/C_BUG_Sit_to_Bugle.anim",				blend_in_time = 0.5
+
 WALK_1								filename = "Animations/MEN/AXE/AXE_WALK/Axe_walk.anim",						
 WALK_2								filename = "Animations/MEN/AXE/AXE_RUN_IR/Axe_run.anim",							blend_in_time = 0.5
 

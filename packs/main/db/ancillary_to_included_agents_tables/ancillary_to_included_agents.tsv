@@ -68,7 +68,7 @@ Ancillary_Landscape_Gardener	minister
 Ancillary_Madman	gentleman
 Ancillary_Master_of_Lunacy	minister
 Ancillary_Merchant_Corn_Factor	minister
-Ancillary_Military_Riding_Master	General
+Ancillary_Military_Riding_Master	minister
 Ancillary_Mistress_Actress	admiral
 Ancillary_Mistress_Actress	General
 Ancillary_Mistress_Circassian	minister
@@ -79,7 +79,8 @@ Ancillary_Mistress_Noble	minister
 Ancillary_Mistress_Spycatcher_Lady	minister
 Ancillary_Mistress_Spymistress	minister
 Ancillary_Mystic_Mysterious	General
-Ancillary_Mystic_Useful	General
+Ancillary_Mystic_Useful	indian_missionary
+Ancillary_Mystic_Useful	middle_east_missionary
 Ancillary_Navy_Cleric	admiral
 Ancillary_Navy_Flag_Lieutenant	admiral
 Ancillary_Navy_Merc_Sea_Captain	admiral
@@ -104,6 +105,7 @@ Ancillary_Police_Torturer	minister
 Ancillary_Presentation_Sword_1	General
 Ancillary_Presentation_Sword_2	admiral
 Ancillary_Rake_Bawd	rake
+Ancillary_Rake_Professional_Second	gentleman
 Ancillary_Rake_Professional_Second	rake
 Ancillary_Religion_Bishop	minister
 Ancillary_Religion_Imam_Learned	minister

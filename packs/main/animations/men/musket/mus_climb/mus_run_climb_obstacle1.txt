@@ -18,7 +18,7 @@ Marker name: HAND_GRAB
 Position: 1 s 17 ms
 Type: Generic
 
-Marker name: EQUIPMENT_RATLE
+Marker name: EQUIPMENT_RATtLE
 Position: 1 s 141 ms
 Type: Generic
 

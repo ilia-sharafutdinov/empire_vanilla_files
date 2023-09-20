@@ -68,19 +68,51 @@ STAND_TRAINED_IDLE_5				filename = "Animations/MEN/AXE/AXE_Stand_Irregular/AXE_I
 STAND_TRAINED_IDLE_5				filename = "Animations/MEN/AXE/AXE_Stand_Irregular/AXE_Idle5_Alt4.anim",					blend_in_time = 0.25
 
 COMBAT_READY						filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard.anim",							blend_in_time = 0.5
+COMBAT_READY						filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1.anim",						blend_in_time = 0.5
+COMBAT_READY						filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2.anim",						blend_in_time = 0.5
+
 
 // COMBAT READY IDLES ---------------------------------------------------------------------------------------------------------------------------------
 
 COMBAT_IDLE_1						filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_feint1.anim",						blend_in_time = 0.25
+COMBAT_IDLE_1						filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1_feint1.anim",					blend_in_time = 0.25
+COMBAT_IDLE_1						filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2_feint1.anim",					blend_in_time = 0.25
+
 COMBAT_IDLE_2						filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_feint2.anim",						blend_in_time = 0.25
+COMBAT_IDLE_2						filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1_feint2.anim",					blend_in_time = 0.25
+COMBAT_IDLE_2						filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2_feint2.anim",					blend_in_time = 0.25
+
 COMBAT_IDLE_3						filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_feint3.anim",						blend_in_time = 0.25
+COMBAT_IDLE_3						filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1_feint3.anim",					blend_in_time = 0.25
+COMBAT_IDLE_3						filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2_feint3.anim",					blend_in_time = 0.25
+
 COMBAT_IDLE_4						filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_feint4.anim",						blend_in_time = 0.25
+COMBAT_IDLE_4						filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1_feint4.anim",					blend_in_time = 0.25
+COMBAT_IDLE_4						filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2_feint4.anim",					blend_in_time = 0.25
+
 COMBAT_IDLE_5						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_Idle1.anim",						blend_in_time = 0.25
+COMBAT_IDLE_5						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_alt1_Idle1.anim",					blend_in_time = 0.25
+COMBAT_IDLE_5						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_alt2_Idle1.anim",					blend_in_time = 0.25
+
 COMBAT_IDLE_6						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_Idle2.anim",						blend_in_time = 0.25
+COMBAT_IDLE_6						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_alt1_Idle2.anim",					blend_in_time = 0.25
+COMBAT_IDLE_6						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_alt2_Idle2.anim",					blend_in_time = 0.25
+
 COMBAT_IDLE_7						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_Idle3.anim",						blend_in_time = 0.25
+COMBAT_IDLE_7						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_alt1_Idle3.anim",					blend_in_time = 0.25
+COMBAT_IDLE_7						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_alt2_Idle3.anim",					blend_in_time = 0.25
+
 COMBAT_IDLE_8						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_Idle4.anim",						blend_in_time = 0.25
+COMBAT_IDLE_8						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_alt1_Idle4.anim",					blend_in_time = 0.25
+COMBAT_IDLE_8						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_alt2_Idle4.anim",					blend_in_time = 0.25
+
 COMBAT_IDLE_9						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_Idle5.anim",						blend_in_time = 0.25
+COMBAT_IDLE_9						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_alt1_Idle5.anim",					blend_in_time = 0.25
+COMBAT_IDLE_9						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_alt2_Idle5.anim",					blend_in_time = 0.25
+
 COMBAT_IDLE_10						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_Idle6.anim",						blend_in_time = 0.25
+COMBAT_IDLE_10						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_alt1_Idle6.anim",					blend_in_time = 0.25
+COMBAT_IDLE_10						filename = "Animations/MEN/AXE/AXE_Outside_Guard/AXE_Oguard_alt2_Idle6.anim",					blend_in_time = 0.25
 
 // STAND ALT IDLES ---------------------------------------------------------------------------------------------------------
 STAND_ALT_1							filename = "Animations/MEN/AXE/AXE_altstand1/AXE_altstand1.anim",
@@ -210,9 +242,20 @@ RUN_TRAINED_5						filename = "Animations/MEN/AXE/Axe_IR_Locomotion/AXE_Sprint_6
 RUN_TRAINED_5						filename = "Animations/MEN/AXE/Axe_IR_Locomotion/AXE_Sprint_609cm_Alt4.anim",				blend_in_time = 0.5
 
 COMBAT_READY_ADVANCE				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_Advance.anim",					blend_in_time = 0.25
+COMBAT_READY_ADVANCE				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1_Advance.anim",				blend_in_time = 0.25
+COMBAT_READY_ADVANCE				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2_Advance.anim",				blend_in_time = 0.25
+
 COMBAT_READY_RETREAT				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_Retire.anim",					blend_in_time = 0.25
+COMBAT_READY_RETREAT				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1_Retire.anim",				blend_in_time = 0.25
+COMBAT_READY_RETREAT				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2_Retire.anim",				blend_in_time = 0.25
+
 COMBAT_READY_STEP_LEFT				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_Step_left.anim",				blend_in_time = 0.25
+COMBAT_READY_STEP_LEFT				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1_Step_left.anim",			blend_in_time = 0.25
+COMBAT_READY_STEP_LEFT				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2_Step_left.anim",			blend_in_time = 0.25
+
 COMBAT_READY_STEP_RIGHT				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_Step_right.anim",				blend_in_time = 0.25
+COMBAT_READY_STEP_RIGHT				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1_Step_right.anim",			blend_in_time = 0.25
+COMBAT_READY_STEP_RIGHT				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2_Step_right.anim",			blend_in_time = 0.25
 
 STEP_FORWARD						filename = "Animations/MEN/AXE/AXE_Stand_Irregular/Axe_Step_forward.anim",					blend_in_time = 0.25
 STEP_BACKWARD						filename = "Animations/MEN/AXE/AXE_Stand_Irregular/Axe_Step_back.anim",						blend_in_time = 0.25
@@ -260,11 +303,28 @@ TURN_RIGHT_CROUCH_90				filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_T
 TURN_CROUCH_180						filename = "Animations/MEN/SABRE/SAB_CROUCH/SAB_CROUCH_TURN_180.anim",
 
 COMBAT_READY_TURN_LEFT_45			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_45_ccw.anim",					blend_in_time = 0.25
+COMBAT_READY_TURN_LEFT_45			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1_45_ccw.anim",				blend_in_time = 0.25
+COMBAT_READY_TURN_LEFT_45			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2_45_ccw.anim",				blend_in_time = 0.25
+
 COMBAT_READY_TURN_RIGHT_45			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_45_cw.anim",					blend_in_time = 0.25
+COMBAT_READY_TURN_RIGHT_45			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1_45_cw.anim",				blend_in_time = 0.25
+COMBAT_READY_TURN_RIGHT_45			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2_45_cw.anim",				blend_in_time = 0.25
+
 COMBAT_READY_TURN_LEFT_90			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_90_ccw.anim",					blend_in_time = 0.25
+COMBAT_READY_TURN_LEFT_90			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1_90_ccw.anim",				blend_in_time = 0.25
+COMBAT_READY_TURN_LEFT_90			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2_90_ccw.anim",				blend_in_time = 0.25
+
 COMBAT_READY_TURN_RIGHT_90			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_90_cw.anim",					blend_in_time = 0.25
+COMBAT_READY_TURN_RIGHT_90			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1_90_cw.anim",				blend_in_time = 0.25
+COMBAT_READY_TURN_RIGHT_90			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2_90_cw.anim",				blend_in_time = 0.25
+
 COMBAT_READY_TURN_LEFT_180			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_180_ccw.anim",					blend_in_time = 0.25
+COMBAT_READY_TURN_LEFT_180			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1_180_ccw.anim",				blend_in_time = 0.25
+COMBAT_READY_TURN_LEFT_180			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2_180_ccw.anim",				blend_in_time = 0.25
+
 COMBAT_READY_TURN_RIGHT_180			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_180_cw.anim",					blend_in_time = 0.25
+COMBAT_READY_TURN_RIGHT_180			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1_180_cw.anim",				blend_in_time = 0.25
+COMBAT_READY_TURN_RIGHT_180			filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2_180_cw.anim",				blend_in_time = 0.25
 
 // TRANSITIONS --------------------------------------------------------------------------------------------------------------------------
 STAND_TO_WALK						filename = "Animations/MEN/AXE/AXE_Walk/Axe_stand_to_walk.anim",
@@ -279,9 +339,14 @@ STAND_ALT_2_TO_STAND				filename = "Animations/MEN/AXE/AXE_altstand2/AXE_altstan
 STAND_ALT_3_TO_STAND				filename = "Animations/MEN/AXE/AXE_altstand3/AXE_altstand3_IR_to_stand.anim",
 
 STAND_TO_COMBAT_READY				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_Stand_to_OGuard.anim",	
+STAND_TO_COMBAT_READY				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_Stand_to_OGuard_alt1.anim",	
+STAND_TO_COMBAT_READY				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_Stand_to_OGuard_alt2.anim",	
 STAND_TRAINED_TO_COMBAT_READY		filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_Stand_to_OGuard.anim",				
 
 COMBAT_READY_TO_STAND				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_to_Stand.anim",					
+COMBAT_READY_TO_STAND				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt1_to_Stand.anim",
+COMBAT_READY_TO_STAND				filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_alt2_to_Stand.anim",
+
 COMBAT_READY_TO_STAND_TRAINED		filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard_to_Stand.anim",					
 COMBAT_READY_TO_COMBAT_READY_KNEEL	filename = "Animations/MEN/AXE/AXE_Taking_Cover/Axe_OGuard_to_cover.anim",					blend_in_time = 0
 COMBAT_READY_TO_AIM					filename = "Animations/MEN/AXE/AXE_Outside_Guard/Axe_OGuard.anim",							blend_in_time = 0.25
