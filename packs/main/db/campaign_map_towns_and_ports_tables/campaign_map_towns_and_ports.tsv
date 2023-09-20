@@ -11,6 +11,7 @@ port:anatolia:sinop	port	Sinop
 port:austria:triest	port	Triest
 port:bahamas:grand_bahama	port	Grand Bahama
 port:bengal:port_of_calcutta	port	Port of Calcutta
+port:bijapur:vengurla	port	Vengurla
 port:bosnia:ragusa	port	Ragusa
 port:bulgaria:burgas	port	Burgas
 port:bulgaria:varna	port	Varna
@@ -82,6 +83,10 @@ port:morocco:casabranca	port	Casabranca
 port:mysore:mangalore	port	Mangalore
 port:naples:siracusa	port	Siracusa
 port:naples:taranto	port	Taranto
+port:natives_labrador:cartwright	port	Cartwright
+port:natives_labrador:catucto	port	Catucto
+port:natives_nw_territory:churchill	port	Churchill
+port:natives_ruperts_land:fort_albany	port	Fort Albany
 port:netherlands:rotterdam	port	Rotterdam
 port:new_andalusia:coro	port	Santa Ana de Coro
 port:new_andalusia:puerto_cabello	port	Puerto Cabello
@@ -304,6 +309,32 @@ town:mysore:srirangapatna	town-metal	Srirangapatna
 town:naples:l_aquila	town-metal	L'Aquila
 town:naples:palermo	town-textile	Palermo
 town:naples:potenza	town-textile	Potenza
+town:natives_algonquin_territory:fort_duquesne	town-metal	Fort Duquesne
+town:natives_algonquin_territory:fort_presque_isle	town-textile	Fort Presque Isle
+town:natives_apache_territory:cibola	town-textile	Cíbola
+town:natives_apache_territory:eldorado	town-metal	Eldorado
+town:natives_black_hills:deadwood	town-metal	Deadwood
+town:natives_cheyenne_territory:kansas	town-textile	Kansas
+town:natives_cheyenne_territory:omaha	town-metal	Omaha
+town:natives_chickasaw_territory:sandy_creek	town-textile	Sandy Creek
+town:natives_chickasaw_territory:tuscaloosa	town-metal	Tuscaloosa
+town:natives_chihuahua:coyame	town-textile	Coyame
+town:natives_chihuahua:mojada	town-metal	Mojada
+town:natives_huron_territory:kapuskasing	town-textile	Kapuskasing
+town:natives_huron_territory:longlac	town-textile	Longlac
+town:natives_indiana_territory:green_bay	town-textile	Green Bay
+town:natives_indiana_territory:milwaukee	town-metal	Milwaukee
+town:natives_labrador:rigolet	town-metal	Rigolet
+town:natives_michigan_territory:fort_st_joseph	town-textile	Fort St. Joseph
+town:natives_michigan_territory:kekionga	town-metal	Kekionga
+town:natives_ohio_territory:cuyahoga_falls	town-metal	Cuyahoga Falls
+town:natives_ohio_territory:licking_river	town-textile	Licking River
+town:natives_ruperts_land:fort_rupert	town-metal	Fort Rupert
+town:natives_sioux_territory:cedar_rapids	town-textile	Cedar Rapids
+town:natives_sioux_territory:onigamiinsing	town-metal	Onigamiinsing
+town:natives_u_louisiana:fort_crevecoeur	town-textile	Fort Crevecoeur
+town:natives_wichita_territory:amarillo	town-textile	Amarillo
+town:natives_wichita_territory:oklahoma	town-textile	Oklahoma
 town:netherlands:den_haag	town-textile	Den Haag
 town:netherlands:utrecht	town-textile	Utrecht
 town:new_andalusia:cumana	town-metal	Cumaná
@@ -328,7 +359,7 @@ town:ontario:tkaronto	town-textile	Tkaronto
 town:orissa:masulipatnam	town-textile	Masulipatnam
 town:orissa:sambalpur	town-metal	Sambalpur
 town:orissa:vizianagram	town-metal	Vizianagram
-town:palestine:elat	town	Elat
+town:palestine:elat	town-textile	Elat
 town:panama:san_jose	town-textile	San José de David
 town:pennsylvania:dover	town-textile	Dover
 town:pennsylvania:harrisburg	town-metal	Harrisburg
@@ -418,4 +449,3 @@ town:west_prussia:elblag	town-textile	Elbląg
 town:west_prussia:poznan	town-textile	Poznań
 town:wurttemberg:heidelberg	town-metal	Heidelberg
 town:wurttemberg:ulm	town-textile	Ulm
-port:bijapur:vengurla	port	Vengurla

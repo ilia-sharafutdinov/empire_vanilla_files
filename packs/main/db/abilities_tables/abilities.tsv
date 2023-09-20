@@ -12,4 +12,5 @@ Can_Hide_In_Woods	command_land	normal	false
 can_receive_duel	duelling_pistols	action	true
 can_research	research	normal	false
 can_sabotage	subterfuge	action	true
+can_sabotage_army	subterfuge	action	true
 can_spy	subterfuge	action	true

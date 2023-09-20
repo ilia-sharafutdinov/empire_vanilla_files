@@ -65,6 +65,7 @@ settlement:iceland:reykjavik	iceland	Reykjavík	1	settlement
 settlement:ingria:st_petersburg	ingria	St. Petersburg	5	settlement
 settlement:ireland:dublin	ireland	Dublin	1	settlement
 settlement:iroquois_territory:cayuga	iroquois_territory	Cayuga	1	settlement
+settlement:iroquois_territory:cayuga_natives	iroquois_territory	Cayuga	3	settlement
 settlement:jamaica:port_royal	jamaica	Port Royal	1	settlement
 settlement:kaintuck_territory:tanase	kaintuck_territory	Tanase	1	settlement
 settlement:karelia:petrovskaya_sloboda	karelia	Petrovskaya Sloboda	1	settlement
@@ -88,15 +89,35 @@ settlement:morocco:tangier	morocco	Tangier	4	settlement
 settlement:muscovy:moscow	muscovy	Moscow	5	settlement
 settlement:mysore:mysore	mysore	Mysore	4	settlement
 settlement:naples:naples	naples	Naples	1	settlement
+settlement:natives_algonquin_territory:niagara	natives_algonquin_territory	Niagara	1	settlement
+settlement:natives_apache_territory:quivira	natives_apache_territory	Quivira	3	settlement
+settlement:natives_black_hills:knife_river_village	natives_black_hills	Knife River Village	1	settlement
+settlement:natives_cheyenne_territory:cheyenne	natives_cheyenne_territory	Cheyenne	1	settlement
+settlement:natives_chickasaw_territory:autiamique	natives_chickasaw_territory	Autiamique	3	settlement
+settlement:natives_chihuahua:chihuahua	natives_chihuahua	Chihuahua	1	settlement
+settlement:natives_huron_territory:ft_st_marie	natives_huron_territory	Fort Sault Ste. Marie	3	settlement
+settlement:natives_indiana_territory:shikaawa	natives_indiana_territory	Shikaakwa	1	settlement
+settlement:natives_labrador:agvituk	natives_labrador	Agvituk	1	settlement
+settlement:natives_michigan_territory:detroit	natives_michigan_territory	Fort Pontchartrain du Detroit	1	settlement
+settlement:natives_nw_territory:york_factory	natives_nw_territory	York Factory	1	settlement
+settlement:natives_ohio_territory:fallen_timbers	natives_ohio_territory	Fallen Timbers	1	settlement
+settlement:natives_ruperts_land:moose_factory	natives_ruperts_land	Moose Factory	1	settlement
+settlement:natives_sioux_territory:sioux_falls	natives_sioux_territory	Sioux Falls	3	settlement
+settlement:natives_u_louisiana:fort_chartres	natives_u_louisiana	Fort de Chartres	1	settlement
+settlement:natives_wichita_territory:wichita_falls	natives_wichita_territory	Wichita Falls	1	settlement
 settlement:netherlands:amsterdam	netherlands	Amsterdam	5	settlement
 settlement:new_andalusia:caracas	new_andalusia	Caracas	4	settlement
+settlement:new_andalusia:caracas_natives	new_andalusia	Caracas	3	settlement
 settlement:new_england:boston	new_england	Boston	4	settlement
 settlement:new_england:boston_ep2	new_england	Boston	1	settlement
+settlement:new_england:boston_natives	new_england	Boston	3	settlement
 settlement:new_france:quebec	new_france	Québec	4	settlement
 settlement:new_france:quebec_ep2	new_france	Québec	1	settlement
+settlement:new_france:quebec_natives	new_france	Québec	3	settlement
 settlement:new_grenada:bogota	new_grenada	Bogotá	1	settlement
 settlement:new_mexico:santa_fe	new_mexico	Santa Fe	1	settlement
 settlement:new_spain:mexico	new_spain	México	4	settlement
+settlement:new_spain:mexico_natives	new_spain	Mexico	3	settlement
 settlement:new_york:albany	new_york	Albany	1	settlement
 settlement:newfoundland:plaissance	newfoundland	Plaissance	1	settlement
 settlement:northwest_territories:york_factory	northwest_territories	York Factory	1	settlement
@@ -107,6 +128,7 @@ settlement:palestine:jerusalem	palestine	Jerusalem	4	settlement
 settlement:panama:panama	panama	Panama	1	settlement
 settlement:pennsylvania:ep_1_philadelphia	pennsylvania	Philadelphia	1	settlement
 settlement:pennsylvania:philadelphia	pennsylvania	Philadelphia	5	settlement
+settlement:pennsylvania:philadelphia_natives	pennsylvania	Philadelphia	3	settlement
 settlement:persia:isfahan	persia	Isfahan	4	settlement
 settlement:poland:warsaw	poland	Warsaw	5	settlement
 settlement:portugal:lisbon	portugal	Lisbon	5	settlement

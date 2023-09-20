@@ -184,7 +184,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 -1404252623	3104_Campaign_Advice_AI_Build_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
 -1396032595	0711_ep_1_recruit_unit_2	1	1	Campaign	Episodic	1	5	1	false	0	false	false	none			false	false	n
 -1395907252	1138_Campaign_Advice_Warning_Population_Thread	1	1	Campaign	Warnings	Population	0	3	false	1	false	true	region			false	false	n
--1394403499	1104_Campaign_Advice_Undeveloped_Port_Thread	1	1	Campaign	Warnings	Construction	0	5	false	1	true	true	port			false	false	n
+-1394403499	1104_Campaign_Advice_Undeveloped_Port_Thread	1	5	Campaign	Warnings	Construction	0	5	false	1	true	true	port			false	false	n
 -1393935809	1043_Campaign_Advice_UI_Incoming_Message_Thread	1	1	Campaign	UI	Messages	1	0	false	1	true	false	none			false	false	n
 -1393667973	5057_Campaign_Advice_AI_Train_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
 -1391273521	5099_Campaign_Advice_AI_Train_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
@@ -332,7 +332,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 -800903493	5177_Campaign_Advice_AI_Train_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
 -800664924	3099_Campaign_Advice_AI_Build_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
 -799812495	BattlePlayerAlliancePercentageOfUnitCategoryTest2	1	1	Battle	Triggers	Test	1	0	false	0	false	false	none			false	false	n
--796134496	5242_Campaign_Advice_AI_Train_Question_Thread	1	1	Campaign	scotland	Help	0	0	false	0	false	true	region_slot			false	false	n
+-796134496	5242_Campaign_Advice_AI_Train_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
 -795357910	1119_Campaign_Advice_Warning_Rebellion_Thread	2	2	Campaign	Warnings	Rebellions	0	1	false	1	true	true	region			false	false	n
 -789730792	3001_Campaign_Advice_AI_Build_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
 -788769149	0024_Battle_Advice_Outflanking_With_Cavalry_Thread	1	1	Battle	Units	Tactics	1	0	false	2	true	false	none			true	false	n
@@ -478,7 +478,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 -253383613	5233_Campaign_Advice_AI_Train_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
 -251728467	4033_Campaign_Advice_AI_Research_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	false	none			false	false	n
 -250658412	1030c_Campaign_Advice_UI_Government_Panel_Thread	1	1	Campaign	UI	Panels	1	0	false	1	false	false	none			false	false	n
--245999870	1107_Campaign_Advice_Unexploited_Resources_Thread	1	1	Campaign	Warnings	Construction	0	5	false	1	true	true	region_slot			false	false	n
+-245999870	1107_Campaign_Advice_Unexploited_Resources_Thread	1	5	Campaign	Warnings	Construction	0	5	false	1	true	true	region_slot			false	false	n
 -245662021	0028_Battle_Advice_Wavy_Line_Formation_Thread	1	1	Battle	Units	Formations	1	0	false	1	true	false	none			false	false	n
 -245512357	5088_Campaign_Advice_AI_Train_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
 -241052794	1022a_Campaign_Advice_UI_Set_Taxes_Slider_Thread	1	1	Campaign	UI	Sliders	1	0	false	1	false	false	none			false	false	n
@@ -746,7 +746,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 606296587	1149_Campaign_Advice_Port_Blockaded_Thread	1	1	Campaign	Features	Blockades	0	1	false	1	false	true	port			false	false	n
 609688460	0007_Battle_Advice_Enemy_Defending_Hill_Thread	1	1	Battle	Units	Tactics	1	4	false	3	true	false	none			false	false	n
 617123496	3232_Campaign_Advice_AI_Build_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
-623214987	1106_Campaign_Advice_Undeveloped_Town_Thread	1	1	Campaign	Warnings	Construction	0	5	false	1	true	true	region_slot			false	false	n
+623214987	1106_Campaign_Advice_Undeveloped_Town_Thread	1	5	Campaign	Warnings	Construction	0	5	false	1	true	true	region_slot			false	false	n
 626830877	3062_Campaign_Advice_AI_Build_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
 632989552	1109_Campaign_Advice_Fog_Of_War_Thread	1	1	Campaign	Features	Map	1	0	false	2	true	false	none			false	false	n
 634014501	0125_Battle_Advice_Explosive_Shells_Thread	1	1	Battle	Units	Ammo	1	0	false	2	false	false	none			false	false	n
@@ -916,7 +916,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1218573903	4054_Campaign_Advice_AI_Research_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	false	none			false	false	n
 1218698799	1065_Campaign_Advice_Character_Selected_Thread	7	30	Campaign	Characters	Commanders	1	0	false	2	false	false	none			false	false	n
 1218788185	1123_Campaign_Advice_Warning_Upkeep_Thread	1	1	Campaign	Warnings	Upkeep	0	2	false	1	false	false	none			false	false	n
-1219045742	1136_Campaign_Advice_Religious_Unrest_Thread	1	1	Campaign	Warnings	Unrest	0	3	false	1	false	true	region			false	false	n
+1219045742	1136_Campaign_Advice_Religious_Unrest_Thread	1	5	Campaign	Warnings	Unrest	0	3	false	1	false	true	region			false	false	n
 1219131308	1160_Campaign_Advice_Trade_Export_Thread	1	1	Campaign	Features	Trade	1	0	false	2	false	false	none			false	false	n
 1219221623	1162_Campaign_Advice_Trade_Export_Thread	1	1	Campaign	Features	Trade	0	1	false	1	false	true	region			false	false	n
 1219304988	1180_Campaign_Advice_Town_Region_Wealth_Thread	1	1	Campaign	Features	Economics	1	2	false	2	false	false	none			false	false	n
@@ -1002,7 +1002,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1350353173	BattleIsLandConflictTest	1	1	Battle	Triggers	Test	1	0	false	0	false	false	none			false	false	n
 1351695450	1140_Campaign_Advice_Warning_Population_Thread	1	1	Campaign	Warnings	Population	1	0	false	1	false	true	region			false	false	n
 1353749380	0725_ep_2_intro	1	1	Campaign	Episodic	1	100	1	false	0	false	false	none			false	false	n
-1355955492	1103_Campaign_Advice_Undeveloped_Farm_Thread	1	1	Campaign	Warnings	Construction	0	5	false	1	true	true	region_slot			false	false	n
+1355955492	1103_Campaign_Advice_Undeveloped_Farm_Thread	1	5	Campaign	Warnings	Construction	0	5	false	1	true	true	region_slot			false	false	n
 1370295055	3004_Campaign_Advice_AI_Build_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
 1371055155	4019_Campaign_Advice_AI_Research_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	false	none			false	false	n
 1372607332	1065_Campaign_Advice_Character_Selected_Thread	3	10	Campaign	UI	Panels	1	0	false	2	false	false	none			false	false	n
@@ -1015,7 +1015,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1394332445	5094_Campaign_Advice_AI_Train_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
 1452525359	5005_Campaign_Advice_AI_Train_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
 1460900428	5214_Campaign_Advice_AI_Train_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
-1461811186	1105_Campaign_Advice_Undeveloped_Plantation_Thread	1	1	Campaign	Warnings	Construction	0	5	false	1	true	true	region_slot			false	false	n
+1461811186	1105_Campaign_Advice_Undeveloped_Plantation_Thread	1	5	Campaign	Warnings	Construction	0	5	false	1	true	true	region_slot			false	false	n
 1465760677	0041_Battle_Advice_Cavalry_Against_Camels_Thread	1	1	Battle	Units	Tactics	1	0	false	1	true	false	none			false	false	n
 1466024127	5140_Campaign_Advice_AI_Train_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
 1466490438	4053_Campaign_Advice_AI_Research_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	false	none			false	false	n
@@ -1136,7 +1136,7 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 1980304136	4066_Campaign_Advice_AI_Research_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	false	none			false	false	n
 1983380657	0207_Battle_Advice_Walls_Breached_Thread	1	1	Battle	Siege	Attack	1	0	false	1	true	false	none			false	false	n
 1984061365	3038_Campaign_Advice_AI_Build_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
-1987386455	1137_Campaign_Advice_Religious_Unrest_Thread	1	1	Campaign	Warnings	Unrest	0	3	false	1	false	true	region			false	false	n
+1987386455	1137_Campaign_Advice_Religious_Unrest_Thread	1	5	Campaign	Warnings	Unrest	0	3	false	1	false	true	region			false	false	n
 1987391655	3138_Campaign_Advice_AI_Build_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
 1992286837	1024_Campaign_Advice_UI_Lists_Panel_Thread	1	1	Campaign	UI	Panels	1	0	false	1	false	false	none			false	false	n
 1992453825	0219_Battle_Advice_Bayonet_Charge_Thread	1	1	Battle	Units	Tactics	1	0	false	1	true	false	none			false	false	n
@@ -1171,3 +1171,12 @@ key	advice_thread	advice_thread_level	points_needed	game_area	category	sub_categ
 2136403367	3044_Campaign_Advice_AI_Build_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
 2138689119	0749_ep_2_build_dockyard	1	1	Campaign	Episodic	2	5	1	false	0	false	false	none			false	false	n
 2139657651	3126_Campaign_Advice_AI_Build_Question_Thread	1	1	Campaign	AI	Help	0	0	false	0	false	true	region_slot			false	false	n
+-1082576296	2003_Campaign_Advice_Pueblo_Initial_Turn_Thread	1	1	Campaign	Factions	Initial	0	0	false	0	false	false	none			false	false	n
+-764348444	2007_Campaign_Advice_Shaman_Agent_Thread	1	1	Campaign	Factions	Initial	1	0	false	1	false	false	none			false	false	n
+-605605398	1079a_Campaign_Advice_Right_Click_Details_Thread	3	8	Campaign	UI	Panels	1	0	false	1	true	false	none			false	false	n
+24097043	2002_Campaign_Advice_Huron_Initial_Turn_Thread	1	1	Campaign	Factions	Initial	0	0	false	0	false	false	none			false	false	n
+95924303	2006_Campaign_Advice_Scout_Agent_Thread	1	1	Campaign	Characters	Agents	1	0	false	1	false	false	none			false	false	n
+1248354970	2001_Campaign_Advice_Iroquois_Initial_Turn_Thread	1	1	Campaign	Factions	Initial	0	0	false	0	false	false	none			false	false	n
+1248877904	2008_Campaign_Advice_Pioneer_Buildings_Thread	1	1	Campaign	Slots	Pioneer	1	0	false	1	false	false	none			false	false	n
+1343471686	2005_Campaign_Advice_Cherokee_Initial_Turn_Thread	1	1	Campaign	Factions	Initial	0	0	false	0	false	false	none			false	false	n
+1770580345	2004_Campaign_Advice_Plains_Initial_Turn_Thread	1	1	Campaign	Factions	Initial	0	0	false	0	false	false	none			false	false	n

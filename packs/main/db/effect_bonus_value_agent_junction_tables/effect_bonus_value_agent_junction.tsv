@@ -40,3 +40,7 @@ agent_spawn_rate_mod_missionary	spawn_rate_mod	orthodox_missionary
 agent_spawn_rate_mod_missionary	spawn_rate_mod	Protestant_Missionary
 agent_spawn_rate_mod_rake	spawn_rate_mod	rake
 agent_spawn_rate_rake	spawn_rate	rake
+agent_cap_scout	cap	scout
+agent_cap_shaman	cap	shaman
+agent_spawn_rate_scout	spawn_rate	scout
+agent_spawn_rate_shaman	spawn_rate	shaman

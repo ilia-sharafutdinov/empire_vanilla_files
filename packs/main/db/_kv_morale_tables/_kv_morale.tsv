@@ -15,8 +15,8 @@ extended_casualties_penalty_80	-15.0000
 fear_effect_range	50.0000
 fighting_cavalry	-4.0000
 morale_base	0.0000
-recent_casualties_penalty_10	-3.0000
-recent_casualties_penalty_15	-6.0000
+recent_casualties_penalty_10	-4.0000
+recent_casualties_penalty_15	-7.0000
 recent_casualties_penalty_33	-10.0000
 recent_casualties_penalty_50	-15.0000
 recent_casualties_penalty_6	-1.0000

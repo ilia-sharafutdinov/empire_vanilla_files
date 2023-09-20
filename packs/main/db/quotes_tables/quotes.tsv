@@ -93,7 +93,7 @@ key	quote_person_onscreen	quote_person_key	unknown
 92	If soldiers were to begin to think, not one of them would remain in the army.	frederick_the_great	
 93	A defensive war is apt to betray us into too frequent detachment. Those generals who have had but little experience attempt to protect every point,\n\nwhile those who are better acquainted with their profession, having only the capital object in view, guard against a decisive blow, and acquiesce in small misfortunes to avoid greater.	frederick_the_great	
 94	We are made for action, and activity is the sovereign remedy for all physical ills.	frederick_the_great	
-95	The Empress Catherine and I are simple robbers. I just would like to know how the Empress Maria-Theresa\n\ncalmed down her father confessor? She cried when she took; the more she cried, the more she took!?	frederick_the_great	
+95	The Empress Catherine and I are simple robbers.\n\nI just would like to know how the Empress Maria-Theresa calmed down her father confessor?\n\nShe cried when she took; the more she cried, the more she took!?	frederick_the_great	
 96	The most beautiful girl or woman in the world would be a matter of indifference to me,\n\nbut tall soldiers - they are my weakness.	frederick_william_1	
 97	No, not quite naked. I shall have my uniform on.	frederick_william_2	
 98	He who fights with monsters might take care lest he thereby become a monster.\n\nAnd if you gaze for long into an abyss, the abyss gazes also into you.	friedrich_nietsche	
@@ -269,3 +269,37 @@ key	quote_person_onscreen	quote_person_key	unknown
 276	Louis XVI of France: "Is it a revolt?" A Duke of France: "No, Sir, it's a revolution."	louis_XVI_2	
 277	There are so few who can grow old with a good grace.	richard_steele	
 278	No one can guarantee success in war, but only deserve it.	winston_churchill	
+279	When the white man discovered this country Indians were running it. No taxes no debt, women did all the work.\n\nWhite man thought he could improve on a system like this?	old_cherokee_saying	tribal_playable
+280	Grown men can learn from very little children, for the hearts of the little children are pure.\n\nTherefore, the Great Spirit may show to them many things which older people miss.	black_elk	tribal_playable
+281	A very great vision is needed and the man who has it must follow it as the eagle seeks the deepest blue of the sky.	crazy_horse	tribal_playable
+282	I am tired of fighting...from where the sun now stands, I will fight no more.	chief_joseph	tribal_playable
+283	The Great Spirit Chief who rules above all will smile upon this land…and this time the Indian race is waiting and praying.	chief_joseph	tribal_playable
+284	Treat the earth well. It was not given to you by your parents, it was loaned to you by your children.	native_proverb	tribal_playable
+285	All things share the same breath - the beast, the tree, the man, the air shares its spirit with all the life it supports.	chief_seattle	tribal_playable
+286	When a white army battles Indians and wins, it is called a great victory, but if they lose it is called a massacre.	chiksika_shawnee	tribal_playable
+287	We are now about to take our leave and kind farewell to our native land, the country the Great Spirit gave our Fathers, we are on the eve of leaving that country that gave us birth,\n\nit is with sorrow we are forced by the white man to quit the scenes of our childhood...we bid farewell to it and all we hold dear.	charles_hicks	tribal_playable
+288	One does not sell the land people walk on.	crazy_horse	tribal_playable
+289	What is life? It is the flash of a firefly in the night. It is the breath of a buffalo in the wintertime.\n\nIt is the little shadow which runs across the grass and loses itself in the sunset.	crowfoot	tribal_playable
+290	I have seen that in any great undertaking it is not enough for a man to depend simply upon himself.	lone_man	tribal_playable
+291	How smooth must be the language of the whites,\n\nwhen they can make right look like wrong, and wrong like right.	black_hawk	tribal_playable
+292	We know our lands have now become more valuable. The white people think we do not know their value;\n\nbut we know that the land is everlasting, and the few goods we receive for it are soon worn out and gone.	canassatego	tribal_playable
+293	When it comes time to die, be not like those whose hearts are filled with the fear of death,\n\nso when their time comes they weep and pray for a little more time to live their lives\n\nover again in a different way. Sing your death song, and die like a hero going home.	chief_aupumut	tribal_playable
+294	When the Earth is sick, the animals will begin to disappear. When that happens, the Warriors of the Rainbow will come to save them.	chief_seattle	tribal_playable
+295	I am a red man. If the Great Spirit had desired me to be a white man he would have made me so in the first place.	sitting_bull	tribal_playable
+296	There is no death. Only a change of worlds.	native_proverb	tribal_playable
+297	At some time there shall come among you a stranger, speaking a language you do not understand.\n\nHe will try to buy the land from you, but do not sell it; keep it for an inheritance to your children.	aseenewub	tribal_playable
+298	It's our stuff. We made it and we know best how to use it and care for it. And now we're going to get it back.	john_pretty	tribal_playable
+299	Where today are the Pequot? Where are the Narragansett, the Mohican, the Pokanoket, and many other once powerful tribes of our people? They have vanished before the avarice and the oppression of the White Man, as snow before a summer sun.	chief_tecumseh_shawnee	tribal_playable
+300	The ground on which we stand is sacred ground. It is the blood of our ancestors.	chief_plenty_coups	tribal_playable
+301	I will follow the white man's trail. I will make him my friend, but I will not bend my back to his burdens. I will be cunning as a coyote.\n\nI will ask him to help me understand his ways, then I will prepare the way for my children, and their children.\n\nThe Great Spirit has shown me - a day will come when they will outrun the white man in his own shoes.	many_horses	tribal_playable
+302	Will we let ourselves be destroyed in our turn without a struggle, give up our homes, our country bequeathed to us by the Great Spirit,\n\nthe graves of our dead and everything that is dear and sacred to us? I know you will cry with me, 'Never! Never!'	chief_tecumseh_shawnee	tribal_playable
+303	It is better to have less thunder in the mouth and more lightning in the hand.	apache_proverb	tribal_playable
+304	Those that lie down with dogs, get up with fleas.	blackfoot_proverb	tribal_playable
+305	Those who have one foot in the canoe and one foot in the boat are going to fall into the river.	tuscarora_proverb	tribal_playable
+306	Force, no matter how concealed, begets resistance.	lakota_proverb	tribal_playable
+307	You can't wake a person who is pretending to be asleep.	navajo_proverb	tribal_playable
+308	He who would do great things should not attempt them all alone.	seneca_proverb	tribal_playable
+309	A brave man dies but once, a coward many times.	unknown_tribe	tribal_playable
+310	Seek wisdom, not knowledge. Knowledge is of the past, Wisdom is of the future.	lumbee_proverb	tribal_playable
+311	White men have too many chiefs.	nex_perce_saying	tribal_playable
+313	What treaty have the Sioux made with the white man that we have broken? Not one.\n\nWhat treaty have the white man ever made with us that they have kept? Not one.	sitting_bull	tribal_playable

@@ -28,3 +28,10 @@ rake	can_assassinate	1
 rake	can_receive_duel	1
 rake	can_sabotage	1
 rake	can_spy	1
+scout	can_assassinate	1
+scout	can_sabotage	1
+scout	can_sabotage_army	1
+scout	can_spy	1
+shaman	can_convert	1
+shaman	can_research	1
+shaman	can_spy	1

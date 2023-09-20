@@ -1,18 +1,20 @@
 key	move_points	line_of_sight	zone_of_control	playable	animation_set	portrait_override	is_spawnable	primary_attribute	religion	faction_total_cap
 #agents_tables;0;db/agents_tables/agents										
 admiral	90	25	20	true	ship	General	false	command_sea		0
-assassin	25	17	0	true	human		true	subterfuge		12
+assassin	25	17	0	true	human		true	subterfuge		9
 bandit	26	25	10	false	human		false	command_land		0
 captain	90	20	15	true	ship		false	command_sea		0
 catholic_missionary	24	10	0	true	human	missionary_catholic	true	zeal	rel_catholic	12
 colonel	25	10	10	true	human		false	command_land		0
-Eastern_Scholar	25	10	0	true	human	scholar	true	research		12
+Eastern_Scholar	25	10	0	true	human	scholar	true	research		6
 General	26	15	15	true	human		false	command_land		0
-gentleman	25	10	0	true	human	minister	true	research		12
+gentleman	25	10	0	true	human	minister	true	research		6
 indian_missionary	24	10	0	true	human	Brahmin	true	zeal	rel_hindu	12
 middle_east_missionary	24	10	0	true	human	imam	true	zeal	rel_islamic	12
 minister	0	0	0	false	human		false	management		0
 orthodox_missionary	24	10	0	true	human	missionary_orthodox	true	zeal	rel_orthodox	12
 pirate	90	25	10	true	ship		false	command_sea		0
 Protestant_Missionary	24	10	0	true	human	missionary_protestant	true	zeal	rel_protestant	12
-rake	25	17	0	true	human		true	subterfuge		12
+rake	25	17	0	true	human		true	subterfuge		9
+scout	25	17	0	true	human	general	true	subterfuge		9
+shaman	24	10	0	true	human	general	true	zeal	rel_animist	12

@@ -9,5 +9,9 @@ sc_indian_hindu	indian	9	Indian
 sc_indian_islamic	indian	8	Ottoman
 sc_indian_sikh	indian	13	Indian
 sc_mideast_islamic	middle_east	7	Ottoman
+sc_PIR_european	PIR_european	1346006955	American
+sc_PIR_natives	PIR_natives	200354257	Native
+sc_PIR_pirates	PIR_pirates	1851343632	American
 sc_tribal_american	tribal	5	Native
+sc_tribal_playable	tribal_playable	1241531657	Native
 sc_tribal_steppe	tribal	11	Native

@@ -98,6 +98,21 @@ local m_starting_configuration =	{
 											["Settlement_override"]	= { },
 											["Building_override"]	= { }
 										},							 
+										["natives"] =
+										{
+											["Features"]			= { "use_regular_advice" },
+											["Hidden"]				= { "radar arrow L", "radar arrow R", "globe"},
+											["Disabled"]			= { },
+											["Building"]			= { },
+											["Unit"]				= { },
+											["Intro_movie"]			= "",
+											["Battlefield"]			= { },
+											["Exclusion_zone"]		= { },
+											["Visibility_trigger"]	= { },
+											["Location_trigger"]	= { },
+											["Settlement_override"]	= { },
+											["Building_override"]	= { }
+										},		
 									}							 
 									  
 --------------------------------------------------------------------------------------------------------------------
@@ -387,6 +402,14 @@ local m_features = {
 		["Disable"] = function()	end
 		},
 
+	["Hide_taxes_and_ministers_on_government_screen"] = {
+		["Enable"] = function()
+			UIComponent(m_root:Find("tab_taxes")):SetVisible(false)
+			UIComponent(m_root:Find("tab_ministers")):SetVisible(false)
+		end,
+		["Disable"] = function()	end
+		},
+
 	["Hide_arrows_on_government_screen"] = {
 		["Enable"] = function()
 			UIComponent(m_root:Find("info_box")):SetVisible(false)
@@ -402,6 +425,14 @@ local m_features = {
 			UIComponent(m_root:Find("Public order panel layout")):SetVisible(false)
 			UIComponent(m_root:Find("tax_panel")):SetVisible(false)
 			UIComponent(m_root:Find("tx_turns_until...")):SetVisible(false)
+		end,
+		["Disable"] = function()	end
+		},
+		
+	["Hide_tax_on_region_details"] = {
+		["Enable"] = function()
+			HideComponent("taxes_checkbox")
+			HideComponent("button_taxes")
 		end,
 		["Disable"] = function()	end
 		},
@@ -445,6 +476,14 @@ local m_features = {
 		end,
 		["Disable"] = function()	end
 		},
+		
+	["Hide_prestige_on_mission_panel"] = {
+		["Enable"] = function()
+			UIComponent(m_root:Find("tab_prestige")):SetVisible(false)
+			UIComponent(m_root:Find("tab_prestige")):SetDisabled(true)
+		end,
+		["Disable"] = function()	end
+		},
 
 	["unlockable_natives"] = {
 		["Enable"] = function()
@@ -475,6 +514,21 @@ local m_features = {
 			UIComponent(m_root:Find("button_end_turn")):SetVisible(true)
 		end
 		},
+		
+	["Hide_fleet_on_list_panel"] = {
+		["Enable"] = function()
+			UIComponent(m_root:Find("fleets")):SetVisible(false)
+			UIComponent(m_root:Find("fleets")):SetDisabled(true)
+		end,
+		["Disable"] = function()	end
+		},
+
+	["use_regular_advice"] = {
+		["Enable"] = function()		end,
+		["Disable"] = function()
+			effect.suspend_contextual_advice(false)
+		end
+		}
 	}
 
 local function OnNewSession(context)

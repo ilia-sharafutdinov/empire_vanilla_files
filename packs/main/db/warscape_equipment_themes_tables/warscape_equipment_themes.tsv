@@ -32,6 +32,7 @@ native_american_warrior	euro_tomahawk	euro_knife
 x_africa_musket	east_musket				
 x_africa_pitchfork	pitchfork				
 x_africa_spear_shield	pitchfork		east_shield		
+x_camel_sword_pistol	pistol	east_cavalry_sabre		east_infantry_equipment	
 x_east_axe	east_handaxe			east_infantry_equipment	
 x_east_bow_knife	bow_east	euro_knife		archer_equipment	
 x_east_camelry_sabre		east_cavalry_sabre		east_infantry_equipment	
@@ -90,7 +91,7 @@ x_natam_axe	euro_tomahawk
 x_natam_bow_axe	bow_default	euro_tomahawk		archer_equipment	
 x_natam_cavalry_axe	euro_tomahawk				
 x_natam_cavalry_lance	lance				
-x_natam_cavalry_musket_axe	euro_musket	euro_tomahawk			
+x_natam_cavalry_musket_axe	euro_carbine	euro_tomahawk			
 x_natam_musket	euro_musket				
 x_natam_musket_axe	euro_musket	euro_tomahawk			
 x_natam_pitchfork	pitchfork				
@@ -99,4 +100,4 @@ x_natam_throwingaxe_axe	euro_tomahawk
 x_pr_custom_pistol_only	pistol				
 x_pr_custom_spear_only	euro_spear				
 x_sword_pistol_only	east_sword	pistol			
-x_camel_sword_pistol	pistol	east_cavalry_sabre		east_infantry_equipment	
+x_natam_cavalry_bow_axe	bow_horse	euro_tomahawk			

@@ -47,3 +47,14 @@ tribal_village_longhouse	agent_cap_assassin	1.0000
 tribal_village_longhouse	agent_cap_rake	1.0000
 university	agent_cap_eastern_scholar	1.0000
 university	agent_cap_gentleman	1.0000
+tribal_playable_drill_grounds	agent_cap_scout	1.0000
+tribal_playable_gunsmith	agent_cap_scout	1.0000
+tribal_playable_horse_breeder	agent_cap_scout	1.0000
+tribal_playable_hunting_grounds	agent_cap_scout	1.0000
+tribal_playable_practice_fields	agent_cap_scout	1.0000
+tribal_playable_warrior_lodge	agent_cap_scout	1.0000
+tribal_playable_ancestral_ground	agent_cap_shaman	1.0000
+tribal_playable_burial_ground	agent_cap_shaman	1.0000
+tribal_playable_holy_ground	agent_cap_shaman	1.0000
+tribal_playable_shamanic_gateway	agent_cap_shaman	1.0000
+tribal_playable_spiritual_circle	agent_cap_shaman	1.0000

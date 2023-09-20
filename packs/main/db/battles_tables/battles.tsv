@@ -6,7 +6,7 @@ alpine_pass	classic	false	BattleTerrain/Presets/alpine_pass/			1	1	true	true	tru
 alsace	classic	false	BattleTerrain/Presets/alsace/			4	4	false	true	true
 anatolia	classic	false	BattleTerrain/Presets/anatolia/			1	1	true	true	true
 arctic	naval	true	BattleTerrain/Presets/arctic/			4	4	true	true	false
-battle_of_blenheim	historic	false	data/testdata/world/Balanced_Land_Battle.xml			1	1	false	false	false
+battle_of_blenheim	classic	false	BattleTerrain/Presets/afghan_mountains/			2	2	false	false	false
 battle_of_brandywine_creek	historic	false	data/scenarios/Battle_of_Brandywine.xml	data/scenarios/Battle_of_Brandywine.tga		1	1	true	false	true
 battle_of_cowpens	historic	false	data/scenarios/Battle_of_Cowpens.xml	data/scenarios/Battle_of_Cowpens.tga		1	1	false	false	false
 battle_of_culloden	historic	false	data/scenarios/Battle_of_Culloden.xml			1	1	false	false	false
@@ -68,3 +68,23 @@ trafalgar	naval	true	BattleTerrain/Presets/trafalgar/			1	1	true	true	true
 virginia	classic	false	BattleTerrain/Presets/virginia/			1	1	false	true	true
 western_artillery_fort	siege	false	BattleTerrain/Presets/western_artillery_fort/			1	1	true	true	true
 wooden_fort	siege	false	BattleTerrain/Presets/wooden_fort/			1	1	true	true	true
+MP_Grassy_Flatlands_1v1	classic	false	BattleTerrain/Presets/P6_MP_Grassy_Flatlands/			1	1	true	true	true
+MP_Homestead_1v1	classic	false	BattleTerrain/Presets/P6_MP_Homestead/			1	1	true	true	true
+MP_Icelandic_Pinnacles_1v1	classic	false	BattleTerrain/Presets/P6_MP_Icelandic_Pinnacles/			1	1	true	true	true
+MP_Siberian_Plateau_1v1	classic	false	BattleTerrain/Presets/P6_MP_Siberian_Plateau/			1	1	true	true	true
+MP_Syrian_Ridge_1v1	classic	false	BattleTerrain/Presets/P6_MP_Syrian_Ridge/			1	1	true	true	true
+MP_Grassy_Flatlands_2v2	classic	false	BattleTerrain/Presets/P6_MP_Grassy_Flatlands/			2	2	true	true	true
+MP_Grassy_Flatlands_3v3	classic	false	BattleTerrain/Presets/P6_MP_Grassy_Flatlands/			3	3	true	true	true
+MP_Grassy_Flatlands_4v4	classic	false	BattleTerrain/Presets/P6_MP_Grassy_Flatlands/			4	4	true	true	true
+MP_Homestead_2v2	classic	false	BattleTerrain/Presets/P6_MP_Homestead/			2	2	true	true	true
+MP_Homestead_3v3	classic	false	BattleTerrain/Presets/P6_MP_Homestead/			3	3	true	true	true
+MP_Homestead_4v4	classic	false	BattleTerrain/Presets/P6_MP_Homestead/			4	4	true	true	true
+MP_Icelandic_Pinnacles_2v2	classic	false	BattleTerrain/Presets/P6_MP_Icelandic_Pinnacles/			2	2	true	true	true
+MP_Icelandic_Pinnacles_3v3	classic	false	BattleTerrain/Presets/P6_MP_Icelandic_Pinnacles/			3	3	true	true	true
+MP_Icelandic_Pinnacles_4v4	classic	false	BattleTerrain/Presets/P6_MP_Icelandic_Pinnacles/			4	4	true	true	true
+MP_Siberian_Plateau_2v2	classic	false	BattleTerrain/Presets/P6_MP_Siberian_Plateau/			2	2	true	true	true
+MP_Siberian_Plateau_3v3	classic	false	BattleTerrain/Presets/P6_MP_Siberian_Plateau/			3	3	true	true	true
+MP_Siberian_Plateau_4v4	classic	false	BattleTerrain/Presets/P6_MP_Siberian_Plateau/			4	4	true	true	true
+MP_Syrian_Ridge_2v2	classic	false	BattleTerrain/Presets/P6_MP_Syrian_Ridge/			2	2	true	true	true
+MP_Syrian_Ridge_3v3	classic	false	BattleTerrain/Presets/P6_MP_Syrian_Ridge/			3	3	true	true	true
+MP_Syrian_Ridge_4v4	classic	false	BattleTerrain/Presets/P6_MP_Syrian_Ridge/			4	4	true	true	true

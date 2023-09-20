@@ -147,6 +147,7 @@ UnitTurnEnd = {}
 VictoryConditionFailed = {}
 VictoryConditionMet = {}
 WorldCreated = {}
+ArmySabotageAttemptSuccess = {}
 MissionCheckAssassination = {}
 MissionEvaluateAssassination = {}
 MissionCheckBlockadePort = {}

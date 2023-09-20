@@ -1,0 +1,4 @@
+Marker name: EQUIPMENT_RATTLE
+Position: 7 s 501 ms
+Type: Generic
+

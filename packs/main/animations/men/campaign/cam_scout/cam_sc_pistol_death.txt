@@ -1,0 +1,12 @@
+Marker name: Footstep_walk
+Position: 1 s 210 ms
+Type: Generic
+
+Marker name: Bodyfall_light
+Position: 3 s 133 ms
+Type: Generic
+
+Marker name: Bodyfall_heavy
+Position: 4 s 643 ms
+Type: Generic
+

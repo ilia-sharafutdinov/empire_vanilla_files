@@ -1,9 +1,8 @@
 campaign_difficulty_handicap	human	effect	effect_value
 #campaign_difficulty_handicap_effects_tables;0;db/campaign_difficulty_handicap_effects_tables/campaign_difficulty_handicap_effects			
--2	true	happy_clamour_for_reform_all_classes	-2.0000
+-2	true	happy_clamour_for_reform_all_classes	-1.0000
 -2	true	policing_cost_mod	30.0000
 -2	true	research_rate_mod	-12.0000
--1	true	happy_clamour_for_reform_all_classes	-1.0000
 -1	true	policing_cost_mod	15.0000
 -1	true	recruitment_cost_mod_land_all	-10.0000
 -1	true	research_rate_mod	-5.0000

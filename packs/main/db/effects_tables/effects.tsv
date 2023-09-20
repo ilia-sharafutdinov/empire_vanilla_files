@@ -66,7 +66,7 @@ conversion_nonconformist	data/ui/campaign ui/pips/nonconformism.tga	604
 conversion_orthodox	data/ui/campaign ui/pips/orthodox.tga	603
 conversion_protestant	data/ui/campaign ui/pips/protestant.tga	602
 conversion_sikh	data/ui/campaign ui/pips/sikh.tga	601
-diplomacy_bonus_faction_leader		2
+diplomacy_bonus_faction_leader	data/ui/campaign ui/pips/international-relations-happy.tga	2
 disband_cashback	data/ui/campaign ui/pips/effect_economy.tga	0
 education_happy_mod	data/ui/campaign ui/pips/effect_public_order.tga	1
 enable_airguns	data/ui/campaign ui/pips/effect_tech.tga	0
@@ -327,3 +327,16 @@ Xtw_growth	data/ui/campaign ui/pips/effect_economy.tga	0
 zeal_america		111
 zeal_europe		112
 zeal_india		113
+agent_cap_scout	data/ui/campaign ui/pips/effect_characters.tga	115
+agent_cap_shaman	data/ui/campaign ui/pips/effect_characters.tga	116
+agent_spawn_rate_scout	data/ui/campaign ui/pips/effect_characters.tga	0
+agent_spawn_rate_shaman	data/ui/campaign ui/pips/effect_characters.tga	0
+conversion_resistance_against_non_state_religion	data/ui/campaign ui/pips/effect_zeal.tga	610
+enable_cold_resistance	data/ui/campaign ui/pips/effect_army.tga	2
+enable_sniping_for_all	data/ui/campaign ui/pips/effect_army.tga	2
+gdp_mod_fisheries	data/ui/campaign ui/pips/effect_economy.tga	921
+mod_commodity_fur_production	data/ui/campaign ui/pips/effect_economy.tga	408
+mod_generals_line_of_sight	data/ui/campaign ui/pips/effect_tech.tga	1
+mod_marksmanship_all	data/ui/campaign ui/pips/effect_army.tga	2
+native_gunpowder_cost_mod	data/ui/campaign ui/pips/effect_tech.tga	2013
+reveal_los_army_and_settlement_contents	data/ui/campaign ui/pips/effect_tech.tga	1

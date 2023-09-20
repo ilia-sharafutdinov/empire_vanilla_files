@@ -20,6 +20,7 @@ corn:acadia:nova_scotia	acadia	corn	0
 corn:algonquin_territory:lake	algonquin_territory	corn	0	
 corn:carolinas:coast	carolinas	corn	0	
 corn:carolinas:east	carolinas	corn	0	
+corn:cherokee_territory:natives_only	cherokee_territory	corn	0	
 corn:cherokee_territory:north	cherokee_territory	corn	0	
 corn:cuba:west	cuba	corn	0	
 corn:florida:north	florida	corn	0	
@@ -31,6 +32,19 @@ corn:kaintuck_territory:north	kaintuck_territory	corn	0
 corn:lower_louisiana:river	lower_louisiana	corn	0	
 corn:michigan_territory:north	michigan_territory	corn	0	
 corn:michigan_territory:south	michigan_territory	corn	0	
+corn:natives_algonquin_territory:lake	natives_algonquin_territory	corn	0	
+corn:natives_apache_territory:mesa	natives_apache_territory	corn	0	
+corn:natives_black_hills:central	natives_black_hills	corn	0	
+corn:natives_cheyenne_territory:one	natives_cheyenne_territory	corn	0	
+corn:natives_chickasaw_territory:north	natives_chickasaw_territory	corn	0	
+corn:natives_chihuahua:rio_grande	natives_chihuahua	corn	0	
+corn:natives_michigan_territory:north	natives_michigan_territory	corn	0	
+corn:natives_michigan_territory:south	natives_michigan_territory	corn	0	
+corn:natives_ohio_territory:central	natives_ohio_territory	corn	0	
+corn:natives_ruperts_land:south	natives_ruperts_land	corn	0	
+corn:natives_sioux_territory:main	natives_sioux_territory	corn	0	
+corn:natives_u_louisiana:south	natives_u_louisiana	corn	0	
+corn:natives_wichita_territory:main	natives_wichita_territory	corn	0	
 corn:new_andalusia:coast	new_andalusia	corn	0	
 corn:new_england:cape_cod	new_england	corn	0	
 corn:new_france:south_river	new_france	corn	0	
@@ -60,6 +74,13 @@ fur:huron_territory:north	huron_territory	fur	0
 fur:iroquois_territory:st_lawrence	iroquois_territory	fur	0	
 fur:karelia:south	karelia	fur	0	
 fur:labrador:coastcentral	labrador	fur	0	
+fur:natives_algonquin_territory:almostisland	natives_algonquin_territory	fur	0	
+fur:natives_black_hills:lake_manitoba	natives_black_hills	fur	0	
+fur:natives_huron_territory:north	natives_huron_territory	fur	0	
+fur:natives_labrador:coastcentral	natives_labrador	fur	0	
+fur:natives_nw_territory:east	natives_nw_territory	fur	0	
+fur:natives_ruperts_land:albany_river	natives_ruperts_land	fur	0	
+fur:natives_ruperts_land:east	natives_ruperts_land	fur	0	
 fur:new_england:south	new_england	fur	0	
 fur:new_france:central	new_france	fur	0	
 fur:new_york:north	new_york	fur	0	
@@ -80,6 +101,8 @@ gold:dutch_guyana:central	dutch_guyana	gold	0
 gold:french_guyana:south	french_guyana	gold	0	
 gold:huron_territory:west	huron_territory	gold	0	
 gold:mysore:bangalore	mysore	gold	0	
+gold:natives_cheyenne_territory:rockies	natives_cheyenne_territory	gold	0	
+gold:natives_huron_territory:west	natives_huron_territory	gold	0	
 gold:new_grenada:medellin	new_grenada	gold	0	
 gold:new_grenada:south	new_grenada	gold	0	
 gold:new_spain:west	new_spain	gold	0	
@@ -117,6 +140,7 @@ iron:maine:north	maine	iron	0
 iron:moldavia:carpatians	moldavia	iron	0	
 iron:morocco:imini	morocco	iron	0	
 iron:muscovy:bryansk	muscovy	iron	0	
+iron:natives_indiana_territory:green_bay	natives_indiana_territory	iron	0	
 iron:new_france:south	new_france	iron	0	
 iron:new_york:north	new_york	iron	0	
 iron:norway:mo_i_randa	norway	iron	0	
@@ -194,6 +218,7 @@ sheep:tatariya:rasskasovo	tatariya	sheep	0
 sheep:west_pommerania:berlin	west_pommerania	sheep	0	
 silver:acadia:central	acadia	silver	0	
 silver:guatemala:central	guatemala	silver	0	
+silver:natives_chihuahua:south	natives_chihuahua	silver	0	
 silver:new_grenada:medellin	new_grenada	silver	0	
 silver:new_spain:central_east	new_spain	silver	0	
 silver:new_spain:northwest	new_spain	silver	0	
@@ -206,6 +231,10 @@ southern_usa:florida:north	florida	southern_usa	0
 southern_usa:georgia_usa:central	georgia_usa	southern_usa	0	
 southern_usa:kaintuck_territory:central	kaintuck_territory	southern_usa	0	
 southern_usa:lower_louisiana:riversouth	lower_louisiana	southern_usa	0	
+southern_usa:natives_apache_territory:big_bend	natives_apache_territory	southern_usa	0	
+southern_usa:natives_chickasaw_territory:south	natives_chickasaw_territory	southern_usa	0	
+southern_usa:natives_u_louisiana:ohio	natives_u_louisiana	corn	0	
+southern_usa:natives_wichita_territory:main	natives_wichita_territory	southern_usa	0	
 southern_usa:new_mexico:south	new_mexico	southern_usa	0	
 southern_usa:new_spain:rio_grande	new_spain	southern_usa	0	
 southern_usa:tejas:west	tejas	southern_usa	0	

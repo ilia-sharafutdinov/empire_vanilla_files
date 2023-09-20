@@ -3,4 +3,8 @@ key	index	fallback_ui_culture
 european	1	
 indian	5	middle_east
 middle_east	2	indian
+PIR_european	1239187140	european
+PIR_natives	-1238887790	european
+PIR_pirates	-223977355	european
 tribal	3	european
+tribal_playable	1241515181	tribal

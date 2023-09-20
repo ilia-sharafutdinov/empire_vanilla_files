@@ -3,6 +3,7 @@ event
 AdviceDismissed
 AdviceIssued
 AdviceSuperseded
+ArmySabotageAttemptSuccess
 AssassinationAttemptSuccess
 BattleCommandingShipRouts
 BattleCommandingUnitRouts
@@ -24,6 +25,7 @@ BattleUnitRouts
 BattleUnitUsingBuilding
 BattleUnitUsingWall
 BuildingCardSelected
+BuildingCompleted
 BuildingConstructionIssuedByPlayer
 BuildingInfoPanelOpenedCampaign
 CameraMoverFinished
@@ -31,6 +33,7 @@ CampaignArmiesMerge
 CampaignBuildingDamaged
 CampaignSettlementAttacked
 CampaignSlotAttacked
+CharacterAttacksAlly
 CharacterCompletedBattle
 CharacterCreated
 CharacterDamagedByDisaster
@@ -47,6 +50,7 @@ EspionageAgentApprehended
 EventMessageOpenedBattle
 EventMessageOpenedCampaign
 FactionGovernmentTypeChanged
+FactionRoundStart
 FactionTurnEnd
 FactionTurnStart
 FortSelected
@@ -101,8 +105,12 @@ PanelOpenedBattle
 PanelOpenedCampaign
 PreBattle
 RecruitmentItemIssuedByPlayer
+RegionIssuesDemands
+RegionRebels
+RegionRiots
 RegionTurnEnd
 RegionTurnStart
+ResearchCompleted
 SabotageAttemptSuccess
 SavingGame
 SeaTradeRouteRaided
@@ -130,11 +138,6 @@ UnitCreated
 UnitSelectedCampaign
 UnitTrained
 UnitTurnEnd
-ResearchCompleted
-BuildingCompleted
-FactionRoundStart
-CharacterAttacksAlly
+VictoryConditionFailed
+VictoryConditionMet
 WorldCreated
-RegionIssuesDemands
-RegionRiots
-RegionRebels

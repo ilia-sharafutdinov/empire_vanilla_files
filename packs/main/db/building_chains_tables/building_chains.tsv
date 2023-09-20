@@ -37,11 +37,33 @@ sugar			money
 tea			money
 timber			money
 tobacco			money
-tribal_barracks			military
+tribal_barracks	industry	1	military
 tribal_corn			agriculture
-tribal_culture			happiness
-tribal_government			government
+tribal_culture	industry	0	happiness
+tribal_government	industry	2	government
 tribal_happiness			happiness
 tribal_wheat			agriculture
 wheat	industry	0	agriculture
 wine			agriculture
+tribal			
+tribal_playable_barracks	tribal	1	military
+tribal_playable_coffee			
+tribal_playable_corn			
+tribal_playable_cotton			
+tribal_playable_culture	tribal	0	happiness
+tribal_playable_furs			money
+tribal_playable_gems			
+tribal_playable_gold			
+tribal_playable_government	tribal	2	government
+tribal_playable_happiness			happiness
+tribal_playable_industry_metal			money
+tribal_playable_industry_textile			money
+tribal_playable_iron			
+tribal_playable_pioneer			money
+tribal_playable_port-fish			agriculture
+tribal_playable_prospector			money
+tribal_playable_sheep			
+tribal_playable_silver			
+tribal_playable_sugar			
+tribal_playable_tobacco			
+tribal_playable_wheat			

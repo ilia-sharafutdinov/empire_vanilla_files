@@ -57,3 +57,7 @@ your_faction_revolution_republic_royalist	european	51	EUR_Mon_Rev_Start.bik
 your_faction_revolution_republic_royalist	middle_east	52	OTT_IND_Mon_Rev_Start.bik
 your_faction_revolution_republicans_win_all	european	53	EUR_Rep_Rev_Win.bik
 your_faction_revolution_republicans_win_all	middle_east	54	OTT_IND_Rep_Rev_Win.bik
+game_lost_natives	tribal_playable	62	native_lose.bik
+game_victory_constitutional_monachy	tribal_playable	63	Native_win.bik
+game_victory_republic	tribal_playable	64	Native_win.bik
+game_victory_absolute_monachy	tribal_playable	65	Native_win.bik

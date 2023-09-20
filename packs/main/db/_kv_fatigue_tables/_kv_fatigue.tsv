@@ -1,7 +1,7 @@
 key	value
 #_kv_fatigue_tables;0;db/_kv_fatigue_tables/_kv_fatigue	
 charging	16.0000
-combat	10.0000
+combat	12.0000
 fatigue_resistant_delta	-1.0000
 gradient_shallow	5.0000
 gradient_shallow_movement_multiplier	133.0000
@@ -19,7 +19,7 @@ reloading	8.0000
 reloading_artillery	10.0000
 running	8.0000
 running_artillery_horse	6.0000
-running_cavalry	1.0000
+running_cavalry	2.0000
 running_cavalry_light	1.0000
 shooting	8.0000
 threshold_active	1800.0000

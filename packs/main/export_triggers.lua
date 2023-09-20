@@ -25,6 +25,7 @@ events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
 	if conditions.CharacterType("admiral", context) and conditions.CharacterWasAttacker(context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
 		effect.trait("C_Admiral_Attacker_Good", "agent", 1, 50, context)
+		effect.trait("C_Admiral_Attacker_Good", "agent", 2, 17, context)
 		return true
 	end
 	return false
@@ -94,7 +95,7 @@ events.CharacterPromoted[#events.CharacterPromoted+1] =
 function (context)
 	if conditions.CharacterType("admiral", context) and conditions.CharacterFactionName("britain", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context)  and conditions.CharacterFactionAdmiralCount(context) <= 15 then
 		effect.trait("C_Admiral_British_Drakes_Drum", "agent", 1, 33, context)
-		effect.trait("C_Admiral_British_Drakes_Drum", "agent", 1, 33, context)
+		effect.trait("C_Admiral_Attacker_Bad", "agent", 1, 33, context)
 		effect.trait("C_Admiral_British_Drakes_Drum", "agent", 1, 33, context)
 		return true
 	end
@@ -455,7 +456,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.NoActionThisTurn(context) and conditions.InSettlement(context) and not conditions.CharacterType("catholic_missionary", context) and not conditions.CharacterType("indian_missionary", context) and not conditions.CharacterType("middle_east_missionary", context) and not conditions.CharacterType("orthodox_missionary", context) and not conditions.CharacterType("Protestant_Missionary", context) and not conditions.CharacterType("minister", context) and not conditions.CharacterType("colonel", context) and not conditions.CharacterType("captain", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.NoActionThisTurn(context) and conditions.InSettlement(context) and not conditions.CharacterType("catholic_missionary", context) and not conditions.CharacterType("indian_missionary", context) and not conditions.CharacterType("middle_east_missionary", context) and not conditions.CharacterType("orthodox_missionary", context) and not conditions.CharacterType("Protestant_Missionary", context) and not conditions.CharacterType("minister", context) and not conditions.CharacterType("colonel", context) and not conditions.CharacterType("captain", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Feck_Vice", "agent", 1, 1, context)
 		return true
 	end
@@ -466,7 +467,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.NoActionThisTurn(context) and conditions.InSettlement(context) and conditions.CharacterType("minister", context) and conditions.CharacterTrait("C_Personal_Piety", context) <= 1 and conditions.CharacterHoldsPost(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.NoActionThisTurn(context) and conditions.InSettlement(context) and conditions.CharacterType("minister", context) and conditions.CharacterTrait("C_Personal_Piety", context) <= 1 and conditions.CharacterHoldsPost(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Feck_Vice", "agent", 1, 1, context)
 		return true
 	end
@@ -477,7 +478,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CampaignBattleType("land_ambush", context) and conditions.CharacterWasAttacker(context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CampaignBattleType("land_ambush", context) and conditions.CharacterWasAttacker(context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Ambusher_Bad", "agent", 1, 17, context)
 		return true
 	end
@@ -488,7 +489,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CampaignBattleType("land_ambush", context) and conditions.CharacterWasAttacker(context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CampaignBattleType("land_ambush", context) and conditions.CharacterWasAttacker(context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Ambush_Good", "agent", 1, 50, context)
 		return true
 	end
@@ -499,7 +500,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterInTheatre(1, context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterInTheatre(1, context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Americas_Bad", "agent", 1, 17, context)
 		return true
 	end
@@ -510,7 +511,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterInTheatre(1, context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterInTheatre(1, context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Americas_Good", "agent", 1, 33, context)
 		return true
 	end
@@ -521,7 +522,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterWasAttacker(context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterWasAttacker(context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Attacker_Bad", "agent", 1, 17, context)
 		return true
 	end
@@ -532,7 +533,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterWasAttacker(context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterWasAttacker(context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Attacker_Good", "agent", 1, 50, context)
 		return true
 	end
@@ -569,7 +570,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CampaignBattleType("normal", context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CampaignBattleType("normal", context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Bad_Field_Commander", "agent", 1, 17, context)
 		return true
 	end
@@ -580,7 +581,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and conditions.CampaignPercentageOfOwnKilled(context) > 40 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and conditions.CampaignPercentageOfOwnKilled(context) > 40 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Bloody", "agent", 1, 33, context)
 		return true
 	end
@@ -591,7 +592,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CommanderFoughtInBattle(context) and not conditions.CharacterRouted(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CommanderFoughtInBattle(context) and not conditions.CharacterRouted(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Brave", "agent", 1, 33, context)
 		return true
 	end
@@ -602,7 +603,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterRouted(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterRouted(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Coward", "agent", 1, 17, context)
 		return true
 	end
@@ -613,7 +614,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) <= 15 and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Slacker", "agent", 2, 17, context)
 		effect.trait("C_General_Good_Field_Commander", "agent", 2, 17, context)
 		effect.trait("C_General_Born_Soldier", "agent", 1, 33, context)
@@ -631,7 +632,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) > 15 then
+	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) > 15 and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Drunkard", "agent", 2, 33, context)
 		effect.trait("C_General_Born_Soldier", "agent", 1, 17, context)
 		effect.trait("C_General_Martinet", "agent", 2, 17, context)
@@ -648,7 +649,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) > 15 and conditions.FactionLeadersTrait("C_Leader_Favourites", context) >= 1 then
+	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) > 15 and conditions.FactionLeadersTrait("C_Leader_Favourites", context) >= 1 and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Bad_Field_Commander", "agent", 3, 50, context)
 		effect.trait("C_General_Bad_Field_Commander", "agent", 4, 50, context)
 		return true
@@ -684,7 +685,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterWasAttacker(context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and not conditions.CharacterWasAttacker(context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Defender_Bad", "agent", 1, 17, context)
 		return true
 	end
@@ -695,7 +696,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterWasAttacker(context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and not conditions.CharacterWasAttacker(context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Defender_Good", "agent", 1, 50, context)
 		return true
 	end
@@ -706,7 +707,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.NoActionThisTurn(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("middle_east", context) and not conditions.CharacterFactionName("mughal", context) then
+	if conditions.CharacterType("General", context) and conditions.NoActionThisTurn(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("middle_east", context) and not conditions.CharacterFactionName("mughal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Drunkard", "agent", 1, 4, context)
 		return true
 	end
@@ -743,7 +744,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CampaignBattleType("normal", context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CampaignBattleType("normal", context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Good_Field_Commander", "agent", 1, 50, context)
 		return true
 	end
@@ -754,7 +755,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterInTheatre(3, context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterInTheatre(3, context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_India_Bad", "agent", 1, 17, context)
 		return true
 	end
@@ -765,7 +766,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterInTheatre(3, context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterInTheatre(3, context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_India_Good", "agent", 1, 33, context)
 		return true
 	end
@@ -776,7 +777,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterWonBattle(context) and (conditions.BattleResult("crushing_defeat", context) or conditions.CampaignPercentageOfOwnRouted(context) >= 50 or conditions.CampaignPercentageOfOwnKilled(context) >= 50 or conditions.CampaignPercentageOfOwnCaptured(context) >= 30) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and not conditions.CharacterWonBattle(context) and (conditions.BattleResult("crushing_defeat", context) or conditions.CampaignPercentageOfOwnRouted(context) >= 50 or conditions.CampaignPercentageOfOwnKilled(context) >= 50 or conditions.CampaignPercentageOfOwnCaptured(context) >= 30) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Lampooned", "agent", 1, 17, context)
 		return true
 	end
@@ -787,7 +788,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterTurnsInEnemyLands(context) > 15 and conditions.BattlesFought(5, context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterTurnsInEnemyLands(context) > 15 and conditions.BattlesFought(5, context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Mad", "agent", 1, 4, context)
 		return true
 	end
@@ -824,7 +825,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and conditions.CampaignPercentageOfUnitCategory("artillery", context) >= 40 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and conditions.CampaignPercentageOfUnitCategory("artillery", context) >= 40 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_of_Artillery", "agent", 1, 50, context)
 		return true
 	end
@@ -835,7 +836,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and conditions.CampaignPercentageOfUnitCategory("cavalry", context) >= 40 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and conditions.CampaignPercentageOfUnitCategory("cavalry", context) >= 40 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_of_Cavalry", "agent", 1, 50, context)
 		return true
 	end
@@ -846,7 +847,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and conditions.CampaignPercentageOfUnitCategory("infantry", context) >= 40 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and conditions.CampaignPercentageOfUnitCategory("infantry", context) >= 40 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_of_Infantry", "agent", 1, 50, context)
 		return true
 	end
@@ -883,7 +884,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and (conditions.BattleResult("heroic_victory", context) or conditions.CampaignPercentageOfThemRouted(context) >= 50 or conditions.CampaignPercentageOfThemKilled(context) >= 50 or conditions.CampaignPercentageOfThemCaptured(context) >= 30) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and (conditions.BattleResult("heroic_victory", context) or conditions.CampaignPercentageOfThemRouted(context) >= 50 or conditions.CampaignPercentageOfThemKilled(context) >= 50 or conditions.CampaignPercentageOfThemCaptured(context) >= 30) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Press_Hero", "agent", 1, 33, context)
 		return true
 	end
@@ -894,7 +895,7 @@ end
 
 events.CharacterPromoted[#events.CharacterPromoted+1] =
 function (context)
-	if conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+	if conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) <= 15 and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Merit", "agent", 1, 8, context)
 		return true
 	end
@@ -905,7 +906,7 @@ end
 
 events.CharacterPromoted[#events.CharacterPromoted+1] =
 function (context)
-	if conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) > 15 then
+	if conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) > 15 and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Favourites", "agent", 1, 17, context)
 		return true
 	end
@@ -916,7 +917,7 @@ end
 
 events.CharacterPromoted[#events.CharacterPromoted+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) <= 15 and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Coward", "agent", 1, 17, context)
 		effect.trait("C_General_Brave", "agent", 1, 17, context)
 		effect.trait("C_General_Ambush_Good", "agent", 1, 3, context)
@@ -940,7 +941,7 @@ end
 
 events.CharacterPromoted[#events.CharacterPromoted+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) <= 15 and conditions.FactionLeadersTrait("C_Leader_Merit", context) >= 1 then
+	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) <= 15 and conditions.FactionLeadersTrait("C_Leader_Merit", context) >= 1 and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Good_Field_Commander", "agent", 1, 33, context)
 		return true
 	end
@@ -951,7 +952,7 @@ end
 
 events.CharacterPromoted[#events.CharacterPromoted+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) > 15 then
+	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) > 15 and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Martinet", "agent", 4, 17, context)
 		effect.trait("C_General_Mad", "agent", 1, 17, context)
 		effect.trait("C_General_Martinet", "agent", 1, 33, context)
@@ -969,7 +970,7 @@ end
 
 events.CharacterPromoted[#events.CharacterPromoted+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) > 15 and conditions.FactionLeadersTrait("C_Leader_Favourites", context) >= 1 then
+	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterFactionGeneralCount(context) > 15 and conditions.FactionLeadersTrait("C_Leader_Favourites", context) >= 1 and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Bad_Field_Commander", "agent", 3, 33, context)
 		effect.trait("C_General_Bad_Field_Commander", "agent", 4, 33, context)
 		return true
@@ -1057,7 +1058,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and conditions.CharacterMPPercentageRemaining(context) <= 5 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and conditions.CharacterMPPercentageRemaining(context) <= 5 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Scout", "agent", 1, 17, context)
 		return true
 	end
@@ -1068,7 +1069,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and (conditions.CampaignBattleType("fort_standard", context) or conditions.CampaignBattleType("fort_relief", context) or conditions.CampaignBattleType("fort_sally", context) or conditions.CampaignBattleType("settlement_standard", context) or conditions.CampaignBattleType("settlement_relief", context) or conditions.CampaignBattleType("settlement_sally", context)) and conditions.CharacterWasAttacker(context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and (conditions.CampaignBattleType("fort_standard", context) or conditions.CampaignBattleType("fort_relief", context) or conditions.CampaignBattleType("fort_sally", context) or conditions.CampaignBattleType("settlement_standard", context) or conditions.CampaignBattleType("settlement_relief", context) or conditions.CampaignBattleType("settlement_sally", context)) and conditions.CharacterWasAttacker(context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Siege_Attack_Bad", "agent", 1, 17, context)
 		return true
 	end
@@ -1079,7 +1080,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and (conditions.CampaignBattleType("fort_standard", context) or conditions.CampaignBattleType("fort_relief", context) or conditions.CampaignBattleType("fort_sally", context) or conditions.CampaignBattleType("settlement_standard", context) or conditions.CampaignBattleType("settlement_relief", context) or conditions.CampaignBattleType("settlement_sally", context)) and conditions.CharacterWasAttacker(context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and (conditions.CampaignBattleType("fort_standard", context) or conditions.CampaignBattleType("fort_relief", context) or conditions.CampaignBattleType("fort_sally", context) or conditions.CampaignBattleType("settlement_standard", context) or conditions.CampaignBattleType("settlement_relief", context) or conditions.CampaignBattleType("settlement_sally", context)) and conditions.CharacterWasAttacker(context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Siege_Attack_Good", "agent", 1, 50, context)
 		return true
 	end
@@ -1090,7 +1091,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and (conditions.CampaignBattleType("fort_standard", context) or conditions.CampaignBattleType("fort_relief", context) or conditions.CampaignBattleType("fort_sally", context) or conditions.CampaignBattleType("settlement_standard", context) or conditions.CampaignBattleType("settlement_relief", context) or conditions.CampaignBattleType("settlement_sally", context)) and not conditions.CharacterWasAttacker(context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and (conditions.CampaignBattleType("fort_standard", context) or conditions.CampaignBattleType("fort_relief", context) or conditions.CampaignBattleType("fort_sally", context) or conditions.CampaignBattleType("settlement_standard", context) or conditions.CampaignBattleType("settlement_relief", context) or conditions.CampaignBattleType("settlement_sally", context)) and not conditions.CharacterWasAttacker(context) and not conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Siege_Defend_Bad", "agent", 1, 33, context)
 		return true
 	end
@@ -1101,7 +1102,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and (conditions.CampaignBattleType("fort_standard", context) or conditions.CampaignBattleType("fort_relief", context) or conditions.CampaignBattleType("fort_sally", context) or conditions.CampaignBattleType("settlement_standard", context) or conditions.CampaignBattleType("settlement_relief", context) or conditions.CampaignBattleType("settlement_sally", context)) and not conditions.CharacterWasAttacker(context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and (conditions.CampaignBattleType("fort_standard", context) or conditions.CampaignBattleType("fort_relief", context) or conditions.CampaignBattleType("fort_sally", context) or conditions.CampaignBattleType("settlement_standard", context) or conditions.CampaignBattleType("settlement_relief", context) or conditions.CampaignBattleType("settlement_sally", context)) and not conditions.CharacterWasAttacker(context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_General_Siege_Defend_Good", "agent", 1, 33, context)
 		return true
 	end
@@ -1190,7 +1191,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal", context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
 		effect.trait("C_General_Warlord", "agent", 2, 20, context)
 		effect.trait("C_General_Warlord", "agent", 2, 10, context)
 		effect.trait("C_General_Warlord", "agent", 2, 10, context)
@@ -1421,7 +1422,7 @@ end
 
 events.SufferSpyingAttempt[#events.SufferSpyingAttempt+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Agent_99", "agent", 1, 17, context)
 		return true
 	end
@@ -1432,7 +1433,7 @@ end
 
 events.BuildingCompleted[#events.BuildingCompleted+1] =
 function (context)
-	if (conditions.IsBuildingInChain("army-admin", context) or conditions.IsBuildingInChain("ordnance", context)) and conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("indian", context) then
+	if (conditions.IsBuildingInChain("army-admin", context) or conditions.IsBuildingInChain("ordnance", context)) and conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("indian", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Army_Buff", "agent", 1, 17, context)
 		return true
 	end
@@ -1443,7 +1444,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) then
+	if conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Clever_Stick", "agent", 1, 17, context)
 		effect.trait("C_Leader_Foreign_Tastes", "agent", 1, 17, context)
 		effect.trait("C_Leader_Intellectual_Pretensions", "agent", 1, 8, context)
@@ -1486,7 +1487,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.IsFactionLeaderFemale(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) then
+	if conditions.IsFactionLeaderFemale(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Natural_King", "agent", 1, 33, context)
 		effect.trait("C_Leader_Natural_King", "agent", 1, 17, context)
 		effect.trait("C_Leader_Mad", "agent", 2, 8, context)
@@ -1500,7 +1501,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.FactionGovernmentType("gov_republic", context) then
+	if conditions.IsFactionLeader(context) and not conditions.IsFactionLeaderFemale(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.FactionGovernmentType("gov_republic", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Foreign_Tastes", "agent", 1, 8, context)
 		effect.trait("C_Leader_Debauched", "agent", 1, 17, context)
 		effect.trait("C_Leader_Uncouth", "agent", 1, 17, context)
@@ -1533,7 +1534,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("royal_heir", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) and conditions.FactionLeadersTrait("C_Leader_Inbred", context) == 1 then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("royal_heir", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) and conditions.FactionLeadersTrait("C_Leader_Inbred", context) == 1 and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Inbred", "agent", 1, 5, context)
 		return true
 	end
@@ -1544,7 +1545,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("royal_heir", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) and conditions.FactionLeadersTrait("C_Leader_Inbred", context) == 1 then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("royal_heir", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) and conditions.FactionLeadersTrait("C_Leader_Inbred", context) == 1 and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Inbred", "agent", 1, 33, context)
 		return true
 	end
@@ -1555,7 +1556,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("royal_heir", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) and conditions.FactionLeadersTrait("C_Leader_Inbred", context) == 2 then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("royal_heir", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) and conditions.FactionLeadersTrait("C_Leader_Inbred", context) == 2 and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Inbred", "agent", 2, 17, context)
 		effect.trait("C_Leader_Inbred", "agent", 1, 100, context)
 		return true
@@ -1567,7 +1568,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("royal_heir", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) and conditions.FactionLeadersTrait("C_Leader_Inbred", context) == 3 then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("royal_heir", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) and conditions.FactionLeadersTrait("C_Leader_Inbred", context) == 3 and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Inbred", "agent", 3, 100, context)
 		effect.trait("C_Leader_Inbred", "agent", 4, 17, context)
 		return true
@@ -1579,7 +1580,7 @@ end
 
 events.ResearchCompleted[#events.ResearchCompleted+1] =
 function (context)
-	if (conditions.ResearchCategory("enlightenment", context) or conditions.ResearchCategory("industry", context)) and conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if (conditions.ResearchCategory("enlightenment", context) or conditions.ResearchCategory("industry", context)) and conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Enlightened_Despot", "agent", 1, 17, context)
 		return true
 	end
@@ -1590,7 +1591,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and not conditions.IsFactionLeaderFemale(context) and conditions.InsurrectionCrushed(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and not conditions.IsFactionLeaderFemale(context) and conditions.InsurrectionCrushed(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Harsh_Ruler", "agent", 1, 4, context)
 		return true
 	end
@@ -1601,7 +1602,7 @@ end
 
 events.BuildingCompleted[#events.BuildingCompleted+1] =
 function (context)
-	if conditions.IsBuildingInChain("education", context) and conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.IsBuildingInChain("education", context) and conditions.IsFactionLeader(context) and not conditions.IsFactionLeaderFemale(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Intellectual_Pretensions", "agent", 1, 4, context)
 		return true
 	end
@@ -1612,7 +1613,7 @@ end
 
 events.SpyingAttemptSuccess[#events.SpyingAttemptSuccess+1] =
 function (context)
-	if conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.IsFactionLeader(context) and not conditions.IsFactionLeaderFemale(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_M", "agent", 1, 17, context)
 		return true
 	end
@@ -1623,7 +1624,7 @@ end
 
 events.BuildingCompleted[#events.BuildingCompleted+1] =
 function (context)
-	if (conditions.IsBuildingInChain("navy-admin", context) or conditions.IsBuildingInChain("ordnance", context)) and conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if (conditions.IsBuildingInChain("navy-admin", context) or conditions.IsBuildingInChain("ordnance", context)) and conditions.IsFactionLeader(context) and not conditions.IsFactionLeaderFemale(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Navy_Buff", "agent", 1, 17, context)
 		return true
 	end
@@ -1634,7 +1635,7 @@ end
 
 events.BuildingCompleted[#events.BuildingCompleted+1] =
 function (context)
-	if conditions.IsBuildingInChain("education", context) and conditions.IsFactionLeader(context) and not conditions.CharacterTrait("C_Leader_Intellectual_Pretensions", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.IsBuildingInChain("education", context) and conditions.IsFactionLeader(context) and not conditions.IsFactionLeaderFemale(context) and not conditions.CharacterTrait("C_Leader_Intellectual_Pretensions", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Philistine", "agent", 1, 17, context)
 		return true
 	end
@@ -1645,7 +1646,7 @@ end
 
 events.CharacterPromoted[#events.CharacterPromoted+1] =
 function (context)
-	if conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) then
+	if conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Foreign_Tastes", "agent", 1, 8, context)
 		effect.trait("C_Leader_Witty", "agent", 1, 17, context)
 		effect.trait("C_Leader_Clever_Stick", "agent", 1, 8, context)
@@ -1678,7 +1679,7 @@ end
 
 events.CharacterPromoted[#events.CharacterPromoted+1] =
 function (context)
-	if conditions.IsFactionLeaderFemale(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) then
+	if conditions.IsFactionLeaderFemale(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.FactionGovernmentType("gov_republic", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Leader_Natural_King", "agent", 1, 17, context)
 		effect.trait("C_Leader_Natural_King", "agent", 1, 33, context)
 		effect.trait("C_Leader_Mad", "agent", 1, 8, context)
@@ -1691,7 +1692,7 @@ end
 
 events.BuildingCompleted[#events.BuildingCompleted+1] =
 function (context)
-	if conditions.FactionLeadersTrait("C_Leader_Army_Buff", context) >= 1 and conditions.IsBuildingInChain("army-admin", context) and conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("army", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.FactionLeadersTrait("C_Leader_Army_Buff", context) >= 1 and conditions.IsBuildingInChain("army-admin", context) and conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("army", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Army_Good", "agent", 1, 8, context)
 		return true
 	end
@@ -1702,7 +1703,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("army", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("army", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Army_Good", "agent", 1, 1, context)
 		return true
 	end
@@ -1713,7 +1714,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterHoldsPost(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.FactionTreasuryWorldPercentage(context) > 5 then
+	if conditions.CharacterType("minister", context) and conditions.CharacterHoldsPost(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.FactionTreasuryWorldPercentage(context) > 5 and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Corrupt", "agent", 1, 1, context)
 		return true
 	end
@@ -1724,7 +1725,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and not conditions.IsFactionLeaderFemale(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Industrialist", "agent", 2, 17, context)
 		effect.trait("C_Minister_Upright", "agent", 2, 17, context)
 		effect.trait("C_Minister_Navy_Good", "agent", 2, 17, context)
@@ -1751,7 +1752,7 @@ end
 
 events.BuildingCompleted[#events.BuildingCompleted+1] =
 function (context)
-	if (conditions.IsBuildingInChain("happiness", context) or conditions.IsBuildingInChain("culture", context)) and conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("head_of_government", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if (conditions.IsBuildingInChain("happiness", context) or conditions.IsBuildingInChain("culture", context)) and conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("head_of_government", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Entertainer", "agent", 1, 17, context)
 		return true
 	end
@@ -1762,7 +1763,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("finance", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("finance", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Trader", "agent", 1, 1, context)
 		effect.trait("C_Minister_Fiscal_Genius", "agent", 1, 1, context)
 		return true
@@ -1774,7 +1775,7 @@ end
 
 events.ResearchCompleted[#events.ResearchCompleted+1] =
 function (context)
-	if (conditions.ResearchType("enlightenment_joint_stock_companies", context) or conditions.ResearchType("enlightenment_free_trade_doctrine", context) or conditions.ResearchType("enlightenment_abolition_of_slavery", context) or conditions.ResearchType("enlightenment_national_debt", context) or conditions.ResearchType("enlightenment_division_of_labour", context) or conditions.ResearchType("enlightenment_wealth_of_nations", context)) and conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("finance", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if (conditions.ResearchType("enlightenment_joint_stock_companies", context) or conditions.ResearchType("enlightenment_free_trade_doctrine", context) or conditions.ResearchType("enlightenment_abolition_of_slavery", context) or conditions.ResearchType("enlightenment_national_debt", context) or conditions.ResearchType("enlightenment_division_of_labour", context) or conditions.ResearchType("enlightenment_wealth_of_nations", context)) and conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("finance", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Fiscal_Genius", "agent", 1, 5, context)
 		return true
 	end
@@ -1785,7 +1786,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("head_of_government", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("head_of_government", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Corrupt", "agent", 1, 1, context)
 		effect.trait("C_Minister_Unjust", "agent", 1, 1, context)
 		effect.trait("C_Minister_Reactionary", "agent", 1, 1, context)
@@ -1800,7 +1801,7 @@ end
 
 events.BuildingCompleted[#events.BuildingCompleted+1] =
 function (context)
-	if (conditions.IsBuildingInChain("industry-metal", context) or conditions.IsBuildingInChain("industry-pottery", context) or conditions.IsBuildingInChain("industry-textile", context)) and conditions.CharacterType("minister", context) and not conditions.CharacterCultureType("middle_east", context) and not conditions.CharacterCultureType("indian", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if (conditions.IsBuildingInChain("industry-metal", context) or conditions.IsBuildingInChain("industry-pottery", context) or conditions.IsBuildingInChain("industry-textile", context)) and conditions.CharacterType("minister", context) and not conditions.CharacterCultureType("middle_east", context) and not conditions.CharacterCultureType("indian", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Industrialist", "agent", 1, 8, context)
 		return true
 	end
@@ -1811,7 +1812,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Upright", "agent", 1, 1, context)
 		effect.trait("C_Minister_Unjust", "agent", 1, 1, context)
 		return true
@@ -1823,7 +1824,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("finance", context) and conditions.PercentageUnspentIncome(context) >= 50 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("finance", context) and conditions.PercentageUnspentIncome(context) >= 50 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Miser", "agent", 1, 1, context)
 		return true
 	end
@@ -1834,7 +1835,7 @@ end
 
 events.BuildingCompleted[#events.BuildingCompleted+1] =
 function (context)
-	if conditions.IsBuildingInChain("navy-admin", context) and conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("navy", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.IsBuildingInChain("navy-admin", context) and conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("navy", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Navy_Good", "agent", 1, 8, context)
 		return true
 	end
@@ -1845,7 +1846,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("navy", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("navy", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Navy_Good", "agent", 1, 1, context)
 		return true
 	end
@@ -1856,7 +1857,7 @@ end
 
 events.ResearchCompleted[#events.ResearchCompleted+1] =
 function (context)
-	if (conditions.ResearchType("industry_agriculture_advanced_irrigation", context) or conditions.ResearchType("industry_agriculture_common_land_enclosures", context) or conditions.ResearchType("industry_agriculture_four_field_crop_rotation", context) or conditions.ResearchType("industry_agriculture_improved_animal_husbandry", context) or conditions.ResearchType("industry_agriculture_seed_planting_drill", context) or conditions.ResearchType("industry_agriculture_selective_breeding", context) or conditions.ResearchType("industry_agriculture_steam-pumped_land_drainage", context) or conditions.ResearchType("industry_agriculture_threshing_machine", context)) and conditions.CharacterType("minister", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterHoldsPost(context) and conditions.CharacterIsLocalCampaign(context) then
+	if (conditions.ResearchType("industry_agriculture_advanced_irrigation", context) or conditions.ResearchType("industry_agriculture_common_land_enclosures", context) or conditions.ResearchType("industry_agriculture_four_field_crop_rotation", context) or conditions.ResearchType("industry_agriculture_improved_animal_husbandry", context) or conditions.ResearchType("industry_agriculture_seed_planting_drill", context) or conditions.ResearchType("industry_agriculture_selective_breeding", context) or conditions.ResearchType("industry_agriculture_steam-pumped_land_drainage", context) or conditions.ResearchType("industry_agriculture_threshing_machine", context)) and conditions.CharacterType("minister", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterHoldsPost(context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Physiocrat", "agent", 1, 8, context)
 		return true
 	end
@@ -1867,7 +1868,7 @@ end
 
 events.ResearchCompleted[#events.ResearchCompleted+1] =
 function (context)
-	if (conditions.ResearchType("enlightenment_joint_stock_companies", context) or conditions.ResearchType("enlightenment_free_trade_doctrine", context) or conditions.ResearchType("enlightenment_abolition_of_slavery", context) or conditions.ResearchType("enlightenment_national_debt", context) or conditions.ResearchType("enlightenment_division_of_labour", context) or conditions.ResearchType("enlightenment_wealth_of_nations", context)) and conditions.CharacterType("minister", context) and conditions.CharacterHoldsPost(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if (conditions.ResearchType("enlightenment_joint_stock_companies", context) or conditions.ResearchType("enlightenment_free_trade_doctrine", context) or conditions.ResearchType("enlightenment_abolition_of_slavery", context) or conditions.ResearchType("enlightenment_national_debt", context) or conditions.ResearchType("enlightenment_division_of_labour", context) or conditions.ResearchType("enlightenment_wealth_of_nations", context)) and conditions.CharacterType("minister", context) and conditions.CharacterHoldsPost(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Trader", "agent", 1, 8, context)
 		return true
 	end
@@ -1878,7 +1879,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and conditions.InsurrectionCrushed(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and conditions.InsurrectionCrushed(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Minister_Unjust", "agent", 1, 1, context)
 		effect.trait("C_Minister_Unjust", "agent", 1, 1, context)
 		return true
@@ -1981,7 +1982,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if not conditions.CharacterType("minister", context) and not conditions.CharacterType("colonel", context) and not conditions.CharacterType("captain", context) and not conditions.InSettlement(context) and not conditions.NoActionThisTurn(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if not conditions.CharacterType("minister", context) and not conditions.CharacterType("colonel", context) and not conditions.CharacterType("captain", context) and not conditions.InSettlement(context) and not conditions.NoActionThisTurn(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Personal_Hale", "agent", 1, 2, context)
 		return true
 	end
@@ -1992,7 +1993,7 @@ end
 
 events.SufferAssassinationAttempt[#events.SufferAssassinationAttempt+1] =
 function (context)
-	if not conditions.CharacterType("minister", context) and not conditions.CharacterType("rake", context) and not conditions.CharacterType("assassin", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if not conditions.CharacterType("minister", context) and not conditions.CharacterType("rake", context) and not conditions.CharacterType("assassin", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Personal_High_Personal_Security", "agent", 1, 17, context)
 		return true
 	end
@@ -2003,7 +2004,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if not conditions.CharacterType("minister", context) and not conditions.CharacterType("colonel", context) and not conditions.CharacterType("captain", context) and conditions.InSettlement(context) and conditions.NoActionThisTurn(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if not conditions.CharacterType("minister", context) and not conditions.CharacterType("colonel", context) and not conditions.CharacterType("captain", context) and conditions.InSettlement(context) and conditions.NoActionThisTurn(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Personal_Sickly", "agent", 1, 2, context)
 		return true
 	end
@@ -2087,7 +2088,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.InSettlement(context) and conditions.NoActionThisTurn(context) and not conditions.CharacterType("minister", context) and not conditions.CharacterType("colonel", context) and not conditions.CharacterType("captain", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.InSettlement(context) and conditions.NoActionThisTurn(context) and not conditions.CharacterType("minister", context) and not conditions.CharacterType("colonel", context) and not conditions.CharacterType("captain", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Sausage_Vice", "agent", 1, 2, context)
 		return true
 	end
@@ -2098,8 +2099,692 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and (conditions.CampaignBattleType("fort_standard", context) or conditions.CampaignBattleType("fort_relief", context) or conditions.CampaignBattleType("fort_sally", context) or conditions.CampaignBattleType("settlement_standard", context) or conditions.CampaignBattleType("settlement_relief", context) or conditions.CampaignBattleType("settlement_sally", context)) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and (conditions.CampaignBattleType("fort_standard", context) or conditions.CampaignBattleType("fort_relief", context) or conditions.CampaignBattleType("fort_sally", context) or conditions.CampaignBattleType("settlement_standard", context) or conditions.CampaignBattleType("settlement_relief", context) or conditions.CampaignBattleType("settlement_sally", context)) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		effect.trait("C_Siege_Engineering", "agent", 1, 33, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Attacker_Bad_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterWasAttacker(context) and not conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Attacker_Bad", "agent", 1, 33, context)
+		effect.trait("C_Tribal_General_Attacker_Bad", "agent", 2, 17, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Attacker_Good_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterWasAttacker(context) and conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Attacker_Good", "agent", 1, 33, context)
+		effect.trait("C_Tribal_General_Attacker_Good", "agent", 2, 17, context)
+		effect.trait("C_Tribal_General_Attacker_Good", "agent", 8, 3, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Bad_Field_Commander_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CampaignBattleType("normal", context) and not conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Bad_Field_Commander", "agent", 1, 33, context)
+		effect.trait("C_Tribal_General_Bad_Field_Commander", "agent", 2, 17, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Bloody_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterWonBattle(context) and conditions.CampaignPercentageOfOwnKilled(context) > 40 and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Bloody", "agent", 2, 17, context)
+		effect.trait("C_Tribal_General_Bloody", "agent", 1, 33, context)
+		effect.trait("C_Tribal_General_Bloody", "agent", 3, 8, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Brave_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CommanderFoughtInBattle(context) and not conditions.CharacterRouted(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Brave", "agent", 1, 33, context)
+		effect.trait("C_Tribal_General_Brave", "agent", 2, 17, context)
+		effect.trait("C_Tribal_General_Brave", "agent", 3, 8, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Cherokee_Trigger_01 ]]--
+
+events.CharacterCreated[#events.CharacterCreated+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterFactionName("cherokee_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+		effect.trait("C_Tribal_General_Cherokee", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Cherokee_Trigger_02 ]]--
+
+events.CharacterPromoted[#events.CharacterPromoted+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterFactionName("cherokee_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+		effect.trait("C_Tribal_General_Cherokee", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Cherokee", "agent", 1, 24, context)
+		effect.trait("C_Tribal_General_Cherokee", "agent", 2, 16, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Coward_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterRouted(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Coward", "agent", 1, 33, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Created_Trigger ]]--
+
+events.CharacterCreated[#events.CharacterCreated+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+		effect.trait("C_Tribal_General_Good_Field_Commander", "agent", 2, 17, context)
+		effect.trait("C_Tribal_General_Born_Soldier", "agent", 1, 33, context)
+		effect.trait("C_Tribal_General_Mad", "agent", 1, 17, context)
+		effect.trait("C_Tribal_General_Born_Soldier", "agent", 2, 33, context)
+		effect.trait("C_General_Warlord", "agent", 1, 33, context)
+		effect.trait("C_Tribal_General_Born_Soldier", "agent", 3, 33, context)
+		effect.trait("C_Tribal_General_Brave", "agent", 1, 17, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Created_Trigger_Spam ]]--
+
+events.CharacterCreated[#events.CharacterCreated+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) > 15 then
+		effect.trait("C_Tribal_General_Born_Soldier", "agent", 3, 33, context)
+		effect.trait("C_Tribal_General_Born_Soldier", "agent", 1, 33, context)
+		effect.trait("C_Tribal_General_Mad", "agent", 1, 17, context)
+		effect.trait("C_Tribal_General_Bad_Field_Commander", "agent", 1, 33, context)
+		effect.trait("C_Tribal_General_Born_Soldier", "agent", 2, 33, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Defender_Bad_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and not conditions.CharacterWasAttacker(context) and not conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Defender_Bad", "agent", 2, 17, context)
+		effect.trait("C_Tribal_General_Defender_Bad", "agent", 1, 33, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Defender_Good_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and not conditions.CharacterWasAttacker(context) and conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Defender_Good", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Defender_Good", "agent", 1, 33, context)
+		effect.trait("C_Tribal_General_Defender_Good", "agent", 2, 17, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Good_Field_Commander_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CampaignBattleType("normal", context) and conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Good_Field_Commander", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Good_Field_Commander", "agent", 1, 33, context)
+		effect.trait("C_Tribal_General_Good_Field_Commander", "agent", 2, 17, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Hates_Europeans_Reset_Trigger ]]--
+
+events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
+function (context)
+	if conditions.WarEndedCharacterFaction(context) and conditions.CharacterTrait("C_Tribal_General_Hates_Europeans", context) >= 1 and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Hates_Europeans_Reset", "agent", 2, 17, context)
+		effect.trait("C_Tribal_General_Hates_Europeans_Reset", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Hates_Europeans_Reset", "agent", 1, 33, context)
+		effect.remove_trait("C_Tribal_General_Hates_Europeans", "agent", context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Hates_Europeans_Trigger_01 ]]--
+
+events.CharacterCreated[#events.CharacterCreated+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+		effect.trait("C_Tribal_General_Hates_Europeans", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Hates_Europeans", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Hates_Europeans", "agent", 1, 24, context)
+		effect.remove_trait("C_Tribal_General_Hates_Europeans_Reset", "agent", context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Hates_Europeans_Trigger_02 ]]--
+
+events.CharacterPromoted[#events.CharacterPromoted+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+		effect.trait("C_Tribal_General_Hates_Europeans", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Hates_Europeans", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Hates_Europeans", "agent", 1, 24, context)
+		effect.remove_trait("C_Tribal_General_Hates_Europeans_Reset", "agent", context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Huron_Trigger_01 ]]--
+
+events.CharacterCreated[#events.CharacterCreated+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterFactionName("huron_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+		effect.trait("C_Tribal_General_Huron", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Huron", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Huron", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Huron_Trigger_02 ]]--
+
+events.CharacterPromoted[#events.CharacterPromoted+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterFactionName("huron_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+		effect.trait("C_Tribal_General_Huron", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Huron", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Huron", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Iroquois_Trigger_01 ]]--
+
+events.CharacterCreated[#events.CharacterCreated+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterFactionName("iroquois_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+		effect.trait("C_Tribal_General_Iroquois", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Iroquois", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Iroquois", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Iroquois_Trigger_02 ]]--
+
+events.CharacterPromoted[#events.CharacterPromoted+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterFactionName("iroquois_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+		effect.trait("C_Tribal_General_Iroquois", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Iroquois", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Iroquois", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Lampooned_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and not conditions.CharacterWonBattle(context) and conditions.BattleResult("crushing_defeat", context) and (conditions.CampaignPercentageOfOwnRouted(context) >= 50 or conditions.CampaignPercentageOfOwnKilled(context) >= 50 or conditions.CampaignPercentageOfOwnCaptured(context) >= 30) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Lampooned", "agent", 2, 17, context)
+		effect.trait("C_Tribal_General_Lampooned", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Lampooned", "agent", 1, 33, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Mad_Trigger ]]--
+
+events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterTurnsInEnemyLands(context) > 15 and conditions.BattlesFought(5, context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Mad", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Mad", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Mad", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_of_Cavalry_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterWonBattle(context) and conditions.CampaignPercentageOfUnitCategory("cavalry", context) >= 40 and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_of_Cavalry", "agent", 2, 17, context)
+		effect.trait("C_Tribal_General_of_Cavalry", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_of_Cavalry", "agent", 1, 33, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Plains_Coup_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterFactionName("plains_playable", context) and conditions.CommanderFoughtInMelee(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Plains_Coup", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Plains_Coup", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Plains_Coup", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Plains_Trigger_01 ]]--
+
+events.CharacterCreated[#events.CharacterCreated+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterFactionName("plains_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+		effect.trait("C_Tribal_General_Plains", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Plains", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Plains", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Plains_Trigger_02 ]]--
+
+events.CharacterPromoted[#events.CharacterPromoted+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterFactionName("plains_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+		effect.trait("C_Tribal_General_Plains", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Plains", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Plains", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Press_Hero_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterWonBattle(context) and conditions.BattleResult("heroic_victory", context) and (conditions.CampaignPercentageOfThemRouted(context) >= 50 or conditions.CampaignPercentageOfThemKilled(context) >= 50 or conditions.CampaignPercentageOfThemCaptured(context) >= 30) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Press_Hero", "agent", 2, 17, context)
+		effect.trait("C_Tribal_General_Press_Hero", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Press_Hero", "agent", 1, 33, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Promoted_Trigger ]]--
+
+events.CharacterPromoted[#events.CharacterPromoted+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+		effect.trait("C_Tribal_General_Brave", "agent", 1, 17, context)
+		effect.trait("C_Tribal_General_Good_Field_Commander", "agent", 2, 17, context)
+		effect.trait("C_Tribal_General_Born_Soldier", "agent", 1, 33, context)
+		effect.trait("C_Tribal_General_Born_Soldier", "agent", 2, 17, context)
+		effect.trait("C_Tribal_General_Good_Field_Commander", "agent", 1, 33, context)
+		effect.trait("C_Tribal_General_Brave", "agent", 2, 17, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Promoted_Trigger_Spam ]]--
+
+events.CharacterPromoted[#events.CharacterPromoted+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) > 15 then
+		effect.trait("C_Tribal_General_Born_Soldier", "agent", 2, 17, context)
+		effect.trait("C_Tribal_General_Born_Soldier", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Born_Soldier", "agent", 1, 17, context)
+		effect.trait("C_Tribal_General_Bad_Field_Commander", "agent", 1, 33, context)
+		effect.trait("C_Tribal_General_Mad", "agent", 1, 33, context)
+		effect.trait("C_Tribal_General_Bloody", "agent", 1, 33, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Pueblo_Trigger_01 ]]--
+
+events.CharacterCreated[#events.CharacterCreated+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterFactionName("pueblo_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+		effect.trait("C_Tribal_General_Pueblo", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Pueblo", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Pueblo", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Pueblo_Trigger_02 ]]--
+
+events.CharacterPromoted[#events.CharacterPromoted+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterFactionName("pueblo_playable", context) and conditions.CampaignName("natives", context) and conditions.CharacterFactionGeneralCount(context) <= 15 then
+		effect.trait("C_Tribal_General_Pueblo", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Pueblo", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Pueblo", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Siege_Attack_Bad_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and (conditions.CampaignBattleType("fort_standard", context) or conditions.CampaignBattleType("fort_relief", context) or conditions.CampaignBattleType("fort_sally", context) or conditions.CampaignBattleType("settlement_standard", context) or conditions.CampaignBattleType("settlement_relief", context) or conditions.CampaignBattleType("settlement_sally", context)) and conditions.CharacterWasAttacker(context) and not conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Siege_Attack_Bad", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Siege_Attack_Bad", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Siege_Attack_Bad", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Siege_Attack_Good_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and (conditions.CampaignBattleType("fort_standard", context) or conditions.CampaignBattleType("fort_relief", context) or conditions.CampaignBattleType("fort_sally", context) or conditions.CampaignBattleType("settlement_standard", context) or conditions.CampaignBattleType("settlement_relief", context) or conditions.CampaignBattleType("settlement_sally", context)) and conditions.CharacterWasAttacker(context) and conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Siege_Attack_Good", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Siege_Attack_Good", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Siege_Attack_Good", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Siege_Defend_Bad_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and (conditions.CampaignBattleType("fort_standard", context) or conditions.CampaignBattleType("fort_relief", context) or conditions.CampaignBattleType("fort_sally", context) or conditions.CampaignBattleType("settlement_standard", context) or conditions.CampaignBattleType("settlement_relief", context) or conditions.CampaignBattleType("settlement_sally", context)) and not conditions.CharacterWasAttacker(context) and not conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Siege_Defend_Bad", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Siege_Defend_Bad", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Siege_Defend_Bad", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Siege_Defend_Good_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and (conditions.CampaignBattleType("fort_standard", context) or conditions.CampaignBattleType("fort_relief", context) or conditions.CampaignBattleType("fort_sally", context) or conditions.CampaignBattleType("settlement_standard", context) or conditions.CampaignBattleType("settlement_relief", context) or conditions.CampaignBattleType("settlement_sally", context)) and not conditions.CharacterWasAttacker(context) and conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_General_Siege_Defend_Good", "agent", 2, 16, context)
+		effect.trait("C_Tribal_General_Siege_Defend_Good", "agent", 3, 8, context)
+		effect.trait("C_Tribal_General_Siege_Defend_Good", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_General_Warlord_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_General_Warlord", "agent", 2, 16, context)
+		effect.trait("C_General_Warlord", "agent", 3, 8, context)
+		effect.trait("C_General_Warlord", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Leader_Cursed_Iroquois_Flying_Head_Trigge ]]--
+
+events.CharacterAttacksAlly[#events.CharacterAttacksAlly+1] =
+function (context)
+	if conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and conditions.CharacterFactionName("iroquois_playable", context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Leader_Cursed_Iroquois_Flying_Head", "agent", 2, 5, context)
+		effect.trait("C_Tribal_Leader_Cursed_Iroquois_Flying_Head", "agent", 3, 2, context)
+		effect.trait("C_Tribal_Leader_Cursed_Iroquois_Flying_Head", "agent", 1, 10, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Leader_Harsh_Ruler_Trigger ]]--
+
+events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
+function (context)
+	if conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and conditions.InsurrectionCrushed(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Leader_Harsh_Ruler", "agent", 2, 5, context)
+		effect.trait("C_Tribal_Leader_Harsh_Ruler", "agent", 3, 2, context)
+		effect.trait("C_Tribal_Leader_Harsh_Ruler", "agent", 1, 10, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Leader_Peacemaker_Trigger ]]--
+
+events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
+function (context)
+	if conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and conditions.WarEndedCharacterFaction(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Leader_Peacemaker", "agent", 2, 16, context)
+		effect.trait("C_Tribal_Leader_Peacemaker", "agent", 3, 8, context)
+		effect.trait("C_Tribal_Leader_Peacemaker", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Leader_Plains_Cursed_Trigger ]]--
+
+events.CharacterAttacksAlly[#events.CharacterAttacksAlly+1] =
+function (context)
+	if conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and conditions.CharacterFactionName("plains_playable", context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Leader_Plains_Cursed", "agent", 2, 16, context)
+		effect.trait("C_Tribal_Leader_Plains_Cursed", "agent", 3, 8, context)
+		effect.trait("C_Tribal_Leader_Plains_Cursed", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Minister_Agriculturalist_Trigger ]]--
+
+events.BuildingCompleted[#events.BuildingCompleted+1] =
+function (context)
+	if (conditions.IsBuildingInChain("tribal_playable_corn", context) or conditions.IsBuildingInChain("tribal_playable_sheep", context) or conditions.IsBuildingInChain("tribal_playable_wheat", context)) and conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Minister_Agriculturalist", "agent", 2, 16, context)
+		effect.trait("C_Tribal_Minister_Agriculturalist", "agent", 3, 8, context)
+		effect.trait("C_Tribal_Minister_Agriculturalist", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Minister_Army_Good_Trigger ]]--
+
+events.BuildingCompleted[#events.BuildingCompleted+1] =
+function (context)
+	if conditions.IsBuildingInChain("tribal_playable_barracks", context) and conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Minister_Army_Good", "agent", 2, 16, context)
+		effect.trait("C_Tribal_Minister_Army_Good", "agent", 3, 8, context)
+		effect.trait("C_Tribal_Minister_Army_Good", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Minister_Industrialist_Trigger ]]--
+
+events.BuildingCompleted[#events.BuildingCompleted+1] =
+function (context)
+	if (conditions.IsBuildingInChain("tribal_playable_industry-metal", context) or conditions.IsBuildingInChain("tribal_playable_industry-pottery", context) or conditions.IsBuildingInChain("tribal_playable_industry-textile", context)) and conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Minister_Industrialist", "agent", 2, 16, context)
+		effect.trait("C_Tribal_Minister_Industrialist", "agent", 3, 8, context)
+		effect.trait("C_Tribal_Minister_Industrialist", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Minister_Trader_Trigger ]]--
+
+events.BuildingCompleted[#events.BuildingCompleted+1] =
+function (context)
+	if (conditions.IsBuildingInChain("tribal_playable_pioneer", context) or conditions.IsBuildingInChain("tribal_playable_prospector", context)) and conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Minister_Trader", "agent", 2, 16, context)
+		effect.trait("C_Tribal_Minister_Trader", "agent", 3, 8, context)
+		effect.trait("C_Tribal_Minister_Trader", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Scout_Good_Army_Sabotage_Trigger ]]--
+
+events.SabotageAttemptSuccess[#events.SabotageAttemptSuccess+1] =
+function (context)
+	if conditions.CharacterType("scout", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Scout_Good_Army_Sabotage", "agent", 2, 16, context)
+		effect.trait("C_Tribal_Scout_Good_Army_Sabotage", "agent", 3, 8, context)
+		effect.trait("C_Tribal_Scout_Good_Army_Sabotage", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Scout_Good_Assassin_Trigger ]]--
+
+events.AssassinationAttemptSuccess[#events.AssassinationAttemptSuccess+1] =
+function (context)
+	if conditions.CharacterType("scout", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Scout_Good_Assassin", "agent", 2, 16, context)
+		effect.trait("C_Tribal_Scout_Good_Assassin", "agent", 3, 8, context)
+		effect.trait("C_Tribal_Scout_Good_Assassin", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Scout_Good_Saboteur_Trigger ]]--
+
+events.SabotageAttemptSuccess[#events.SabotageAttemptSuccess+1] =
+function (context)
+	if conditions.CharacterType("scout", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Scout_Sabot_Good", "agent", 2, 16, context)
+		effect.trait("C_Tribal_Scout_Sabot_Good", "agent", 3, 8, context)
+		effect.trait("C_Tribal_Scout_Sabot_Good", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Scout_Good_Spy_Trigger ]]--
+
+events.SpyingAttemptSuccess[#events.SpyingAttemptSuccess+1] =
+function (context)
+	if conditions.CharacterType("scout", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Scout_Good_Spy", "agent", 2, 16, context)
+		effect.trait("C_Tribal_Scout_Good_Spy", "agent", 3, 8, context)
+		effect.trait("C_Tribal_Scout_Good_Spy", "agent", 1, 24, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Shaman_Likes_Mushrooms_Trigger ]]--
+
+events.ResearchCompleted[#events.ResearchCompleted+1] =
+function (context)
+	if conditions.CharacterType("shaman", context) and (conditions.ResearchType("industry_agriculture_natives_culture_dreamwalking", context) or conditions.ResearchType("industry_agriculture_natives_culture_riding_the_winds", context) or conditions.ResearchType("industry_agriculture_natives_culture_spirit_medicine", context) or conditions.ResearchType("industry_agriculture_natives_culture_spirit_of_the_forest", context)) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Shaman_Likes_Mushrooms", "agent", 2, 8, context)
+		effect.trait("C_Tribal_Shaman_Likes_Mushrooms", "agent", 3, 4, context)
+		effect.trait("C_Tribal_Shaman_Likes_Mushrooms", "agent", 1, 17, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Shaman_Plains_Buffalo_Dancer_Trigger ]]--
+
+events.CharacterCreated[#events.CharacterCreated+1] =
+function (context)
+	if conditions.CharacterType("shaman", context) and conditions.CharacterFactionName("plains_playable", context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Shaman_Plains_Buffalo_Dancer", "agent", 2, 8, context)
+		effect.trait("C_Tribal_Shaman_Plains_Buffalo_Dancer", "agent", 3, 4, context)
+		effect.trait("C_Tribal_Shaman_Plains_Buffalo_Dancer", "agent", 1, 17, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Shaman_Powwow_Trigger ]]--
+
+events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
+function (context)
+	if conditions.CharacterType("shaman", context) and conditions.WarEndedCharacterFaction(context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Shaman_Powwow", "agent", 2, 8, context)
+		effect.trait("C_Tribal_Shaman_Powwow", "agent", 3, 4, context)
+		effect.trait("C_Tribal_Shaman_Powwow", "agent", 1, 17, context)
+		return true
+	end
+	return false
+end
+
+--[[ C_Tribal_Shaman_Pueblo_Sun_Dancer_Trigger ]]--
+
+events.CharacterCreated[#events.CharacterCreated+1] =
+function (context)
+	if conditions.CharacterType("shaman", context) and conditions.CharacterFactionName("pueblo_playable", context) and conditions.CampaignName("natives", context) then
+		effect.trait("C_Tribal_Shaman_Pueblo_Sun_Dancer", "agent", 2, 8, context)
+		effect.trait("C_Tribal_Shaman_Pueblo_Sun_Dancer", "agent", 3, 4, context)
+		effect.trait("C_Tribal_Shaman_Pueblo_Sun_Dancer", "agent", 1, 17, context)
 		return true
 	end
 	return false

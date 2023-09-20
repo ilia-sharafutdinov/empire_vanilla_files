@@ -4,95 +4,119 @@ caribbean	european	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resou
 caribbean	indian	ott_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_caribbean		0
 caribbean	middle_east	ott_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_caribbean		0
 caribbean	tribal	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_caribbean		0
+caribbean	tribal_playable	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_caribbean		0
 corn	european	na_corn_1_diffuse	true		false		false	false	0	Slot_resource_farm_corn		0
 corn	indian	na_corn_1_diffuse	true		false		false	false	0	Slot_resource_farm_corn		0
 corn	middle_east	na_corn_1_diffuse	true		false		false	false	0	Slot_resource_farm_corn		0
 corn	tribal	na_corn_1_diffuse	true		false		false	false	0	Slot_resource_farm_corn		0
+corn	tribal_playable	na_corn_1_diffuse	true		false		false	false	0	Slot_resource_farm_corn		0
 cuba	european	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_cuba		0
 cuba	indian	ott_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_cuba		0
 cuba	middle_east	ott_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_cuba		0
 cuba	tribal	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_cuba		0
+cuba	tribal_playable	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_cuba		0
 egypt	european	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_egypt		0
 egypt	indian	ott_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_egypt		0
 egypt	middle_east	ott_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_egypt		0
 egypt	tribal	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_egypt		0
+egypt	tribal_playable	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_egypt		0
 fish	european		false		false		false	false	0	EU_building_placeholder		0
 fish	indian		false		false		false	false	0	EU_building_placeholder		0
 fish	middle_east		false		false		false	false	0	EU_building_placeholder		0
 fish	tribal		false		false		false	false	0	EU_building_placeholder		0
+fish	tribal_playable		false		false		false	false	0	EU_building_placeholder		0
 fort	european		false		false		false	false	0	Fort_lvl1		0
 fort	indian		false		false		false	false	0	Fort_lvl1		0
 fort	middle_east		false		false		false	false	0	Fort_lvl1		0
 fort	tribal		false		false		false	false	0	Fort_lvl1		0
+fort	tribal_playable		false		false		false	false	0	Fort_lvl1		0
 fur	european		false		false		false	false	0	slot_resource_furtrader		0
 fur	indian		false		false		false	false	0	slot_resource_furtrader		0
 fur	middle_east		false		false		false	false	0	slot_resource_furtrader		0
 fur	tribal		false		false		false	false	0	slot_resource_furtrader		0
+fur	tribal_playable		false		false		false	false	0	slot_resource_furtrader		0
 gems	european	eu_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_gems_lvl0		0
 gems	indian	ott_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_gems_lvl0		0
 gems	middle_east	ott_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_gems_lvl0		0
 gems	tribal	na_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_gems_lvl0		0
+gems	tribal_playable	na_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_gems_lvl0		0
 gold	european	eu_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_gold_lvl0		0
 gold	indian	ott_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_gold_lvl0		0
 gold	middle_east	ott_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_gold_lvl0		0
 gold	tribal	na_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_gold_lvl0		0
+gold	tribal_playable	na_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_gold_lvl0		0
 india_highlands	european	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_india_highlands		0
 india_highlands	indian	ott_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_india_highlands		0
 india_highlands	middle_east	ott_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_india_highlands		0
 india_highlands	tribal	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_india_highlands		0
+india_highlands	tribal_playable	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_india_highlands		0
 iron	european	eu_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_iron_lvl0		0
 iron	indian	ott_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_iron_lvl0		0
 iron	middle_east	ott_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_iron_lvl0		0
 iron	tribal	na_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_iron_lvl0		0
+iron	tribal_playable	na_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_iron_lvl0		0
 port	european		false	EU_Port	true	EU_Port_Village	true	true	1	EU_building_placeholder		1
 port	indian		false	IND_Port	true	IND_Port_Village	true	true	1	EU_building_placeholder		1
 port	middle_east		false	OTT_Port	true	OTT_Port_Village	true	true	1	EU_building_placeholder		1
 port	tribal		false	NA_Port	true	EU_Port_Village	true	true	1	EU_building_placeholder		1
+port	tribal_playable		false	NA_Port	true	EU_Port_Village	true	true	1	EU_building_placeholder		1
 rice	european	ott_ricepaddy_1_diffuse	true		false		false	false	0	slot_resource_ricepaddy		0
 rice	indian	ott_ricepaddy_1_diffuse	true		false		false	false	0	slot_resource_ricepaddy		0
 rice	middle_east	ott_ricepaddy_1_diffuse	true		false		false	false	0	slot_resource_ricepaddy		0
 rice	tribal	ott_ricepaddy_1_diffuse	true		false		false	false	0	slot_resource_ricepaddy		0
+rice	tribal_playable	ott_ricepaddy_1_diffuse	true		false		false	false	0	slot_resource_ricepaddy		0
 settlement	european	eu_city_diffuse	true	EU_Settlement	false		true	true	1	EU_building_placeholder		1
 settlement	indian		false	IND_Settlement	false		true	true	1	EU_building_placeholder		1
 settlement	middle_east		false	OTT_Settlement	false		true	true	1	EU_building_placeholder		1
 settlement	tribal		false	NA_Settlement	false		true	true	1	EU_building_placeholder		1
+settlement	tribal_playable		false	NA_Settlement	false		true	true	1	EU_building_placeholder		1
 sheep	european	eu_sheep_1_diffuse	true		false		false	false	0		Slot_resource_farm_sheep	0
 sheep	indian	ott_sheep_1_diffuse	true		false		false	false	0		Slot_resource_farm_sheep	0
 sheep	middle_east	ott_sheep_1_diffuse	true		false		false	false	0		Slot_resource_farm_sheep	0
 sheep	tribal	eu_south_sheep_1_diffuse	true		false		false	false	0		Slot_resource_farm_sheep	0
+sheep	tribal_playable	eu_south_sheep_1_diffuse	true		false		false	false	0		Slot_resource_farm_sheep	0
 silver	european	eu_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_silver_lvl0		0
 silver	indian	ott_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_silver_lvl0		0
 silver	middle_east	ott_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_silver_lvl0		0
 silver	tribal	na_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_silver_lvl0		0
+silver	tribal_playable	na_mine_1_diffuse	true		false		false	false	0	slot_resource_mining_silver_lvl0		0
 southern_usa	european	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_southern_usa		0
 southern_usa	indian	ott_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_southern_usa		0
 southern_usa	middle_east	ott_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_southern_usa		0
 southern_usa	tribal	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_southern_usa		0
+southern_usa	tribal_playable	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_southern_usa		0
 timber	european		false		false		false	false	0	slot_resource_timber		0
 timber	indian		false		false		false	false	0	slot_resource_timber		0
 timber	middle_east		false		false		false	false	0	slot_resource_timber		0
 timber	tribal		false		false		false	false	0	slot_resource_timber		0
+timber	tribal_playable		false		false		false	false	0	slot_resource_timber		0
 town	european	eu_town_diffuse	true	EU_Town	true	EU_Village	true	true	1	EU_building_placeholder		1
 town	indian		false	IND_Town	true	IND_Village	true	true	1	EU_building_placeholder		1
 town	middle_east		false	OTT_Town	true	OTT_Village	true	true	1	EU_building_placeholder		1
 town	tribal		false	NA_Town	true	NA_Village	true	true	1	EU_building_placeholder		1
+town	tribal_playable		false	NA_Town	true	NA_Village	true	true	1	EU_building_placeholder		1
 town-metal	european		false	EU_Town	true	EU_Village	true	true	1	EU_building_placeholder		1
 town-metal	indian		false	IND_Town	true	IND_Village	true	true	1	EU_building_placeholder		1
 town-metal	middle_east		false	OTT_Town	true	OTT_Village	true	true	1	EU_building_placeholder		1
 town-metal	tribal		false	NA_Town	true	NA_Village	true	true	1	EU_building_placeholder		1
+town-metal	tribal_playable		false	NA_Town	true	NA_Village	true	true	1	EU_building_placeholder		1
 town-textile	european		false	EU_Town	true	EU_Village	true	true	1	EU_building_placeholder		1
 town-textile	indian		false	IND_Town	true	IND_Village	true	true	1	EU_building_placeholder		1
 town-textile	middle_east		false	OTT_Town	true	OTT_Village	true	true	1	EU_building_placeholder		1
 town-textile	tribal		false	NA_Town	true	NA_Village	true	true	1	EU_building_placeholder		1
+town-textile	tribal_playable		false	NA_Town	true	NA_Village	true	true	1	EU_building_placeholder		1
 tropical_humid	european	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_tropical_humid		0
 tropical_humid	indian	ott_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_tropical_humid		0
 tropical_humid	middle_east	ott_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_tropical_humid		0
 tropical_humid	tribal	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_tropical_humid		0
+tropical_humid	tribal_playable	eu_plantation_1_diffuse	true		false		false	false	0	Slot_resource_plantation_tropical_humid		0
 wheat	european	eu_wheat_1_diffuse	true		false		false	false	0	Slot_resource_farm_wheat		0
 wheat	indian	ott_wheat_1_diffuse	true		false		false	false	0	Slot_resource_farm_wheat		0
 wheat	middle_east	ott_wheat_1_diffuse	true		false		false	false	0	Slot_resource_farm_wheat		0
 wheat	tribal	na_corn_1_diffuse	true		false		false	false	0	Slot_resource_farm_wheat		0
+wheat	tribal_playable	na_corn_1_diffuse	true		false		false	false	0	Slot_resource_farm_wheat		0
 wine	european	eu_vinyard_1_diffuse	true		false		false	false	0	slot_resource_vineyards		0
 wine	indian	eu_vinyard_1_diffuse	true		false		false	false	0	slot_resource_vineyards		0
 wine	middle_east	eu_vinyard_1_diffuse	true		false		false	false	0	slot_resource_vineyards		0
 wine	tribal	eu_vinyard_1_diffuse	true		false		false	false	0	slot_resource_vineyards		0
+wine	tribal_playable	eu_vinyard_1_diffuse	true		false		false	false	0	slot_resource_vineyards		0

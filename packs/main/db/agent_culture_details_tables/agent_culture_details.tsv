@@ -9,21 +9,25 @@ bandit	european	Campaign_euro_rake
 bandit	indian	campaign_indian_thuggee	
 bandit	middle_east	Campaign_ottoman_assassin	
 bandit	tribal	Campaign_Native_American_Spy	
+bandit	tribal_playable	Campaign_Native_American_Spy	
 captain	european	euro_campaign_ship_weighted	
 captain	indian	east_campaign_ship_weighted	
 captain	middle_east	east_campaign_ship_weighted	
 captain	tribal	east_campaign_ship_weighted	
+captain	tribal_playable	east_campaign_ship_weighted	
 catholic_missionary	european	Campaign_Euro_Catholic_Priest	
 colonel	european	campaign_euro_colonel	
 colonel	indian	campaign_indian_colonel	
 colonel	middle_east	Campaign_ottoman_colonel	
 colonel	tribal	campaign_native_american_general	
+colonel	tribal_playable	campaign_native_american_general	
 Eastern_Scholar	indian	campaign_indian_scholar	
 Eastern_Scholar	middle_east	campaign_ottoman_scholar	
 General	european	campaign_euro_general	euro_generals_bodyguard
 General	indian	campaign_indian_general	indian_generals_bodyguard
 General	middle_east	Campaign_ottoman_general	ottoman_generals_bodyguard
 General	tribal	campaign_native_american_general	native_american_generals_bodyguard
+General	tribal_playable	campaign_native_american_general	nan_plains_generals_bodyguard
 gentleman	european	campaign_euro_gentleman	
 indian_missionary	indian	campaign_indian_brahmin	
 middle_east_missionary	indian	campaign_ottoman_imam	
@@ -32,11 +36,15 @@ minister	european	campaign_soldier
 minister	indian	campaign_soldier	
 minister	middle_east	campaign_soldier	
 minister	tribal	campaign_soldier	
+minister	tribal_playable	campaign_soldier	
 orthodox_missionary	european	Campaign_euro_orthodox_missionary	
 pirate	european	euro_campaign_ship_weighted	
 pirate	indian	euro_campaign_ship_weighted	
 pirate	middle_east	euro_campaign_ship_weighted	
 pirate	tribal	euro_campaign_ship_weighted	
+pirate	tribal_playable	euro_campaign_ship_weighted	
 Protestant_Missionary	european	Campaign_euro_protestant_missionary	
 rake	european	Campaign_euro_rake	
 rake	tribal	Campaign_Native_American_Spy	
+scout	tribal_playable	campaign_native_american_scout	
+shaman	tribal_playable	campaign_native_american_Shaman	

@@ -966,6 +966,7 @@ end
 events.BattleConflictPhaseCommenced[#events.BattleConflictPhaseCommenced+1] =
 function (context)
 	if conditions.BattleIsLandConflict(context) and conditions.BattleAllianceIsPlayers(context) and conditions.BattlePlayerAlliancePercentageOfUnitClass("general", context) >= 1 then
+		effect.advance_contextual_advice_thread("0092_Battle_Advice_Rallying_Thread", 1, context)
 		return true
 	end
 	return false
@@ -1520,7 +1521,7 @@ end
 
 events.BattleConflictPhaseCommenced[#events.BattleConflictPhaseCommenced+1] =
 function (context)
-	if conditions.BattleIsLandConflict(context) and conditions.BattleAllianceIsPlayers(context) and (conditions.BattlePlayerAlliancePercentageOfSpecialAbility("chevaux_de_frise", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("diamond_formation", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("earthworks", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("fire_and_advance", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("fire_mounted", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("fire_volley", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("fougasse_basic", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("fougasse_improved", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("gabionade", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("improved_platoon_fire_column", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("improved_platoon_fire_dispersed", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("improved_platoon_fire_grouped", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("mass_fire", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("pike_square_formation", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("pike_wall_formation", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("platoon_fire_column", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("platoon_fire_dispersed", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("platoon_fire_grouped", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("plug_bayonets", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("rank_fire", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfTechnology("ring_bayonets", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfTechnology("socket_bayonets", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("square_formation", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("wedge_formation", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("wooden_stakes", context) >= 1) then
+	if conditions.BattleIsLandConflict(context) and conditions.BattleAllianceIsPlayers(context) and (conditions.BattlePlayerAlliancePercentageOfSpecialAbility("chevaux_de_frise", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("diamond_formation", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("earthworks", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("fire_and_advance", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("fire_mounted", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("fire_volley", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("fougasse_basic", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("fougasse_improved", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("gabionade", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("improved_platoon_fire_column", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("improved_platoon_fire_dispersed", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("improved_platoon_fire_grouped", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("mass_fire", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("pike_square_formation", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("pike_wall_formation", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("platoon_fire_column", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("platoon_fire_dispersed", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("platoon_fire_grouped", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("plug_bayonets", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("rank_fire", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfTechnology("ring_bayonets", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfTechnology("socket_bayonets", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("square_formation", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("wedge_formation", context) >= 1 or conditions.BattlePlayerAlliancePercentageOfSpecialAbility("wooden_stakes", context) >= 1) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("0148_Battle_Advice_Special_Abilities_Button_Thread", 1, context)
 		return true
 	end
@@ -2517,7 +2518,7 @@ end
 
 events.ComponentLClickUp[#events.ComponentLClickUp+1] =
 function (context)
-	if conditions.IsComponentType("tab_missions", context) then
+	if conditions.IsComponentType("tab_missions", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1017_Campaign_Advice_UI_Missions_Panel_Thread", 1, context)
 		return true
 	end
@@ -2539,7 +2540,7 @@ end
 
 events.PanelOpenedCampaign[#events.PanelOpenedCampaign+1] =
 function (context)
-	if conditions.IsComponentType("missions", context) then
+	if conditions.IsComponentType("missions", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1017_Campaign_Advice_UI_Missions_Panel_Thread", 1, context)
 		return true
 	end
@@ -2550,7 +2551,7 @@ end
 
 events.PanelOpenedCampaign[#events.PanelOpenedCampaign+1] =
 function (context)
-	if conditions.IsComponentType("technology", context) then
+	if conditions.IsComponentType("technology", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1019_Campaign_Advice_UI_Technology_Panel_Thread", 1, context)
 		return true
 	end
@@ -2561,7 +2562,7 @@ end
 
 events.ComponentLClickUp[#events.ComponentLClickUp+1] =
 function (context)
-	if conditions.IsComponentType("tab_military", context) then
+	if conditions.IsComponentType("tab_military", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1019a_Campaign_Advice_UI_Technology_Panel_Thread", 1, context)
 		return true
 	end
@@ -2572,7 +2573,7 @@ end
 
 events.ComponentLClickUp[#events.ComponentLClickUp+1] =
 function (context)
-	if conditions.IsComponentType("button_taxes", context) then
+	if conditions.IsComponentType("button_taxes", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1020_Campaign_Advice_UI_Set_Taxes_Button_Thread", 1, context)
 		return true
 	end
@@ -2583,7 +2584,7 @@ end
 
 events.ComponentLClickUp[#events.ComponentLClickUp+1] =
 function (context)
-	if conditions.IsComponentType("tab_taxes", context) then
+	if conditions.IsComponentType("tab_taxes", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1021_Campaign_Advice_UI_Automanagement_Thread", 1, context)
 		return true
 	end
@@ -2627,7 +2628,7 @@ end
 
 events.ComponentLClickUp[#events.ComponentLClickUp+1] =
 function (context)
-	if conditions.IsComponentType("fleets", context) then
+	if conditions.IsComponentType("fleets", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1024_Campaign_Advice_UI_Lists_Panel_Thread", 1, context)
 		return true
 	end
@@ -2682,7 +2683,7 @@ end
 
 events.ComponentLClickUp[#events.ComponentLClickUp+1] =
 function (context)
-	if conditions.IsComponentType("tab_taxes", context) then
+	if conditions.IsComponentType("tab_taxes", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1029_Campaign_Advice_UI_Government_Panel_Thread", 1, context)
 		return true
 	end
@@ -2704,7 +2705,7 @@ end
 
 events.AdviceDismissed[#events.AdviceDismissed+1] =
 function (context)
-	if conditions.AdviceJustDisplayed(1217408458, context) then
+	if conditions.AdviceJustDisplayed(1217408458, context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1030b_Campaign_Advice_UI_Government_Panel_Thread", 1, context)
 		return true
 	end
@@ -2715,7 +2716,7 @@ end
 
 events.AdviceDismissed[#events.AdviceDismissed+1] =
 function (context)
-	if (conditions.AdviceJustDisplayed(1257998467, context) or conditions.AdviceJustDisplayed(-56839928, context)) then
+	if (conditions.AdviceJustDisplayed(1257998467, context) or conditions.AdviceJustDisplayed(-56839928, context)) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1030c_Campaign_Advice_UI_Government_Panel_Thread", 1, context)
 		return true
 	end
@@ -2908,7 +2909,7 @@ end
 
 events.ComponentLClickUp[#events.ComponentLClickUp+1] =
 function (context)
-	if conditions.IsComponentType("construction_tab", context) then
+	if conditions.IsComponentType("construction_tab", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1048_Campaign_Advice_UI_Review_Panel_Thread", 1, context)
 		return true
 	end
@@ -2930,7 +2931,7 @@ end
 
 events.ComponentLClickUp[#events.ComponentLClickUp+1] =
 function (context)
-	if conditions.IsComponentType("agents_tab", context) then
+	if conditions.IsComponentType("agents_tab", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1049a_Campaign_Advice_UI_Review_Panel_Thread", 1, context)
 		return true
 	end
@@ -2963,7 +2964,7 @@ end
 
 events.ComponentLClickUp[#events.ComponentLClickUp+1] =
 function (context)
-	if conditions.IsComponentType("navy_tab", context) and (conditions.CampaignName("main", context) or conditions.CampaignName("main_2", context)) then
+	if conditions.IsComponentType("navy_tab", context) and (conditions.CampaignName("main", context) or conditions.CampaignName("main_2", context)) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1052_Campaign_Advice_Navy_Promotions_Thread", 1, context)
 		return true
 	end
@@ -2996,7 +2997,7 @@ end
 
 events.SlotSelected[#events.SlotSelected+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and conditions.SlotType("port", context) then
+	if conditions.SlotIsLocal(context) and conditions.SlotType("port", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1057_Campaign_Advice_Slot_Selected_Thread", 1, context)
 		return true
 	end
@@ -3106,7 +3107,7 @@ end
 
 events.CharacterSelected[#events.CharacterSelected+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("gentleman", context) then
+	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("gentleman", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1067_Campaign_Advice_Character_Selected_Thread", 1, context)
 		return true
 	end
@@ -3117,7 +3118,7 @@ end
 
 events.CharacterSelected[#events.CharacterSelected+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("rake", context) then
+	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("rake", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1068_Campaign_Advice_Character_Selected_Thread", 1, context)
 		return true
 	end
@@ -3128,7 +3129,7 @@ end
 
 events.CharacterSelected[#events.CharacterSelected+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("Eastern_Scholar", context) then
+	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("Eastern_Scholar", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1069_Campaign_Advice_Character_Selected_Thread", 1, context)
 		return true
 	end
@@ -3139,7 +3140,7 @@ end
 
 events.CharacterSelected[#events.CharacterSelected+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterType("assassin", context) and conditions.CharacterCultureType("middle_east", context)) then
+	if conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterType("assassin", context) and conditions.CharacterCultureType("middle_east", context)) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1070_Campaign_Advice_Character_Selected_Thread", 1, context)
 		return true
 	end
@@ -3150,7 +3151,7 @@ end
 
 events.CharacterSelected[#events.CharacterSelected+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterType("assassin", context) and conditions.CharacterCultureType("indian", context)) then
+	if conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterType("assassin", context) and conditions.CharacterCultureType("indian", context)) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1071_Campaign_Advice_Character_Selected_Thread", 1, context)
 		return true
 	end
@@ -3161,7 +3162,7 @@ end
 
 events.CharacterSelected[#events.CharacterSelected+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("Protestant_Missionary", context) or conditions.CharacterType("orthodox_missionary", context)) then
+	if conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("Protestant_Missionary", context) or conditions.CharacterType("orthodox_missionary", context)) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1072_Campaign_Advice_Character_Selected_Thread", 1, context)
 		return true
 	end
@@ -3172,7 +3173,7 @@ end
 
 events.CharacterSelected[#events.CharacterSelected+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("middle_east_missionary", context) then
+	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("middle_east_missionary", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1073_Campaign_Advice_Character_Selected_Thread", 1, context)
 		return true
 	end
@@ -3183,7 +3184,7 @@ end
 
 events.CharacterSelected[#events.CharacterSelected+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("indian_missionary", context) then
+	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("indian_missionary", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1074_Campaign_Advice_Character_Selected_Thread", 1, context)
 		return true
 	end
@@ -3194,7 +3195,7 @@ end
 
 events.CharacterSelected[#events.CharacterSelected+1] =
 function (context)
-	if conditions.CharacterType("pirate", context) then
+	if conditions.CharacterType("pirate", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1075_Campaign_Advice_Character_Selected_Thread", 1, context)
 		return true
 	end
@@ -3205,7 +3206,7 @@ end
 
 events.CharacterSelected[#events.CharacterSelected+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("bandit", context) then
+	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("bandit", context) and not conditions.CampaignName("natives", context) then
 		return true
 	end
 	return false
@@ -3215,7 +3216,7 @@ end
 
 events.CharacterSelected[#events.CharacterSelected+1] =
 function (context)
-	if not conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterType("General", context) or conditions.CharacterType("colonel", context) or conditions.CharacterType("admiral", context) or conditions.CharacterType("captain", context) or conditions.CharacterType("gentleman", context) or conditions.CharacterType("rake", context) or conditions.CharacterType("Eastern_Scholar", context) or conditions.CharacterType("assassin", context) or conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("Protestant_Missionary", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("indian_missionary", context)) then
+	if not conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterType("General", context) or conditions.CharacterType("colonel", context) or conditions.CharacterType("admiral", context) or conditions.CharacterType("captain", context) or conditions.CharacterType("gentleman", context) or conditions.CharacterType("rake", context) or conditions.CharacterType("Eastern_Scholar", context) or conditions.CharacterType("assassin", context) or conditions.CharacterType("catholic_missionary", context) or conditions.CharacterType("Protestant_Missionary", context) or conditions.CharacterType("orthodox_missionary", context) or conditions.CharacterType("middle_east_missionary", context) or conditions.CharacterType("indian_missionary", context)) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1077_Campaign_Advice_Character_Selected_Thread", 1, context)
 		return true
 	end
@@ -3237,7 +3238,7 @@ end
 
 events.CharacterInfoPanelOpened[#events.CharacterInfoPanelOpened+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("admiral", context) then
+	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("admiral", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1079b_Campaign_Advice_Right_Click_Details_Thread", 1, context)
 		return true
 	end
@@ -3270,7 +3271,7 @@ end
 
 events.PanelOpenedCampaign[#events.PanelOpenedCampaign+1] =
 function (context)
-	if conditions.IsComponentType("region_info", context) and (conditions.CampaignName("main", context) or conditions.CampaignName("main_2", context)) then
+	if conditions.IsComponentType("region_info", context) and (conditions.CampaignName("main", context) or conditions.CampaignName("main_2", context)) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1081_Campaign_Advice_Right_Click_Details_Thread", 1, context)
 		return true
 	end
@@ -3281,7 +3282,7 @@ end
 
 events.PanelOpenedCampaign[#events.PanelOpenedCampaign+1] =
 function (context)
-	if conditions.IsComponentType("region_info", context) and not conditions.CampaignName("main", context) and not conditions.CampaignName("main_2", context) then
+	if conditions.IsComponentType("region_info", context) and not conditions.CampaignName("main", context) and not conditions.CampaignName("main_2", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1081a_Episodic_Advice_Right_Click_Details_Thread", 1, context)
 		return true
 	end
@@ -3325,7 +3326,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.FactionWarWeariness(context) then
+	if conditions.FactionIsLocal(context) and conditions.FactionWarWeariness(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1084_Campaign_Advice_War_Weariness_Thread", 1, context)
 		return true
 	end
@@ -3336,7 +3337,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.FactionPatrioticFervour(context) then
+	if conditions.FactionIsLocal(context) and conditions.FactionPatrioticFervour(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1085_Campaign_Advice_Patriotic_Fervour_Thread", 1, context)
 		return true
 	end
@@ -3358,7 +3359,7 @@ end
 
 events.SettlementOccupied[#events.SettlementOccupied+1] =
 function (context)
-	if conditions.SettlementIsLocal(context) then
+	if conditions.SettlementIsLocal(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1087_Campaign_Advice_Settlement_Occupied_Thread", 1, context)
 		return true
 	end
@@ -3369,7 +3370,7 @@ end
 
 events.SlotOpens[#events.SlotOpens+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and conditions.IsColony(context) and not conditions.SlotType("port", context) then
+	if conditions.SlotIsLocal(context) and conditions.IsColony(context) and not conditions.SlotType("port", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1088_Campaign_Advice_New_Township_Emerges_Thread", 1, context)
 		return true
 	end
@@ -3380,7 +3381,7 @@ end
 
 events.SlotOpens[#events.SlotOpens+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and not conditions.IsColony(context) and not conditions.SlotType("port", context) then
+	if conditions.SlotIsLocal(context) and not conditions.IsColony(context) and not conditions.SlotType("port", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1089_Campaign_Advice_Town_Appears_Thread", 1, context)
 		return true
 	end
@@ -3413,7 +3414,7 @@ end
 
 events.SettlementSelected[#events.SettlementSelected+1] =
 function (context)
-	if conditions.SettlementIsLocal(context) then
+	if conditions.SettlementIsLocal(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1092_Campaign_Advice_Region_Capital_Thread", 1, context)
 		return true
 	end
@@ -3446,7 +3447,7 @@ end
 
 events.TradeRouteEstablished[#events.TradeRouteEstablished+1] =
 function (context)
-	if conditions.IsPlayerTurn(context) and conditions.FactionIsLocal(context) then
+	if conditions.IsPlayerTurn(context) and conditions.FactionIsLocal(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1095_Campaign_Advice_Trade_Agreement_Thread", 1, context)
 		return true
 	end
@@ -3457,7 +3458,7 @@ end
 
 events.UngarrisonedFort[#events.UngarrisonedFort+1] =
 function (context)
-	if conditions.FortIsLocal(context) and (conditions.TurnsSinceThreadLastAdvanced("1096a_Campaign_Advice_Ungarrisoned_Fort_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1096a_Campaign_Advice_Ungarrisoned_Fort_Thread", context) == 5) then
+	if conditions.FortIsLocal(context) and (conditions.TurnsSinceThreadLastAdvanced("1096a_Campaign_Advice_Ungarrisoned_Fort_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1096a_Campaign_Advice_Ungarrisoned_Fort_Thread", context) == 5) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1096a_Campaign_Advice_Ungarrisoned_Fort_Thread", 1, context)
 		return true
 	end
@@ -3468,7 +3469,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.FactionGovernmentType("gov_absolute_monarchy", context) and conditions.TurnNumber(context) == 9 then
+	if conditions.FactionIsLocal(context) and conditions.FactionGovernmentType("gov_absolute_monarchy", context) and conditions.TurnNumber(context) == 9 and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1097_Campaign_Advice_Government_Type_Thread", 1, context)
 		return true
 	end
@@ -3479,7 +3480,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.FactionGovernmentType("gov_constitutional_monarchy", context) and conditions.TurnNumber(context) == 9 then
+	if conditions.FactionIsLocal(context) and conditions.FactionGovernmentType("gov_constitutional_monarchy", context) and conditions.TurnNumber(context) == 9 and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1098_Campaign_Advice_Government_Type_Thread", 1, context)
 		return true
 	end
@@ -3490,7 +3491,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.FactionGovernmentType("gov_republic", context) and conditions.TurnNumber(context) == 9 then
+	if conditions.FactionIsLocal(context) and conditions.FactionGovernmentType("gov_republic", context) and conditions.TurnNumber(context) == 9 and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1099_Campaign_Advice_Government_Type_Thread", 1, context)
 		return true
 	end
@@ -3501,7 +3502,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and (conditions.FactionGovernmentType("gov_constitutional_monarchy", context) or conditions.FactionGovernmentType("gov_republic", context)) and conditions.TurnNumber(context) == 10 then
+	if conditions.FactionIsLocal(context) and (conditions.FactionGovernmentType("gov_constitutional_monarchy", context) or conditions.FactionGovernmentType("gov_republic", context)) and conditions.TurnNumber(context) == 10 and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1100_Campaign_Advice_Government_Type_Thread", 1, context)
 		return true
 	end
@@ -3556,7 +3557,7 @@ end
 
 events.SlotTurnStart[#events.SlotTurnStart+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and conditions.SlotBuildingQueueIdleDespiteCash(context) and conditions.SlotType("port", context) and (conditions.TurnsSinceThreadLastAdvanced("1104_Campaign_Advice_Undeveloped_Port_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1104_Campaign_Advice_Undeveloped_Port_Thread", context) == 5) then
+	if conditions.SlotIsLocal(context) and conditions.SlotBuildingQueueIdleDespiteCash(context) and conditions.SlotType("port", context) and (conditions.TurnsSinceThreadLastAdvanced("1104_Campaign_Advice_Undeveloped_Port_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1104_Campaign_Advice_Undeveloped_Port_Thread", context) == 5) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1104_Campaign_Advice_Undeveloped_Port_Thread", 1, context)
 		return true
 	end
@@ -3578,7 +3579,7 @@ end
 
 events.SlotTurnStart[#events.SlotTurnStart+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and conditions.SlotBuildingQueueIdleDespiteCash(context) and conditions.SlotType("town", context) and (conditions.TurnsSinceThreadLastAdvanced("1106_Campaign_Advice_Undeveloped_Town_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1106_Campaign_Advice_Undeveloped_Town_Thread", context) == 5) then
+	if conditions.SlotIsLocal(context) and conditions.SlotBuildingQueueIdleDespiteCash(context) and conditions.SlotType("town", context) and (conditions.TurnsSinceThreadLastAdvanced("1106_Campaign_Advice_Undeveloped_Town_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1106_Campaign_Advice_Undeveloped_Town_Thread", context) == 5) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1106_Campaign_Advice_Undeveloped_Town_Thread", 1, context)
 		return true
 	end
@@ -3622,7 +3623,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.TurnNumber(context) == 5 then
+	if conditions.FactionIsLocal(context) and conditions.TurnNumber(context) == 5 and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1110_Campaign_Advice_Trade_Routes_Thread", 1, context)
 		return true
 	end
@@ -3633,7 +3634,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.TurnNumber(context) == 7 then
+	if conditions.FactionIsLocal(context) and conditions.TurnNumber(context) == 7 and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1111_Campaign_Advice_Slots_Thread", 1, context)
 		return true
 	end
@@ -3666,7 +3667,7 @@ end
 
 events.ComponentLClickUp[#events.ComponentLClickUp+1] =
 function (context)
-	if conditions.IsComponentType("tab_prestige", context) then
+	if conditions.IsComponentType("tab_prestige", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1116_Campaign_Advice_Prestige_Thread", 1, context)
 		return true
 	end
@@ -3688,7 +3689,7 @@ end
 
 events.RegionRiots[#events.RegionRiots+1] =
 function (context)
-	if conditions.RegionIsLocal(context) then
+	if conditions.RegionIsLocal(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1118_Campaign_Advice_Warning_Riot_Thread", 1, context)
 		return true
 	end
@@ -3699,7 +3700,7 @@ end
 
 events.RegionRebels[#events.RegionRebels+1] =
 function (context)
-	if conditions.RegionIsLocal(context) then
+	if conditions.RegionIsLocal(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1119_Campaign_Advice_Warning_Rebellion_Thread", 1, context)
 		return true
 	end
@@ -3710,7 +3711,7 @@ end
 
 events.RegionRebels[#events.RegionRebels+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.IsHomeRegion(context) and conditions.WouldRebellionInRegionBeRevolution(context) then
+	if conditions.RegionIsLocal(context) and conditions.IsHomeRegion(context) and conditions.WouldRebellionInRegionBeRevolution(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1120_Campaign_Advice_Warning_Revolution_Thread", 1, context)
 		return true
 	end
@@ -3721,7 +3722,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.RegionClamoursReform(context) then
+	if conditions.RegionIsLocal(context) and conditions.RegionClamoursReform(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1121_Campaign_Advice_Warning_Clamour_Reform_Thread", 1, context)
 		return true
 	end
@@ -3732,7 +3733,7 @@ end
 
 events.RegionIssuesDemands[#events.RegionIssuesDemands+1] =
 function (context)
-	if conditions.RegionIsLocal(context) then
+	if conditions.RegionIsLocal(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1122_Campaign_Advice_Warning_Letter_Demands_Thread", 1, context)
 		return true
 	end
@@ -3743,7 +3744,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.LosingMoney(context) and conditions.SupportCostsPercentage(context) > 60 and conditions.FactionTreasury(context) > 0 and (conditions.FactionTaxLevel("upper_classes", context) < conditions.TaxLevel("tax_extortionate", context) or conditions.FactionTaxLevel("lower_classes", context) < conditions.TaxLevel("tax_extortionate", context)) then
+	if conditions.FactionIsLocal(context) and conditions.LosingMoney(context) and conditions.SupportCostsPercentage(context) > 60 and conditions.FactionTreasury(context) > 0 and (conditions.FactionTaxLevel("upper_classes", context) < conditions.TaxLevel("tax_extortionate", context) or conditions.FactionTaxLevel("lower_classes", context) < conditions.TaxLevel("tax_extortionate", context)) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1123_Campaign_Advice_Warning_Upkeep_Thread", 1, context)
 		return true
 	end
@@ -3765,7 +3766,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.LosingMoney(context) and conditions.FactionTreasury(context) <= 0 then
+	if conditions.FactionIsLocal(context) and conditions.LosingMoney(context) and conditions.FactionTreasury(context) <= 0 and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1124a_Campaign_Advice_Warning_Bankrupt_Thread", 1, context)
 		return true
 	end
@@ -3787,7 +3788,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.FactionTreasury(context) < 200 and (conditions.FactionTaxLevel("upper_classes", context) < conditions.TaxLevel("tax_extortionate", context) or conditions.FactionTaxLevel("lower_classes", context) < conditions.TaxLevel("tax_extortionate", context)) then
+	if conditions.FactionIsLocal(context) and conditions.FactionTreasury(context) < 200 and (conditions.FactionTaxLevel("upper_classes", context) < conditions.TaxLevel("tax_extortionate", context) or conditions.FactionTaxLevel("lower_classes", context) < conditions.TaxLevel("tax_extortionate", context)) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1126_Campaign_Advice_Warning_Cashflow_Trigger", 1, context)
 		return true
 	end
@@ -3798,7 +3799,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.LosingMoney(context) and conditions.FactionTreasury(context) < 200 then
+	if conditions.FactionIsLocal(context) and conditions.LosingMoney(context) and conditions.FactionTreasury(context) < 200 and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1126a_Campaign_Advice_Warning_Cashflow_Thread", 1, context)
 		return true
 	end
@@ -3840,7 +3841,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.RegionTaxLevel("upper_classes", context) == conditions.TaxLevel("tax_extortionate", context) and not conditions.RegionTaxExempt(context) then
+	if conditions.RegionIsLocal(context) and conditions.RegionTaxLevel("upper_classes", context) == conditions.TaxLevel("tax_extortionate", context) and not conditions.RegionTaxExempt(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1133_Campaign_Advice_Warning_High_Tax_Thread", 1, context)
 		return true
 	end
@@ -3851,7 +3852,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.RegionTaxLevel("lower_classes", context) == conditions.TaxLevel("tax_extortionate", context) and not conditions.RegionTaxExempt(context) then
+	if conditions.RegionIsLocal(context) and conditions.RegionTaxLevel("lower_classes", context) == conditions.TaxLevel("tax_extortionate", context) and not conditions.RegionTaxExempt(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1134_Campaign_Advice_Warning_High_Tax_Thread", 1, context)
 		return true
 	end
@@ -3873,7 +3874,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and not conditions.IsColony(context) and conditions.RegionReligiousEmigration(context) and (conditions.TurnsSinceThreadLastAdvanced("1136_Campaign_Advice_Religious_Unrest_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1136_Campaign_Advice_Religious_Unrest_Thread", context) == 5) then
+	if conditions.RegionIsLocal(context) and not conditions.IsColony(context) and conditions.RegionReligiousEmigration(context) and (conditions.TurnsSinceThreadLastAdvanced("1136_Campaign_Advice_Religious_Unrest_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1136_Campaign_Advice_Religious_Unrest_Thread", context) == 5) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1136_Campaign_Advice_Religious_Unrest_Thread", 1, context)
 		return true
 	end
@@ -3884,7 +3885,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.IsColony(context) and not conditions.RegionReligionIsStateReligion(context) and (conditions.TurnsSinceThreadLastAdvanced("1137_Campaign_Advice_Religious_Unrest_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1137_Campaign_Advice_Religious_Unrest_Thread", context) == 5) then
+	if conditions.RegionIsLocal(context) and conditions.IsColony(context) and not conditions.RegionReligionIsStateReligion(context) and (conditions.TurnsSinceThreadLastAdvanced("1137_Campaign_Advice_Religious_Unrest_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1137_Campaign_Advice_Religious_Unrest_Thread", context) == 5) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1137_Campaign_Advice_Religious_Unrest_Thread", 1, context)
 		return true
 	end
@@ -3895,7 +3896,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.RegionHasFoodShortages(context) and conditions.RegionPopulationLow(context) and (conditions.TurnsSinceThreadLastAdvanced("1138_Campaign_Advice_Warning_Population_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1138_Campaign_Advice_Warning_Population_Thread", context) == 5) then
+	if conditions.RegionIsLocal(context) and conditions.RegionHasFoodShortages(context) and conditions.RegionPopulationLow(context) and (conditions.TurnsSinceThreadLastAdvanced("1138_Campaign_Advice_Warning_Population_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1138_Campaign_Advice_Warning_Population_Thread", context) == 5) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1138_Campaign_Advice_Warning_Population_Thread", 1, context)
 		return true
 	end
@@ -3906,7 +3907,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.RegionFoodShortageEmigration(context) and (conditions.TurnsSinceThreadLastAdvanced("1139_Campaign_Advice_Warning_Population_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1139_Campaign_Advice_Warning_Population_Thread", context) == 5) then
+	if conditions.RegionIsLocal(context) and conditions.RegionFoodShortageEmigration(context) and (conditions.TurnsSinceThreadLastAdvanced("1139_Campaign_Advice_Warning_Population_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1139_Campaign_Advice_Warning_Population_Thread", context) == 5) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1139_Campaign_Advice_Warning_Population_Thread", 1, context)
 		return true
 	end
@@ -3917,7 +3918,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.RegionPopulationLow(context) and conditions.RegionTaxLevel("lower_classes", context) >= conditions.TaxLevel("tax_high", context) then
+	if conditions.RegionIsLocal(context) and conditions.RegionPopulationLow(context) and conditions.RegionTaxLevel("lower_classes", context) >= conditions.TaxLevel("tax_high", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1141_Campaign_Advice_Warning_Population_Thread", 1, context)
 		return true
 	end
@@ -3939,7 +3940,7 @@ end
 
 events.SeaTradeRouteRaided[#events.SeaTradeRouteRaided+1] =
 function (context)
-	if conditions.TradeRouteIsEnemy(context) and conditions.IsPlayerTurn(context) then
+	if conditions.TradeRouteIsEnemy(context) and conditions.IsPlayerTurn(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1142_Campaign_Advice_Trade_Route_Raided_Thread", 1, context)
 		return true
 	end
@@ -3950,7 +3951,7 @@ end
 
 events.FactionRoundStart[#events.FactionRoundStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.SeaTradeRouteRaided(context) then
+	if conditions.FactionIsLocal(context) and conditions.SeaTradeRouteRaided(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1143_Campaign_Advice_Trade_Route_Raided_Thread", 1, context)
 		return true
 	end
@@ -3972,7 +3973,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.TurnNumber(context) == 6 and not conditions.CampaignName("episodic_3", context) and not conditions.CampaignName("episodic_2", context) and not conditions.CampaignName("episodic_1", context) then
+	if conditions.FactionIsLocal(context) and conditions.TurnNumber(context) == 6 and not conditions.CampaignName("episodic_3", context) and not conditions.CampaignName("episodic_2", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1146_Campaign_Advice_Trade_Theatres_Thread", 1, context)
 		return true
 	end
@@ -3983,7 +3984,7 @@ end
 
 events.CharacterTurnStart[#events.CharacterTurnStart+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterInTheatre(-1133129049, context) or conditions.CharacterInTheatre(836795134, context) or conditions.CharacterInTheatre(1197997136, context) or conditions.CharacterInTheatre(2113354257, context)) then
+	if conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterInTheatre(-1133129049, context) or conditions.CharacterInTheatre(836795134, context) or conditions.CharacterInTheatre(1197997136, context) or conditions.CharacterInTheatre(2113354257, context)) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1147_Campaign_Advice_Trade_Theatres_Thread", 1, context)
 		return true
 	end
@@ -4005,7 +4006,7 @@ end
 
 events.SlotRoundStart[#events.SlotRoundStart+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and not conditions.IsColony(context) and (conditions.SlotType("port", context) and conditions.IsBuildingInChain("port-navy", context)) and conditions.PortBlockaded(context) then
+	if conditions.SlotIsLocal(context) and not conditions.IsColony(context) and (conditions.SlotType("port", context) and conditions.IsBuildingInChain("port-navy", context)) and conditions.PortBlockaded(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1149_Campaign_Advice_Port_Blockaded_Thread", 1, context)
 		return true
 	end
@@ -4016,7 +4017,7 @@ end
 
 events.SlotRoundStart[#events.SlotRoundStart+1] =
 function (context)
-	if not conditions.SlotIsLocal(context) and not conditions.SlotIsAlliedCampaign(context) and not conditions.IsColony(context) and (conditions.SlotType("port", context) and conditions.IsBuildingInChain("port-fish", context)) and conditions.PortBlockadedLocal(context) then
+	if not conditions.SlotIsLocal(context) and not conditions.SlotIsAlliedCampaign(context) and not conditions.IsColony(context) and (conditions.SlotType("port", context) and conditions.IsBuildingInChain("port-fish", context)) and conditions.PortBlockadedLocal(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1150_Campaign_Advice_Port_Blockaded_Thread", 1, context)
 		return true
 	end
@@ -4027,7 +4028,7 @@ end
 
 events.SlotRoundStart[#events.SlotRoundStart+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and not conditions.IsColony(context) and (conditions.SlotType("port", context) and conditions.IsBuildingInChain("port-fish", context)) and conditions.PortBlockaded(context) then
+	if conditions.SlotIsLocal(context) and not conditions.IsColony(context) and (conditions.SlotType("port", context) and conditions.IsBuildingInChain("port-fish", context)) and conditions.PortBlockaded(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1151_Campaign_Advice_Port_Blockaded_Thread", 1, context)
 		return true
 	end
@@ -4038,7 +4039,7 @@ end
 
 events.SlotRoundStart[#events.SlotRoundStart+1] =
 function (context)
-	if not conditions.SlotIsLocal(context) and not conditions.SlotIsAlliedCampaign(context) and not conditions.IsColony(context) and (conditions.SlotType("port", context) and conditions.IsBuildingInChain("port-trade", context)) and conditions.PortBlockadedLocal(context) then
+	if not conditions.SlotIsLocal(context) and not conditions.SlotIsAlliedCampaign(context) and not conditions.IsColony(context) and (conditions.SlotType("port", context) and conditions.IsBuildingInChain("port-trade", context)) and conditions.PortBlockadedLocal(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1152_Campaign_Advice_Port_Blockaded_Thread", 1, context)
 		return true
 	end
@@ -4049,7 +4050,7 @@ end
 
 events.SlotRoundStart[#events.SlotRoundStart+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and not conditions.IsColony(context) and (conditions.SlotType("port", context) and conditions.IsBuildingInChain("port-trade", context)) and conditions.PortBlockaded(context) then
+	if conditions.SlotIsLocal(context) and not conditions.IsColony(context) and (conditions.SlotType("port", context) and conditions.IsBuildingInChain("port-trade", context)) and conditions.PortBlockaded(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1153_Campaign_Advice_Port_Blockaded_Thread", 1, context)
 		return true
 	end
@@ -4060,7 +4061,7 @@ end
 
 events.SlotRoundStart[#events.SlotRoundStart+1] =
 function (context)
-	if not conditions.SlotIsLocal(context) and not conditions.SlotIsAlliedCampaign(context) and conditions.IsColony(context) and (conditions.SlotType("port", context) and conditions.IsBuildingInChain("port-trade", context)) and conditions.PortBlockadedLocal(context) then
+	if not conditions.SlotIsLocal(context) and not conditions.SlotIsAlliedCampaign(context) and conditions.IsColony(context) and (conditions.SlotType("port", context) and conditions.IsBuildingInChain("port-trade", context)) and conditions.PortBlockadedLocal(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1154_Campaign_Advice_Port_Blockaded_Thread", 1, context)
 		return true
 	end
@@ -4071,7 +4072,7 @@ end
 
 events.SlotRoundStart[#events.SlotRoundStart+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and conditions.IsColony(context) and (conditions.SlotType("port", context) and conditions.IsBuildingInChain("port-trade", context)) and conditions.PortBlockaded(context) then
+	if conditions.SlotIsLocal(context) and conditions.IsColony(context) and (conditions.SlotType("port", context) and conditions.IsBuildingInChain("port-trade", context)) and conditions.PortBlockaded(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1155_Campaign_Advice_Port_Blockaded_Thread", 1, context)
 		return true
 	end
@@ -4104,7 +4105,7 @@ end
 
 events.SlotTurnStart[#events.SlotTurnStart+1] =
 function (context)
-	if conditions.SlotIsLocal(context) and conditions.SlotType("town", context) and not conditions.SlotType("port", context) and not conditions.IsBuildingInChain("industry-metal", context) and not conditions.IsBuildingInChain("industry-pottery", context) and not conditions.IsBuildingInChain("industry-textile", context) and not conditions.IsBuildingInChain("happiness", context) and conditions.IsPlayerTurn(context) then
+	if conditions.SlotIsLocal(context) and conditions.SlotType("town", context) and not conditions.SlotType("port", context) and not conditions.IsBuildingInChain("industry-metal", context) and not conditions.IsBuildingInChain("industry-pottery", context) and not conditions.IsBuildingInChain("industry-textile", context) and not conditions.IsBuildingInChain("happiness", context) and conditions.IsPlayerTurn(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1158_Campaign_Advice_Build_Industrial_Thread", 1, context)
 		return true
 	end
@@ -4115,7 +4116,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.IsColony(context) then
+	if conditions.RegionIsLocal(context) and conditions.IsColony(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1160_Campaign_Advice_Trade_Export_Thread", 1, context)
 		return true
 	end
@@ -4126,7 +4127,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.IsColony(context) and not conditions.TradePortsAtMaxLevel(context) and conditions.RegionHasUnexportedTrade(context) and (conditions.TurnsSinceThreadLastAdvanced("1161_Campaign_Advice_Trade_Export_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1161_Campaign_Advice_Trade_Export_Thread", context) == 5) then
+	if conditions.RegionIsLocal(context) and conditions.IsColony(context) and not conditions.TradePortsAtMaxLevel(context) and conditions.RegionHasUnexportedTrade(context) and (conditions.TurnsSinceThreadLastAdvanced("1161_Campaign_Advice_Trade_Export_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1161_Campaign_Advice_Trade_Export_Thread", context) == 5) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1161_Campaign_Advice_Trade_Export_Thread", 1, context)
 		return true
 	end
@@ -4137,7 +4138,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.IsColony(context) and conditions.TradePortsAtMaxLevel(context) and not conditions.HasUnspecialisedPort(context) and conditions.RegionHasUnexportedTrade(context) and (conditions.TurnsSinceThreadLastAdvanced("1162_Campaign_Advice_Trade_Export_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1162_Campaign_Advice_Trade_Export_Thread", context) == 5) then
+	if conditions.RegionIsLocal(context) and conditions.IsColony(context) and conditions.TradePortsAtMaxLevel(context) and not conditions.HasUnspecialisedPort(context) and conditions.RegionHasUnexportedTrade(context) and (conditions.TurnsSinceThreadLastAdvanced("1162_Campaign_Advice_Trade_Export_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1162_Campaign_Advice_Trade_Export_Thread", context) == 5) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1162_Campaign_Advice_Trade_Export_Thread", 1, context)
 		return true
 	end
@@ -4148,7 +4149,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.IsHomeRegion(context) and not conditions.TradePortsAtMaxLevel(context) and conditions.RegionHasUnexportedTrade(context) and (conditions.TurnsSinceThreadLastAdvanced("1163_Campaign_Advice_Trade_Export_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1163_Campaign_Advice_Trade_Export_Thread", context) == 5) then
+	if conditions.RegionIsLocal(context) and conditions.IsHomeRegion(context) and not conditions.TradePortsAtMaxLevel(context) and conditions.RegionHasUnexportedTrade(context) and (conditions.TurnsSinceThreadLastAdvanced("1163_Campaign_Advice_Trade_Export_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1163_Campaign_Advice_Trade_Export_Thread", context) == 5) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1163_Campaign_Advice_Trade_Export_Thread", 1, context)
 		return true
 	end
@@ -4159,7 +4160,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.IsHomeRegion(context) and conditions.TradePortsAtMaxLevel(context) and conditions.HasUnspecialisedPort(context) and conditions.RegionHasUnexportedTrade(context) and (conditions.TurnsSinceThreadLastAdvanced("1164_Campaign_Advice_Trade_Export_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1164_Campaign_Advice_Trade_Export_Thread", context) == 5) then
+	if conditions.RegionIsLocal(context) and conditions.IsHomeRegion(context) and conditions.TradePortsAtMaxLevel(context) and conditions.HasUnspecialisedPort(context) and conditions.RegionHasUnexportedTrade(context) and (conditions.TurnsSinceThreadLastAdvanced("1164_Campaign_Advice_Trade_Export_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1164_Campaign_Advice_Trade_Export_Thread", context) == 5) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1164_Campaign_Advice_Trade_Export_Trigger", 1, context)
 		return true
 	end
@@ -4170,7 +4171,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.RegionPopulationGrowthLow(context) and (conditions.TurnsSinceThreadLastAdvanced("1165_Campaign_Advice_Slow_Population_Growth_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1165_Campaign_Advice_Slow_Population_Growth_Thread", context) == 5) then
+	if conditions.RegionIsLocal(context) and conditions.RegionPopulationGrowthLow(context) and (conditions.TurnsSinceThreadLastAdvanced("1165_Campaign_Advice_Slow_Population_Growth_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1165_Campaign_Advice_Slow_Population_Growth_Thread", context) == 5) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1165_Campaign_Advice_Slow_Population_Growth_Thread", 1, context)
 		return true
 	end
@@ -4181,7 +4182,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.RegionEconomicGrowthLow(context) and (conditions.TurnsSinceThreadLastAdvanced("1166_Campaign_Advice_Slow_Economic_Growth_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1166_Campaign_Advice_Slow_Economic_Growth_Thread", context) == 5) then
+	if conditions.RegionIsLocal(context) and conditions.RegionEconomicGrowthLow(context) and (conditions.TurnsSinceThreadLastAdvanced("1166_Campaign_Advice_Slow_Economic_Growth_Thread", context) == 0 or conditions.TurnsSinceThreadLastAdvanced("1166_Campaign_Advice_Slow_Economic_Growth_Thread", context) == 5) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1166_Campaign_Advice_Slow_Economic_Growth_Thread", 1, context)
 		return true
 	end
@@ -4203,7 +4204,7 @@ end
 
 events.RegionTurnStart[#events.RegionTurnStart+1] =
 function (context)
-	if conditions.RegionIsLocal(context) and conditions.RegionGovernorAttribute("management", context) < 3 and conditions.RegionRiots(context) then
+	if conditions.RegionIsLocal(context) and conditions.RegionGovernorAttribute("management", context) < 3 and conditions.RegionRiots(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1172_Campaign_Advice_Change_Governor_Thread", 1, context)
 		return true
 	end
@@ -4214,7 +4215,7 @@ end
 
 events.CharacterTurnStart[#events.CharacterTurnStart+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and conditions.CharacterTrait("C_Minister_Corrupt", context) >= 1 then
+	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and conditions.CharacterTrait("C_Minister_Corrupt", context) >= 1 and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1175_Campaign_Advice_Change_Minister_Thread", 1, context)
 		return true
 	end
@@ -4225,7 +4226,7 @@ end
 
 events.CharacterTurnStart[#events.CharacterTurnStart+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterType("admiral", context) or conditions.CharacterType("General", context)) and (conditions.CharacterAttribute("command_land", context) == 0 or conditions.CharacterAttribute("command_sea", context) == 0) then
+	if conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterType("admiral", context) or conditions.CharacterType("General", context)) and (conditions.CharacterAttribute("command_land", context) == 0 or conditions.CharacterAttribute("command_sea", context) == 0) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1176_Campaign_Advice_Change_Commander_Thread", 1, context)
 		return true
 	end
@@ -4236,7 +4237,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterAttribute("command_land", context) >= 5 or conditions.CharacterAttribute("command_sea", context) >= 5 or conditions.CharacterAttribute("management", context) >= 5 or conditions.CharacterAttribute("subterfuge", context) >= 5 or conditions.CharacterAttribute("research", context) >= 5) then
+	if conditions.CharacterIsLocalCampaign(context) and (conditions.CharacterAttribute("command_land", context) >= 5 or conditions.CharacterAttribute("command_sea", context) >= 5 or conditions.CharacterAttribute("management", context) >= 5 or conditions.CharacterAttribute("subterfuge", context) >= 5 or conditions.CharacterAttribute("research", context) >= 5) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1177_Campaign_Advice_Good_Stats_Character_Thread", 1, context)
 		return true
 	end
@@ -4258,7 +4259,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.TurnNumber(context) >= 13 then
+	if conditions.FactionIsLocal(context) and conditions.TurnNumber(context) >= 13 and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1180_Campaign_Advice_Town_Region_Wealth_Thread", 1, context)
 		return true
 	end
@@ -4280,7 +4281,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.LosingMoney(context) and conditions.FactionTreasury(context) <= 0 and conditions.TaxCollectionLimited(context) then
+	if conditions.FactionIsLocal(context) and conditions.LosingMoney(context) and conditions.FactionTreasury(context) <= 0 and conditions.TaxCollectionLimited(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1184_Campaign_Advice_Warning_Bankrupt_Thread", 1, context)
 		return true
 	end
@@ -4291,7 +4292,7 @@ end
 
 events.FactionTurnStart[#events.FactionTurnStart+1] =
 function (context)
-	if conditions.FactionIsLocal(context) and conditions.LosingMoney(context) and conditions.FactionTreasury(context) <= 2000 and conditions.TaxCollectionLimited(context) then
+	if conditions.FactionIsLocal(context) and conditions.LosingMoney(context) and conditions.FactionTreasury(context) <= 2000 and conditions.TaxCollectionLimited(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1185_Campaign_Advice_Warning_Infrastructure_Thread", 1, context)
 		return true
 	end
@@ -4302,7 +4303,7 @@ end
 
 events.FactionGovernmentTypeChanged[#events.FactionGovernmentTypeChanged+1] =
 function (context)
-	if conditions.FactionIsLocal(context) then
+	if conditions.FactionIsLocal(context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1186_Campaign_Advice_Post_Rebellion_Thread", 1, context)
 		return true
 	end
@@ -4335,7 +4336,7 @@ end
 
 events.PanelAdviceRequestedCampaign[#events.PanelAdviceRequestedCampaign+1] =
 function (context)
-	if conditions.IsComponentType("technology", context) then
+	if conditions.IsComponentType("technology", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1192_Campaign_Advice_UI_Help_Technologies_Thread", 1, context)
 		return true
 	end
@@ -4368,7 +4369,7 @@ end
 
 events.PanelAdviceRequestedCampaign[#events.PanelAdviceRequestedCampaign+1] =
 function (context)
-	if conditions.IsComponentType("missions", context) then
+	if conditions.IsComponentType("missions", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1195_Campaign_Advice_UI_Help_Missions_Thread", 1, context)
 		return true
 	end
@@ -4379,7 +4380,7 @@ end
 
 events.PanelAdviceRequestedCampaign[#events.PanelAdviceRequestedCampaign+1] =
 function (context)
-	if conditions.IsComponentType("government_screens", context) then
+	if conditions.IsComponentType("government_screens", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1196_Campaign_Advice_UI_Help_Government_Thread", 1, context)
 		return true
 	end
@@ -4423,7 +4424,7 @@ end
 
 events.PanelAdviceRequestedCampaign[#events.PanelAdviceRequestedCampaign+1] =
 function (context)
-	if conditions.IsComponentType("region_info", context) then
+	if conditions.IsComponentType("region_info", context) and not conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1200_Campaign_Advice_UI_Help_Regions_Thread", 1, context)
 		return true
 	end
@@ -4555,7 +4556,7 @@ end
 
 events.ComponentLClickUp[#events.ComponentLClickUp+1] =
 function (context)
-	if conditions.IsComponentType("research", context) then
+	if conditions.IsComponentType("research", context) and conditions.CampaignName("natives", context) then
 		effect.advance_contextual_advice_thread("1019_Campaign_Advice_UI_Technology_Panel_Thread", 1, context)
 		return true
 	end
@@ -4611,7 +4612,94 @@ end
 events.DummyEvent[#events.DummyEvent+1] =
 function (context)
 	if n then
-		effect.advance_contextual_advice_thread("2189_Campaign_Advice_Flying_Columns_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 2001_Campaign_Advice_Iroquois_Initial_Turn_Trigger ]]--
+
+events.FactionTurnStart[#events.FactionTurnStart+1] =
+function (context)
+	if conditions.FactionIsLocal(context) and conditions.CampaignName("natives", context) and conditions.TurnNumber(context) == 1 and conditions.FactionName("iroquoi_playable", context) then
+		effect.advance_contextual_advice_thread("2001_Campaign_Advice_Iroquois_Initial_Turn_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 2002_Campaign_Advice_Huron_Initial_Turn_Trigger ]]--
+
+events.FactionTurnStart[#events.FactionTurnStart+1] =
+function (context)
+	if conditions.FactionIsLocal(context) and conditions.CampaignName("natives", context) and conditions.TurnNumber(context) == 1 and conditions.FactionName("huron_playable", context) then
+		effect.advance_contextual_advice_thread("2002_Campaign_Advice_Huron_Initial_Turn_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 2003_Campaign_Advice_Pueblo_Initial_Turn_Trigger ]]--
+
+events.FactionTurnStart[#events.FactionTurnStart+1] =
+function (context)
+	if conditions.FactionIsLocal(context) and conditions.CampaignName("natives", context) and conditions.TurnNumber(context) == 1 and conditions.FactionName("pueblo_playable", context) then
+		effect.advance_contextual_advice_thread("2003_Campaign_Advice_Pueblo_Initial_Turn_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 2004_Campaign_Advice_Plains_Initial_Turn_Trigger ]]--
+
+events.FactionTurnStart[#events.FactionTurnStart+1] =
+function (context)
+	if conditions.FactionIsLocal(context) and conditions.CampaignName("natives", context) and conditions.TurnNumber(context) == 1 and conditions.FactionName("plains_playable", context) then
+		effect.advance_contextual_advice_thread("2004_Campaign_Advice_Plains_Initial_Turn_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 2005_Campaign_Advice_Cherokee_Initial_Turn_Trigger ]]--
+
+events.FactionTurnStart[#events.FactionTurnStart+1] =
+function (context)
+	if conditions.FactionIsLocal(context) and conditions.CampaignName("natives", context) and conditions.TurnNumber(context) == 1 and conditions.FactionName("cherokee_playable", context) then
+		effect.advance_contextual_advice_thread("2005_Campaign_Advice_Cherokee_Initial_Turn_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 2006_Campaign_Advice_Scout_Agent_Trigger ]]--
+
+events.CharacterSelected[#events.CharacterSelected+1] =
+function (context)
+	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("scout", context) then
+		effect.advance_contextual_advice_thread("2006_Campaign_Advice_Scout_Agent_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 2007_Campaign_Advice_Shaman_Agent_Trigger ]]--
+
+events.CharacterSelected[#events.CharacterSelected+1] =
+function (context)
+	if conditions.CharacterIsLocalCampaign(context) and conditions.CharacterType("shaman", context) then
+		effect.advance_contextual_advice_thread("2007_Campaign_Advice_Shaman_Agent_Thread", 1, context)
+		return true
+	end
+	return false
+end
+
+--[[ 2008_Campaign_Advice_Pioneer_Buildings_Trigger ]]--
+
+events.FactionTurnStart[#events.FactionTurnStart+1] =
+function (context)
+	if conditions.FactionIsLocal(context) and conditions.CampaignName("natives", context) and conditions.TurnNumber(context) == 2 then
+		effect.advance_contextual_advice_thread("2008_Campaign_Advice_Pioneer_Buildings_Thread", 1, context)
 		return true
 	end
 	return false

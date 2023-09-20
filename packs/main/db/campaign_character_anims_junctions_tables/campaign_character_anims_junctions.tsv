@@ -163,3 +163,32 @@ key	anim_set_key	anim_status	anim	anim_type	action_id	transition_to_status	idle_
 2082865284	default_human	normal	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Stand_to_Seige.anim	status_transition		attack_trade	0.0000
 2104088271	rake	normal	Animations/MEN/CAMPAIGN/CAM_RAKE/CAM_R_Stand_to_Attack.anim	action	attack_character		0.0000
 2135698240	default_human	siege	Animations/MEN/CAMPAIGN/CAM_CAPTAIN_ON_FOOT/CAM_C_Seige_to_Stand.anim	status_transition		normal	0.0000
+-1503100417	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Idle3.anim	idle			1.0000
+540038213	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Idle5.anim	idle			1.0000
+-1938502110	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Stand_to_Defence.anim	matched_action	assassinate		0.0000
+3852283	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Stand_to_Attack.anim	action	assassinate		0.0000
+1726616394	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Stand_to_Attack.anim	action	assassinate		0.0000
+1157226499	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Stand_to_Attack.anim	action	attack_character		0.0000
+-789638520	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Pistol_Death.anim	action	die_character_shoot		0.0000
+2125230569	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Matched_Stab_Death.anim	action	die_character_stab		0.0000
+-538485770	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Stand_to_Attack.anim	action	duel		0.0000
+-406180289	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Fire_Rifle.anim	action	kill_character_shoot		0.0000
+-120145132	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Fire_Rifle.anim	action	kill_character_stab		0.0000
+181590661	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Idle1.anim	idle			1.0000
+530835298	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Idle2.anim	idle			1.0000
+1829184028	shaman	normal	Animations/MEN/CAMPAIGN/CAM_SHAMAN/CAM_SH_Idle2.anim	idle			1.0000
+-1914296595	shaman	normal	Animations/MEN/CAMPAIGN/CAM_SHAMAN/CAM_SH_Idle3.anim	idle			1.0000
+-1834105430	shaman	normal	Animations/MEN/CAMPAIGN/CAM_SHAMAN/CAM_SH_Idle4.anim	idle			1.0000
+-2136835357	shaman	normal	Animations/MEN/CAMPAIGN/CAM_SHAMAN/CAM_SH_Idle5.anim	idle			1.0000
+548899816	shaman	normal	Animations/MEN/CAMPAIGN/CAM_SHAMAN/CAM_SH_Stand.anim	idle			1.0000
+435554249	shaman	normal	Animations/MEN/CAMPAIGN/CAM_SHAMAN/CAM_SH_Stand_To_Defence.anim	matched_action	assassinate		0.0000
+1618867286	shaman	normal	Animations/MEN/CAMPAIGN/CAM_SHAMAN/CAM_SH_Stand_To_Defence.anim	matched_action	attack_character		0.0000
+120141599	shaman	normal	Animations/MEN/CAMPAIGN/CAM_SHAMAN/CAM_SH_Selected.anim	to_selected			0.0000
+469918816	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Idle4.anim	idle			1.0000
+-202415730	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Stand_to_Defence.anim	matched_action	assassinate		0.0000
+272218615	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Stand_to_Defence.anim	matched_action	attack_character		0.0000
+-1577477524	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Stand_to_Defence.anim	matched_action	duel		0.0000
+949824765	scout	normal	Animations/MEN/CAMPAIGN/CAM_SCOUT/CAM_SC_Selected.anim	to_selected			0.0000
+1993789393	shaman	normal	Animations/MEN/CAMPAIGN/CAM_SHAMAN/CAM_SH_Pistol_Death.anim	action	die_character_shoot		0.0000
+-2118627906	shaman	normal	Animations/MEN/CAMPAIGN/CAM_SHAMAN/CAM_SH_Pistol_Death.anim	action	die_character_stab		0.0000
+-1665245593	shaman	normal	Animations/MEN/CAMPAIGN/CAM_SHAMAN/CAM_SH_Idle1.anim	idle			1.0000

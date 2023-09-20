@@ -11,6 +11,7 @@ cultural_alliance_broken
 declared_war_against_enemies
 declared_war_against_friends
 diplo_character_bonus
+faction_leader
 government_type
 initial_modifier
 peace_treaty
@@ -22,4 +23,3 @@ threatened
 trade
 trade_broken
 war
-faction_leader

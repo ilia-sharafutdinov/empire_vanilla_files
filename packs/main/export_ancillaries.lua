@@ -8,11 +8,323 @@ module(..., package.seeall)
 events = require "data.events"
 -- Ancillary Declarations
 
+--[[ Anc_Fake_Native_Chief_Trigger ]]--
+
+events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterInTheatre(1, context) and conditions.CharacterCultureType("european", context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Fake_Native_Chief", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Mistress_Captive_Wife_1_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterFoughtCulture("european", context) and not conditions.CharacterFoughtCulture("tribal_playable", context) and conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Mistress_Captive_Wife_1", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Mistress_Captive_Wife_2_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterFoughtCulture("european", context) and not conditions.CharacterFoughtCulture("tribal_playable", context) and conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Mistress_Captive_Wife_2", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Slave_Escaped_Girl_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterFoughtCulture("european", context) and not conditions.CharacterFoughtCulture("tribal_playable", context) and conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Slave_Escaped_Girl", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Slave_Escaped_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterFoughtCulture("european", context) and not conditions.CharacterFoughtCulture("tribal_playable", context) and conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Slave_Escaped", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Combat_Tranny_Trigger ]]--
+
+events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.OnAWarFooting(context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Combat_Tranny", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Contrary_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Contrary", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Euro_Cap_Woman_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterFoughtCulture("european", context) and conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Euro_Cap_Woman", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Euro_Captive_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterFoughtCulture("european", context) and conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Euro_Captive", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Euro_Turncoat_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterWonBattle(context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Euro_Turncoat", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Headdress_Trigger ]]--
+
+events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.OnAWarFooting(context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Headdress", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Horse_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterWonBattle(context) and conditions.CharacterTrait("C_Tribal_General_of_Cavalry", context) >= 1 and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Horse", 17,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Medicine_Bag_Trigger ]]--
+
+events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.OnAWarFooting(context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Medicine_Bag", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Peace_Pipe_Trigger ]]--
+
+events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
+function (context)
+	if conditions.IsFactionLeader(context) and conditions.WarEndedCharacterFaction(context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Peace_Pipe", 17,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Stick_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.CharacterFactionName("plains_playable", context) and conditions.CharacterTrait("C_Tribal_General_Bloody", context) < 1 and conditions.CharacterTrait("C_Tribal_General_Plains_Coup", context) >= 1 and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Stick", 17,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Trade_Fur_Trigger ]]--
+
+events.TradeRouteEstablished[#events.TradeRouteEstablished+1] =
+function (context)
+	if (conditions.FactionName("plains_playable", context) or conditions.FactionName("pueblo_playable", context) or conditions.FactionName("cherokee_playable", context) or conditions.FactionName("huron_playable", context) or conditions.FactionName("iroquoi_playable", context)) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Trade_Fur", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Trade_Gentleman_Trigger ]]--
+
+events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal_playable", context) and conditions.OnAWarFooting(context) and conditions.CharacterFoughtCulture("european", context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Trade_Gentleman", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Trade_Gold_Trigger ]]--
+
+events.BuildingCompleted[#events.BuildingCompleted+1] =
+function (context)
+	if conditions.IsFactionLeader(context) and conditions.CharacterBuildingConstructed("tribal_prospectors_camp", context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Trade_Gold", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Trade_Guns_Trigger ]]--
+
+events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
+function (context)
+	if conditions.IsFactionLeader(context) and conditions.CharacterFactionHasTechType("industry_metal_natives_military_gun_dealing", context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Trade_Guns", 17,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Trade_Missionary_Trigger ]]--
+
+events.BuildingCompleted[#events.BuildingCompleted+1] =
+function (context)
+	if conditions.IsFactionLeader(context) and (conditions.CharacterBuildingConstructed("NA_pioneer_01", context) or conditions.CharacterBuildingConstructed("NA_pioneer_02", context) or conditions.CharacterBuildingConstructed("NA_pioneer_03", context)) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Trade_Missionary", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_Turncoat_Native_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and (conditions.CharacterFoughtCulture("tribal", context) or conditions.CharacterFoughtCulture("tribal_playable", context)) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_Turncoat_Native", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_War_Axe_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and (conditions.CharacterFoughtCulture("tribal", context) or conditions.CharacterFoughtCulture("tribal_playable", context)) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_War_Axe", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_War_Lance_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and (conditions.CharacterFoughtCulture("tribal", context) or conditions.CharacterFoughtCulture("tribal_playable", context)) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_War_Lance", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
+--[[ Anc_Tribal_War_Rifle_Trigger ]]--
+
+events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
+function (context)
+	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and conditions.CharacterFoughtCulture("european", context) and conditions.CampaignName("natives", context) then
+		if conditions.DateInRange(1700, 1900, context) then 
+			effect.ancillary("Anc_Tribal_War_Rifle", 8,  context)
+		end
+		return true
+	end
+	return false
+end
+
 --[[ Ancillary_African_Servant_02_Trigger ]]--
 
 events.BuildingCompleted[#events.BuildingCompleted+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("governor_america", context) and conditions.CharacterBuildingConstructed("large_cotton_plantation", context) and conditions.CharacterCultureType("european", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("governor_america", context) and conditions.CharacterBuildingConstructed("large_cotton_plantation", context) and conditions.CharacterCultureType("european", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_African_Servant", 8,  context)
 		end
@@ -25,7 +337,7 @@ end
 
 events.SpyingAttemptSuccess[#events.SpyingAttemptSuccess+1] =
 function (context)
-	if conditions.CharacterInTheatre(2, context) and conditions.CharacterType("rake", context) and (conditions.CharacterFactionName("france", context) or conditions.CharacterFactionName("britain", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterInTheatre(2, context) and conditions.CharacterType("rake", context) and (conditions.CharacterFactionName("france", context) or conditions.CharacterFactionName("britain", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Air_Loom_Operator", 2,  context)
 		end
@@ -38,7 +350,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("rake", context) and not conditions.CharacterCultureType("tribal", context) and (conditions.CharacterFactionName("britain", context) or conditions.CharacterFactionName("france", context)) and conditions.CharacterTrait("C_Agent_Spy_Network", context) == 6 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("rake", context) and not conditions.CharacterCultureType("tribal", context) and (conditions.CharacterFactionName("britain", context) or conditions.CharacterFactionName("france", context)) and conditions.CharacterTrait("C_Agent_Spy_Network", context) == 6 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Air_Loom_Operator", 1,  context)
 		end
@@ -51,7 +363,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterCultureType("european", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.CharacterCultureType("european", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Amazing_Wine_Cellar", 8,  context)
 		end
@@ -64,7 +376,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Amusing_Cad", 8,  context)
 		end
@@ -77,7 +389,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterWonBattle(context) and conditions.CharacterType("General", context) and conditions.CharacterWasAttacker(context) and not conditions.CommanderFoughtInMelee(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterCultureType("european", context) then
+	if conditions.CharacterWonBattle(context) and conditions.CharacterType("General", context) and conditions.CharacterWasAttacker(context) and not conditions.CommanderFoughtInMelee(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterCultureType("european", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_ADC", 1,  context)
 		end
@@ -90,7 +402,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and (conditions.CharacterTrait("C_General_Good_Field_Commander", context) >= 2 or conditions.CharacterTrait("C_General_Defender_Good", context) >= 2 or conditions.CharacterTrait("C_General_Attacker_Good", context) >= 2 or conditions.CharacterTrait("C_General_Ambush_Good", context) >= 2) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and (conditions.CharacterTrait("C_General_Good_Field_Commander", context) >= 2 or conditions.CharacterTrait("C_General_Defender_Good", context) >= 2 or conditions.CharacterTrait("C_General_Attacker_Good", context) >= 2 or conditions.CharacterTrait("C_General_Ambush_Good", context) >= 2) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_ADC", 1,  context)
 		end
@@ -103,7 +415,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterTurnsAtHome(context) >= 2 and conditions.CharacterMPPercentageRemaining(context) >= 90 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterTurnsAtHome(context) >= 2 and conditions.CharacterMPPercentageRemaining(context) >= 90 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_Aide_Nephew", 1,  context)
 		end
@@ -116,7 +428,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_Aide_Nephew", 2,  context)
 		end
@@ -129,7 +441,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and conditions.EnemyArmyGreaterCombatStrength(context) and not conditions.CharacterWasAttacker(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterCultureType("european", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterWonBattle(context) and conditions.EnemyArmyGreaterCombatStrength(context) and not conditions.CharacterWasAttacker(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterCultureType("european", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_Cleric", 2,  context)
 		end
@@ -168,7 +480,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("european", context) and conditions.CharacterWonBattle(context) and conditions.CharacterFoughtCulture("european", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("european", context) and conditions.CharacterWonBattle(context) and conditions.CharacterFoughtCulture("european", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_European_Turncoat", 4,  context)
 		end
@@ -181,7 +493,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterTurnsInEnemyLands(context) >= 1 and conditions.CharacterMPPercentageRemaining(context) <= 17 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterCultureType("european", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterTurnsInEnemyLands(context) >= 1 and conditions.CharacterMPPercentageRemaining(context) <= 17 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterCultureType("european", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_Exploring_Officer", 1,  context)
 		end
@@ -194,7 +506,7 @@ end
 
 events.MovementPointsExhausted[#events.MovementPointsExhausted+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("european", context) and conditions.CharacterTrait("C_General_Scout", context) >= 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("european", context) and conditions.CharacterTrait("C_General_Scout", context) >= 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_Exploring_Officer", 1,  context)
 		end
@@ -207,7 +519,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterWonBattle(context) and conditions.CharacterType("General", context) and conditions.CharacterWasAttacker(context) and conditions.CommanderFoughtInMelee(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterCultureType("european", context) then
+	if conditions.CharacterWonBattle(context) and conditions.CharacterType("General", context) and conditions.CharacterWasAttacker(context) and conditions.CommanderFoughtInMelee(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterCultureType("european", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_Galloper", 1,  context)
 		end
@@ -233,7 +545,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterWasAttacker(context) and (conditions.CharacterTurnsInEnemyLands(context) >= 1 or conditions.CharacterTurnsAtHome(context) >= 1) and conditions.CharacterWonBattle(context) and conditions.BattleResult("crushing_victory", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterWasAttacker(context) and (conditions.CharacterTurnsInEnemyLands(context) >= 1 or conditions.CharacterTurnsAtHome(context) >= 1) and conditions.CharacterWonBattle(context) and conditions.BattleResult("crushing_victory", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_Hagiographer", 2,  context)
 		end
@@ -246,7 +558,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and conditions.BattlesFought(8, context) and conditions.CharacterTrait("C_General_Good_Field_Commander", context) >= 3 and conditions.CharacterTrait("C_General_Press_Hero", context) >= 2 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and conditions.BattlesFought(8, context) and conditions.CharacterTrait("C_General_Good_Field_Commander", context) >= 3 and conditions.CharacterTrait("C_General_Press_Hero", context) >= 2 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_Hagiographer", 1,  context)
 		end
@@ -259,7 +571,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and  (conditions.CharacterCultureType("european", context) or conditions.CharacterCultureType("middle_east", context)) and conditions.CharacterInTheatre(3, context) and conditions.CharacterWonBattle(context) and conditions.CommanderFoughtInMelee(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and (conditions.CharacterCultureType("european", context) or conditions.CharacterCultureType("middle_east", context)) and conditions.CharacterInTheatre(3, context) and conditions.CharacterWonBattle(context) and conditions.CommanderFoughtInMelee(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_Loyal_Sowar", 2,  context)
 		end
@@ -324,7 +636,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterTrait("C_General_Scout", context) == 1 and conditions.CharacterTurnsInEnemyLands(context) >= 0 and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterTrait("C_General_Scout", context) == 1 and conditions.CharacterTurnsInEnemyLands(context) >= 0 and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_Military_Surveyor", 2,  context)
 		end
@@ -337,7 +649,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterFactionName("ottomans", context) and conditions.CharacterFoughtCulture("middle_east", context) and conditions.CharacterWonBattle(context) and conditions.BattleResult("major_victory", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not  conditions.CharacterCultureType("tribal", context) then
+	if conditions.CharacterType("General", context) and not conditions.CharacterFactionName("ottomans", context) and conditions.CharacterFoughtCulture("middle_east", context) and conditions.CharacterWonBattle(context) and conditions.BattleResult("major_victory", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_Ottoman_Turncoat", 17,  context)
 		end
@@ -363,7 +675,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterTurnsInEnemyLands(context) >= 3 and conditions.CharacterTrait("C_General_Martinet", context) <= 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterTurnsInEnemyLands(context) >= 3 and conditions.CharacterTrait("C_General_Martinet", context) <= 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_Quartermaster", 1,  context)
 		end
@@ -376,7 +688,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterWonBattle(context) and conditions.CharacterTrait("C_General_Bloody", context) <= 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterWonBattle(context) and conditions.CharacterTrait("C_General_Bloody", context) <= 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_Surgeon", 2,  context)
 		end
@@ -389,7 +701,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal", context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterCultureType("tribal", context) and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_Tribal_Shaman", 2,  context)
 		end
@@ -402,7 +714,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterTurnsInEnemyLands(context) >= 1 and conditions.CharacterAttribute("command_land", context) >= 3 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterTurnsInEnemyLands(context) >= 1 and conditions.CharacterAttribute("command_land", context) >= 3 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Army_Waggonmaster", 1,  context)
 		end
@@ -454,7 +766,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterTurnsAtHome(context) >= 1 and not conditions.FactionGovernmentType("gov_republic", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("indian", context) and not conditions.CharacterCultureType("tribal", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterTurnsAtHome(context) >= 1 and not conditions.FactionGovernmentType("gov_republic", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("indian", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Barber", 1,  context)
 		end
@@ -467,7 +779,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and  conditions.CharacterCultureType("european", context) and conditions.CharacterFoughtCulture("tribal", context) and conditions.CharacterInTheatre(1, context) and conditions.CharacterTurnsInEnemyLands(context) >= 1 and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and  conditions.CharacterCultureType("european", context) and conditions.CharacterFoughtCulture("tribal", context) and conditions.CharacterInTheatre(1, context) and conditions.CharacterTurnsInEnemyLands(context) >= 1 and conditions.CharacterWonBattle(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Blood_Brother", 2,  context)
 		end
@@ -597,7 +909,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if (conditions.CharacterType("General", context) or conditions.CharacterType("admiral", context)) and conditions.CharacterCultureType("indian", context) and conditions.CharacterFoughtCulture("european", context) or (conditions.CharacterInTheatre(836795134, context) or conditions.CharacterInTheatre(-1133129049, context))  and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if (conditions.CharacterType("General", context) or conditions.CharacterType("admiral", context)) and conditions.CharacterCultureType("indian", context) and conditions.CharacterFoughtCulture("european", context) or (conditions.CharacterInTheatre(836795134, context) or conditions.CharacterInTheatre(-1133129049, context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_European_Captive_Ferang", 4,  context)
 		end
@@ -610,7 +922,7 @@ end
 
 events.SufferSpyingAttempt[#events.SufferSpyingAttempt+1] =
 function (context)
-	if (conditions.IsFactionLeader(context) or conditions.IsFactionLeaderFemale(context)) and conditions.CharacterAttribute("management", context) >= 3 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not  conditions.CharacterCultureType("european", context) and not conditions.CharacterCultureType("tribal", context) then
+	if (conditions.IsFactionLeader(context) or conditions.IsFactionLeaderFemale(context)) and conditions.CharacterAttribute("management", context) >= 3 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("european", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Foodtaster", 8,  context)
 		end
@@ -636,7 +948,7 @@ end
 
 events.BuildingCompleted[#events.BuildingCompleted+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and (conditions.IsFactionLeader(context) or conditions.CharacterMinisterialPosition("finance", context)) and conditions.CharacterBuildingConstructed("imperial_palace", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.CharacterType("minister", context) and (conditions.IsFactionLeader(context) or conditions.CharacterMinisterialPosition("finance", context)) and conditions.CharacterBuildingConstructed("imperial_palace", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Government_Architect", 4,  context)
 		end
@@ -649,7 +961,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and (conditions.IsFactionLeader(context) or conditions.IsFactionLeaderFemale(context)) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterTrait("C_Leader_Foreign_Tastes", context) >= 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("minister", context) and (conditions.IsFactionLeader(context) or conditions.IsFactionLeaderFemale(context)) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterTrait("C_Leader_Foreign_Tastes", context) >= 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Government_Architect", 1,  context)
 		end
@@ -688,7 +1000,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and not conditions.IsFactionLeaderFemale(context) and not conditions.CharacterCultureType("tribal", context) and (conditions.CharacterTrait("C_Minister_Entertainer", context) >= 2 or conditions.CharacterTrait("C_Minister_Industrialist", context) >= 2) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterCultureType("european", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and not conditions.IsFactionLeaderFemale(context) and not conditions.CharacterCultureType("tribal", context) and (conditions.CharacterTrait("C_Minister_Entertainer", context) >= 2 or conditions.CharacterTrait("C_Minister_Industrialist", context) >= 2) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterCultureType("european", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Government_Controller", 1,  context)
 		end
@@ -740,7 +1052,7 @@ end
 
 events.SufferSpyingAttempt[#events.SufferSpyingAttempt+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterCultureType("indian", context) and conditions.CharacterCultureType("middle_east", context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and (conditions.CharacterCultureType("indian", context) or conditions.CharacterCultureType("middle_east", context)) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Government_Executioner_Nasty", 1,  context)
 		end
@@ -753,7 +1065,7 @@ end
 
 events.SufferSpyingAttempt[#events.SufferSpyingAttempt+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and not conditions.CharacterCultureType("european", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and not conditions.CharacterCultureType("european", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Government_Executioner_Nasty", 8,  context)
 		end
@@ -779,7 +1091,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and (conditions.IsFactionLeader(context) or conditions.CharacterMinisterialPosition("justice", context)) and conditions.InsurrectionCrushed(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) then
+	if conditions.CharacterType("minister", context) and (conditions.IsFactionLeader(context) or conditions.CharacterMinisterialPosition("justice", context)) and conditions.InsurrectionCrushed(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Government_Secret_Policeman", 1,  context)
 		end
@@ -792,7 +1104,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and not conditions.CharacterCultureType("tribal", context) and (conditions.CharacterTrait("C_Minister_Unjust", context) >= 2 or conditions.FactionLeadersTrait("C_Leader_Harsh_Ruler", context) >= 1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and not conditions.CharacterCultureType("tribal", context) and (conditions.CharacterTrait("C_Minister_Unjust", context) >= 2 or conditions.FactionLeadersTrait("C_Leader_Harsh_Ruler", context) >= 1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Government_Secret_Policeman", 1,  context)
 		end
@@ -805,7 +1117,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and conditions.CharacterHoldsPost(context) and conditions.FactionLeadersTrait("C_Leader_Merit", context) >= 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) then
+	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and conditions.CharacterHoldsPost(context) and conditions.FactionLeadersTrait("C_Leader_Merit", context) >= 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Government_Secretary_Efficient", 8,  context)
 		end
@@ -818,7 +1130,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and conditions.CharacterHoldsPost(context) and not conditions.IsFactionLeaderFemale(context) and not conditions.CharacterCultureType("tribal", context) and (conditions.CharacterTrait("C_Minister_Fiscal_Genius", context) >= 1 or conditions.FactionLeadersTrait("C_Leader_Intellectual_Pretensions", context) >= 1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and conditions.CharacterHoldsPost(context) and not conditions.IsFactionLeaderFemale(context) and not conditions.CharacterCultureType("tribal", context) and (conditions.CharacterTrait("C_Minister_Fiscal_Genius", context) >= 1 or conditions.FactionLeadersTrait("C_Leader_Intellectual_Pretensions", context) >= 1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Government_Secretary_Efficient", 1,  context)
 		end
@@ -831,7 +1143,7 @@ end
 
 events.CharacterCreated[#events.CharacterCreated+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and conditions.CharacterHoldsPost(context) and conditions.FactionLeadersTrait("C_Leader_Favourites", context) >= 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) then
+	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and conditions.CharacterHoldsPost(context) and conditions.FactionLeadersTrait("C_Leader_Favourites", context) >= 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Government_Secretary_Gobby", 8,  context)
 		end
@@ -844,7 +1156,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and conditions.CharacterHoldsPost(context) and not conditions.IsFactionLeaderFemale(context) and not conditions.CharacterCultureType("tribal", context) and (conditions.FactionLeadersTrait("C_Leader_M", context) >= 1 or conditions.FactionLeadersTrait("C_Leader_Mr_Waverley", context) >= 1 or conditions.CharacterTrait("C_Minister_Corrupt", context) >= 1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and conditions.CharacterHoldsPost(context) and not conditions.IsFactionLeaderFemale(context) and not conditions.CharacterCultureType("tribal", context) and (conditions.FactionLeadersTrait("C_Leader_M", context) >= 1 or conditions.FactionLeadersTrait("C_Leader_Mr_Waverley", context) >= 1 or conditions.CharacterTrait("C_Minister_Corrupt", context) >= 1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Government_Secretary_Gobby", 1,  context)
 		end
@@ -857,7 +1169,7 @@ end
 
 events.SpyingAttemptSuccess[#events.SpyingAttemptSuccess+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and (conditions.IsFactionLeader(context) or conditions.CharacterMinisterialPosition("head_of_government", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not  conditions.CharacterCultureType("tribal", context) then
+	if conditions.CharacterType("minister", context) and (conditions.IsFactionLeader(context) or conditions.CharacterMinisterialPosition("head_of_government", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Government_Spymaster", 8,  context)
 		end
@@ -870,7 +1182,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and not conditions.CharacterCultureType("tribal", context) and (conditions.FactionLeadersTrait("C_Leader_M", context) >= 1 or conditions.FactionLeadersTrait("C_Leader_Mr_Waverley", context) >= 1 or conditions.FactionLeadersTrait("C_Leader_Harsh_Ruler", context) >= 1 or conditions.FactionLeadersTrait("C_Leader_Agent_99", context) >= 1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and not conditions.CharacterCultureType("tribal", context) and (conditions.FactionLeadersTrait("C_Leader_M", context) >= 1 or conditions.FactionLeadersTrait("C_Leader_Mr_Waverley", context) >= 1 or conditions.FactionLeadersTrait("C_Leader_Harsh_Ruler", context) >= 1 or conditions.FactionLeadersTrait("C_Leader_Agent_99", context) >= 1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Government_Spymaster", 1,  context)
 		end
@@ -883,7 +1195,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterCultureType("european", context) and (conditions.IsFactionLeader(context) or conditions.CharacterMinisterialPosition("justice", context)) and conditions.CharacterAttribute("management", context) >= 3 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterCultureType("european", context) and (conditions.IsFactionLeader(context) or conditions.CharacterMinisterialPosition("justice", context)) and conditions.CharacterAttribute("management", context) >= 3 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Government_Thieftaker", 1,  context)
 		end
@@ -922,7 +1234,7 @@ end
 
 events.SufferAssassinationAttempt[#events.SufferAssassinationAttempt+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and (conditions.IsFactionLeader(context) or conditions.CharacterMinisterialPosition("justice", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not  conditions.CharacterCultureType("european", context) and not conditions.CharacterCultureType("tribal", context) then
+	if conditions.CharacterType("minister", context) and (conditions.IsFactionLeader(context) or conditions.CharacterMinisterialPosition("justice", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not  conditions.CharacterCultureType("european", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Government_Wrestler", 8,  context)
 		end
@@ -948,7 +1260,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterWonBattle(context) and conditions.CharacterInTheatre(1, context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("General", context) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterWonBattle(context) and conditions.CharacterInTheatre(1, context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Grizzly_Adams", 2,  context)
 		end
@@ -961,7 +1273,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.FactionDestroyedByCharacterFaction(context) and conditions.IsFactionLeader(context) and (conditions.CharacterTrait("C_Leader_Dullard", context) < 1 or conditions.CharacterTrait("C_Leader_Enlightened_Despot", context) == 1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not  conditions.CharacterCultureType("tribal", context) then
+	if conditions.FactionDestroyedByCharacterFaction(context) and conditions.IsFactionLeader(context) and (conditions.CharacterTrait("C_Leader_Dullard", context) < 1 or conditions.CharacterTrait("C_Leader_Enlightened_Despot", context) == 1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Historian", 1,  context)
 		end
@@ -1026,7 +1338,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and conditions.InsurrectionCrushed(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("indian", context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and conditions.InsurrectionCrushed(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("indian", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Justice_Witness", 1,  context)
 		end
@@ -1039,7 +1351,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and (conditions.CharacterTrait("C_Minister_Unjust", context) >= 1 or conditions.FactionLeadersTrait("C_Leader_Harsh_Ruler", context) >= 1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("indian", context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and (conditions.CharacterTrait("C_Minister_Unjust", context) >= 1 or conditions.FactionLeadersTrait("C_Leader_Harsh_Ruler", context) >= 1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("indian", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Justice_Witness", 1,  context)
 		end
@@ -1169,7 +1481,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if (conditions.CharacterType("minister", context) or conditions.CharacterType("gentleman", context)) and not conditions.IsFactionLeaderFemale(context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if (conditions.CharacterType("minister", context) or conditions.CharacterType("gentleman", context)) and not conditions.IsFactionLeaderFemale(context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Mistress_Gorgeous", 1,  context)
 		end
@@ -1309,7 +1621,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("navy", context) and conditions.CharacterAttribute("management", context) > 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("navy", context) and conditions.CharacterAttribute("management", context) > 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Navy_Naval_Surveryor", 1,  context)
 		end
@@ -1335,7 +1647,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("admiral", context) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterTrait("C_Admiral_Slacker", context) < 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("admiral", context) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterTrait("C_Admiral_Slacker", context) < 1 and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Navy_Purser", 1,  context)
 		end
@@ -1348,7 +1660,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("admiral", context) and not conditions.CharacterCultureType("tribal", context) and (conditions.CharacterInTheatre(-1133129049, context) or conditions.CharacterInTheatre(836795134, context) or conditions.CharacterInTheatre(1197997136, context) or conditions.CharacterInTheatre(2113354257, context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("admiral", context) and not conditions.CharacterCultureType("tribal", context) and (conditions.CharacterInTheatre(-1133129049, context) or conditions.CharacterInTheatre(836795134, context) or conditions.CharacterInTheatre(1197997136, context) or conditions.CharacterInTheatre(2113354257, context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Navy_Sailing_Master", 1,  context)
 		end
@@ -1361,7 +1673,7 @@ end
 
 events.CharacterCompletedBattle[#events.CharacterCompletedBattle+1] =
 function (context)
-	if conditions.CharacterType("admiral", context) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterWonBattle(context) and conditions.BattleResult("pyrrhic_victory", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("admiral", context) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterWonBattle(context) and conditions.BattleResult("pyrrhic_victory", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Navy_Surgeon", 8,  context)
 		end
@@ -1387,7 +1699,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and conditions.CharacterMinisterialPosition("finance", context) and (conditions.CharacterTrait("C_Minister_Corrupt", context) >= 1 or conditions.CharacterTrait("C_Minister_Miser", context) >= 1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.CharacterType("minister", context) and not conditions.IsFactionLeader(context) and conditions.CharacterMinisterialPosition("finance", context) and (conditions.CharacterTrait("C_Minister_Corrupt", context) >= 1 or conditions.CharacterTrait("C_Minister_Miser", context) >= 1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Numismatist", 1,  context)
 		end
@@ -1439,7 +1751,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("General", context) and conditions.CharacterTrait("C_General_Slacker", context) >= 1 and conditions.NoActionThisTurn(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) then
+	if conditions.CharacterType("General", context) and conditions.CharacterTrait("C_General_Slacker", context) >= 1 and conditions.NoActionThisTurn(context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Personal_Physician", 1,  context)
 		end
@@ -1452,7 +1764,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if (conditions.CharacterType("rake", context) or conditions.CharacterType("assassin", context)) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterInTheatre(3, context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) then
+	if (conditions.CharacterType("rake", context) or conditions.CharacterType("assassin", context)) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterInTheatre(3, context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Pet_Monkey", 1,  context)
 		end
@@ -1465,7 +1777,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and conditions.CharacterFactionSubcultureType("sc_indian_hindu", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("european", context) and not conditions.CharacterCultureType("middle_east", context) and not conditions.CharacterCultureType("tribal", context) then
+	if conditions.CharacterType("minister", context) and conditions.IsFactionLeader(context) and conditions.CharacterFactionSubcultureType("sc_indian_hindu", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("european", context) and not conditions.CharacterCultureType("middle_east", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Pet_Sacred_Cow", 1,  context)
 		end
@@ -1505,7 +1817,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and conditions.InsurrectionCrushed(context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("justice", context) and conditions.InsurrectionCrushed(context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Police_Torturer", 1,  context)
 		end
@@ -1622,7 +1934,7 @@ end
 
 events.ResearchCompleted[#events.ResearchCompleted+1] =
 function (context)
-	if conditions.CharacterType("gentleman", context) and (conditions.CharacterInBuildingOfChain("education", context) or conditions.CharacterTurnsAtHome(context) >= 1) and not conditions.CharacterCultureType("indian", context) and not  conditions.CharacterCultureType("middle_east", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
+	if conditions.CharacterType("gentleman", context) and (conditions.CharacterInBuildingOfChain("education", context) or conditions.CharacterTurnsAtHome(context) >= 1) and not conditions.CharacterCultureType("indian", context) and not conditions.CharacterCultureType("middle_east", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Research_Librarian", 2,  context)
 		end
@@ -1648,7 +1960,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if (conditions.CharacterType("gentleman", context) or conditions.CharacterType("Eastern_Scholar", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) then
+	if (conditions.CharacterType("gentleman", context) or conditions.CharacterType("Eastern_Scholar", context)) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Research_Lunatic_Jack", 1,  context)
 		end
@@ -1674,7 +1986,7 @@ end
 
 events.CharacterTurnEnd[#events.CharacterTurnEnd+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("finance", context) and (conditions.CharacterTrait("C_Minister_Miser", context) >= 1 or conditions.CharacterAttribute("management", context) >= 3) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.CharacterType("minister", context) and conditions.CharacterMinisterialPosition("finance", context) and (conditions.CharacterTrait("C_Minister_Miser", context) >= 1 or conditions.CharacterAttribute("management", context) >= 3) and not conditions.CharacterCultureType("tribal", context) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Ancillary_Tax_Farmer", 1,  context)
 		end
@@ -1768,7 +2080,7 @@ end
 
 events.SufferSpyingAttempt[#events.SufferSpyingAttempt+1] =
 function (context)
-	if conditions.CharacterType("minister", context) and (conditions.CharacterMinisterialPosition("head_of_government", context) or conditions.CharacterMinisterialPosition("justice", context)) and (conditions.FactionLeadersTrait("C_Leader_M", context) >= 1 or conditions.FactionLeadersTrait("C_Leader_Mr_Waverley", context) >=1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterIsLocalCampaign(context) then
+	if conditions.CharacterType("minister", context) and (conditions.CharacterMinisterialPosition("head_of_government", context) or conditions.CharacterMinisterialPosition("justice", context)) and (conditions.FactionLeadersTrait("C_Leader_M", context) >= 1 or conditions.FactionLeadersTrait("C_Leader_Mr_Waverley", context) >=1) and not conditions.CampaignName("episodic_1", context) and not conditions.CampaignName("episodic_3", context) and not conditions.CharacterCultureType("tribal", context) and conditions.CharacterIsLocalCampaign(context) and not conditions.CharacterCultureType("tribal_playable", context) then
 		if conditions.DateInRange(1700, 1900, context) then 
 			effect.ancillary("Government_Spying_Locksmith", 4,  context)
 		end
