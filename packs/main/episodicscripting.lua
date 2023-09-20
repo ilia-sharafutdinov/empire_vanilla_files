@@ -101,7 +101,7 @@ local m_starting_configuration =	{
 										["natives"] =
 										{
 											["Features"]			= { "use_regular_advice" },
-											["Hidden"]				= { "radar arrow L", "radar arrow R", "globe"},
+											["Hidden"]				= { "army_fort", "radar arrow L", "radar arrow R", "globe"},
 											["Disabled"]			= { },
 											["Building"]			= { },
 											["Unit"]				= { },
