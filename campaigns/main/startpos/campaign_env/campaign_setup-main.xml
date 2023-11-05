@@ -29,7 +29,7 @@
      </rec>
      <s>thirteen_colonies</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -59,7 +59,7 @@
      </rec>
      <s>louisiana</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -119,7 +119,7 @@
      </rec>
      <s>new_spain</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -839,7 +839,7 @@
      </rec>
      <s>pirates</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>

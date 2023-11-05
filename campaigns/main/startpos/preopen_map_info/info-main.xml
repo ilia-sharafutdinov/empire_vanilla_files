@@ -28,7 +28,7 @@
      </rec>
      <s>thirteen_colonies</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -58,7 +58,7 @@
      </rec>
      <s>louisiana</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -118,7 +118,7 @@
      </rec>
      <s>new_spain</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -838,7 +838,7 @@
      </rec>
      <s>pirates</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -875,7 +875,7 @@
    <s>thirteen_colonies</s>
    <s>ui/portraits/european/cards/minister/old/248.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>2</i>
    <s>start_pos_factions_description_-367819335</s>
    <s>data\ui\flags\george_washington</s>
@@ -895,7 +895,7 @@
    <s>louisiana</s>
    <s>ui/portraits/european/cards/minister/young/113.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>4</i>
    <s>start_pos_factions_description_-476511405</s>
    <s>data\ui\flags\louisiana</s>
@@ -935,7 +935,7 @@
    <s>new_spain</s>
    <s>ui/portraits/european/cards/king/old/037.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>8</i>
    <s>start_pos_factions_description_1087551366</s>
    <s>data\ui\flags\new_spain</s>

@@ -11,7 +11,7 @@
   </rec>
   <s>new_spain</s>
   <no/>
-  <no/><!-- Playable -->
+  <yes/><!-- Playable -->
   <no/>
  </rec>
  <rec type="FACTION_ECONOMICS">
