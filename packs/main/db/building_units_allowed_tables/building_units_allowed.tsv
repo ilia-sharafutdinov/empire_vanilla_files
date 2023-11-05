@@ -235,7 +235,6 @@ army_encampment	east_ethnic_swordsmen_fellahin	0
 army_encampment	east_ethnic_swordsmen_hindu_warriors	0	
 army_encampment	east_lancers_silladar	0	
 army_encampment	east_pikemen_zamindari	0	
-army_encampment	east_sikh_infantry_musketeers	0	
 army_encampment	euro_carabiniers	0	
 army_encampment	euro_dragoons	0	
 army_encampment	euro_dragoons_colonial	0	
@@ -521,6 +520,7 @@ drill_school	east_ethnic_musketmen_mughal_musketeers	0
 drill_school	east_ethnic_swordsmen_fellahin	0	
 drill_school	east_ethnic_swordsmen_hindu_warriors	0	
 drill_school	east_ethnic_swordsmen_islamic_swordsmen	0	
+drill_school	east_lancers	0	
 drill_school	east_lancers_bargir	0	
 drill_school	east_lancers_silladar	0	
 drill_school	east_light_cavalry_qizilbashi	0	
@@ -749,7 +749,6 @@ governors_mansion	euro_light_infantry_miquelets	0
 governors_mansion	euro_militia_infantry	0	
 governors_mansion	euro_militia_infantry_colonial_militia	0	
 governors_mansion	euro_militia_infantry_provincial_infantry	0	
-governors_mansion	euro_pikemen_colonial	0	
 governors_mansion	euro_republican_conscript_infantry	0	
 governors_mansion	gorodskiye_streltsy	0	
 governors_mansion	guerillas	0	
@@ -793,7 +792,6 @@ governors_palace	euro_light_infantry_miquelets	0
 governors_palace	euro_militia_infantry	0	
 governors_palace	euro_militia_infantry_colonial_militia	0	
 governors_palace	euro_militia_infantry_provincial_infantry	0	
-governors_palace	euro_pikemen_colonial	0	
 governors_palace	euro_republican_conscript_infantry	0	
 governors_palace	gorodskiye_streltsy	0	
 governors_palace	guerillas	0	
@@ -840,7 +838,6 @@ governors_residence	euro_light_infantry_miquelets	0
 governors_residence	euro_militia_infantry	0	
 governors_residence	euro_militia_infantry_colonial_militia	0	
 governors_residence	euro_militia_infantry_provincial_infantry	0	
-governors_residence	euro_pikemen_colonial	0	
 governors_residence	euro_republican_conscript_infantry	0	
 governors_residence	gorodskiye_streltsy	0	
 governors_residence	guerillas	0	
@@ -903,7 +900,6 @@ imperial_palace	euro_light_infantry_miquelets	0
 imperial_palace	euro_militia_infantry	0	
 imperial_palace	euro_militia_infantry_colonial_militia	0	
 imperial_palace	euro_militia_infantry_provincial_infantry	0	
-imperial_palace	euro_pikemen_colonial	0	
 imperial_palace	euro_republican_conscript_infantry	0	
 imperial_palace	gorodskiye_streltsy	0	
 imperial_palace	guerillas	0	
@@ -961,7 +957,6 @@ magistrate	euro_light_infantry_barbets	0
 magistrate	euro_light_infantry_miquelets	0	
 magistrate	euro_militia_infantry	0	
 magistrate	euro_militia_infantry_colonial_militia	0	
-magistrate	euro_pikemen_colonial	0	
 magistrate	euro_republican_conscript_infantry	0	
 magistrate	gorodskiye_streltsy	0	
 magistrate	highland_clansmen	0	
@@ -1136,15 +1131,18 @@ minor_governors_barracks	cossack_infantry	0
 minor_governors_barracks	deli_scouts	0	
 minor_governors_barracks	east_camel_gunners	0	
 minor_governors_barracks	east_desert_nomad_camelry	0	
+minor_governors_barracks	desert_warriors	0	
 minor_governors_barracks	east_ethnic_hillmen_musketeers	0	
 minor_governors_barracks	east_ethnic_hillmen_musketeers_afghan	0	
 minor_governors_barracks	east_ethnic_hillmen_musketeers_kurdish	0	
 minor_governors_barracks	east_ethnic_musketeers_bargir	0	
+minor_governors_barracks	east_ethnic_musketmen_fellahin_musketeers	0	
 minor_governors_barracks	east_ethnic_musketmen_hindu_musketeers	0	
 minor_governors_barracks	east_ethnic_musketmen_isarelys	0	
 minor_governors_barracks	east_ethnic_swordsmen_fellahin	0	
 minor_governors_barracks	east_ethnic_swordsmen_hindu_warriors	0	
 minor_governors_barracks	east_ethnic_swordsmen_islamic_swordsmen	0	
+minor_governors_barracks	east_ethnic_warriors_barbary_pirates	0	
 minor_governors_barracks	east_ethnic_warriors_dervishes	0	
 minor_governors_barracks	east_irregular_cavalry_pindari	0	
 minor_governors_barracks	east_lancers_silladar	0	
@@ -1212,7 +1210,6 @@ minor_governors_barracks	euro_line_infantry_venice	0
 minor_governors_barracks	euro_militia_infantry	0	
 minor_governors_barracks	euro_militia_infantry_colonial_militia	0	
 minor_governors_barracks	euro_militia_infantry_minutemen	0	
-minor_governors_barracks	euro_pikemen_colonial	0	
 minor_governors_barracks	euro_provincial_cavalry	0	
 minor_governors_barracks	euro_provincial_cavalry_gendarmerie	0	
 minor_governors_barracks	euro_provincial_cavalry_yeomanry	0	
@@ -1239,6 +1236,7 @@ minor_governors_barracks	sp_ed_dahomey_amazon	0
 minor_governors_barracks	sp_ed_ghoorkas	0	
 minor_governors_barracks	sp_ed_guerillas	0	
 minor_governors_barracks	sp_ed_rogers_rangers	0	
+minor_governors_barracks	steppe_cavalry_tatars_crimean	0	
 minor_governors_barracks	steppe_cavalry_tatars_ottoman	0	
 minor_governors_barracks	viborniye_streltsy	0	
 minor_governors_encampment	12_lber_land_cannon	0	
@@ -1258,14 +1256,16 @@ minor_governors_encampment	cossack_infantry	0
 minor_governors_encampment	deli_scouts	0	
 minor_governors_encampment	east_camel_gunners	0	
 minor_governors_encampment	east_desert_nomad_camelry	0	
+minor_governors_encampment	desert_warriors	0	
+minor_governors_encampment	east_ethnic_musketmen_fellahin_musketeers	0	
 minor_governors_encampment	east_ethnic_musketmen_hindu_musketeers	0	
 minor_governors_encampment	east_ethnic_swordsmen_fellahin	0	
 minor_governors_encampment	east_ethnic_swordsmen_hindu_warriors	0	
 minor_governors_encampment	east_ethnic_warriors_dervishes	0	
+minor_governors_encampment	east_ethnic_warriors_barbary_pirates	0	
 minor_governors_encampment	east_irregular_cavalry_pindari	0	
 minor_governors_encampment	east_lancers_silladar	0	
 minor_governors_encampment	east_pikemen_zamindari	0	
-minor_governors_encampment	east_sikh_infantry_musketeers	0	
 minor_governors_encampment	euro_carabiniers	0	
 minor_governors_encampment	euro_dragoons	0	
 minor_governors_encampment	euro_dragoons_colonial	0	
@@ -1276,7 +1276,6 @@ minor_governors_encampment	euro_expat_infantry_regiments_etrangeres	0
 minor_governors_encampment	euro_militia_infantry	0	
 minor_governors_encampment	euro_militia_infantry_colonial_militia	0	
 minor_governors_encampment	euro_militia_infantry_minutemen	0	
-minor_governors_encampment	euro_pikemen_colonial	0	
 minor_governors_encampment	euro_provincial_cavalry	0	
 minor_governors_encampment	euro_provincial_cavalry_gendarmerie	0	
 minor_governors_encampment	euro_provincial_cavalry_yeomanry	0	
@@ -1295,6 +1294,7 @@ minor_governors_encampment	sp_ed_dahomey_amazon	0
 minor_governors_encampment	sp_ed_ghoorkas	0	
 minor_governors_encampment	sp_ed_guerillas	0	
 minor_governors_encampment	steppe_cavalry_tatars_ottoman	0	
+minor_governors_encampment	steppe_cavalry_tatars_crimean	0	
 minor_governors_encampment	viborniye_streltsy	0	
 minor_governors_mansion	african_slaver_musketeers	0	
 minor_governors_mansion	african_tribal_spearmen	0	
@@ -1302,6 +1302,7 @@ minor_governors_mansion	americas_hessian_infantry	0
 minor_governors_mansion	americas_militia_infantry	0	
 minor_governors_mansion	americas_provincial_cavalry	0	
 minor_governors_mansion	armed_peasantry	0	
+minor_governors_mansion	armed_peasantry_bhumiya	0	
 minor_governors_mansion	armed_peasantry_semenys	0	
 minor_governors_mansion	bashibazouks	0	
 minor_governors_mansion	cossack_cavalry	0	
@@ -1325,7 +1326,6 @@ minor_governors_mansion	euro_light_infantry_miquelets	0
 minor_governors_mansion	euro_militia_infantry	0	
 minor_governors_mansion	euro_militia_infantry_colonial_militia	0	
 minor_governors_mansion	euro_militia_infantry_provincial_infantry	0	
-minor_governors_mansion	euro_pikemen_colonial	0	
 minor_governors_mansion	euro_provincial_cavalry	0	
 minor_governors_mansion	euro_provincial_cavalry_gendarmerie	0	
 minor_governors_mansion	euro_provincial_cavalry_yeomanry	0	
@@ -1372,7 +1372,6 @@ minor_governors_palace	euro_light_infantry_miquelets	0
 minor_governors_palace	euro_militia_infantry	0	
 minor_governors_palace	euro_militia_infantry_colonial_militia	0	
 minor_governors_palace	euro_militia_infantry_provincial_infantry	0	
-minor_governors_palace	euro_pikemen_colonial	0	
 minor_governors_palace	euro_provincial_cavalry	0	
 minor_governors_palace	euro_provincial_cavalry_gendarmerie	0	
 minor_governors_palace	euro_provincial_cavalry_yeomanry	0	
@@ -1422,7 +1421,6 @@ minor_governors_residence	euro_light_infantry_miquelets	0
 minor_governors_residence	euro_militia_infantry	0	
 minor_governors_residence	euro_militia_infantry_colonial_militia	0	
 minor_governors_residence	euro_militia_infantry_provincial_infantry	0	
-minor_governors_residence	euro_pikemen_colonial	0	
 minor_governors_residence	euro_provincial_cavalry	0	
 minor_governors_residence	euro_provincial_cavalry_gendarmerie	0	
 minor_governors_residence	euro_provincial_cavalry_yeomanry	0	
@@ -1510,6 +1508,9 @@ minor_royal_palace	deli_scouts	1
 minor_royal_palace	desert_warriors	0	
 minor_royal_palace	east_camel_gunners	0	
 minor_royal_palace	east_desert_nomad_camelry	0	
+minor_royal_palace	east_ethnic_hillmen_musketeers	0	
+minor_royal_palace	east_ethnic_hillmen_musketeers_afghan	0	
+minor_royal_palace	east_ethnic_hillmen_musketeers_kurdish	0	
 minor_royal_palace	east_ethnic_musketeers_bargir	0	
 minor_royal_palace	east_ethnic_musketmen_fellahin_musketeers	0	
 minor_royal_palace	east_ethnic_musketmen_hindu_musketeers	1	
@@ -1525,6 +1526,8 @@ minor_royal_palace	east_missile_cavalry_zamindari	0
 minor_royal_palace	east_pikemen_zamindari	1	
 minor_royal_palace	east_sikh_infantry_musketeers	1	
 minor_royal_palace	east_sikh_warriors	1	
+minor_royal_palace	elite_hungarian_grenadiers	0	
+minor_royal_palace	elite_legion_united_states	0	
 minor_royal_palace	eua_1st_delaware	0	
 minor_royal_palace	eua_1st_maryland	0	
 minor_royal_palace	eua_2nd_dragoons	0	
@@ -1578,7 +1581,6 @@ minor_royal_palace	euro_militia_infantry	0
 minor_royal_palace	euro_militia_infantry_colonial_militia	0	
 minor_royal_palace	euro_militia_infantry_minutemen	1	
 minor_royal_palace	euro_militia_infantry_provincial_infantry	0	
-minor_royal_palace	euro_pikemen_colonial	0	
 minor_royal_palace	euro_provincial_cavalry	0	
 minor_royal_palace	euro_provincial_cavalry_gendarmerie	0	
 minor_royal_palace	euro_provincial_cavalry_yeomanry	0	
@@ -1598,6 +1600,7 @@ minor_royal_palace	maroon_rebels	0
 minor_royal_palace	musellims	0	
 minor_royal_palace	native_american_mounted_musketeers_auxiliary	0	
 minor_royal_palace	native_american_musketeers_auxiliary	0	
+minor_royal_palace	norwegian_ski_troops	0	
 minor_royal_palace	pandours	0	
 minor_royal_palace	pirates	0	
 minor_royal_palace	rapparees	0	
@@ -1730,7 +1733,6 @@ prest_austria_hofburg	euro_light_infantry_miquelets	0
 prest_austria_hofburg	euro_militia_infantry	0	
 prest_austria_hofburg	euro_militia_infantry_colonial_militia	0	
 prest_austria_hofburg	euro_militia_infantry_provincial_infantry	0	
-prest_austria_hofburg	euro_pikemen_colonial	0	
 prest_austria_hofburg	euro_republican_conscript_infantry	0	
 prest_austria_hofburg	gorodskiye_streltsy	0	
 prest_austria_hofburg	guerillas	0	
@@ -1773,7 +1775,6 @@ prest_britain_somerset_house	euro_light_infantry_miquelets	0
 prest_britain_somerset_house	euro_militia_infantry	0	
 prest_britain_somerset_house	euro_militia_infantry_colonial_militia	0	
 prest_britain_somerset_house	euro_militia_infantry_provincial_infantry	0	
-prest_britain_somerset_house	euro_pikemen_colonial	0	
 prest_britain_somerset_house	euro_republican_conscript_infantry	0	
 prest_britain_somerset_house	gorodskiye_streltsy	0	
 prest_britain_somerset_house	guerillas	0	
@@ -1949,7 +1950,6 @@ prest_france_palais_bourbon	euro_light_infantry_miquelets	0
 prest_france_palais_bourbon	euro_militia_infantry	0	
 prest_france_palais_bourbon	euro_militia_infantry_colonial_militia	0	
 prest_france_palais_bourbon	euro_militia_infantry_provincial_infantry	0	
-prest_france_palais_bourbon	euro_pikemen_colonial	0	
 prest_france_palais_bourbon	euro_republican_conscript_infantry	0	
 prest_france_palais_bourbon	gorodskiye_streltsy	0	
 prest_france_palais_bourbon	guerillas	0	
@@ -2124,7 +2124,6 @@ prest_maratha_shaniwarwada	euro_light_infantry_miquelets	0
 prest_maratha_shaniwarwada	euro_militia_infantry	0	
 prest_maratha_shaniwarwada	euro_militia_infantry_colonial_militia	0	
 prest_maratha_shaniwarwada	euro_militia_infantry_provincial_infantry	0	
-prest_maratha_shaniwarwada	euro_pikemen_colonial	0	
 prest_maratha_shaniwarwada	euro_republican_conscript_infantry	0	
 prest_maratha_shaniwarwada	gorodskiye_streltsy	0	
 prest_maratha_shaniwarwada	guerillas	0	
@@ -2439,7 +2438,6 @@ prest_russia_winter_palace	euro_light_infantry_miquelets	0
 prest_russia_winter_palace	euro_militia_infantry	0	
 prest_russia_winter_palace	euro_militia_infantry_colonial_militia	0	
 prest_russia_winter_palace	euro_militia_infantry_provincial_infantry	0	
-prest_russia_winter_palace	euro_pikemen_colonial	0	
 prest_russia_winter_palace	euro_republican_conscript_infantry	0	
 prest_russia_winter_palace	gorodskiye_streltsy	0	
 prest_russia_winter_palace	guerillas	0	
@@ -2483,7 +2481,6 @@ prest_spain_palacio_real_de_madrid	euro_light_infantry_miquelets	0
 prest_spain_palacio_real_de_madrid	euro_militia_infantry	0	
 prest_spain_palacio_real_de_madrid	euro_militia_infantry_colonial_militia	0	
 prest_spain_palacio_real_de_madrid	euro_militia_infantry_provincial_infantry	0	
-prest_spain_palacio_real_de_madrid	euro_pikemen_colonial	0	
 prest_spain_palacio_real_de_madrid	euro_republican_conscript_infantry	0	
 prest_spain_palacio_real_de_madrid	gorodskiye_streltsy	0	
 prest_spain_palacio_real_de_madrid	guerillas	0	
@@ -2526,7 +2523,6 @@ prest_sweden_slott	euro_light_infantry_miquelets	0
 prest_sweden_slott	euro_militia_infantry	0	
 prest_sweden_slott	euro_militia_infantry_colonial_militia	0	
 prest_sweden_slott	euro_militia_infantry_provincial_infantry	0	
-prest_sweden_slott	euro_pikemen_colonial	0	
 prest_sweden_slott	euro_republican_conscript_infantry	0	
 prest_sweden_slott	gorodskiye_streltsy	0	
 prest_sweden_slott	guerillas	0	
@@ -2569,7 +2565,6 @@ prest_usa_independence_hall	euro_light_infantry_miquelets	0
 prest_usa_independence_hall	euro_militia_infantry	0	
 prest_usa_independence_hall	euro_militia_infantry_colonial_militia	0	
 prest_usa_independence_hall	euro_militia_infantry_provincial_infantry	0	
-prest_usa_independence_hall	euro_pikemen_colonial	0	
 prest_usa_independence_hall	euro_republican_conscript_infantry	0	
 prest_usa_independence_hall	gorodskiye_streltsy	0	
 prest_usa_independence_hall	guerillas	0	
@@ -2595,7 +2590,6 @@ royal_palace	americas_hessian_infantry	0
 royal_palace	americas_militia_infantry	0	
 royal_palace	americas_provincial_cavalry	0	
 royal_palace	armed_peasantry	0	
-royal_palace	armed_peasantry_bhumiya	0	
 royal_palace	armed_peasantry_semenys	0	
 royal_palace	bashibazouks	0	
 royal_palace	cossack_cavalry	0	
@@ -2613,7 +2607,6 @@ royal_palace	euro_light_infantry_miquelets	0
 royal_palace	euro_militia_infantry	0	
 royal_palace	euro_militia_infantry_colonial_militia	0	
 royal_palace	euro_militia_infantry_provincial_infantry	0	
-royal_palace	euro_pikemen_colonial	0	
 royal_palace	euro_republican_conscript_infantry	0	
 royal_palace	gorodskiye_streltsy	0	
 royal_palace	guerillas	0	
@@ -3231,31 +3224,43 @@ minor_governors_palace	eue_armenian_archers	0
 minor_governors_mansion	eue_armenian_archers	0	
 minor_governors_barracks	eue_armenian_archers	0	
 minor_governors_encampment	eue_armenian_archers	0	
+minor_royal_palace	eue_armenian_archers	0	
 minor_governors_barracks	eue_barawardi	0	
 minor_governors_encampment	eue_barawardi	0	
+minor_royal_palace	eue_barawardi	0	
 minor_governors_barracks	eue_bosnian_panduks	0	
 minor_governors_encampment	eue_bosnian_panduks	0	
+minor_royal_palace	eue_bosnian_panduks	0	
 military_academy	eue_cairo_janissaries	0	
 army_board	eue_cairo_janissaries	0	
 army_staff_college	eue_cairo_janissaries	0	
 army_staff_college	eue_circassian_armoured_cavalry	0	
 minor_governors_barracks	eue_haydut_irregulars	0	
 minor_governors_encampment	eue_haydut_irregulars	0	
+minor_royal_palace	eue_haydut_irregulars	0	
 military_academy	eue_libyan_kuloglu	0	
 army_board	eue_libyan_kuloglu	0	
 army_staff_college	eue_libyan_kuloglu	0	
+minor_royal_palace	eue_libyan_kuloglu	0	
 army_board	eue_mounted_nizam_i_cedit	0	
 army_staff_college	eue_mounted_nizam_i_cedit	0	
+prest_france_arc_de_triomphe	eue_mounted_nizam_i_cedit	0	
+prest_maratha_ajinkyatara	eue_mounted_nizam_i_cedit	0	
+prest_poland_akademia	eue_mounted_nizam_i_cedit	0	
+prest_prussia_brandenburg_gate	eue_mounted_nizam_i_cedit	0	
 army_barracks	eue_palestinian_auxiliaries	0	
 army_board	eue_palestinian_auxiliaries	0	
 army_staff_college	eue_palestinian_auxiliaries	0	
 drill_school	eue_palestinian_auxiliaries	0	
 military_academy	eue_palestinian_auxiliaries	0	
 minor_governors_barracks	eue_wallachian_boyars	0	
+minor_royal_palace	eue_wallachian_boyars	0	
 minor_governors_barracks	eue_rajput_zamindar	0	
+minor_royal_palace	eue_rajput_zamindar	0	
 army_staff_college	eue_rajput_zamindar	0	
 prest_maratha_ajinkyatara	eue_rajput_zamindar	0	
 minor_governors_barracks	eue_poligar	0	
+minor_royal_palace	eue_poligar	0	
 military_academy	eue_poligar	0	
 army_board	eue_poligar	0	
 army_staff_college	eue_poligar	0	
