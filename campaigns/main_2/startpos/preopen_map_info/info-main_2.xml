@@ -28,7 +28,7 @@
      </rec>
      <s>britain</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -43,7 +43,7 @@
      </rec>
      <s>netherlands</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -133,7 +133,7 @@
      </rec>
      <s>austria</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -178,7 +178,7 @@
      </rec>
      <s>france</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -193,7 +193,7 @@
      </rec>
      <s>prussia</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -253,7 +253,7 @@
      </rec>
      <s>maratha</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -328,7 +328,7 @@
      </rec>
      <s>ottomans</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -388,7 +388,7 @@
      </rec>
      <s>poland_lithuania</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -433,7 +433,7 @@
      </rec>
      <s>russia</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -478,7 +478,7 @@
      </rec>
      <s>spain</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -493,7 +493,7 @@
      </rec>
      <s>sweden</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -775,7 +775,7 @@
    <s>britain</s>
    <s>ui/portraits/european/cards/king/old/025.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>2</i>
    <s>start_pos_factions_description_82</s>
    <s>data\ui\flags\britain</s>
@@ -785,7 +785,7 @@
    <s>netherlands</s>
    <s>ui/portraits/european/cards/king/young/018.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>3</i>
    <s>start_pos_factions_description_106</s>
    <s>data\ui\flags\netherlands_republic</s>
@@ -845,7 +845,7 @@
    <s>austria</s>
    <s>ui/portraits/european/cards/king/young/032.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>9</i>
    <s>start_pos_factions_description_84</s>
    <s>data\ui\flags\austria</s>
@@ -875,7 +875,7 @@
    <s>france</s>
    <s>ui/portraits/european/cards/king/young/047.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>12</i>
    <s>start_pos_factions_description_93</s>
    <s>data\ui\flags\france</s>
@@ -885,7 +885,7 @@
    <s>prussia</s>
    <s>ui/portraits/european/cards/king/young/083.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>13</i>
    <s>start_pos_factions_description_113</s>
    <s>data\ui\flags\prussia</s>
@@ -925,7 +925,7 @@
    <s>maratha</s>
    <s>ui/portraits/indian/cards/king/young/097.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>17</i>
    <s>start_pos_factions_description_102</s>
    <s>data\ui\flags\maratha</s>
@@ -975,7 +975,7 @@
    <s>ottomans</s>
    <s>ui/portraits/indian/cards/king/old/093.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>22</i>
    <s>start_pos_factions_description_107</s>
    <s>data\ui\flags\ottomans</s>
@@ -1015,7 +1015,7 @@
    <s>poland_lithuania</s>
    <s>ui/portraits/european/cards/king/old/021.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>26</i>
    <s>start_pos_factions_description_111</s>
    <s>data\ui\flags\poland_lithuania</s>
@@ -1045,7 +1045,7 @@
    <s>russia</s>
    <s>ui/portraits/european/cards/queen/old/020.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>31</i>
    <s>start_pos_factions_description_116</s>
    <s>data\ui\flags\russia</s>
@@ -1075,7 +1075,7 @@
    <s>spain</s>
    <s>ui/portraits/european/cards/king/old/058.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>34</i>
    <s>start_pos_factions_description_119</s>
    <s>data\ui\flags\spain</s>
@@ -1085,7 +1085,7 @@
    <s>sweden</s>
    <s>ui/portraits/european/cards/king/young/059.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>35</i>
    <s>start_pos_factions_description_120</s>
    <s>data\ui\flags\sweden</s>
