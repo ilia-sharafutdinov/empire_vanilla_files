@@ -237,7 +237,7 @@
   </rec>
   <rec type="FACTION_INFOS">
    <s>spain</s>
-   <s/>
+   <s>ui/portraits/european/Cards/minister/old/190.tga</s>
    <yes/>
    <no/>
    <i>2</i>
@@ -317,7 +317,7 @@
   </rec>
   <rec type="FACTION_INFOS">
    <s>netherlands</s>
-   <s/>
+   <s>ui/portraits/european/Cards/minister/young/278.tga</s>
    <yes/>
    <no/>
    <i>10</i>
