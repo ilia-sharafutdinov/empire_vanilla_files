@@ -35,5 +35,10 @@
     upper_louisiana
    </victory_conditions>
   </rec>
+  <rec type="VICTORY_CONDITIONS_BLOCK">
+   <victory_conditions year="1825" region_count="50" prestige_victory="no" campaign_type="3 (Global Domination)">
+    pennsylvania
+   </victory_conditions>
+  </rec>
  </ary>
 </rec>
