@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rec type="SETTLEMENT">
+ <rec type="SIEGEABLE_GARRISON_RESIDENCE">
+  <garrison_residence>562759352</garrison_residence><!-- Faction ID -->
+  <u>572861896</u><!-- Building Slot ID -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <i>0</i>
+  <no/>
+  <no/>
+  <no/>
+  <v2x x="-542.8673095703125" y="278.38519287109375"/>
+  <u>571190904</u><!-- Army ID -->
+  <u4_ary/>
+  <u4_ary/><!-- Character ID Of Garrison -->
+  <rec type="LINE_OF_SIGHT">
+   <no/>
+  </rec>
+  <no/>
+  <ary type="FORTIFICATIONS_BLOCK"/>
+ </rec>
+ <loc>start_pos_settlements_onscreen_name_settlement:maryland:annapolis414</loc>
+ <i>2</i>
+ <s>settlement:maryland:annapolis</s><!-- DB Table Campaign_map_settlements -->
+ <i>572861896</i><!-- Settlement ID -->
+ <s>settlement:maryland:annapolis</s><!-- DB Table Campaign_map_settlements -->
+</rec>

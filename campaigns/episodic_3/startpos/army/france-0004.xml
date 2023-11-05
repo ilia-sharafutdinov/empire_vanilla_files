@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>570793152</u><!-- Army ID -->
+   <u>570791024</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Étienne Vauban" commander_id="570791024" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_004" size="160/160" type="episodic_2_french_marines" unit_id="570792360"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Rémy Guillouet" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_005" size="160/160" type="episodic_2_french_marines" unit_id="570792624"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Laurent Maigny" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="unit_regiment_names_localisation_lookup_unit_name_euro_irregulars_001" size="180/180" type="episodic_2_native_american_musketeer_auxiliary" unit_id="570792888"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>570793152</i>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

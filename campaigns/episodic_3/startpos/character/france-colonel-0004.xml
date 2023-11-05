@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="-570.0" y="311.0"/>
+   <v2x x="-570.0" y="311.0"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>25</i><!-- Movement Points Left -->
+   <i>24</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits/>
+   <loc>names_name_names_frenchJacques</loc>
+   <loc>names_name_names_frenchBrissot</loc>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1702</date>
+   <date/>
+   <i>0</i>
+   <portrait_details/>
+   <s>france</s>
+   <u>569767368</u><!-- Character ID -->
+   <agent_ancillaries/>
+   <agent_attributes>
+    command_land=0
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=-1
+    morale_sea=-1
+    movement_points_land=-1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_coloneleuropean</loc>
+  </rec>
+  <i>569767368</i><!-- Character ID -->
+  <s>colonel</s><!-- Character Type -->
+  <u>563778296</u><!-- Army ID -->
+  <u>563778032</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   -566.0,312.0
+   -566.076135635376,313.923864364624
+   -568.0,314.0
+   -568.0953617095947,314.0
+   -569.0,314.3747100830078
+   -569.9046382904053,314.0
+   -570.0,314.0
+   -570.0025024414062,314.0
+   -571.0,314.4131736755371
+   -571.9049873352051,314.0
+   -572.0,314.0
+   -574.0,314.0
+   -574.0,312.0
+   -574.0,311.81435680389404
+   -574.4131736755371,311.0
+   -574.0,310.00250244140625
+   -574.0,310.0
+   -574.0,308.0
+   -572.0,308.0
+   -571.9974975585938,308.0
+   -571.0,307.5868263244629
+   -570.0,307.91269397735596
+   -569.9370861053467,307.9370861053467
+   -569.9106206893921,307.99452686309814
+   -569.0,307.4994993209839
+   -568.0,307.75186920166016
+   -567.8321180343628,307.8321180343628
+   -567.7625799179077,308.0
+   -567.7612829208374,308.0094470977783
+   -567.627420425415,308.01474475860596
+   -567.689305305481,308.1762361526489
+   -567.2985277175903,308.73594760894775
+   -567.2302980422974,308.8419437408447
+   -566.9511871337891,309.2755479812622
+   -566.6270790100098,309.77905654907227
+   -566.3109292984009,310.0
+   -566.0,310.21729469299316
+   -566.0,310.95171451568604
+   -566.0,311.0
+   -566.0,311.04828548431396
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <no/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <no/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

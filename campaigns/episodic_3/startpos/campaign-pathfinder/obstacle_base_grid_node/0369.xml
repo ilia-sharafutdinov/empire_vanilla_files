@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<rec type="OBSTACLE_BASE_GRID_NODE">
+ <u>37830</u>
+ <u>4</u>
+ <ary type="MANAGED_OBSTACLE_BOUNDARY">
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>28354</u>
+   <u>2</u>
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1 565489890 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>28355</u>
+   <u>2</u>
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1 565489890 3 560588082 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>20274</u>
+   <u>1</u>
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 0</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>20652</u>
+   <u>0</u>
+   <yes/>
+   <u4_ary>565489890 0</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>27943</u>
+   <u>1</u>
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>28244</u>
+   <u>2</u>
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 3 565489890 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>28245</u>
+   <u>2</u>
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 3 565489890 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>22662</u>
+   <u>2</u>
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1 565489890 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>27869</u>
+   <u>2</u>
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1 565489890 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>22297</u>
+   <u>0</u>
+   <yes/>
+   <u4_ary>560588082 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>28243</u>
+   <u>1</u>
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>14170</u>
+   <u>1</u>
+   <yes/>
+   <u4_ary>12 1 76 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>21178</u>
+   <u>1</u>
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 0 565489890 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>28314</u>
+   <u>1</u>
+   <yes/>
+   <u4_ary>565489890 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>508</u>
+   <u>1</u>
+   <yes/>
+   <u4_ary>12 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>20767</u>
+   <u>1</u>
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>22661</u>
+   <u>1</u>
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>28461</u>
+   <u>1</u>
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>21070</u>
+   <u>0</u>
+   <yes/>
+   <u4_ary>560588082 0</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>22663</u>
+   <u>2</u>
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1 565489890 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>28446</u>
+   <u>2</u>
+   <yes/>
+   <u4_ary>12 1 76 1 565489890 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>28195</u>
+   <u>0</u>
+   <yes/>
+   <u4_ary>562978826 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>27845</u>
+   <u>0</u>
+   <yes/>
+   <u4_ary>560588082 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>22317</u>
+   <u>1</u>
+   <yes/>
+   <u4_ary>565489890 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>20173</u>
+   <u>0</u>
+   <yes/>
+   <u4_ary>562978826 0</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>27896</u>
+   <u>2</u>
+   <yes/>
+   <u4_ary>12 1 76 1 565489890 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>27895</u>
+   <u>2</u>
+   <yes/>
+   <u4_ary>12 1 76 1 565489890 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>13247</u>
+   <u>0</u>
+   <yes/>
+   <u4_ary>76 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <u>22387</u>
+   <u>0</u>
+   <yes/>
+   <u4_ary>562978826 1</u4_ary>
+  </rec>
+ </ary>
+ <ary type="MANAGED_OBSTACLE_BOUNDARY">
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>565489890 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>562978826 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>560588082 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>562978826 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>565489890 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>560588082 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>560588082 0</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>565489890 0</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>562978826 0</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>76 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 0</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 0 565489890 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1 565489890 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1 565489890 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1 565489890 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 565489890 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 565489890 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 3 565489890 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 3 565489890 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1 565489890 3</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1 565489890 3 560588082 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 565489890 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="MANAGED_OBSTACLE_BOUNDARY">
+   <yes/>
+   <u4_ary>12 1 76 1 562978826 1 560588082 1</u4_ary>
+  </rec>
+ </ary>
+</rec>

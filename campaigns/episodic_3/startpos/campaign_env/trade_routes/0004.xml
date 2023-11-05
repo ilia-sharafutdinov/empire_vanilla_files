@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>18</u><!-- Port OR Settlement Indice Start Point (pennsylvania) -->
+ <u>21</u><!-- Port OR Settlement Indice End Point (virginia) -->
+ <u4_ary/>
+ <flt>22.85305404663086</flt><!-- Length Of Route -->
+</rec>

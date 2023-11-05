@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>639674440</u><!-- Army ID -->
+   <u>573160216</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Woodrow Osborn" commander_id="573160216" created="summer 1754" deaths="0" exp="0" kills="0" mp="28" name="unit_regiment_names_localisation_lookup_unit_name_euro_light_horse_001" size="30/30" type="episodic_2_light_cavalry_colonial" unit_id="639672592"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Giffard Williamson" created="summer 1754" deaths="0" exp="0" kills="0" mp="28" name="unit_regiment_names_localisation_lookup_unit_name_euro_light_horse_002" size="30/30" type="episodic_2_light_cavalry_colonial" unit_id="639673648"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Nathanael Charnock" created="summer 1754" deaths="0" exp="0" kills="0" mp="22" name="unit_regiment_names_localisation_lookup_unit_name_euro_artillery_units_052" size="24/24" type="episodic_2_24_lber_land_cannon" unit_id="690770024"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Adrian Burnett" created="summer 1754" deaths="0" exp="0" kills="0" mp="22" name="unit_regiment_names_localisation_lookup_unit_name_euro_artillery_units_053" size="24/24" type="episodic_2_24_lber_land_cannon" unit_id="690770288"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Mervin Kirkby" created="summer 1754" deaths="0" exp="0" kills="0" mp="22" name="unit_regiment_names_localisation_lookup_unit_name_euro_artillery_units_054" size="24/24" type="episodic_2_24_lber_land_cannon" unit_id="639672856"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Oswald Carmichael" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_001" size="160/160" type="episodic_2_line_infantry" unit_id="690771080"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Jerald Carver" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_002" size="160/160" type="episodic_2_line_infantry" unit_id="690771344"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Colbert Riddell" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_003" size="160/160" type="episodic_2_line_infantry" unit_id="690771872"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Brutus Shonk" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_004" size="160/160" type="episodic_2_line_infantry" unit_id="690772136"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Valentine Fox" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_005" size="160/160" type="episodic_2_line_infantry" unit_id="639673120"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Barnaby Thorn" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_006" size="160/160" type="episodic_2_line_infantry" unit_id="639673384"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Mervyn Thurston" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="" size="160/160" type="episodic_2_colonial_militia" unit_id="690770552"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Sheridan Cotton" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="" size="160/160" type="episodic_2_colonial_militia" unit_id="690770816"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Marcus Carteret" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="" size="160/160" type="episodic_2_colonial_militia" unit_id="690771608"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Jonas Benn" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="" size="160/160" type="episodic_2_colonial_militia" unit_id="639673912"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Albert Bridges" created="summer 1754" deaths="0" exp="0" kills="0" mp="26" name="" size="80/80" type="episodic_2_rangers" unit_id="639672328"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Xavier Montgomery" created="summer 1754" deaths="0" exp="0" kills="0" mp="26" name="" size="80/80" type="episodic_2_rangers" unit_id="639674176"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>639674440</i>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>7</u><!-- Port OR Settlement Indice Start Point (port:maine:eastport) -->
+ <u>8</u><!-- Port OR Settlement Indice End Point (port:labrador:catucto) -->
+ <u4_ary>32 36 40 42 48 55 59 65 73 67</u4_ary>
+ <flt>183.74414</flt><!-- Length Of Route -->
+</rec>

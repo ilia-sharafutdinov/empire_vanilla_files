@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<rec type="CAMPAIGN_TRADE_MANAGER">
+ <commodities_order>
+  res_spices
+  res_tobacco
+  res_sugar
+  res_ivory
+  res_tea
+  res_cotton
+  res_coffee
+  res_furs
+ </commodities_order>
+ <resources_order>
+  res_rice
+  res_sheep
+  res_coffee
+  res_tea
+  res_cattle
+  res_timber
+  res_fish
+  res_silver
+  res_tobacco
+  res_wheat
+  res_wine
+  res_ivory
+  res_spices
+  res_furs
+  res_gold
+  res_sugar
+  res_corn
+  res_cotton
+  res_gems
+  res_iron
+ </resources_order>
+ <u4_ary>16 11 12 24 11 12 8 9</u4_ary><!-- Commodities Baseline Price Per Unit -->
+ <flt_ary>0.4952946901321411 0.11365514993667603 0.09300883859395981 1.4829461574554443 0.13637490570545197 0.14883166551589966 0.09918174892663956 0.26835715770721436</flt_ary><!-- Demand -->
+ <u4_ary>16 11 12 24 11 12 8 9</u4_ary><!-- Commodities Current Price Per Unit -->
+ <u4_ary>0 0 0 1 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 1 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>25 25 0 0 0 30 25 50 0 25 30 50 0 0 75 0 25 0 50 30</u4_ary><!-- Resources Trade Value -->
+ <port_indices>
+  port:new_france:tadoussac=4
+  port:maine:eastport=7
+  port:virginia:yorktown=1
+  port:labrador:cartwright=2
+  port:newfoundland:st_johns=3
+  port:labrador:catucto=8
+  port:acadia:cap_fourchu=6
+  port:new_england:providence=0
+  port:new_york:new_york=5
+  port:new_england:plymouth=9
+ </port_indices>
+ <settlement_indices>
+  iroquois_territory=14
+  pennsylvania=18
+  maine=23
+  ontario=12
+  michigan_territory=15
+  maryland=20
+  labrador=11
+  new_france=16
+  acadia=22
+  new_england=10
+  new_york=19
+  algonquin_territory=13
+  huron_territory=17
+  virginia=21
+  newfoundland=24
+ </settlement_indices>
+ <ary type="DOMESTIC_TRADE_ROUTES">
+  <xml_include path="domestic_trade_routes/huron.xml"/>
+  <xml_include path="domestic_trade_routes/france.xml"/>
+  <xml_include path="domestic_trade_routes/iroquoi.xml"/>
+  <xml_include path="domestic_trade_routes/britain.xml"/>
+  <xml_include path="domestic_trade_routes/virginia.xml"/>
+ </ary>
+ <ary type="INTERNATIONAL_TRADE_ROUTES">
+  <xml_include path="international_trade_routes/huron.xml"/>
+  <xml_include path="international_trade_routes/france.xml"/>
+  <xml_include path="international_trade_routes/iroquoi.xml"/>
+  <xml_include path="international_trade_routes/britain.xml"/>
+  <xml_include path="international_trade_routes/virginia.xml"/>
+ </ary>
+ <ary type="TRADE_SEGMENTS">
+  <xml_include path="campaign_env/trade_segments/0001.xml"/>
+  <xml_include path="campaign_env/trade_segments/0002.xml"/>
+  <xml_include path="campaign_env/trade_segments/0003.xml"/>
+  <xml_include path="campaign_env/trade_segments/0004.xml"/>
+  <xml_include path="campaign_env/trade_segments/0005.xml"/>
+  <xml_include path="campaign_env/trade_segments/0006.xml"/>
+  <xml_include path="campaign_env/trade_segments/0007.xml"/>
+  <xml_include path="campaign_env/trade_segments/0008.xml"/>
+  <xml_include path="campaign_env/trade_segments/0009.xml"/>
+  <xml_include path="campaign_env/trade_segments/0010.xml"/>
+  <xml_include path="campaign_env/trade_segments/0011.xml"/>
+  <xml_include path="campaign_env/trade_segments/0012.xml"/>
+  <xml_include path="campaign_env/trade_segments/0013.xml"/>
+  <xml_include path="campaign_env/trade_segments/0014.xml"/>
+  <xml_include path="campaign_env/trade_segments/0015.xml"/>
+  <xml_include path="campaign_env/trade_segments/0016.xml"/>
+  <xml_include path="campaign_env/trade_segments/0017.xml"/>
+  <xml_include path="campaign_env/trade_segments/0018.xml"/>
+  <xml_include path="campaign_env/trade_segments/0019.xml"/>
+  <xml_include path="campaign_env/trade_segments/0020.xml"/>
+  <xml_include path="campaign_env/trade_segments/0021.xml"/>
+  <xml_include path="campaign_env/trade_segments/0022.xml"/>
+  <xml_include path="campaign_env/trade_segments/0023.xml"/>
+  <xml_include path="campaign_env/trade_segments/0024.xml"/>
+  <xml_include path="campaign_env/trade_segments/0025.xml"/>
+  <xml_include path="campaign_env/trade_segments/0026.xml"/>
+  <xml_include path="campaign_env/trade_segments/0027.xml"/>
+  <xml_include path="campaign_env/trade_segments/0028.xml"/>
+  <xml_include path="campaign_env/trade_segments/0029.xml"/>
+  <xml_include path="campaign_env/trade_segments/0030.xml"/>
+  <xml_include path="campaign_env/trade_segments/0031.xml"/>
+  <xml_include path="campaign_env/trade_segments/0032.xml"/>
+  <xml_include path="campaign_env/trade_segments/0033.xml"/>
+  <xml_include path="campaign_env/trade_segments/0034.xml"/>
+  <xml_include path="campaign_env/trade_segments/0035.xml"/>
+  <xml_include path="campaign_env/trade_segments/0036.xml"/>
+  <xml_include path="campaign_env/trade_segments/0037.xml"/>
+  <xml_include path="campaign_env/trade_segments/0038.xml"/>
+  <xml_include path="campaign_env/trade_segments/0039.xml"/>
+  <xml_include path="campaign_env/trade_segments/0040.xml"/>
+  <xml_include path="campaign_env/trade_segments/0041.xml"/>
+  <xml_include path="campaign_env/trade_segments/0042.xml"/>
+  <xml_include path="campaign_env/trade_segments/0043.xml"/>
+  <xml_include path="campaign_env/trade_segments/0044.xml"/>
+  <xml_include path="campaign_env/trade_segments/0045.xml"/>
+  <xml_include path="campaign_env/trade_segments/0046.xml"/>
+  <xml_include path="campaign_env/trade_segments/0047.xml"/>
+  <xml_include path="campaign_env/trade_segments/0048.xml"/>
+  <xml_include path="campaign_env/trade_segments/0049.xml"/>
+  <xml_include path="campaign_env/trade_segments/0050.xml"/>
+  <xml_include path="campaign_env/trade_segments/0051.xml"/>
+  <xml_include path="campaign_env/trade_segments/0052.xml"/>
+  <xml_include path="campaign_env/trade_segments/0053.xml"/>
+  <xml_include path="campaign_env/trade_segments/0054.xml"/>
+  <xml_include path="campaign_env/trade_segments/0055.xml"/>
+  <xml_include path="campaign_env/trade_segments/0056.xml"/>
+  <xml_include path="campaign_env/trade_segments/0057.xml"/>
+  <xml_include path="campaign_env/trade_segments/0058.xml"/>
+  <xml_include path="campaign_env/trade_segments/0059.xml"/>
+  <xml_include path="campaign_env/trade_segments/0060.xml"/>
+  <xml_include path="campaign_env/trade_segments/0061.xml"/>
+  <xml_include path="campaign_env/trade_segments/0062.xml"/>
+  <xml_include path="campaign_env/trade_segments/0063.xml"/>
+  <xml_include path="campaign_env/trade_segments/0064.xml"/>
+  <xml_include path="campaign_env/trade_segments/0065.xml"/>
+  <xml_include path="campaign_env/trade_segments/0066.xml"/>
+  <xml_include path="campaign_env/trade_segments/0067.xml"/>
+  <xml_include path="campaign_env/trade_segments/0068.xml"/>
+  <xml_include path="campaign_env/trade_segments/0069.xml"/>
+  <xml_include path="campaign_env/trade_segments/0070.xml"/>
+  <xml_include path="campaign_env/trade_segments/0071.xml"/>
+  <xml_include path="campaign_env/trade_segments/0072.xml"/>
+  <xml_include path="campaign_env/trade_segments/0073.xml"/>
+  <xml_include path="campaign_env/trade_segments/0074.xml"/>
+  <xml_include path="campaign_env/trade_segments/0075.xml"/>
+  <xml_include path="campaign_env/trade_segments/0076.xml"/>
+  <xml_include path="campaign_env/trade_segments/0077.xml"/>
+  <xml_include path="campaign_env/trade_segments/0078.xml"/>
+  <xml_include path="campaign_env/trade_segments/0079.xml"/>
+  <xml_include path="campaign_env/trade_segments/0080.xml"/>
+  <xml_include path="campaign_env/trade_segments/0081.xml"/>
+  <xml_include path="campaign_env/trade_segments/0082.xml"/>
+  <xml_include path="campaign_env/trade_segments/0083.xml"/>
+  <xml_include path="campaign_env/trade_segments/0084.xml"/>
+  <xml_include path="campaign_env/trade_segments/0085.xml"/>
+  <xml_include path="campaign_env/trade_segments/0086.xml"/>
+  <xml_include path="campaign_env/trade_segments/0087.xml"/>
+  <xml_include path="campaign_env/trade_segments/0088.xml"/>
+  <xml_include path="campaign_env/trade_segments/0089.xml"/>
+  <xml_include path="campaign_env/trade_segments/0090.xml"/>
+  <xml_include path="campaign_env/trade_segments/0091.xml"/>
+  <xml_include path="campaign_env/trade_segments/0092.xml"/>
+  <xml_include path="campaign_env/trade_segments/0093.xml"/>
+  <xml_include path="campaign_env/trade_segments/0094.xml"/>
+  <xml_include path="campaign_env/trade_segments/0095.xml"/>
+  <xml_include path="campaign_env/trade_segments/0096.xml"/>
+  <xml_include path="campaign_env/trade_segments/0097.xml"/>
+  <xml_include path="campaign_env/trade_segments/0098.xml"/>
+  <xml_include path="campaign_env/trade_segments/0099.xml"/>
+  <xml_include path="campaign_env/trade_segments/0100.xml"/>
+  <xml_include path="campaign_env/trade_segments/0101.xml"/>
+  <xml_include path="campaign_env/trade_segments/0102.xml"/>
+  <xml_include path="campaign_env/trade_segments/0103.xml"/>
+  <xml_include path="campaign_env/trade_segments/0104.xml"/>
+  <xml_include path="campaign_env/trade_segments/0105.xml"/>
+  <xml_include path="campaign_env/trade_segments/0106.xml"/>
+  <xml_include path="campaign_env/trade_segments/0107.xml"/>
+  <xml_include path="campaign_env/trade_segments/0108.xml"/>
+  <xml_include path="campaign_env/trade_segments/0109.xml"/>
+  <xml_include path="campaign_env/trade_segments/0110.xml"/>
+  <xml_include path="campaign_env/trade_segments/0111.xml"/>
+  <xml_include path="campaign_env/trade_segments/0112.xml"/>
+  <xml_include path="campaign_env/trade_segments/0113.xml"/>
+  <xml_include path="campaign_env/trade_segments/0114.xml"/>
+  <xml_include path="campaign_env/trade_segments/0115.xml"/>
+  <xml_include path="campaign_env/trade_segments/0116.xml"/>
+  <xml_include path="campaign_env/trade_segments/0117.xml"/>
+  <xml_include path="campaign_env/trade_segments/0118.xml"/>
+  <xml_include path="campaign_env/trade_segments/0119.xml"/>
+  <xml_include path="campaign_env/trade_segments/0120.xml"/>
+  <xml_include path="campaign_env/trade_segments/0121.xml"/>
+  <xml_include path="campaign_env/trade_segments/0122.xml"/>
+  <xml_include path="campaign_env/trade_segments/0123.xml"/>
+  <xml_include path="campaign_env/trade_segments/0124.xml"/>
+  <xml_include path="campaign_env/trade_segments/0125.xml"/>
+  <xml_include path="campaign_env/trade_segments/0126.xml"/>
+  <xml_include path="campaign_env/trade_segments/0127.xml"/>
+  <xml_include path="campaign_env/trade_segments/0128.xml"/>
+  <xml_include path="campaign_env/trade_segments/0129.xml"/>
+  <xml_include path="campaign_env/trade_segments/0130.xml"/>
+ </ary>
+ <ary type="TRADE_ROUTES">
+  <xml_include path="campaign_env/trade_routes/0001.xml"/>
+  <xml_include path="campaign_env/trade_routes/0002.xml"/>
+  <xml_include path="campaign_env/trade_routes/0003.xml"/>
+  <xml_include path="campaign_env/trade_routes/0004.xml"/>
+  <xml_include path="campaign_env/trade_routes/0005.xml"/>
+  <xml_include path="campaign_env/trade_routes/0006.xml"/>
+  <xml_include path="campaign_env/trade_routes/0007.xml"/>
+  <xml_include path="campaign_env/trade_routes/0008.xml"/>
+  <xml_include path="campaign_env/trade_routes/0009.xml"/>
+  <xml_include path="campaign_env/trade_routes/0010.xml"/>
+  <xml_include path="campaign_env/trade_routes/0011.xml"/>
+  <xml_include path="campaign_env/trade_routes/0012.xml"/>
+  <xml_include path="campaign_env/trade_routes/0013.xml"/>
+  <xml_include path="campaign_env/trade_routes/0014.xml"/>
+  <xml_include path="campaign_env/trade_routes/0015.xml"/>
+  <xml_include path="campaign_env/trade_routes/0016.xml"/>
+  <xml_include path="campaign_env/trade_routes/0017.xml"/>
+  <xml_include path="campaign_env/trade_routes/0018.xml"/>
+  <xml_include path="campaign_env/trade_routes/0019.xml"/>
+  <xml_include path="campaign_env/trade_routes/0020.xml"/>
+  <xml_include path="campaign_env/trade_routes/0021.xml"/>
+  <xml_include path="campaign_env/trade_routes/0022.xml"/>
+  <xml_include path="campaign_env/trade_routes/0023.xml"/>
+  <xml_include path="campaign_env/trade_routes/0024.xml"/>
+  <xml_include path="campaign_env/trade_routes/0025.xml"/>
+  <xml_include path="campaign_env/trade_routes/0026.xml"/>
+  <xml_include path="campaign_env/trade_routes/0027.xml"/>
+  <xml_include path="campaign_env/trade_routes/0028.xml"/>
+  <xml_include path="campaign_env/trade_routes/0029.xml"/>
+  <xml_include path="campaign_env/trade_routes/0030.xml"/>
+  <xml_include path="campaign_env/trade_routes/0031.xml"/>
+  <xml_include path="campaign_env/trade_routes/0032.xml"/>
+  <xml_include path="campaign_env/trade_routes/0033.xml"/>
+  <xml_include path="campaign_env/trade_routes/0034.xml"/>
+  <xml_include path="campaign_env/trade_routes/0035.xml"/>
+  <xml_include path="campaign_env/trade_routes/0036.xml"/>
+  <xml_include path="campaign_env/trade_routes/0037.xml"/>
+  <xml_include path="campaign_env/trade_routes/0038.xml"/>
+  <xml_include path="campaign_env/trade_routes/0039.xml"/>
+  <xml_include path="campaign_env/trade_routes/0040.xml"/>
+  <xml_include path="campaign_env/trade_routes/0041.xml"/>
+  <xml_include path="campaign_env/trade_routes/0042.xml"/>
+  <xml_include path="campaign_env/trade_routes/0043.xml"/>
+  <xml_include path="campaign_env/trade_routes/0044.xml"/>
+  <xml_include path="campaign_env/trade_routes/0045.xml"/>
+  <xml_include path="campaign_env/trade_routes/0046.xml"/>
+  <xml_include path="campaign_env/trade_routes/0047.xml"/>
+  <xml_include path="campaign_env/trade_routes/0048.xml"/>
+  <xml_include path="campaign_env/trade_routes/0049.xml"/>
+  <xml_include path="campaign_env/trade_routes/0050.xml"/>
+  <xml_include path="campaign_env/trade_routes/0051.xml"/>
+  <xml_include path="campaign_env/trade_routes/0052.xml"/>
+  <xml_include path="campaign_env/trade_routes/0053.xml"/>
+  <xml_include path="campaign_env/trade_routes/0054.xml"/>
+  <xml_include path="campaign_env/trade_routes/0055.xml"/>
+  <xml_include path="campaign_env/trade_routes/0056.xml"/>
+  <xml_include path="campaign_env/trade_routes/0057.xml"/>
+  <xml_include path="campaign_env/trade_routes/0058.xml"/>
+  <xml_include path="campaign_env/trade_routes/0059.xml"/>
+  <xml_include path="campaign_env/trade_routes/0060.xml"/>
+  <xml_include path="campaign_env/trade_routes/0061.xml"/>
+  <xml_include path="campaign_env/trade_routes/0062.xml"/>
+  <xml_include path="campaign_env/trade_routes/0063.xml"/>
+  <xml_include path="campaign_env/trade_routes/0064.xml"/>
+  <xml_include path="campaign_env/trade_routes/0065.xml"/>
+  <xml_include path="campaign_env/trade_routes/0066.xml"/>
+  <xml_include path="campaign_env/trade_routes/0067.xml"/>
+  <xml_include path="campaign_env/trade_routes/0068.xml"/>
+  <xml_include path="campaign_env/trade_routes/0069.xml"/>
+  <xml_include path="campaign_env/trade_routes/0070.xml"/>
+  <xml_include path="campaign_env/trade_routes/0071.xml"/>
+  <xml_include path="campaign_env/trade_routes/0072.xml"/>
+  <xml_include path="campaign_env/trade_routes/0073.xml"/>
+  <xml_include path="campaign_env/trade_routes/0074.xml"/>
+  <xml_include path="campaign_env/trade_routes/0075.xml"/>
+  <xml_include path="campaign_env/trade_routes/0076.xml"/>
+  <xml_include path="campaign_env/trade_routes/0077.xml"/>
+ </ary>
+ <ary type="THEATRES"/>
+ <ary type="TRADE_NODES"/>
+</rec>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>12</u><!-- Port OR Settlement Indice Start Point (ontario) -->
+ <u>14</u><!-- Port OR Settlement Indice End Point (iroquois_territory) -->
+ <u4_ary>129 112 137 165 79 241 237 243 259</u4_ary>
+ <flt>32.48307800292969</flt><!-- Length Of Route -->
+</rec>

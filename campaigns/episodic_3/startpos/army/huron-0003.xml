@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>563838560</u><!-- Army ID -->
+   <u>559625560</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Peshewa" commander_id="559625560" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="619636128"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Cheeseekau" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="619636392"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Massasoit" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="619636656"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Quinne_Kishsuit" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="619636920"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Nescambious" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="619637184"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Tecumseh" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="563836448"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Hokoleskwa" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="563836712"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Kaintwakon" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="563836976"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Kaieñãkwaahtoñ" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="563837240"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Wamsutta" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="563837504"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Metacomet" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="563837768"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Kanuksusy" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="563838032"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Thayendanegea" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="563838296"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>563838560</i>
+  <u>619635584</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

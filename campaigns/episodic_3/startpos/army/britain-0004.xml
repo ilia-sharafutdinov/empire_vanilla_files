@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>563513496</u><!-- Army ID -->
+   <u>563511304</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Roderick Gallatin" commander_id="563511304" created="summer 1754" deaths="0" exp="0" kills="0" mp="28" name="unit_regiment_names_localisation_lookup_unit_name_euro_light_horse_006" size="30/30" type="episodic_2_light_cavalry_colonial" unit_id="563512440"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Jude Golton" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_016" size="160/160" type="episodic_2_line_infantry" unit_id="563512704"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Eldwin Wavell" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_017" size="160/160" type="episodic_2_line_infantry" unit_id="563512968"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Piers Talbot" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_018" size="160/160" type="episodic_2_line_infantry" unit_id="563513232"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>563513496</i>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

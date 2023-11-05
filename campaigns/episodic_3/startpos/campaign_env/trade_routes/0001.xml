@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>22</u><!-- Port OR Settlement Indice Start Point (acadia) -->
+ <u>23</u><!-- Port OR Settlement Indice End Point (maine) -->
+ <u4_ary>103 194 90 227 94 104 82</u4_ary>
+ <flt>85.72738</flt><!-- Length Of Route -->
+</rec>

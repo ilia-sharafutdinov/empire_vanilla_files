@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>2</u><!-- Port OR Settlement Indice Start Point (port:labrador:cartwright) -->
+ <u>5</u><!-- Port OR Settlement Indice End Point (port:new_york:new_york) -->
+ <u4_ary>74 71 72 64 58 54 49 43 41 14 5 9</u4_ary>
+ <flt>235.24109</flt><!-- Length Of Route -->
+</rec>

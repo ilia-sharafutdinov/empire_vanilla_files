@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>582133520</u><!-- Army ID -->
+   <u>566919176</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia George Washington" commander_id="566919176" created="summer 1754" deaths="0" exp="0" kills="0" mp="29" name="" size="32/32" type="euro_generals_bodyguard" unit_id="582133792"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Jonathan Castle" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="" size="160/160" type="episodic_2_colonial_militia" unit_id="566921240"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="virginia Dominic Rooke" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="" size="160/160" type="episodic_2_colonial_militia" unit_id="582133256"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>582133520</i>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

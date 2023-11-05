@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>571190904</u><!-- Army ID -->
+   <u>567275760</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Sakayengwaraton" commander_id="567275760" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="80/80" type="native_american_musketeers" unit_id="571188528"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Barboncito" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="80/80" type="native_american_musketeers" unit_id="571188792"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Matochutuhu" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="80/80" type="native_american_musketeers" unit_id="571189056"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Pushmataha" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="80/80" type="native_american_musketeers" unit_id="571189320"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Wamsutta" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="80/80" type="native_american_musketeers" unit_id="571189584"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Obbatinewat" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="80/80" type="native_american_musketeers" unit_id="571189848"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Buckongahelas" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="80/80" type="native_american_musketeers" unit_id="571190112"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Nescambious" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="80/80" type="native_american_musketeers" unit_id="571190376"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Hiakatoo" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="80/80" type="native_american_musketeers" unit_id="571190640"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>571190904</i>
+  <u>572861896</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

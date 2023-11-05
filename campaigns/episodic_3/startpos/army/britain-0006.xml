@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>563582792</u><!-- Army ID -->
+   <u>563583064</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Augustus Scarisbrick" commander_id="563583064" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_022" size="160/160" type="episodic_2_line_infantry" unit_id="563582264"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Elbert Beaufort" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_023" size="160/160" type="episodic_2_line_infantry" unit_id="563582528"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>563582792</i>
+  <u>562400752</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

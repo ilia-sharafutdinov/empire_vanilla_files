@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<rec type="FORT_OBSTACLE">
+ <rec type="OBSTACLE">
+  <ary type="BOUNDARIES">
+   <BOUNDARIES/>
+   <BOUNDARIES>
+    yes,19272
+    yes,19273
+    yes,19274
+    yes,19275
+    yes,19276
+    yes,19277
+    yes,19278
+    no,19279
+    no,19280
+    no,19281
+    no,19282
+    yes,19283
+    yes,19284
+    no,19285
+    no,19286
+    no,19287
+    no,19288
+    yes,19289
+    yes,19290
+    no,19291
+    no,19292
+    no,19293
+    no,19294
+    yes,19295
+    yes,19296
+    no,19297
+    no,19298
+    no,19299
+    no,19300
+    yes,19301
+    yes,19302
+    yes,19303
+    yes,19304
+    yes,19305
+    yes,19306
+    yes,19307
+   </BOUNDARIES>
+   <BOUNDARIES/>
+   <BOUNDARIES/>
+   <BOUNDARIES/>
+   <BOUNDARIES/>
+  </ary>
+  <u>5</u>
+  <u>1</u>
+  <u>1</u>
+  <u>1</u>
+  <ary type="MANAGED_OBSTACLE_BOUNDARY">
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <yes/>
+    <u4_ary>608945321 1</u4_ary>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+  </ary>
+  <u>7</u>
+  <v2x x="-562.0" y="270.0"/>
+  <v2x x="-550.0" y="282.0"/>
+  <u2>0</u2>
+  <u2>0</u2>
+  <u2>0</u2>
+  <u2>0</u2>
+  <u2>100</u2>
+  <u2>136</u2>
+  <u2>103</u2>
+  <u2>139</u2>
+ </rec>
+ <u>608945320</u>
+</rec>

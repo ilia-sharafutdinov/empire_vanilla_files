@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>virginia</s>
+  <no/>
+  <yes/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS" version="5">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA" version="4">
+     <i4_ary>0 0 0 0</i4_ary>
+     <i4_ary>0 0 0</i4_ary>
+     <i4_ary>0 0 0 3000</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>1450</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/virginia.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/virginia-gov_constitutional_monarchy.xml"/>
+ <xml_include path="family/virginia.xml"/>
+ <rec type="CAMPAIGN_MISSION_MANAGER">
+  <no/>
+  <ary type="MISSIONS"/>
+ </rec>
+ <i>308291096</i><!-- Faction ID -->
+ <s>virginia</s><!-- Faction Name -->
+ <s>British Colonials</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>352</u>
+  <u>2309163125</u>
+  <u2_ary>119 40 296 8 323 81 125 129 317 199 104 1 255 9 11 71 294 130 86 132 227 47 179 60 183 310 298 253 336 30 82 314 92 305 48 142 229 75 126 80 135 258 287 70 233 318 210 262 308 204 208 141 128 200 328 176 107 89 203 274 300 74 166 158 247 103 324 248 276 340 6 224 197 286 57 7 185 24 150 191 225 222 226 271 45 335 268 344 237 0 117 313 297 264 69 22 345 277 293 259 154 44 291 339 215 68 53 347 110 59 163 102 192 49 175 91 280 303 94 140 78 72 193 350 221 217 106 326 244 50 149 281 114 288 26 188 252 151 161 182 77 351 56 18 190 223 180 220 51 194 348 349 327 207 238 333 19 315 96 195 307 254 266 118 65 261 170 273 27 29 249 202 245 136 108 156 309 304 164 240 321 134 147 178 10 283 95 146 120 137 320 322 177 105 172 228 338 184 16 138 342 84 15 32 100 241 113 171 112 169 52 319 267 37 3 155 58 157 88 33 55 46 167 34 295 279 181 144 256 341 14 346 230 41 36 66 316 152 260 165 282 143 311 250 290 133 219 301 121 330 116 61 90 111 85 272 205 289 174 148 213 42 206 79 168 73 97 292 211 209 269 39 2 329 312 214 234 284 275 124 23 232 25 343 251 13 64 115 87 263 332 325 21 43 145 257 122 139 101 63 38 28 5 173 162 337 109 198 265 17 127 153 216 278 159 299 334 98 331 123</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>265</u>
+  <u>4122186450</u>
+  <u2_ary>135 54 144 73 120 159 32 64 198 161 134 164 79 119 213 117 200 140 260 262 197 126 212 153 74 201 16 205 239 147 101 13 165 114 122 141 60 168 226 130 28 173 228 58 242 53 47 59 155 125 66 162 37 142 231 88 152 243 151 19 149 87 188 89 78 137 249 24 30 9 113 112 7 204 91 202 84 182 11 237 166 148 123 1 111 264 187 103 233 145 177 99 34 124 179 29 105 133 216 190 4 236 181 76 3 33 191 21 199 26 203 172 255 45 55 90 175 250 195 83 61 68 49 208 251 158 127 170 15 115 241 10 154 20 169 100 196 86 96 253 121 252 18 238 178 40 258 234 118 35 62 227 246 50 167 56 157 210 5 256 222 44 192 193 106 184 230 132 107 247 8 225 143 104 93 17 194 36 128 2 38 52 6 189 12 109 63 209 0 156 72 92 82 23 77 51 27 176 110 215 75 65 129 220 70 14 22 146 185 171 85 95 25 257 223 163 131 186 229 207 248 240 224 71 217 94 214 57 244 232 39 136 245 263 261 180 108 41 254 67 81 69 160 150 221 80 116 98 219 97 174 235 31 46 206 259 218 211 48 42 183 138 139 43 102</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2799098483</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>1</u>
+  <u>3737973514</u>
+  <u2_ary>0</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>635</u>
+  <u>3166832418</u>
+  <u2_ary>232 170 504 615 364 449 146 127 602 308 620 616 328 451 537 310 27 242 290 450 363 188 87 141 393 544 624 558 60 586 282 35 535 315 625 56 564 314 501 408 387 43 536 462 521 197 569 324 3 382 563 66 385 156 53 270 565 480 322 319 304 605 612 91 608 517 429 49 461 155 298 126 513 229 299 327 272 368 130 506 169 557 100 205 2 214 129 400 253 630 523 476 419 574 509 412 47 522 109 435 114 111 376 589 255 98 549 193 192 417 495 622 490 297 422 527 303 441 52 58 383 475 165 275 398 257 252 333 359 352 604 334 286 567 122 311 482 350 154 426 594 152 617 5 603 17 145 301 266 347 331 240 572 36 420 607 44 553 15 283 70 206 405 468 320 75 403 502 463 499 269 143 167 110 481 500 80 349 444 599 194 493 361 244 543 54 578 123 457 285 30 13 38 486 120 312 107 4 472 69 534 224 106 409 410 148 281 391 384 629 580 416 140 184 215 265 287 260 547 437 177 332 579 219 216 166 245 97 631 125 614 61 478 373 365 307 528 477 133 446 575 392 378 487 626 585 447 6 189 151 530 161 101 386 102 289 427 271 512 479 300 494 179 77 55 466 367 531 150 294 413 7 121 119 144 593 88 542 610 26 337 139 267 619 358 65 19 458 149 371 181 469 34 14 520 618 239 92 431 399 18 187 316 554 434 518 597 584 519 377 183 238 185 541 25 76 227 395 136 89 590 401 217 237 505 346 454 292 540 82 108 533 291 632 63 488 318 581 288 32 389 40 460 213 587 296 258 374 484 415 41 525 9 313 280 230 74 453 556 375 85 514 1 209 591 67 428 343 23 548 72 218 222 273 573 48 236 473 160 81 50 225 515 247 157 176 611 351 325 231 233 279 264 492 235 295 135 381 95 483 583 562 440 601 228 243 115 33 394 323 168 326 568 24 407 22 559 200 250 171 330 68 207 465 456 355 606 464 485 8 277 445 338 576 397 360 339 203 432 234 489 305 31 411 99 153 62 132 442 595 497 226 503 254 103 173 137 212 37 423 524 223 354 28 186 388 78 433 342 539 64 208 406 404 11 249 116 182 259 180 221 439 198 341 321 609 191 340 105 112 467 571 507 284 59 16 57 390 175 134 555 348 159 45 546 42 613 199 545 470 570 71 293 633 452 550 414 366 380 124 379 396 402 455 551 96 174 532 634 204 438 201 345 268 430 131 79 436 211 12 196 369 538 29 263 10 274 448 598 471 526 113 588 592 0 529 357 190 90 128 623 335 162 511 353 552 51 251 306 344 628 210 317 443 202 163 21 596 39 362 248 459 510 178 577 560 372 491 73 118 158 336 309 627 516 138 117 262 94 418 142 46 220 329</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1176297505</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1229800755</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>56</u>
+  <u>2266907753</u>
+  <u2_ary>0 17 31 47 44 10 20 42 24 39 35 40 15 4 22 30 49 3 34 55 9 21 27 25 12 11 18 48 38 36 29 53 51 1 54 46 32 37 6 45 26 14 8 43 13 33 19 28 41 23 7 2 5 52 16 50</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>952653920</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3154633677</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/virginia-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/virginia-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/virginia-naval-0001.xml"/>
+ <yes/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/virginia-colonel-0001.xml"/>
+  <xml_include path="character/virginia-minister-0001.xml"/>
+  <xml_include path="character/virginia-General-0001.xml"/>
+  <xml_include path="character/virginia-minister-0002.xml"/>
+  <xml_include path="character/virginia-minister-0003.xml"/>
+  <xml_include path="character/virginia-minister-0004.xml"/>
+  <xml_include path="character/virginia-minister-0005.xml"/>
+  <xml_include path="character/virginia-minister-0006.xml"/>
+  <xml_include path="character/virginia-minister-0007.xml"/>
+  <xml_include path="character/virginia-minister-0008.xml"/>
+  <xml_include path="character/virginia-minister-0009.xml"/>
+  <xml_include path="character/virginia-minister-0010.xml"/>
+  <xml_include path="character/virginia-minister-0011.xml"/>
+  <xml_include path="character/virginia-minister-0012.xml"/>
+  <xml_include path="character/virginia-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/virginia-virginia.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/virginia-0001.xml"/>
+  <xml_include path="army/virginia-0002.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>569834736</u4_ary><!-- Governor ID For Each Theatre -->
+ <yes/>
+ <rec type="CAMPAIGN_SHROUD">
+  <xml_include path="quadtree/virginia-virginia-0001.xml"/>
+  <xml_include path="quadtree/virginia-virginia-0002.xml"/>
+  <xml_include path="quadtree/virginia-virginia-0003.xml"/>
+  <yes/>
+ </rec>
+ <s>rel_protestant</s><!-- Religion -->
+ <yes/>
+ <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>655488696</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>655488696</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>FULL</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>default</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\george_washington" color1="#e54e4e" color2="#ffffff" color3="#711313"/>
+ <flag_and_colours path="data\ui\flags\united_states" color1="#e54e4e" color2="#ffffff" color3="#711313"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="-100.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="-100.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="-100.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="-100.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="9" value="2.0"/>
+   <campaign_bonus_1 subtype="11" value="2.0"/>
+   <campaign_bonus_1 subtype="28" value="0.4"/>
+   <campaign_bonus_1 subtype="54" value="9.0"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="-100.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="-100.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="-100.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="-100.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="9" value="2.0"/>
+   <campaign_bonus_1 subtype="11" value="2.0"/>
+   <campaign_bonus_1 subtype="28" value="0.4"/>
+   <campaign_bonus_1 subtype="54" value="9.0"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

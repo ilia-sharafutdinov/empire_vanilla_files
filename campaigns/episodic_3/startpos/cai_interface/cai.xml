@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<rec type="CAI_INTERFACE">
+ <u>2731042555</u>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>2</u>
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <xml_include path="cai_interface/cai_world.xml"/>
+ <xml_include path="bdi_pool/0001.xml"/>
+ <rec type="CAI_CENTRAL_BDI_POOL">
+  <u>5413</u>
+  <rec type="CAI_FACTION_INDEPENDENT_PARAMETERS">
+  </rec>
+  <rec type="CAI_FACTION_INDEPENDENT_PARAMETERS_VARIABLE">
+   <flt>38.063</flt>
+  </rec>
+  <u>4</u>
+  <u>5</u>
+  <u>6</u>
+  <u>7</u>
+  <u>8</u>
+  <u>9</u>
+  <u>10</u>
+  <u>11</u>
+  <u>12</u>
+  <u>13</u>
+  <u>14</u>
+  <u>15</u>
+  <u>16</u>
+  <u>17</u>
+  <u>18</u>
+  <u>19</u>
+  <u>20</u>
+  <u>21</u>
+  <u>22</u>
+  <u>23</u>
+  <u>24</u>
+  <u>25</u>
+ </rec>
+ <ary type="CAI_INTERFACE_MANAGERS">
+  <xml_include path="cai_interface_managers/0001.xml"/>
+  <xml_include path="cai_interface_managers/0002.xml"/>
+  <xml_include path="cai_interface_managers/0003.xml"/>
+  <xml_include path="cai_interface_managers/0004.xml"/>
+  <xml_include path="cai_interface_managers/0005.xml"/>
+  <xml_include path="cai_interface_managers/0006.xml"/>
+ </ary>
+ <u4_ary>880 11 883 11 886 11 889 11 892 11 895 2</u4_ary>
+ <u>11</u>
+ <u>11</u>
+ <u>10</u>
+ <u>0</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary/>
+ <ary type="EXCLUSION ZONES"/>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <ary type="PRE_BATTLE_INFORMATION"/>
+ <no/>
+ <no/>
+</rec>

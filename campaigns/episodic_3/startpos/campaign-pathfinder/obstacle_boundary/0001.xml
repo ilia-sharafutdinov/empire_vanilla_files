@@ -1,0 +1,3326 @@
+<?xml version="1.0"?>
+<rec type="OBSTACLE_BOUNDARY_MANAGER">
+ <ary type="OBSTACLE_BOUNDARY">
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 80 1 569767370 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>32 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 565670034 0 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 20 1 80 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>80 1 569767370 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>567275762 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1 567275762 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 1 563511306 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 52 1 562042818 0 569275746 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 565489890 1 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562510018 3 563583066 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 570531850 3 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>44 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>570791026 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 564832985 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560649674 0 562042818 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 569767370 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 3 570791026 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569300130 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 1 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 569767370 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0 563511306 0 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 80 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 52 1 80 1 619392290 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>573160218 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 570531850 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570791026 0 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569275746 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 1 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 652876729 0 562978826 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570531850 1 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 564832985 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 567275762 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 570531850 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>563061042 0 560939018 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 573160218 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562510018 0 565489890 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565670034 0 563583066 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 80 1 560649674 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565489890 1 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0 562470202 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>36 1 40 1 72 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 1 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 564832985 0 562978826 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1 557694481 0 562042818 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 28 1 52 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 557694481 0 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562510018 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570531850 0 562470202 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 1 707887914 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 565670034 3 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 566919178 1 562042818 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 570531850 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562510018 0 565489890 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 80 1 608945321 1 573160218 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 0 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1 562042818 1 567275762 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 570791026 0 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570791026 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 80 1 84 1 573160218 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 562978826 0 565489890 0 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>557694481 0 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1 573160218 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565489890 0 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>56 1 60 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 565489890 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>567016105 0 569765898 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 0 560939018 0 581526786 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 3 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 76 1 564832985 1 560649674 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>619392290 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 52 1 569275746 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>80 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 565670034 3 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>563583066 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 8 1 52 1 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 565489890 0 570531850 3 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>563511306 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>28 1 52 1 80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 80 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1 562042818 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 570791026 1 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 76 1 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>32 1 72 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 570531850 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560649674 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 566919178 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 570791026 0 565670034 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 52 1 80 1 619392290 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 1 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562510018 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562510018 3 563583066 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 562978826 3 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 562978826 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 570791026 0 570531850 0 562470202 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565489890 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 0 652876729 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 3 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 3 565489890 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 560649674 0 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>32 1 60 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 3 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570531850 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>60 1 88 1 92 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 570791026 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 564832985 0 557694481 0 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 3 565489890 1 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 570791026 1 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 3 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 560939018 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>28 1 52 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 562978826 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 565489890 1 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 570531850 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 570531850 0 565670034 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>697463074 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562510018 0 565489890 0 565670034 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 652876729 0 565489890 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 1 570791026 0 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562978826 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569300130 1 660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 564832985 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>567016105 0 582178802 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 573160218 0 569275746 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 557694481 0 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>48 1 619392290 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 562978826 0 565489890 0 569275746 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>36 1 40 1 72 1 563061042 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 562042818 0 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 565670034 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 52 1 80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 4 1 52 1 84 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560649674 0 562042818 0 569275746 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 20 1 76 1 80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570531850 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 570531850 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565489890 0 565670034 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560939018 1 581526786 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 565489890 0 570531850 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 570531850 1 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 0 563061042 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0 570791026 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569300130 0 660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>40 1 72 1 563061042 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 573160218 3 566919178 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 573160218 0 566919178 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>567016105 0 697463074 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1 562042818 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 3 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569300130 0 569765898 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 28 1 52 1 80 1 84 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570531850 1 565670034 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 3 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 560939018 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>48 1 52 1 619392290 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 1 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 570531850 0 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 3 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 1 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 565670034 1 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 569275746 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 564832985 0 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 565670034 1 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 570531850 1 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>563061042 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 570531850 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>80 1 557694481 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565489890 1 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562510018 0 565670034 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 0 569767370 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 1 570791026 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>559625562 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 557766618 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>80 1 307373418 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 570791026 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>567016105 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 28 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0 570791026 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569300130 1 569765898 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 1 570531850 0 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 652876729 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 3 565489890 1 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562510018 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 52 1 80 1 608945321 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 1 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 564832985 0 557694481 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 564832985 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>563511306 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 570531850 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562470202 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1 573160218 1 562042818 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 8 1 52 1 562042818 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>80 1 557694481 0 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 80 1 573160218 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 80 1 608945321 1 573160218 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>567016105 0 697463074 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 557766618 0 570791026 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>48 1 559625562 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 0 569767370 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 80 1 564832985 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 1 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570531850 1 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>60 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569765898 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562510018 1 563583066 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570791026 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 570531850 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 8 1 52 1 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 569275746 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 570791026 1 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565489890 3 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 570531850 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 84 1 573160218 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>32 1 64 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>56 1 84 1 88 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 3 565489890 1 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562510018 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 564832985 0 557694481 0 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 0 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 562042818 0 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 563061042 0 560939018 0 581526786 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565489890 1 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 564832985 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>48 1 52 1 619392290 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 565489890 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 52 1 80 1 608945321 1 573160218 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569300130 1 569765898 0 660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 564832985 0 562978826 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 570791026 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>48 1 307373418 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1 573160218 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 569767370 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 1 570531850 0 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 570791026 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>84 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 52 1 80 1 573160218 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570531850 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 570531850 3 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562470202 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 569767370 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 1 697463074 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 565670034 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 573160218 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 1 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 562042818 1 567275762 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 562978826 0 569275746 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 570531850 1 565670034 3 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569102505 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570791026 0 570531850 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 1 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 564832985 0 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 560649674 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 557694481 0 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 52 1 80 1 619392290 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569275746 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570791026 0 570531850 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 3 565489890 1 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>80 1 560649674 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 20 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 619392290 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 3 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 0 557694481 0 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 3 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569765898 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 570531850 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>566919178 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 3 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>652876729 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 565670034 1 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>44 1 76 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 52 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 565670034 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 652876729 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 560649674 0 569767370 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1 562042818 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569765898 1 697463074 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570531850 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570531850 3 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562042818 0 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>565489890 0 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 52 1 80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 652876729 1 562978826 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 570531850 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 570791026 0 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>48 1 307373418 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 3 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 660088250 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 562978826 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 562978826 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0 557766618 0 570791026 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565489890 0 565670034 3 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 564832985 0 557694481 0 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 565670034 1 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>32 1 60 1 92 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569765898 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 80 1 84 1 566919178 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 557766618 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 560649674 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 560649674 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570791026 0 570531850 0 565670034 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570531850 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 573160218 1 562042818 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 570791026 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565489890 1 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 1 557766618 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 565670034 3 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 570531850 1 565670034 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>92 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 0 557694481 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 562042818 1 569275746 1 567275762 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 80 1 573160218 0 566919178 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 3 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1 573160218 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 565670034 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>563583066 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>570531850 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>44 1 48 1 559625562 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 562978826 0 565489890 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 570531850 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 1 557766618 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>56 1 84 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 565489890 1 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 1 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 573160218 1 566919178 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565489890 0 565670034 1 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 562042818 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>608945321 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>619392290 0 307373418 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 0 560939018 0 697463074 0 581526786 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569300130 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 569275746 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 80 1 307373418 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565489890 0 570791026 1 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 3 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>32 1 36 1 64 1 68 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 1 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 565489890 0 570531850 0 565670034 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565489890 0 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 573160218 0 566919178 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 557694481 0 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>48 1 52 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>307373418 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 3 565489890 1 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>573160218 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>32 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 563061042 0 560939018 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1 84 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 24 1 52 1 80 1 619392290 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 565489890 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 565670034 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562510018 0 565489890 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 1 652876729 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 570791026 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 80 1 84 1 573160218 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 80 1 564832985 0 557694481 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 52 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 28 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>48 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 1 581526786 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 562978826 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560939018 3 581526786 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 80 1 569767370 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>564832985 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565489890 0 565670034 3 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565489890 1 570531850 0 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>565489890 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>48 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>44 1 559625562 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>84 1 88 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565489890 3 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 3 565489890 1 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 570531850 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>68 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 560649674 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 76 1 564832985 1 707887914 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>572626041 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 3 570791026 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 76 1 564832985 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562510018 1 563583066 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 563061042 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>60 1 88 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 565670034 3 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 0 652876729 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 52 1 80 1 557694481 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 570791026 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 565670034 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570791026 0 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 52 1 80 1 608945321 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 1 570531850 0 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 1 560649674 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>92 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 566919178 1 562042818 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 20 1 80 1 569767370 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 573160218 1 566919178 1 562042818 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 570531850 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570531850 3 565670034 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 570791026 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 3 581526786 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 80 1 557694481 0 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0 563511306 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>48 1 307373418 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 564832985 0 560649674 0 569767370 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 557766618 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 570531850 0 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 3 565489890 1 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562510018 1 563583066 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 565670034 3 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 569767370 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569300130 1 660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>557694481 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 565489890 1 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 8 1 52 1 562042818 0 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 570531850 1 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562510018 0 565489890 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562510018 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 0 560939018 0 697463074 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 562978826 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 564832985 0 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 557694481 0 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 652876729 0 562978826 0 565489890 0 570531850 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560939018 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 1 570791026 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 570531850 3 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 565670034 3 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 24 1 52 1 80 1 619392290 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562470202 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 570531850 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 0 560939018 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 24 1 80 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570531850 1 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 570531850 1 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 80 1 608945321 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565489890 1 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 0 563061042 0 560939018 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 573160218 1 562042818 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>697463074 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 56 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562470202 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 20 1 76 1 80 1 557694481 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 652876729 0 562978826 0 565489890 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>44 1 48 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 52 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 3 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 565670034 1 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 84 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>566919178 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 80 1 619392290 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 52 1 562042818 0 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 3 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563583066 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562510018 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 562978826 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 56 1 84 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 565489890 0 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 652876729 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 80 1 608945321 1 573160218 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 0 557694481 0 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 76 1 564832985 1 560649674 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 564832985 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 3 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 24 1 80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 84 1 573160218 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 570531850 0 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 573160218 1 562042818 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 24 1 52 1 80 1 557694481 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 565670034 3 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 570531850 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 3 565489890 1 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 570791026 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 3 565489890 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 570531850 1 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>652876729 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565489890 3 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 1 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 80 1 619392290 0 307373418 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 570531850 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 80 1 564832985 0 557694481 0 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>28 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569765898 0 660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 570791026 0 565670034 0 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 0 563061042 0 560939018 0 581526786 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 1 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 28 1 52 1 80 1 573160218 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570531850 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 619392290 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 562042818 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0 570791026 0 562470202 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 80 1 573160218 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 570791026 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 4 1 52 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570531850 3 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 564832985 0 562978826 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560939018 1 581526786 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 557694481 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>88 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 569275746 1 567275762 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1 573160218 1 562042818 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 76 1 564832985 0 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 3 570791026 0 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 1 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 80 1 564832985 0 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 569300130 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 1 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570531850 1 565670034 3 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565489890 3 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 562042818 1 569275746 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1 567275762 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>40 1 72 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>572626041 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1 562042818 1 567275762 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1 566919178 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 1 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 3 565489890 1 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562042818 0 569275746 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>567016105 0 569765898 0 697463074 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569767370 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1 573160218 0 566919178 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>563061042 0 560939018 0 581526786 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570531850 1 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1 569275746 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 80 1 557694481 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 3 565489890 1 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>563511306 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>32 1 36 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562510018 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569300130 0 660088250 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 570791026 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>557694481 0 560649674 0 562042818 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 564832985 0 569767370 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 570791026 0 570531850 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562978826 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570791026 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>567275762 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 28 1 52 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 80 1 557694481 0 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 573160218 0 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570531850 0 565670034 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>60 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 3 565489890 1 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 564832985 0 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 28 1 52 1 80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569300130 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>307373418 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 570791026 0 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0 557766618 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 652876729 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 570531850 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 562978826 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 560939018 1 581526786 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560649674 0 562042818 0 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569765898 0 660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 80 1 569767370 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>36 1 72 1 563061042 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560649674 0 562042818 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 570531850 0 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 562042818 0 569275746 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>570531850 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 84 1 573160218 1 566919178 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 3 565489890 1 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 570791026 1 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 84 1 566919178 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 1 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 1 581526786 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565489890 1 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 569275746 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 3 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0 563511306 0 570791026 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 565489890 0 570531850 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>88 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 570531850 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570791026 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 80 1 84 1 573160218 0 566919178 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 1 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562510018 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 76 1 564832985 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 80 1 84 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 24 1 52 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 1 565489890 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 24 1 80 1 557694481 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>581526786 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 562042818 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>56 1 60 1 88 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 562978826 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569300130 0 660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 3 565489890 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 8 1 52 1 562042818 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0 563511306 0 570791026 0 562470202 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 569767370 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 1 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 1 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569300130 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 565489890 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 80 1 608945321 1 573160218 0 566919178 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 20 1 76 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1 573160218 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 562042818 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>565489890 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 4 1 52 1 84 1 566919178 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 3 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>48 1 619392290 0 307373418 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 3 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 1 581526786 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 1 560939018 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 84 1 566919178 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 573160218 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 84 1 573160218 3 566919178 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1 573160218 0 566919178 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 80 1 619392290 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 570791026 1 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 562978826 3 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 570531850 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 570531850 1 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 24 1 80 1 619392290 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 20 1 76 1 80 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560649674 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 569275746 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 562978826 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>573160218 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>40 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 565670034 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 84 1 573160218 0 566919178 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569765898 0 660088250 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 569300130 0 660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565489890 0 570791026 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 564832985 0 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 567275762 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 80 1 569767370 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 24 1 52 1 80 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565489890 0 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 565489890 0 570531850 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 557766618 0 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562510018 1 563583066 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>28 1 52 1 80 1 573160218 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 1 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 84 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 80 1 573160218 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>697463074 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 562978826 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 8 1 52 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 570531850 0 562470202 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>56 1 88 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 569275746 1 567275762 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 3 570531850 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 80 1 564832985 0 557694481 0 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>559625562 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 652876729 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0 557766618 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562470202 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 570531850 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 3 565489890 1 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 80 1 84 1 573160218 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 560649674 0 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 570791026 0 562470202 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 565670034 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 52 1 562042818 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 562978826 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 76 1 569300130 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 562978826 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 565489890 1 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>32 1 64 1 92 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569300130 0 569765898 0 660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>707887914 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 565670034 1 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565489890 0 570791026 1 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 565489890 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 80 1 560649674 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 52 1 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 3 565489890 1 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>36 1 68 1 72 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 8 1 52 1 562042818 0 569275746 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 1 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 8 1 52 1 569275746 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>557766618 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 569767370 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 560649674 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 569767370 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1 562042818 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569765898 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 76 1 569300130 0 660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 563061042 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 0 697463074 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569300130 1 569765898 0 660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 564832985 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 3 565489890 1 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569300130 0 569765898 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>564832985 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 3 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 570531850 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 560649674 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 565489890 0 565670034 3 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 20 1 80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 1 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 562978826 0 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 1 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 565489890 1 570531850 0 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 24 1 52 1 80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>80 1 569767370 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>48 1 559625562 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569300130 0 660088250 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 565489890 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 564832985 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 570791026 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>44 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 80 1 307373418 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 570791026 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>36 1 72 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>88 1 92 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1 84 1 573160218 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 80 1 619392290 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>581526786 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 569767370 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 564832985 0 557694481 0 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 560649674 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562510018 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 1 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 1 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569300130 0 569765898 0 660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 565489890 0 570531850 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 570531850 1 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 562978826 0 565489890 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569767370 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>24 1 52 1 80 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>60 1 92 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>557766618 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569765898 0 697463074 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>68 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 20 1 80 1 557694481 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 20 1 80 1 569767370 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565489890 3 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 3 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>32 1 92 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 76 1 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562042818 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 563061042 1 560939018 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>619392290 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565670034 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562470202 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 4 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1 573160218 1 562042818 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>36 1 68 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 80 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 80 1 557694481 0 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565489890 0 565670034 1 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 3 565489890 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569102505 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 24 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 562042818 1 567275762 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 80 1 557694481 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 565489890 1 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560939018 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 570531850 3 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 565670034 3 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>581526786 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 3 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>557766618 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 1 570791026 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>567016105 0 582178802 0 697463074 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 1 570531850 0 565670034 0 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0 557766618 0 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560939018 1 581526786 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 562978826 0 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 80 1 307373418 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>565489890 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 565489890 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570791026 0 562470202 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>80 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560939018 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 0 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565670034 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 570791026 0 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565670034 0 563583066 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562042818 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 564832985 0 560649674 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562510018 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 565670034 3 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>563061042 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 76 1 564832985 0 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 564832985 0 569767370 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570791026 0 570531850 0 562470202 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562978826 0 565489890 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 24 1 80 1 619392290 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565489890 0 565670034 3 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 560649674 0 569767370 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 560649674 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 565489890 0 570531850 1 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>64 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 560939018 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 581526786 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569765898 0 660088250 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>563061042 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1 562042818 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 562978826 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 80 1 557694481 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 1 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 573160218 1 566919178 1 562042818 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>660088250 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 564832985 0 652876729 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 1 560649674 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>40 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>567016105 0 569765898 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 28 1 52 1 80 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 570791026 0 562470202 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>36 1 40 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>48 1 619392290 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562510018 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>32 1 36 1 68 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 652876729 0 562978826 0 570531850 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 652876729 0 562978826 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 570791026 0 565670034 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 1 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>40 1 44 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>64 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 562042818 0 569275746 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 52 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 565670034 0 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 565489890 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>36 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 563061042 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563583066 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 652876729 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 52 1 569275746 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 80 1 608945321 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>0 1 28 1 52 1 80 1 84 1 573160218 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562510018 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>56 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 76 1 564832985 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 570791026 1 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 570791026 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 20 1 76 1 80 1 569767370 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>56 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 1 565489890 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>80 1 560649674 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569767370 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 3 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 565489890 3 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562510018 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 564832985 0 560649674 0 569767370 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 565489890 0 565670034 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 1 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 570531850 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 564832985 0 652876729 0 562978826 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 3 565489890 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562978826 0 565489890 0 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562978826 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 24 1 80 1 619392290 0 307373418 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 562042818 1 569275746 1 567275762 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565670034 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565489890 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 569275746 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 570791026 0 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 0 570531850 3 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1 562042818 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 16 1 76 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569300130 1 569765898 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 569275746 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1 566919178 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0 563511306 0 570791026 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 573160218 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>32 1 36 1 68 1 72 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>307373418 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562978826 1 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 76 1 660088250 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 652876729 0 562978826 0 565489890 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 562510018 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>36 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 564832985 0 557694481 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 557694481 0 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>8 1 12 1 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 570791026 0 565670034 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>582178802 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>32 1 36 1 64 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>72 1 76 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>562978826 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 565670034 3 563583066 0 560588082 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>28 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 562978826 1 570531850 0 565670034 0 560588082 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 570791026 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>20 1 24 1 80 1 307373418 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 8 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 652876729 0 570531850 0 562470202 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1 562042818 0 569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569767370 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 608945321 1 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>567016105 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 572626041 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 707887914 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>569275746 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 564832985 0 557694481 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 562470202 0 565670034 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 563511306 0 565489890 0 563583066 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 20 1 76 1 80 1 569767370 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>52 1 557694481 0 562042818 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 3 570531850 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>12 1 76 1 562978826 1 560588082 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 570531850 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 0 563511306 0 565489890 0 570791026 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>16 1 76 1 80 1 560649674 0 707887914 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>4 1 52 1 562042818 0 569275746 0 567275762 0</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 557766618 3</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>84 1</u4_ary>
+  </rec>
+  <rec type="OBSTACLE_BOUNDARY">
+   <u4_ary>76 1 569102505 1 565489890 3 570791026 0 565670034 0</u4_ary>
+  </rec>
+ </ary>
+</rec>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>10</u><!-- Port OR Settlement Indice Start Point (new_england) -->
+ <u>23</u><!-- Port OR Settlement Indice End Point (maine) -->
+ <u4_ary>132 140 99</u4_ary>
+ <flt>12.555133819580078</flt><!-- Length Of Route -->
+</rec>

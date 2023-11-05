@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>3</u><!-- Port OR Settlement Indice Start Point (port:newfoundland:st_johns) -->
+ <u>5</u><!-- Port OR Settlement Indice End Point (port:new_york:new_york) -->
+ <u4_ary>52 51 44 43 41 14 5 9</u4_ary>
+ <flt>176.36862</flt><!-- Length Of Route -->
+</rec>

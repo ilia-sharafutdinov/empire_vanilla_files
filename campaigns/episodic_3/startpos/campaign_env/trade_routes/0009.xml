@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>16</u><!-- Port OR Settlement Indice Start Point (new_france) -->
+ <u>22</u><!-- Port OR Settlement Indice End Point (acadia) -->
+ <u4_ary>151 147 165 79 241 235 191 157 183 85 231 91 195 102</u4_ary>
+ <flt>157.83192</flt><!-- Length Of Route -->
+</rec>

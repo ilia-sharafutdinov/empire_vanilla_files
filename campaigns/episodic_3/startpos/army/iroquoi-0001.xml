@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>573287360</u><!-- Army ID -->
+   <u>562042816</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Hokoleskwa" commander_id="562042816" created="summer 1754" deaths="0" exp="0" kills="0" mp="29" name="" size="60/60" type="native_american_generals_bodyguard" unit_id="573287632"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Obwandiyag" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="562043952"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Savignon" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="562044216"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Cochise" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="562044480"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Pontiac" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="569270280"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Memeskia" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="569270544"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Neolin" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="569270808"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Peshewa" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="569271072"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Tokose_Mathla" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="569271336"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Tomasajaquichi" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="569271600"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Thayendanegea" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="569271864"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Ishtakhaba" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="569272128"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Sheninjee" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="569272392"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Makataimeshekiakiak" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="569272656"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Tanacharison" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="573285776"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Sigwaahdohgwih" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="573286040"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Passaconaway" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="573286304"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Hokoleskwa" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="573286568"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Matotope" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="573286832"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="iroquoi Kitsap" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="573287096"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>573287360</i>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

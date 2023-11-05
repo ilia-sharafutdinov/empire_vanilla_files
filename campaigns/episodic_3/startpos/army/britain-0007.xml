@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>697518016</u><!-- Army ID -->
+   <u>560588080</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Derren Coote" commander_id="560588080" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_024" size="160/160" type="episodic_2_line_infantry" unit_id="697517752"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>697518016</i>
+  <u>697517288</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>571004592</u><!-- Army ID -->
+   <u>560649672</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Noël Desjean" commander_id="560649672" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_006" size="160/160" type="episodic_2_french_marines" unit_id="560651320"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Bertrand Gravier" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_007" size="160/160" type="episodic_2_french_marines" unit_id="571003536"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Ambroise Ames" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_008" size="160/160" type="episodic_2_french_marines" unit_id="571003800"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Renard Bucher" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="unit_regiment_names_localisation_lookup_unit_name_euro_irregulars_001" size="180/180" type="episodic_2_native_american_musketeer_auxiliary" unit_id="560651584"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Philippe Poussin" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="unit_regiment_names_localisation_lookup_unit_name_euro_irregulars_001" size="180/180" type="episodic_2_native_american_musketeer_auxiliary" unit_id="560651848"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Hilaire Aiton" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="unit_regiment_names_localisation_lookup_unit_name_euro_irregulars_001" size="180/180" type="episodic_2_native_american_musketeer_auxiliary" unit_id="571003272"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france François Montesquieu" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="unit_regiment_names_localisation_lookup_unit_name_euro_irregulars_001" size="180/180" type="episodic_2_native_american_musketeer_auxiliary" unit_id="571004064"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Jacques Loroche" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="unit_regiment_names_localisation_lookup_unit_name_euro_irregulars_001" size="180/180" type="episodic_2_native_american_musketeer_auxiliary" unit_id="571004328"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>571004592</i>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

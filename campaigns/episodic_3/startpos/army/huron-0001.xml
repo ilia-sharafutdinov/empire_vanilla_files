@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>560904288</u><!-- Army ID -->
+   <u>619392288</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Austenaco" commander_id="619392288" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="560903760"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Neolin" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="560904024"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>560904288</i>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

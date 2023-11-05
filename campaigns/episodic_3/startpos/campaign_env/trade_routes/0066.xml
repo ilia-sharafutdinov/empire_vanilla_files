@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>13</u><!-- Port OR Settlement Indice Start Point (algonquin_territory) -->
+ <u>21</u><!-- Port OR Settlement Indice End Point (virginia) -->
+ <u4_ary>130 86 181 215 223 169</u4_ary>
+ <flt>55.066246032714844</flt><!-- Length Of Route -->
+</rec>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>10</u><!-- Port OR Settlement Indice Start Point (new_england) -->
+ <u>19</u><!-- Port OR Settlement Indice End Point (new_york) -->
+ <u4_ary>117 233 253 251</u4_ary>
+ <flt>21.0953</flt><!-- Length Of Route -->
+</rec>

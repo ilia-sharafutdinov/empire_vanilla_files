@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>569104400</u><!-- Army ID -->
+   <u>567014616</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Radclyffe Dimbleby" commander_id="567014616" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_025" size="160/160" type="episodic_2_line_infantry" unit_id="569103080"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Hamish Pope" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_026" size="160/160" type="episodic_2_line_infantry" unit_id="569103344"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Eugene Ager" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_027" size="160/160" type="episodic_2_line_infantry" unit_id="569103872"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Oscar Armstrong" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_028" size="160/160" type="episodic_2_line_infantry" unit_id="569104136"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Pippin Plumber" created="summer 1754" deaths="0" exp="0" kills="0" mp="26" name="" size="80/80" type="episodic_2_rangers" unit_id="569103608"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>569104400</i>
+  <u>569102504</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

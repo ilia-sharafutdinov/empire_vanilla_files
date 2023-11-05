@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<rec type="CAMPAIGN_PREOPEN_MAP_INFO">
+ <rec type="CAMPAIGN_PLAYERS_SETUP">
+  <ary type="PLAYERS_ARRAY">
+   <rec type="PLAYERS_ARRAY">
+    <rec type="CAMPAIGN_PLAYER_SETUP">
+     <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+     <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+      <i>0</i>
+      <i>0</i>
+      <i>0</i>
+      <no/>
+     </rec>
+     <s>virginia</s>
+     <no/>
+     <yes/><!-- Playable -->
+     <no/>
+    </rec>
+   </rec>
+   <rec type="PLAYERS_ARRAY">
+    <rec type="CAMPAIGN_PLAYER_SETUP">
+     <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+     <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+      <i>0</i>
+      <i>0</i>
+      <i>0</i>
+      <no/>
+     </rec>
+     <s>britain</s>
+     <no/>
+     <no/><!-- Playable -->
+     <no/>
+    </rec>
+   </rec>
+   <rec type="PLAYERS_ARRAY">
+    <rec type="CAMPAIGN_PLAYER_SETUP">
+     <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+     <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+      <i>0</i>
+      <i>0</i>
+      <i>0</i>
+      <no/>
+     </rec>
+     <s>france</s>
+     <no/>
+     <no/><!-- Playable -->
+     <no/>
+    </rec>
+   </rec>
+   <rec type="PLAYERS_ARRAY">
+    <rec type="CAMPAIGN_PLAYER_SETUP">
+     <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+     <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+      <i>0</i>
+      <i>0</i>
+      <i>0</i>
+      <no/>
+     </rec>
+     <s>huron</s>
+     <no/>
+     <no/><!-- Playable -->
+     <no/>
+    </rec>
+   </rec>
+   <rec type="PLAYERS_ARRAY">
+    <rec type="CAMPAIGN_PLAYER_SETUP">
+     <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+     <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+      <i>0</i>
+      <i>0</i>
+      <i>0</i>
+      <no/>
+     </rec>
+     <s>iroquoi</s>
+     <no/>
+     <no/><!-- Playable -->
+     <no/>
+    </rec>
+   </rec>
+  </ary>
+ </rec>
+ <date>summer 1754</date>
+ <s>episodic_3</s>
+ <s>episodic_map_2</s>
+ <ary type="VICTORY_CONDITION_OPTIONS"/>
+ <ary type="FACTION_INFOS">
+  <rec type="FACTION_INFOS">
+   <s>virginia</s>
+   <s/>
+   <yes/>
+   <yes/>
+   <i>0</i>
+   <s>start_pos_factions_description_1184694737</s>
+   <s>data\ui\flags\george_washington</s>
+   <i>1</i>
+  </rec>
+  <rec type="FACTION_INFOS">
+   <s>britain</s>
+   <s/>
+   <yes/>
+   <no/>
+   <i>1</i>
+   <s>start_pos_factions_description_144</s>
+   <s>data\ui\flags\britain</s>
+   <i>3</i>
+  </rec>
+  <rec type="FACTION_INFOS">
+   <s>france</s>
+   <s/>
+   <yes/>
+   <no/>
+   <i>2</i>
+   <s>start_pos_factions_description_145</s>
+   <s>data\ui\flags\france</s>
+   <i>7</i>
+  </rec>
+  <rec type="FACTION_INFOS">
+   <s>huron</s>
+   <s/>
+   <yes/>
+   <no/>
+   <i>3</i>
+   <s>start_pos_factions_description_146</s>
+   <s>data\ui\flags\huron</s>
+   <i>2</i>
+  </rec>
+  <rec type="FACTION_INFOS">
+   <s>iroquoi</s>
+   <s/>
+   <yes/>
+   <no/>
+   <i>4</i>
+   <s>start_pos_factions_description_1195573728</s>
+   <s>data\ui\flags\iroquois</s>
+   <i>2</i>
+  </rec>
+ </ary>
+ <ary type="REGION_OWNERSHIPS_BY_THEATRE">
+  <region_ownerships_by_theatre theatre="america">
+   maine=britain
+   new_france=france
+   ontario=france
+   michigan_territory=huron
+   newfoundland=france
+   pennsylvania=iroquoi
+   huron_territory=huron
+   algonquin_territory=france
+   iroquois_territory=france
+   new_england=britain
+   new_york=britain
+   maryland=iroquoi
+   acadia=france
+   labrador=france
+   virginia=virginia
+  </region_ownerships_by_theatre>
+ </ary>
+</rec>

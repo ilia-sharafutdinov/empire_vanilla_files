@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<rec type="CAI_HISTORY">
+ <ary type="CAI_HISTORY_EVENTS">
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>1</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>1</i>
+    <cai_event_classes>
+     type_round
+     round_1
+     faction_all
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_ROUND">
+    <u>1</u>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>15</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>15</i>
+    <cai_event_classes>
+     type_invasion_requested
+     round_1
+     faction_virginia
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_INVASION_REQUESTED">
+    <asc>virginia</asc>
+    <asc>virginia</asc>
+    <asc>algonquin_territory</asc>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_virginia
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>virginia</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_britain
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>britain</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_france
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>france</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_huron
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>huron</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_iroquoi
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>iroquoi</asc>
+    <i>11</i>
+   </rec>
+  </rec>
+  <rec type="CAI_HISTORY_EVENTS">
+   <i>14</i>
+   <rec type="CAI_HISTORY_EVENT">
+    <i>14</i>
+    <cai_event_classes>
+     type_new_manager_for_faction
+     round_1
+     faction_rebels
+    </cai_event_classes>
+   </rec>
+   <rec type="CAI_HISTORY_EVENT_NEW_MANAGER_FOR_FACTION">
+    <asc>rebels</asc>
+    <i>2</i>
+   </rec>
+  </rec>
+ </ary>
+ <u>1</u>
+ <u>0</u>
+</rec>

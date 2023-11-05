@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<rec type="WORLD">
+ <ancillary_uniqueness_monitor/>
+ <u>0</u>
+ <u>1</u>
+ <ary type="FACTION_ARRAY">
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/virginia.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/britain.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/france.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/huron.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/iroquoi.xml"/>
+  </rec>
+ </ary>
+ <rec type="REBEL_FACTION">
+  <xml_include path="factions/0001.xml"/>
+ </rec>
+ <rec type="REGION_MANAGER">
+  <ary type="REGIONS_ARRAY">
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/maine.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_france.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/ontario.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/michigan_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/newfoundland.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/pennsylvania.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/huron_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/algonquin_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/iroquois_territory.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_england.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/new_york.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/maryland.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/acadia.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/labrador.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/virginia.xml"/>
+   </rec>
+  </ary>
+ </rec>
+ <no/>
+ <ary type="SPYING_ARRAY">
+  <rec type="SPYING_ARRAY">
+   <s>virginia</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>britain</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>france</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>huron</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>iroquoi</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+ </ary>
+ <rec type="REBEL_SPYING">
+  <rec type="CAMPAIGN_SPYING">
+   <ary type="ARMY_DATA" version="0"/>
+   <ary type="NAVY_DATA" version="0"/>
+   <ary type="REGION_SLOT_DATA" version="0"/>
+   <ary type="FORT_DATA" version="0"/>
+   <ary type="SETTLEMENT_DATA" version="0"/>
+  </rec>
+ </rec>
+</rec>

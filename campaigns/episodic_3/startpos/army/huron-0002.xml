@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>637975448</u><!-- Army ID -->
+   <u>307373416</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Cochise" commander_id="307373416" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="642054488"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Bolek" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="637973864"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Savignon" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="637974128"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Tahwonneahs" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="637974392"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Ganioda&apos;yo" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="637974656"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Oconostota" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="637974920"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="huron Chonocape" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_2_natam_musketeers" unit_id="637975184"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>637975448</i>
+  <u>642054024</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

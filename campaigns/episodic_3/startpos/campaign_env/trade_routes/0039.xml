@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>3</u><!-- Port OR Settlement Indice Start Point (port:newfoundland:st_johns) -->
+ <u>4</u><!-- Port OR Settlement Indice End Point (port:new_france:tadoussac) -->
+ <u4_ary>52 51 47 55 56 62</u4_ary>
+ <flt>145.06738</flt><!-- Length Of Route -->
+</rec>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rec type="SAVE_GAME_HEADER">
+ <s>virginia</s>
+ <s>ui/portraits/european/Cards/minister/old/001.tga</s>
+ <u>1</u>
+ <u>1754</u>
+ <s>Summer</s>
+ <s>data\ui\flags\george_washington</s>
+ <ary type="MAPS">
+  <map name="america" unknown="512" pgm="map-0001.pgm"/>
+ </ary>
+</rec>

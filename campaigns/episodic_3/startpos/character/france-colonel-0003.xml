@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="-527.916015625" y="311.8110046386719"/>
+   <v2x x="-527.916015625" y="311.8110046386719"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>25</i><!-- Movement Points Left -->
+   <i>24</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits/>
+   <loc>names_name_names_frenchLouis</loc>
+   <loc>names_name_names_frenchDelaflotte</loc>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1736</date>
+   <date/>
+   <i>0</i>
+   <portrait_details/>
+   <s>france</s>
+   <u>570531848</u><!-- Character ID -->
+   <agent_ancillaries/>
+   <agent_attributes>
+    command_land=0
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=-1
+    morale_sea=-1
+    movement_points_land=-1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_coloneleuropean</loc>
+  </rec>
+  <i>570531848</i><!-- Character ID -->
+  <s>colonel</s><!-- Character Type -->
+  <u>570533512</u><!-- Army ID -->
+  <u>570532984</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   -524.0,314.0
+   -525.1672306060791,314.0
+   -525.5081090927124,314.4918909072876
+   -525.8550701141357,314.7100524902344
+   -525.6752424240112,314.952241897583
+   -525.491457939148,314.50854206085205
+   -525.0,314.30497550964355
+   -524.508542060852,314.50854206085205
+   -524.3049755096436,315.0
+   -524.508542060852,315.49145793914795
+   -525.0,315.69502449035645
+   -525.491457939148,315.49145793914795
+   -525.6799993515015,315.03627490997314
+   -526.0,315.3249044418335
+   -526.0,316.0
+   -528.0,316.0
+   -530.0,316.0
+   -530.0,315.41517543792725
+   -530.293496131897,315.31364250183105
+   -530.408561706543,315.59143829345703
+   -531.0,315.83641719818115
+   -531.591438293457,315.59143829345703
+   -531.8364171981812,315.0
+   -531.591438293457,314.40856170654297
+   -531.4049386978149,314.3313112258911
+   -531.5675745010376,314.0
+   -532.0,314.0
+   -532.0,313.48730087280273
+   -532.4998531341553,313.0
+   -532.1326389312744,312.11345958709717
+   -532.1796350479126,312.0
+   -532.5938453674316,311.0
+   -532.0,310.81829166412354
+   -532.0,310.73502254486084
+   -530.0,310.9906930923462
+   -528.0,311.24636363983154
+   -527.6315259933472,311.2934675216675
+   -526.2012634277344,312.0
+   -526.0,312.09942150115967
+   -525.8224716186523,312.18711853027344
+   -524.0031661987305,312.6806392669678
+   -524.0,312.6817741394043
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <no/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <no/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>707887640</u><!-- Army ID -->
+   <u>707887912</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Raimund Godard" commander_id="707887912" created="summer 1754" deaths="0" exp="0" kills="0" mp="28" name="unit_regiment_names_localisation_lookup_unit_name_euro_light_horse_003" size="30/30" type="episodic_2_light_cavalry_colonial" unit_id="707887376"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Alexis Augereau" created="summer 1754" deaths="0" exp="0" kills="0" mp="22" name="unit_regiment_names_localisation_lookup_unit_name_euro_artillery_units_059" size="24/24" type="episodic_2_24_lber_land_cannon" unit_id="695615000"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Jean_Moreau Dupleix" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_013" size="160/160" type="episodic_2_french_marines" unit_id="695614736"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Napoléon Cugnot" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_014" size="160/160" type="episodic_2_french_marines" unit_id="707887112"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Ferdinand Bagot" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="unit_regiment_names_localisation_lookup_unit_name_euro_irregulars_001" size="180/180" type="episodic_2_native_american_musketeer_auxiliary" unit_id="695614472"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>707887640</i>
+  <u>695614008</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

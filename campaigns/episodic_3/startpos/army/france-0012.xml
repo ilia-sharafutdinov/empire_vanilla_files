@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>660089912</u><!-- Army ID -->
+   <u>660088248</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Armand Robert" commander_id="660088248" created="summer 1754" deaths="0" exp="0" kills="0" mp="28" name="unit_regiment_names_localisation_lookup_unit_name_euro_light_horse_002" size="30/30" type="episodic_2_light_cavalry_colonial" unit_id="571230440"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Louis_Thomas Messier" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_012" size="160/160" type="episodic_2_french_marines" unit_id="660089648"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Raoul Colbert" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="unit_regiment_names_localisation_lookup_unit_name_euro_irregulars_001" size="180/180" type="episodic_2_native_american_musketeer_auxiliary" unit_id="660089384"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>660089912</i>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

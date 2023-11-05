@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>567589360</u><!-- Army ID -->
+   <u>309749208</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Jacques de_Villiers" commander_id="309749208" created="summer 1754" deaths="0" exp="0" kills="0" mp="29" name="" size="32/32" type="euro_generals_bodyguard" unit_id="567589720"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Perrin Folliot" created="summer 1754" deaths="0" exp="0" kills="0" mp="28" name="unit_regiment_names_localisation_lookup_unit_name_euro_light_horse_001" size="30/30" type="episodic_2_light_cavalry_colonial" unit_id="567588304"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Antoine de_Caster" created="summer 1754" deaths="0" exp="0" kills="0" mp="22" name="unit_regiment_names_localisation_lookup_unit_name_euro_artillery_units_052" size="24/24" type="episodic_2_24_lber_land_cannon" unit_id="309750344"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Lucien d&apos;Arnoville" created="summer 1754" deaths="0" exp="0" kills="0" mp="22" name="unit_regiment_names_localisation_lookup_unit_name_euro_artillery_units_053" size="24/24" type="episodic_2_24_lber_land_cannon" unit_id="567588832"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Charlot Varignon" created="summer 1754" deaths="0" exp="0" kills="0" mp="22" name="unit_regiment_names_localisation_lookup_unit_name_euro_artillery_units_054" size="24/24" type="episodic_2_24_lber_land_cannon" unit_id="567589096"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Auben Delancy" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_001" size="160/160" type="episodic_2_french_marines" unit_id="309750872"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Emmanuel Lavoisier" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_002" size="160/160" type="episodic_2_french_marines" unit_id="309751136"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Nicéphore Hébert" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_003" size="160/160" type="episodic_2_french_marines" unit_id="309751400"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Franck de_Lorme" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="unit_regiment_names_localisation_lookup_unit_name_euro_irregulars_001" size="180/180" type="episodic_2_native_american_musketeer_auxiliary" unit_id="309750608"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="france Luc Bruyere" created="summer 1754" deaths="0" exp="0" kills="0" mp="25" name="unit_regiment_names_localisation_lookup_unit_name_euro_irregulars_001" size="180/180" type="episodic_2_native_american_musketeer_auxiliary" unit_id="567588568"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>567589360</i>
+  <u>557694480</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

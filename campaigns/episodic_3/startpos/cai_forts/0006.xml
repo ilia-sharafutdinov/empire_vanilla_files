@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_FORTS">
+ <cai_situated x="-459.0169982910156" y="323.9010009765625" region_id="824" theatre_id="27" area_id="5"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>996</u>
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>2545 2 2571 0 2560 2 2561 1 2562 2 2563 1 2564 1 2565 1 2566 2 2567 1 2570 1 2573 1 2574 1 2575 1 2576 1 2577 1 2578 1 4732 5</u4_ary>
+ <u>0</u>
+ <u>18</u>
+ <u4_ary/>
+ <u4_ary>2545 16 2571 2560 2561 2562 2563 2564 2565 2566 2567 2570 2573 2574 2575 2576 2577 2578 4732 3662</u4_ary>
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2545 2560 2561 2562 2563 2564 2565 2566 2567 2570 2571 2572 2573 2574 2575 2576 2577 2578</u4_ary>
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_GARRISONABLE">
+  <u>1381</u><!-- Character Resource AI ID -->
+  <u>0</u>
+  <u4_ary/><!-- Character Resource AI IDs -->
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+ <rec type="CAI_FORT">
+  <u>567016104</u>
+ </rec>
+</rec>

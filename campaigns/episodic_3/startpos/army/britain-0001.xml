@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>568460856</u><!-- Army ID -->
+   <u>569300128</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Theodore Bellamy" commander_id="569300128" created="summer 1754" deaths="0" exp="0" kills="0" mp="28" name="unit_regiment_names_localisation_lookup_unit_name_euro_light_horse_001" size="30/30" type="episodic_2_light_cavalry_colonial" unit_id="570177288"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Lloyd Harley" created="summer 1754" deaths="0" exp="0" kills="0" mp="28" name="unit_regiment_names_localisation_lookup_unit_name_euro_light_horse_002" size="30/30" type="episodic_2_light_cavalry_colonial" unit_id="570178608"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Nicholas English" created="summer 1754" deaths="0" exp="0" kills="0" mp="28" name="unit_regiment_names_localisation_lookup_unit_name_euro_light_horse_003" size="30/30" type="episodic_2_light_cavalry_colonial" unit_id="570179136"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Alistair Steele" created="summer 1754" deaths="0" exp="0" kills="0" mp="28" name="unit_regiment_names_localisation_lookup_unit_name_euro_light_horse_004" size="30/30" type="episodic_2_light_cavalry_colonial" unit_id="568460328"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Tyler Gates" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_001" size="160/160" type="episodic_2_line_infantry" unit_id="570177024"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain William Walhouse" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_002" size="160/160" type="episodic_2_line_infantry" unit_id="570177816"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Alvin Hill" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_003" size="160/160" type="episodic_2_line_infantry" unit_id="570178080"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Conrad Jennings" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_004" size="160/160" type="episodic_2_line_infantry" unit_id="570178344"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Gayelord Porter" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_005" size="160/160" type="episodic_2_line_infantry" unit_id="568459272"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Lindsay Hancock" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_006" size="160/160" type="episodic_2_line_infantry" unit_id="568459536"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Thomas Bailey" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_007" size="160/160" type="episodic_2_line_infantry" unit_id="568459800"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Murdoch Hardy" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_008" size="160/160" type="episodic_2_line_infantry" unit_id="568460064"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Warren Willis" created="summer 1754" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_009" size="160/160" type="episodic_2_line_infantry" unit_id="568460592"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Layton Gilpin" created="summer 1754" deaths="0" exp="0" kills="0" mp="26" name="" size="80/80" type="episodic_2_rangers" unit_id="570177552"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Cornelius Castle" created="summer 1754" deaths="0" exp="0" kills="0" mp="26" name="" size="80/80" type="episodic_2_rangers" unit_id="570178872"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>568460856</i>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

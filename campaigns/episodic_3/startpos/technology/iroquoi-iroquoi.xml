@@ -1,0 +1,552 @@
+<?xml version="1.0"?>
+<rec type="FACTION_TECHNOLOGY_MANAGER" version="3">
+ <ary type="techs">
+  <rec type="techs">
+   <s>military_army_plug_bayonet</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_carbines</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_ring_bayonet</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_square_formation</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_military_syllabus</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_wedge_formation</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_socket_bayonet</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_cadenced_marching</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_fire_by_rank</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_new_model_bayonet_drill</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_diamond_formation</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_reoganised_procurement</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_fire_and_advance</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_light_infantry_doctrine</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_shortened_carbines</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_platoon_firing</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_machined_rifling</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_army_percussion_cap</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_ordnance_canister_shot</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_ordnance_improved_grenades</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_ordnance_explosive_shells</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_ordnance_carcass_shot</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_ordnance_quicklime_shells</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_ordnance_shrapnel_shot</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_ordnance_percussion_shells</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_naval_shore_facilities</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_flintlock_cannon</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_seasoning</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_sextant</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_naval_architecture_advances</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_improved_grape_shot</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_longitude_watch</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_reformed_naval_administration</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_carronades</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_copper_bottoms</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_lime_juice_and_sauerkraut</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_rifled_cannons</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_improved_coppering</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_sheet_lead_cartridges</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_top_gallants</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>military_navy_preserved_foods</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_agriculture_common_land_enclosures</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_agriculture_improved_animal_husbandry</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_agriculture_four_field_crop_rotation</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_agriculture_seed_planting_drill</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_agriculture_advanced_irrigation</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_agriculture_selective_breeding</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_agriculture_steam-pumped_land_drainage</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_agriculture_threshing_machine</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_metal_basic_steam_pump</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_metal_coke_blast_furnace</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_metal_measuring_tools</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_metal_machine_tools</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_metal_puddling_furnace</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_metal_steam_engine</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_metal_interchangeable_parts</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_textile_spinning_jenny</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_textile_spinning_mule</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_textile_flying_shuttle</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_textile_punch-card_loom</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_textile_power_loom</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>industry_textile_mass_production</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_empiricism</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_social_contract</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_physiocracy</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_utilitarianism</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_government_by_consent</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_division_of_labour</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_separation_of_powers</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_joint_stock_companies</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_rights_of_man</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_national_debt</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_wealth_of_nations</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_citizenship</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_secular_humanism</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_free_trade_doctrine</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_abolition_of_slavery</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+  <rec type="techs">
+   <s>enlightenment_classical_economics</s>
+   <u>4</u>
+   <flt>0.0</flt>
+   <u>0</u>
+   <u4_ary/>
+  </rec>
+ </ary>
+ <i>565954752</i>
+</rec>

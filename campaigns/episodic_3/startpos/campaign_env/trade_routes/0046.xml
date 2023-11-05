@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>2</u><!-- Port OR Settlement Indice Start Point (port:labrador:cartwright) -->
+ <u>3</u><!-- Port OR Settlement Indice End Point (port:newfoundland:st_johns) -->
+ <u4_ary>74 71 72 64 58 54 46 50 53</u4_ary>
+ <flt>160.28885</flt><!-- Length Of Route -->
+</rec>
