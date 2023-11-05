@@ -208,7 +208,7 @@
      </rec>
      <s>piedmont_savoy</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -223,7 +223,7 @@
      </rec>
      <s>safavids</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -238,7 +238,7 @@
      </rec>
      <s>inuit</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -253,7 +253,7 @@
      </rec>
      <s>iroquoi</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -268,7 +268,7 @@
      </rec>
      <s>morocco</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -283,7 +283,7 @@
      </rec>
      <s>knights_stjohn</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -313,7 +313,7 @@
      </rec>
      <s>mughal</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -328,7 +328,7 @@
      </rec>
      <s>mysore</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -343,7 +343,7 @@
      </rec>
      <s>papal_states</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -358,7 +358,7 @@
      </rec>
      <s>hannover</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -373,7 +373,7 @@
      </rec>
      <s>plains</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -388,7 +388,7 @@
      </rec>
      <s>denmark</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -403,7 +403,7 @@
      </rec>
      <s>portugal</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -418,7 +418,7 @@
      </rec>
      <s>crimean_khanate</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -433,7 +433,7 @@
      </rec>
      <s>pueblo</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -448,7 +448,7 @@
      </rec>
      <s>venice</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -463,7 +463,7 @@
      </rec>
      <s>genoa</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -478,7 +478,7 @@
      </rec>
      <s>cherokee</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -493,7 +493,7 @@
      </rec>
      <s>bavaria</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -508,7 +508,7 @@
      </rec>
      <s>westphalia</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -523,7 +523,7 @@
      </rec>
      <s>georgia</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -538,7 +538,7 @@
      </rec>
      <s>wurttemberg</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -553,7 +553,7 @@
      </rec>
      <s>chechenya_dagestan</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -568,7 +568,7 @@
      </rec>
      <s>courland</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -613,7 +613,7 @@
      </rec>
      <s>huron</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -658,7 +658,7 @@
      </rec>
      <s>saxony</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -823,7 +823,7 @@
      </rec>
      <s>barbary_states</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -995,7 +995,7 @@
    <s>piedmont_savoy</s>
    <s>ui/portraits/european/cards/king/young/087.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>14</i>
    <s>start_pos_factions_description_12</s>
    <s>data\ui\flags\piedmont_savoy</s>
@@ -1005,7 +1005,7 @@
    <s>safavids</s>
    <s>ui/portraits/indian/cards/king/young/022.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>15</i>
    <s>start_pos_factions_description_54</s>
    <s>data\ui\flags\safavids</s>
@@ -1015,7 +1015,7 @@
    <s>inuit</s>
    <s>ui/portraits/tribal/cards/king/young/003.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>16</i>
    <s>start_pos_factions_description_70</s>
    <s>data\ui\flags\inuit</s>
@@ -1025,7 +1025,7 @@
    <s>iroquoi</s>
    <s>ui/portraits/tribal/cards/king/young/004.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>17</i>
    <s>start_pos_factions_description_65</s>
    <s>data\ui\flags\iroquois</s>
@@ -1035,7 +1035,7 @@
    <s>morocco</s>
    <s>ui/portraits/indian/cards/king/old/098.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>18</i>
    <s>start_pos_factions_description_42</s>
    <s>data\ui\flags\morocco</s>
@@ -1045,7 +1045,7 @@
    <s>knights_stjohn</s>
    <s>ui/portraits/european/cards/king/old/017.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>19</i>
    <s>start_pos_factions_description_47</s>
    <s>data\ui\flags\knights_stjohn</s>
@@ -1065,7 +1065,7 @@
    <s>mughal</s>
    <s>ui/portraits/indian/cards/king/old/062.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>21</i>
    <s>start_pos_factions_description_62</s>
    <s>data\ui\flags\mughal</s>
@@ -1075,7 +1075,7 @@
    <s>mysore</s>
    <s>ui/portraits/indian/cards/king/old/049.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>22</i>
    <s>start_pos_factions_description_68</s>
    <s>data\ui\flags\mysore</s>
@@ -1085,7 +1085,7 @@
    <s>papal_states</s>
    <s>ui/portraits/european/cards/king/old/074.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>23</i>
    <s>start_pos_factions_description_46</s>
    <s>data\ui\flags\papal_states</s>
@@ -1095,7 +1095,7 @@
    <s>hannover</s>
    <s>ui/portraits/european/cards/king/old/015.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>24</i>
    <s>start_pos_factions_description_38</s>
    <s>data\ui\flags\hannover</s>
@@ -1105,7 +1105,7 @@
    <s>plains</s>
    <s>ui/portraits/tribal/cards/king/old/005.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>25</i>
    <s>start_pos_factions_description_66</s>
    <s>data\ui\flags\plains</s>
@@ -1115,7 +1115,7 @@
    <s>denmark</s>
    <s>ui/portraits/european/cards/king/young/040.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>26</i>
    <s>start_pos_factions_description_1</s>
    <s>data\ui\flags\denmark</s>
@@ -1125,7 +1125,7 @@
    <s>portugal</s>
    <s>ui/portraits/european/cards/king/old/028.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>27</i>
    <s>start_pos_factions_description_50</s>
    <s>data\ui\flags\portugal</s>
@@ -1135,7 +1135,7 @@
    <s>crimean_khanate</s>
    <s>ui/portraits/indian/cards/king/old/003.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>28</i>
    <s>start_pos_factions_description_35</s>
    <s>data\ui\flags\crimean_khanate</s>
@@ -1145,7 +1145,7 @@
    <s>pueblo</s>
    <s>ui/portraits/tribal/cards/king/young/007.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>29</i>
    <s>start_pos_factions_description_67</s>
    <s>data\ui\flags\pueblo</s>
@@ -1155,7 +1155,7 @@
    <s>venice</s>
    <s>ui/portraits/european/cards/minister/old/002.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>30</i>
    <s>start_pos_factions_description_59</s>
    <s>data\ui\flags\venice</s>
@@ -1165,7 +1165,7 @@
    <s>genoa</s>
    <s>ui/portraits/european/cards/king/old/009.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>31</i>
    <s>start_pos_factions_description_37</s>
    <s>data\ui\flags\genoa</s>
@@ -1175,7 +1175,7 @@
    <s>cherokee</s>
    <s>ui/portraits/tribal/cards/king/young/001.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>32</i>
    <s>start_pos_factions_description_64</s>
    <s>data\ui\flags\cherokee</s>
@@ -1185,7 +1185,7 @@
    <s>bavaria</s>
    <s>ui/portraits/european/cards/king/young/035.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>35</i>
    <s>start_pos_factions_description_33</s>
    <s>data\ui\flags\bavaria</s>
@@ -1195,7 +1195,7 @@
    <s>westphalia</s>
    <s>ui/portraits/european/cards/king/young/051.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>36</i>
    <s>start_pos_factions_description_60</s>
    <s>data\ui\flags\westphalia</s>
@@ -1205,7 +1205,7 @@
    <s>georgia</s>
    <s>ui/portraits/european/cards/king/old/008.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>37</i>
    <s>start_pos_factions_description_130</s>
    <s>data\ui\flags\georgia</s>
@@ -1215,7 +1215,7 @@
    <s>wurttemberg</s>
    <s>ui/portraits/european/cards/king/young/049.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>38</i>
    <s>start_pos_factions_description_61</s>
    <s>data\ui\flags\wurttemberg</s>
@@ -1225,7 +1225,7 @@
    <s>chechenya_dagestan</s>
    <s>ui/portraits/indian/cards/king/young/051.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>39</i>
    <s>start_pos_factions_description_131</s>
    <s>data\ui\flags\chechenya_dagestan</s>
@@ -1235,7 +1235,7 @@
    <s>courland</s>
    <s>ui/portraits/european/cards/king/old/055.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>40</i>
    <s>start_pos_factions_description_132</s>
    <s>data\ui\flags\courland</s>
@@ -1265,7 +1265,7 @@
    <s>huron</s>
    <s>ui/portraits/tribal/cards/king/young/002.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>43</i>
    <s>start_pos_factions_description_139</s>
    <s>data\ui\flags\huron</s>
@@ -1295,7 +1295,7 @@
    <s>saxony</s>
    <s>ui/portraits/european/cards/king/young/056.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>44</i>
    <s>start_pos_factions_description_1220457457</s>
    <s>data\ui\flags\saxony</s>
@@ -1405,7 +1405,7 @@
    <s>barbary_states</s>
    <s>ui/portraits/indian/cards/king/old/092.tga</s>
    <no/>
-   <no/>
+   <yes/>
    <i>55</i>
    <s>start_pos_factions_description_32</s>
    <s>data\ui\flags\barbary_states</s>
