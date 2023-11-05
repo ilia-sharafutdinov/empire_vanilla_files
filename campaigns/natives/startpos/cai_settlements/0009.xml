@@ -40,7 +40,7 @@
  </rec>
  <rec type="CAI_SETTLEMENT">
   <u4_ary>1073 1074 1075 1076 1077</u4_ary><!-- Building Slot AI IDs -->
-  <u>0</u><!-- Faction AI ID (only if capital) -->
+  <u>937</u><!-- Faction AI ID (only if capital) -->
   <u>361499800</u><!-- Settlement ID -->
  </rec>
 </rec>

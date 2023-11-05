@@ -33,7 +33,7 @@
   <u4_ary>6 11 12 4 24</u4_ary><!-- HLCIS IDs -->
   <u4_ary>2343 2348 2356 2364 2369 2372 2378 2384 2389 2392 2398 2405 2411 2418 2422 2426 2430 2434 2438</u4_ary><!-- Character Resource AI IDs -->
   <u4_ary>2342 2347 2355 2360 2361 2362 2363 2368 2370 2371 2375 2376 2377 2383 2388 2391 2397 2404 2410 2417 2421 2425 2429 2433 2437 2440 2441 2442 2443 2444 2445 2446</u4_ary><!-- Character AI IDs -->
-  <u>758</u><!-- Region AI ID Of Capital -->
+  <u>715</u><!-- Region AI ID Of Capital -->
   <u>360837096</u><!-- Faction ID -->
   <u4_ary/><!-- World Trade Route IDs -->
   <u4_ary/><!-- World Trade Route Segments IDs -->
@@ -67,7 +67,7 @@
   <no/>
   <rec type="CAI_BDI_NEW_TURN">
   </rec>
-  <u>758</u><!-- Region AI ID Of Capital -->
+  <u>715</u><!-- Region AI ID Of Capital -->
   <u4_ary/><!-- Region AI IDs Of Faction's Needed For Victory Conditions -->
  </rec>
 </rec>
