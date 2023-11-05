@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>23</u><!-- Port OR Settlement Indice Start Point (port:new_spain:veracruz) -->
+ <u>24</u><!-- Port OR Settlement Indice End Point (port:new_andalusia:coro) -->
+ <u4_ary>280 225 223 255 252 247 245 43 149 147 145 122 33 29 291 296 287 347</u4_ary>
+ <flt>281.45026</flt><!-- Length Of Route -->
+</rec>

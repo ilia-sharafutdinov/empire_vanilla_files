@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_OBSTACLE">
+ <rec type="OBSTACLE">
+  <ary type="BOUNDARIES">
+   <BOUNDARIES/>
+   <BOUNDARIES>
+    yes,6488
+    yes,6489
+    yes,6490
+    yes,6491
+    yes,6492
+    yes,6493
+    yes,6494
+    no,6495
+    no,6496
+    no,6497
+    no,6498
+    yes,6499
+    yes,6500
+    no,6501
+    no,6502
+    no,6503
+    no,6504
+    yes,6505
+    yes,6506
+    no,6507
+    no,6508
+    no,6509
+    no,6510
+    yes,6511
+    yes,6512
+    no,6513
+    no,6514
+    no,6515
+    no,6516
+    yes,6517
+    yes,6518
+    yes,6519
+    yes,6520
+    yes,6521
+    yes,6522
+    yes,6523
+   </BOUNDARIES>
+   <BOUNDARIES/>
+   <BOUNDARIES>
+    yes,10569
+    yes,10570
+    yes,10571
+    yes,10572
+    yes,10573
+    yes,10574
+    yes,10575
+    no,10576
+    no,10577
+    no,10578
+    no,10579
+    yes,10580
+    yes,10581
+    no,10582
+    no,10583
+    no,10584
+    no,10585
+    yes,10586
+    yes,10587
+    no,10588
+    no,10589
+    no,10590
+    no,10591
+    yes,10592
+    yes,10593
+    no,10594
+    no,10595
+    no,10596
+    no,10597
+    yes,10598
+    yes,10599
+    yes,10600
+    yes,10601
+    yes,10602
+    yes,10603
+    yes,10604
+   </BOUNDARIES>
+   <BOUNDARIES/>
+   <BOUNDARIES/>
+  </ary>
+  <u>1</u>
+  <u>1</u>
+  <u>1</u>
+  <u>1</u>
+  <ary type="MANAGED_OBSTACLE_BOUNDARY">
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <yes/>
+    <u4_ary>349424138 1</u4_ary>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <yes/>
+    <u4_ary>349424138 3</u4_ary>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+  </ary>
+  <u>9</u>
+  <v2x x="-522.0" y="302.0"/>
+  <v2x x="-510.0" y="314.0"/>
+  <u2>0</u2>
+  <u2>0</u2>
+  <u2>0</u2>
+  <u2>0</u2>
+  <u2>120</u2>
+  <u2>152</u2>
+  <u2>123</u2>
+  <u2>155</u2>
+ </rec>
+ <u>349424136</u>
+</rec>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>18</u><!-- Port OR Settlement Indice Start Point (port:guatemala:puerto_barrios) -->
+ <u>35</u><!-- Port OR Settlement Indice End Point (port:acadia:louisbourg) -->
+ <u4_ary>303 257 249 247 245 44 48 50 52 54 56 58 374 366 364 354 60 125 72 377</u4_ary>
+ <flt>345.69952</flt><!-- Length Of Route -->
+</rec>

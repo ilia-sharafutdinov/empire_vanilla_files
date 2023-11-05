@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>15</u><!-- Port OR Settlement Indice Start Point (port:leeward_islands:guadeloupe) -->
+ <u>25</u><!-- Port OR Settlement Indice End Point (port:new_spain:tampico) -->
+ <u4_ary>126 18 20 41 39 37 120 144 146 148 42 244 246 253 254 222 224 226 228 277</u4_ary>
+ <flt>309.8898</flt><!-- Length Of Route -->
+</rec>

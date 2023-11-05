@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>12</u><!-- Port OR Settlement Indice Start Point (port:virginia:yorktown) -->
+ <u>35</u><!-- Port OR Settlement Indice End Point (port:acadia:louisbourg) -->
+ <u4_ary>372 368 364 354 60 125 72 377</u4_ary>
+ <flt>140.33197</flt><!-- Length Of Route -->
+</rec>

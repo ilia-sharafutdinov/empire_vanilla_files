@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>3</u><!-- Port OR Settlement Indice Start Point (port:new_france:tadoussac) -->
+ <u>9</u><!-- Port OR Settlement Indice End Point (port:acadia:cap_fourchu) -->
+ <u4_ary>97 93 90 77 75 73 177</u4_ary>
+ <flt>163.29588</flt><!-- Length Of Route -->
+</rec>

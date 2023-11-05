@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>27</u><!-- Port OR Settlement Indice Start Point (port:cuba:santiago_de_cuba) -->
+ <u>30</u><!-- Port OR Settlement Indice End Point (port:georgia_usa:st_marys) -->
+ <u4_ary>332 123 144 146 148 47 48 50 155</u4_ary>
+ <flt>126.68286</flt><!-- Length Of Route -->
+</rec>

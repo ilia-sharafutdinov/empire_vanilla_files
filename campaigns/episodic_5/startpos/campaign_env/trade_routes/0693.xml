@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>16</u><!-- Port OR Settlement Indice Start Point (port:bahamas:grand_bahama) -->
+ <u>30</u><!-- Port OR Settlement Indice End Point (port:georgia_usa:st_marys) -->
+ <u4_ary>180 50 155</u4_ary>
+ <flt>51.53432</flt><!-- Length Of Route -->
+</rec>

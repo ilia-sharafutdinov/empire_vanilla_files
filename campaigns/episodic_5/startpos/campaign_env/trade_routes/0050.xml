@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>21</u><!-- Port OR Settlement Indice Start Point (port:french_guyana:sinnamary) -->
+ <u>31</u><!-- Port OR Settlement Indice End Point (port:newfoundland:st_johns) -->
+ <u4_ary>9 0 2 10 113 111 16 18 20 41 39 37 120 144 146 148 47 48 50 52 54 56 58 374 366 364 354 60 125 72 74 81 82 179</u4_ary>
+ <flt>578.53296</flt><!-- Length Of Route -->
+</rec>

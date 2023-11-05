@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>32</u><!-- Port OR Settlement Indice Start Point (port:curacao:otrobanda) -->
+ <u>40</u><!-- Port OR Settlement Indice End Point (port:hispaniola:san_juan) -->
+ <u4_ary>344 351 353 101 99 14 16 298 131</u4_ary>
+ <flt>142.49683</flt><!-- Length Of Route -->
+</rec>

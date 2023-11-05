@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>4</u><!-- Port OR Settlement Indice Start Point (port:windward_islands:barbados) -->
+ <u>21</u><!-- Port OR Settlement Indice End Point (port:french_guyana:sinnamary) -->
+ <u4_ary>114 112 11 3 1 8</u4_ary>
+ <flt>112.30414</flt><!-- Length Of Route -->
+</rec>

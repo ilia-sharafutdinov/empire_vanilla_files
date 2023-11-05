@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>45</u><!-- Port OR Settlement Indice Start Point (algonquin_territory) -->
+ <u>57</u><!-- Port OR Settlement Indice End Point (iroquois_territory) -->
+ <u4_ary>673 649 479 577 455 771 387 381 633</u4_ary>
+ <flt>55.42263</flt><!-- Length Of Route -->
+</rec>

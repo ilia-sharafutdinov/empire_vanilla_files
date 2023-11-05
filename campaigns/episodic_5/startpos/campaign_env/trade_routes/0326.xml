@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>10</u><!-- Port OR Settlement Indice Start Point (port:ruperts_land:fort_albany) -->
+ <u>17</u><!-- Port OR Settlement Indice End Point (port:maine:eastport) -->
+ <u4_ary>326 329 313 311 309 307 305 84 86 88 90 77 75 73 71 173</u4_ary>
+ <flt>452.5206</flt><!-- Length Of Route -->
+</rec>

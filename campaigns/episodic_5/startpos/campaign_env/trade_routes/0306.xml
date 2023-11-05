@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>5</u><!-- Port OR Settlement Indice Start Point (port:new_grenada:cartagena) -->
+ <u>34</u><!-- Port OR Settlement Indice End Point (port:panama:puerto_bello) -->
+ <u4_ary>215 190 213</u4_ary>
+ <flt>39.41675567626953</flt><!-- Length Of Route -->
+</rec>

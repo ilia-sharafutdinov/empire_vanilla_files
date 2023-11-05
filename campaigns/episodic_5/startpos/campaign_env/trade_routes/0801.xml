@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>15</u><!-- Port OR Settlement Indice Start Point (port:leeward_islands:guadeloupe) -->
+ <u>22</u><!-- Port OR Settlement Indice End Point (port:labrador:cartwright) -->
+ <u4_ary>126 18 20 41 39 37 120 144 146 148 47 48 50 52 54 56 58 374 366 364 354 60 125 72 74 76 91 89 87 85 304 323</u4_ary>
+ <flt>524.17505</flt><!-- Length Of Route -->
+</rec>

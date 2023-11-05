@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>12</u><!-- Port OR Settlement Indice Start Point (port:virginia:yorktown) -->
+ <u>17</u><!-- Port OR Settlement Indice End Point (port:maine:eastport) -->
+ <u4_ary>372 368 364 354 60 62 64 66 171</u4_ary>
+ <flt>103.81387</flt><!-- Length Of Route -->
+</rec>

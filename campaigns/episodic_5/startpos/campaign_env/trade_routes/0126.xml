@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>17</u><!-- Port OR Settlement Indice Start Point (port:maine:eastport) -->
+ <u>31</u><!-- Port OR Settlement Indice End Point (port:newfoundland:st_johns) -->
+ <u4_ary>172 70 72 74 81 82 179</u4_ary>
+ <flt>130.71567</flt><!-- Length Of Route -->
+</rec>

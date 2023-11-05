@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<rec type="CAI_INTERFACE">
+ <u>1630233018</u>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>2</u>
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <xml_include path="cai_interface/cai_world.xml"/>
+ <xml_include path="bdi_pool/0001.xml"/>
+ <rec type="CAI_CENTRAL_BDI_POOL">
+  <u>13764</u>
+  <rec type="CAI_FACTION_INDEPENDENT_PARAMETERS">
+  </rec>
+  <rec type="CAI_FACTION_INDEPENDENT_PARAMETERS_VARIABLE">
+   <flt>38.063</flt>
+  </rec>
+  <u>4</u>
+  <u>5</u>
+  <u>6</u>
+  <u>7</u>
+  <u>8</u>
+  <u>9</u>
+  <u>10</u>
+  <u>11</u>
+  <u>12</u>
+  <u>13</u>
+  <u>14</u>
+  <u>15</u>
+  <u>16</u>
+  <u>17</u>
+  <u>18</u>
+  <u>19</u>
+  <u>20</u>
+  <u>21</u>
+  <u>22</u>
+  <u>23</u>
+  <u>24</u>
+  <u>25</u>
+ </rec>
+ <ary type="CAI_INTERFACE_MANAGERS">
+  <xml_include path="cai_interface_managers/0001.xml"/>
+  <xml_include path="cai_interface_managers/0002.xml"/>
+  <xml_include path="cai_interface_managers/0003.xml"/>
+  <xml_include path="cai_interface_managers/0004.xml"/>
+  <xml_include path="cai_interface_managers/0005.xml"/>
+  <xml_include path="cai_interface_managers/0006.xml"/>
+  <xml_include path="cai_interface_managers/0007.xml"/>
+  <xml_include path="cai_interface_managers/0008.xml"/>
+  <xml_include path="cai_interface_managers/0009.xml"/>
+  <xml_include path="cai_interface_managers/0010.xml"/>
+  <xml_include path="cai_interface_managers/0011.xml"/>
+  <xml_include path="cai_interface_managers/0012.xml"/>
+  <xml_include path="cai_interface_managers/0013.xml"/>
+ </ary>
+ <u4_ary>941 11 944 11 947 11 950 11 953 11 956 11 959 11 962 11 965 11 968 11 971 11 974 11 977 2</u4_ary>
+ <u>11</u>
+ <u>11</u>
+ <u>10</u>
+ <u>0</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary/>
+ <ary type="EXCLUSION ZONES"/>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <ary type="PRE_BATTLE_INFORMATION"/>
+ <no/>
+ <no/>
+ <rec type="CAI_INTERFACE_DIRECTOR_BDI_POOL">
+  <xml_include path="bdi_pool/0015.xml"/>
+  <rec type="CDIR_BDI_POOL">
+   <u>2953</u>
+  </rec>
+ </rec>
+ <rec type="CAI_INVASION_TRACKING_SYSTEM_INFORMATION">
+  <ary type="CAI_INVASION_TRACKING_SYSTEM_RECORDS">
+   <rec type="CAI_INVASION_TRACKING_SYSTEM_RECORDS">
+    <u>941</u>
+    <u>882</u>
+    <yes/>
+    <no/>
+    <no/>
+    <no/>
+    <u4_ary>871</u4_ary>
+    <no/>
+    <no/>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u>1</u>
+   </rec>
+   <rec type="CAI_INVASION_TRACKING_SYSTEM_RECORDS">
+    <u>941</u>
+    <u>866</u>
+    <yes/>
+    <no/>
+    <no/>
+    <no/>
+    <u4_ary>871</u4_ary>
+    <no/>
+    <no/>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u>1</u>
+   </rec>
+   <rec type="CAI_INVASION_TRACKING_SYSTEM_RECORDS">
+    <u>941</u>
+    <u>877</u>
+    <yes/>
+    <no/>
+    <no/>
+    <no/>
+    <u4_ary>871</u4_ary>
+    <no/>
+    <no/>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u>1</u>
+   </rec>
+   <rec type="CAI_INVASION_TRACKING_SYSTEM_RECORDS">
+    <u>944</u>
+    <u>871</u>
+    <yes/>
+    <no/>
+    <no/>
+    <no/>
+    <u4_ary>882</u4_ary>
+    <no/>
+    <no/>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u>1</u>
+   </rec>
+   <rec type="CAI_INVASION_TRACKING_SYSTEM_RECORDS">
+    <u>944</u>
+    <u>741</u>
+    <yes/>
+    <no/>
+    <no/>
+    <no/>
+    <u4_ary>903</u4_ary>
+    <yes/>
+    <yes/>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u>1</u>
+   </rec>
+   <rec type="CAI_INVASION_TRACKING_SYSTEM_RECORDS">
+    <u>950</u>
+    <u>820</u>
+    <yes/>
+    <no/>
+    <no/>
+    <no/>
+    <u4_ary>743</u4_ary>
+    <no/>
+    <yes/>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u>1</u>
+   </rec>
+   <rec type="CAI_INVASION_TRACKING_SYSTEM_RECORDS">
+    <u>950</u>
+    <u>822</u>
+    <yes/>
+    <no/>
+    <no/>
+    <no/>
+    <u4_ary>786 794</u4_ary>
+    <no/>
+    <yes/>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u>1</u>
+   </rec>
+   <rec type="CAI_INVASION_TRACKING_SYSTEM_RECORDS">
+    <u>953</u>
+    <u>852</u>
+    <no/>
+    <no/>
+    <no/>
+    <no/>
+    <u4_ary>822</u4_ary>
+    <no/>
+    <no/>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u>1</u>
+   </rec>
+   <rec type="CAI_INVASION_TRACKING_SYSTEM_RECORDS">
+    <u>956</u>
+    <u>713</u>
+    <yes/>
+    <no/>
+    <no/>
+    <no/>
+    <u4_ary>716</u4_ary>
+    <no/>
+    <no/>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u>1</u>
+   </rec>
+   <rec type="CAI_INVASION_TRACKING_SYSTEM_RECORDS">
+    <u>962</u>
+    <u>799</u>
+    <no/>
+    <no/>
+    <no/>
+    <no/>
+    <u4_ary>820</u4_ary>
+    <no/>
+    <no/>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u>1</u>
+   </rec>
+  </ary>
+ </rec>
+</rec>

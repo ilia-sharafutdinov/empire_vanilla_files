@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>65</u><!-- Port OR Settlement Indice Start Point (florida) -->
+ <u>67</u><!-- Port OR Settlement Indice End Point (cherokee_territory) -->
+ <u4_ary>680 500 656 636 595 700 494 456 496 480</u4_ary>
+ <flt>104.80073547363281</flt><!-- Length Of Route -->
+</rec>

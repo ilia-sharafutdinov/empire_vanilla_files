@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>16</u><!-- Port OR Settlement Indice Start Point (port:bahamas:grand_bahama) -->
+ <u>18</u><!-- Port OR Settlement Indice End Point (port:guatemala:puerto_barrios) -->
+ <u4_ary>182 45 244 246 248 256 302</u4_ary>
+ <flt>124.27025</flt><!-- Length Of Route -->
+</rec>

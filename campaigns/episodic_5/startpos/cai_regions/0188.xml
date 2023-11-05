@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1352</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>852</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3040 0 3804 0 4695 0 5342 0 5454 0 7659 0 9033 0 9098 0 10001 0 10114 0 10151 0 10153 0 10689 0 10707 0 11790 0 12425 0 12639 0 12670 0 12671 0 12719 0 12772 0 12835 0 12836 0 12837 0 12838 0 12839 0 12755 1 12749 1 12904 0 12733 1 12913 0 12747 1 13573 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>33</u>
+ <u4_ary/>
+ <u4_ary>3040 14 3804 2970 4695 4 5342 15 5454 5032 7659 7310 9033 8148 9098 8167 10001 9827 10114 9846 10151 10152 10153 9867 10689 10284 10707 10303 11790 11477 12425 12231 12639 12516 12670 12517 12671 12533 12719 12772 12531 12835 12836 12837 12838 12839 12755 12749 12904 12524 12733 12913 12522 12747 13573 12925</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2661 2674 2680 2682 3040 3805 3804 4695 4697 4699 4935 4940 5117 5343 5454 7659 9033 10001 10151 10153 10164 10689 11790 12425 12639 12669 12751 12719 12765 12766 12824 12835 12836 12837 12838 12839 12904 12913 13573</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>853 854 855 856 857 858</u4_ary><!-- HLCIS IDs -->
+  <u>1352</u><!-- Settlement AI ID -->
+  <u4_ary>1354 1356 1358 1360</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-557.59106</flt><!-- X Coordinate -->
+  <flt>305.65103</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2471 2474 2476 2478 2480 2481 2482</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>2327 2333</u4_ary><!-- Character Resource AI IDs -->
+  <s>algonquin_territory</s><!-- Region Name -->
+  <u>350090376</u><!-- Region ID -->
+  <u>2701</u><!-- Governor AI ID -->
+  <u4_ary/><!-- Faction AI IDs Needed For Victory Condition -->
+ </rec>
+</rec>

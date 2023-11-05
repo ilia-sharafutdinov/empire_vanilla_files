@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_RESOURCE_MOBILES">
+ <owned_direct>944</owned_direct><!-- Faction AI ID -->
+ <cai_situated x="-579.7522583007812" y="212.05007934570312" region_id="773" theatre_id="27" area_id="6"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>1992</u><!-- Character Resource AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3072 0 3471 4 3519 0 3499 2 3500 3 3501 3 3502 3 3504 3 3505 2 3510 3 3514 2 3515 2 3518 1 3520 2 3540 3 3541 2 3542 2 3543 3 3544 2 3545 3 3547 1 3552 1 3553 2 3554 3 3555 1 4101 0 4102 0 4507 0 5143 0 5144 0 5853 0 6648 0 6649 1 5856 3 6698 0 6848 0 6849 1 5820 3 7019 1 7020 1 5850 3 7159 0 7160 1 5844 3 7227 0 7228 1 5848 5 7613 0 7840 0 8469 0 8823 0 9915 0 10647 0 10978 0 11764 0 12144 0 12807 0 13260 0 13261 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>59</u><!-- HLCIS ID -->
+ <u4_ary/>
+ <u4_ary>3072 10 3471 16 3519 3499 3500 3501 3502 3504 3505 3510 3514 3515 3518 3520 3540 3541 3542 3543 3544 3545 3547 3552 3553 3554 3555 4101 20 4102 2970 4507 2962 5143 5024 5144 5032 5853 5043 6648 6649 5068 5856 6698 5062 6848 6849 5820 7019 7020 5850 7159 7160 5844 7227 7228 5848 7613 7310 7840 7302 8469 8148 8823 8140 9915 9827 10647 10284 10978 10276 11764 11477 12144 11959 12807 12516 13260 12917 13261 12925</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+  <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+   <u>6649</u><!-- BDI Information -->
+   <u>1992</u><!-- Character Resource AI ID -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>0</u>
+  </rec>
+  <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+   <u>6849</u><!-- BDI Information -->
+   <u>1992</u><!-- Character Resource AI ID -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>0</u>
+  </rec>
+  <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+   <u>7020</u><!-- BDI Information -->
+   <u>1992</u><!-- Character Resource AI ID -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>0</u>
+  </rec>
+  <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+   <u>7160</u><!-- BDI Information -->
+   <u>1992</u><!-- Character Resource AI ID -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>0</u>
+  </rec>
+  <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+   <u>7228</u><!-- BDI Information -->
+   <u>1992</u><!-- Character Resource AI ID -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>0</u>
+  </rec>
+ </ary>
+ <u>5</u>
+ <u>0</u>
+ <u4_ary>6649 6849 7020 7160 7228</u4_ary><!-- BDI Information -->
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>3072 3471 3499 3500 3501 3502 3504 3505 3510 3513 3514 3515 3518 3519 3520 3540 3541 3542 3543 3544 3545 3547 3552 3553 3554 3555 4507 4508 4509 4510 4512 4513 4551 4554 4555 4568 4569 4570 4579 4580 4581 4645 4646 4648 4649 5143 5165 5166 5167 5156 5157 5160 5161 5162 5149 5170 5171 5173 5176 5189 5190 5177 5853 5851 6533 6536 6537 6648 6698 6848 7019 7159 7227 7840 7841 7842 7843 7845 7846 7860 7863 7864 7869 7870 7871 7874 7875 7876 7901 7902 7905 7906 8823 8825 8827 8828 8830 8831 8845 8848 8849 8985 8986 8987 8998 8999 9001 9012 9013 9019 9020 9914 9922 9923 10978 10979 10980 10981 10983 10984 10989 10992 10993 10998 10999 11000 11003 11004 11005 11016 11017 11019 11020 11775 11778 11779 12162 12165 12166 12816 12819 12820 13260 13264 13268 13269 13272 13273 13289 13292 13293 13298 13299 13300 13303 13304 13306 13337 13338 13342 13343</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_RESOURCE_MOBILE">
+  <u>1991</u><!-- Character AI ID -->
+  <u>1180</u><!-- Settlement AI ID -->
+  <u>0</u><!-- Settlement Character AI ID -->
+  <ary type="CAI_RESOURCE_MOBILE_SIEGE_INFORMATION"/>
+  <u4_ary>1991</u4_ary><!-- Character AI IDs -->
+  <u4_ary>1993 1994 1995</u4_ary><!-- Character Unit AI IDs -->
+  <yes/>
+  <no/>
+  <no/>
+  <u>0</u>
+  <u>349415808</u><!-- Army ID -->
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+</rec>

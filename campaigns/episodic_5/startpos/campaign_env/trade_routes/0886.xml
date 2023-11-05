@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>56</u><!-- Port OR Settlement Indice Start Point (new_france) -->
+ <u>60</u><!-- Port OR Settlement Indice End Point (ontario) -->
+ <u4_ary>601 524 503 538</u4_ary>
+ <flt>19.288454055786133</flt><!-- Length Of Route -->
+</rec>

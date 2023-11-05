@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY">
+  <rec type="MILITARY_FORCE">
+   <u>349553096</u><!-- Army ID -->
+   <u>349550584</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Bartolome Aguilar" commander_id="349550584" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_010" size="160/160" type="euro_line_infantry_spain" unit_id="349551856"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Eurico Marin" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_011" size="160/160" type="euro_line_infantry_spain" unit_id="349552104"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Silvio Ramirez" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_012" size="160/160" type="euro_line_infantry_spain" unit_id="349552352"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Heliodoro Espejo" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_013" size="160/160" type="euro_line_infantry_spain" unit_id="349552600"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Bernado Guadian" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_014" size="160/160" type="euro_line_infantry_spain" unit_id="349552848"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>349553096</i><!-- Army ID -->
+  <u>349830896</u><!-- Army In Building Slot ID -->
+  <no/><!-- Under Seige -->
+  <u>0</u><!-- Army ID Of Ship Escorting -->
+  <no/>
+ </rec>
+</rec>

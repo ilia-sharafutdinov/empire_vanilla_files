@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>inuit</s>
+  <no/>
+  <no/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 544</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>10000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/inuit.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/inuit-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/inuit.xml"/>
+ <i>349647264</i><!-- Faction ID -->
+ <s>inuit</s><!-- Faction Name -->
+ <s>Inuit Nations</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>124</u>
+  <u>3206091608</u>
+  <u2_ary>117 25 10 101 109 61 51 122 45 8 21 24 53 81 77 20 54 107 7 59 114 69 37 52 58 4 67 74 23 87 82 90 93 34 60 102 79 29 89 49 50 85 64 11 26 30 73 116 121 17 42 95 110 112 16 115 2 31 100 92 43 46 86 84 1 62 41 91 9 36 72 98 75 44 66 28 123 96 19 0 119 39 63 78 6 108 32 48 27 18 56 65 103 40 118 88 120 22 35 111 57 106 12 99 15 13 14 76 80</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>17</u>
+  <u>1115731826</u>
+  <u2_ary>15 9 7 1 0 14 16 11 6 13 8</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>14</u>
+  <u>1225948521</u>
+  <u2_ary>4 13 10 6 11 1 0 5 9 7 8 2 12 3</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>3</u>
+  <u>29282636</u>
+  <u2_ary>0 2 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1096351454</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3461409117</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>4146096305</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>9</u>
+  <u>970476600</u>
+  <u2_ary>0 3 2 6 8 5 1 4 7</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>11</u>
+  <u>4217303033</u>
+  <u2_ary>5 3</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>93819751</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/inuit-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/inuit-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/inuit-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/inuit-colonel-0001.xml"/>
+  <xml_include path="character/inuit-General-0001.xml"/>
+  <xml_include path="character/inuit-minister-0001.xml"/>
+  <xml_include path="character/inuit-minister-0002.xml"/>
+  <xml_include path="character/inuit-minister-0003.xml"/>
+  <xml_include path="character/inuit-minister-0004.xml"/>
+  <xml_include path="character/inuit-minister-0005.xml"/>
+  <xml_include path="character/inuit-minister-0006.xml"/>
+  <xml_include path="character/inuit-minister-0007.xml"/>
+  <xml_include path="character/inuit-minister-0008.xml"/>
+  <xml_include path="character/inuit-minister-0009.xml"/>
+  <xml_include path="character/inuit-minister-0010.xml"/>
+  <xml_include path="character/inuit-minister-0011.xml"/>
+  <xml_include path="character/inuit-minister-0012.xml"/>
+  <xml_include path="character/inuit-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/inuit-inuit.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/inuit-0001.xml"/>
+  <xml_include path="army/inuit-0002.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>350023768</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_animist</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>350017168</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>350017168</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>episode_3_native_americans</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>episode_3_native_americans</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\inuit" color1="#bf5737" color2="#e5e5e5" color3="#a99037"/>
+ <flag_and_colours path="data\ui\flags\inuit" color1="#bf5737" color2="#e5e5e5" color3="#a99037"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

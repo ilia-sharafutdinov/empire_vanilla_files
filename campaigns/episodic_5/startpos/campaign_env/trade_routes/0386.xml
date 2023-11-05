@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>6</u><!-- Port OR Settlement Indice Start Point (port:trinidad_tobago:puerto_de_espana) -->
+ <u>24</u><!-- Port OR Settlement Indice End Point (port:new_andalusia:coro) -->
+ <u4_ary>106 98 100 352 349</u4_ary>
+ <flt>68.56059</flt><!-- Length Of Route -->
+</rec>

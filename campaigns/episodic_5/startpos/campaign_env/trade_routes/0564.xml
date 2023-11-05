@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>3</u><!-- Port OR Settlement Indice Start Point (port:new_france:tadoussac) -->
+ <u>16</u><!-- Port OR Settlement Indice End Point (port:bahamas:grand_bahama) -->
+ <u4_ary>97 93 90 77 75 73 124 61 355 365 367 375 59 57 55 53 51 181</u4_ary>
+ <flt>344.83783</flt><!-- Length Of Route -->
+</rec>

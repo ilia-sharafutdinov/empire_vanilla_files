@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY">
+  <rec type="MILITARY_FORCE">
+   <u>349406080</u><!-- Army ID -->
+   <u>349404384</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Barnaby Goodfellow" commander_id="349404384" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_213" size="160/160" type="euro_militia_infantry" unit_id="349405584"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Isaac Clapperton" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_214" size="160/160" type="euro_militia_infantry" unit_id="349405832"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>349406080</i><!-- Army ID -->
+  <u>349854608</u><!-- Army In Building Slot ID -->
+  <no/><!-- Under Seige -->
+  <u>0</u><!-- Army ID Of Ship Escorting -->
+  <no/>
+ </rec>
+</rec>

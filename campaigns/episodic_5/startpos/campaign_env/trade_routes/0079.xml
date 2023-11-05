@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>23</u><!-- Port OR Settlement Indice Start Point (port:new_spain:veracruz) -->
+ <u>26</u><!-- Port OR Settlement Indice End Point (port:cuba:holguin) -->
+ <u4_ary>280 225 223 255 252 247 245 43 149 151</u4_ary>
+ <flt>169.67842</flt><!-- Length Of Route -->
+</rec>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>12</u><!-- Port OR Settlement Indice Start Point (port:virginia:yorktown) -->
+ <u>25</u><!-- Port OR Settlement Indice End Point (port:new_spain:tampico) -->
+ <u4_ary>372 370 375 59 57 55 53 51 49 45 244 246 253 254 222 224 226 228 277</u4_ary>
+ <flt>278.7829</flt><!-- Length Of Route -->
+</rec>

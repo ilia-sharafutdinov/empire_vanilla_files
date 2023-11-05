@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>5</u><!-- Port OR Settlement Indice Start Point (port:new_grenada:cartagena) -->
+ <u>39</u><!-- Port OR Settlement Indice End Point (port:hispaniola:leogane) -->
+ <u4_ary>216 187 185 295 290 28 137</u4_ary>
+ <flt>115.61445</flt><!-- Length Of Route -->
+</rec>

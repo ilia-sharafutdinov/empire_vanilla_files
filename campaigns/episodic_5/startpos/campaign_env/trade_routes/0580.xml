@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>1</u><!-- Port OR Settlement Indice Start Point (port:new_england:providence) -->
+ <u>11</u><!-- Port OR Settlement Indice End Point (port:new_spain:campeche) -->
+ <u4_ary>162 355 365 367 375 59 57 55 53 51 49 45 244 246 253 254 285</u4_ary>
+ <flt>259.5881</flt><!-- Length Of Route -->
+</rec>

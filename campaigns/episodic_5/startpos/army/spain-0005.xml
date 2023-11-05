@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY">
+  <rec type="MILITARY_FORCE">
+   <u>349558768</u><!-- Army ID -->
+   <u>349556328</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Marcelino Rivera_y_Moncada" commander_id="349556328" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_015" size="160/160" type="euro_line_infantry_spain" unit_id="349557528"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Eugenio Diaz" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_016" size="160/160" type="euro_line_infantry_spain" unit_id="349557776"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Mario Sanchez" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_017" size="160/160" type="euro_line_infantry_spain" unit_id="349558024"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Manolito de_Croix" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_018" size="160/160" type="euro_line_infantry_spain" unit_id="349558272"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Marcio de_Vaca" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_019" size="160/160" type="euro_line_infantry_spain" unit_id="349558520"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>349558768</i><!-- Army ID -->
+  <u>349964328</u><!-- Army In Building Slot ID -->
+  <no/><!-- Under Seige -->
+  <u>0</u><!-- Army ID Of Ship Escorting -->
+  <no/>
+ </rec>
+</rec>

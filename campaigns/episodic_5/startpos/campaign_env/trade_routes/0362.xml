@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>4</u><!-- Port OR Settlement Indice Start Point (port:windward_islands:barbados) -->
+ <u>32</u><!-- Port OR Settlement Indice End Point (port:curacao:otrobanda) -->
+ <u4_ary>108 12 98 100 352 350 345</u4_ary>
+ <flt>106.53052520751953</flt><!-- Length Of Route -->
+</rec>

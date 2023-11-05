@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>13</u><!-- Port OR Settlement Indice Start Point (port:northwest_territories:churchill) -->
+ <u>38</u><!-- Port OR Settlement Indice End Point (port:florida:pensacola) -->
+ <u4_ary>317 315 313 311 309 307 305 84 86 88 90 77 75 73 124 61 355 365 367 375 59 57 55 53 51 49 45 261 243 269</u4_ary>
+ <flt>783.31604</flt><!-- Length Of Route -->
+</rec>

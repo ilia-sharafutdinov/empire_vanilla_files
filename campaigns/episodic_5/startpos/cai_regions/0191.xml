@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1381</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>871</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3038 0 3400 0 3701 0 3749 0 3812 0 3813 0 3877 0 3939 1 3979 0 4952 0 4959 0 4960 0 4961 0 4962 0 4963 0 4954 1 4011 1 5011 0 5014 0 4007 1 5483 0 5564 0 5649 0 5653 0 5701 1 7667 0 9114 0 9130 0 10730 0 10731 0 13578 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>31</u>
+ <u4_ary/>
+ <u4_ary>3038 14 3400 4 3701 15 3749 2970 3812 2971 3813 2987 3877 2985 3939 3979 4952 4959 4960 4961 4962 4963 4954 4011 5011 2978 5014 2976 4007 5483 5032 5564 5051 5649 5650 5653 5072 5701 7667 7310 9114 8148 9130 8167 10730 10303 10731 10284 13578 12925</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2661 2674 2683 3038 3400 3402 3404 3406 3408 3702 3750 3749 3811 3962 3975 3941 4916 3979 4940 4959 4960 4961 4962 4963 5011 5014 5483 5649 5653 5703 5699 5740 5031 7667 9114 10731 13578</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>872 873</u4_ary><!-- HLCIS IDs -->
+  <u>1381</u><!-- Settlement AI ID -->
+  <u4_ary>1383 1385 1387 1389 1391 1393 1395</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-506.92944</flt><!-- X Coordinate -->
+  <flt>301.03497</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2393 2491 2493 2494</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>1937 1946 1954</u4_ary><!-- Character Resource AI IDs -->
+  <s>new_england</s><!-- Region Name -->
+  <u>349855056</u><!-- Region ID -->
+  <u>2691</u><!-- Governor AI ID -->
+  <u4_ary>941</u4_ary><!-- Faction AI IDs Needed For Victory Condition -->
+ </rec>
+</rec>

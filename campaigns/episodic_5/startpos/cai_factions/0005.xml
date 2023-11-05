@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_FACTIONS">
+ <owned_direct>953</owned_direct><!-- Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>953</u><!-- Faction AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3264 0 3756 0 5150 0 5152 0 5351 0 5352 0 7447 0 7449 0 8330 0 8332 0 9961 0 9980 0 10098 0 10266 0 10414 0 10416 0 11347 0 11349 0 11547 0 11549 0 12063 0 12065 0 12346 0 12348 0 12600 0 12602 0 12823 0 12826 0 12828 0 12830 0 13049 0 13051 0 13743 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>33</u><!-- HLCIS ID -->
+ <u4_ary/>
+ <u4_ary>3264 2966 3756 2974 3757 3007 5150 5036 5152 5028 5151 5069 5351 10 5352 15 7447 7314 7449 7306 7448 7347 8330 8152 8332 8144 8331 8185 9961 9831 9980 9827 10098 9842 10266 9829 10414 10288 10416 10280 10415 10321 11347 11238 11349 11230 11348 11271 11547 11481 11549 11473 11548 11514 12063 11963 12065 11955 12064 11996 12346 12235 12348 12227 12347 12268 12600 12520 12602 12512 12601 12553 12823 12826 12828 12830 13049 12929 13051 12921 13050 12962 13743 13675 13742 13716</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>3011 3048 3049 3050 3051 3138 3193 3198 3222 3229 3309 3375 3398 5351 5352 9871 9879 9874 10098 9876 9826</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_FACTION">
+  <u4_ary>799 822</u4_ary><!-- Region AI ID Of Regions Owned By This Faction -->
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>6</u4_ary><!-- HLCIS IDs -->
+  <u4_ary>2169 2176 2183</u4_ary><!-- Character Resource AI IDs -->
+  <u4_ary>2168 2175 2182 2189 2190 2191 2192 2193 2194 2195 2196 2197 2198 2199 2200 2201</u4_ary><!-- Character AI IDs -->
+  <u>799</u><!-- Region AI ID Of Capital -->
+  <u>349566104</u><!-- Faction ID -->
+  <u4_ary/><!-- World Trade Route IDs -->
+  <u4_ary/><!-- World Trade Route Segments IDs -->
+  <u>955</u><!-- Technology AI ID -->
+  <u4_ary>2695</u4_ary><!-- Governor AI IDs -->
+  <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+   <u>0</u>
+  </rec>
+  <u>954</u>
+  <flt>100.0</flt>
+  <flt>100.0</flt>
+  <flt>0.0</flt>
+  <flt>100.0</flt>
+  <u>1</u>
+  <no/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u4_ary/>
+  <u4_ary/>
+  <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+  <u>0</u>
+  <u>0</u>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary>10009 10011 10012 10014 10016 10018 10020 10022 10025 10027 10029 10031 10033 10035 10037 10043 10048 10050 10051 10053 10055 10057 10060 10062 10064 10066 10068 10070 10072 10077 10079 10045 10008 10047</u4_ary><!-- BDI Information -->
+  <no/>
+  <u>0</u>
+  <no/>
+  <rec type="CAI_BDI_NEW_TURN">
+  </rec>
+  <u>799</u><!-- Region AI ID Of Capital -->
+  <u4_ary/><!-- Region AI IDs Of Faction's Needed For Victory Conditions -->
+ </rec>
+</rec>

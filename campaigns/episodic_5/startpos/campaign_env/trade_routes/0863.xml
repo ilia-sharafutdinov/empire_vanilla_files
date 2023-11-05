@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>34</u><!-- Port OR Settlement Indice Start Point (port:panama:puerto_bello) -->
+ <u>39</u><!-- Port OR Settlement Indice End Point (port:hispaniola:leogane) -->
+ <u4_ary>210 194 201 199 27 30 137</u4_ary>
+ <flt>139.58865</flt><!-- Length Of Route -->
+</rec>

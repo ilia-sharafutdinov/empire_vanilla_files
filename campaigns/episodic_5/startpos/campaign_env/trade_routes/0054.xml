@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>17</u><!-- Port OR Settlement Indice Start Point (port:maine:eastport) -->
+ <u>38</u><!-- Port OR Settlement Indice End Point (port:florida:pensacola) -->
+ <u4_ary>170 67 65 63 61 355 365 367 375 59 57 55 53 51 49 45 261 243 269</u4_ary>
+ <flt>291.35358</flt><!-- Length Of Route -->
+</rec>

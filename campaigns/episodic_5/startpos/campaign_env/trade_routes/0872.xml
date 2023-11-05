@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>12</u><!-- Port OR Settlement Indice Start Point (port:virginia:yorktown) -->
+ <u>22</u><!-- Port OR Settlement Indice End Point (port:labrador:cartwright) -->
+ <u4_ary>372 368 364 354 60 125 72 74 76 91 89 87 85 304 323</u4_ary>
+ <flt>262.80765</flt><!-- Length Of Route -->
+</rec>

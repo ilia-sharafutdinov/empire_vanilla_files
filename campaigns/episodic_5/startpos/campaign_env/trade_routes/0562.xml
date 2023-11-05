@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>3</u><!-- Port OR Settlement Indice Start Point (port:new_france:tadoussac) -->
+ <u>17</u><!-- Port OR Settlement Indice End Point (port:maine:eastport) -->
+ <u4_ary>97 93 90 77 75 73 71 173</u4_ary>
+ <flt>173.04971</flt><!-- Length Of Route -->
+</rec>

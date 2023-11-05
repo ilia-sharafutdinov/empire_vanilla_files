@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_OBSTACLE">
+ <rec type="OBSTACLE">
+  <ary type="BOUNDARIES">
+   <BOUNDARIES>
+    yes,5446
+    yes,5447
+    yes,5448
+    yes,5449
+    yes,5450
+    yes,5451
+    yes,5452
+    yes,5453
+    yes,5454
+    no,5455
+    no,5456
+    no,5457
+    no,5458
+    no,5459
+    no,5460
+    yes,5461
+    yes,5462
+    no,5463
+    no,5464
+    no,5465
+    no,5466
+    no,5467
+    no,5468
+    yes,5469
+    yes,5470
+    no,5471
+    no,5472
+    no,5473
+    no,5474
+    no,5475
+    no,5476
+    yes,5477
+    yes,5478
+    no,5479
+    no,5480
+    no,5481
+    no,5482
+    no,5483
+    no,5484
+    yes,5485
+    yes,5486
+    no,5487
+    no,5488
+    no,5489
+    no,5490
+    no,5491
+    no,5492
+    yes,5493
+    yes,5494
+    yes,5495
+    yes,5496
+    yes,5497
+    yes,5498
+    yes,5499
+    yes,5500
+    yes,5501
+   </BOUNDARIES>
+   <BOUNDARIES>
+    yes,5654
+    yes,5655
+    yes,5656
+    yes,5657
+    yes,5658
+    yes,5659
+    no,5660
+    no,5661
+    no,5662
+    yes,5663
+    yes,5664
+    no,5665
+    no,5666
+    no,5667
+    yes,5668
+    yes,5669
+    no,5670
+    no,5671
+    no,5672
+    yes,5673
+    yes,5674
+    yes,5675
+    yes,5676
+    yes,5677
+    yes,5678
+   </BOUNDARIES>
+   <BOUNDARIES/>
+   <BOUNDARIES/>
+   <BOUNDARIES/>
+   <BOUNDARIES/>
+  </ary>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <ary type="MANAGED_OBSTACLE_BOUNDARY">
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <yes/>
+    <u4_ary>349641978 0</u4_ary>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <yes/>
+    <u4_ary>349641978 1</u4_ary>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+  </ary>
+  <u>9</u>
+  <v2x x="-498.0" y="80.0"/>
+  <v2x x="-482.0" y="94.0"/>
+  <u2>132</u2>
+  <u2>41</u2>
+  <u2>137</u2>
+  <u2>45</u2>
+  <u2>134</u2>
+  <u2>42</u2>
+  <u2>136</u2>
+  <u2>44</u2>
+ </rec>
+ <u>349641976</u>
+</rec>

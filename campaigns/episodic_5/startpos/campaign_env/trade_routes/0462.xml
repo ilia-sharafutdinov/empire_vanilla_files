@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>5</u><!-- Port OR Settlement Indice Start Point (port:new_grenada:cartagena) -->
+ <u>13</u><!-- Port OR Settlement Indice End Point (port:northwest_territories:churchill) -->
+ <u4_ary>216 187 185 295 290 28 32 123 144 146 148 47 48 50 52 54 56 58 374 366 364 354 60 125 72 74 76 91 89 87 85 304 306 308 310 312 314 316</u4_ary>
+ <flt>864.65259</flt><!-- Length Of Route -->
+</rec>

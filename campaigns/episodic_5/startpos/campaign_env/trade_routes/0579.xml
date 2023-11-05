@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>1</u><!-- Port OR Settlement Indice Start Point (port:new_england:providence) -->
+ <u>10</u><!-- Port OR Settlement Indice End Point (port:ruperts_land:fort_albany) -->
+ <u4_ary>164 125 72 74 76 91 89 87 85 304 306 308 310 312 328 327</u4_ary>
+ <flt>484.54239</flt><!-- Length Of Route -->
+</rec>

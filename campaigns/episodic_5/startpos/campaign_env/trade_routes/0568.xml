@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>1</u><!-- Port OR Settlement Indice Start Point (port:new_england:providence) -->
+ <u>13</u><!-- Port OR Settlement Indice End Point (port:northwest_territories:churchill) -->
+ <u4_ary>164 125 72 74 76 91 89 87 85 304 306 308 310 312 314 316</u4_ary>
+ <flt>556.21515</flt><!-- Length Of Route -->
+</rec>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>9</u><!-- Port OR Settlement Indice Start Point (port:acadia:cap_fourchu) -->
+ <u>16</u><!-- Port OR Settlement Indice End Point (port:bahamas:grand_bahama) -->
+ <u4_ary>174 69 67 65 63 61 355 365 367 375 59 57 55 53 51 181</u4_ary>
+ <flt>207.87799</flt><!-- Length Of Route -->
+</rec>

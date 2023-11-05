@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>13</u><!-- Port OR Settlement Indice Start Point (port:northwest_territories:churchill) -->
+ <u>29</u><!-- Port OR Settlement Indice End Point (port:labrador:catucto) -->
+ <u4_ary>317 315 313 311 309 307 319</u4_ary>
+ <flt>367.70294</flt><!-- Length Of Route -->
+</rec>

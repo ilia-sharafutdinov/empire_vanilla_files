@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_RESOURCE_MOBILES">
+ <owned_direct>950</owned_direct><!-- Faction AI ID -->
+ <cai_situated x="-644.3960571289062" y="103.20396423339844" region_id="733" theatre_id="27" area_id="6"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>2140</u><!-- Character Resource AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3250 0 3624 1 3640 0 3637 1 3648 1 3649 1 3650 1 3651 1 3652 1 3653 1 3654 1 4065 0 4066 0 4349 0 6384 0 6477 0 7591 0 7774 0 8274 0 8275 0 8623 0 9449 0 9450 1 8625 3 9520 0 9581 0 9582 1 8594 3 9759 0 9760 1 8610 3 8612 3 9778 3 9779 0 9780 1 8618 3 10526 0 10544 0 13180 0 13197 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>40</u><!-- HLCIS ID -->
+ <u4_ary/>
+ <u4_ary>3250 10 3624 16 3640 3637 3648 3649 3650 3651 3652 3653 3654 4065 20 4066 2970 4349 2962 6384 5032 6477 5024 7591 7310 7774 7302 8274 8140 8275 8148 8623 8159 9449 9450 8184 8625 9520 8178 9581 9582 8594 9759 9760 8610 8612 9778 8154 9779 9780 8618 10526 10284 10544 10276 13180 12925 13197 12917</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+  <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+   <u>9450</u><!-- BDI Information -->
+   <u>2140</u><!-- Character Resource AI ID -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>0</u>
+  </rec>
+  <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+   <u>9582</u><!-- BDI Information -->
+   <u>2140</u><!-- Character Resource AI ID -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>0</u>
+  </rec>
+  <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+   <u>9760</u><!-- BDI Information -->
+   <u>2140</u><!-- Character Resource AI ID -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>0</u>
+  </rec>
+  <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+   <u>9780</u><!-- BDI Information -->
+   <u>2140</u><!-- Character Resource AI ID -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>0</u>
+  </rec>
+ </ary>
+ <u>4</u>
+ <u>0</u>
+ <u4_ary>9450 9582 9760 9780</u4_ary><!-- BDI Information -->
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>3250 3624 3637 3638 3640 3648 3649 3650 3651 3652 3653 3654 4322 4326 4331 4349 4350 4351 4352 4353 4354 4355 6462 6466 6471 6477 6478 6479 6480 6481 6482 6483 7759 7763 7768 7774 7775 7776 7777 7778 7779 7780 8274 8276 8277 8278 8279 8280 8281 8286 8290 8300 8623 8621 9449 9520 9581 9759 9779 10544 10545 10546 10547 10548 10549 10550 10576 10580 10585 13179 13184 13191 13197 13198 13199 13200 13201 13202 13203</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_RESOURCE_MOBILE">
+  <u>2139</u><!-- Character AI ID -->
+  <u>1059</u><!-- Settlement AI ID -->
+  <u>0</u><!-- Settlement Character AI ID -->
+  <ary type="CAI_RESOURCE_MOBILE_SIEGE_INFORMATION"/>
+  <u4_ary>2139</u4_ary><!-- Character AI IDs -->
+  <u4_ary>2141 2142 2143 2144 2145</u4_ary><!-- Character Unit AI IDs -->
+  <yes/>
+  <no/>
+  <no/>
+  <u>0</u>
+  <u>349558768</u><!-- Army ID -->
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+</rec>

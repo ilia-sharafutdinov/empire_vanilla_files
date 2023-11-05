@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>19</u><!-- Port OR Settlement Indice Start Point (port:tejas:corpus_christi) -->
+ <u>38</u><!-- Port OR Settlement Indice End Point (port:florida:pensacola) -->
+ <u4_ary>272 236 238 266</u4_ary>
+ <flt>84.58143</flt><!-- Length Of Route -->
+</rec>

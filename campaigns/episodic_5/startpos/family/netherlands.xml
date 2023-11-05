@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<rec type="FAMILY">
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_royalty_name_netherlandsWillem</loc>
+  <yes/>
+  <yes/>
+  <byte>3</byte>
+  <i>0</i>
+  <i>45</i>
+  <i>5</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/king/young/012.tga" info="ui/portraits/european/Info/king/young/012.jpg" number="12"/>
+  <s>rel_protestant</s>
+  <u>349595592</u>
+  <u>349595592</u>
+  <loc/>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_dutchKlasina</loc>
+  <no/>
+  <yes/>
+  <byte>3</byte>
+  <i>1</i>
+  <i>41</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/queen/young/034.tga" info="ui/portraits/european/Info/queen/young/034.jpg" number="34"/>
+  <s>rel_protestant</s>
+  <u>349595592</u>
+  <u>349595592</u>
+  <loc/>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_dutchHendrika</loc>
+  <no/>
+  <yes/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>7</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/queen/young/064.tga" info="ui/portraits/european/Info/queen/young/064.jpg" number="64"/>
+  <s>rel_protestant</s>
+  <u>349595592</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_dutchCatherina</loc>
+  <no/>
+  <yes/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>6</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/queen/young/059.tga" info="ui/portraits/european/Info/queen/young/059.jpg" number="59"/>
+  <s>rel_protestant</s>
+  <u>349595592</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_royalty_name_netherlandsWillem</loc>
+  <yes/>
+  <yes/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>2</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/king/young/023.tga" info="ui/portraits/european/Info/king/young/023.jpg" number="23"/>
+  <s>rel_protestant</s>
+  <u>349595592</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc/>
+  <yes/>
+  <no/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>0</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details/>
+  <s/>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_royalty_name_netherlandsWillem</loc>
+  <yes/>
+  <yes/>
+  <byte>4</byte>
+  <i>0</i>
+  <i>82</i>
+  <i>1</i>
+  <i>46</i>
+  <i>47</i>
+  <i>48</i>
+  <i>49</i>
+  <portrait_details card="ui/portraits/european/Cards/king/young/058.tga" info="ui/portraits/european/Info/king/young/058.jpg" number="58"/>
+  <s>rel_protestant</s>
+  <u>349595592</u>
+  <u>349595592</u>
+  <loc/>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_royalty_name_netherlandsWillem</loc>
+  <yes/>
+  <yes/>
+  <byte>4</byte>
+  <i>0</i>
+  <i>67</i>
+  <i>1</i>
+  <i>35</i>
+  <i>39</i>
+  <i>46</i>
+  <i>47</i>
+  <portrait_details card="ui/portraits/european/Cards/king/young/074.tga" info="ui/portraits/european/Info/king/young/074.jpg" number="74"/>
+  <s>rel_protestant</s>
+  <u>349595592</u>
+  <u>349595592</u>
+  <loc/>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_royalty_name_netherlandsWillem</loc>
+  <yes/>
+  <yes/>
+  <byte>1</byte>
+  <i>0</i>
+  <i>37</i>
+  <i>1</i>
+  <i>36</i>
+  <i>39</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/king/young/051.tga" info="ui/portraits/european/Info/king/young/051.jpg" number="51"/>
+  <s>rel_protestant</s>
+  <u>349595592</u>
+  <u>349595592</u>
+  <loc/>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_royalty_name_netherlandsWillem</loc>
+  <yes/>
+  <yes/>
+  <byte>3</byte>
+  <i>2</i>
+  <i>47</i>
+  <i>1</i>
+  <i>41</i>
+  <i>46</i>
+  <i>47</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/king/young/098.tga" info="ui/portraits/european/Info/king/young/098.jpg" number="98"/>
+  <s>rel_protestant</s>
+  <u>349595592</u>
+  <u>349595592</u>
+  <loc/>
+ </rec>
+ <byte>3</byte>
+ <ary type="ORDINAL_PAIR">
+  <ordinal_pair name="names_royalty_name_netherlandsWillem" number="5"/>
+ </ary>
+</rec>

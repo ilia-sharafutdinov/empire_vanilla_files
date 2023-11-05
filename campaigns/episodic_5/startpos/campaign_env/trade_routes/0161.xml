@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>43</u><!-- Port OR Settlement Indice Start Point (pennsylvania) -->
+ <u>45</u><!-- Port OR Settlement Indice End Point (algonquin_territory) -->
+ <u4_ary>612 776 640 685 597 662 535 623 695 415 541</u4_ary>
+ <flt>64.98527</flt><!-- Length Of Route -->
+</rec>

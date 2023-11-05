@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>44</u><!-- Port OR Settlement Indice Start Point (new_york) -->
+ <u>57</u><!-- Port OR Settlement Indice End Point (iroquois_territory) -->
+ <u4_ary>599 532</u4_ary>
+ <flt>20.04178</flt><!-- Length Of Route -->
+</rec>

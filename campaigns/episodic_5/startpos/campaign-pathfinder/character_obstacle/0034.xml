@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_OBSTACLE">
+ <rec type="OBSTACLE">
+  <ary type="BOUNDARIES">
+   <BOUNDARIES/>
+   <BOUNDARIES>
+    yes,4441
+    yes,4442
+    yes,4443
+    yes,4444
+    yes,4445
+    yes,4446
+    yes,4447
+    no,4448
+    no,4449
+    no,4450
+    no,4451
+    yes,4452
+    yes,4453
+    no,4454
+    no,4455
+    no,4456
+    no,4457
+    yes,4458
+    yes,4459
+    no,4460
+    no,4461
+    no,4462
+    no,4463
+    yes,4464
+    yes,4465
+    no,4466
+    no,4467
+    no,4468
+    no,4469
+    yes,4470
+    yes,4471
+    yes,4472
+    yes,4473
+    yes,4474
+    yes,4475
+    yes,4476
+   </BOUNDARIES>
+   <BOUNDARIES/>
+   <BOUNDARIES/>
+   <BOUNDARIES/>
+   <BOUNDARIES/>
+  </ary>
+  <u>1</u>
+  <u>1</u>
+  <u>1</u>
+  <u>1</u>
+  <ary type="MANAGED_OBSTACLE_BOUNDARY">
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <yes/>
+    <u4_ary>349341658 1</u4_ary>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+  </ary>
+  <u>9</u>
+  <v2x x="-524.0" y="292.0"/>
+  <v2x x="-512.0" y="304.0"/>
+  <u2>0</u2>
+  <u2>0</u2>
+  <u2>0</u2>
+  <u2>0</u2>
+  <u2>119</u2>
+  <u2>147</u2>
+  <u2>122</u2>
+  <u2>150</u2>
+ </rec>
+ <u>349341656</u>
+</rec>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>18</u><!-- Port OR Settlement Indice Start Point (port:guatemala:puerto_barrios) -->
+ <u>27</u><!-- Port OR Settlement Indice End Point (port:cuba:santiago_de_cuba) -->
+ <u4_ary>208 207 204 199 27 30 335</u4_ary>
+ <flt>117.24020385742188</flt><!-- Length Of Route -->
+</rec>

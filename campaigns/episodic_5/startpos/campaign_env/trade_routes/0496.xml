@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>5</u><!-- Port OR Settlement Indice Start Point (port:new_grenada:cartagena) -->
+ <u>17</u><!-- Port OR Settlement Indice End Point (port:maine:eastport) -->
+ <u4_ary>216 187 185 295 290 28 32 123 144 146 148 47 48 50 52 54 56 58 374 366 364 354 60 62 64 66 171</u4_ary>
+ <flt>372.69009</flt><!-- Length Of Route -->
+</rec>

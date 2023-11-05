@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rec type="SAVE_GAME_HEADER">
+ <s>united_states</s>
+ <s>ui/portraits/european/Cards/minister/old/219.tga</s>
+ <u>1</u>
+ <u>1775</u>
+ <s>Summer</s>
+ <s>data\ui\flags\united_states</s>
+ <ary type="MAPS">
+  <map name="america" unknown="512" pgm="map-0001.pgm"/>
+ </ary>
+</rec>

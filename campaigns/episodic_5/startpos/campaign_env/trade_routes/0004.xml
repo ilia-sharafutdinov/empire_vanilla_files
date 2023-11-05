@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>19</u><!-- Port OR Settlement Indice Start Point (port:tejas:corpus_christi) -->
+ <u>40</u><!-- Port OR Settlement Indice End Point (port:hispaniola:san_juan) -->
+ <u4_ary>272 236 238 240 242 260 43 149 147 145 121 36 38 341</u4_ary>
+ <flt>262.65079</flt><!-- Length Of Route -->
+</rec>

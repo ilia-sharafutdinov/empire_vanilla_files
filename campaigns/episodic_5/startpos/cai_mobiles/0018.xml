@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_RESOURCE_MOBILES">
+ <owned_direct>944</owned_direct><!-- Faction AI ID -->
+ <cai_situated x="-440.15594482421875" y="125.46099090576172" region_id="754" theatre_id="27" area_id="3"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>2022</u><!-- Character Resource AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3095 0 3618 1 3632 0 3619 1 3631 1 3633 1 3634 1 3635 1 3636 1 3642 1 3643 1 4081 0 4082 0 4460 0 5123 0 5127 0 5791 0 6670 0 6671 1 5776 3 6705 0 5793 3 7425 0 7821 0 8065 0 8926 0 8939 0 10560 0 10966 0 13019 0 13240 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>31</u><!-- HLCIS ID -->
+ <u4_ary/>
+ <u4_ary>3095 10 3618 16 3632 3619 3631 3633 3634 3635 3636 3642 3643 4081 20 4082 2970 4460 2962 5123 5024 5127 5032 5791 5043 6670 6671 5068 5776 6705 5062 5793 7425 7310 7821 7302 8065 7321 8926 8148 8939 8140 10560 10284 10966 10276 13019 12925 13240 12917</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+  <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+   <u>6671</u><!-- BDI Information -->
+   <u>2022</u><!-- Character Resource AI ID -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>0</u>
+  </rec>
+ </ary>
+ <u>1</u>
+ <u>0</u>
+ <u4_ary>6671</u4_ary><!-- BDI Information -->
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>3095 3618 3619 3630 3631 3632 3633 3634 3635 3636 3642 3643 4430 4434 4449 4450 4451 4460 4461 4462 5625 5626 5627 5644 5648 5123 5129 5130 5791 5789 6670 6705 7420 7426 7427 7811 7815 7821 7822 7823 8065 8925 8927 8928 8939 8940 8941 8970 8974 10559 10561 10562 10603 10608 10966 10967 10968 13018 13024 13235 13236 13237 13240 13241 13242</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_RESOURCE_MOBILE">
+  <u>2021</u><!-- Character AI ID -->
+  <u>1126</u><!-- Settlement AI ID -->
+  <u>0</u><!-- Settlement Character AI ID -->
+  <ary type="CAI_RESOURCE_MOBILE_SIEGE_INFORMATION"/>
+  <u4_ary>2021</u4_ary><!-- Character AI IDs -->
+  <u4_ary>2023 2024</u4_ary><!-- Character Unit AI IDs -->
+  <yes/>
+  <no/>
+  <no/>
+  <u>0</u>
+  <u>349432792</u><!-- Army ID -->
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+</rec>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>71</u><!-- Port OR Settlement Indice Start Point (kaintuck_territory) -->
+ <u>77</u><!-- Port OR Settlement Indice End Point (upper_louisiana) -->
+ <u4_ary>395 416 563 720 510 709 602 422 436 390 650 448 697</u4_ary>
+ <flt>155.38022</flt><!-- Length Of Route -->
+</rec>

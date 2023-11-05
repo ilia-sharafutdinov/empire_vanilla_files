@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>5</u><!-- Port OR Settlement Indice Start Point (port:new_grenada:cartagena) -->
+ <u>36</u><!-- Port OR Settlement Indice End Point (port:new_andalusia:puerto_cabello) -->
+ <u4_ary>216 187 185 293 287 351 353 117</u4_ary>
+ <flt>74.9224853515625</flt><!-- Length Of Route -->
+</rec>

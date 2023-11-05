@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_OBSTACLE">
+ <rec type="OBSTACLE">
+  <ary type="BOUNDARIES">
+   <BOUNDARIES>
+    yes,6810
+    yes,6811
+    yes,6812
+    yes,6813
+    yes,6814
+    yes,6815
+    yes,6816
+    no,6817
+    no,6818
+    no,6819
+    no,6820
+    yes,6821
+    yes,6822
+    no,6823
+    no,6824
+    no,6825
+    no,6826
+    yes,6827
+    yes,6828
+    no,6829
+    no,6830
+    no,6831
+    no,6832
+    yes,6833
+    yes,6834
+    no,6835
+    no,6836
+    no,6837
+    no,6838
+    yes,6839
+    yes,6840
+    no,6841
+    no,6842
+    no,6843
+    no,6844
+    yes,6845
+    yes,6846
+    yes,6847
+    yes,6848
+    yes,6849
+    yes,6850
+    yes,6851
+   </BOUNDARIES>
+   <BOUNDARIES>
+    yes,8591
+    yes,8592
+    yes,8593
+    yes,8594
+    yes,8595
+    yes,8596
+    yes,8597
+    no,8598
+    no,8599
+    no,8600
+    no,8601
+    yes,8602
+    yes,8603
+    no,8604
+    no,8605
+    no,8606
+    no,8607
+    yes,8608
+    yes,8609
+    no,8610
+    no,8611
+    no,8612
+    no,8613
+    yes,8614
+    yes,8615
+    yes,8616
+    yes,8617
+    yes,8618
+    yes,8619
+    yes,8620
+   </BOUNDARIES>
+   <BOUNDARIES/>
+   <BOUNDARIES/>
+   <BOUNDARIES/>
+   <BOUNDARIES/>
+  </ary>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <ary type="MANAGED_OBSTACLE_BOUNDARY">
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <yes/>
+    <u4_ary>349431050 0</u4_ary>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <yes/>
+    <u4_ary>349431050 1</u4_ary>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+   <rec type="MANAGED_OBSTACLE_BOUNDARY">
+    <no/>
+   </rec>
+  </ary>
+  <u>9</u>
+  <v2x x="-446.0" y="118.0"/>
+  <v2x x="-434.0" y="132.0"/>
+  <u2>158</u2>
+  <u2>60</u2>
+  <u2>161</u2>
+  <u2>64</u2>
+  <u2>158</u2>
+  <u2>61</u2>
+  <u2>161</u2>
+  <u2>63</u2>
+ </rec>
+ <u>349431048</u>
+</rec>

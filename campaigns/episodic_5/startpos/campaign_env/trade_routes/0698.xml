@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>13</u><!-- Port OR Settlement Indice Start Point (port:northwest_territories:churchill) -->
+ <u>35</u><!-- Port OR Settlement Indice End Point (port:acadia:louisbourg) -->
+ <u4_ary>317 315 313 311 309 307 305 84 86 88 90 77 379</u4_ary>
+ <flt>463.86206</flt><!-- Length Of Route -->
+</rec>

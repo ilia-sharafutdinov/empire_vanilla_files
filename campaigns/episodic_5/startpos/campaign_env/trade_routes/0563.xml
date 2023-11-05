@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>68</u><!-- Port OR Settlement Indice Start Point (lower_louisiana) -->
+ <u>77</u><!-- Port OR Settlement Indice End Point (upper_louisiana) -->
+ <u4_ary>572 514 468 674 388 406 722</u4_ary>
+ <flt>85.83418</flt><!-- Length Of Route -->
+</rec>

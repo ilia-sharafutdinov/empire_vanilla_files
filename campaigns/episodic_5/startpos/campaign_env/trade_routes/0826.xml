@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>71</u><!-- Port OR Settlement Indice Start Point (kaintuck_territory) -->
+ <u>76</u><!-- Port OR Settlement Indice End Point (michigan_territory) -->
+ <u4_ary>395 416 563 720 510 709 602 422 487 631</u4_ary>
+ <flt>95.59280395507812</flt><!-- Length Of Route -->
+</rec>

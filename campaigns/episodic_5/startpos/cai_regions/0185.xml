@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1320</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>840</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3363 0 3797 0 3841 0 4668 0 5452 0 5461 0 5462 0 5571 0 5758 0 5767 0 5768 0 5769 0 5770 0 5771 0 5985 0 6322 0 5987 1 6018 1 6755 0 6001 1 7239 0 6011 1 7650 0 9031 0 9053 0 10115 0 10711 0 12677 0 13567 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>29</u>
+ <u4_ary/>
+ <u4_ary>3363 14 3797 2970 3841 15 4668 4 5452 5032 5461 5033 5462 5049 5571 5047 5758 5767 5768 5769 5770 5771 5985 6322 5040 5987 6018 6755 6001 7239 5038 6011 7650 7310 9031 8148 9053 8167 10115 9827 10711 10284 12677 12516 13567 12925</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2661 2674 2682 3363 3798 3797 3842 3843 4668 4670 4672 4915 4916 5452 5460 5662 5031 5767 5768 5769 5770 5771 6015 5985 6322 7239 7650 9031 10115 10711 12677 13567</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>841 842 843 844 845</u4_ary><!-- HLCIS IDs -->
+  <u>1320</u><!-- Settlement AI ID -->
+  <u4_ary>1322 1324 1326 1328 1330</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-535.88495</flt><!-- X Coordinate -->
+  <flt>285.9653</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2395 2473 2475 2476 2477</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>2045</u4_ary><!-- Character Resource AI IDs -->
+  <s>pennsylvania</s><!-- Region Name -->
+  <u>349999888</u><!-- Region ID -->
+  <u>2692</u><!-- Governor AI ID -->
+  <u4_ary>941</u4_ary><!-- Faction AI IDs Needed For Victory Condition -->
+ </rec>
+</rec>

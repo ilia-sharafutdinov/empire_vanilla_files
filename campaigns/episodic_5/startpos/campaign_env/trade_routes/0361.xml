@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>33</u><!-- Port OR Settlement Indice Start Point (port:lower_louisiana:mobile) -->
+ <u>36</u><!-- Port OR Settlement Indice End Point (port:new_andalusia:puerto_cabello) -->
+ <u4_ary>264 240 242 260 43 149 147 145 122 33 29 291 296 287 351 353 117</u4_ary>
+ <flt>258.47098</flt><!-- Length Of Route -->
+</rec>

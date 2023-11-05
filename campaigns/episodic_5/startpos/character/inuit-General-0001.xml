@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="-579.0" y="355.0"/>
+   <v2x x="-579.0" y="355.0"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>26</i><!-- Movement Points Left -->
+   <i>26</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits/>
+   <loc>names_name_names_native_americanMicanopy</loc>
+   <loc/>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1752</date>
+   <date/>
+   <i>0</i>
+   <portrait_details card="ui/portraits/tribal/Cards/general/young/002.tga" info="ui/portraits/tribal/Info/general/young/002.jpg" number="2"/>
+   <s>inuit</s>
+   <u>349668504</u><!-- Character ID -->
+   <agent_ancillaries/>
+   <agent_attributes>
+    command_land=2
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=1
+    morale_sea=-1
+    movement_points_land=1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="1" attribute="command_land"/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_Generaltribal</loc>
+  </rec>
+  <i>349668504</i><!-- Character ID -->
+  <s>General</s><!-- Character Type -->
+  <u>349670176</u><!-- Army ID -->
+  <u>349670704</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   -576.0,356.0
+   -576.2176494598389,356.0
+   -576.7561359405518,357.24386405944824
+   -578.0,357.78235054016113
+   -578.0,358.0
+   -580.0,358.0
+   -580.0,357.78235054016113
+   -581.2438640594482,357.24386405944824
+   -581.7823505401611,356.0
+   -582.0,356.0
+   -582.0,354.0
+   -581.7823505401611,354.0
+   -581.2438640594482,352.75613594055176
+   -580.0,352.21764945983887
+   -580.0,352.0
+   -578.0,352.0
+   -578.0,352.21764945983887
+   -576.7561359405518,352.75613594055176
+   -576.2176494598389,354.0
+   -576.0,354.0
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <no/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <yes/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

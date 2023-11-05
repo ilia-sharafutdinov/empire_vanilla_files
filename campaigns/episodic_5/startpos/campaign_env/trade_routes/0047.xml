@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>17</u><!-- Port OR Settlement Indice Start Point (port:maine:eastport) -->
+ <u>39</u><!-- Port OR Settlement Indice End Point (port:hispaniola:leogane) -->
+ <u4_ary>170 67 65 63 61 355 365 367 375 59 57 55 53 51 49 46 149 147 145 122 139</u4_ary>
+ <flt>283.44394</flt><!-- Length Of Route -->
+</rec>

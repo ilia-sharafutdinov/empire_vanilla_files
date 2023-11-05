@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>65</u><!-- Port OR Settlement Indice Start Point (florida) -->
+ <u>66</u><!-- Port OR Settlement Indice End Point (georgia_usa) -->
+ <u4_ary>703 593 729</u4_ary>
+ <flt>15.21746</flt><!-- Length Of Route -->
+</rec>

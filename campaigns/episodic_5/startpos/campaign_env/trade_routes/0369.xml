@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>32</u><!-- Port OR Settlement Indice Start Point (port:curacao:otrobanda) -->
+ <u>37</u><!-- Port OR Settlement Indice End Point (port:dutch_guyana:demerara) -->
+ <u4_ary>344 351 353 101 99 13 11 4</u4_ary>
+ <flt>136.02936</flt><!-- Length Of Route -->
+</rec>

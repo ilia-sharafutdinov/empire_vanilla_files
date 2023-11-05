@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY">
+  <rec type="MILITARY_FORCE">
+   <u>349699048</u><!-- Army ID -->
+   <u>349697376</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="plains Kanuksusy" commander_id="349697376" created="summer 1775" deaths="0" exp="0" kills="0" mp="26" name="" size="80/80" type="native_american_archers" unit_id="349698800"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="plains Cottawamago" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="" size="160/160" type="native_american_warriors" unit_id="349698552"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>349699048</i><!-- Army ID -->
+  <u>350036856</u><!-- Army In Building Slot ID -->
+  <no/><!-- Under Seige -->
+  <u>0</u><!-- Army ID Of Ship Escorting -->
+  <no/>
+ </rec>
+</rec>

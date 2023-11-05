@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>27</u><!-- Port OR Settlement Indice Start Point (port:cuba:santiago_de_cuba) -->
+ <u>32</u><!-- Port OR Settlement Indice End Point (port:curacao:otrobanda) -->
+ <u4_ary>334 29 291 296 287 351 353 343</u4_ary>
+ <flt>123.20685</flt><!-- Length Of Route -->
+</rec>

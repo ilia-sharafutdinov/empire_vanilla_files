@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>15</u><!-- Port OR Settlement Indice Start Point (port:leeward_islands:guadeloupe) -->
+ <u>36</u><!-- Port OR Settlement Indice End Point (port:new_andalusia:puerto_cabello) -->
+ <u4_ary>128 15 98 119</u4_ary>
+ <flt>78.0721</flt><!-- Length Of Route -->
+</rec>

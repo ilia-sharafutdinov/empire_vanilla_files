@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>25</u><!-- Port OR Settlement Indice Start Point (port:new_spain:tampico) -->
+ <u>35</u><!-- Port OR Settlement Indice End Point (port:acadia:louisbourg) -->
+ <u4_ary>276 229 227 225 223 255 252 247 245 44 48 50 52 54 56 58 374 366 364 354 60 125 72 377</u4_ary>
+ <flt>399.50491</flt><!-- Length Of Route -->
+</rec>

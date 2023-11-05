@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>22</u><!-- Port OR Settlement Indice Start Point (port:labrador:cartwright) -->
+ <u>35</u><!-- Port OR Settlement Indice End Point (port:acadia:louisbourg) -->
+ <u4_ary>322 305 84 86 88 90 77 379</u4_ary>
+ <flt>130.89337</flt><!-- Length Of Route -->
+</rec>

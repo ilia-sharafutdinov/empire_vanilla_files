@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>30</u><!-- Port OR Settlement Indice Start Point (port:georgia_usa:st_marys) -->
+ <u>32</u><!-- Port OR Settlement Indice End Point (port:curacao:otrobanda) -->
+ <u4_ary>154 51 49 46 149 147 145 122 33 29 291 296 287 351 353 343</u4_ary>
+ <flt>233.48541</flt><!-- Length Of Route -->
+</rec>

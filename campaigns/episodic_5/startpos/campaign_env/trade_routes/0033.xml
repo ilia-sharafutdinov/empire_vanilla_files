@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>45</u><!-- Port OR Settlement Indice Start Point (algonquin_territory) -->
+ <u>60</u><!-- Port OR Settlement Indice End Point (ontario) -->
+ <u4_ary>673 649 479 577 455 773 509</u4_ary>
+ <flt>64.88391</flt><!-- Length Of Route -->
+</rec>

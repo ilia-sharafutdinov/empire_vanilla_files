@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>6</u><!-- Port OR Settlement Indice Start Point (port:trinidad_tobago:puerto_de_espana) -->
+ <u>32</u><!-- Port OR Settlement Indice End Point (port:curacao:otrobanda) -->
+ <u4_ary>106 98 100 352 350 345</u4_ary>
+ <flt>77.3873</flt><!-- Length Of Route -->
+</rec>

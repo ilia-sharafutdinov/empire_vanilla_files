@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>6</u><!-- Port OR Settlement Indice Start Point (port:trinidad_tobago:puerto_de_espana) -->
+ <u>15</u><!-- Port OR Settlement Indice End Point (port:leeward_islands:guadeloupe) -->
+ <u4_ary>104 111 129</u4_ary>
+ <flt>55.14938735961914</flt><!-- Length Of Route -->
+</rec>

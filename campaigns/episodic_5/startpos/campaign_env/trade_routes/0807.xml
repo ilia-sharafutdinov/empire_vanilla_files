@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>64</u><!-- Port OR Settlement Indice Start Point (tejas) -->
+ <u>68</u><!-- Port OR Settlement Indice End Point (lower_louisiana) -->
+ <u4_ary>670 620 492 515 573</u4_ary>
+ <flt>77.85108</flt><!-- Length Of Route -->
+</rec>

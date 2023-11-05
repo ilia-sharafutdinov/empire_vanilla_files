@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>14</u><!-- Port OR Settlement Indice Start Point (port:new_england:plymouth) -->
+ <u>17</u><!-- Port OR Settlement Indice End Point (port:maine:eastport) -->
+ <u4_ary>168 66 171</u4_ary>
+ <flt>33.84406661987305</flt><!-- Length Of Route -->
+</rec>

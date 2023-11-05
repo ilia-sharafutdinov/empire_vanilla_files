@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<rec type="CAI_INTERFACE_MANAGERS">
+ <xml_include path="bdi_pool/0011.xml"/>
+ <rec type="CAI_FACTION_BDI_POOL">
+  <no/>
+  <no/>
+  <u>12267</u><!-- All these u records are BDI Information -->
+  <u>12268</u>
+  <u>12269</u>
+  <u>12271</u>
+  <u>12222</u>
+  <u>12223</u>
+  <u>12224</u>
+  <u>12225</u>
+  <u>12226</u>
+  <u>12227</u>
+  <u>12228</u>
+  <u>12229</u>
+  <u>12230</u>
+  <u>12231</u>
+  <u>12232</u>
+  <u>12233</u>
+  <u>12234</u>
+  <u>12235</u>
+  <u>12236</u>
+  <u>12237</u>
+  <u>12238</u>
+  <u>12239</u>
+  <u>12240</u>
+  <u>12241</u>
+  <u>12242</u>
+  <u>12243</u>
+  <u>12244</u>
+  <u>12245</u>
+  <u>12246</u>
+  <u>12247</u>
+  <u>12248</u>
+  <u>12249</u>
+  <u>12250</u>
+  <u>12251</u>
+  <u>12252</u>
+  <u>12253</u>
+  <u>12254</u>
+  <u>12255</u>
+  <u>12256</u>
+  <u>12257</u>
+  <u>12258</u>
+  <u>12259</u>
+  <u>12260</u>
+  <u>12261</u>
+  <u>12262</u>
+  <u>12263</u>
+  <u>12264</u>
+  <u>12265</u>
+  <u>12266</u>
+ </rec>
+ <rec type="CAI_FACTION_MANAGER">
+  <u>968</u><!-- Faction AI ID -->
+  <u>11</u>
+  <rec type="CAI_FACTION_LEARNT_PARAMETERS">
+   <ary type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+    <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+     <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO">
+      <u>0</u><!-- Faction AI ID -->
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+     </rec>
+    </rec>
+    <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+     <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO">
+      <u>944</u><!-- Faction AI ID -->
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+     </rec>
+    </rec>
+   </ary>
+  </rec>
+  <yes/>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

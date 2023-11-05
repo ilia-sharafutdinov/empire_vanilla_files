@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY">
+  <rec type="MILITARY_FORCE">
+   <u>349721792</u><!-- Army ID -->
+   <u>349720048</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="pueblo Sakayengwaraton" commander_id="349720048" created="summer 1775" deaths="0" exp="0" kills="0" mp="26" name="" size="80/80" type="native_american_archers" unit_id="349721296"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="pueblo Metacomet" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="" size="160/160" type="native_american_warriors" unit_id="349721544"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>349721792</i><!-- Army ID -->
+  <u>350016680</u><!-- Army In Building Slot ID -->
+  <no/><!-- Under Seige -->
+  <u>0</u><!-- Army ID Of Ship Escorting -->
+  <no/>
+ </rec>
+</rec>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>18</u><!-- Port OR Settlement Indice Start Point (port:guatemala:puerto_barrios) -->
+ <u>39</u><!-- Port OR Settlement Indice End Point (port:hispaniola:leogane) -->
+ <u4_ary>208 207 204 199 27 30 137</u4_ary>
+ <flt>122.92782592773438</flt><!-- Length Of Route -->
+</rec>

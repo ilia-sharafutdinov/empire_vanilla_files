@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>2</u><!-- Port OR Settlement Indice Start Point (port:pennsylvania:lewes) -->
+ <u>30</u><!-- Port OR Settlement Indice End Point (port:georgia_usa:st_marys) -->
+ <u4_ary>358 367 375 59 57 55 157</u4_ary>
+ <flt>87.08897</flt><!-- Length Of Route -->
+</rec>

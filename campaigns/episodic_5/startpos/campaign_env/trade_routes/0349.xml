@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>4</u><!-- Port OR Settlement Indice Start Point (port:windward_islands:barbados) -->
+ <u>34</u><!-- Port OR Settlement Indice End Point (port:panama:puerto_bello) -->
+ <u4_ary>108 12 98 100 352 350 286 292 184 186 188 190 213</u4_ary>
+ <flt>187.12416</flt><!-- Length Of Route -->
+</rec>

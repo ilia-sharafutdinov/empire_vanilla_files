@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>18</u><!-- Port OR Settlement Indice Start Point (port:guatemala:puerto_barrios) -->
+ <u>19</u><!-- Port OR Settlement Indice End Point (port:tejas:corpus_christi) -->
+ <u4_ary>303 257 250 254 222 224 226 228 230 232 271</u4_ary>
+ <flt>195.89513</flt><!-- Length Of Route -->
+</rec>

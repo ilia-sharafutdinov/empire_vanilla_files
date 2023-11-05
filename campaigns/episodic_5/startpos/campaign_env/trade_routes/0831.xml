@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>34</u><!-- Port OR Settlement Indice Start Point (port:panama:puerto_bello) -->
+ <u>38</u><!-- Port OR Settlement Indice End Point (port:florida:pensacola) -->
+ <u4_ary>210 194 202 206 196 257 249 247 259 243 269</u4_ary>
+ <flt>234.35327</flt><!-- Length Of Route -->
+</rec>

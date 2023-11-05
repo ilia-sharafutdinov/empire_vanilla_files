@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>0</u><!-- Port OR Settlement Indice Start Point (port:hispaniola:port-de-paix) -->
+ <u>24</u><!-- Port OR Settlement Indice End Point (port:new_andalusia:coro) -->
+ <u4_ary>132 35 33 29 291 296 287 347</u4_ary>
+ <flt>103.83320617675781</flt><!-- Length Of Route -->
+</rec>

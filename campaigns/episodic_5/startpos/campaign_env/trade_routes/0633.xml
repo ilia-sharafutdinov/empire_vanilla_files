@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>1</u><!-- Port OR Settlement Indice Start Point (port:new_england:providence) -->
+ <u>28</u><!-- Port OR Settlement Indice End Point (port:jamaica:kingston) -->
+ <u4_ary>162 355 365 367 375 59 57 55 53 51 49 46 149 147 145 122 33 31 143</u4_ary>
+ <flt>249.34598</flt><!-- Length Of Route -->
+</rec>

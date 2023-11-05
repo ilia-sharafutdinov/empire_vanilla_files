@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>24</u><!-- Port OR Settlement Indice Start Point (port:new_andalusia:coro) -->
+ <u>27</u><!-- Port OR Settlement Indice End Point (port:cuba:santiago_de_cuba) -->
+ <u4_ary>346 286 297 290 28 335</u4_ary>
+ <flt>94.23656463623047</flt><!-- Length Of Route -->
+</rec>

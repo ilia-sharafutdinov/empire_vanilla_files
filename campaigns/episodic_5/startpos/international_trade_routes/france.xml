@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<rec type="INTERNATIONAL_TRADE_ROUTES">
+ <s>france</s>
+ <ary type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+  <rec type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+   <rec type="INTERNATIONAL_TRADE_ROUTE">
+    <u>2</u><!-- Number Of Connections -->
+    <i>349831344</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>21</u><!-- Port OR Settlement Indice Start Point (port:french_guyana:sinnamary) -->
+    <u>1</u><!-- Port OR Settlement Indice End Point (port:new_england:providence) -->
+    <yes/><!-- Trading Over Sea -->
+    <i>349855056</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>4294967295</u>
+    <u>4294967295</u>
+    <no/><!-- Trading Over Sea -->
+    <yes/>
+    <u4_ary>0 0 8 0 0 0 0 0</u4_ary><!-- Commodities Quantity -->
+    <u>395</u>
+    <u>96</u>
+    <u>0</u>
+    <u>299</u>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</u4_ary><!-- Resources Quantity -->
+    <u>0</u>
+    <i>355227872</i>
+   </rec>
+   <u>355227872</u><!-- Route ID -->
+  </rec>
+  <rec type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+   <rec type="INTERNATIONAL_TRADE_ROUTE">
+    <u>2</u><!-- Number Of Connections -->
+    <i>349831344</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>21</u><!-- Port OR Settlement Indice Start Point (port:french_guyana:sinnamary) -->
+    <u>23</u><!-- Port OR Settlement Indice End Point (port:new_spain:veracruz) -->
+    <yes/><!-- Trading Over Sea -->
+    <i>349891224</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>4294967295</u>
+    <u>4294967295</u>
+    <no/><!-- Trading Over Sea -->
+    <yes/>
+    <u4_ary>0 0 30 0 0 0 0 0</u4_ary><!-- Commodities Quantity -->
+    <u>742</u>
+    <u>360</u>
+    <u>0</u>
+    <u>382</u>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</u4_ary><!-- Resources Quantity -->
+    <u>0</u>
+    <i>355228004</i>
+   </rec>
+   <u>355228004</u><!-- Route ID -->
+  </rec>
+ </ary>
+</rec>

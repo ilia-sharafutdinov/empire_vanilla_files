@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>3</u><!-- Port OR Settlement Indice Start Point (port:new_france:tadoussac) -->
+ <u>33</u><!-- Port OR Settlement Indice End Point (port:lower_louisiana:mobile) -->
+ <u4_ary>97 93 90 77 75 73 124 61 355 365 367 375 59 57 55 53 51 49 45 261 243 241 265</u4_ary>
+ <flt>441.65817</flt><!-- Length Of Route -->
+</rec>

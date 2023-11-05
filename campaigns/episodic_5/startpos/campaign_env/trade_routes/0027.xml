@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>22</u><!-- Port OR Settlement Indice Start Point (port:labrador:cartwright) -->
+ <u>32</u><!-- Port OR Settlement Indice End Point (port:curacao:otrobanda) -->
+ <u4_ary>322 305 84 86 88 90 77 75 73 124 61 355 365 367 375 59 57 55 53 51 49 46 149 147 145 122 33 29 291 296 287 351 353 343</u4_ary>
+ <flt>544.96393</flt><!-- Length Of Route -->
+</rec>

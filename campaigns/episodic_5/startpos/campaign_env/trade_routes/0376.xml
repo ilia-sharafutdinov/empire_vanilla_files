@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>10</u><!-- Port OR Settlement Indice Start Point (port:ruperts_land:fort_albany) -->
+ <u>15</u><!-- Port OR Settlement Indice End Point (port:leeward_islands:guadeloupe) -->
+ <u4_ary>326 329 313 311 309 307 305 84 86 88 90 77 75 73 124 61 355 365 367 375 59 57 55 53 51 49 46 149 147 145 121 36 38 40 21 19 127</u4_ary>
+ <flt>785.47107</flt><!-- Length Of Route -->
+</rec>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>24</u><!-- Port OR Settlement Indice Start Point (port:new_andalusia:coro) -->
+ <u>28</u><!-- Port OR Settlement Indice End Point (port:jamaica:kingston) -->
+ <u4_ary>346 286 297 290 24 143</u4_ary>
+ <flt>90.65812</flt><!-- Length Of Route -->
+</rec>

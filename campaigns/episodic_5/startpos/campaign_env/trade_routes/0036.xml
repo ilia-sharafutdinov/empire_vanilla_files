@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>20</u><!-- Port OR Settlement Indice Start Point (port:new_grenada:rio_de_la_hacha) -->
+ <u>34</u><!-- Port OR Settlement Indice End Point (port:panama:puerto_bello) -->
+ <u4_ary>218 186 188 190 213</u4_ary>
+ <flt>65.42832</flt><!-- Length Of Route -->
+</rec>

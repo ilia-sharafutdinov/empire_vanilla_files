@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>19</u><!-- Port OR Settlement Indice Start Point (port:tejas:corpus_christi) -->
+ <u>33</u><!-- Port OR Settlement Indice End Point (port:lower_louisiana:mobile) -->
+ <u4_ary>272 236 262</u4_ary>
+ <flt>76.28905487060547</flt><!-- Length Of Route -->
+</rec>

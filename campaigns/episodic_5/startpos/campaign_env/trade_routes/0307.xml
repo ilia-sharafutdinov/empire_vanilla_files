@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>7</u><!-- Port OR Settlement Indice Start Point (port:carolinas:georgetown) -->
+ <u>24</u><!-- Port OR Settlement Indice End Point (port:new_andalusia:coro) -->
+ <u4_ary>158 55 53 51 49 46 149 147 145 122 33 29 291 296 287 347</u4_ary>
+ <flt>226.06038</flt><!-- Length Of Route -->
+</rec>

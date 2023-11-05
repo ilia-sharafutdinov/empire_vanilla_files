@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>15</u><!-- Port OR Settlement Indice Start Point (port:leeward_islands:guadeloupe) -->
+ <u>32</u><!-- Port OR Settlement Indice End Point (port:curacao:otrobanda) -->
+ <u4_ary>128 15 98 100 352 350 345</u4_ary>
+ <flt>96.19244</flt><!-- Length Of Route -->
+</rec>

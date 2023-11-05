@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>7</u><!-- Port OR Settlement Indice Start Point (port:carolinas:georgetown) -->
+ <u>25</u><!-- Port OR Settlement Indice End Point (port:new_spain:tampico) -->
+ <u4_ary>158 55 53 51 49 45 244 246 253 254 222 224 226 228 277</u4_ary>
+ <flt>232.04736</flt><!-- Length Of Route -->
+</rec>

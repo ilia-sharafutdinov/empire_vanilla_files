@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<rec type="INTERNATIONAL_TRADE_ROUTES">
+ <s>britain</s>
+ <ary type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+  <rec type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+   <rec type="INTERNATIONAL_TRADE_ROUTE">
+    <u>2</u><!-- Number Of Connections -->
+    <i>349999888</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>2</u><!-- Port OR Settlement Indice Start Point (port:pennsylvania:lewes) -->
+    <u>23</u><!-- Port OR Settlement Indice End Point (port:new_spain:veracruz) -->
+    <yes/><!-- Trading Over Sea -->
+    <i>349891224</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>4294967295</u>
+    <u>4294967295</u>
+    <no/><!-- Trading Over Sea -->
+    <yes/>
+    <u4_ary>0 0 0 0 0 0 0 0</u4_ary><!-- Commodities Quantity -->
+    <u>747</u>
+    <u>0</u>
+    <u>0</u>
+    <u>747</u>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</u4_ary><!-- Resources Quantity -->
+    <u>0</u>
+    <i>350828696</i>
+   </rec>
+   <u>350828696</u><!-- Route ID -->
+  </rec>
+  <rec type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+   <rec type="INTERNATIONAL_TRADE_ROUTE">
+    <u>4</u><!-- Number Of Connections -->
+    <i>349999888</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>43</u><!-- Port OR Settlement Indice Start Point (pennsylvania) -->
+    <u>47</u><!-- Port OR Settlement Indice End Point (virginia) -->
+    <no/><!-- Trading Over Sea -->
+    <i>350037304</i><!-- Region ID Of Trading Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>47</u><!-- Port OR Settlement Indice Start Point (virginia) -->
+    <u>71</u><!-- Port OR Settlement Indice End Point (kaintuck_territory) -->
+    <no/><!-- Trading Over Sea -->
+    <i>349911184</i><!-- Region ID Of Trading Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>71</u><!-- Port OR Settlement Indice Start Point (kaintuck_territory) -->
+    <u>67</u><!-- Port OR Settlement Indice End Point (cherokee_territory) -->
+    <no/><!-- Trading Over Sea -->
+    <i>350054440</i><!-- Region ID Of Trading Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>4294967295</u>
+    <u>4294967295</u>
+    <no/><!-- Trading Over Sea -->
+    <no/>
+    <u4_ary>0 0 0 0 0 0 0 0</u4_ary><!-- Commodities Quantity -->
+    <u>700</u>
+    <u>0</u>
+    <u>0</u>
+    <u>700</u>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</u4_ary><!-- Resources Quantity -->
+    <u>0</u>
+    <i>350828828</i>
+   </rec>
+   <u>350828828</u><!-- Route ID -->
+  </rec>
+  <rec type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+   <rec type="INTERNATIONAL_TRADE_ROUTE">
+    <u>2</u><!-- Number Of Connections -->
+    <i>349999888</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>43</u><!-- Port OR Settlement Indice Start Point (pennsylvania) -->
+    <u>45</u><!-- Port OR Settlement Indice End Point (algonquin_territory) -->
+    <no/><!-- Trading Over Sea -->
+    <i>350090376</i><!-- Region ID Of Trading Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>4294967295</u>
+    <u>4294967295</u>
+    <no/><!-- Trading Over Sea -->
+    <no/>
+    <u4_ary>0 0 0 0 0 0 0 0</u4_ary><!-- Commodities Quantity -->
+    <u>700</u>
+    <u>0</u>
+    <u>0</u>
+    <u>700</u>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</u4_ary><!-- Resources Quantity -->
+    <u>0</u>
+    <i>350828960</i>
+   </rec>
+   <u>350828960</u><!-- Route ID -->
+  </rec>
+  <rec type="FACTION_INTERNATIONAL_TRADE_ROUTES_ARRAY">
+   <rec type="INTERNATIONAL_TRADE_ROUTE">
+    <u>2</u><!-- Number Of Connections -->
+    <i>349999888</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>2</u><!-- Port OR Settlement Indice Start Point (port:pennsylvania:lewes) -->
+    <u>37</u><!-- Port OR Settlement Indice End Point (port:dutch_guyana:demerara) -->
+    <yes/><!-- Trading Over Sea -->
+    <i>349877920</i><!-- Region ID Of Home Faction -->
+    <v2 x="0.0" y="0.0"/>
+    <u>4294967295</u>
+    <u>4294967295</u>
+    <no/><!-- Trading Over Sea -->
+    <yes/>
+    <u4_ary>0 0 0 0 0 0 0 0</u4_ary><!-- Commodities Quantity -->
+    <u>705</u>
+    <u>0</u>
+    <u>0</u>
+    <u>705</u>
+    <u>0</u>
+    <u>0</u>
+    <u>0</u>
+    <u4_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</u4_ary><!-- Resources Quantity -->
+    <u>0</u>
+    <i>350829092</i>
+   </rec>
+   <u>350829092</u><!-- Route ID -->
+  </rec>
+ </ary>
+</rec>

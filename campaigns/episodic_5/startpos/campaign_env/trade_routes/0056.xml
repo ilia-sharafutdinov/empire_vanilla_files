@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>76</u><!-- Port OR Settlement Indice Start Point (michigan_territory) -->
+ <u>77</u><!-- Port OR Settlement Indice End Point (upper_louisiana) -->
+ <u4_ary>630 462 390 650 448 697</u4_ary>
+ <flt>68.29502</flt><!-- Length Of Route -->
+</rec>

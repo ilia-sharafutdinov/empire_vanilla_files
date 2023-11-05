@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>9</u><!-- Port OR Settlement Indice Start Point (port:acadia:cap_fourchu) -->
+ <u>27</u><!-- Port OR Settlement Indice End Point (port:cuba:santiago_de_cuba) -->
+ <u4_ary>174 69 67 65 63 61 355 365 367 375 59 57 55 53 51 49 46 149 147 145 122 333</u4_ary>
+ <flt>283.02652</flt><!-- Length Of Route -->
+</rec>

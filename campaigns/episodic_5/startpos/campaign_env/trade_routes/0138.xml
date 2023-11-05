@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>29</u><!-- Port OR Settlement Indice Start Point (port:labrador:catucto) -->
+ <u>35</u><!-- Port OR Settlement Indice End Point (port:acadia:louisbourg) -->
+ <u4_ary>320 84 86 88 90 77 379</u4_ary>
+ <flt>115.17399</flt><!-- Length Of Route -->
+</rec>

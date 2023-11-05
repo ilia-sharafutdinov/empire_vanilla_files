@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>2</u><!-- Port OR Settlement Indice Start Point (port:pennsylvania:lewes) -->
+ <u>35</u><!-- Port OR Settlement Indice End Point (port:acadia:louisbourg) -->
+ <u4_ary>356 354 60 125 72 377</u4_ary>
+ <flt>123.01179</flt><!-- Length Of Route -->
+</rec>

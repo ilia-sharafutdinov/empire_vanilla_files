@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_RESOURCE_MOBILES">
+ <owned_direct>947</owned_direct><!-- Faction AI ID -->
+ <cai_situated x="-434.2556457519531" y="104.15383911132812" region_id="741" theatre_id="27" area_id="2"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>2085</u><!-- Character Resource AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3202 0 3619 2 3636 0 3630 2 3631 3 3632 2 3634 3 3635 3 3642 3 3643 2 3644 1 3645 1 3646 1 4073 0 4074 0 4449 0 5128 0 5625 0 5692 0 7420 0 7424 0 7559 0 8066 0 8067 1 7542 3 8088 0 7561 3 8261 0 8925 0 10517 0 10559 0 13028 0 13235 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>33</u><!-- HLCIS ID -->
+ <u4_ary/>
+ <u4_ary>3202 10 3619 16 3636 3630 3631 3632 3634 3635 3642 3643 3644 3645 3646 4073 20 4074 2970 4449 2962 5128 5032 5625 5024 5692 5043 7420 7302 7424 7310 7559 7321 8066 8067 7346 7542 8088 7340 7561 8261 8148 8925 8140 10517 10284 10559 10276 13028 12925 13235 12917</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+  <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+   <u>8067</u><!-- BDI Information -->
+   <u>2085</u><!-- Character Resource AI ID -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>0</u>
+  </rec>
+ </ary>
+ <u>1</u>
+ <u>0</u>
+ <u4_ary>8067</u4_ary><!-- BDI Information -->
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>3202 3619 3630 3631 3632 3633 3634 3635 3636 3642 3643 3644 3645 3646 4259 4261 4434 4449 4450 4451 4460 4461 4462 5625 5626 5627 5648 5123 5129 5130 5692 5690 6445 6447 7420 7426 7427 7559 7557 7742 7744 7815 7821 7822 7823 8066 8088 8925 8927 8928 8939 8940 8941 8974 8257 8263 10516 10519 10559 10561 10562 10608 10966 10967 10968 13024 13153 13155 13235 13236 13237 13240 13241 13242</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_RESOURCE_MOBILE">
+  <u>2084</u><!-- Character AI ID -->
+  <u>1085</u><!-- Settlement AI ID -->
+  <u>0</u><!-- Settlement Character AI ID -->
+  <ary type="CAI_RESOURCE_MOBILE_SIEGE_INFORMATION"/>
+  <u4_ary>2084</u4_ary><!-- Character AI IDs -->
+  <u4_ary>2086 2087 2088 2089 2090</u4_ary><!-- Character Unit AI IDs -->
+  <yes/>
+  <no/>
+  <no/>
+  <u>0</u>
+  <u>349464040</u><!-- Army ID -->
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+</rec>

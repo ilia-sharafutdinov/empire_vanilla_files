@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY">
+  <rec type="MILITARY_FORCE">
+   <u>349511360</u><!-- Army ID -->
+   <u>349543640</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Felipe de_Castro" commander_id="349543640" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_001" size="160/160" type="euro_line_infantry_spain" unit_id="349544912"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Anselmo Carascon" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_002" size="160/160" type="euro_line_infantry_spain" unit_id="349545160"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Diego de_la_Bodega" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_003" size="160/160" type="euro_line_infantry_spain" unit_id="349545408"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Dezi Pizarro" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_004" size="160/160" type="euro_line_infantry_spain" unit_id="349545656"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>349511360</i><!-- Army ID -->
+  <u>349890776</u><!-- Army In Building Slot ID -->
+  <no/><!-- Under Seige -->
+  <u>0</u><!-- Army ID Of Ship Escorting -->
+  <no/>
+ </rec>
+</rec>

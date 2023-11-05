@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>7</u><!-- Port OR Settlement Indice Start Point (port:carolinas:georgetown) -->
+ <u>37</u><!-- Port OR Settlement Indice End Point (port:dutch_guyana:demerara) -->
+ <u4_ary>158 55 53 51 49 46 149 147 145 121 36 38 40 21 19 17 110 112 11 4</u4_ary>
+ <flt>321.34369</flt><!-- Length Of Route -->
+</rec>

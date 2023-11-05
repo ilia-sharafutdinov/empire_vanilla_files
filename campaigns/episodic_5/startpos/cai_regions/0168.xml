@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1134</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>758</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3822 0 4086 0 4359 0 5381 0 5382 0 5384 0 5559 0 5796 0 6656 0 5798 1 5815 1 6729 0 6850 0 6851 0 6852 0 6853 0 6854 0 7223 0 7602 0 8947 0 8948 0 10921 0 13538 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>23</u>
+ <u4_ary/>
+ <u4_ary>3822 15 4086 2970 4359 4 5381 5033 5382 5049 5384 5032 5559 5047 5796 6656 5040 5798 5815 6729 6850 6851 6852 6853 6854 7223 5038 7602 7310 8947 8167 8948 8148 10921 10284 13538 12925</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2661 2670 3823 3824 4087 4086 4359 5380 5384 5812 5796 6656 6359 6850 6851 6852 6853 6854 7223 7602 8948 10921 13538</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>759</u4_ary><!-- HLCIS IDs -->
+  <u>1134</u><!-- Settlement AI ID -->
+  <u4_ary>1136 1138</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-549.83911</flt><!-- X Coordinate -->
+  <flt>129.04942</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2425</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>2053</u4_ary><!-- Character Resource AI IDs -->
+  <s>jamaica</s><!-- Region Name -->
+  <u>349837288</u><!-- Region ID -->
+  <u>2692</u><!-- Governor AI ID -->
+  <u4_ary/><!-- Faction AI IDs Needed For Victory Condition -->
+ </rec>
+</rec>

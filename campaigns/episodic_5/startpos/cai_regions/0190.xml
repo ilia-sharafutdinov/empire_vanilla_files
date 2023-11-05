@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1364</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>866</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3135 0 3726 0 3735 0 3796 0 3838 0 3882 0 4897 0 5464 0 5480 0 5481 0 5570 0 5760 0 6047 0 6763 0 6795 0 6796 0 6797 0 6798 0 6799 0 6075 1 7168 0 6067 1 7243 0 6071 1 7664 0 9054 0 9113 0 10736 0 13576 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>29</u>
+ <u4_ary/>
+ <u4_ary>3135 14 3726 2970 3735 3736 3796 2989 3838 15 3882 4 4897 3010 5464 5032 5480 5033 5481 5049 5570 5047 5760 6047 6763 6795 6796 6797 6798 6799 6075 7168 5040 6067 7243 5038 6071 7664 7310 9054 8148 9113 8167 10736 10284 13576 12925</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2661 2674 2683 3015 3135 3727 3726 3735 3839 3840 3882 3884 4897 4906 4902 4916 4940 5117 5464 5479 5730 5740 5662 5031 6047 6795 6796 6797 6798 6799 7168 7243 7664 9054 10736 13576</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>867 868 869 870</u4_ary><!-- HLCIS IDs -->
+  <u>1364</u><!-- Settlement AI ID -->
+  <u4_ary>1366 1368 1370 1372 1374</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-525.18445</flt><!-- X Coordinate -->
+  <flt>302.84241</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2394 2475 2491 2492</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>1949 1997 2010</u4_ary><!-- Character Resource AI IDs -->
+  <s>new_york</s><!-- Region Name -->
+  <u>349928264</u><!-- Region ID -->
+  <u>2692</u><!-- Governor AI ID -->
+  <u4_ary>941</u4_ary><!-- Faction AI IDs Needed For Victory Condition -->
+ </rec>
+</rec>

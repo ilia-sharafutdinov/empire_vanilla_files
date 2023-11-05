@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>11</u><!-- Port OR Settlement Indice Start Point (port:new_spain:campeche) -->
+ <u>19</u><!-- Port OR Settlement Indice End Point (port:tejas:corpus_christi) -->
+ <u4_ary>282 224 226 228 230 232 271</u4_ary>
+ <flt>100.50715</flt><!-- Length Of Route -->
+</rec>

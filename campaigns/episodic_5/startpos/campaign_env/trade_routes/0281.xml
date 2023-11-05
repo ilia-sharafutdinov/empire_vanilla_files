@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>6</u><!-- Port OR Settlement Indice Start Point (port:trinidad_tobago:puerto_de_espana) -->
+ <u>33</u><!-- Port OR Settlement Indice End Point (port:lower_louisiana:mobile) -->
+ <u4_ary>104 111 16 18 20 41 39 37 120 144 146 148 42 261 243 241 265</u4_ary>
+ <flt>296.82303</flt><!-- Length Of Route -->
+</rec>

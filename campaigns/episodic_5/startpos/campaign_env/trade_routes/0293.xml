@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>10</u><!-- Port OR Settlement Indice Start Point (port:ruperts_land:fort_albany) -->
+ <u>21</u><!-- Port OR Settlement Indice End Point (port:french_guyana:sinnamary) -->
+ <u4_ary>326 329 313 311 309 307 305 84 86 88 90 77 75 73 124 61 355 365 367 375 59 57 55 53 51 49 46 149 147 145 121 36 38 40 21 19 17 110 112 11 3 1 8</u4_ary>
+ <flt>900.33795</flt><!-- Length Of Route -->
+</rec>

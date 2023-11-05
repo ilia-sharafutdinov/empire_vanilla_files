@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>20</u><!-- Port OR Settlement Indice Start Point (port:new_grenada:rio_de_la_hacha) -->
+ <u>39</u><!-- Port OR Settlement Indice End Point (port:hispaniola:leogane) -->
+ <u4_ary>220 295 290 28 137</u4_ary>
+ <flt>95.35396575927734</flt><!-- Length Of Route -->
+</rec>

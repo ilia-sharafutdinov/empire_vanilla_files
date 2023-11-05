@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>4</u><!-- Port OR Settlement Indice Start Point (port:windward_islands:barbados) -->
+ <u>12</u><!-- Port OR Settlement Indice End Point (port:virginia:yorktown) -->
+ <u4_ary>338 16 18 20 41 39 37 120 144 146 148 47 48 50 52 54 56 58 374 371 373</u4_ary>
+ <flt>315.25119</flt><!-- Length Of Route -->
+</rec>

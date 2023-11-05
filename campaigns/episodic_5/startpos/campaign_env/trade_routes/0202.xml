@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>24</u><!-- Port OR Settlement Indice Start Point (port:new_andalusia:coro) -->
+ <u>35</u><!-- Port OR Settlement Indice End Point (port:acadia:louisbourg) -->
+ <u4_ary>346 286 297 290 28 32 123 144 146 148 47 48 50 52 54 56 58 374 366 364 354 60 125 72 377</u4_ary>
+ <flt>393.51794</flt><!-- Length Of Route -->
+</rec>

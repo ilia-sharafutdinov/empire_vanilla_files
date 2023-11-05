@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>63</u><!-- Port OR Settlement Indice Start Point (guatemala) -->
+ <u>78</u><!-- Port OR Settlement Indice End Point (panama) -->
+ <u4_ary/>
+ <flt>86.31976</flt><!-- Length Of Route -->
+</rec>

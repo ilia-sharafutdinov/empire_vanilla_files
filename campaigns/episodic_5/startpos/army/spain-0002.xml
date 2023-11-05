@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY">
+  <rec type="MILITARY_FORCE">
+   <u>349548584</u><!-- Army ID -->
+   <u>349546144</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Rafa Vasquez" commander_id="349546144" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_005" size="160/160" type="euro_line_infantry_spain" unit_id="349547344"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Miguel de_Capmany" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_006" size="160/160" type="euro_line_infantry_spain" unit_id="349547592"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Carlitos Zavaleta" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_007" size="160/160" type="euro_line_infantry_spain" unit_id="349547840"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Marcos de_Lorena" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_008" size="160/160" type="euro_line_infantry_spain" unit_id="349548088"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="spain Alfredo Lassala" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_009" size="160/160" type="euro_line_infantry_spain" unit_id="349548336"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>349548584</i><!-- Army ID -->
+  <u>349982064</u><!-- Army In Building Slot ID -->
+  <no/><!-- Under Seige -->
+  <u>0</u><!-- Army ID Of Ship Escorting -->
+  <no/>
+ </rec>
+</rec>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>16</u><!-- Port OR Settlement Indice Start Point (port:bahamas:grand_bahama) -->
+ <u>19</u><!-- Port OR Settlement Indice End Point (port:tejas:corpus_christi) -->
+ <u4_ary>182 45 261 243 241 239 237 273</u4_ary>
+ <flt>176.98831</flt><!-- Length Of Route -->
+</rec>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>31</u><!-- Port OR Settlement Indice Start Point (port:newfoundland:st_johns) -->
+ <u>32</u><!-- Port OR Settlement Indice End Point (port:curacao:otrobanda) -->
+ <u4_ary>178 83 80 75 73 124 61 355 365 367 375 59 57 55 53 51 49 46 149 147 145 122 33 29 291 296 287 351 353 343</u4_ary>
+ <flt>484.45486</flt><!-- Length Of Route -->
+</rec>

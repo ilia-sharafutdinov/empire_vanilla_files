@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>4</u><!-- Port OR Settlement Indice Start Point (port:windward_islands:barbados) -->
+ <u>27</u><!-- Port OR Settlement Indice End Point (port:cuba:santiago_de_cuba) -->
+ <u4_ary>338 16 18 20 22 28 335</u4_ary>
+ <flt>150.1257</flt><!-- Length Of Route -->
+</rec>

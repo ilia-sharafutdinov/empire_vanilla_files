@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>0</u><!-- Port OR Settlement Indice Start Point (port:hispaniola:port-de-paix) -->
+ <u>25</u><!-- Port OR Settlement Indice End Point (port:new_spain:tampico) -->
+ <u4_ary>132 120 144 146 148 42 244 246 253 254 222 224 226 228 277</u4_ary>
+ <flt>212.8873</flt><!-- Length Of Route -->
+</rec>

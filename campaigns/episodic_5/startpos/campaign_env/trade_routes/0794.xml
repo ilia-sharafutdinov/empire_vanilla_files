@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>47</u><!-- Port OR Settlement Indice Start Point (virginia) -->
+ <u>51</u><!-- Port OR Settlement Indice End Point (carolinas) -->
+ <u4_ary>565 724 750 698</u4_ary>
+ <flt>45.6548</flt><!-- Length Of Route -->
+</rec>

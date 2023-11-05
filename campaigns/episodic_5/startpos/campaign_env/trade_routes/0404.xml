@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>6</u><!-- Port OR Settlement Indice Start Point (port:trinidad_tobago:puerto_de_espana) -->
+ <u>18</u><!-- Port OR Settlement Indice End Point (port:guatemala:puerto_barrios) -->
+ <u4_ary>106 98 100 352 350 286 297 290 24 26 198 205 206 209</u4_ary>
+ <flt>239.19678</flt><!-- Length Of Route -->
+</rec>

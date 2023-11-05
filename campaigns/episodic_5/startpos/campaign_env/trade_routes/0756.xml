@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>14</u><!-- Port OR Settlement Indice Start Point (port:new_england:plymouth) -->
+ <u>29</u><!-- Port OR Settlement Indice End Point (port:labrador:catucto) -->
+ <u4_ary>168 66 68 70 72 74 76 91 89 87 85 321</u4_ary>
+ <flt>200.59329</flt><!-- Length Of Route -->
+</rec>

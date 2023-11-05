@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>11</u><!-- Port OR Settlement Indice Start Point (port:new_spain:campeche) -->
+ <u>12</u><!-- Port OR Settlement Indice End Point (port:virginia:yorktown) -->
+ <u4_ary>284 255 252 247 245 44 48 50 52 54 56 58 374 371 373</u4_ary>
+ <flt>221.41856</flt><!-- Length Of Route -->
+</rec>

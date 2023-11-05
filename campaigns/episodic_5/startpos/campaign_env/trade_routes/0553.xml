@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>2</u><!-- Port OR Settlement Indice Start Point (port:pennsylvania:lewes) -->
+ <u>27</u><!-- Port OR Settlement Indice End Point (port:cuba:santiago_de_cuba) -->
+ <u4_ary>358 367 375 59 57 55 53 51 49 46 149 147 145 122 333</u4_ary>
+ <flt>201.80234</flt><!-- Length Of Route -->
+</rec>

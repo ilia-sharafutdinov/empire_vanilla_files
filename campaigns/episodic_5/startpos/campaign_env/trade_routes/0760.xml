@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>17</u><!-- Port OR Settlement Indice Start Point (port:maine:eastport) -->
+ <u>23</u><!-- Port OR Settlement Indice End Point (port:new_spain:veracruz) -->
+ <u4_ary>170 67 65 63 61 355 365 367 375 59 57 55 53 51 49 45 244 246 253 254 222 224 281</u4_ary>
+ <flt>342.72879</flt><!-- Length Of Route -->
+</rec>

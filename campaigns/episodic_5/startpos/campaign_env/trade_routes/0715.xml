@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>20</u><!-- Port OR Settlement Indice Start Point (port:new_grenada:rio_de_la_hacha) -->
+ <u>22</u><!-- Port OR Settlement Indice End Point (port:labrador:cartwright) -->
+ <u4_ary>220 295 290 28 32 123 144 146 148 47 48 50 52 54 56 58 374 366 364 354 60 125 72 74 76 91 89 87 85 304 323</u4_ary>
+ <flt>511.42337</flt><!-- Length Of Route -->
+</rec>

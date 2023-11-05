@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>14</u><!-- Port OR Settlement Indice Start Point (port:new_england:plymouth) -->
+ <u>19</u><!-- Port OR Settlement Indice End Point (port:tejas:corpus_christi) -->
+ <u4_ary>166 63 61 355 365 367 375 59 57 55 53 51 49 45 261 243 241 239 237 273</u4_ary>
+ <flt>347.28625</flt><!-- Length Of Route -->
+</rec>

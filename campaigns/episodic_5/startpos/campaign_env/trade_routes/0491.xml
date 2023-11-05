@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>60</u><!-- Port OR Settlement Indice Start Point (ontario) -->
+ <u>70</u><!-- Port OR Settlement Indice End Point (huron_territory) -->
+ <u4_ary>508 772 454 545 745 429</u4_ary>
+ <flt>90.83897399902344</flt><!-- Length Of Route -->
+</rec>

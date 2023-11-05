@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>30</u><!-- Port OR Settlement Indice Start Point (port:georgia_usa:st_marys) -->
+ <u>39</u><!-- Port OR Settlement Indice End Point (port:hispaniola:leogane) -->
+ <u4_ary>154 51 49 46 149 147 145 122 139</u4_ary>
+ <flt>130.9592</flt><!-- Length Of Route -->
+</rec>

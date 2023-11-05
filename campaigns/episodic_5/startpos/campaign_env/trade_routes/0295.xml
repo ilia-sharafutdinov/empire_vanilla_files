@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>7</u><!-- Port OR Settlement Indice Start Point (port:carolinas:georgetown) -->
+ <u>30</u><!-- Port OR Settlement Indice End Point (port:georgia_usa:st_marys) -->
+ <u4_ary>158 55 157</u4_ary>
+ <flt>33.51474380493164</flt><!-- Length Of Route -->
+</rec>

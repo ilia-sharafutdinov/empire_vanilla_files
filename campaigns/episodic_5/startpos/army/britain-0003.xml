@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="NAVY">
+  <rec type="MILITARY_FORCE">
+   <u>349408592</u><!-- Army ID -->
+   <u>349406736</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <rec type="NAVAL_UNIT">
+     <naval_key>3rd_rate_admiral</naval_key>
+     <rec type="UNIT">
+      <unit_key>3rd_rate_admiral</unit_key>
+      <unit_history>summer 1775</unit_history>
+      <commander>britain Norris Bourke</commander>
+      <traits/>
+      <i>349408288</i>
+      <u>196</u>
+      <u>196</u>
+      <i>78</i>
+      <u>0</u>
+      <u>0</u>
+      <u>349406736</u>
+      <u>0</u>
+      <u>0</u>
+      <byte>0</byte>
+      <loc>ship_names_Ship_Name_393</loc>
+     </rec>
+     <u>0</u>
+     <no/>
+     <no/>
+     <rec type="SHIP_DAMAGE_INFO">
+      <flt>0.0</flt>
+      <flt>0.0</flt>
+      <flt>0.0</flt>
+      <flt>0.0</flt>
+      <flt>0.0</flt>
+      <i>26</i>
+      <i>26</i>
+      <i>144</i>
+      <i>26</i>
+      <i>26</i>
+      <i>144</i>
+      <u>0</u>
+      <no/>
+     </rec>
+    </rec>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <rec type="NAVAL_UNIT">
+     <naval_key>sloop_american</naval_key>
+     <rec type="UNIT">
+      <unit_key>sloop_american</unit_key>
+      <unit_history>summer 1775</unit_history>
+      <commander>britain Silas Clay</commander>
+      <traits/>
+      <i>349337152</i>
+      <u>62</u>
+      <u>62</u>
+      <i>83</i>
+      <u>0</u>
+      <u>0</u>
+      <u>0</u>
+      <u>0</u>
+      <u>0</u>
+      <byte>0</byte>
+      <loc>ship_names_Ship_Name_333</loc>
+     </rec>
+     <u>0</u>
+     <no/>
+     <no/>
+     <rec type="SHIP_DAMAGE_INFO">
+      <flt>0.0</flt>
+      <flt>0.0</flt>
+      <flt>0.0</flt>
+      <flt>0.0</flt>
+      <flt>0.0</flt>
+      <i>12</i>
+      <i>14</i>
+      <i>36</i>
+      <i>12</i>
+      <i>14</i>
+      <i>36</i>
+      <u>0</u>
+      <no/>
+     </rec>
+    </rec>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <rec type="NAVAL_UNIT">
+     <naval_key>sloop_american</naval_key>
+     <rec type="UNIT">
+      <unit_key>sloop_american</unit_key>
+      <unit_history>summer 1775</unit_history>
+      <commander>britain Nathan Lindley</commander>
+      <traits/>
+      <i>349407984</i>
+      <u>62</u>
+      <u>62</u>
+      <i>83</i>
+      <u>0</u>
+      <u>0</u>
+      <u>0</u>
+      <u>0</u>
+      <u>0</u>
+      <byte>0</byte>
+      <loc>ship_names_Ship_Name_458</loc>
+     </rec>
+     <u>0</u>
+     <no/>
+     <no/>
+     <rec type="SHIP_DAMAGE_INFO">
+      <flt>0.0</flt>
+      <flt>0.0</flt>
+      <flt>0.0</flt>
+      <flt>0.0</flt>
+      <flt>0.0</flt>
+      <i>12</i>
+      <i>14</i>
+      <i>36</i>
+      <i>12</i>
+      <i>14</i>
+      <i>36</i>
+      <u>0</u>
+      <no/>
+     </rec>
+    </rec>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u><!-- Army ID In Ship -->
+  <theatre_transition/>
+  <u>0</u>
+ </rec>
+</rec>

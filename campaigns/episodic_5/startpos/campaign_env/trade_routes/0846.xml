@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>15</u><!-- Port OR Settlement Indice Start Point (port:leeward_islands:guadeloupe) -->
+ <u>20</u><!-- Port OR Settlement Indice End Point (port:new_grenada:rio_de_la_hacha) -->
+ <u4_ary>126 18 20 288 294 221</u4_ary>
+ <flt>114.85332</flt><!-- Length Of Route -->
+</rec>

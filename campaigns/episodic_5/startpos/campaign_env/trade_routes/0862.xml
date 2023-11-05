@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>7</u><!-- Port OR Settlement Indice Start Point (port:carolinas:georgetown) -->
+ <u>38</u><!-- Port OR Settlement Indice End Point (port:florida:pensacola) -->
+ <u4_ary>158 55 53 51 49 45 261 243 269</u4_ary>
+ <flt>160.41409</flt><!-- Length Of Route -->
+</rec>

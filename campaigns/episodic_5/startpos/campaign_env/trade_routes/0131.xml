@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>51</u><!-- Port OR Settlement Indice Start Point (carolinas) -->
+ <u>71</u><!-- Port OR Settlement Indice End Point (kaintuck_territory) -->
+ <u4_ary>669 451 425 556 456 472 431</u4_ary>
+ <flt>55.08038330078125</flt><!-- Length Of Route -->
+</rec>

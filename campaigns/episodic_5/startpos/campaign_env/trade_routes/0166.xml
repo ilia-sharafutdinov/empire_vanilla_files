@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>30</u><!-- Port OR Settlement Indice Start Point (port:georgia_usa:st_marys) -->
+ <u>31</u><!-- Port OR Settlement Indice End Point (port:newfoundland:st_johns) -->
+ <u4_ary>156 54 56 58 374 366 364 354 60 125 72 74 81 82 179</u4_ary>
+ <flt>262.939</flt><!-- Length Of Route -->
+</rec>

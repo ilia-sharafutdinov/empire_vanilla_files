@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<rec type="CHARACTER_ARRAY">
+ <rec type="CHARACTER">
+  <rec type="LOCOMOTABLE">
+   <v2x x="-621.0" y="250.0"/>
+   <v2x x="-621.0" y="250.0"/>
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>3.1415927410125732</flt><!-- Character Facing Direction -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <i>25</i><!-- Movement Points Left -->
+   <i>26</i><!-- Movement Points Total -->
+   <no/>
+   <i>0</i>
+   <i>0</i>
+   <angle>0.0</angle>
+   <u>12</u>
+   <u>0</u>
+   <flt>0.0</flt>
+  </rec>
+  <rec type="CHARACTER_DETAILS">
+   <traits/>
+   <loc>names_name_names_native_americanSavignon</loc>
+   <loc/>
+   <loc/>
+   <s/><!-- Head Of State -->
+   <date>summer 1745</date>
+   <date/>
+   <i>0</i>
+   <portrait_details/>
+   <s>cherokee</s>
+   <u>349585168</u><!-- Character ID -->
+   <agent_ancillaries/>
+   <agent_attributes>
+    command_land=0
+    command_sea=-1
+    duelling_pistols=-1
+    duelling_swords=-1
+    management=-1
+    subterfuge=-1
+    research=-1
+    zeal=-1
+    land_defence_engineering=-1
+    land_siege_engineering=-1
+    morale_land=-1
+    morale_sea=-1
+    movement_points_land=-1
+    trade=-1
+   </agent_attributes>
+   <ary type="AgentAbilities">
+    <agent_ability ability="can_assassinate" level="-1" attribute=""/>
+    <agent_ability ability="can_convert" level="-1" attribute=""/>
+    <agent_ability ability="can_build_religious" level="-1" attribute=""/>
+    <agent_ability ability="can_build_fort" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage" level="-1" attribute=""/>
+    <agent_ability ability="can_spy" level="-1" attribute=""/>
+    <agent_ability ability="can_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_receive_duel" level="-1" attribute=""/>
+    <agent_ability ability="can_research" level="-1" attribute=""/>
+    <agent_ability ability="can_attack_land" level="1" attribute="command_land"/>
+    <agent_ability ability="can_attack_naval" level="-1" attribute=""/>
+    <agent_ability ability="can_sabotage_army" level="-1" attribute=""/>
+   </ary>
+   <agent_attribute_bonuses>
+    dummy=0
+   </agent_attribute_bonuses>
+   <no/>
+   <loc>agent_culture_details_onscreen_name_coloneltribal</loc>
+  </rec>
+  <i>349585168</i><!-- Character ID -->
+  <s>colonel</s><!-- Character Type -->
+  <u>349587656</u><!-- Army ID -->
+  <u>349587160</u><!-- Unit ID -->
+  <u>0</u>
+  <u>0</u><!-- Character In Building Slot ID -->
+  <u>0</u><!-- Cabinet ID -->
+  <no/>
+  <no/><!-- Government Opposition -->
+  <v2x_ary>
+   -617.5868263244629,249.0
+   -618.0,249.99749755859375
+   -618.0,250.0
+   -618.0,250.09536170959473
+   -617.6252899169922,251.0
+   -618.0,251.90463829040527
+   -618.0,252.0
+   -618.076135635376,253.92386436462402
+   -619.3743782043457,253.97524166107178
+   -619.3744525909424,254.0
+   -619.4885559082031,254.51144409179688
+   -620.0,254.59043979644775
+   -621.0,255.10999965667725
+   -622.0,254.7232894897461
+   -622.1199903488159,254.67358779907227
+   -623.0,255.0312271118164
+   -624.0,254.62482357025146
+   -624.4418182373047,254.4418182373047
+   -624.6248235702515,254.0
+   -625.0312271118164,253.0
+   -624.5911016464233,252.4923324584961
+   -624.6794567108154,252.0
+   -624.3747100830078,251.0
+   -624.0,250.09536170959473
+   -624.0,250.0
+   -624.0,249.99749755859375
+   -624.4131736755371,249.0
+   -624.0,248.35728359222412
+   -624.0,248.0
+   -624.0,246.0
+   -622.0,246.0
+   -621.3767852783203,246.0
+   -621.0,245.7835054397583
+   -620.0041046142578,246.0
+   -620.0,246.0
+   -618.0,246.0
+   -618.0,248.0
+   -618.0,248.00250244140625
+  </v2x_ary>
+  <rec type="LINE_OF_SIGHT">
+   <no/>
+  </rec>
+  <no/>
+  <u>0</u>
+  <no/>
+  <flt>10.0</flt><!-- 10 - Land Leader / 15 - Navy Leader -->
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <yes/>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

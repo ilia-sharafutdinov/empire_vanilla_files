@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<rec type="FACTION">
+ <ancillary_uniqueness_monitor/>
+ <rec type="CAMPAIGN_PLAYER_SETUP">
+  <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+  <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+   <i>0</i>
+   <i>0</i>
+   <i>0</i>
+   <no/>
+  </rec>
+  <s>pueblo</s>
+  <no/>
+  <no/><!-- Playable -->
+  <no/>
+ </rec>
+ <rec type="FACTION_ECONOMICS">
+  <ary type="history">
+   <rec type="history">
+    <rec type="ECONOMICS_DATA">
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 330</i4_ary>
+     <i4_ary>0 0 0 1750</i4_ary>
+     <i4_ary>0</i4_ary>
+     <i4_ary>0 0 0 0 0</i4_ary>
+     <i4_ary>0 0 0 0 0 0 0</i4_ary>
+    </rec>
+   </rec>
+  </ary>
+  <i>10000</i>
+  <bin6>01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01</bin6>
+  <u>0</u>
+ </rec>
+ <xml_include path="diplomacy/pueblo.xml"/>
+ <rec type="ARMY_REINFORCEMENT_MANAGER">
+  <ary type="CHARACTER_REINFORCEMENTS_ARRAY"/>
+  <ary type="UNIT_REINFORCEMENTS_ARRAY"/>
+ </rec>
+ <xml_include path="government/pueblo-gov_absolute_monarchy.xml"/>
+ <xml_include path="family/pueblo.xml"/>
+ <i>349700824</i><!-- Faction ID -->
+ <s>pueblo</s><!-- Faction Name -->
+ <s>Pueblo Nations</s><!-- On Screen Name -->
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>124</u>
+  <u>3958620917</u>
+  <u2_ary>62 22 83 17 95 38 116 97 123 120 50 104 108 14 68 41 54 110 82 53 107 0 92 63 67 61 15 42 89 103 111 81 90 44 78 93 86 115 19 70 60 98 55 9 77 101 5 106 119 72 12 71 80 56 13 114 79 73 27 7 58 3 65 66 31 36 88 34 75 6 24 35 121 96 47 113 52 39 28 99 51 46 118 16 112 33 105 10 26 43 94 48 32 49 102 122 74 20</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>17</u>
+  <u>3634236810</u>
+  <u2_ary>14 9 1 4 7 2 15 10 12 8 0 16 13 5</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>14</u>
+  <u>4243412619</u>
+  <u2_ary>11 9 13 8 0 3 12 7 2 1 5 10 4 6</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>3</u>
+  <u>2534638016</u>
+  <u2_ary>1 0 2</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>652179668</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>1937327733</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3550712139</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>9</u>
+  <u>3723420630</u>
+  <u2_ary>5 2 6 4 7 0 8 3 1</u2_ary>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>3116111337</u>
+  <u2_ary/>
+ </rec>
+ <rec type="NAME_ALLOCATION_DETAILS">
+  <u>0</u>
+  <u>2774855413</u>
+  <u2_ary/>
+ </rec>
+ <yes/>
+ <rec type="LAND_UNIT_NAME_ALLOCATOR">
+  <ary type="LAND_UNIT_NAMES_MAP">
+   <xml_include path="unit_name_alloc/pueblo-land-0001.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0002.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0003.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0004.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0005.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0006.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0007.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0008.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0009.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0010.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0011.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0012.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0013.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0014.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0015.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0016.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0017.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0018.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0019.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0020.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0021.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0022.xml"/>
+   <xml_include path="unit_name_alloc/pueblo-land-0023.xml"/>
+  </ary>
+ </rec>
+ <yes/>
+ <xml_include path="unit_name_alloc/pueblo-naval-0001.xml"/>
+ <no/><!-- True - Major, False - Minor -->
+ <ary type="CHARACTER_ARRAY">
+  <xml_include path="character/pueblo-colonel-0001.xml"/>
+  <xml_include path="character/pueblo-General-0001.xml"/>
+  <xml_include path="character/pueblo-minister-0001.xml"/>
+  <xml_include path="character/pueblo-minister-0002.xml"/>
+  <xml_include path="character/pueblo-minister-0003.xml"/>
+  <xml_include path="character/pueblo-minister-0004.xml"/>
+  <xml_include path="character/pueblo-minister-0005.xml"/>
+  <xml_include path="character/pueblo-minister-0006.xml"/>
+  <xml_include path="character/pueblo-minister-0007.xml"/>
+  <xml_include path="character/pueblo-minister-0008.xml"/>
+  <xml_include path="character/pueblo-minister-0009.xml"/>
+  <xml_include path="character/pueblo-minister-0010.xml"/>
+  <xml_include path="character/pueblo-minister-0011.xml"/>
+  <xml_include path="character/pueblo-minister-0012.xml"/>
+  <xml_include path="character/pueblo-minister-0013.xml"/>
+ </ary>
+ <xml_include path="technology/pueblo-pueblo.xml"/>
+ <ary type="ARMY_ARRAY">
+  <xml_include path="army/pueblo-0001.xml"/>
+  <xml_include path="army/pueblo-0002.xml"/>
+ </ary>
+ <ary type="MORGUE"/>
+ <u4_ary>350016024</u4_ary><!-- Governor ID For Each Theatre -->
+ <no/>
+ <s>rel_animist</s><!-- Religion -->
+ <no/>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_UPGRADES_ARRAY"/>
+ </rec>
+ <rec type="FORT_UPGRADE_MANAGER">
+  <ary type="FORT_REPAIRS_ARRAY"/>
+ </rec>
+ <i>350010040</i><!-- Current Capital ID Else 0 If Faction Destroyed -->
+ <i>350010040</i><!-- Original Capital ID -->
+ <ary type="EXPOSED_CHARACTERS"/>
+ <no/>
+ <rec type="PRESTIGE">
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <no/><!-- Emergent -->
+ <u>0</u>
+ <bool_ary>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</bool_ary>
+ <i>0</i><!-- Army Upkeep -->
+ <i>0</i><!-- Navy Upkeep -->
+ <s>episode_3_native_americans</s><!-- Campaign AI Manager Behaviour (patch.pack) -->
+ <s>episode_3_native_americans</s><!-- Campaign AI Personalities (patch.pack) -->
+ <flag_and_colours path="data\ui\flags\pueblo" color1="#e38925" color2="#e1b869" color3="#de7746"/>
+ <flag_and_colours path="data\ui\flags\pueblo" color1="#e38925" color2="#e1b869" color3="#de7746"/>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="62" value="15.0"/>
+  </ary>
+ </rec>
+ <rec type="CAMPAIGN_BONUS_VALUES">
+  <ary type="CAMPAIGN_BONUS_VALUE_BLOCK">
+   <campaign_bonus_0 subtype="2" value="1.0" agent="Eastern_Scholar"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="rake"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="assassin"/>
+   <campaign_bonus_0 subtype="2" value="1.0" agent="gentleman"/>
+   <campaign_bonus_1 subtype="62" value="15.0"/>
+  </ary>
+ </rec>
+ <i>0</i><!-- Protectorate ID -->
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <yes/>
+ <no/>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <i>0</i>
+ <no/>
+ <no/>
+ <u>0</u>
+ <no/>
+ <no/>
+</rec>

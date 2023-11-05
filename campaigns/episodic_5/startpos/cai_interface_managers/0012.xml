@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<rec type="CAI_INTERFACE_MANAGERS">
+ <xml_include path="bdi_pool/0013.xml"/>
+ <rec type="CAI_FACTION_BDI_POOL">
+  <no/>
+  <no/>
+  <u>12961</u><!-- All these u records are BDI Information -->
+  <u>12962</u>
+  <u>12963</u>
+  <u>12965</u>
+  <u>12916</u>
+  <u>12917</u>
+  <u>12918</u>
+  <u>12919</u>
+  <u>12920</u>
+  <u>12921</u>
+  <u>12922</u>
+  <u>12923</u>
+  <u>12924</u>
+  <u>12925</u>
+  <u>12926</u>
+  <u>12927</u>
+  <u>12928</u>
+  <u>12929</u>
+  <u>12930</u>
+  <u>12931</u>
+  <u>12932</u>
+  <u>12933</u>
+  <u>12934</u>
+  <u>12935</u>
+  <u>12936</u>
+  <u>12937</u>
+  <u>12938</u>
+  <u>12939</u>
+  <u>12940</u>
+  <u>12941</u>
+  <u>12942</u>
+  <u>12943</u>
+  <u>12944</u>
+  <u>12945</u>
+  <u>12946</u>
+  <u>12947</u>
+  <u>12948</u>
+  <u>12949</u>
+  <u>12950</u>
+  <u>12951</u>
+  <u>12952</u>
+  <u>12953</u>
+  <u>12954</u>
+  <u>12955</u>
+  <u>12956</u>
+  <u>12957</u>
+  <u>12958</u>
+  <u>12959</u>
+  <u>12960</u>
+ </rec>
+ <rec type="CAI_FACTION_MANAGER">
+  <u>974</u><!-- Faction AI ID -->
+  <u>11</u>
+  <rec type="CAI_FACTION_LEARNT_PARAMETERS">
+   <ary type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+    <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+     <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO">
+      <u>0</u><!-- Faction AI ID -->
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+     </rec>
+    </rec>
+    <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+     <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO">
+      <u>944</u><!-- Faction AI ID -->
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+     </rec>
+    </rec>
+    <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+     <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO">
+      <u>950</u><!-- Faction AI ID -->
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+     </rec>
+    </rec>
+    <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+     <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO">
+      <u>947</u><!-- Faction AI ID -->
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+     </rec>
+    </rec>
+    <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+     <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO">
+      <u>956</u><!-- Faction AI ID -->
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+     </rec>
+    </rec>
+   </ary>
+  </rec>
+  <yes/>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

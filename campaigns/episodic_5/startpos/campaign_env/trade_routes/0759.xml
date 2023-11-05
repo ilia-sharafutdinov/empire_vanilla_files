@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>12</u><!-- Port OR Settlement Indice Start Point (port:virginia:yorktown) -->
+ <u>34</u><!-- Port OR Settlement Indice End Point (port:panama:puerto_bello) -->
+ <u4_ary>372 370 375 59 57 55 53 51 49 46 149 147 145 122 33 31 26 198 200 195 211</u4_ary>
+ <flt>312.46036</flt><!-- Length Of Route -->
+</rec>

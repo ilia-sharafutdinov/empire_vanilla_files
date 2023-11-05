@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>33</u><!-- Port OR Settlement Indice Start Point (port:lower_louisiana:mobile) -->
+ <u>34</u><!-- Port OR Settlement Indice End Point (port:panama:puerto_bello) -->
+ <u4_ary>264 240 242 258 246 248 256 197 207 203 195 211</u4_ary>
+ <flt>243.83911</flt><!-- Length Of Route -->
+</rec>

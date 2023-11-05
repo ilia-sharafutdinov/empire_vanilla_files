@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>18</u><!-- Port OR Settlement Indice Start Point (port:guatemala:puerto_barrios) -->
+ <u>28</u><!-- Port OR Settlement Indice End Point (port:jamaica:kingston) -->
+ <u4_ary>208 207 204 199 141</u4_ary>
+ <flt>90.64474487304688</flt><!-- Length Of Route -->
+</rec>

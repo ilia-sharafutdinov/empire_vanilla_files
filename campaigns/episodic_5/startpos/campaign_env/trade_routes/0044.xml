@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>23</u><!-- Port OR Settlement Indice Start Point (port:new_spain:veracruz) -->
+ <u>29</u><!-- Port OR Settlement Indice End Point (port:labrador:catucto) -->
+ <u4_ary>280 225 223 255 252 247 245 44 48 50 52 54 56 58 374 366 364 354 60 125 72 74 76 91 89 87 85 321</u4_ary>
+ <flt>486.00311</flt><!-- Length Of Route -->
+</rec>

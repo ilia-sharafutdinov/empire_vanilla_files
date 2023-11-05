@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1280</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>820</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3228 0 4139 0 4585 0 6404 0 7641 0 8398 0 8473 0 8855 0 9330 0 9334 0 9953 0 10095 0 10653 0 10668 0 11587 0 11588 0 11590 0 11649 0 11741 0 11651 1 11756 0 11834 0 11836 0 11837 0 11838 0 11839 0 11840 0 11665 1 11682 1 11930 0 11675 1 12153 0 12637 0 12791 0 13561 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>35</u>
+ <u4_ary/>
+ <u4_ary>3228 14 4139 2970 4585 4 6404 5032 7641 7310 8398 15 8473 8148 8855 8167 9330 9331 9334 8188 9953 9827 10095 9846 10653 10284 10668 10303 11587 11478 11588 11494 11590 11477 11649 11741 11485 11651 11756 11492 11834 11836 11837 11838 11839 11840 11665 11682 11930 11483 11675 12153 11959 12637 12516 12791 12535 13561 12925</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2661 2678 2679 2680 2681 2682 3228 4140 4139 4585 4587 4589 6404 7641 8399 8473 9330 9334 9953 10164 10653 11586 11590 11679 11741 11649 11744 11836 11837 11838 11839 11840 11930 12153 12637 13561</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>821</u4_ary><!-- HLCIS IDs -->
+  <u>1280</u><!-- Settlement AI ID -->
+  <u4_ary>1282 1284 1286 1288</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-635.14636</flt><!-- X Coordinate -->
+  <flt>271.89453</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2456 2459 2463 2467 2468 2469</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>2265</u4_ary><!-- Character Resource AI IDs -->
+  <s>upper_louisiana</s><!-- Region Name -->
+  <u>350030624</u><!-- Region ID -->
+  <u>2698</u><!-- Governor AI ID -->
+  <u4_ary/><!-- Faction AI IDs Needed For Victory Condition -->
+ </rec>
+</rec>

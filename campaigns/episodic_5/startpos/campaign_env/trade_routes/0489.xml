@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>2</u><!-- Port OR Settlement Indice Start Point (port:pennsylvania:lewes) -->
+ <u>43</u><!-- Port OR Settlement Indice End Point (pennsylvania) -->
+ <u4_ary>735 653 775 613</u4_ary>
+ <flt>13.624820709228516</flt><!-- Length Of Route -->
+</rec>

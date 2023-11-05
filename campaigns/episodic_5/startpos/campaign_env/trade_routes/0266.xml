@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>11</u><!-- Port OR Settlement Indice Start Point (port:new_spain:campeche) -->
+ <u>18</u><!-- Port OR Settlement Indice End Point (port:guatemala:puerto_barrios) -->
+ <u4_ary>284 255 251 256 302</u4_ary>
+ <flt>102.32959</flt><!-- Length Of Route -->
+</rec>

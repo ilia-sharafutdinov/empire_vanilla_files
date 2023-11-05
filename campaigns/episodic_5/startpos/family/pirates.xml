@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<rec type="FAMILY">
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_piratesSimon</loc>
+  <yes/>
+  <yes/>
+  <byte>4</byte>
+  <i>1</i>
+  <i>49</i>
+  <i>1</i>
+  <i>46</i>
+  <i>47</i>
+  <i>48</i>
+  <i>49</i>
+  <portrait_details card="ui/portraits/european/Cards/king/young/005.tga" info="ui/portraits/european/Info/king/young/005.jpg" number="5"/>
+  <s>rel_protestant</s>
+  <u>349779728</u>
+  <u>349779728</u>
+  <loc/>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_piratesJohanna</loc>
+  <no/>
+  <yes/>
+  <byte>4</byte>
+  <i>1</i>
+  <i>49</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/queen/old/083.tga" info="ui/portraits/european/Info/queen/old/083.jpg" number="83"/>
+  <s>rel_protestant</s>
+  <u>349779728</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_piratesVincent</loc>
+  <yes/>
+  <yes/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>3</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/king/young/076.tga" info="ui/portraits/european/Info/king/young/076.jpg" number="76"/>
+  <s>rel_protestant</s>
+  <u>349779728</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_piratesAlmeria</loc>
+  <no/>
+  <yes/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>2</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/queen/young/009.tga" info="ui/portraits/european/Info/queen/young/009.jpg" number="9"/>
+  <s>rel_protestant</s>
+  <u>349779728</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_piratesAmelia</loc>
+  <no/>
+  <yes/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>1</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/queen/young/063.tga" info="ui/portraits/european/Info/queen/young/063.jpg" number="63"/>
+  <s>rel_protestant</s>
+  <u>349779728</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_piratesMary</loc>
+  <no/>
+  <yes/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>0</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/queen/young/098.tga" info="ui/portraits/european/Info/queen/young/098.jpg" number="98"/>
+  <s>rel_protestant</s>
+  <u>349779728</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_piratesJean</loc>
+  <yes/>
+  <yes/>
+  <byte>1</byte>
+  <i>2</i>
+  <i>37</i>
+  <i>1</i>
+  <i>35</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/king/young/059.tga" info="ui/portraits/european/Info/king/young/059.jpg" number="59"/>
+  <s>rel_protestant</s>
+  <u>349779728</u>
+  <u>349779728</u>
+  <loc/>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_piratesPedro</loc>
+  <yes/>
+  <yes/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>21</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/king/young/031.tga" info="ui/portraits/european/Info/king/young/031.jpg" number="31"/>
+  <s>rel_protestant</s>
+  <u>349779728</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc/>
+  <yes/>
+  <no/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>0</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/king/young/081.tga" info="ui/portraits/european/Info/king/young/081.jpg" number="-1"/>
+  <s/>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc/>
+  <yes/>
+  <no/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>0</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/king/young/081.tga" info="ui/portraits/european/Info/king/young/081.jpg" number="-1"/>
+  <s/>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <byte>0</byte>
+ <ary type="ORDINAL_PAIR">
+  <ordinal_pair name="names_name_names_piratesNathaniel" number="1"/>
+  <ordinal_pair name="names_name_names_piratesSimon" number="1"/>
+ </ary>
+</rec>

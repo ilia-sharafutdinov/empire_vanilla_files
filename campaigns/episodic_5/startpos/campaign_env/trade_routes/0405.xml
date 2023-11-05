@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>30</u><!-- Port OR Settlement Indice Start Point (port:georgia_usa:st_marys) -->
+ <u>38</u><!-- Port OR Settlement Indice End Point (port:florida:pensacola) -->
+ <u4_ary>154 51 49 45 261 243 269</u4_ary>
+ <flt>138.86885</flt><!-- Length Of Route -->
+</rec>

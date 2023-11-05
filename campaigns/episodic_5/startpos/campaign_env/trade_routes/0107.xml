@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>19</u><!-- Port OR Settlement Indice Start Point (port:tejas:corpus_christi) -->
+ <u>29</u><!-- Port OR Settlement Indice End Point (port:labrador:catucto) -->
+ <u4_ary>272 236 238 240 242 260 44 48 50 52 54 56 58 374 366 364 354 60 125 72 74 76 91 89 87 85 321</u4_ary>
+ <flt>505.17389</flt><!-- Length Of Route -->
+</rec>

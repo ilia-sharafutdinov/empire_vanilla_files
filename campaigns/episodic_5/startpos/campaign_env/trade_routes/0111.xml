@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>22</u><!-- Port OR Settlement Indice Start Point (port:labrador:cartwright) -->
+ <u>25</u><!-- Port OR Settlement Indice End Point (port:new_spain:tampico) -->
+ <u4_ary>322 305 84 86 88 90 77 75 73 124 61 355 365 367 375 59 57 55 53 51 49 45 244 246 253 254 222 224 226 228 277</u4_ary>
+ <flt>521.98065</flt><!-- Length Of Route -->
+</rec>

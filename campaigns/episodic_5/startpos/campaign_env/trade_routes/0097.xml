@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>20</u><!-- Port OR Settlement Indice Start Point (port:new_grenada:rio_de_la_hacha) -->
+ <u>28</u><!-- Port OR Settlement Indice End Point (port:jamaica:kingston) -->
+ <u4_ary>220 295 290 24 143</u4_ary>
+ <flt>86.08789</flt><!-- Length Of Route -->
+</rec>

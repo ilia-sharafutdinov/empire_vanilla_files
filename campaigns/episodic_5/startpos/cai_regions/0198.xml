@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_REGIONS">
+ <owned_indirect>1459</owned_indirect><!-- CAI_WORLD_REGIONS = Settlement AI ID. CAI_WORLD_REGION_SLOTS = Region AI ID. CAI_WORLD_CHARACTERS = Faction AI ID -->
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>898</u><!-- Region AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>3043 0 4163 0 4760 0 5349 0 5502 0 7687 0 9153 0 9226 0 10772 0 10773 0 11335 0 12323 0 12324 0 12326 0 12373 0 12416 0 12459 0 12375 1 12407 1 12462 0 12463 0 12464 0 12465 0 12466 0 12401 1 12502 0 12399 1 13591 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>28</u>
+ <u4_ary/>
+ <u4_ary>3043 14 4163 2970 4760 4 5349 15 5502 5032 7687 7310 9153 8148 9226 8167 10772 10303 10773 10284 11335 11234 12323 12232 12324 12248 12326 12231 12373 12416 12246 12459 12239 12375 12407 12462 12463 12464 12465 12466 12401 12502 12237 12399 13591 12925</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+ <u>0</u>
+ <u>0</u>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>2661 2674 2678 2685 2686 2688 3043 4164 4163 4760 4762 4764 5350 5502 7687 9153 10773 11335 12322 12326 12403 12373 12410 12459 12462 12463 12464 12465 12466 12502 13591</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_REGION">
+  <u4_ary>27</u4_ary><!-- Theatre IDs -->
+  <u4_ary>899 900 901 902</u4_ary><!-- HLCIS IDs -->
+  <u>1459</u><!-- Settlement AI ID -->
+  <u4_ary>1461 1463 1465 1467</u4_ary><!-- Region Slot AI IDs Of Region Slots In This Region -->
+  <flt>-598.16614</flt><!-- X Coordinate -->
+  <flt>330.66071</flt><!-- Y Coordinate -->
+  <u4_ary/>
+  <u4_ary>2485 2489 2497 2506 2507 2508</u4_ary><!-- Boundary IDs -->
+  <yes/>
+  <u4_ary>2305 2309</u4_ary><!-- Character Resource AI IDs -->
+  <s>huron_territory</s><!-- Region Name -->
+  <u>350097192</u><!-- Region ID -->
+  <u>2700</u><!-- Governor AI ID -->
+  <u4_ary/><!-- Faction AI IDs Needed For Victory Condition -->
+ </rec>
+</rec>

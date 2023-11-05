@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY">
+  <rec type="MILITARY_FORCE">
+   <u>349447728</u><!-- Army ID -->
+   <u>349444960</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Troilus Hampden" commander_id="349444960" created="summer 1775" deaths="0" exp="0" kills="0" mp="28" name="unit_regiment_names_localisation_lookup_unit_name_euro_cavalry_units_011" size="60/60" type="euro_provincial_cavalry" unit_id="349446984"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Homer Cooper" created="summer 1775" deaths="0" exp="0" kills="0" mp="22" name="unit_regiment_names_localisation_lookup_unit_name_euro_artillery_units_056" size="24/24" type="12_lber_howitzer" unit_id="349447480"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Randolf Quincy" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_004" size="160/160" type="euro_line_infantry_britain" unit_id="349446488"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Reilly Cribb" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_005" size="160/160" type="euro_line_infantry_britain" unit_id="349446736"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Dean Holborne" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_230" size="160/160" type="euro_militia_infantry" unit_id="349446240"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="britain Murphy Barker" created="summer 1775" deaths="0" exp="0" kills="0" mp="24" name="unit_regiment_names_localisation_lookup_unit_name_euro_infantry_units_231" size="160/160" type="euro_militia_infantry" unit_id="349447232"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>349447728</i><!-- Army ID -->
+  <u>350009592</u><!-- Army In Building Slot ID -->
+  <no/><!-- Under Seige -->
+  <u>0</u><!-- Army ID Of Ship Escorting -->
+  <no/>
+ </rec>
+</rec>

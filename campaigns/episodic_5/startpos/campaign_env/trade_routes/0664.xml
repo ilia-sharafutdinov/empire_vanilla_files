@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>28</u><!-- Port OR Settlement Indice Start Point (port:jamaica:kingston) -->
+ <u>37</u><!-- Port OR Settlement Indice End Point (port:dutch_guyana:demerara) -->
+ <u4_ary>142 25 23 21 19 17 110 112 11 4</u4_ary>
+ <flt>199.37524</flt><!-- Length Of Route -->
+</rec>

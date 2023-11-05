@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>4</u><!-- Port OR Settlement Indice Start Point (port:windward_islands:barbados) -->
+ <u>19</u><!-- Port OR Settlement Indice End Point (port:tejas:corpus_christi) -->
+ <u4_ary>338 16 18 20 41 39 37 120 144 146 148 42 261 243 241 239 237 273</u4_ary>
+ <flt>343.07632</flt><!-- Length Of Route -->
+</rec>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>32</u><!-- Port OR Settlement Indice Start Point (port:curacao:otrobanda) -->
+ <u>33</u><!-- Port OR Settlement Indice End Point (port:lower_louisiana:mobile) -->
+ <u4_ary>342 352 350 286 297 290 28 32 123 144 146 148 42 261 243 241 265</u4_ary>
+ <flt>268.53119</flt><!-- Length Of Route -->
+</rec>

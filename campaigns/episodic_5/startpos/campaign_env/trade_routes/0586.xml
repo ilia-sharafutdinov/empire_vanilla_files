@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>30</u><!-- Port OR Settlement Indice Start Point (port:georgia_usa:st_marys) -->
+ <u>35</u><!-- Port OR Settlement Indice End Point (port:acadia:louisbourg) -->
+ <u4_ary>156 54 56 58 374 366 364 354 60 125 72 377</u4_ary>
+ <flt>200.97234</flt><!-- Length Of Route -->
+</rec>

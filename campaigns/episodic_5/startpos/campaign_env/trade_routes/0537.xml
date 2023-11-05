@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<rec type="TRADE_ROUTES">
+ <u>31</u><!-- Port OR Settlement Indice Start Point (port:newfoundland:st_johns) -->
+ <u>35</u><!-- Port OR Settlement Indice End Point (port:acadia:louisbourg) -->
+ <u4_ary>178 83 80 379</u4_ary>
+ <flt>70.38433</flt><!-- Length Of Route -->
+</rec>
