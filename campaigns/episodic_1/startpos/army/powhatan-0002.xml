@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>558597712</u><!-- Army ID -->
+   <u>569956256</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="powhatan Obbatinewat" commander_id="569956256" created="summer 1607" deaths="0" exp="0" kills="0" mp="24" name="" size="180/180" type="episodic_wahunsonacock" unit_id="569957616"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="powhatan Micanopy" created="summer 1607" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_1_native_american_archers" unit_id="569957920"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>558597712</i>
+  <u>573322816</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

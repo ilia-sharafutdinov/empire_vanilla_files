@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>695547184</u><!-- Army ID -->
+   <u>307290120</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="powhatan Nikinapi" commander_id="307290120" created="summer 1607" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_1_native_american_archers" unit_id="666250936"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="powhatan Estanislao" created="summer 1607" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_1_native_american_archers" unit_id="695546392"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="powhatan Enoli" created="summer 1607" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_1_native_american_archers" unit_id="695546920"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="powhatan Memeskia" created="summer 1607" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_1_native_american_warriors" unit_id="695545864"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="powhatan Obwandiyag" created="summer 1607" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_1_native_american_warriors" unit_id="695546128"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="powhatan Matotope" created="summer 1607" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_1_native_american_warriors" unit_id="695546656"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>695547184</i>
+  <u>666250472</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

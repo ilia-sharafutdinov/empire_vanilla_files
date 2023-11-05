@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="ARMY_ARRAY">
+ <rec type="ARMY" version="1">
+  <rec type="MILITARY_FORCE">
+   <u>611252376</u><!-- Army ID -->
+   <u>611250184</u><!-- Character ID -->
+   <u4_ary/>
+  </rec>
+  <ary type="UNITS_ARRAY">
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="powhatan Junaluska" commander_id="611250184" created="summer 1607" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_1_native_american_archers" unit_id="611251320"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="powhatan Attacullaculla" created="summer 1607" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_1_native_american_archers" unit_id="611252112"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="powhatan Guyasuta" created="summer 1607" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_1_native_american_warriors" unit_id="611251584"/>
+   </rec>
+   <rec type="UNITS_ARRAY">
+    <land_unit commander="powhatan Austenaco" created="summer 1607" deaths="0" exp="0" kills="0" mp="25" name="" size="180/180" type="episodic_1_native_american_warriors" unit_id="611251848"/>
+   </rec>
+  </ary>
+  <u4_ary/>
+  <u4_ary/>
+  <i>611252376</i>
+  <u>0</u>
+  <no/>
+  <u>0</u>
+ </rec>
+</rec>

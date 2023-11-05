@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<rec type="CAI_INTERFACE_MANAGERS">
+ <xml_include path="bdi_pool/0004.xml"/>
+ <rec type="CAI_FACTION_BDI_POOL">
+  <no/>
+  <no/>
+  <u>2045</u><!-- All these u records are BDI Information -->
+  <u>2046</u>
+  <u>2047</u>
+  <u>2049</u>
+  <u>2000</u>
+  <u>2001</u>
+  <u>2002</u>
+  <u>2003</u>
+  <u>2004</u>
+  <u>2005</u>
+  <u>2006</u>
+  <u>2007</u>
+  <u>2008</u>
+  <u>2009</u>
+  <u>2010</u>
+  <u>2011</u>
+  <u>2012</u>
+  <u>2013</u>
+  <u>2014</u>
+  <u>2015</u>
+  <u>2016</u>
+  <u>2017</u>
+  <u>2018</u>
+  <u>2019</u>
+  <u>2020</u>
+  <u>2021</u>
+  <u>2022</u>
+  <u>2023</u>
+  <u>2024</u>
+  <u>2025</u>
+  <u>2026</u>
+  <u>2027</u>
+  <u>2028</u>
+  <u>2029</u>
+  <u>2030</u>
+  <u>2031</u>
+  <u>2032</u>
+  <u>2033</u>
+  <u>2034</u>
+  <u>2035</u>
+  <u>2036</u>
+  <u>2037</u>
+  <u>2038</u>
+  <u>2039</u>
+  <u>2040</u>
+  <u>2041</u>
+  <u>2042</u>
+  <u>2043</u>
+  <u>2044</u>
+ </rec>
+ <rec type="CAI_FACTION_MANAGER">
+  <u>839</u><!-- Faction AI ID -->
+  <u>2</u>
+  <rec type="CAI_FACTION_LEARNT_PARAMETERS">
+   <ary type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+    <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+     <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO">
+      <u>0</u><!-- Faction AI ID -->
+      <i>5</i>
+      <flt>1.25</flt>
+      <i>5</i>
+      <flt>1.25</flt>
+      <i>5</i>
+      <flt>1.25</flt>
+      <i>5</i>
+      <flt>1.25</flt>
+     </rec>
+    </rec>
+   </ary>
+  </rec>
+  <no/>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

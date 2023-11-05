@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<rec type="FAMILY">
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_native_americanTanacharison</loc>
+  <yes/>
+  <yes/>
+  <byte>4</byte>
+  <i>0</i>
+  <i>65</i>
+  <i>1</i>
+  <i>41</i>
+  <i>46</i>
+  <i>47</i>
+  <i>48</i>
+  <portrait_details card="ui/portraits/tribal/Cards/king/young/006.tga" info="ui/portraits/tribal/Info/king/young/006.jpg" number="6"/>
+  <s>rel_animist</s>
+  <u>608358408</u>
+  <u>608358408</u>
+  <loc/>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_native_americanToypurina</loc>
+  <no/>
+  <yes/>
+  <byte>4</byte>
+  <i>1</i>
+  <i>63</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/queen/old/075.tga" info="ui/portraits/european/Info/queen/old/075.jpg" number="75"/>
+  <s>rel_animist</s>
+  <u>608358408</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_native_americanOkanicon</loc>
+  <yes/>
+  <yes/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>24</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/tribal/Cards/king/young/001.tga" info="ui/portraits/tribal/Info/king/young/001.jpg" number="1"/>
+  <s>rel_animist</s>
+  <u>608358408</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_native_americanMahaska</loc>
+  <yes/>
+  <yes/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>19</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/tribal/Cards/king/young/009.tga" info="ui/portraits/tribal/Info/king/young/009.jpg" number="9"/>
+  <s>rel_animist</s>
+  <u>608358408</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_native_americanSakayengwaraton</loc>
+  <yes/>
+  <yes/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>18</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/tribal/Cards/king/young/004.tga" info="ui/portraits/tribal/Info/king/young/004.jpg" number="4"/>
+  <s>rel_animist</s>
+  <u>608358408</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_native_americanGouyen</loc>
+  <no/>
+  <yes/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>17</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/european/Cards/queen/young/016.tga" info="ui/portraits/european/Info/queen/young/016.jpg" number="16"/>
+  <s>rel_animist</s>
+  <u>608358408</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_native_americanSheninjee</loc>
+  <yes/>
+  <yes/>
+  <byte>4</byte>
+  <i>1</i>
+  <i>60</i>
+  <i>1</i>
+  <i>37</i>
+  <i>40</i>
+  <i>46</i>
+  <i>47</i>
+  <portrait_details card="ui/portraits/tribal/Cards/king/young/000.tga" info="ui/portraits/tribal/Info/king/young/000.jpg" number="0"/>
+  <s>rel_animist</s>
+  <u>608358408</u>
+  <u>608358408</u>
+  <loc/>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_native_americanPushmataha</loc>
+  <yes/>
+  <yes/>
+  <byte>0</byte>
+  <i>1</i>
+  <i>44</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/tribal/Cards/king/young/005.tga" info="ui/portraits/tribal/Info/king/young/005.jpg" number="5"/>
+  <s>rel_animist</s>
+  <u>608358408</u>
+  <u>608358408</u>
+  <loc/>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc>names_name_names_native_americanPlausawa</loc>
+  <yes/>
+  <yes/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>23</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/tribal/Cards/king/young/003.tga" info="ui/portraits/tribal/Info/king/young/003.jpg" number="3"/>
+  <s>rel_animist</s>
+  <u>608358408</u>
+  <u>0</u>
+ </rec>
+ <rec type="FAMILY::MONARCHY_INFO_CHARACTER">
+  <loc/>
+  <yes/>
+  <no/>
+  <byte>0</byte>
+  <i>0</i>
+  <i>0</i>
+  <i>1</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <i>0</i>
+  <portrait_details card="ui/portraits/tribal/Cards/king/young/003.tga" info="ui/portraits/tribal/Info/king/young/003.jpg" number="-1"/>
+  <s/>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+ <byte>0</byte>
+ <ary type="ORDINAL_PAIR">
+  <ordinal_pair name="names_name_names_native_americanBarboncito" number="1"/>
+  <ordinal_pair name="names_name_names_native_americanTanacharison" number="1"/>
+ </ary>
+</rec>

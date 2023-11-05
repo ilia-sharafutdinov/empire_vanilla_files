@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<rec type="CAI_WORLD_RESOURCE_MOBILES">
+ <owned_direct>833</owned_direct><!-- Faction AI ID -->
+ <cai_situated x="-551.0" y="266.0" region_id="761" theatre_id="27" area_id="5"/>
+ <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+  <u>0</u>
+ </rec>
+ <u>860</u><!-- Character Resource AI ID -->
+ <flt>100.0</flt>
+ <flt>100.0</flt>
+ <flt>0.0</flt>
+ <flt>100.0</flt>
+ <u>1</u>
+ <no/>
+ <u4_ary/>
+ <u4_ary>1590 0 1611 1 1617 0 1612 1 1613 1 1614 1 1615 1 1616 1 1618 1 1619 1 1620 1 1623 0 1635 0 1651 0 1741 0 1747 1 1748 1 1714 3 1762 0 1773 0 1789 1 1790 0 1791 1 1736 3 1792 0 1880 0 1935 0</u4_ary><!-- BDI Information -->
+ <u>0</u>
+ <u>27</u><!-- HLCIS ID -->
+ <u4_ary/>
+ <u4_ary>1590 10 1611 16 1617 1612 1613 1614 1615 1616 1618 1619 1620 1623 1469 1635 1461 1651 20 1741 1480 1747 1748 1505 1714 1762 1773 1499 1789 1475 1790 1791 1736 1792 1471 1880 1813 1935 1824</u4_ary><!-- BDI Information -->
+ <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+  <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+   <u>1748</u><!-- BDI Information -->
+   <u>860</u><!-- Character Resource AI ID -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>0</u>
+  </rec>
+  <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+   <u>1791</u><!-- BDI Information -->
+   <u>860</u><!-- Character Resource AI ID -->
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>0</u>
+  </rec>
+ </ary>
+ <u>2</u>
+ <u>0</u>
+ <u4_ary>1748 1791</u4_ary><!-- BDI Information -->
+ <u4_ary/>
+ <u4_ary/>
+ <u4_ary>1590 1611 1612 1613 1614 1615 1616 1617 1618 1619 1620 1610 1632 1633 1634 1635 1696 1702 1741 1739 1773 1790 1792 1873 1881 1884 1935</u4_ary><!-- BDI Information -->
+ <no/>
+ <u>0</u>
+ <no/>
+ <rec type="CAI_RESOURCE_MOBILE">
+  <u>859</u><!-- Character AI ID -->
+  <u>0</u><!-- Settlement AI ID -->
+  <u>0</u><!-- Settlement Character AI ID -->
+  <ary type="CAI_RESOURCE_MOBILE_SIEGE_INFORMATION"/>
+  <u4_ary>859</u4_ary><!-- Character AI IDs -->
+  <u4_ary>861 862 863</u4_ary><!-- Character Unit AI IDs -->
+  <yes/>
+  <no/>
+  <no/>
+  <u>0</u>
+  <u>566719264</u><!-- Army ID -->
+  <u4_ary/>
+  <u>0</u>
+  <u>0</u>
+  <u4_ary/>
+  <u>0</u>
+ </rec>
+</rec>

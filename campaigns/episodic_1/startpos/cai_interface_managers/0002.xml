@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<rec type="CAI_INTERFACE_MANAGERS">
+ <xml_include path="bdi_pool/0003.xml"/>
+ <rec type="CAI_FACTION_BDI_POOL">
+  <no/>
+  <no/>
+  <u>1849</u><!-- All these u records are BDI Information -->
+  <u>1850</u>
+  <u>1851</u>
+  <u>1853</u>
+  <u>1804</u>
+  <u>1805</u>
+  <u>1806</u>
+  <u>1807</u>
+  <u>1808</u>
+  <u>1809</u>
+  <u>1810</u>
+  <u>1811</u>
+  <u>1812</u>
+  <u>1813</u>
+  <u>1814</u>
+  <u>1815</u>
+  <u>1816</u>
+  <u>1817</u>
+  <u>1818</u>
+  <u>1819</u>
+  <u>1820</u>
+  <u>1821</u>
+  <u>1822</u>
+  <u>1823</u>
+  <u>1824</u>
+  <u>1825</u>
+  <u>1826</u>
+  <u>1827</u>
+  <u>1828</u>
+  <u>1829</u>
+  <u>1830</u>
+  <u>1831</u>
+  <u>1832</u>
+  <u>1833</u>
+  <u>1834</u>
+  <u>1835</u>
+  <u>1836</u>
+  <u>1837</u>
+  <u>1838</u>
+  <u>1839</u>
+  <u>1840</u>
+  <u>1841</u>
+  <u>1842</u>
+  <u>1843</u>
+  <u>1844</u>
+  <u>1845</u>
+  <u>1846</u>
+  <u>1847</u>
+  <u>1848</u>
+ </rec>
+ <rec type="CAI_FACTION_MANAGER">
+  <u>836</u><!-- Faction AI ID -->
+  <u>11</u>
+  <rec type="CAI_FACTION_LEARNT_PARAMETERS">
+   <ary type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+    <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO_ARRAY">
+     <rec type="CAI_FACTION_LEARNT_PARAMETERS_INFO">
+      <u>0</u><!-- Faction AI ID -->
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+      <i>0</i>
+      <flt>0.7999999523162842</flt>
+     </rec>
+    </rec>
+   </ary>
+  </rec>
+  <yes/>
+  <u>0</u>
+  <u>0</u>
+ </rec>
+</rec>

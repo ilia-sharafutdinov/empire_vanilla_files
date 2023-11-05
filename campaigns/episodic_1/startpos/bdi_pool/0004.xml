@@ -1,0 +1,2994 @@
+<?xml version="1.0"?>
+<rec type="CAI_BDI_POOL">
+ <no/>
+ <ary type="CAI_BDI_POOL_BELIEFS">
+  <rec type="CAI_BDI_POOL_BELIEFS">
+   <u>326</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>1</u>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>326</u>
+   </rec>
+   <u>2051</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <yes/>
+   <u4_ary>0</u4_ary>
+   <u4_ary>2049 0</u4_ary>
+   <u>1</u>
+   <u>0</u>
+   <u4_ary>2049</u4_ary>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary/>
+   <no/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_BDI_ACTIVE_OUTFIELD_AREAS">
+    <ary type="ACTIVE_OUTFIELD_REGIONS"/>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_BELIEFS">
+   <u>336</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>2</u>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>336</u>
+    <u>35</u>
+    <u>12</u>
+    <no/>
+    <u>839</u>
+   </rec>
+   <u>2055</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary>2041 0</u4_ary>
+   <u>0</u>
+   <u>1</u>
+   <u4_ary/>
+   <u4_ary>2041</u4_ary>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3 1600 2056</u4_ary>
+   <u4_ary>2047</u4_ary>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_FINANCIAL_ANALYSIS">
+    <u>839</u>
+    <flt>0.8</flt>
+    <flt>2400.0</flt>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_BELIEFS">
+   <u>110</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>1</u>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>110</u>
+   </rec>
+   <u>2060</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary>2005 0 2059 0</u4_ary>
+   <u>0</u>
+   <u>2</u>
+   <u4_ary/>
+   <u4_ary>2005 2059 2046</u4_ary>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+    <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+     <u>836</u><!-- BDI Information -->
+     <u>2060</u><!-- Character Resource AI ID -->
+     <flt>0.0</flt>
+     <flt>0.0</flt>
+     <u>1</u>
+    </rec>
+   </ary>
+   <u>0</u>
+   <u>1</u>
+   <u4_ary/>
+   <u4_ary>836</u4_ary>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_FACTION_TO_FACTION_ATTITUDE_ANALYSIS">
+    <u>836</u>
+    <u>4</u>
+    <flt>0.0</flt>
+    <flt>0.0</flt>
+    <u4_ary/>
+    <flt>0.0</flt>
+    <flt>0.0</flt>
+    <u4_ary/>
+    <flt>0.0</flt>
+    <flt>0.0</flt>
+    <u4_ary/>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_BELIEFS">
+   <u>110</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>1</u>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>110</u>
+   </rec>
+   <u>2062</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary>2005 1 2061 0</u4_ary>
+   <u>0</u>
+   <u>2</u>
+   <u4_ary/>
+   <u4_ary>2005 2061 2046</u4_ary>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+    <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+     <u>833</u><!-- BDI Information -->
+     <u>2062</u><!-- Character Resource AI ID -->
+     <flt>0.0</flt>
+     <flt>0.0</flt>
+     <u>1</u>
+    </rec>
+   </ary>
+   <u>0</u>
+   <u>1</u>
+   <u4_ary/>
+   <u4_ary>833</u4_ary>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_FACTION_TO_FACTION_ATTITUDE_ANALYSIS">
+    <u>833</u>
+    <u>4</u>
+    <flt>0.0</flt>
+    <flt>0.0</flt>
+    <u4_ary/>
+    <flt>0.0</flt>
+    <flt>0.0</flt>
+    <u4_ary/>
+    <flt>0.0</flt>
+    <flt>0.0</flt>
+    <u4_ary/>
+   </rec>
+  </rec>
+ </ary>
+ <ary type="CAI_BDI_POOL_DESIRES">
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>22</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>22</u>
+   </rec>
+   <u>2000</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>57</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>57</u>
+   </rec>
+   <u>2001</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>55</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>55</u>
+   </rec>
+   <u>2002</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>45</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>45</u>
+   </rec>
+   <u>2003</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>32</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>32</u>
+   </rec>
+   <u>2004</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>37</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>37</u>
+   </rec>
+   <u>2005</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+    <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+     <u>2060</u><!-- BDI Information -->
+     <u>2005</u><!-- Character Resource AI ID -->
+     <flt>0.0</flt>
+     <flt>0.0</flt>
+     <u>1</u>
+    </rec>
+    <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+     <u>2062</u><!-- BDI Information -->
+     <u>2005</u><!-- Character Resource AI ID -->
+     <flt>0.0</flt>
+     <flt>0.0</flt>
+     <u>1</u>
+    </rec>
+   </ary>
+   <u>0</u>
+   <u>2</u>
+   <u4_ary/>
+   <u4_ary>2060 836 2062 833</u4_ary>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary>2060 2062</u4_ary>
+    <u4_ary>836 2060 833 2062</u4_ary>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>43</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>43</u>
+   </rec>
+   <u>2006</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>26</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>26</u>
+   </rec>
+   <u>2007</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>40</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>40</u>
+   </rec>
+   <u>2008</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_HIGH_LEVEL_PATHFINDER">
+    <ary type="CAI_HIGH_LEVEL_PATHFINDER_REGION_OWNERSHIP"/>
+    <ary type="CAI_HIGH_LEVEL_PATHFINDER_FACTION_STATES"/>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>47</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>47</u>
+   </rec>
+   <u>2009</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>23</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>23</u>
+   </rec>
+   <u>2010</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>59</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>59</u>
+   </rec>
+   <u>2011</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>24</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>24</u>
+   </rec>
+   <u>2012</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>39</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>39</u>
+   </rec>
+   <u>2013</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>19</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>19</u>
+   </rec>
+   <u>2014</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_BUILD_FORT_IN_REGION_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>49</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>49</u>
+   </rec>
+   <u>2015</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_PLACE_RESERVES_IN_REGION_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>41</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>41</u>
+   </rec>
+   <u>2016</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_INVADE_REGION_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>27</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>27</u>
+   </rec>
+   <u>2017</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_DEFEND_REGION_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>12</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>12</u>
+   </rec>
+   <u>2018</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_AMBUSH_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>28</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>28</u>
+   </rec>
+   <u>2019</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_DEFEND_REGION_COAST_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>60</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>60</u>
+   </rec>
+   <u>2020</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>51</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>51</u>
+   </rec>
+   <u>2021</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>35</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>35</u>
+   </rec>
+   <u>2022</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_FACTION_SEA_GRID_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>34</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>34</u>
+   </rec>
+   <u>2023</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_FACTION_RESEARCH_TECHNOLOGY_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>44</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>44</u>
+   </rec>
+   <u>2024</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>36</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>36</u>
+   </rec>
+   <u>2025</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_FACTION_TAXATION_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>25</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>25</u>
+   </rec>
+   <u>2026</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>38</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>38</u>
+   </rec>
+   <u>2027</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_FACTION_TRADE_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>42</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>42</u>
+   </rec>
+   <u>2028</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>54</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>54</u>
+   </rec>
+   <u>2029</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>20</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>20</u>
+   </rec>
+   <u>2030</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>18</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>18</u>
+   </rec>
+   <u>2031</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>21</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>21</u>
+   </rec>
+   <u>2032</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>61</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>61</u>
+   </rec>
+   <u>2033</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_TRADE_ROUTE_POI_DEFEND_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>62</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>3</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+   </rec>
+   <u>2034</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_TRADE_ROUTE_POI_RAID_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>64</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>64</u>
+   </rec>
+   <u>2035</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>65</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>65</u>
+   </rec>
+   <u>2036</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_NAVY_RECRUITMENT_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>67</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>67</u>
+   </rec>
+   <u>2037</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_PORT_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>69</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>69</u>
+   </rec>
+   <u>2038</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_FACTION_STEAL_TECHNOLOGY_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>318</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>318</u>
+   </rec>
+   <u>2039</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_MILITARY_RANK_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>329</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>329</u>
+   </rec>
+   <u>2040</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>335</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>335</u>
+   </rec>
+   <u>2041</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+    <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+     <u>2055</u><!-- BDI Information -->
+     <u>2041</u><!-- Character Resource AI ID -->
+     <flt>0.0</flt>
+     <flt>0.0</flt>
+     <u>1</u>
+    </rec>
+   </ary>
+   <u>0</u>
+   <u>1</u>
+   <u4_ary/>
+   <u4_ary>2055</u4_ary>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary>2055</u4_ary>
+    <u4_ary>839 2055</u4_ary>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>339</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>339</u>
+   </rec>
+   <u>2042</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>344</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>344</u>
+   </rec>
+   <u>2043</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_NAVY_STRENGTH_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>361</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>5</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>361</u>
+   </rec>
+   <u>2044</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_ANALYSER">
+    <u4_ary/>
+    <u4_ary/>
+    <u>0</u>
+   </rec>
+   <rec type="CAI_RELIGION_ANALYSER">
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>1</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>2</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+   </rec>
+   <u>2045</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_FACTION_BDI_POOL_MISSION_MANAGER">
+    <u4_ary/>
+    <u>3</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>0</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>2</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>0</u>
+   </rec>
+   <u>2046</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+    <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+     <u>2059</u><!-- BDI Information -->
+     <u>2046</u><!-- Character Resource AI ID -->
+     <flt>0.0</flt>
+     <flt>0.0</flt>
+     <u>1</u>
+    </rec>
+    <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+     <u>2061</u><!-- BDI Information -->
+     <u>2046</u><!-- Character Resource AI ID -->
+     <flt>0.0</flt>
+     <flt>0.0</flt>
+     <u>1</u>
+    </rec>
+   </ary>
+   <u>0</u>
+   <u>2</u>
+   <u4_ary/>
+   <u4_ary>2059 2060 836 2058 2061 2062 833 2057</u4_ary>
+   <u4_ary/>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_FACTION_BDI_POOL_ATTITUDE_MANAGER">
+    <u4_ary>2059 2061</u4_ary>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>224</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>4</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>4</u>
+    <u>25</u>
+    <no/>
+    <u>12</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>224</u>
+   </rec>
+   <u>2047</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3 2048 2055</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_FACTION_BDI_POOL_FINANCE_MANAGER_BASIC">
+    <u4_ary/>
+    <u>3</u>
+    <date>summer 1607</date>
+    <flt>0.0</flt>
+    <no/>
+    <flt>0.0</flt>
+    <no/>
+    <flt>0.0</flt>
+    <no/>
+    <flt>0.0</flt>
+    <no/>
+    <flt>2400.0</flt>
+    <flt>0.0</flt>
+    <u>0</u>
+    <flt>1000.0</flt>
+    <u>0</u>
+    <flt>1000.0</flt>
+    <u>0</u>
+    <flt>1000.0</flt>
+    <u>0</u>
+    <flt>1000.0</flt>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>6</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>2</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>6</u>
+   </rec>
+   <u>2050</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary/>
+   <no/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_BDI_RESERVED_NAVIES">
+    <u4_ary/>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>368</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>2</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>368</u>
+   </rec>
+   <u>2052</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary>2049 1</u4_ary>
+   <u>1</u>
+   <u>0</u>
+   <u4_ary>2049</u4_ary>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary/>
+   <no/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_BDI_FAILED_REGION_TARGETS">
+    <u4_ary/>
+    <u4_ary/>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>2</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>2</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>2</u>
+   </rec>
+   <u>2049</u>
+   <flt>1000.0</flt>
+   <flt>1000.0</flt>
+   <flt>0.0</flt>
+   <flt>1000.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+    <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+     <u>2051</u><!-- BDI Information -->
+     <u>2049</u><!-- Character Resource AI ID -->
+     <flt>0.0</flt>
+     <flt>0.0</flt>
+     <u>0</u>
+    </rec>
+    <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+     <u>2052</u><!-- BDI Information -->
+     <u>2049</u><!-- Character Resource AI ID -->
+     <flt>0.0</flt>
+     <flt>0.0</flt>
+     <u>0</u>
+    </rec>
+    <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+     <u>2057</u><!-- BDI Information -->
+     <u>2049</u><!-- Character Resource AI ID -->
+     <flt>0.0</flt>
+     <flt>0.5</flt>
+     <u>0</u>
+    </rec>
+    <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+     <u>2058</u><!-- BDI Information -->
+     <u>2049</u><!-- Character Resource AI ID -->
+     <flt>0.0</flt>
+     <flt>0.5</flt>
+     <u>0</u>
+    </rec>
+   </ary>
+   <u>4</u>
+   <u>0</u>
+   <u4_ary>2051 2052 2057 2058</u4_ary>
+   <u4_ary/>
+   <u4_ary>1600</u4_ary>
+   <u4_ary/>
+   <yes/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_BDI_WAR_AND_PEACE_MANAGER">
+    <u4_ary/>
+    <u4_ary/>
+    <u4_ary>2057 2058</u4_ary>
+    <u4_ary/>
+    <u4_ary/>
+    <u4_ary/>
+    <u4_ary/>
+    <u4_ary/>
+    <u>2050</u>
+    <u>2051</u>
+    <u>2052</u>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>309</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>3</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>309</u>
+    <u>7</u>
+    <u>25</u>
+    <no/>
+   </rec>
+   <u>2053</u>
+   <flt>2100.0</flt>
+   <flt>2100.0</flt>
+   <flt>0.07004959136247635</flt>
+   <flt>2247.10425</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3 840</u4_ary>
+   <u4_ary/>
+   <no/>
+   <u>303910208</u>
+   <no/>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>304</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>3</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>304</u>
+    <u>35</u>
+    <u>12</u>
+    <no/>
+    <u>833</u>
+   </rec>
+   <u>2057</u>
+   <flt>0.0</flt>
+   <flt>500.0</flt>
+   <flt>-0.07057450711727142</flt>
+   <flt>464.71274</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary>2049 2 2061 1</u4_ary>
+   <u>1</u>
+   <u>1</u>
+   <u4_ary>2049</u4_ary>
+   <u4_ary>2061 2046</u4_ary>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3 1600</u4_ary>
+   <u4_ary/>
+   <no/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_BDI_WAR">
+    <u>833</u>
+    <u4_ary/>
+    <u>0</u>
+    <u4_ary/>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>304</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>3</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>304</u>
+    <u>35</u>
+    <u>12</u>
+    <no/>
+    <u>836</u>
+   </rec>
+   <u>2058</u>
+   <flt>0.0</flt>
+   <flt>500.0</flt>
+   <flt>0.003901734948158264</flt>
+   <flt>501.95087</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary>2049 3 2059 1</u4_ary>
+   <u>1</u>
+   <u>1</u>
+   <u4_ary>2049</u4_ary>
+   <u4_ary>2059 2046</u4_ary>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary>3 1600</u4_ary>
+   <u4_ary/>
+   <no/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_BDI_WAR">
+    <u>836</u>
+    <u4_ary/>
+    <u>0</u>
+    <u4_ary/>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>212</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>3</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>1</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>212</u>
+   </rec>
+   <u>2059</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>0.08039215952157974</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary>2046 0</u4_ary>
+   <u>0</u>
+   <u>1</u>
+   <u4_ary/>
+   <u4_ary>2046</u4_ary>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+    <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+     <u>2060</u><!-- BDI Information -->
+     <u>2059</u><!-- Character Resource AI ID -->
+     <flt>0.0</flt>
+     <flt>0.0</flt>
+     <u>1</u>
+    </rec>
+    <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+     <u>2058</u><!-- BDI Information -->
+     <u>2059</u><!-- Character Resource AI ID -->
+     <flt>0.0</flt>
+     <flt>0.0</flt>
+     <u>1</u>
+    </rec>
+   </ary>
+   <u>0</u>
+   <u>2</u>
+   <u4_ary/>
+   <u4_ary>2060 836 2058</u4_ary>
+   <u4_ary/>
+   <u4_ary/>
+   <no/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_BDI_SUCCESS_AND_FAILURE">
+    <u>2</u>
+    <no/>
+   </rec>
+   <rec type="CAI_BDI_GOAL_MANAGE_FACTION_TO_FACTION_ATTITUDE">
+    <u>836</u>
+    <u>2058</u>
+    <u>2060</u>
+    <u>2</u>
+    <u>1</u>
+    <u>2</u>
+    <no/>
+   </rec>
+  </rec>
+  <rec type="CAI_BDI_POOL_DESIRES">
+   <u>212</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>3</u>
+    <u>0</u>
+    <u>25</u>
+    <no/>
+    <u>1</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>212</u>
+   </rec>
+   <u>2061</u>
+   <flt>0.0</flt>
+   <flt>0.0</flt>
+   <flt>-0.09340810775756836</flt>
+   <flt>0.0</flt>
+   <u>1</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary>2046 1</u4_ary>
+   <u>0</u>
+   <u>1</u>
+   <u4_ary/>
+   <u4_ary>2046</u4_ary>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+    <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+     <u>2062</u><!-- BDI Information -->
+     <u>2061</u><!-- Character Resource AI ID -->
+     <flt>0.0</flt>
+     <flt>0.0</flt>
+     <u>1</u>
+    </rec>
+    <rec type="CAI_BDI_COMPONENT_BLOCK_OWNS">
+     <u>2057</u><!-- BDI Information -->
+     <u>2061</u><!-- Character Resource AI ID -->
+     <flt>0.0</flt>
+     <flt>0.0</flt>
+     <u>1</u>
+    </rec>
+   </ary>
+   <u>0</u>
+   <u>2</u>
+   <u4_ary/>
+   <u4_ary>2062 833 2057</u4_ary>
+   <u4_ary/>
+   <u4_ary/>
+   <no/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_BDI_SUCCESS_AND_FAILURE">
+    <u>2</u>
+    <no/>
+   </rec>
+   <rec type="CAI_BDI_GOAL_MANAGE_FACTION_TO_FACTION_ATTITUDE">
+    <u>833</u>
+    <u>2057</u>
+    <u>2062</u>
+    <u>2</u>
+    <u>1</u>
+    <u>2</u>
+    <no/>
+   </rec>
+  </rec>
+ </ary>
+ <ary type="CAI_BDI_POOL_INTENTIONS">
+  <rec type="CAI_BDI_POOL_INTENTIONS">
+   <u>220</u>
+   <rec type="CAI_BDI_COMPONENT_PROPERTY_SET">
+    <u>2</u>
+    <u>2</u>
+    <u>25</u>
+    <no/>
+    <u>73</u>
+    <u>18</u>
+    <no/>
+    <u>220</u>
+   </rec>
+   <u>2054</u>
+   <flt>10.0</flt>
+   <flt>10.0</flt>
+   <flt>0.0</flt>
+   <flt>10.0</flt>
+   <u>0</u>
+   <no/>
+   <u4_ary/>
+   <u4_ary/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <ary type="CAI_BDI_COMPONENT_BLOCK_OWNS"/>
+   <u>0</u>
+   <u>0</u>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary/>
+   <u4_ary/>
+   <no/>
+   <u>303910208</u>
+   <no/>
+   <rec type="CAI_BDI_SUCCESS_AND_FAILURE">
+    <u>2</u>
+    <no/>
+   </rec>
+  </rec>
+ </ary>
+ <ary type="CAI_BDI_POOL_FAILED"/>
+ <u>7</u>
+ <no/>
+ <u>99</u>
+</rec>

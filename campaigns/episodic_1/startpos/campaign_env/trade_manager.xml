@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<rec type="CAMPAIGN_TRADE_MANAGER">
+ <commodities_order>
+  res_spices
+  res_tobacco
+  res_sugar
+  res_ivory
+  res_tea
+  res_cotton
+  res_coffee
+  res_furs
+ </commodities_order>
+ <resources_order>
+  res_rice
+  res_sheep
+  res_coffee
+  res_tea
+  res_cattle
+  res_timber
+  res_fish
+  res_silver
+  res_tobacco
+  res_wheat
+  res_wine
+  res_ivory
+  res_spices
+  res_furs
+  res_gold
+  res_sugar
+  res_corn
+  res_cotton
+  res_gems
+  res_iron
+ </resources_order>
+ <u4_ary>16 11 12 24 11 12 8 9</u4_ary><!-- Commodities Baseline Price Per Unit -->
+ <flt_ary>1.5564202070236206 0.35672590136528015 0.2918855845928192 4.669260501861572 0.4280821979045868 0.46699875593185425 0.31133249402046204 0.5838090181350708</flt_ary><!-- Demand -->
+ <u4_ary>16 11 12 24 11 12 8 9</u4_ary><!-- Commodities Current Price Per Unit -->
+ <u4_ary>1 0 0 4 0 0 0 0</u4_ary>
+ <u4_ary>1 0 0 4 0 0 0 0</u4_ary>
+ <u4_ary>0 0 0 0 0 0 0 0</u4_ary>
+ <u4_ary>25 25 0 0 0 30 25 50 0 25 30 50 0 0 75 0 25 0 50 30</u4_ary><!-- Resources Trade Value -->
+ <port_indices/>
+ <settlement_indices>
+  maryland=0
+  pennsylvania=2
+  virginia=1
+ </settlement_indices>
+ <ary type="DOMESTIC_TRADE_ROUTES">
+  <xml_include path="domestic_trade_routes/powhatan.xml"/>
+  <xml_include path="domestic_trade_routes/virginia_colonists.xml"/>
+ </ary>
+ <ary type="INTERNATIONAL_TRADE_ROUTES">
+  <xml_include path="international_trade_routes/powhatan.xml"/>
+  <xml_include path="international_trade_routes/virginia_colonists.xml"/>
+ </ary>
+ <ary type="TRADE_SEGMENTS"/>
+ <ary type="TRADE_ROUTES">
+  <xml_include path="campaign_env/trade_routes/0001.xml"/>
+  <xml_include path="campaign_env/trade_routes/0002.xml"/>
+  <xml_include path="campaign_env/trade_routes/0003.xml"/>
+ </ary>
+ <ary type="THEATRES"/>
+ <ary type="TRADE_NODES"/>
+</rec>

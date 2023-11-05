@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<rec type="CAMPAIGN_PREOPEN_MAP_INFO">
+ <rec type="CAMPAIGN_PLAYERS_SETUP">
+  <ary type="PLAYERS_ARRAY">
+   <rec type="PLAYERS_ARRAY">
+    <rec type="CAMPAIGN_PLAYER_SETUP">
+     <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+     <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+      <i>0</i>
+      <i>0</i>
+      <i>0</i>
+      <no/>
+     </rec>
+     <s>virginia_colonists</s>
+     <no/>
+     <yes/><!-- Playable -->
+     <no/>
+    </rec>
+   </rec>
+   <rec type="PLAYERS_ARRAY">
+    <rec type="CAMPAIGN_PLAYER_SETUP">
+     <victory_conditions year="0" region_count="0" prestige_victory="no" campaign_type="4 (Unplayable)"/>
+     <rec type="CAMPAIGN_PLAYER_SETUP_INGAME_MODIFIABLES">
+      <i>0</i>
+      <i>0</i>
+      <i>0</i>
+      <no/>
+     </rec>
+     <s>powhatan</s>
+     <no/>
+     <no/><!-- Playable -->
+     <no/>
+    </rec>
+   </rec>
+  </ary>
+ </rec>
+ <date>summer 1607</date>
+ <s>episodic_1</s>
+ <s>episodic_map</s>
+ <ary type="VICTORY_CONDITION_OPTIONS"/>
+ <ary type="FACTION_INFOS">
+  <rec type="FACTION_INFOS">
+   <s>virginia_colonists</s>
+   <s/>
+   <yes/>
+   <yes/>
+   <i>1</i>
+   <s>start_pos_factions_description_140</s>
+   <s>data\ui\flags\virginia_colonists</s>
+   <i>1</i>
+  </rec>
+  <rec type="FACTION_INFOS">
+   <s>powhatan</s>
+   <s/>
+   <no/>
+   <no/>
+   <i>2</i>
+   <s>start_pos_factions_description_1213344775</s>
+   <s>data\ui\flags\powhatan</s>
+   <i>2</i>
+  </rec>
+ </ary>
+ <ary type="REGION_OWNERSHIPS_BY_THEATRE">
+  <region_ownerships_by_theatre theatre="america">
+   pennsylvania=powhatan
+   maryland=powhatan
+   virginia=virginia_colonists
+  </region_ownerships_by_theatre>
+ </ary>
+</rec>

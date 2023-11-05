@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rec type="CAMPAIGN_PATHFINDER" version="4">
+ <ary type="PATHFINDING_GRID">
+  <xml_include path="campaign-pathfinder/grid-0001.xml"/>
+ </ary>
+ <yes/>
+ <bool_ary>0 0 0</bool_ary>
+</rec>

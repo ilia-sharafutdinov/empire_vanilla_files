@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<rec type="WORLD">
+ <ancillary_uniqueness_monitor/>
+ <u>0</u>
+ <u>1</u>
+ <ary type="FACTION_ARRAY">
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/virginia_colonists.xml"/>
+  </rec>
+  <rec type="FACTION_ARRAY">
+   <xml_include path="factions/powhatan.xml"/>
+  </rec>
+ </ary>
+ <rec type="REBEL_FACTION">
+  <xml_include path="factions/0001.xml"/>
+ </rec>
+ <rec type="REGION_MANAGER">
+  <ary type="REGIONS_ARRAY">
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/pennsylvania.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/maryland.xml"/>
+   </rec>
+   <rec type="REGIONS_ARRAY">
+    <xml_include path="region/virginia.xml"/>
+   </rec>
+  </ary>
+ </rec>
+ <no/>
+ <ary type="SPYING_ARRAY">
+  <rec type="SPYING_ARRAY">
+   <s>virginia_colonists</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+  <rec type="SPYING_ARRAY">
+   <s>powhatan</s>
+   <rec type="CAMPAIGN_SPYING">
+    <ary type="ARMY_DATA" version="0"/>
+    <ary type="NAVY_DATA" version="0"/>
+    <ary type="REGION_SLOT_DATA" version="0"/>
+    <ary type="FORT_DATA" version="0"/>
+    <ary type="SETTLEMENT_DATA" version="0"/>
+   </rec>
+  </rec>
+ </ary>
+ <rec type="REBEL_SPYING">
+  <rec type="CAMPAIGN_SPYING">
+   <ary type="ARMY_DATA" version="0"/>
+   <ary type="NAVY_DATA" version="0"/>
+   <ary type="REGION_SLOT_DATA" version="0"/>
+   <ary type="FORT_DATA" version="0"/>
+   <ary type="SETTLEMENT_DATA" version="0"/>
+  </rec>
+ </rec>
+</rec>
