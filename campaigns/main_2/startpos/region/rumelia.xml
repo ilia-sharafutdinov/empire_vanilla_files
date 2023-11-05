@@ -38,7 +38,10 @@
  <no/><!-- Exempt From Tax -->
  <u>619725520</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="133.75" y="272.5"/>
+  <v2 x="217.5" y="313.75"/>
+  <xml_include path="quadtree/rumelia-0001.xml"/>
  </rec>
  <u>638655864</u><!-- Governor ID -->
  <s>europe</s><!-- Theatre -->

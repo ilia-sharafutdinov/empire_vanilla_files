@@ -288,7 +288,10 @@
    180.89313793182373,241.10686206817627
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="177.5" y="225.0"/>
+   <v2 x="208.75" y="256.25"/>
+   <xml_include path="quadtree/ottomans-captain-0004.xml"/>
   </rec>
   <no/>
   <u>0</u>

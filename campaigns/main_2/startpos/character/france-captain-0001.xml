@@ -210,7 +210,10 @@
    -380.10839080810547,42.0
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="-385.0" y="22.5"/>
+   <v2 x="-353.75" y="53.75"/>
+   <xml_include path="quadtree/france-captain-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

@@ -28,7 +28,10 @@
  <no/><!-- Exempt From Tax -->
  <u>624053248</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="88.75" y="242.5"/>
+  <v2 x="115.0" y="268.75"/>
+  <xml_include path="quadtree/malta-0001.xml"/>
  </rec>
  <u>880594472</u><!-- Governor ID -->
  <s>europe</s><!-- Theatre -->

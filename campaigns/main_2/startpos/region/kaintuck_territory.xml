@@ -31,7 +31,10 @@
  <no/><!-- Exempt From Tax -->
  <u>826167352</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="-621.25" y="238.75"/>
+  <v2 x="-552.5" y="295.0"/>
+  <xml_include path="quadtree/kaintuck_territory-0001.xml"/>
  </rec>
  <u>638624976</u><!-- Governor ID -->
  <s>america</s><!-- Theatre -->

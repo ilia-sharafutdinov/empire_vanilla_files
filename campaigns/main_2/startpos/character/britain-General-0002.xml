@@ -164,7 +164,10 @@
    3.5315370559692383,348.46846294403076
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="-12.5" y="338.75"/>
+   <v2 x="8.75" y="360.0"/>
+   <xml_include path="quadtree/britain-General-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

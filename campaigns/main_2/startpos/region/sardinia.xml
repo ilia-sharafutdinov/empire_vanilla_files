@@ -30,7 +30,10 @@
  <no/><!-- Exempt From Tax -->
  <u>660965144</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="47.5" y="265.0"/>
+  <v2 x="80.0" y="303.75"/>
+  <xml_include path="quadtree/sardinia-0001.xml"/>
  </rec>
  <u>606145656</u><!-- Governor ID -->
  <s>europe</s><!-- Theatre -->

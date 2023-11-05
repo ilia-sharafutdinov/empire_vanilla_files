@@ -274,7 +274,10 @@
    66.0,294.3347749710083
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="60.0" y="271.25"/>
+   <v2 x="91.25" y="302.5"/>
+   <xml_include path="quadtree/piedmont_savoy-captain-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

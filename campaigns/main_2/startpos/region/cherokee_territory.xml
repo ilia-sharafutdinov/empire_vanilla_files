@@ -33,7 +33,10 @@
  <no/><!-- Exempt From Tax -->
  <u>826167352</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="-658.75" y="212.5"/>
+  <v2 x="-575.0" y="281.25"/>
+  <xml_include path="quadtree/cherokee_territory-0001.xml"/>
  </rec>
  <u>638624976</u><!-- Governor ID -->
  <s>america</s><!-- Theatre -->

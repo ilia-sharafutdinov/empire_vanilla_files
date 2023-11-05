@@ -78,7 +78,10 @@
   <no/><!-- Government Opposition -->
   <v2x_ary/>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="-7.5" y="322.5"/>
+   <v2 x="13.75" y="343.75"/>
+   <xml_include path="quadtree/spain-gentleman-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

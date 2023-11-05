@@ -30,7 +30,10 @@
  <no/><!-- Exempt From Tax -->
  <u>624593896</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="43.75" y="327.5"/>
+  <v2 x="82.5" y="363.75"/>
+  <xml_include path="quadtree/wurttemberg-0001.xml"/>
  </rec>
  <u>885867896</u><!-- Governor ID -->
  <s>europe</s><!-- Theatre -->

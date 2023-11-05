@@ -262,7 +262,10 @@
    825.5952033996582,-66.0
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="821.25" y="-82.5"/>
+   <v2 x="852.5" y="-51.25"/>
+   <xml_include path="quadtree/netherlands-admiral-0002.xml"/>
   </rec>
   <no/>
   <u>0</u>

@@ -316,7 +316,10 @@
    102.0,261.0
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="97.5" y="247.5"/>
+   <v2 x="128.75" y="278.75"/>
+   <xml_include path="quadtree/venice-captain-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

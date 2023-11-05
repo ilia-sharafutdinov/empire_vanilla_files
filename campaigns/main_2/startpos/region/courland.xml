@@ -32,7 +32,10 @@
  <no/><!-- Exempt From Tax -->
  <u>601693576</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="138.75" y="386.25"/>
+  <v2 x="197.5" y="421.25"/>
+  <xml_include path="quadtree/courland-0001.xml"/>
  </rec>
  <u>603155520</u><!-- Governor ID -->
  <s>europe</s><!-- Theatre -->

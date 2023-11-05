@@ -274,7 +274,10 @@
    -34.740572929382324,324.0
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="-38.75" y="307.5"/>
+   <v2 x="-7.5" y="338.75"/>
+   <xml_include path="quadtree/france-admiral-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

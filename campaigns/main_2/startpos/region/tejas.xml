@@ -31,7 +31,10 @@
  <no/><!-- Exempt From Tax -->
  <u>882861848</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="-728.75" y="173.75"/>
+  <v2 x="-655.0" y="238.75"/>
+  <xml_include path="quadtree/tejas-0001.xml"/>
  </rec>
  <u>616355936</u><!-- Governor ID -->
  <s>america</s><!-- Theatre -->

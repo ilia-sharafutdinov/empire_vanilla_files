@@ -31,7 +31,10 @@
  <no/><!-- Exempt From Tax -->
  <u>840460064</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="-673.75" y="230.0"/>
+  <v2 x="-591.25" y="310.0"/>
+  <xml_include path="quadtree/upper_louisiana-0001.xml"/>
  </rec>
  <u>623631920</u><!-- Governor ID -->
  <s>america</s><!-- Theatre -->

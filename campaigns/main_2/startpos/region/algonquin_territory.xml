@@ -31,7 +31,10 @@
  <no/><!-- Exempt From Tax -->
  <u>639303224</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="-596.25" y="272.5"/>
+  <v2 x="-533.75" y="318.75"/>
+  <xml_include path="quadtree/algonquin_territory-0001.xml"/>
  </rec>
  <u>611866296</u><!-- Governor ID -->
  <s>america</s><!-- Theatre -->

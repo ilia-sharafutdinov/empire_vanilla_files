@@ -32,7 +32,10 @@
  <no/><!-- Exempt From Tax -->
  <u>849969208</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="93.75" y="356.25"/>
+  <v2 x="153.75" y="401.25"/>
+  <xml_include path="quadtree/west_prussia-0001.xml"/>
  </rec>
  <u>601601200</u><!-- Governor ID -->
  <s>europe</s><!-- Theatre -->

@@ -294,7 +294,10 @@
    118.0,397.2419557571411
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="115.0" y="382.5"/>
+   <v2 x="146.25" y="413.75"/>
+   <xml_include path="quadtree/sweden-admiral-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

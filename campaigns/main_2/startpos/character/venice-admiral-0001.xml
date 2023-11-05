@@ -269,7 +269,10 @@
    108.43903732299805,299.3950881958008
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="103.75" y="283.75"/>
+   <v2 x="135.0" y="315.0"/>
+   <xml_include path="quadtree/venice-admiral-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

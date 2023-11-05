@@ -209,7 +209,10 @@
    40.70932483673096,388.0
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="37.5" y="372.5"/>
+   <v2 x="68.75" y="403.75"/>
+   <xml_include path="quadtree/hannover-captain-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

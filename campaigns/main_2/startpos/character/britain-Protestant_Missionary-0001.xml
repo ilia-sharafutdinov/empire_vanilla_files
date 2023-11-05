@@ -78,7 +78,10 @@
   <no/><!-- Government Opposition -->
   <v2x_ary/>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="-638.75" y="117.5"/>
+   <v2 x="-617.5" y="138.75"/>
+   <xml_include path="quadtree/britain-Protestant_Missionary-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

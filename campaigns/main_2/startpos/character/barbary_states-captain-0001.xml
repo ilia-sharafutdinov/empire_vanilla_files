@@ -203,7 +203,10 @@
    121.39223098754883,224.0
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="117.5" y="208.75"/>
+   <v2 x="148.75" y="240.0"/>
+   <xml_include path="quadtree/barbary_states-captain-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

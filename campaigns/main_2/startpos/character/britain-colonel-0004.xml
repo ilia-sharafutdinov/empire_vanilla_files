@@ -179,7 +179,10 @@
    -596.5767135620117,340.5767135620117
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="-612.5" y="331.25"/>
+   <v2 x="-591.25" y="352.5"/>
+   <xml_include path="quadtree/britain-colonel-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

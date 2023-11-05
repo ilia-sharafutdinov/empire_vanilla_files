@@ -283,7 +283,10 @@
    47.108426094055176,305.6815013885498
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="43.75" y="291.25"/>
+   <v2 x="75.0" y="322.5"/>
+   <xml_include path="quadtree/genoa-captain-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

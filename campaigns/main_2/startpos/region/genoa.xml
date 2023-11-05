@@ -30,7 +30,10 @@
  <no/><!-- Exempt From Tax -->
  <u>581682976</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="43.75" y="297.5"/>
+  <v2 x="87.5" y="331.25"/>
+  <xml_include path="quadtree/genoa-0001.xml"/>
  </rec>
  <u>640552488</u><!-- Governor ID -->
  <s>europe</s><!-- Theatre -->

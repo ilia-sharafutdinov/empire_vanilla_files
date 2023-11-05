@@ -256,7 +256,10 @@
    578.5088481903076,114.49643611907959
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="575.0" y="100.0"/>
+   <v2 x="606.25" y="131.25"/>
+   <xml_include path="quadtree/britain-captain-0004.xml"/>
   </rec>
   <no/>
   <u>0</u>

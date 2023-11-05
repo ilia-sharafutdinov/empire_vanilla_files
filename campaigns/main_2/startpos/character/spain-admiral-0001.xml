@@ -260,7 +260,10 @@
    -479.68616771698,89.68616771697998
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="-483.75" y="75.0"/>
+   <v2 x="-452.5" y="106.25"/>
+   <xml_include path="quadtree/spain-admiral-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

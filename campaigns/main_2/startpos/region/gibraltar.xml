@@ -28,7 +28,10 @@
  <no/><!-- Exempt From Tax -->
  <u>668419872</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="-53.75" y="246.25"/>
+  <v2 x="-26.25" y="271.25"/>
+  <xml_include path="quadtree/gibraltar-0001.xml"/>
  </rec>
  <u>613643736</u><!-- Governor ID -->
  <s>europe</s><!-- Theatre -->

@@ -36,7 +36,10 @@
  <no/><!-- Exempt From Tax -->
  <u>605272264</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="521.25" y="46.25"/>
+  <v2 x="582.5" y="120.0"/>
+  <xml_include path="quadtree/carnatica-0001.xml"/>
  </rec>
  <u>863223504</u><!-- Governor ID -->
  <s>india</s><!-- Theatre -->
