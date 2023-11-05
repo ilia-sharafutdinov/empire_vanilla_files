@@ -13,7 +13,7 @@
      </rec>
      <s>united_states</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -28,7 +28,7 @@
      </rec>
      <s>spain</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -43,7 +43,7 @@
      </rec>
      <s>france</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -58,7 +58,7 @@
      </rec>
      <s>britain</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -148,7 +148,7 @@
      </rec>
      <s>netherlands</s>
      <no/>
-     <no/><!-- Playable -->
+     <yes/><!-- Playable -->
      <no/>
     </rec>
    </rec>
@@ -229,7 +229,7 @@
    <s>united_states</s>
    <s>ui/portraits/custom/cards/george_washington.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>1</i>
    <s>start_pos_factions_description_-814102895</s>
    <s>data\ui\flags\united_states</s>
@@ -239,7 +239,7 @@
    <s>spain</s>
    <s>ui/portraits/european/Cards/minister/old/190.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>2</i>
    <s>start_pos_factions_description_1563054447</s>
    <s>data\ui\flags\spain</s>
@@ -249,7 +249,7 @@
    <s>france</s>
    <s>ui/portraits/european/cards/king/young/027.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>3</i>
    <s>start_pos_factions_description_-189154842</s>
    <s>data\ui\flags\france</s>
@@ -259,7 +259,7 @@
    <s>britain</s>
    <s>ui/portraits/european/cards/king/old/030.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>4</i>
    <s>start_pos_factions_description_-1190433383</s>
    <s>data\ui\flags\britain</s>
@@ -319,7 +319,7 @@
    <s>netherlands</s>
    <s>ui/portraits/european/Cards/minister/young/278.tga</s>
    <yes/>
-   <no/>
+   <yes/>
    <i>10</i>
    <s>start_pos_factions_description_-2042135816</s>
    <s>data\ui\flags\netherlands_republic</s>

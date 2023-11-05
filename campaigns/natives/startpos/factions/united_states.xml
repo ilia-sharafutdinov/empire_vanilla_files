@@ -11,7 +11,7 @@
   </rec>
   <s>united_states</s>
   <no/>
-  <no/><!-- Playable -->
+  <yes/><!-- Playable -->
   <no/>
  </rec>
  <rec type="FACTION_ECONOMICS">
