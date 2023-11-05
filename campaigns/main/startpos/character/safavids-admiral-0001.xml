@@ -213,7 +213,10 @@
    343.4158945083618,209.2531394958496
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="336.25" y="192.5"/>
+   <v2 x="367.5" y="223.75"/>
+   <xml_include path="quadtree/safavids-admiral-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

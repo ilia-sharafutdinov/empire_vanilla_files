@@ -273,7 +273,10 @@
    -91.52967929840088,267.5296792984009
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="-96.25" y="251.25"/>
+   <v2 x="-65.0" y="282.5"/>
+   <xml_include path="quadtree/portugal-admiral-0002.xml"/>
   </rec>
   <no/>
   <u>0</u>

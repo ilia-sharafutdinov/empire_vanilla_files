@@ -32,7 +32,10 @@
  <no/><!-- Exempt From Tax -->
  <u>581839776</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="546.25" y="120.0"/>
+  <v2 x="626.25" y="178.75"/>
+  <xml_include path="quadtree/berar-0001.xml"/>
  </rec>
  <u>585536488</u><!-- Governor ID -->
  <s>india</s><!-- Theatre -->

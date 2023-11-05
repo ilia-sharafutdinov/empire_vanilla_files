@@ -30,7 +30,10 @@
  <no/><!-- Exempt From Tax -->
  <u>582350912</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="393.75" y="167.5"/>
+  <v2 x="495.0" y="228.75"/>
+  <xml_include path="quadtree/baluchistan-0001.xml"/>
  </rec>
  <u>586501560</u><!-- Governor ID -->
  <s>india</s><!-- Theatre -->

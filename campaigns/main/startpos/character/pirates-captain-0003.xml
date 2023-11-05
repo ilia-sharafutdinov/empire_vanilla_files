@@ -233,7 +233,10 @@
    -462.0,81.57360744476318
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="-467.5" y="65.0"/>
+   <v2 x="-436.25" y="96.25"/>
+   <xml_include path="quadtree/pirates-captain-0003.xml"/>
   </rec>
   <no/>
   <u>0</u>

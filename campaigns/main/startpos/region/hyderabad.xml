@@ -36,7 +36,10 @@
  <no/><!-- Exempt From Tax -->
  <u>581839776</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="532.5" y="96.25"/>
+  <v2 x="595.0" y="156.25"/>
+  <xml_include path="quadtree/hyderabad-0001.xml"/>
  </rec>
  <u>585536488</u><!-- Governor ID -->
  <s>india</s><!-- Theatre -->

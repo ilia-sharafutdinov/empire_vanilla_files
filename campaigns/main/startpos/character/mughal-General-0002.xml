@@ -192,7 +192,10 @@
    549.342212677002,116.65778732299805
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="533.75" y="107.5"/>
+   <v2 x="555.0" y="128.75"/>
+   <xml_include path="quadtree/mughal-General-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

@@ -281,7 +281,10 @@
    3.4605417251586914,442.0
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="0.0" y="425.0"/>
+   <v2 x="31.25" y="456.25"/>
+   <xml_include path="quadtree/denmark-admiral-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

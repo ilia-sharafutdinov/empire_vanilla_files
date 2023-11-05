@@ -227,7 +227,10 @@
    -73.38486671447754,239.38486671447754
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="-77.5" y="223.75"/>
+   <v2 x="-46.25" y="255.0"/>
+   <xml_include path="quadtree/morocco-admiral-0001.xml"/>
   </rec>
   <no/>
   <u>0</u>

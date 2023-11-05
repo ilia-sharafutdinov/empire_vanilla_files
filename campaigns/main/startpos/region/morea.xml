@@ -31,7 +31,10 @@
  <no/><!-- Exempt From Tax -->
  <u>583492000</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="133.75" y="246.25"/>
+  <v2 x="177.5" y="283.75"/>
+  <xml_include path="quadtree/morea-0001.xml"/>
  </rec>
  <u>585883552</u><!-- Governor ID -->
  <s>europe</s><!-- Theatre -->
