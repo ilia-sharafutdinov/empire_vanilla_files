@@ -763,7 +763,7 @@
  <ary type="FACTION_INFOS">
   <rec type="FACTION_INFOS">
    <s>united_states</s>
-   <s/>
+   <s>ui/portraits/european/cards/minister/young/177.tga</s>
    <yes/>
    <yes/>
    <i>1</i>
@@ -813,7 +813,7 @@
   </rec>
   <rec type="FACTION_INFOS">
    <s>cherokee</s>
-   <s/>
+   <s>ui/portraits/tribal/cards/king/young/007.tga</s>
    <no/>
    <no/>
    <i>6</i>
@@ -893,7 +893,7 @@
   </rec>
   <rec type="FACTION_INFOS">
    <s>iroquoi</s>
-   <s/>
+   <s>ui/portraits/tribal/cards/king/young/004.tga</s>
    <no/>
    <no/>
    <i>14</i>
@@ -1003,7 +1003,7 @@
   </rec>
   <rec type="FACTION_INFOS">
    <s>plains</s>
-   <s/>
+   <s>ui/portraits/tribal/cards/king/young/009.tga</s>
    <no/>
    <no/>
    <i>25</i>
@@ -1033,7 +1033,7 @@
   </rec>
   <rec type="FACTION_INFOS">
    <s>pueblo</s>
-   <s/>
+   <s>ui/portraits/tribal/cards/king/young/004.tga</s>
    <no/>
    <no/>
    <i>29</i>
@@ -1133,7 +1133,7 @@
   </rec>
   <rec type="FACTION_INFOS">
    <s>chechenya_dagestan</s>
-   <s/>
+   <s>ui/portraits/indian/cards/king/young/014.tga</s>
    <no/>
    <no/>
    <i>43</i>
@@ -1153,7 +1153,7 @@
   </rec>
   <rec type="FACTION_INFOS">
    <s>mamelukes</s>
-   <s/>
+   <s>ui/portraits/indian/cards/king/young/096.tga</s>
    <no/>
    <no/>
    <i>46</i>
@@ -1173,7 +1173,7 @@
   </rec>
   <rec type="FACTION_INFOS">
    <s>punjab</s>
-   <s/>
+   <s>ui/portraits/indian/cards/king/young/088.tga</s>
    <no/>
    <no/>
    <i>100</i>
