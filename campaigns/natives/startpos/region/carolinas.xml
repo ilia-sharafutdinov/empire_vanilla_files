@@ -33,7 +33,10 @@
  <no/><!-- Exempt From Tax -->
  <u>360770088</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="-601.25" y="216.25"/>
+  <v2 x="-525.0" y="271.25"/>
+  <xml_include path="quadtree/carolinas-0001.xml"/>
  </rec>
  <u>361277352</u><!-- Governor ID -->
  <s>america</s><!-- Theatre -->

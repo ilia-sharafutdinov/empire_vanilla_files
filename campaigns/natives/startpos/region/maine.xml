@@ -30,7 +30,10 @@
  <no/><!-- Exempt From Tax -->
  <u>360770088</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="-516.25" y="296.25"/>
+  <v2 x="-465.0" y="347.5"/>
+  <xml_include path="quadtree/maine-0001.xml"/>
  </rec>
  <u>361277352</u><!-- Governor ID -->
  <s>america</s><!-- Theatre -->

@@ -29,7 +29,10 @@
  <no/><!-- Exempt From Tax -->
  <u>360837096</u><!-- Controlling Faction ID -->
  <rec type="LINE_OF_SIGHT">
-  <no/>
+  <yes/>
+  <v2 x="-771.25" y="186.25"/>
+  <v2 x="-731.25" y="267.5"/>
+  <xml_include path="quadtree/new_mexico-0001.xml"/>
  </rec>
  <u>361286792</u><!-- Governor ID -->
  <s>america</s><!-- Theatre -->

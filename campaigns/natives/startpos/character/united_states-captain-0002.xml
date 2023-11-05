@@ -234,7 +234,10 @@
    -503.64244747161865,301.91844749450684
   </v2x_ary>
   <rec type="LINE_OF_SIGHT">
-   <no/>
+   <yes/>
+   <v2 x="-513.75" y="288.75"/>
+   <v2 x="-482.5" y="320.0"/>
+   <xml_include path="quadtree/united_states-captain-0002.xml"/>
   </rec>
   <no/>
   <u>0</u>
