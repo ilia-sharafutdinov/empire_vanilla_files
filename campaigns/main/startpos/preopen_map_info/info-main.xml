@@ -873,7 +873,7 @@
   </rec>
   <rec type="FACTION_INFOS">
    <s>thirteen_colonies</s>
-   <s/>
+   <s>ui/portraits/european/cards/minister/old/248.tga</s>
    <no/>
    <no/>
    <i>2</i>
@@ -893,7 +893,7 @@
   </rec>
   <rec type="FACTION_INFOS">
    <s>louisiana</s>
-   <s/>
+   <s>ui/portraits/european/cards/minister/young/113.tga</s>
    <no/>
    <no/>
    <i>4</i>
@@ -1223,7 +1223,7 @@
   </rec>
   <rec type="FACTION_INFOS">
    <s>chechenya_dagestan</s>
-   <s/>
+   <s>ui/portraits/indian/cards/king/young/051.tga</s>
    <no/>
    <no/>
    <i>39</i>
@@ -1413,7 +1413,7 @@
   </rec>
   <rec type="FACTION_INFOS">
    <s>pirates</s>
-   <s/>
+   <s>ui/portraits/european/cards/king/young/058.tga</s>
    <no/>
    <no/>
    <i>56</i>
