@@ -11,7 +11,7 @@
   </rec>
   <s>naples_sicily</s>
   <no/>
-  <no/><!-- Playable -->
+  <yes/><!-- Playable -->
   <no/>
  </rec>
  <rec type="FACTION_ECONOMICS">
