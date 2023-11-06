@@ -55,9 +55,10 @@
  <ary type="FORT_ARRAY"/>
  <resources_array>
   russia_home_regions
-  colonial_euro_factions
+  europe
   global
   steppes
+  tatars
  </resources_array>
  <s/><!-- Latest Constuction -->
  <u>5</u><!-- One Of These 5/10/15/20/25/30/40 Amount Of Prestige When Conquered -->
