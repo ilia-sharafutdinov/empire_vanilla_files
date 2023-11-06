@@ -344,7 +344,7 @@ galleon	Galleon	naval_line_of_battle	naval_galleon	1230	1010	3	1710	300	73	naval
 galleon_fluyt	Fluyt	naval_line_of_battle	naval_galleon	790	650	2	1510	240	73	naval_captain	ancient_galleon	ancient-galleon	galleon_fluyt	global	0	mp_naval_line_of_battle	true	false	true	0	false	0
 galleon_race_built	Race-Built Galleon	naval_line_of_battle	naval_galleon	700	580	2	540	130	78	naval_captain	ancient_galleon2	ancient-galleon_small	galleon	global	0	mp_naval_line_of_battle	true	false	true	0	false	0
 garde_du_corps	Garde du Corps	cavalry	cavalry_heavy	1070	950	2	1300	390	28	cavalry_garde_du_corps	Life_Guards_icon_cavs	lifeguard	household_cavalry	global	6	mp_cavalry	false	true	true	0	false	0
-gorodskiye_streltsy	Gorodskiye Streltsy	infantry	infantry_militia	340	320	1	520	130	28	infantry_generic	streltsy_foot_icon_infa	streltsy_foot_info_infa	gorodskiye_streltsy	europe	0	mp_infantry	true	false	false	0	false	0
+gorodskiye_streltsy	Gorodskiye Streltsy	infantry	infantry_militia	340	320	1	520	130	25	infantry_generic	streltsy_foot_icon_infa	streltsy_foot_info_infa	gorodskiye_streltsy	europe	0	mp_infantry	true	false	false	0	false	0
 guard_infantry	Guards	infantry	infantry_elite	1260	1220	2	1590	390	24	infantry_guard	Guard_Infantry	guard_infantry_musket	guard_infantry	global	6	mp_infantry	false	true	true	0	false	0
 guerillas	Guerillas	infantry	infantry_irregulars	550	480	1	740	180	25	infantry_generic	Euro_Guerillas	guerillas	guerillas	peninsula	0	mp_infantry	true	false	false	0	false	0
 hakkapeliitat	Hakkapeliita	cavalry	cavalry_light	840	750	1	1070	320	28	cavalry_hakkapeliitat	episodic_armoured_icon_cavs	hakkapeliitat	euro_light_cavalry	finland	0	mp_cavalry	true	true	true	0	false	0
