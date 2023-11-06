@@ -117,6 +117,9 @@ rel_orthodox_2	rel_orthodox	2		3	1500	0	0	0	0	0	0	0	0	0.0000	0.0000			0	false	0	
 rel_protestant_0	rel_protestant	0		2	500	0	0	0	0	0	0	0	0	0.0000	0.0000			0	false	0	0	0	0
 rel_protestant_1	rel_protestant	1		2	750	0	0	0	0	0	0	0	0	0.0000	0.0000			0	false	0	0	0	0
 rel_protestant_2	rel_protestant	2		3	1500	0	0	0	0	0	0	0	0	0.0000	0.0000			0	false	0	0	0	0
+rel_sikh_0	rel_sikh	0		2	500	0	0	0	0	0	0	0	0	0.0000	0.0000			0	false	0	0	0	0
+rel_sikh_1	rel_sikh	1		2	750	0	0	0	0	0	0	0	0	0.0000	0.0000			0	false	0	0	0	0
+rel_sikh_2	rel_sikh	2		3	1500	0	0	0	0	0	0	0	0	0.0000	0.0000			0	false	0	0	0	0
 rice_farming_commune	rice	2		2	900	0	0	0	0	0	0	0	0	0.0000	0.0000			0	false	0	0	0	0
 rice_farms	rice	1		2	600	0	0	0	0	0	0	0	0	0.0000	0.0000			0	false	0	0	0	0
 rice_paddies	rice	0		1	300	0	0	0	0	0	0	0	0	0.0000	0.0000			0	false	0	0	0	0

@@ -27,6 +27,7 @@ rel_hindu			happiness
 rel_islam			happiness
 rel_orthodox			happiness
 rel_protestant			happiness
+rel_sikh			happiness
 rice	industry	0	agriculture
 roads			money
 settlement_fortifications			military

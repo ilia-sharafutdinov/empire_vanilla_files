@@ -27,6 +27,7 @@ building_cost_mod_all	mod_cost	rel_hindu
 building_cost_mod_all	mod_cost	rel_islam
 building_cost_mod_all	mod_cost	rel_orthodox
 building_cost_mod_all	mod_cost	rel_protestant
+building_cost_mod_all	mod_cost	rel_sikh
 building_cost_mod_all	mod_cost	rice
 building_cost_mod_all	mod_cost	roads
 building_cost_mod_all	mod_cost	settlement_fortifications

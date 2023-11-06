@@ -422,6 +422,12 @@ rel_protestant_1	happy_religion_protestant	2.0000
 rel_protestant_2	agent_spawn_rate_missionary_protestant	9.0000
 rel_protestant_2	conversion_protestant	3.0000
 rel_protestant_2	happy_religion_protestant	4.0000
+rel_sikh_0	conversion_sikh	1.0000
+rel_sikh_0	happy_religion_sikh	1.0000
+rel_sikh_1	conversion_sikh	2.0000
+rel_sikh_1	happy_religion_sikh	2.0000
+rel_sikh_2	conversion_sikh	3.0000
+rel_sikh_2	happy_religion_sikh	4.0000
 rice_farming_commune	gdp_farm	200.0000
 rice_farming_commune	pop_growth_farm	0.4000
 rice_farming_commune	pop_maxpop_modifier	30.0000
