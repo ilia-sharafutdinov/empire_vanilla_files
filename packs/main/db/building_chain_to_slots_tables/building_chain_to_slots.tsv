@@ -47,6 +47,9 @@ rel_orthodox	town-textile
 rel_protestant	town
 rel_protestant	town-metal
 rel_protestant	town-textile
+rel_sikh	town
+rel_sikh	town-metal
+rel_sikh	town-textile
 rice	rice
 roads	settlement_road
 settlement_fortifications	settlement_fortification
