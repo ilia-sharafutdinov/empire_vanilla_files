@@ -3,6 +3,10 @@ local historic_events = require "export_historic_events"
 local scripting = require "EpisodicScripting"
 local camera_pan = 0
 
+-- USER OPTIONS
+local decrease_ai_aggression_towards_player = false -- Set to 'true' to make the AI see the player as a fellow AI and adjust it's aggression equally
+local disable_shroud = false -- Set to 'true' to disable fog of war and make the entire campaign map visible
+
 local function OnAdviceIssued(context)
 	-- 0013_Battle_Advice_Missile_Superiority_Thread
 	if conditions.AdviceJustDisplayed("-1875830202", context) then
@@ -418,6 +422,15 @@ end
 local function OnWorldCreated()
 	scripting.game_interface:technology_osmosis_for_playables_enable_culture("european")
 	scripting.game_interface:technology_osmosis_for_playables_enable_all()
+
+	if decrease_ai_aggression_towards_player then
+		scripting.game_interface:set_campaign_ai_force_all_factions_boardering_humans_to_have_invasion_behaviour(false)
+		scripting.game_interface:set_campaign_ai_force_all_factions_boardering_human_protectorates_to_have_invasion_behaviour(false)
+	end
+
+	if disable_shroud then
+		scripting.game_interface:show_shroud(false)
+	end
 end
 
 --------------------------------------------------------------------------------------------------------------------
