@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:florida:st_augustine:settlement_fortification</s>
+ <s>settlement_fortification</s>
+ <v2 x="-580.32733" y="212.62518"/>
+ <v2 x="-580.32733" y="212.62518"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -580.68091,213.61513
+  -579.97375,213.61513
+  -579.3374,212.97873
+  -579.3374,212.27164
+  -579.97375,211.63524
+  -580.68091,211.63524
+  -581.31726,212.27164
+  -581.31726,212.97873
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -580.68091,213.61513
+  -579.97375,213.61513
+  -579.3374,212.97873
+  -579.3374,212.27164
+  -579.97375,211.63524
+  -580.68091,211.63524
+  -581.31726,212.27164
+  -581.31726,212.97873
+ </v2_ary>
+</rec>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<rec type="areas">
+ <yes/><!-- Land Bridge -->
+ <no/><!-- English Channel Coast -->
+ <yes/><!-- Passable -->
+ <v2 x="-603.06561" y="325.19028"/>
+ <v2 x="-600.70605" y="326.99448"/>
+ <u2>9</u2><!-- Adjoning Passable Areas ID -->
+ <rec type="faces">
+  <u4_ary>
+   26777 <!-- -603.03613 325.31003-->
+   28139 <!-- -603.06561 326.45993-->
+   29739 <!-- -600.70605 326.99448-->
+   29873 <!-- -601.77832 325.42682-->
+   26777 <!-- -603.03613 325.31003-->
+   29739 <!-- -600.70605 326.99448-->
+   28468 <!-- -600.75323 326.02722-->
+   29873 <!-- -601.77832 325.42682-->
+   29739 <!-- -600.70605 326.99448-->
+   28468 <!-- -600.75323 326.02722-->
+   29025 <!-- -600.79407 325.19028-->
+   29873 <!-- -601.77832 325.42682-->
+  </u4_ary>
+ </rec>
+ <ary type="outlines">
+  <rec type="outlines">
+   <yes/>
+   <v2 x="-603.06561" y="325.19028"/>
+   <v2 x="-600.70605" y="326.99448"/>
+   <u4_ary>
+    28139 <!-- -603.06561 326.45993-->
+    26777 <!-- -603.03613 325.31003-->
+    29873 <!-- -601.77832 325.42682-->
+    29025 <!-- -600.79407 325.19028-->
+    28468 <!-- -600.75323 326.02722-->
+    29739 <!-- -600.70605 326.99448-->
+   </u4_ary>
+   <ary type="connectivity">
+    <connectivity region="192 (great_lakes)" area="6" from="0" to="0"/>
+    <connectivity region="190 (natives_michigan_territory)" area="0" from="1" to="2"/>
+    <connectivity region="192 (great_lakes)" area="8" from="3" to="4"/>
+    <connectivity region="202 (natives_huron_territory)" area="1" from="5" to="5"/>
+   </ary>
+  </rec>
+ </ary>
+ <u2>46</u2><!-- Impassable Land Areas ID (65535=Passable) -->
+ <u2>65535</u2><!-- Island ID (65535=Navigable, 104=ETW Mainland) -->
+</rec>

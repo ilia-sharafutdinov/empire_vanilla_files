@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>transylvania</s>
+ <asc>land</asc>
+ <v2 x="149.71524" y="322.30768"/>
+ <v2 x="187.55864" y="352.96118"/>
+ <ary type="areas">
+  <xml_include path="area-1/transylvania-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

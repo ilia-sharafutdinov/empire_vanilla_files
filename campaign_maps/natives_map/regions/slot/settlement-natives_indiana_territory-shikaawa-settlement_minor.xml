@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_indiana_territory:shikaawa:settlement_minor</s>
+ <s>settlement_minor</s>
+ <v2 x="-624.08386" y="296.9313"/>
+ <v2 x="-624.08386" y="296.9313"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -624.43744,297.92126
+  -623.73029,297.92126
+  -623.09393,297.28485
+  -623.09393,296.57776
+  -623.73029,295.94135
+  -624.43744,295.94135
+  -625.07379,296.57776
+  -625.07379,297.28485
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -624.43744,297.92126
+  -623.73029,297.92126
+  -623.09393,297.28485
+  -623.09393,296.57776
+  -623.73029,295.94135
+  -624.43744,295.94135
+  -625.07379,296.57776
+  -625.07379,297.28485
+ </v2_ary>
+</rec>

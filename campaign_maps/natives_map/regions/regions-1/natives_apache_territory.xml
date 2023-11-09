@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>natives_apache_territory</s>
+ <asc>land</asc>
+ <v2 x="-754.09735" y="206.93559"/>
+ <v2 x="-700.00055" y="262.33136"/>
+ <ary type="areas">
+  <xml_include path="area-1/natives_apache_territory-0000.xml"/>
+  <xml_include path="area-1/natives_apache_territory-0001.xml"/>
+ </ary>
+ <i>0</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-729.11279" y="227.6812"/>
+  <v2_ary>
+   -730.51062,226.19986
+   -729.04437,225.59251
+   -727.57813,226.19986
+   -726.97076,227.66612
+   -727.57813,229.13239
+   -729.04437,229.73973
+   -730.51062,229.13239
+   -731.11798,227.66612
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-natives_apache_territory-quivira-settlement_government.xml"/>
+   <xml_include path="slot/settlement-natives_apache_territory-quivira-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-natives_apache_territory-quivira-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-natives_apache_territory-quivira-settlement_road.xml"/>
+   <xml_include path="slot/settlement-natives_apache_territory-quivira-settlement_fortification.xml"/>
+   <xml_include path="slot/town-natives_apache_territory-cibola.xml"/>
+   <xml_include path="slot/town-natives_apache_territory-eldorado.xml"/>
+   <xml_include path="slot/southern_usa-natives_apache_territory-big_bend.xml"/>
+   <xml_include path="slot/corn-natives_apache_territory-mesa.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

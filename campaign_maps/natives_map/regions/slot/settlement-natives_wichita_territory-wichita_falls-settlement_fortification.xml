@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_wichita_territory:wichita_falls:settlement_fortification</s>
+ <s>settlement_fortification</s>
+ <v2 x="-701.12512" y="241.57507"/>
+ <v2 x="-701.12512" y="241.57507"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -701.4787,242.56502
+  -700.77155,242.56502
+  -700.13519,241.92862
+  -700.13519,241.22153
+  -700.77155,240.58513
+  -701.4787,240.58513
+  -702.11505,241.22153
+  -702.11505,241.92862
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -701.4787,242.56502
+  -700.77155,242.56502
+  -700.13519,241.92862
+  -700.13519,241.22153
+  -700.77155,240.58513
+  -701.4787,240.58513
+  -702.11505,241.22153
+  -702.11505,241.92862
+ </v2_ary>
+</rec>

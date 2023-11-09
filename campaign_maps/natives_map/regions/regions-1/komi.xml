@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>komi</s>
+ <asc>land</asc>
+ <v2 x="313.90491" y="394.99985"/>
+ <v2 x="412.50391" y="443.7446"/>
+ <ary type="areas">
+  <xml_include path="area-1/komi-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

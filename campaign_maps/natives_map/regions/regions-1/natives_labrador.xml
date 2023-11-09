@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>natives_labrador</s>
+ <asc>land</asc>
+ <v2 x="-561.01202" y="335.58395"/>
+ <v2 x="-395.56219" y="445.19272"/>
+ <ary type="areas">
+  <xml_include path="area-1/natives_labrador-0000.xml"/>
+  <xml_include path="area-1/natives_labrador-0001.xml"/>
+  <xml_include path="area-1/natives_labrador-0002.xml"/>
+  <xml_include path="area-1/natives_labrador-0003.xml"/>
+  <xml_include path="area-1/natives_labrador-0004.xml"/>
+  <xml_include path="area-1/natives_labrador-0005.xml"/>
+  <xml_include path="area-1/natives_labrador-0006.xml"/>
+  <xml_include path="area-1/natives_labrador-0007.xml"/>
+  <xml_include path="area-1/natives_labrador-0008.xml"/>
+  <xml_include path="area-1/natives_labrador-0009.xml"/>
+  <xml_include path="area-1/natives_labrador-0010.xml"/>
+  <xml_include path="area-1/natives_labrador-0011.xml"/>
+  <xml_include path="area-1/natives_labrador-0012.xml"/>
+  <xml_include path="area-1/natives_labrador-0013.xml"/>
+  <xml_include path="area-1/natives_labrador-0014.xml"/>
+  <xml_include path="area-1/natives_labrador-0015.xml"/>
+ </ary>
+ <i>0</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-430.06854" y="393.18951"/>
+  <v2_ary>
+   -430.06854,394.88678
+   -431.76581,393.18951
+   -430.06854,391.49225
+   -428.37128,393.18951
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-natives_labrador-agvituk-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-natives_labrador-agvituk-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-natives_labrador-agvituk-settlement_road.xml"/>
+   <xml_include path="slot/fur-natives_labrador-coastcentral.xml"/>
+   <xml_include path="slot/town-natives_labrador-rigolet.xml"/>
+   <xml_include path="slot/port-natives_labrador-cartwright.xml"/>
+   <xml_include path="slot/port-natives_labrador-catucto.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

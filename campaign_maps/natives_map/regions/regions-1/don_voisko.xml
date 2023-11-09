@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>don_voisko</s>
+ <asc>land</asc>
+ <v2 x="261.4407" y="301.50433"/>
+ <v2 x="329.99954" y="338.28833"/>
+ <ary type="areas">
+  <xml_include path="area-1/don_voisko-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

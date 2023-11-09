@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_apache_territory:quivira:settlement_army-admin</s>
+ <s>settlement_army-admin</s>
+ <v2 x="-729.85944" y="227.67719"/>
+ <v2 x="-729.85944" y="227.67719"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -730.21301,228.66713
+  -729.50586,228.66713
+  -728.86951,228.03073
+  -728.86951,227.32364
+  -729.50586,226.68724
+  -730.21301,226.68724
+  -730.84937,227.32364
+  -730.84937,228.03073
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -730.21301,228.66713
+  -729.50586,228.66713
+  -728.86951,228.03073
+  -728.86951,227.32364
+  -729.50586,226.68724
+  -730.21301,226.68724
+  -730.84937,227.32364
+  -730.84937,228.03073
+ </v2_ary>
+</rec>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>berar</s>
+ <asc>land</asc>
+ <v2 x="556.80774" y="130.84593"/>
+ <v2 x="616.14954" y="167.95354"/>
+ <ary type="areas">
+  <xml_include path="area-1/berar-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>iroquois_territory</s>
+ <asc>land</asc>
+ <v2 x="-555.00061" y="300.57388"/>
+ <v2 x="-497.84338" y="331.29199"/>
+ <ary type="areas">
+  <xml_include path="area-1/iroquois_territory-0000.xml"/>
+  <xml_include path="area-1/iroquois_territory-0001.xml"/>
+  <xml_include path="area-1/iroquois_territory-0002.xml"/>
+  <xml_include path="area-1/iroquois_territory-0003.xml"/>
+  <xml_include path="area-1/iroquois_territory-0004.xml"/>
+ </ary>
+ <i>0</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-543.073" y="305.29303"/>
+  <v2_ary>
+   -544.47083,303.81171
+   -543.00458,303.20435
+   -541.53833,303.81171
+   -540.93097,305.27795
+   -541.53833,306.7442
+   -543.00458,307.35156
+   -544.47083,306.7442
+   -545.07819,305.27795
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-iroquois_territory-cayuga_natives-settlement_government.xml"/>
+   <xml_include path="slot/settlement-iroquois_territory-cayuga_natives-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-iroquois_territory-cayuga_natives-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-iroquois_territory-cayuga_natives-settlement_road.xml"/>
+   <xml_include path="slot/settlement-iroquois_territory-cayuga_natives-settlement_fortification.xml"/>
+   <xml_include path="slot/fur-iroquois_territory-st_lawrence.xml"/>
+   <xml_include path="slot/corn-iroquois_territory-lake.xml"/>
+   <xml_include path="slot/town-iroquois_territory-oneida.xml"/>
+   <xml_include path="slot/town-iroquois_territory-mohawk.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

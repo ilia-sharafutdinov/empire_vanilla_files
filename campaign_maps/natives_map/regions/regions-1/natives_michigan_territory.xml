@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>natives_michigan_territory</s>
+ <asc>land</asc>
+ <v2 x="-615.91559" y="284.45215"/>
+ <v2 x="-582.06641" y="325.42682"/>
+ <ary type="areas">
+  <xml_include path="area-1/natives_michigan_territory-0000.xml"/>
+  <xml_include path="area-1/natives_michigan_territory-0001.xml"/>
+  <xml_include path="area-1/natives_michigan_territory-0002.xml"/>
+ </ary>
+ <i>0</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-593.06952" y="300.87531"/>
+  <v2_ary>
+   -593.06952,302.57257
+   -594.76678,300.87531
+   -593.06952,299.17804
+   -591.37225,300.87531
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-natives_michigan_territory-detroit-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-natives_michigan_territory-detroit-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-natives_michigan_territory-detroit-settlement_road.xml"/>
+   <xml_include path="slot/corn-natives_michigan_territory-south.xml"/>
+   <xml_include path="slot/corn-natives_michigan_territory-north.xml"/>
+   <xml_include path="slot/town-natives_michigan_territory-fort_st_joseph.xml"/>
+   <xml_include path="slot/town-natives_michigan_territory-kekionga.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:new_spain:mexico_natives:settlement_government</s>
+ <s>settlement_government</s>
+ <v2 x="-704.28516" y="138.87254"/>
+ <v2 x="-704.28516" y="138.87254"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -704.63873,139.86249
+  -703.93158,139.86249
+  -703.29523,139.22609
+  -703.29523,138.519
+  -703.93158,137.8826
+  -704.63873,137.8826
+  -705.27509,138.519
+  -705.27509,139.22609
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -704.63873,139.86249
+  -703.93158,139.86249
+  -703.29523,139.22609
+  -703.29523,138.519
+  -703.93158,137.8826
+  -704.63873,137.8826
+  -705.27509,138.519
+  -705.27509,139.22609
+ </v2_ary>
+</rec>

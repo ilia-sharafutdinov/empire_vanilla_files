@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_ohio_territory:fallen_timbers:settlement_fortification</s>
+ <s>settlement_fortification</s>
+ <v2 x="-590.51074" y="294.5889"/>
+ <v2 x="-590.51074" y="294.5889"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -590.86432,295.57886
+  -590.15717,295.57886
+  -589.52081,294.94244
+  -589.52081,294.23535
+  -590.15717,293.59894
+  -590.86432,293.59894
+  -591.50067,294.23535
+  -591.50067,294.94244
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -590.86432,295.57886
+  -590.15717,295.57886
+  -589.52081,294.94244
+  -589.52081,294.23535
+  -590.15717,293.59894
+  -590.86432,293.59894
+  -591.50067,294.23535
+  -591.50067,294.94244
+ </v2_ary>
+</rec>

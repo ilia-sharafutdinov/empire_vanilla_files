@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>natives_ohio_territory</s>
+ <asc>land</asc>
+ <v2 x="-602.01093" y="274.63525"/>
+ <v2 x="-573.16351" y="297.32513"/>
+ <ary type="areas">
+  <xml_include path="area-1/natives_ohio_territory-0000.xml"/>
+  <xml_include path="area-1/natives_ohio_territory-0001.xml"/>
+ </ary>
+ <i>0</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-589.93561" y="294.01379"/>
+  <v2_ary>
+   -589.93561,295.71106
+   -591.63287,294.01379
+   -589.93561,292.31653
+   -588.23834,294.01379
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-natives_ohio_territory-fallen_timbers-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-natives_ohio_territory-fallen_timbers-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-natives_ohio_territory-fallen_timbers-settlement_road.xml"/>
+   <xml_include path="slot/town-natives_ohio_territory-licking_river.xml"/>
+   <xml_include path="slot/town-natives_ohio_territory-cuyahoga_falls.xml"/>
+   <xml_include path="slot/corn-natives_ohio_territory-central.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

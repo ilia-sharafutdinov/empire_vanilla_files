@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_wichita_territory:wichita_falls:settlement_road</s>
+ <s>settlement_road</s>
+ <v2 x="-699.97925" y="240.42894"/>
+ <v2 x="-699.97925" y="240.42894"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -700.33282,241.41888
+  -699.62567,241.41888
+  -698.98932,240.78249
+  -698.98932,240.07539
+  -699.62567,239.439
+  -700.33282,239.439
+  -700.96918,240.07539
+  -700.96918,240.78249
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -700.33282,241.41888
+  -699.62567,241.41888
+  -698.98932,240.78249
+  -698.98932,240.07539
+  -699.62567,239.439
+  -700.33282,239.439
+  -700.96918,240.07539
+  -700.96918,240.78249
+ </v2_ary>
+</rec>

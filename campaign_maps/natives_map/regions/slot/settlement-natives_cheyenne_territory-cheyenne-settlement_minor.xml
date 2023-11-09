@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_cheyenne_territory:cheyenne:settlement_minor</s>
+ <s>settlement_minor</s>
+ <v2 x="-731.64343" y="288.46631"/>
+ <v2 x="-731.64343" y="288.46631"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -731.99701,289.45627
+  -731.28986,289.45627
+  -730.6535,288.81985
+  -730.6535,288.11276
+  -731.28986,287.47635
+  -731.99701,287.47635
+  -732.63336,288.11276
+  -732.63336,288.81985
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -731.99701,289.45627
+  -731.28986,289.45627
+  -730.6535,288.81985
+  -730.6535,288.11276
+  -731.28986,287.47635
+  -731.99701,287.47635
+  -732.63336,288.11276
+  -732.63336,288.81985
+ </v2_ary>
+</rec>

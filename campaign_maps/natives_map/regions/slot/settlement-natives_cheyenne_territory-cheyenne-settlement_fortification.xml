@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_cheyenne_territory:cheyenne:settlement_fortification</s>
+ <s>settlement_fortification</s>
+ <v2 x="-732.21857" y="289.04141"/>
+ <v2 x="-732.21857" y="289.04141"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -732.57214,290.03137
+  -731.86499,290.03137
+  -731.22864,289.39496
+  -731.22864,288.68787
+  -731.86499,288.05145
+  -732.57214,288.05145
+  -733.2085,288.68787
+  -733.2085,289.39496
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -732.57214,290.03137
+  -731.86499,290.03137
+  -731.22864,289.39496
+  -731.22864,288.68787
+  -731.86499,288.05145
+  -732.57214,288.05145
+  -733.2085,288.68787
+  -733.2085,289.39496
+ </v2_ary>
+</rec>

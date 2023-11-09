@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>wilderness_hudsonsbay</s>
+ <asc>land</asc>
+ <v2 x="-707.22668" y="355.62955"/>
+ <v2 x="-617.43506" y="392.42789"/>
+ <ary type="areas">
+  <xml_include path="area-1/wilderness_hudsonsbay-0000.xml"/>
+  <xml_include path="area-1/wilderness_hudsonsbay-0001.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

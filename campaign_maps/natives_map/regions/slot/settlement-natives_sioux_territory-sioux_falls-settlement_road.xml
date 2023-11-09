@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_sioux_territory:sioux_falls:settlement_road</s>
+ <s>settlement_road</s>
+ <v2 x="-688.51056" y="308.50586"/>
+ <v2 x="-688.51056" y="308.50586"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -688.86414,309.49582
+  -688.15698,309.49582
+  -687.52063,308.85941
+  -687.52063,308.15231
+  -688.15698,307.5159
+  -688.86414,307.5159
+  -689.50049,308.15231
+  -689.50049,308.85941
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -688.86414,309.49582
+  -688.15698,309.49582
+  -687.52063,308.85941
+  -687.52063,308.15231
+  -688.15698,307.5159
+  -688.86414,307.5159
+  -689.50049,308.15231
+  -689.50049,308.85941
+ </v2_ary>
+</rec>

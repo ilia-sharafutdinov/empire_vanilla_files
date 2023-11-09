@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<rec type="areas">
+ <yes/><!-- Land Bridge -->
+ <no/><!-- English Channel Coast -->
+ <yes/><!-- Passable -->
+ <v2 x="-403.81998" y="365.077"/>
+ <v2 x="-400.00089" y="368.20221"/>
+ <u2>8</u2><!-- Adjoning Passable Areas ID -->
+ <rec type="faces">
+  <u4_ary>
+   26372 <!-- -403.22168 365.89688-->
+   32079 <!-- -403.81998 366.81058-->
+   28974 <!-- -400.00089 366.28644-->
+   26372 <!-- -403.22168 365.89688-->
+   28974 <!-- -400.00089 366.28644-->
+   27866 <!-- -402.68488 365.077-->
+   32079 <!-- -403.81998 366.81058-->
+   26236 <!-- -400.95016 368.20221-->
+   28097 <!-- -400.47876 367.25079-->
+   32079 <!-- -403.81998 366.81058-->
+   28097 <!-- -400.47876 367.25079-->
+   28974 <!-- -400.00089 366.28644-->
+  </u4_ary>
+ </rec>
+ <ary type="outlines">
+  <rec type="outlines">
+   <yes/>
+   <v2 x="-403.81998" y="365.077"/>
+   <v2 x="-400.00089" y="368.20221"/>
+   <u4_ary>
+    28974 <!-- -400.00089 366.28644-->
+    28097 <!-- -400.47876 367.25079-->
+    26236 <!-- -400.95016 368.20221-->
+    32079 <!-- -403.81998 366.81058-->
+    26372 <!-- -403.22168 365.89688-->
+    27866 <!-- -402.68488 365.077-->
+   </u4_ary>
+   <ary type="connectivity">
+    <connectivity region="151 (atlantic_ocean_nw)" area="0" from="0" to="1"/>
+    <connectivity region="204 (natives_labrador)" area="0" from="2" to="2"/>
+    <connectivity region="151 (atlantic_ocean_nw)" area="0" from="3" to="4"/>
+    <connectivity region="205 (newfoundland)" area="0" from="5" to="5"/>
+   </ary>
+  </rec>
+ </ary>
+ <u2>53</u2><!-- Impassable Land Areas ID (65535=Passable) -->
+ <u2>65535</u2><!-- Island ID (65535=Navigable, 104=ETW Mainland) -->
+</rec>

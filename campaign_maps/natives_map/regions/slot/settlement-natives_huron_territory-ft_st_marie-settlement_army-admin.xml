@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_huron_territory:ft_st_marie:settlement_army-admin</s>
+ <s>settlement_army-admin</s>
+ <v2 x="-598.91278" y="330.65668"/>
+ <v2 x="-598.91278" y="330.65668"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -599.26636,331.64664
+  -598.5592,331.64664
+  -597.92285,331.01022
+  -597.92285,330.30313
+  -598.5592,329.66672
+  -599.26636,329.66672
+  -599.90271,330.30313
+  -599.90271,331.01022
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -599.26636,331.64664
+  -598.5592,331.64664
+  -597.92285,331.01022
+  -597.92285,330.30313
+  -598.5592,329.66672
+  -599.26636,329.66672
+  -599.90271,330.30313
+  -599.90271,331.01022
+ </v2_ary>
+</rec>

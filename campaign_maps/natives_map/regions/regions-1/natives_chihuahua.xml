@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>natives_chihuahua</s>
+ <asc>land</asc>
+ <v2 x="-760.00049" y="146.60846"/>
+ <v2 x="-716.02612" y="211.57774"/>
+ <ary type="areas">
+  <xml_include path="area-1/natives_chihuahua-0000.xml"/>
+  <xml_include path="area-1/natives_chihuahua-0001.xml"/>
+  <xml_include path="area-1/natives_chihuahua-0002.xml"/>
+  <xml_include path="area-1/natives_chihuahua-0003.xml"/>
+  <xml_include path="area-1/natives_chihuahua-0004.xml"/>
+  <xml_include path="area-1/natives_chihuahua-0005.xml"/>
+ </ary>
+ <i>0</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-747.61035" y="200.27591"/>
+  <v2_ary>
+   -747.61035,201.97318
+   -749.30762,200.27591
+   -747.61035,198.57864
+   -745.91309,200.27591
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-natives_chihuahua-chihuahua-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-natives_chihuahua-chihuahua-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-natives_chihuahua-chihuahua-settlement_road.xml"/>
+   <xml_include path="slot/town-natives_chihuahua-coyame.xml"/>
+   <xml_include path="slot/town-natives_chihuahua-mojada.xml"/>
+   <xml_include path="slot/silver-natives_chihuahua-south.xml"/>
+   <xml_include path="slot/corn-natives_chihuahua-rio_grande.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

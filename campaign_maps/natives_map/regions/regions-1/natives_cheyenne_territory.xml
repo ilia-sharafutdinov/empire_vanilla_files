@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>natives_cheyenne_territory</s>
+ <asc>land</asc>
+ <v2 x="-751.38324" y="249.29459"/>
+ <v2 x="-647.36127" y="315.75876"/>
+ <ary type="areas">
+  <xml_include path="area-1/natives_cheyenne_territory-0000.xml"/>
+ </ary>
+ <i>0</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-731.64343" y="288.46631"/>
+  <v2_ary>
+   -731.64343,290.16357
+   -733.3407,288.46631
+   -731.64343,286.76904
+   -729.94617,288.46631
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-natives_cheyenne_territory-cheyenne-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-natives_cheyenne_territory-cheyenne-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-natives_cheyenne_territory-cheyenne-settlement_road.xml"/>
+   <xml_include path="slot/town-natives_cheyenne_territory-omaha.xml"/>
+   <xml_include path="slot/town-natives_cheyenne_territory-kansas.xml"/>
+   <xml_include path="slot/corn-natives_cheyenne_territory-one.xml"/>
+   <xml_include path="slot/gold-natives_cheyenne_territory-rockies.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_chihuahua:chihuahua:settlement_fortification</s>
+ <s>settlement_fortification</s>
+ <v2 x="-748.18549" y="200.85101"/>
+ <v2 x="-748.18549" y="200.85101"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -748.53906,201.84096
+  -747.83191,201.84096
+  -747.19556,201.20456
+  -747.19556,200.49747
+  -747.83191,199.86107
+  -748.53906,199.86107
+  -749.17542,200.49747
+  -749.17542,201.20456
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -748.53906,201.84096
+  -747.83191,201.84096
+  -747.19556,201.20456
+  -747.19556,200.49747
+  -747.83191,199.86107
+  -748.53906,199.86107
+  -749.17542,200.49747
+  -749.17542,201.20456
+ </v2_ary>
+</rec>

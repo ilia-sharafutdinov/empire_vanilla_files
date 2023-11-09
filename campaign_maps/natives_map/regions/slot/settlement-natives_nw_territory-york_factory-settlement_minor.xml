@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_nw_territory:york_factory:settlement_minor</s>
+ <s>settlement_minor</s>
+ <v2 x="-656.03198" y="403.46799"/>
+ <v2 x="-656.03198" y="403.46799"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -656.38556,404.45795
+  -655.67841,404.45795
+  -655.04205,403.82153
+  -655.04205,403.11444
+  -655.67841,402.47803
+  -656.38556,402.47803
+  -657.02191,403.11444
+  -657.02191,403.82153
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -656.38556,404.45795
+  -655.67841,404.45795
+  -655.04205,403.82153
+  -655.04205,403.11444
+  -655.67841,402.47803
+  -656.38556,402.47803
+  -657.02191,403.11444
+  -657.02191,403.82153
+ </v2_ary>
+</rec>

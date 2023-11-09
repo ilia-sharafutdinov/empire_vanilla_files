@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_ohio_territory:fallen_timbers:settlement_road</s>
+ <s>settlement_road</s>
+ <v2 x="-589.36487" y="293.44275"/>
+ <v2 x="-589.36487" y="293.44275"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -589.71844,294.43271
+  -589.01129,294.43271
+  -588.37494,293.7963
+  -588.37494,293.0892
+  -589.01129,292.45279
+  -589.71844,292.45279
+  -590.3548,293.0892
+  -590.3548,293.7963
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -589.71844,294.43271
+  -589.01129,294.43271
+  -588.37494,293.7963
+  -588.37494,293.0892
+  -589.01129,292.45279
+  -589.71844,292.45279
+  -590.3548,293.0892
+  -590.3548,293.7963
+ </v2_ary>
+</rec>

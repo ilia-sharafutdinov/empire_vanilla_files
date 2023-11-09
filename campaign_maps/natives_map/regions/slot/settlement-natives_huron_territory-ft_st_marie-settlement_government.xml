@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_huron_territory:ft_st_marie:settlement_government</s>
+ <s>settlement_government</s>
+ <v2 x="-598.11133" y="331.44427"/>
+ <v2 x="-598.11133" y="331.44427"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -598.4649,332.43423
+  -597.75775,332.43423
+  -597.1214,331.79782
+  -597.1214,331.09073
+  -597.75775,330.45432
+  -598.4649,330.45432
+  -599.10126,331.09073
+  -599.10126,331.79782
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -598.4649,332.43423
+  -597.75775,332.43423
+  -597.1214,331.79782
+  -597.1214,331.09073
+  -597.75775,330.45432
+  -598.4649,330.45432
+  -599.10126,331.09073
+  -599.10126,331.79782
+ </v2_ary>
+</rec>

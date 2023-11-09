@@ -1,0 +1,8 @@
+<SCENE name="Scene">
+<LIGHTING name='Lighting' light_direction='euler(2.2400000,0.7400000,0.000000)' light_colour_scale='1.85000' light_colour='rgb(1.0,0.933,0.751)' ambient_cube_left='rgb(0.961,0.878,0.443)' ambient_cube_right='rgb(0.356,0.476,0.562)' ambient_cube_front='rgb(0.269,0.285,0.555)' ambient_cube_back='rgb(0.301,0.465,0.583)' ambient_cube_top='rgb(1.0,1.0,1.0)' ambient_cube_bottom='rgb(0.360140,0.330283,0.146663)' ambient_cube_scale='0.700000' hdr_bloom='0.20' hdr_cutoff='1.0' hdr_exposure='0.9' specular_scale='0.39' />
+<LIGHTING name='Alt Lighting' light_direction='euler(-2.06,1.12,0.000000)' light_colour_scale='1.660000' light_colour='rgb(0.975,0.953,0.909)' ambient_cube_left='rgb(0.618,0.681,0.727)' ambient_cube_right='rgb(0.455,0.585,0.769)' ambient_cube_front='rgb(0.613,0.655,0.709)' ambient_cube_back='rgb(0.497,0.621,0.737)' ambient_cube_top='rgb(0.40,0.53,0.730)' ambient_cube_bottom='rgb(0.51,0.71,0.84)' ambient_cube_scale='0.70000' hdr_bloom='0.25' hdr_cutoff='1.0' hdr_exposure='1.0' specular_scale='1.0'/>
+ <FOG name='Fog' fog_distance_start='1.000000' fog_distance_strength='0.000000' fog_distance_scale='0.000000' fog_height_top='0.000000' fog_height_strength='0.000000' fog_colour_blend='1.000000' volume_fog_colour='argb(1.000000,1.000000,1.000000,1.000000)' volume_fog_density='10.000000' />
+<POST_PROCESSING name='Post Processing' overlay='rgb(0.99,0.97,0.95)' 
+                 hue='15' />
+
+</SCENE>

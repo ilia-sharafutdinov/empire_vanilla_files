@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:iroquois_territory:cayuga_natives:settlement_army-admin</s>
+ <s>settlement_army-admin</s>
+ <v2 x="-543.81964" y="305.289"/>
+ <v2 x="-543.81964" y="305.289"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -544.17322,306.27896
+  -543.46606,306.27896
+  -542.82971,305.64255
+  -542.82971,304.93546
+  -543.46606,304.29904
+  -544.17322,304.29904
+  -544.80957,304.93546
+  -544.80957,305.64255
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -544.17322,306.27896
+  -543.46606,306.27896
+  -542.82971,305.64255
+  -542.82971,304.93546
+  -543.46606,304.29904
+  -544.17322,304.29904
+  -544.80957,304.93546
+  -544.80957,305.64255
+ </v2_ary>
+</rec>

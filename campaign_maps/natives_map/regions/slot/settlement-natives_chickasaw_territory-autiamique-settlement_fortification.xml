@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_chickasaw_territory:autiamique:settlement_fortification</s>
+ <s>settlement_fortification</s>
+ <v2 x="-638.51636" y="240.27748"/>
+ <v2 x="-638.51636" y="240.27748"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -638.86993,241.26743
+  -638.16278,241.26743
+  -637.52643,240.63103
+  -637.52643,239.92393
+  -638.16278,239.28754
+  -638.86993,239.28754
+  -639.50629,239.92393
+  -639.50629,240.63103
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -638.86993,241.26743
+  -638.16278,241.26743
+  -637.52643,240.63103
+  -637.52643,239.92393
+  -638.16278,239.28754
+  -638.86993,239.28754
+  -639.50629,239.92393
+  -639.50629,240.63103
+ </v2_ary>
+</rec>

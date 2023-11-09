@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>natives_sioux_territory</s>
+ <asc>land</asc>
+ <v2 x="-713.42834" y="274.11096"/>
+ <v2 x="-640.92755" y="342.43118"/>
+ <ary type="areas">
+  <xml_include path="area-1/natives_sioux_territory-0000.xml"/>
+ </ary>
+ <i>0</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-687.59998" y="309.50003"/>
+  <v2_ary>
+   -688.9978,308.01871
+   -687.53156,307.41135
+   -686.06531,308.01871
+   -685.45795,309.48495
+   -686.06531,310.9512
+   -687.53156,311.55856
+   -688.9978,310.9512
+   -689.60516,309.48495
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-natives_sioux_territory-sioux_falls-settlement_government.xml"/>
+   <xml_include path="slot/settlement-natives_sioux_territory-sioux_falls-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-natives_sioux_territory-sioux_falls-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-natives_sioux_territory-sioux_falls-settlement_road.xml"/>
+   <xml_include path="slot/settlement-natives_sioux_territory-sioux_falls-settlement_fortification.xml"/>
+   <xml_include path="slot/town-natives_sioux_territory-cedar_rapids.xml"/>
+   <xml_include path="slot/corn-natives_sioux_territory-main.xml"/>
+   <xml_include path="slot/town-natives_sioux_territory-onigamiinsing.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

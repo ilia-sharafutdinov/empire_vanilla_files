@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:pennsylvania:philadelphia_natives:settlement_fortification</s>
+ <s>settlement_fortification</s>
+ <v2 x="-534.83636" y="286.98123"/>
+ <v2 x="-534.83636" y="286.98123"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -535.18994,287.97119
+  -534.48279,287.97119
+  -533.84644,287.33478
+  -533.84644,286.62769
+  -534.48279,285.99127
+  -535.18994,285.99127
+  -535.82629,286.62769
+  -535.82629,287.33478
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -535.18994,287.97119
+  -534.48279,287.97119
+  -533.84644,287.33478
+  -533.84644,286.62769
+  -534.48279,285.99127
+  -535.18994,285.99127
+  -535.82629,286.62769
+  -535.82629,287.33478
+ </v2_ary>
+</rec>

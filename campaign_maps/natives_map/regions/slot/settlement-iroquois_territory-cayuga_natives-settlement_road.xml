@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:iroquois_territory:cayuga_natives:settlement_road</s>
+ <s>settlement_road</s>
+ <v2 x="-543.98358" y="304.29886"/>
+ <v2 x="-543.98358" y="304.29886"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -544.33716,305.28882
+  -543.63,305.28882
+  -542.99365,304.6524
+  -542.99365,303.94531
+  -543.63,303.3089
+  -544.33716,303.3089
+  -544.97351,303.94531
+  -544.97351,304.6524
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -544.33716,305.28882
+  -543.63,305.28882
+  -542.99365,304.6524
+  -542.99365,303.94531
+  -543.63,303.3089
+  -544.33716,303.3089
+  -544.97351,303.94531
+  -544.97351,304.6524
+ </v2_ary>
+</rec>

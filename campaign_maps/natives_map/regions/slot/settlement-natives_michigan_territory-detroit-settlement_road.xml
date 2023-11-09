@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_michigan_territory:detroit:settlement_road</s>
+ <s>settlement_road</s>
+ <v2 x="-592.49878" y="300.30426"/>
+ <v2 x="-592.49878" y="300.30426"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -592.85236,301.29422
+  -592.1452,301.29422
+  -591.50885,300.65781
+  -591.50885,299.95071
+  -592.1452,299.3143
+  -592.85236,299.3143
+  -593.48871,299.95071
+  -593.48871,300.65781
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -592.85236,301.29422
+  -592.1452,301.29422
+  -591.50885,300.65781
+  -591.50885,299.95071
+  -592.1452,299.3143
+  -592.85236,299.3143
+  -593.48871,299.95071
+  -593.48871,300.65781
+ </v2_ary>
+</rec>

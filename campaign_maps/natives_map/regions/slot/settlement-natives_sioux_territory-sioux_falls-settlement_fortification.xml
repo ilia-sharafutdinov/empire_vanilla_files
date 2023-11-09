@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:natives_sioux_territory:sioux_falls:settlement_fortification</s>
+ <s>settlement_fortification</s>
+ <v2 x="-686.55139" y="310.51596"/>
+ <v2 x="-686.55139" y="310.51596"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -686.90497,311.50592
+  -686.19781,311.50592
+  -685.56146,310.86951
+  -685.56146,310.16241
+  -686.19781,309.526
+  -686.90497,309.526
+  -687.54132,310.16241
+  -687.54132,310.86951
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -686.90497,311.50592
+  -686.19781,311.50592
+  -685.56146,310.86951
+  -685.56146,310.16241
+  -686.19781,309.526
+  -686.90497,309.526
+  -687.54132,310.16241
+  -687.54132,310.86951
+ </v2_ary>
+</rec>
