@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>crimea</s>
+ <asc>land</asc>
+ <v2 x="206.81836" y="315.64502"/>
+ <v2 x="283.54074" y="351.41418"/>
+ <ary type="areas">
+  <xml_include path="area-1/crimea-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

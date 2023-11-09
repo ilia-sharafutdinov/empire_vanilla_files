@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rec type="areas">
+ <no/><!-- Land Bridge -->
+ <no/><!-- English Channel Coast -->
+ <no/><!-- Passable -->
+ <v2 x="-339.12982" y="4.57763671875e-05"/>
+ <v2 x="-338.16766" y="2.415414810180664"/>
+ <u2>512</u2><!-- Adjoning Passable Areas ID -->
+ <rec type="faces">
+  <u4_ary>
+   34385 <!-- -338.32043 4.57763671875e-05-->
+   25748 <!-- -339.12982 2.3119964599609375-->
+   26421 <!-- -322.24896 20.000213623046875-->
+  </u4_ary>
+ </rec>
+ <ary type="outlines">
+  <rec type="outlines">
+   <yes/>
+   <v2 x="-339.12982" y="4.57763671875e-05"/>
+   <v2 x="-338.16766" y="2.415414810180664"/>
+   <u4_ary>
+    60278 <!-- -338.16766 0.19016115367412567-->
+    60379 <!-- -338.99127 2.338895082473755-->
+    60365 <!-- -339.03113 2.415414810180664-->
+    25748 <!-- -339.12982 2.3119964599609375-->
+    34385 <!-- -338.32043 4.57763671875e-05-->
+   </u4_ary>
+   <ary type="connectivity">
+    <connectivity region="149 (atlantic_ocean_w)" area="2" from="0" to="1"/>
+    <connectivity region="149 (atlantic_ocean_w)" area="1" from="2" to="2"/>
+    <connectivity region="147 (amazonas)" area="5" from="3" to="3"/>
+    <connectivity region="7 (atlantic_ocean_sw)" area="1" from="4" to="4"/>
+   </ary>
+  </rec>
+ </ary>
+ <u2>56</u2><!-- Impassable Land Areas ID (65535=Passable) -->
+ <u2>34</u2><!-- Island ID (65535=Navigable, 104=ETW Mainland) -->
+</rec>

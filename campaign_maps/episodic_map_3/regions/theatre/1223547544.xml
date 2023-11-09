@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rec type="theatres">
+ <rec type="theatre">
+  <s>1223547544</s>
+  <v2 x="-760.0" y="0.0"/>
+  <v2 x="-340.0" y="460.0"/>
+  <no/>
+  <climate_map pgm="maps/climate_map-0001.pgm"/>
+  <climate_map pgm="maps/climate_map-0002.pgm"/>
+  <wind_map sea_phillips_constant="0.007296009920537472" pgm="maps/wind_map-0001.pgm"/>
+  <ary type="transition_areas"/>
+ </rec>
+</rec>

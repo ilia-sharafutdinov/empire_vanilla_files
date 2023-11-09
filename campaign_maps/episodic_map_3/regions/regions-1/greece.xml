@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>greece</s>
+ <asc>land</asc>
+ <v2 x="137.55119" y="248.13861"/>
+ <v2 x="186.98633" y="295.89142"/>
+ <ary type="areas">
+  <xml_include path="area-1/greece-0000.xml"/>
+  <xml_include path="area-1/greece-0001.xml"/>
+  <xml_include path="area-1/greece-0002.xml"/>
+  <xml_include path="area-1/greece-0003.xml"/>
+  <xml_include path="area-1/greece-0004.xml"/>
+  <xml_include path="area-1/greece-0005.xml"/>
+  <xml_include path="area-1/greece-0006.xml"/>
+  <xml_include path="area-1/greece-0007.xml"/>
+  <xml_include path="area-1/greece-0008.xml"/>
+  <xml_include path="area-1/greece-0009.xml"/>
+  <xml_include path="area-1/greece-0010.xml"/>
+  <xml_include path="area-1/greece-0011.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

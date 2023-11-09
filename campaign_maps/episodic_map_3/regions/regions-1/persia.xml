@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>persia</s>
+ <asc>land</asc>
+ <v2 x="331.42804" y="188.34456"/>
+ <v2 x="438.71185" y="262.48999"/>
+ <ary type="areas">
+  <xml_include path="area-1/persia-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>
