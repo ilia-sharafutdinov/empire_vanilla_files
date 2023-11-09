@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>virginia</s>
+ <asc>land</asc>
+ <v2 x="-571.59534" y="259.99973"/>
+ <v2 x="-534.71216" y="280.23019"/>
+ <ary type="areas">
+  <xml_include path="area-1/virginia-0000.xml"/>
+  <xml_include path="area-1/virginia-0001.xml"/>
+  <xml_include path="area-1/virginia-0002.xml"/>
+  <xml_include path="area-1/virginia-0003.xml"/>
+  <xml_include path="area-1/virginia-0004.xml"/>
+ </ary>
+ <i>0</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-546.64429" y="265.37769"/>
+  <v2_ary>
+   -544.40387,265.33887
+   -545.04065,266.96341
+   -546.66516,267.60312
+   -548.27808,266.99365
+   -548.88464,265.38074
+   -548.24786,263.7562
+   -546.62329,263.11942
+   -545.01038,263.72595
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-virginia-williamsburg-settlement_army-admin.xml"/>
+   <xml_include path="slot/settlement-virginia-williamsburg-settlement_culture.xml"/>
+   <xml_include path="slot/settlement-virginia-williamsburg-settlement_ordnance.xml"/>
+   <xml_include path="slot/settlement-virginia-williamsburg-settlement_government.xml"/>
+   <xml_include path="slot/town-virginia-richmond.xml"/>
+   <xml_include path="slot/port-virginia-yorktown.xml"/>
+   <xml_include path="slot/southern_usa-virginia-central.xml"/>
+   <xml_include path="slot/corn-virginia-north.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

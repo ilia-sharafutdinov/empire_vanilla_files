@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>delaware_and_new_jersey</s>
+ <asc>land</asc>
+ <v2 x="-538.89862" y="273.31238"/>
+ <v2 x="-525.44214" y="294.54312"/>
+ <ary type="areas">
+  <xml_include path="area-1/delaware_and_new_jersey-0000.xml"/>
+  <xml_include path="area-1/delaware_and_new_jersey-0001.xml"/>
+ </ary>
+ <i>0</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-536.87372" y="279.69632"/>
+  <v2_ary>
+   -536.87372,281.39359
+   -538.57098,279.69632
+   -536.87372,277.99905
+   -535.17645,279.69632
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-delaware_and_new_jersey-dover-settlement_government.xml"/>
+   <xml_include path="slot/port-delaware_and_new_jersey-lewes.xml"/>
+   <xml_include path="slot/town-delaware_and_new_jersey-newark.xml"/>
+   <xml_include path="slot/iron-delaware_and_new_jersey-north.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>hannover</s>
+ <asc>land</asc>
+ <v2 x="57.66261672973633" y="363.5784"/>
+ <v2 x="79.77428436279297" y="384.17715"/>
+ <ary type="areas">
+  <xml_include path="area-1/hannover-0000.xml"/>
+  <xml_include path="area-1/hannover-0001.xml"/>
+  <xml_include path="area-1/hannover-0002.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

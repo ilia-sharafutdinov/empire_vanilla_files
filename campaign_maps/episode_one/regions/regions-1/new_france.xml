@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>new_france</s>
+ <asc>land</asc>
+ <v2 x="-555.00043" y="320.27386"/>
+ <v2 x="-456.33057" y="385.00006"/>
+ <ary type="areas">
+  <xml_include path="area-1/new_france-0000.xml"/>
+  <xml_include path="area-1/new_france-0001.xml"/>
+  <xml_include path="area-1/new_france-0002.xml"/>
+  <xml_include path="area-1/new_france-0003.xml"/>
+  <xml_include path="area-1/new_france-0004.xml"/>
+  <xml_include path="area-1/new_france-0005.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

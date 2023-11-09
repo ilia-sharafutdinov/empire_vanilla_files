@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>podolia</s>
+ <asc>land</asc>
+ <v2 x="183.71564" y="338.7316"/>
+ <v2 x="235.48006" y="357.55869"/>
+ <ary type="areas">
+  <xml_include path="area-1/podolia-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

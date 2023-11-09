@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>muscovy</s>
+ <asc>land</asc>
+ <v2 x="196.27422" y="367.42279"/>
+ <v2 x="327.15619" y="434.32297"/>
+ <ary type="areas">
+  <xml_include path="area-1/muscovy-0000.xml"/>
+  <xml_include path="area-1/muscovy-0001.xml"/>
+  <xml_include path="area-1/muscovy-0002.xml"/>
+  <xml_include path="area-1/muscovy-0003.xml"/>
+  <xml_include path="area-1/muscovy-0004.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

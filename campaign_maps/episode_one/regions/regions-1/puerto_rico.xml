@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>puerto_rico</s>
+ <asc>land</asc>
+ <v2 x="-478.57431" y="127.02103"/>
+ <v2 x="-465.7951" y="132.10201"/>
+ <ary type="areas">
+  <xml_include path="area-1/puerto_rico-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

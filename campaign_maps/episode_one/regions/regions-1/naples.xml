@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>naples</s>
+ <asc>land</asc>
+ <v2 x="88.65357" y="260.79962"/>
+ <v2 x="131.91565" y="305.39212"/>
+ <ary type="areas">
+  <xml_include path="area-1/naples-0000.xml"/>
+  <xml_include path="area-1/naples-0001.xml"/>
+  <xml_include path="area-1/naples-0002.xml"/>
+  <xml_include path="area-1/naples-0003.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

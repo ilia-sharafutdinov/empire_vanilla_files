@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:virginia:williamsburg:settlement_army-admin</s>
+ <s>settlement_army-admin</s>
+ <v2 x="-547.40289" y="265.36374"/>
+ <v2 x="-547.40289" y="265.36374"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -547.75647,266.3537
+  -547.04932,266.3537
+  -546.41296,265.71729
+  -546.41296,265.01019
+  -547.04932,264.37378
+  -547.75647,264.37378
+  -548.39282,265.01019
+  -548.39282,265.71729
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -547.75647,266.3537
+  -547.04932,266.3537
+  -546.41296,265.71729
+  -546.41296,265.01019
+  -547.04932,264.37378
+  -547.75647,264.37378
+  -548.39282,265.01019
+  -548.39282,265.71729
+ </v2_ary>
+</rec>

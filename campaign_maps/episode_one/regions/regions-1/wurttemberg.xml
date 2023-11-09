@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>wurttemberg</s>
+ <asc>land</asc>
+ <v2 x="54.03375244140625" y="337.75208"/>
+ <v2 x="71.27177429199219" y="353.21341"/>
+ <ary type="areas">
+  <xml_include path="area-1/wurttemberg-0000.xml"/>
+  <xml_include path="area-1/wurttemberg-0001.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

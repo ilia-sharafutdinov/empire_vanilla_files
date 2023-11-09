@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>courland</s>
+ <asc>land</asc>
+ <v2 x="149.20354" y="396.6265"/>
+ <v2 x="186.66925" y="410.68997"/>
+ <ary type="areas">
+  <xml_include path="area-1/courland-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

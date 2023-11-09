@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>tunis</s>
+ <asc>land</asc>
+ <v2 x="54.99968" y="202.37073"/>
+ <v2 x="88.04922485351562" y="265.66736"/>
+ <ary type="areas">
+  <xml_include path="area-1/tunis-0000.xml"/>
+  <xml_include path="area-1/tunis-0001.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>morocco</s>
+ <asc>land</asc>
+ <v2 x="-112.8932" y="169.05379"/>
+ <v2 x="-12.158882141113281" y="254.71277"/>
+ <ary type="areas">
+  <xml_include path="area-1/morocco-0000.xml"/>
+  <xml_include path="area-1/morocco-0001.xml"/>
+  <xml_include path="area-1/morocco-0002.xml"/>
+  <xml_include path="area-1/morocco-0003.xml"/>
+  <xml_include path="area-1/morocco-0004.xml"/>
+  <xml_include path="area-1/morocco-0005.xml"/>
+  <xml_include path="area-1/morocco-0006.xml"/>
+  <xml_include path="area-1/morocco-0007.xml"/>
+  <xml_include path="area-1/morocco-0008.xml"/>
+  <xml_include path="area-1/morocco-0009.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

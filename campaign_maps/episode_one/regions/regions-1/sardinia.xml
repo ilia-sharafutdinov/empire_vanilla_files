@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>sardinia</s>
+ <asc>land</asc>
+ <v2 x="57.99381637573242" y="276.24414"/>
+ <v2 x="69.82116" y="293.2739"/>
+ <ary type="areas">
+  <xml_include path="area-1/sardinia-0000.xml"/>
+  <xml_include path="area-1/sardinia-0001.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>serbia</s>
+ <asc>land</asc>
+ <v2 x="133.69464" y="301.00467"/>
+ <v2 x="166.92697" y="333.94931"/>
+ <ary type="areas">
+  <xml_include path="area-1/serbia-0000.xml"/>
+  <xml_include path="area-1/serbia-0001.xml"/>
+  <xml_include path="area-1/serbia-0002.xml"/>
+  <xml_include path="area-1/serbia-0003.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

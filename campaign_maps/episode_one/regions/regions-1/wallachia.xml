@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>wallachia</s>
+ <asc>land</asc>
+ <v2 x="160.87775" y="309.83148"/>
+ <v2 x="201.04518" y="326.48187"/>
+ <ary type="areas">
+  <xml_include path="area-1/wallachia-0000.xml"/>
+  <xml_include path="area-1/wallachia-0001.xml"/>
+  <xml_include path="area-1/wallachia-0002.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

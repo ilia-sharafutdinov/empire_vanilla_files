@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>norway</s>
+ <asc>land</asc>
+ <v2 x="33.09461212158203" y="412.32312"/>
+ <v2 x="221.3867" y="506.21899"/>
+ <ary type="areas">
+  <xml_include path="area-1/norway-0000.xml"/>
+  <xml_include path="area-1/norway-0001.xml"/>
+  <xml_include path="area-1/norway-0002.xml"/>
+  <xml_include path="area-1/norway-0003.xml"/>
+  <xml_include path="area-1/norway-0004.xml"/>
+  <xml_include path="area-1/norway-0005.xml"/>
+  <xml_include path="area-1/norway-0006.xml"/>
+  <xml_include path="area-1/norway-0007.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>tuscany</s>
+ <asc>land</asc>
+ <v2 x="72.96998596191406" y="299.22739"/>
+ <v2 x="88.6188" y="315.87262"/>
+ <ary type="areas">
+  <xml_include path="area-1/tuscany-0000.xml"/>
+  <xml_include path="area-1/tuscany-0001.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

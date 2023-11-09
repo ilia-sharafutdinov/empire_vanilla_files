@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<esf magic="43981">
+ <node_types>
+  <node_type name="root"/>
+  <node_type name="theatres"/>
+  <node_type name="theatre"/>
+  <node_type name="climate_map"/>
+  <node_type name="wind_map"/>
+  <node_type name="transition_areas"/>
+  <node_type name="region_data"/>
+  <node_type name="vertices"/>
+  <node_type name="regions"/>
+  <node_type name="areas"/>
+  <node_type name="faces"/>
+  <node_type name="outlines"/>
+  <node_type name="connectivity"/>
+  <node_type name="settlement_and_slots"/>
+  <node_type name="slot_descriptions"/>
+  <node_type name="roads"/>
+  <node_type name="links"/>
+  <node_type name="railways"/>
+  <node_type name="canals"/>
+  <node_type name="mountain_data"/>
+  <node_type name="MOUNTAIN_OUTLINES"/>
+  <node_type name="OUTLINE_BLOCK"/>
+  <node_type name="BOUNDS_BLOCK"/>
+  <node_type name="climate_indices"/>
+  <node_type name="land_indices"/>
+  <node_type name="sea_indices"/>
+  <node_type name="query_info"/>
+  <node_type name="node"/>
+  <node_type name="bottom_left"/>
+  <node_type name="cell"/>
+  <node_type name="top_left"/>
+  <node_type name="bottom_right"/>
+  <node_type name="top_right"/>
+  <node_type name="groundtypes"/>
+  <node_type name="groundtype_indices_list"/>
+  <node_type name="groundtype_index"/>
+  <node_type name="map_heights"/>
+  <node_type name="MAP_HEIGHT_AREA"/>
+ </node_types>
+ <rec type="root">
+  <ary type="theatres">
+   <xml_include path="theatre/1193846682.xml"/>
+  </ary>
+  <xml_include path="region_data-0001.xml"/>
+  <xml_include path="mountains.xml"/>
+  <rec type="climate_indices">
+   <land_indices>
+    lc_am_desert=15
+    lc_am_great_plains=18
+    lc_am_jungle=20
+    lc_am_s_arid=21
+    lc_am_se_usa=16
+    lc_am_tropical_humid=13
+    lc_am_us_east=17
+    lc_as_temp_humid=9
+    lc_as_temp_s_arid=10
+    lc_as_trop_humid=7
+    lc_as_trop_s_arid=5
+    lc_boreal=1
+    lc_desert=6
+    lc_eu_north_humid=19
+    lc_eu_north_s_arid=12
+    lc_eu_south_humid=3
+    lc_eu_south_s_arid=2
+    lc_jungle=14
+    lc_mediterranean=4
+    lc_sand_desert=11
+    lc_steppe=8
+    lc_tundra=0
+   </land_indices>
+   <sea_indices>
+    sc_arctic=22
+    sc_arctic_coast=27
+    sc_lake=31
+    sc_mediterranean=26
+    sc_subtropic=24
+    sc_subtropic_coast=29
+    sc_temperate=23
+    sc_temperate_coast=28
+    sc_tropic=25
+    sc_tropic_coast=30
+   </sea_indices>
+  </rec>
+  <xml_include path="query_info-0001.xml"/>
+  <rec type="groundtypes">
+   <xml_include path="region_data-0002.xml"/>
+   <xml_include path="query_info-0002.xml"/>
+   <rec type="groundtype_indices_list">
+    <groundtype_index>
+     plains
+     dense_forest
+     swamp
+     swamp
+     jungle
+    </groundtype_index>
+   </rec>
+  </rec>
+  <rec type="map_heights">
+   <ary type="MAP_HEIGHT_AREA"/>
+  </rec>
+ </rec>
+</esf>

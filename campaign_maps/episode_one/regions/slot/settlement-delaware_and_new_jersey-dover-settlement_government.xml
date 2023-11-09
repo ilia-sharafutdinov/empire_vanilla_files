@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:delaware_and_new_jersey:dover:settlement_government</s>
+ <s>settlement_government</s>
+ <v2 x="-536.87372" y="279.69632"/>
+ <v2 x="-536.87372" y="279.69632"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -537.22729,280.68628
+  -536.52014,280.68628
+  -535.88379,280.04987
+  -535.88379,279.34277
+  -536.52014,278.70636
+  -537.22729,278.70636
+  -537.86365,279.34277
+  -537.86365,280.04987
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -537.22729,280.68628
+  -536.52014,280.68628
+  -535.88379,280.04987
+  -535.88379,279.34277
+  -536.52014,278.70636
+  -537.22729,278.70636
+  -537.86365,279.34277
+  -537.86365,280.04987
+ </v2_ary>
+</rec>

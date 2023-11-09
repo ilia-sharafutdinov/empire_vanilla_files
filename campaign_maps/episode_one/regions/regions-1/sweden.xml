@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>sweden</s>
+ <asc>land</asc>
+ <v2 x="77.89977" y="391.08176"/>
+ <v2 x="206.71161" y="488.70398"/>
+ <ary type="areas">
+  <xml_include path="area-1/sweden-0000.xml"/>
+  <xml_include path="area-1/sweden-0001.xml"/>
+  <xml_include path="area-1/sweden-0002.xml"/>
+  <xml_include path="area-1/sweden-0003.xml"/>
+  <xml_include path="area-1/sweden-0004.xml"/>
+  <xml_include path="area-1/sweden-0005.xml"/>
+  <xml_include path="area-1/sweden-0006.xml"/>
+  <xml_include path="area-1/sweden-0007.xml"/>
+  <xml_include path="area-1/sweden-0008.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

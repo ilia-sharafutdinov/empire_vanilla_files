@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>travancore</s>
+ <asc>land</asc>
+ <v2 x="532.47168" y="57.74522399902344"/>
+ <v2 x="551.26843" y="90.19855"/>
+ <ary type="areas">
+  <xml_include path="area-1/travancore-0000.xml"/>
+  <xml_include path="area-1/travancore-0001.xml"/>
+  <xml_include path="area-1/travancore-0002.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>belize</s>
+ <asc>land</asc>
+ <v2 x="-637.44312" y="113.78268"/>
+ <v2 x="-626.32849" y="130.73785"/>
+ <ary type="areas">
+  <xml_include path="area-1/belize-0000.xml"/>
+  <xml_include path="area-1/belize-0001.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

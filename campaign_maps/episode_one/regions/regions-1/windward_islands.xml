@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>windward_islands</s>
+ <asc>land</asc>
+ <v2 x="-436.88818" y="92.63611602783203"/>
+ <v2 x="-421.73779" y="106.67345428466797"/>
+ <ary type="areas">
+  <xml_include path="area-1/windward_islands-0000.xml"/>
+  <xml_include path="area-1/windward_islands-0001.xml"/>
+  <xml_include path="area-1/windward_islands-0002.xml"/>
+  <xml_include path="area-1/windward_islands-0003.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

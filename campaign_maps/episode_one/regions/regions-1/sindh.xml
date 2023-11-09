@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>sindh</s>
+ <asc>land</asc>
+ <v2 x="471.27014" y="164.99994"/>
+ <v2 x="507.92215" y="203.92068"/>
+ <ary type="areas">
+  <xml_include path="area-1/sindh-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

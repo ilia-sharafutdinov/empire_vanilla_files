@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>kashmir</s>
+ <asc>land</asc>
+ <v2 x="510.65393" y="217.97449"/>
+ <v2 x="562.72668" y="250.58981"/>
+ <ary type="areas">
+  <xml_include path="area-1/kashmir-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

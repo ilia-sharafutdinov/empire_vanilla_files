@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>mesopotamia</s>
+ <asc>land</asc>
+ <v2 x="291.9689" y="208.51201"/>
+ <v2 x="352.26984" y="272.2785"/>
+ <ary type="areas">
+  <xml_include path="area-1/mesopotamia-0000.xml"/>
+  <xml_include path="area-1/mesopotamia-0001.xml"/>
+  <xml_include path="area-1/mesopotamia-0002.xml"/>
+  <xml_include path="area-1/mesopotamia-0003.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

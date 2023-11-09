@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<rec type="areas">
+ <no/><!-- Land Bridge -->
+ <no/><!-- English Channel Coast -->
+ <no/><!-- Passable -->
+ <v2 x="-571.59534" y="259.99973"/>
+ <v2 x="-570.00061" y="261.66345"/>
+ <u2>815</u2><!-- Adjoning Passable Areas ID -->
+ <rec type="faces">
+  <u4_ary>
+   9810 <!-- -570.00061 261.66345-->
+   56723 <!-- -570.00061 260.00012-->
+   46911 <!-- -571.59534 259.99973-->
+  </u4_ary>
+ </rec>
+ <ary type="outlines">
+  <rec type="outlines">
+   <yes/>
+   <v2 x="-571.59534" y="259.99973"/>
+   <v2 x="-570.00061" y="261.66345"/>
+   <u4_ary>
+    9810 <!-- -570.00061 261.66345-->
+    46911 <!-- -571.59534 259.99973-->
+    56723 <!-- -570.00061 260.00012-->
+   </u4_ary>
+   <ary type="connectivity">
+    <connectivity region="189 (kaintuck_territory)" area="1" from="0" to="0"/>
+    <connectivity region="187 (north_carolina)" area="2" from="1" to="1"/>
+    <connectivity region="190 (virginia)" area="2" from="2" to="2"/>
+   </ary>
+  </rec>
+ </ary>
+ <u2>0</u2><!-- Impassable Land Areas ID (65535=Passable) -->
+ <u2>0</u2><!-- Island ID (65535=Navigable, 104=ETW Mainland) -->
+</rec>

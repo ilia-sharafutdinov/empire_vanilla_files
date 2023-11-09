@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>netherlands</s>
+ <asc>land</asc>
+ <v2 x="27.45771" y="366.78046"/>
+ <v2 x="49.2000732421875" y="381.95486"/>
+ <ary type="areas">
+  <xml_include path="area-1/netherlands-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

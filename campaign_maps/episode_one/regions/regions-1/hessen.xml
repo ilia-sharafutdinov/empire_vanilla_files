@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>hessen</s>
+ <asc>land</asc>
+ <v2 x="48.94334" y="350.80188"/>
+ <v2 x="77.4871" y="370.33994"/>
+ <ary type="areas">
+  <xml_include path="area-1/hessen-0000.xml"/>
+  <xml_include path="area-1/hessen-0001.xml"/>
+  <xml_include path="area-1/hessen-0002.xml"/>
+  <xml_include path="area-1/hessen-0003.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

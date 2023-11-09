@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>michigan_territory</s>
+ <asc>land</asc>
+ <v2 x="-615.91559" y="274.63525"/>
+ <v2 x="-573.85608" y="325.42682"/>
+ <ary type="areas">
+  <xml_include path="area-1/michigan_territory-0000.xml"/>
+  <xml_include path="area-1/michigan_territory-0001.xml"/>
+  <xml_include path="area-1/michigan_territory-0002.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

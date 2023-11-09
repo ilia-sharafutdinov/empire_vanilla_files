@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>dalmatia</s>
+ <asc>land</asc>
+ <v2 x="107.95903" y="295.48813"/>
+ <v2 x="149.26392" y="316.42825"/>
+ <ary type="areas">
+  <xml_include path="area-1/dalmatia-0000.xml"/>
+  <xml_include path="area-1/dalmatia-0001.xml"/>
+  <xml_include path="area-1/dalmatia-0002.xml"/>
+  <xml_include path="area-1/dalmatia-0003.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

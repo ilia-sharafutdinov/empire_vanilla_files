@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<rec type="areas">
+ <no/><!-- Land Bridge -->
+ <no/><!-- English Channel Coast -->
+ <no/><!-- Passable -->
+ <v2 x="-550.68927" y="186.28944"/>
+ <v2 x="-547.79572" y="190.0002"/>
+ <u2>65535</u2><!-- Adjoning Passable Areas ID -->
+ <ary type="outlines">
+  <rec type="outlines">
+   <yes/>
+   <v2 x="-550.68927" y="186.28944"/>
+   <v2 x="-547.79572" y="190.0002"/>
+   <u4_ary>
+    46549 <!-- -549.38593 189.9998-->
+    46315 <!-- -549.64362 189.83696-->
+    599 <!-- -550.00024 189.7794-->
+    191 <!-- -550.23169 189.74207-->
+    138 <!-- -550.68927 190.0002-->
+    2075 <!-- -550.66486 189.00166-->
+    3470 <!-- -550.00061 188.64479-->
+    5923 <!-- -549.22992 188.19385-->
+    9151 <!-- -549.12738 186.7244-->
+    7827 <!-- -548.74573 186.28944-->
+    9721 <!-- -547.99042 186.60448-->
+    10406 <!-- -547.79907 186.89355-->
+    2665 <!-- -547.86462 187.26334-->
+    3633 <!-- -547.91724 187.56039-->
+    2204 <!-- -547.85229 187.9386-->
+    5530 <!-- -547.79572 188.26807-->
+    4785 <!-- -548.34296 189.00302-->
+   </u4_ary>
+   <ary type="connectivity">
+    <connectivity region="3 (jungle)" area="15" from="0" to="3"/>
+    <connectivity region="0 (plains)" area="0" from="4" to="7"/>
+    <connectivity region="3 (jungle)" area="16" from="8" to="8"/>
+    <connectivity region="0 (plains)" area="0" from="9" to="10"/>
+    <connectivity region="3 (jungle)" area="18" from="11" to="14"/>
+    <connectivity region="0 (plains)" area="0" from="15" to="16"/>
+   </ary>
+  </rec>
+ </ary>
+ <u2>65535</u2>
+ <u2>65535</u2><!-- Impassable Land Areas ID (65535=Passable) -->
+</rec>

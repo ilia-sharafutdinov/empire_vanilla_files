@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:virginia:williamsburg:settlement_government</s>
+ <s>settlement_government</s>
+ <v2 x="-546.63177" y="266.13483"/>
+ <v2 x="-546.63177" y="266.13483"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -546.98535,267.12479
+  -546.2782,267.12479
+  -545.64185,266.48837
+  -545.64185,265.78128
+  -546.2782,265.14487
+  -546.98535,265.14487
+  -547.6217,265.78128
+  -547.6217,266.48837
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -546.98535,267.12479
+  -546.2782,267.12479
+  -545.64185,266.48837
+  -545.64185,265.78128
+  -546.2782,265.14487
+  -546.98535,265.14487
+  -547.6217,265.78128
+  -547.6217,266.48837
+ </v2_ary>
+</rec>

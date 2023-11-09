@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>genoa</s>
+ <asc>land</asc>
+ <v2 x="54.229366302490234" y="311.3533"/>
+ <v2 x="75.82758" y="320.29367"/>
+ <ary type="areas">
+  <xml_include path="area-1/genoa-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

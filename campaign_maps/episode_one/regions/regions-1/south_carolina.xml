@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>south_carolina</s>
+ <asc>land</asc>
+ <v2 x="-587.79681" y="226.51685"/>
+ <v2 x="-558.09631" y="249.99992"/>
+ <ary type="areas">
+  <xml_include path="area-1/south_carolina-0000.xml"/>
+  <xml_include path="area-1/south_carolina-0001.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

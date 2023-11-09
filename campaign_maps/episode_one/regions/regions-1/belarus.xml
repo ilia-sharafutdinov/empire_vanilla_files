@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>belarus</s>
+ <asc>land</asc>
+ <v2 x="177.27762" y="350.82892"/>
+ <v2 x="227.74811" y="393.53134"/>
+ <ary type="areas">
+  <xml_include path="area-1/belarus-0000.xml"/>
+  <xml_include path="area-1/belarus-0001.xml"/>
+  <xml_include path="area-1/belarus-0002.xml"/>
+  <xml_include path="area-1/belarus-0003.xml"/>
+  <xml_include path="area-1/belarus-0004.xml"/>
+  <xml_include path="area-1/belarus-0005.xml"/>
+  <xml_include path="area-1/belarus-0006.xml"/>
+  <xml_include path="area-1/belarus-0007.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

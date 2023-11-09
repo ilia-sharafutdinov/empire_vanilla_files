@@ -1,0 +1,1188 @@
+<?xml version="1.0"?>
+<rec type="grid_data">
+ <v2x x="-569.0" y="261.0"/><!-- Starting Point -->
+ <u2>356</u2><!-- Starting X Cell -->
+ <u2>451</u2><!-- Starting Y Cell -->
+ <i>2097152</i><!-- Dimension Of Cells (2.0) -->
+ <u>20</u><!-- Columns -->
+ <u>10</u><!-- Rows -->
+ <!-- Boundingbox(-569.0,261.0,-529.0,281.0) -->
+ <u>433</u><!-- Number Of Traits + Number Of Empty Cells -->
+ <u2>5</u2><!-- Number Of Passable Regions -->
+ <u2>5</u2><!-- Number Of Listed Regions (generally equals to the previous number, but not compulsory) -->
+ <i2_ary>
+  189 <!-- new_york -->
+  190 <!-- new_england -->
+  157 <!-- french_guyana -->
+  192 <!-- iroquois_territory -->
+  191 <!-- ontario -->
+ </i2_ary>
+ <u2_ary>
+  1
+  2
+  3
+  4
+  5
+  2
+  1
+  2
+  2
+  2
+  4
+  2
+  4
+  5
+ </u2_ary>
+ <ary type="grid_cells">
+  <rec type="grid_cells">
+   <bin6>ff 01 ff ff ; 01 01 01 01</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="4 (of 255)" unknown2="65536 (10000)" path_type="0 (passable area)" path_id="0 (?)" vertex_index="5"/><!-- 22 (-569.0,262.85725593566895); 24 (-568.963550567627,262.90074348449707); 25 (-568.9418611526489,262.92662048339844); 26 (-568.8803567886353,263.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="11"/><!-- 22 (-569.0,262.85725593566895); 0; 4 (-567.3065395355225,261.0); 7 (-567.0,261.3678493499756); 3; 26 (-568.8803567886353,263.0); 25 (-568.9418611526489,262.92662048339844); 24 (-568.963550567627,262.90074348449707) -->
+    <boundaries passable_part="1 (of 255)" unknown2="4096 (01000)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="20"/><!-- 2; 7 (-567.0,261.3678493499756); 4 (-567.3065395355225,261.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>a4 ff ff ff ; 01 01 01 ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="24"/><!-- 7 (-567.0,261.3678493499756); 17 (-566.1090087890625,262.4370422363281); 27 (-566.001787185669,263.0); 1 -->
+    <boundaries passable_part="141 (of 255)" unknown2="69664 (11020)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="29"/><!-- 0; 2; 3; 27 (-566.001787185669,263.0); 17 (-566.1090087890625,262.4370422363281); 7 (-567.0,261.3678493499756) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 b4 53 40 ; 01 01 01 a4</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="143 (of 255)" unknown2="69648 (11010)" path_type="0 (passable area)" path_id="1 (?)"/>
+   <bin6><!-- 1 Empty Cells -->
+    40 44 40 40 ; 01 01 01 40 ; 00 01 11 8f
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 01 01 01 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="135 (of 255)" unknown2="74256 (12210)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="36"/><!-- 0; 2; 19 (-559.0,262.5057067871094); 18 (-559.4922485351562,262.5057067871094); 28 (-559.986494064331,263.0); 1 -->
+    <boundaries passable_part="13 (of 255)" unknown2="135424 (21100)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="43"/><!-- 3; 28 (-559.986494064331,263.0); 18 (-559.4922485351562,262.5057067871094); 19 (-559.0,262.5057067871094) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 01 01 01 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="131616 (20220)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="48"/><!-- 19 (-559.0,262.5057067871094); 20 (-558.7850952148438,262.5057067871094); 29 (-558.290849685669,263.0); 1 -->
+    <boundaries passable_part="141 (of 255)" unknown2="69904 (11110)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="53"/><!-- 0; 2; 3; 29 (-558.290849685669,263.0); 20 (-558.7850952148438,262.5057067871094); 19 (-559.0,262.5057067871094) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 01 01 01 40</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="143 (of 255)" unknown2="69664 (11020)" path_type="0 (passable area)" path_id="1 (?)"/>
+   <bin6><!-- 6 Empty Cells -->
+    40 40 40 40 ; 01 01 01 40 ; 00 01 11 8f
+    97 40 40 40 ; 01 01 01 40 ; 00 01 11 8f
+    ff 4c 4f 4e ; 01 01 01 97 ; 00 01 11 8f
+    6e 4b 4a 49 ; 01 01 01 ff ; 00 01 11 8f
+    40 40 40 40 ; 01 01 01 6e ; 00 01 21 8f
+    40 40 40 40 ; 01 01 01 40 ; 00 01 21 8f
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 01 01 01 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="135 (of 255)" unknown2="135184 (21010)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="60"/><!-- 0; 2; 14 (-541.0,262.2504234313965); 21 (-542.3467464447021,262.7092294692993); 30 (-542.668309211731,263.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="67"/><!-- 3; 30 (-542.668309211731,263.0); 21 (-542.3467464447021,262.7092294692993); 14 (-541.0,262.2504234313965) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>bf 40 57 5e ; 01 01 01 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="72"/><!-- 14 (-541.0,262.2504234313965); 12 (-540.2288541793823,261.9877119064331); 11 (-540.0534267425537,261.8650007247925); 9 (-540.1023836135864,261.53333282470703); 5 (-539.9265356063843,261.0); 2; 8 (-539.0,261.38341522216797); 10 (-539.0785245895386,261.62157440185547); 13 (-539.0,262.1535472869873); 16 (-539.0,262.34849548339844); 23 (-539.7720003128052,262.8885087966919); 31 (-540.0992641448975,263.0); 1 -->
+    <boundaries passable_part="128 (of 255)" unknown2="16 (00010)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="86"/><!-- 0; 5 (-539.9265356063843,261.0); 9 (-540.1023836135864,261.53333282470703); 11 (-540.0534267425537,261.8650007247925); 12 (-540.2288541793823,261.9877119064331); 14 (-541.0,262.2504234313965) -->
+    <boundaries passable_part="13 (of 255)" unknown2="69632 (11000)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="93"/><!-- 3; 31 (-540.0992641448975,263.0); 23 (-539.7720003128052,262.8885087966919); 16 (-539.0,262.34849548339844) -->
+    <boundaries passable_part="1 (of 255)" unknown2="4096 (01000)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="98"/><!-- 13 (-539.0,262.1535472869873); 10 (-539.0785245895386,261.62157440185547); 8 (-539.0,261.38341522216797) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>8d ae 6e 5c ; 01 01 01 ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="143 (of 255)" unknown2="69680 (11030)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="102"/><!-- 16 (-539.0,262.34849548339844); 15 (-538.9739170074463,262.33025074005127); 13 (-539.0,262.1535472869873); 8 (-539.0,261.38341522216797); 6 (-538.8735818862915,261.0); 2; 3; 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="111"/><!-- 13 (-539.0,262.1535472869873); 15 (-538.9739170074463,262.33025074005127); 16 (-539.0,262.34849548339844) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="115"/><!-- 0; 6 (-538.8735818862915,261.0); 8 (-539.0,261.38341522216797) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>8c ae 6c 5b ; 01 01 01 e2</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="143 (of 255)" unknown2="69648 (11010)" path_type="1 (sea boundary)" path_id="0 (?)"/>
+   <bin6><!-- 3 Empty Cells -->
+    8b ad 6c 5a ; 01 01 01 e3 ; 01 01 11 8f
+    86 ae 6d 56 ; 01 01 01 e3 ; 01 01 11 8f
+    01 b1 6b 01 ; 01 01 01 e6 ; 01 01 10 86
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff 01 ff ff ; 01 ff ff 01</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="36 (of 255)" unknown2="65537 (10001)" path_type="0 (passable area)" path_id="0 (?)" vertex_index="119"/><!-- 0; 26 (-568.8803567886353,263.0); 41 (-568.5796508789062,263.3587646484375); 71 (-567.9818115234375,264.99981689453125); 72 (-567.9817571640015,265.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="126"/><!-- 2; 3; 72 (-567.9817571640015,265.0); 71 (-567.9818115234375,264.99981689453125); 41 (-568.5796508789062,263.3587646484375); 26 (-568.8803567886353,263.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff ff ff ff ; ff ff b4 ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="133"/><!-- 0; 27 (-566.001787185669,263.0); 59 (-565.808349609375,264.015625); 73 (-566.2912588119507,265.0); 1 -->
+    <boundaries passable_part="109 (of 255)" unknown2="69633 (11001)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="139"/><!-- 2; 3; 73 (-566.2912588119507,265.0); 59 (-565.808349609375,264.015625); 27 (-566.001787185669,263.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>45 ff ff 48 ; ff 53 44 ff</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="69649 (11011)" path_type="0 (passable area)" path_id="1 (?)"/>
+   <bin6><!-- 1 Empty Cells -->
+    40 42 40 40 ; 40 40 40 45 ; 10 01 11 ff
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="191 (of 255)" unknown2="70161 (11211)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="145"/><!-- 0; 28 (-559.986494064331,263.0); 33 (-560.1286010742188,263.1421203613281); 57 (-560.1286010742188,263.8492126464844); 62 (-559.4922485351562,264.4856262207031); 63 (-559.0,264.4856262207031); 3; 1 -->
+    <boundaries passable_part="97 (of 255)" unknown2="8450 (02102)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="154"/><!-- 2; 63 (-559.0,264.4856262207031); 62 (-559.4922485351562,264.4856262207031); 57 (-560.1286010742188,263.8492126464844); 33 (-560.1286010742188,263.1421203613281); 28 (-559.986494064331,263.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="239 (of 255)" unknown2="70162 (11212)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="161"/><!-- 63 (-559.0,264.4856262207031); 64 (-558.7850952148438,264.4856262207031); 58 (-558.1487426757812,263.8492126464844); 34 (-558.1487426757812,263.1421203613281); 29 (-558.290849685669,263.0); 2; 3; 1 -->
+    <boundaries passable_part="176 (of 255)" unknown2="289 (00121)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="170"/><!-- 0; 29 (-558.290849685669,263.0); 34 (-558.1487426757812,263.1421203613281); 58 (-558.1487426757812,263.8492126464844); 64 (-558.7850952148438,264.4856262207031); 63 (-559.0,264.4856262207031) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="69649 (11011)" path_type="0 (passable area)" path_id="1 (?)"/>
+   <bin6><!-- 3 Empty Cells -->
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 4c 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 4f 4b 40 ; 10 01 11 ff
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 4e 4a 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="247 (of 255)" unknown2="74257 (12211)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="177"/><!-- 0; 2; 35 (-547.0,263.2670726776123); 56 (-548.2478637695312,263.7561950683594); 74 (-548.7354040145874,265.0); 1 -->
+    <boundaries passable_part="13 (of 255)" unknown2="135424 (21100)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="184"/><!-- 3; 74 (-548.7354040145874,265.0); 56 (-548.2478637695312,263.7561950683594); 35 (-547.0,263.2670726776123) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 49 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="143 (of 255)" unknown2="70176 (11220)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="189"/><!-- 35 (-547.0,263.2670726776123); 32 (-546.623291015625,263.1194152832031); 54 (-545.0103759765625,263.7259521484375); 55 (-545.0,263.7535457611084); 3; 1 -->
+    <boundaries passable_part="241 (of 255)" unknown2="8465 (02111)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="196"/><!-- 0; 2; 55 (-545.0,263.7535457611084); 54 (-545.0103759765625,263.7259521484375); 32 (-546.623291015625,263.1194152832031); 35 (-547.0,263.2670726776123) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="131600 (20210)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="203"/><!-- 55 (-545.0,263.7535457611084); 75 (-544.5312938690186,265.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="207"/><!-- 46 (-543.0,263.5131711959839); 47 (-543.0284252166748,263.5184917449951); 40 (-543.0604381561279,263.3545789718628); 37 (-543.0,263.29992866516113) -->
+    <boundaries passable_part="245 (of 255)" unknown2="76065 (12921)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="212"/><!-- 0; 2; 37 (-543.0,263.29992866516113); 40 (-543.0604381561279,263.3545789718628); 47 (-543.0284252166748,263.5184917449951); 49 (-543.6194458007812,263.6291198730469); 60 (-544.0189208984375,264.2125549316406); 76 (-543.8715257644653,265.0); 75 (-544.5312938690186,265.0); 55 (-545.0,263.7535457611084) -->
+    <boundaries passable_part="1 (of 255)" unknown2="18432 (04800)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="223"/><!-- 46 (-543.0,263.5131711959839); 50 (-543.0,263.6640377044678); 47 (-543.0284252166748,263.5184917449951) -->
+    <boundaries passable_part="13 (of 255)" unknown2="267776 (41600)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="227"/><!-- 47 (-543.0284252166748,263.5184917449951); 50 (-543.0,263.6640377044678); 3; 76 (-543.8715257644653,265.0); 60 (-544.0189208984375,264.2125549316406); 49 (-543.6194458007812,263.6291198730469) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>58 40 48 50 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="525440 (80480)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="234"/><!-- 50 (-543.0,263.6640377044678); 77 (-542.7390832901001,265.0); 1 -->
+    <boundaries passable_part="176 (of 255)" unknown2="33 (00021)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="238"/><!-- 0; 30 (-542.668309211731,263.0); 37 (-543.0,263.29992866516113) -->
+    <boundaries passable_part="132 (of 255)" unknown2="131392 (20140)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="242"/><!-- 46 (-543.0,263.5131711959839); 44 (-542.7348022460938,263.4635314941406); 78 (-542.447172164917,265.0); 77 (-542.7390832901001,265.0); 50 (-543.0,263.6640377044678) -->
+    <boundaries passable_part="5 (of 255)" unknown2="530432 (81800)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="248"/><!-- 68 (-541.0,264.7386360168457); 70 (-541.1131391525269,264.911395072937); 82 (-541.0901050567627,265.0); 81 (-541.3015518188477,265.0); 66 (-541.0028076171875,264.56365966796875); 51 (-541.1683959960938,263.67901611328125); 45 (-541.4753942489624,263.46881580352783); 38 (-541.0,263.3068599700928) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="257"/><!-- 68 (-541.0,264.7386360168457); 3; 82 (-541.0901050567627,265.0); 70 (-541.1131391525269,264.911395072937) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="262"/><!-- 37 (-543.0,263.29992866516113); 30 (-542.668309211731,263.0); 2; 38 (-541.0,263.3068599700928); 45 (-541.4753942489624,263.46881580352783); 36 (-541.7518310546875,263.279541015625); 43 (-542.636474609375,263.44512939453125); 79 (-542.3454513549805,265.0); 78 (-542.447172164917,265.0); 44 (-542.7348022460938,263.4635314941406); 46 (-543.0,263.5131711959839) -->
+    <boundaries passable_part="4 (of 255)" unknown2="264192 (40800)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="274"/><!-- 81 (-541.3015518188477,265.0); 80 (-541.7201900482178,265.0); 53 (-541.9706897735596,263.7173833847046); 48 (-541.8290348052979,263.58929347991943); 45 (-541.4753942489624,263.46881580352783); 51 (-541.1683959960938,263.67901611328125); 66 (-541.0028076171875,264.56365966796875) -->
+    <boundaries passable_part="4 (of 255)" unknown2="0 (00000)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="282"/><!-- 45 (-541.4753942489624,263.46881580352783); 48 (-541.8290348052979,263.58929347991943); 53 (-541.9706897735596,263.7173833847046); 80 (-541.7201900482178,265.0); 79 (-542.3454513549805,265.0); 43 (-542.636474609375,263.44512939453125); 36 (-541.7518310546875,263.279541015625) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>65 40 dc e4 ; 40 97 cd 76</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="290"/><!-- 68 (-541.0,264.7386360168457); 52 (-540.3205690383911,263.70116996765137); 39 (-539.1300706863403,263.3321590423584); 42 (-539.0,263.44474697113037); 69 (-539.0,264.7673349380493); 61 (-539.3645582199097,264.4517774581909); 65 (-539.6810178756714,264.5498676300049); 83 (-539.9758062362671,265.0); 1 -->
+    <boundaries passable_part="13 (of 255)" unknown2="69632 (11000)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="300"/><!-- 3; 83 (-539.9758062362671,265.0); 65 (-539.6810178756714,264.5498676300049); 61 (-539.3645582199097,264.4517774581909); 69 (-539.0,264.7673349380493) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="306"/><!-- 0; 31 (-540.0992641448975,263.0); 38 (-541.0,263.3068599700928) -->
+    <boundaries passable_part="225 (of 255)" unknown2="4161 (01041)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="310"/><!-- 38 (-541.0,263.3068599700928); 31 (-540.0992641448975,263.0); 2; 42 (-539.0,263.44474697113037); 39 (-539.1300706863403,263.3321590423584); 52 (-540.3205690383911,263.70116996765137); 68 (-541.0,264.7386360168457) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>8d 9c 72 5d ; f4 ef ce 82</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="65552 (10010)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="318"/><!-- 69 (-539.0,264.7673349380493); 84 (-538.7312059402466,265.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="322"/><!-- 42 (-539.0,263.44474697113037); 67 (-537.5424737930298,264.70636463165283); 85 (-537.4344816207886,265.0); 84 (-538.7312059402466,265.0); 69 (-539.0,264.7673349380493) -->
+    <boundaries passable_part="253 (of 255)" unknown2="69649 (11011)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="328"/><!-- 0; 2; 3; 85 (-537.4344816207886,265.0); 67 (-537.5424737930298,264.70636463165283); 42 (-539.0,263.44474697113037) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>8c b1 6f 5b ; f4 f0 ce e2</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="69649 (11011)" path_type="1 (sea boundary)" path_id="0 (?)"/>
+   <bin6><!-- 3 Empty Cells -->
+    8c af 6f 5b ; f4 f0 ce e3 ; 11 01 11 ff
+    88 af 6d 58 ; f5 ef cb e3 ; 11 01 11 ff
+    01 b0 6c 01 ; f5 f0 01 e5 ; 11 01 10 b6
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff 01 ff ff ; 01 ff ff 01</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="45 (of 255)" unknown2="69633 (11001)" path_type="0 (passable area)" path_id="0 (?)" vertex_index="335"/><!-- 0; 72 (-567.9817571640015,265.0); 104 (-567.7423572540283,265.8076753616333); 103 (-567.1614379882812,265.66937255859375); 102 (-567.0,265.5576763153076); 3; 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="343"/><!-- 2; 102 (-567.0,265.5576763153076); 103 (-567.1614379882812,265.66937255859375); 104 (-567.7423572540283,265.8076753616333); 72 (-567.9817571640015,265.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff ff ff 90 ; ff ff ff ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="239 (of 255)" unknown2="69649 (11011)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="349"/><!-- 102 (-567.0,265.5576763153076); 89 (-566.3412475585938,265.1018981933594); 73 (-566.2912588119507,265.0); 2; 3; 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="356"/><!-- 0; 73 (-566.2912588119507,265.0); 89 (-566.3412475585938,265.1018981933594); 102 (-567.0,265.5576763153076) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>42 ff 4f 42 ; ff ff 42 ff</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="69649 (11011)" path_type="0 (passable area)" path_id="1 (?)"/>
+   <bin6><!-- 5 Empty Cells -->
+    40 40 40 40 ; 48 40 40 42 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="255 (of 255)" unknown2="201233 (31211)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="361"/><!-- 0; 2; 3; 115 (-551.4646701812744,267.0); 110 (-551.5597534179688,266.9049072265625); 109 (-552.2669067382812,266.9049072265625); 114 (-552.3619899749756,267.0); 1 -->
+    <boundaries passable_part="4 (of 255)" unknown2="262400 (40100)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="370"/><!-- 114 (-552.3619899749756,267.0); 109 (-552.2669067382812,266.9049072265625); 110 (-551.5597534179688,266.9049072265625); 115 (-551.4646701812744,267.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="69649 (11011)" path_type="0 (passable area)" path_id="1 (?)"/>
+   <bin6><!-- 0 Empty Cells -->
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="182 (of 255)" unknown2="66065 (10211)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="375"/><!-- 0; 74 (-548.7354040145874,265.0); 99 (-548.8846435546875,265.3807373046875); 113 (-548.278076171875,266.99365234375); 116 (-548.2612781524658,267.0); 1 -->
+    <boundaries passable_part="109 (of 255)" unknown2="135426 (21102)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="382"/><!-- 2; 3; 116 (-548.2612781524658,267.0); 113 (-548.278076171875,266.99365234375); 99 (-548.8846435546875,265.3807373046875); 74 (-548.7354040145874,265.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="247 (of 255)" unknown2="139809 (22221)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="389"/><!-- 0; 2; 108 (-545.0,266.8597049713135); 111 (-545.0406494140625,266.9634094238281); 117 (-545.1335697174072,267.0); 1 -->
+    <boundaries passable_part="13 (of 255)" unknown2="69888 (11100)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="396"/><!-- 3; 117 (-545.1335697174072,267.0); 111 (-545.0406494140625,266.9634094238281); 108 (-545.0,266.8597049713135) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="175 (of 255)" unknown2="71202 (11622)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="401"/><!-- 108 (-545.0,266.8597049713135); 96 (-544.4038696289062,265.3388671875); 75 (-544.5312938690186,265.0); 76 (-543.8715257644653,265.0); 88 (-543.8533325195312,265.0971984863281); 101 (-543.2698364257812,265.4966735839844); 100 (-543.0,265.44616508483887); 3; 1 -->
+    <boundaries passable_part="176 (of 255)" unknown2="273 (00111)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="411"/><!-- 0; 75 (-544.5312938690186,265.0); 96 (-544.4038696289062,265.3388671875); 108 (-545.0,266.8597049713135) -->
+    <boundaries passable_part="97 (of 255)" unknown2="33032 (08108)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="416"/><!-- 2; 100 (-543.0,265.44616508483887); 101 (-543.2698364257812,265.4966735839844); 88 (-543.8533325195312,265.0971984863281); 76 (-543.8715257644653,265.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>6a 40 54 5d ; 40 58 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="67600 (10810)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="422"/><!-- 100 (-543.0,265.44616508483887); 98 (-542.6465997695923,265.38001537323); 107 (-542.2208938598633,266.5236520767212); 118 (-542.2997226715088,267.0); 1 -->
+    <boundaries passable_part="32 (of 255)" unknown2="2052 (00804)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="428"/><!-- 78 (-542.447172164917,265.0); 95 (-542.3851928710938,265.3310852050781); 98 (-542.6465997695923,265.38001537323); 92 (-542.6850261688232,265.27678394317627); 77 (-542.7390832901001,265.0) -->
+    <boundaries passable_part="32 (of 255)" unknown2="0 (00000)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="434"/><!-- 81 (-541.3015518188477,265.0); 90 (-541.4022827148438,265.1471252441406); 91 (-541.6490659713745,265.19330978393555); 86 (-541.7192707061768,265.0047092437744); 80 (-541.7201900482178,265.0) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="440"/><!-- 2; 97 (-541.0,265.3466053009033); 82 (-541.0901050567627,265.0) -->
+    <boundaries passable_part="176 (of 255)" unknown2="833 (00341)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="444"/><!-- 0; 77 (-542.7390832901001,265.0); 92 (-542.6850261688232,265.27678394317627); 98 (-542.6465997695923,265.38001537323); 100 (-543.0,265.44616508483887) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="450"/><!-- 79 (-542.3454513549805,265.0); 94 (-542.2869262695312,265.31268310546875); 91 (-541.6490659713745,265.19330978393555); 106 (-541.1908493041992,266.42428493499756); 119 (-541.2861223220825,267.0); 118 (-542.2997226715088,267.0); 107 (-542.2208938598633,266.5236520767212); 98 (-542.6465997695923,265.38001537323); 95 (-542.3851928710938,265.3310852050781); 78 (-542.447172164917,265.0) -->
+    <boundaries passable_part="45 (of 255)" unknown2="70148 (11204)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="461"/><!-- 82 (-541.0901050567627,265.0); 97 (-541.0,265.3466053009033); 3; 119 (-541.2861223220825,267.0); 106 (-541.1908493041992,266.42428493499756); 91 (-541.6490659713745,265.19330978393555); 90 (-541.4022827148438,265.1471252441406); 81 (-541.3015518188477,265.0) -->
+    <boundaries passable_part="32 (of 255)" unknown2="1024 (00400)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="470"/><!-- 80 (-541.7201900482178,265.0); 86 (-541.7192707061768,265.0047092437744); 91 (-541.6490659713745,265.19330978393555); 94 (-542.2869262695312,265.31268310546875); 79 (-542.3454513549805,265.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff b8 7d 9c ; 50 dc 9c 98</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="65664 (10080)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="476"/><!-- 97 (-541.0,265.3466053009033); 120 (-540.5701770782471,267.0); 1 -->
+    <boundaries passable_part="109 (of 255)" unknown2="135169 (21001)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="480"/><!-- 2; 3; 121 (-539.5288066864014,267.0); 112 (-539.5412950515747,266.9832468032837); 87 (-540.0338335037231,265.088604927063); 83 (-539.9758062362671,265.0) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="487"/><!-- 0; 83 (-539.9758062362671,265.0); 87 (-540.0338335037231,265.088604927063); 112 (-539.5412950515747,266.9832468032837); 121 (-539.5288066864014,267.0); 120 (-540.5701770782471,267.0); 97 (-541.0,265.3466053009033) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>6e b6 72 56 ; e4 9b cb ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="182 (of 255)" unknown2="65553 (10011)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="495"/><!-- 0; 84 (-538.7312059402466,265.0); 93 (-538.3919744491577,265.29363536834717); 122 (-537.7644157409668,267.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="501"/><!-- 85 (-537.4344816207886,265.0); 105 (-537.0,266.1813774108887); 3; 122 (-537.7644157409668,267.0); 93 (-538.3919744491577,265.29363536834717); 84 (-538.7312059402466,265.0) -->
+    <boundaries passable_part="97 (of 255)" unknown2="4097 (01001)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="508"/><!-- 2; 105 (-537.0,266.1813774108887); 85 (-537.4344816207886,265.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>8c 40 58 5c ; f4 ef cd 98</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="512"/><!-- 105 (-537.0,266.1813774108887); 123 (-536.6989316940308,267.0); 1 -->
+    <boundaries passable_part="253 (of 255)" unknown2="69649 (11011)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="516"/><!-- 0; 2; 3; 123 (-536.6989316940308,267.0); 105 (-537.0,266.1813774108887) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>8c af 6f 5b ; f4 ef cd e3</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="69649 (11011)" path_type="1 (sea boundary)" path_id="0 (?)"/>
+   <bin6><!-- 3 Empty Cells -->
+    88 af 6d 58 ; f4 ef cc e3 ; 11 01 11 ff
+    01 b0 6c 01 ; f5 ef 01 e5 ; 11 01 10 b6
+    ff 01 67 5e ; 01 ff ff 01 ; 10 00 11 6d
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>59 52 4c 49 ; ff ff ff ff</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="69649 (11011)" path_type="0 (passable area)" path_id="1 (?)"/>
+   <bin6><!-- 6 Empty Cells -->
+    40 40 40 40 ; 90 4f 40 59 ; 10 01 11 ff
+    40 40 40 40 ; 42 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="191 (of 255)" unknown2="70673 (11411)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="522"/><!-- 0; 114 (-552.3619899749756,267.0); 127 (-552.9032592773438,267.54132080078125); 133 (-552.9032592773438,268.2484130859375); 143 (-552.2669067382812,268.88482666015625); 144 (-551.5597534179688,268.88482666015625); 136 (-551.0,268.3250198364258); 3; 1 -->
+    <boundaries passable_part="97 (of 255)" unknown2="5121 (01401)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="532"/><!-- 2; 125 (-551.0,267.46471405029297); 115 (-551.4646701812744,267.0) -->
+    <boundaries passable_part="33 (of 255)" unknown2="8962 (02302)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="536"/><!-- 115 (-551.4646701812744,267.0); 125 (-551.0,267.46471405029297); 136 (-551.0,268.3250198364258); 144 (-551.5597534179688,268.88482666015625); 143 (-552.2669067382812,268.88482666015625); 133 (-552.9032592773438,268.2484130859375); 127 (-552.9032592773438,267.54132080078125); 114 (-552.3619899749756,267.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="255 (of 255)" unknown2="70193 (11231)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="545"/><!-- 136 (-551.0,268.3250198364258); 134 (-550.9234008789062,268.2484130859375); 128 (-550.9234008789062,267.54132080078125); 125 (-551.0,267.46471405029297); 0; 2; 3; 1 -->
+    <boundaries passable_part="128 (of 255)" unknown2="320 (00140)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="554"/><!-- 125 (-551.0,267.46471405029297); 128 (-550.9234008789062,267.54132080078125); 134 (-550.9234008789062,268.2484130859375); 136 (-551.0,268.3250198364258) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="191 (of 255)" unknown2="70161 (11211)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="559"/><!-- 0; 116 (-548.2612781524658,267.0); 126 (-547.0,267.47659492492676); 3; 1 -->
+    <boundaries passable_part="97 (of 255)" unknown2="8450 (02102)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="565"/><!-- 2; 126 (-547.0,267.47659492492676); 116 (-548.2612781524658,267.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="239 (of 255)" unknown2="70162 (11212)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="569"/><!-- 126 (-547.0,267.47659492492676); 129 (-546.6651611328125,267.6031188964844); 117 (-545.1335697174072,267.0); 2; 3; 1 -->
+    <boundaries passable_part="176 (of 255)" unknown2="289 (00121)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="576"/><!-- 0; 117 (-545.1335697174072,267.0); 129 (-546.6651611328125,267.6031188964844); 126 (-547.0,267.47659492492676) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="69649 (11011)" path_type="0 (passable area)" path_id="1 (?)"/>
+   <bin6><!-- 0 Empty Cells -->
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>60 40 4f 40 ; 40 78 c5 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="182 (of 255)" unknown2="65553 (10011)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="581"/><!-- 0; 118 (-542.2997226715088,267.0); 145 (-542.6263999938965,268.97404861450195); 146 (-542.6654109954834,269.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="587"/><!-- 119 (-541.2861223220825,267.0); 147 (-541.617094039917,269.0); 146 (-542.6654109954834,269.0); 145 (-542.6263999938965,268.97404861450195); 118 (-542.2997226715088,267.0) -->
+    <boundaries passable_part="101 (of 255)" unknown2="69640 (11008)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="593"/><!-- 2; 140 (-541.0,268.7715244293213); 141 (-541.0130290985107,268.7804832458496); 148 (-541.068886756897,269.0); 147 (-541.617094039917,269.0); 119 (-541.2861223220825,267.0) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="600"/><!-- 140 (-541.0,268.7715244293213); 3; 148 (-541.068886756897,269.0); 141 (-541.0130290985107,268.7804832458496) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>49 40 40 40 ; f4 a4 b6 94</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="605"/><!-- 140 (-541.0,268.7715244293213); 135 (-540.3007478713989,268.29070949554443); 132 (-539.9977722167969,268.0441017150879); 124 (-540.4599256515503,267.4241027832031); 120 (-540.5701770782471,267.0); 121 (-539.5288066864014,267.0); 130 (-539.0,267.70941829681396); 139 (-539.0,268.5213460922241); 149 (-539.588059425354,269.0); 1 -->
+    <boundaries passable_part="13 (of 255)" unknown2="135168 (21000)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="616"/><!-- 3; 149 (-539.588059425354,269.0); 139 (-539.0,268.5213460922241) -->
+    <boundaries passable_part="97 (of 255)" unknown2="4097 (01001)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="620"/><!-- 2; 130 (-539.0,267.70941829681396); 121 (-539.5288066864014,267.0) -->
+    <boundaries passable_part="176 (of 255)" unknown2="17 (00011)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="624"/><!-- 0; 120 (-540.5701770782471,267.0); 124 (-540.4599256515503,267.4241027832031); 132 (-539.9977722167969,268.0441017150879); 135 (-540.3007478713989,268.29070949554443); 140 (-541.0,268.7715244293213) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 9c 72 40 49</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="182 (of 255)" unknown2="262193 (40031)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="631"/><!-- 139 (-539.0,268.5213460922241); 137 (-538.8391075134277,268.3903865814209); 131 (-538.7896070480347,267.9916696548462); 130 (-539.0,267.70941829681396); 0; 122 (-537.7644157409668,267.0); 150 (-537.0288648605347,269.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="640"/><!-- 130 (-539.0,267.70941829681396); 131 (-538.7896070480347,267.9916696548462); 137 (-538.8391075134277,268.3903865814209); 139 (-539.0,268.5213460922241) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="645"/><!-- 2; 3; 150 (-537.0288648605347,269.0); 122 (-537.7644157409668,267.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>64 40 40 40 ; 56 97 cc 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="650"/><!-- 0; 123 (-536.6989316940308,267.0); 138 (-536.1650085449219,268.4517631530762); 142 (-535.0,268.8825445175171); 3; 1 -->
+    <boundaries passable_part="97 (of 255)" unknown2="4097 (01001)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="657"/><!-- 2; 142 (-535.0,268.8825445175171); 138 (-536.1650085449219,268.4517631530762); 123 (-536.6989316940308,267.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>89 40 5b 5b ; f4 ee cd 92</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="662"/><!-- 142 (-535.0,268.8825445175171); 151 (-534.68235206604,269.0); 1 -->
+    <boundaries passable_part="253 (of 255)" unknown2="69649 (11011)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="666"/><!-- 0; 2; 3; 151 (-534.68235206604,269.0); 142 (-535.0,268.8825445175171) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>88 b5 72 59 ; f4 ef cc e4</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="69649 (11011)" path_type="1 (sea boundary)" path_id="0 (?)"/>
+   <bin6><!-- 2 Empty Cells -->
+    01 b2 6d 01 ; f5 ef 01 e5 ; 11 01 10 b6
+    40 01 40 40 ; 01 67 52 01 ; 10 00 11 6d
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 5e 4c 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="255 (of 255)" unknown2="332305 (51211)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="672"/><!-- 0; 2; 3; 203 (-565.8427581787109,271.0); 175 (-566.0054454803467,269.9248867034912); 170 (-566.071704864502,269.74139308929443); 168 (-566.2031412124634,269.59722423553467); 164 (-566.3797435760498,269.51432704925537); 163 (-566.5746250152588,269.5053234100342); 167 (-566.7581186294556,269.57158279418945); 169 (-566.9022874832153,269.7030191421509); 173 (-566.9851846694946,269.8796215057373); 176 (-566.9941883087158,270.0745029449463); 202 (-566.8541412353516,271.0); 1 -->
+    <boundaries passable_part="4 (of 255)" unknown2="131328 (20100)" path_type="0 (passable area)" path_id="5 (?)" vertex_index="688"/><!-- 202 (-566.8541412353516,271.0); 176 (-566.9941883087158,270.0745029449463); 173 (-566.9851846694946,269.8796215057373); 169 (-566.9022874832153,269.7030191421509); 167 (-566.7581186294556,269.57158279418945); 163 (-566.5746250152588,269.5053234100342); 164 (-566.3797435760498,269.51432704925537); 168 (-566.2031412124634,269.59722423553467); 170 (-566.071704864502,269.74139308929443); 175 (-566.0054454803467,269.9248867034912); 203 (-565.8427581787109,271.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 49 40 40 40</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="69649 (11011)" path_type="0 (passable area)" path_id="1 (?)"/>
+   <bin6><!-- 8 Empty Cells -->
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="247 (of 255)" unknown2="266257 (41011)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="700"/><!-- 0; 2; 180 (-545.0,270.2770719528198); 182 (-545.2011051177979,270.3735103607178); 200 (-546.7502346038818,270.9863386154175); 204 (-546.7585229873657,271.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="708"/><!-- 3; 204 (-546.7585229873657,271.0); 200 (-546.7502346038818,270.9863386154175); 182 (-545.2011051177979,270.3735103607178); 180 (-545.0,270.2770719528198) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>4f 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="714"/><!-- 180 (-545.0,270.2770719528198); 165 (-543.5138292312622,269.5643939971924); 155 (-543.0,269.22257900238037); 184 (-543.0,270.42363262176514); 185 (-543.018274307251,270.43578910827637); 188 (-543.0897598266602,270.4700689315796); 191 (-543.0,270.5027742385864); 3; 1 -->
+    <boundaries passable_part="241 (of 255)" unknown2="4113 (01011)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="724"/><!-- 0; 2; 155 (-543.0,269.22257900238037); 165 (-543.5138292312622,269.5643939971924); 180 (-545.0,270.2770719528198) -->
+    <boundaries passable_part="1 (of 255)" unknown2="4096 (01000)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="730"/><!-- 191 (-543.0,270.5027742385864); 188 (-543.0897598266602,270.4700689315796); 185 (-543.018274307251,270.43578910827637); 184 (-543.0,270.42363262176514) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 6a 40 6a</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="735"/><!-- 191 (-543.0,270.5027742385864); 193 (-542.8312339782715,270.5642671585083); 198 (-542.6770524978638,270.95715141296387); 205 (-542.7130117416382,271.0); 1 -->
+    <boundaries passable_part="176 (of 255)" unknown2="17 (00011)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="741"/><!-- 0; 146 (-542.6654109954834,269.0); 155 (-543.0,269.22257900238037) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="745"/><!-- 155 (-543.0,269.22257900238037); 146 (-542.6654109954834,269.0); 147 (-541.617094039917,269.0); 166 (-541.7107572555542,269.5659875869751); 184 (-543.0,270.42363262176514) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="751"/><!-- 2; 197 (-541.0,270.88118267059326); 192 (-541.4344806671143,270.5165767669678); 174 (-541.2938652038574,269.88415241241455); 148 (-541.068886756897,269.0) -->
+    <boundaries passable_part="160 (of 255)" unknown2="2065 (00811)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="757"/><!-- 184 (-543.0,270.42363262176514); 166 (-541.7107572555542,269.5659875869751); 147 (-541.617094039917,269.0); 148 (-541.068886756897,269.0); 174 (-541.2938652038574,269.88415241241455); 192 (-541.4344806671143,270.5165767669678); 183 (-541.5636596679688,270.4081726074219); 187 (-542.26806640625,270.46978759765625); 198 (-542.6770524978638,270.95715141296387); 193 (-542.8312339782715,270.5642671585083); 191 (-543.0,270.5027742385864) -->
+    <boundaries passable_part="4 (of 255)" unknown2="0 (00000)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="769"/><!-- 199 (-542.6770524978638,270.9571523666382); 206 (-542.6602373123169,271.0); 205 (-542.7130117416382,271.0); 198 (-542.6770524978638,270.95715141296387) -->
+    <boundaries passable_part="13 (of 255)" unknown2="135168 (21000)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="774"/><!-- 3; 207 (-541.5419673919678,271.0); 192 (-541.4344806671143,270.5165767669678); 197 (-541.0,270.88118267059326) -->
+    <boundaries passable_part="4 (of 255)" unknown2="265728 (40e00)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="779"/><!-- 192 (-541.4344806671143,270.5165767669678); 207 (-541.5419673919678,271.0); 206 (-542.6602373123169,271.0); 199 (-542.6770524978638,270.9571523666382); 198 (-542.6770524978638,270.95715141296387); 187 (-542.26806640625,270.46978759765625); 183 (-541.5636596679688,270.4081726074219) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="524416 (80080)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="787"/><!-- 197 (-541.0,270.88118267059326); 201 (-540.874267578125,270.9866943359375); 208 (-540.8854331970215,271.0); 1 -->
+    <boundaries passable_part="97 (of 255)" unknown2="17409 (04401)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="792"/><!-- 2; 159 (-539.0,269.4999084472656); 158 (-539.9965209960938,269.4999084472656); 162 (-540.1642360687256,269.4999465942383); 157 (-540.1366291046143,269.39145278930664); 154 (-539.7008380889893,269.091796875); 149 (-539.588059425354,269.0) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="800"/><!-- 0; 149 (-539.588059425354,269.0); 154 (-539.7008380889893,269.091796875); 157 (-540.1366291046143,269.39145278930664); 162 (-540.1642360687256,269.4999465942383); 177 (-540.3210039138794,270.1160316467285); 190 (-540.4063768386841,270.5); 209 (-540.5175485610962,271.0); 208 (-540.8854331970215,271.0); 201 (-540.874267578125,270.9866943359375); 197 (-541.0,270.88118267059326) -->
+    <boundaries passable_part="1 (of 255)" unknown2="35328 (08a00)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="812"/><!-- 159 (-539.0,269.4999084472656); 186 (-539.0,270.4448003768921); 189 (-540.0046997070312,270.4999084472656); 190 (-540.4063768386841,270.5); 177 (-540.3210039138794,270.1160316467285); 162 (-540.1642360687256,269.4999465942383); 158 (-539.9965209960938,269.4999084472656) -->
+    <boundaries passable_part="13 (of 255)" unknown2="267264 (41400)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="820"/><!-- 3; 209 (-540.5175485610962,271.0); 190 (-540.4063768386841,270.5); 189 (-540.0046997070312,270.4999084472656); 186 (-539.0,270.4448003768921) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="143 (of 255)" unknown2="203392 (31a80)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="826"/><!-- 186 (-539.0,270.4448003768921); 181 (-537.0,270.3350992202759); 3; 211 (-537.2060270309448,271.0); 195 (-537.5546264648438,270.6513671875); 194 (-538.2617797851562,270.6513671875); 210 (-538.6103792190552,271.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="835"/><!-- 2; 153 (-537.0,269.0784845352173); 150 (-537.0288648605347,269.0) -->
+    <boundaries passable_part="4 (of 255)" unknown2="262400 (40100)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="839"/><!-- 210 (-538.6103792190552,271.0); 194 (-538.2617797851562,270.6513671875); 195 (-537.5546264648438,270.6513671875); 211 (-537.2060270309448,271.0) -->
+    <boundaries passable_part="177 (of 255)" unknown2="10273 (02821)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="844"/><!-- 0; 150 (-537.0288648605347,269.0); 153 (-537.0,269.0784845352173); 160 (-537.0,269.4999084472656); 159 (-539.0,269.4999084472656) -->
+    <boundaries passable_part="129 (of 255)" unknown2="17728 (04540)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="850"/><!-- 159 (-539.0,269.4999084472656); 160 (-537.0,269.4999084472656); 181 (-537.0,270.3350992202759); 186 (-539.0,270.4448003768921) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="143 (of 255)" unknown2="267280 (41410)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="855"/><!-- 181 (-537.0,270.3350992202759); 179 (-535.1631917953491,270.2343502044678); 196 (-535.0,270.7654514312744); 3; 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="861"/><!-- 0; 2; 196 (-535.0,270.7654514312744); 179 (-535.1631917953491,270.2343502044678); 178 (-535.1783056259155,270.1851615905762); 172 (-535.3608360290527,269.81529235839844); 161 (-536.2137622833252,269.4999084472656); 156 (-536.9443664550781,269.2297554016113); 153 (-537.0,269.0784845352173) -->
+    <boundaries passable_part="128 (of 255)" unknown2="1088 (00440)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="871"/><!-- 153 (-537.0,269.0784845352173); 156 (-536.9443664550781,269.2297554016113); 161 (-536.2137622833252,269.4999084472656); 160 (-537.0,269.4999084472656) -->
+    <boundaries passable_part="128 (of 255)" unknown2="896 (00380)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="876"/><!-- 160 (-537.0,269.4999084472656); 161 (-536.2137622833252,269.4999084472656); 172 (-535.3608360290527,269.81529235839844); 178 (-535.1783056259155,270.1851615905762); 179 (-535.1631917953491,270.2343502044678); 181 (-537.0,270.3350992202759) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>82 40 52 5b ; 40 96 c7 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="131088 (20010)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="883"/><!-- 196 (-535.0,270.7654514312744); 212 (-534.9279298782349,271.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="887"/><!-- 0; 151 (-534.68235206604,269.0); 152 (-534.6403846740723,269.01551818847656); 171 (-534.2460107803345,269.81465339660645); 213 (-533.8817892074585,271.0); 212 (-534.9279298782349,271.0); 196 (-535.0,270.7654514312744) -->
+    <boundaries passable_part="109 (of 255)" unknown2="69633 (11001)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="895"/><!-- 2; 3; 213 (-533.8817892074585,271.0); 171 (-534.2460107803345,269.81465339660645); 152 (-534.6403846740723,269.01551818847656); 151 (-534.68235206604,269.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>84 b7 73 59 ; f4 ee ca e7</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="69649 (11011)" path_type="1 (sea boundary)" path_id="0 (?)"/>
+   <bin6><!-- 2 Empty Cells -->
+    01 b3 6e 01 ; f5 ef 01 e6 ; 11 01 10 b6
+    40 01 5a 59 ; 01 40 40 01 ; 10 00 11 6d
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 59 5a 60 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="182 (of 255)" unknown2="66065 (10211)" path_type="0 (passable area)" path_id="0 (?)" vertex_index="902"/><!-- 0; 202 (-566.8541412353516,271.0); 257 (-566.5514984130859,273.0); 1 -->
+    <boundaries passable_part="36 (of 255)" unknown2="132354 (20502)" path_type="0 (passable area)" path_id="5 (?)" vertex_index="907"/><!-- 203 (-565.8427581787109,271.0); 258 (-565.5401153564453,273.0); 257 (-566.5514984130859,273.0); 202 (-566.8541412353516,271.0) -->
+    <boundaries passable_part="109 (of 255)" unknown2="266753 (41201)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="912"/><!-- 2; 3; 258 (-565.5401153564453,273.0); 203 (-565.8427581787109,271.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 5d 61 5d ; 40 40 40 40</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="69697 (11041)" path_type="0 (passable area)" path_id="1 (?)"/>
+   <bin6><!-- 7 Empty Cells -->
+    40 5f 59 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 50 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 21 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+    40 40 40 40 ; 40 40 40 40 ; 10 01 11 ff
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="247 (of 255)" unknown2="82449 (14211)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="917"/><!-- 0; 2; 241 (-547.0,272.3659076690674); 259 (-547.1757116317749,273.0); 1 -->
+    <boundaries passable_part="13 (of 255)" unknown2="135424 (21100)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="923"/><!-- 3; 259 (-547.1757116317749,273.0); 241 (-547.0,272.3659076690674) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="67104 (10620)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="927"/><!-- 241 (-547.0,272.3659076690674); 229 (-546.8627367019653,271.87056732177734); 238 (-546.8333177566528,272.1541156768799); 242 (-546.5517072677612,272.41085624694824); 243 (-545.9765338897705,272.41721534729004); 260 (-546.1380271911621,273.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="935"/><!-- 2; 244 (-545.0,272.4280128479004); 243 (-545.9765338897705,272.41721534729004); 242 (-546.5517072677612,272.41085624694824); 238 (-546.8333177566528,272.1541156768799); 229 (-546.8627367019653,271.87056732177734); 220 (-546.9246530532837,271.2738094329834); 204 (-546.7585229873657,271.0) -->
+    <boundaries passable_part="13 (of 255)" unknown2="266496 (41100)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="944"/><!-- 244 (-545.0,272.4280128479004); 3; 260 (-546.1380271911621,273.0); 243 (-545.9765338897705,272.41721534729004) -->
+    <boundaries passable_part="176 (of 255)" unknown2="273 (00111)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="949"/><!-- 0; 204 (-546.7585229873657,271.0); 220 (-546.9246530532837,271.2738094329834); 229 (-546.8627367019653,271.87056732177734); 241 (-547.0,272.3659076690674) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="65568 (10020)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="955"/><!-- 244 (-545.0,272.4280128479004); 245 (-544.8758773803711,272.4293851852417); 226 (-543.4788656234741,271.6698226928711); 261 (-544.0973958969116,273.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="961"/><!-- 0; 2; 3; 261 (-544.0973958969116,273.0); 226 (-543.4788656234741,271.6698226928711); 245 (-544.8758773803711,272.4293851852417); 244 (-545.0,272.4280128479004) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 4c 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="969"/><!-- 0; 205 (-542.7130117416382,271.0); 217 (-542.8466186523438,271.1592102050781); 228 (-542.7850341796875,271.8636169433594); 234 (-542.5556554794312,272.0560884475708); 235 (-542.5556554794312,272.0560894012451); 262 (-542.9945726394653,273.0); 1 -->
+    <boundaries passable_part="13 (of 255)" unknown2="530432 (81800)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="978"/><!-- 3; 265 (-541.4307813644409,273.0); 251 (-541.6520957946777,272.81429386138916); 250 (-541.6136922836304,272.7081546783447); 230 (-541.0,271.93146419525146) -->
+    <boundaries passable_part="97 (of 255)" unknown2="33800 (08408)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="984"/><!-- 2; 216 (-541.0,271.13652992248535); 246 (-542.0955810546875,272.442138671875); 237 (-542.4457941055298,272.1482744216919); 214 (-541.5433254241943,271.0061092376709); 207 (-541.5419673919678,271.0) -->
+    <boundaries passable_part="32 (of 255)" unknown2="512 (00200)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="991"/><!-- 207 (-541.5419673919678,271.0); 214 (-541.5433254241943,271.0061092376709); 237 (-542.4457941055298,272.1482744216919); 235 (-542.5556554794312,272.0560894012451); 234 (-542.5556554794312,272.0560884475708); 233 (-542.5556554794312,272.0560874938965); 227 (-542.3876123428345,271.6947031021118); 206 (-542.6602373123169,271.0) -->
+    <boundaries passable_part="4 (of 255)" unknown2="65792 (10100)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1000"/><!-- 265 (-541.4307813644409,273.0); 264 (-541.7192878723145,273.0); 251 (-541.6520957946777,272.81429386138916) -->
+    <boundaries passable_part="1 (of 255)" unknown2="8448 (02100)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="1004"/><!-- 230 (-541.0,271.93146419525146); 250 (-541.6136922836304,272.7081546783447); 251 (-541.6520957946777,272.81429386138916); 247 (-542.0189819335938,272.5064392089844); 223 (-541.0,271.2920866012573) -->
+    <boundaries passable_part="32 (of 255)" unknown2="1028 (00404)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="1010"/><!-- 206 (-542.6602373123169,271.0); 227 (-542.3876123428345,271.6947031021118); 233 (-542.5556554794312,272.0560874938965); 234 (-542.5556554794312,272.0560884475708); 228 (-542.7850341796875,271.8636169433594); 217 (-542.8466186523438,271.1592102050781); 205 (-542.7130117416382,271.0) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1018"/><!-- 223 (-541.0,271.2920866012573); 247 (-542.0189819335938,272.5064392089844); 251 (-541.6520957946777,272.81429386138916); 264 (-541.7192878723145,273.0); 263 (-542.7827301025391,273.0); 239 (-542.4988584518433,272.2154321670532); 237 (-542.4457941055298,272.1482744216919); 246 (-542.0955810546875,272.442138671875); 216 (-541.0,271.13652992248535) -->
+    <boundaries passable_part="4 (of 255)" unknown2="132096 (20400)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="1028"/><!-- 239 (-542.4988584518433,272.2154321670532); 263 (-542.7827301025391,273.0); 262 (-542.9945726394653,273.0); 235 (-542.5556554794312,272.0560894012451); 237 (-542.4457941055298,272.1482744216919) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="132624 (20610)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="1034"/><!-- 230 (-541.0,271.93146419525146); 224 (-540.61683177948,271.4465284347534); 219 (-540.5711431503296,271.241042137146); 225 (-540.1082153320312,271.6294860839844); 240 (-540.046630859375,272.33392333984375); 266 (-540.6055326461792,273.0); 1 -->
+    <boundaries passable_part="128 (of 255)" unknown2="256 (00100)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="1042"/><!-- 223 (-541.0,271.2920866012573); 215 (-540.7976684570312,271.05096435546875); 219 (-540.5711431503296,271.241042137146); 224 (-540.61683177948,271.4465284347534); 230 (-541.0,271.93146419525146) -->
+    <boundaries passable_part="109 (of 255)" unknown2="69896 (11108)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1048"/><!-- 209 (-540.5175485610962,271.0); 2; 3; 266 (-540.6055326461792,273.0); 240 (-540.046630859375,272.33392333984375); 225 (-540.1082153320312,271.6294860839844); 219 (-540.5711431503296,271.241042137146) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1056"/><!-- 216 (-541.0,271.13652992248535); 208 (-540.8854331970215,271.0); 209 (-540.5175485610962,271.0); 219 (-540.5711431503296,271.241042137146); 215 (-540.7976684570312,271.05096435546875); 223 (-541.0,271.2920866012573) -->
+    <boundaries passable_part="176 (of 255)" unknown2="33 (00021)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="1063"/><!-- 0; 208 (-540.8854331970215,271.0); 216 (-541.0,271.13652992248535) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="183 (of 255)" unknown2="85057 (14c41)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1067"/><!-- 0; 210 (-538.6103792190552,271.0); 221 (-538.8981323242188,271.28778076171875); 231 (-538.8981323242188,271.994873046875); 248 (-538.2617797851562,272.63128662109375); 249 (-537.5546264648438,272.63128662109375); 236 (-537.0,272.0766067504883); 255 (-537.0,272.90379428863525); 256 (-538.4957189559937,272.92686462402344); 267 (-538.5727987289429,273.0); 1 -->
+    <boundaries passable_part="97 (of 255)" unknown2="17409 (04401)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1079"/><!-- 2; 218 (-537.0,271.20604705810547); 211 (-537.2060270309448,271.0) -->
+    <boundaries passable_part="33 (of 255)" unknown2="8962 (02302)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="1083"/><!-- 211 (-537.2060270309448,271.0); 218 (-537.0,271.20604705810547); 236 (-537.0,272.0766067504883); 249 (-537.5546264648438,272.63128662109375); 248 (-538.2617797851562,272.63128662109375); 231 (-538.8981323242188,271.994873046875); 221 (-538.8981323242188,271.28778076171875); 210 (-538.6103792190552,271.0) -->
+    <boundaries passable_part="13 (of 255)" unknown2="266496 (41100)" path_type="0 (passable area)" path_id="7 (?)" vertex_index="1092"/><!-- 3; 267 (-538.5727987289429,273.0); 256 (-538.4957189559937,272.92686462402344); 255 (-537.0,272.90379428863525) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="143 (of 255)" unknown2="267392 (41480)" path_type="0 (passable area)" path_id="7 (?)" vertex_index="1097"/><!-- 255 (-537.0,272.90379428863525); 254 (-535.0161399841309,272.87319564819336); 253 (-535.0,272.87244606018066); 3; 1 -->
+    <boundaries passable_part="128 (of 255)" unknown2="1088 (00440)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="1103"/><!-- 218 (-537.0,271.20604705810547); 222 (-536.9182739257812,271.28778076171875); 232 (-536.9182739257812,271.994873046875); 236 (-537.0,272.0766067504883) -->
+    <boundaries passable_part="241 (of 255)" unknown2="9009 (02331)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1108"/><!-- 236 (-537.0,272.0766067504883); 232 (-536.9182739257812,271.994873046875); 222 (-536.9182739257812,271.28778076171875); 218 (-537.0,271.20604705810547); 0; 2; 253 (-535.0,272.87244606018066); 254 (-535.0161399841309,272.87319564819336); 255 (-537.0,272.90379428863525) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>81 40 54 5b ; 40 79 c6 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="131600 (20210)" path_type="0 (passable area)" path_id="7 (?)" vertex_index="1118"/><!-- 253 (-535.0,272.87244606018066); 252 (-534.3616886138916,272.84281730651855); 268 (-534.3133907318115,273.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1123"/><!-- 213 (-533.8817892074585,271.0); 269 (-533.2672500610352,273.0); 268 (-534.3133907318115,273.0); 252 (-534.3616886138916,272.84281730651855); 212 (-534.9279298782349,271.0) -->
+    <boundaries passable_part="109 (of 255)" unknown2="135169 (21001)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="1129"/><!-- 2; 3; 269 (-533.2672500610352,273.0); 213 (-533.8817892074585,271.0) -->
+    <boundaries passable_part="176 (of 255)" unknown2="321 (00141)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1134"/><!-- 0; 212 (-534.9279298782349,271.0); 252 (-534.3616886138916,272.84281730651855); 253 (-535.0,272.87244606018066) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>83 be 7a 59 ; f4 ed c9 e8</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="135185 (21011)" path_type="1 (sea boundary)" path_id="0 (?)"/>
+   <bin6><!-- 2 Empty Cells -->
+    01 bb 75 01 ; f5 ef 01 e7 ; 11 01 10 b6
+    ff 01 ff ff ; 01 5a 59 01 ; 10 00 11 6d
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff ff ff ff ; 59 5a 5d ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="182 (of 255)" unknown2="66065 (10211)" path_type="0 (passable area)" path_id="0 (?)" vertex_index="1139"/><!-- 0; 257 (-566.5514984130859,273.0); 314 (-566.2488555908203,275.0); 1 -->
+    <boundaries passable_part="36 (of 255)" unknown2="132354 (20502)" path_type="0 (passable area)" path_id="5 (?)" vertex_index="1144"/><!-- 258 (-565.5401153564453,273.0); 310 (-565.2487926483154,274.92519187927246); 315 (-565.2522487640381,275.0); 314 (-566.2488555908203,275.0); 257 (-566.5514984130859,273.0) -->
+    <boundaries passable_part="109 (of 255)" unknown2="70148 (11204)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="1150"/><!-- 2; 3; 315 (-565.2522487640381,275.0); 310 (-565.2487926483154,274.92519187927246); 258 (-565.5401153564453,273.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff ff ff ff ; 60 61 5f ff</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="69697 (11041)" path_type="0 (passable area)" path_id="1 (?)"/>
+   <bin6><!-- 3 Empty Cells -->
+    9a ff ff ff ; 5d 59 50 ff ; 10 01 11 ff
+    40 d3 be 8b ; 40 40 40 9a ; 10 01 11 ff
+    40 72 47 40 ; 40 40 40 40 ; 10 01 11 ff
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 44 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="247 (of 255)" unknown2="74257 (12211)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="1156"/><!-- 0; 2; 278 (-555.0,273.2810363769531); 277 (-555.1635131835938,273.2810363769531); 298 (-555.7998657226562,273.9174499511719); 304 (-555.7998657226562,274.6245422363281); 316 (-555.4244441986084,275.0); 1 -->
+    <boundaries passable_part="13 (of 255)" unknown2="135424 (21100)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="1165"/><!-- 3; 316 (-555.4244441986084,275.0); 304 (-555.7998657226562,274.6245422363281); 298 (-555.7998657226562,273.9174499511719); 277 (-555.1635131835938,273.2810363769531); 278 (-555.0,273.2810363769531) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="131616 (20220)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="1172"/><!-- 278 (-555.0,273.2810363769531); 279 (-554.4563598632812,273.2810363769531); 299 (-553.8200073242188,273.9174499511719); 305 (-553.8200073242188,274.6245422363281); 317 (-554.1954288482666,275.0); 1 -->
+    <boundaries passable_part="253 (of 255)" unknown2="69905 (11111)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="1179"/><!-- 0; 2; 3; 317 (-554.1954288482666,275.0); 305 (-553.8200073242188,274.6245422363281); 299 (-553.8200073242188,273.9174499511719); 279 (-554.4563598632812,273.2810363769531); 278 (-555.0,273.2810363769531) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="69665 (11021)" path_type="0 (passable area)" path_id="1 (?)"/>
+   <bin6><!-- 1 Empty Cells -->
+    40 40 40 40 ; 40 40 40 40 ; 10 01 21 ff
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="182 (of 255)" unknown2="262673 (40211)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="1188"/><!-- 0; 259 (-547.1757116317749,273.0); 309 (-547.6966543197632,274.87992763519287); 318 (-547.7227630615234,275.0); 1 -->
+    <boundaries passable_part="109 (of 255)" unknown2="69890 (11102)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="1194"/><!-- 2; 3; 318 (-547.7227630615234,275.0); 309 (-547.6966543197632,274.87992763519287); 259 (-547.1757116317749,273.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="182 (of 255)" unknown2="263201 (40421)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="1200"/><!-- 0; 260 (-546.1380271911621,273.0); 319 (-546.6922435760498,275.0); 1 -->
+    <boundaries passable_part="4 (of 255)" unknown2="132096 (20400)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="1205"/><!-- 320 (-545.9876098632812,275.0); 303 (-545.608642578125,274.62103271484375); 321 (-545.2296752929688,275.0) -->
+    <boundaries passable_part="109 (of 255)" unknown2="529154 (81302)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1209"/><!-- 2; 3; 321 (-545.2296752929688,275.0); 303 (-545.608642578125,274.62103271484375); 320 (-545.9876098632812,275.0); 319 (-546.6922435760498,275.0); 260 (-546.1380271911621,273.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>af 40 54 5e ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="182 (of 255)" unknown2="524353 (80041)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1217"/><!-- 0; 261 (-544.0973958969116,273.0); 292 (-544.4794073104858,273.82153129577637); 322 (-544.371241569519,275.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1223"/><!-- 2; 270 (-543.0,273.0116710662842); 301 (-543.4589471817017,273.99865913391113); 311 (-543.3734178543091,274.93050384521484); 323 (-543.3602657318115,275.0); 322 (-544.371241569519,275.0); 292 (-544.4794073104858,273.82153129577637); 261 (-544.0973958969116,273.0) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1232"/><!-- 302 (-543.0,274.16575813293457); 300 (-543.1205081939697,273.93355560302734); 288 (-543.0,273.600492477417) -->
+    <boundaries passable_part="13 (of 255)" unknown2="143360 (23000)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="1236"/><!-- 288 (-543.0,273.600492477417); 300 (-543.1205081939697,273.93355560302734); 302 (-543.0,274.16575813293457); 3; 323 (-543.3602657318115,275.0); 311 (-543.3734178543091,274.93050384521484); 301 (-543.4589471817017,273.99865913391113); 270 (-543.0,273.0116710662842) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 bf 55 40 ; 40 61 40 ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="65552 (10010)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="1245"/><!-- 302 (-543.0,274.16575813293457); 313 (-542.5760669708252,274.9826192855835); 324 (-542.5864725112915,275.0); 1 -->
+    <boundaries passable_part="45 (of 255)" unknown2="70152 (11208)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1250"/><!-- 265 (-541.4307813644409,273.0); 273 (-541.3295288085938,273.0849609375); 272 (-541.0,273.05613708496094); 3; 325 (-541.4403991699219,275.0); 293 (-542.031102180481,273.86179542541504); 264 (-541.7192878723145,273.0) -->
+    <boundaries passable_part="160 (of 255)" unknown2="16 (00010)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="1258"/><!-- 270 (-543.0,273.0116710662842); 262 (-542.9945726394653,273.0); 263 (-542.7827301025391,273.0); 288 (-543.0,273.600492477417) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1263"/><!-- 288 (-543.0,273.600492477417); 263 (-542.7827301025391,273.0); 264 (-541.7192878723145,273.0); 293 (-542.031102180481,273.86179542541504); 325 (-541.4403991699219,275.0); 324 (-542.5864725112915,275.0); 313 (-542.5760669708252,274.9826192855835); 302 (-543.0,274.16575813293457) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1272"/><!-- 0; 262 (-542.9945726394653,273.0); 270 (-543.0,273.0116710662842) -->
+    <boundaries passable_part="97 (of 255)" unknown2="8705 (02201)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="1276"/><!-- 2; 272 (-541.0,273.05613708496094); 273 (-541.3295288085938,273.0849609375); 265 (-541.4307813644409,273.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="239 (of 255)" unknown2="70164 (11214)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1281"/><!-- 272 (-541.0,273.05613708496094); 271 (-540.6251220703125,273.0233459472656); 266 (-540.6055326461792,273.0); 2; 3; 1 -->
+    <boundaries passable_part="176 (of 255)" unknown2="385 (00181)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="1288"/><!-- 0; 266 (-540.6055326461792,273.0); 271 (-540.6251220703125,273.0233459472656); 272 (-541.0,273.05613708496094) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="182 (of 255)" unknown2="263185 (40411)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1293"/><!-- 0; 267 (-538.5727987289429,273.0); 274 (-538.7786388397217,273.1953058242798); 312 (-538.8992280960083,274.9677314758301); 326 (-538.9014253616333,275.0); 1 -->
+    <boundaries passable_part="13 (of 255)" unknown2="136192 (21400)" path_type="0 (passable area)" path_id="4 (?)" vertex_index="1300"/><!-- 3; 327 (-537.8991136550903,275.0); 297 (-537.8254060745239,273.9166440963745); 296 (-537.0,273.9039134979248) -->
+    <boundaries passable_part="101 (of 255)" unknown2="82696 (14308)" path_type="0 (passable area)" path_id="7 (?)" vertex_index="1305"/><!-- 2; 296 (-537.0,273.9039134979248); 297 (-537.8254060745239,273.9166440963745); 327 (-537.8991136550903,275.0); 326 (-538.9014253616333,275.0); 312 (-538.8992280960083,274.9677314758301); 274 (-538.7786388397217,273.1953058242798); 267 (-538.5727987289429,273.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="67104 (10620)" path_type="0 (passable area)" path_id="4 (?)" vertex_index="1314"/><!-- 296 (-537.0,273.9039134979248); 294 (-535.3325386047363,273.87819480895996); 306 (-535.372314453125,274.6319885253906); 328 (-535.0412006378174,275.0); 1 -->
+    <boundaries passable_part="13 (of 255)" unknown2="136448 (21500)" path_type="4 (land bridge area)" path_id="4 (?)" vertex_index="1320"/><!-- 287 (-535.0,273.4409465789795); 3; 328 (-535.0412006378174,275.0); 306 (-535.372314453125,274.6319885253906); 294 (-535.3325386047363,273.87819480895996); 290 (-535.3248901367188,273.7332458496094) -->
+    <boundaries passable_part="241 (of 255)" unknown2="9025 (02341)" path_type="0 (passable area)" path_id="7 (?)" vertex_index="1327"/><!-- 0; 2; 287 (-535.0,273.4409465789795); 290 (-535.3248901367188,273.7332458496094); 294 (-535.3325386047363,273.87819480895996); 296 (-537.0,273.9039134979248) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>5e 40 40 40 ; 40 78 c0 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="527392 (80c20)" path_type="4 (land bridge area)" path_id="4 (?)" vertex_index="1334"/><!-- 287 (-535.0,273.4409465789795); 275 (-534.7991943359375,273.2602844238281); 280 (-534.224081993103,273.29065132141113); 286 (-534.2023344039917,273.3614282608032); 289 (-534.2358980178833,273.67809677124023); 308 (-534.303879737854,274.85107707977295); 329 (-534.3601846694946,275.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1343"/><!-- 269 (-533.2672500610352,273.0); 276 (-533.1863374710083,273.26332664489746); 283 (-533.1949911117554,273.3449754714966); 282 (-533.8005981445312,273.3130187988281); 331 (-533.8896522521973,275.0); 330 (-533.9897832870483,275.0); 281 (-533.9004516601562,273.3077392578125); 280 (-534.224081993103,273.29065132141113); 268 (-534.3133907318115,273.0) -->
+    <boundaries passable_part="97 (of 255)" unknown2="8193 (02001)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="1353"/><!-- 2; 284 (-533.0,273.3552646636963); 283 (-533.1949911117554,273.3449754714966); 276 (-533.1863374710083,273.26332664489746); 269 (-533.2672500610352,273.0) -->
+    <boundaries passable_part="176 (of 255)" unknown2="321 (00141)" path_type="0 (passable area)" path_id="7 (?)" vertex_index="1359"/><!-- 0; 268 (-534.3133907318115,273.0); 280 (-534.224081993103,273.29065132141113); 275 (-534.7991943359375,273.2602844238281); 287 (-535.0,273.4409465789795) -->
+    <boundaries passable_part="4 (of 255)" unknown2="262400 (40100)" path_type="4 (land bridge area)" path_id="4 (?)" vertex_index="1365"/><!-- 329 (-534.3601846694946,275.0); 308 (-534.303879737854,274.85107707977295); 289 (-534.2358980178833,273.67809677124023); 286 (-534.2023344039917,273.3614282608032); 280 (-534.224081993103,273.29065132141113); 281 (-533.9004516601562,273.3077392578125); 330 (-533.9897832870483,275.0) -->
+    <boundaries passable_part="4 (of 255)" unknown2="0 (00000)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="1373"/><!-- 291 (-533.2389554977417,273.7597703933716); 332 (-533.3108339309692,275.0); 331 (-533.8896522521973,275.0); 282 (-533.8005981445312,273.3130187988281); 283 (-533.1949911117554,273.3449754714966) -->
+    <boundaries passable_part="13 (of 255)" unknown2="135680 (21200)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="1379"/><!-- 3; 332 (-533.3108339309692,275.0); 291 (-533.2389554977417,273.7597703933716); 283 (-533.1949911117554,273.3449754714966); 284 (-533.0,273.3552646636963) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>7d 40 5e 5a ; f4 eb c2 94</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="131584 (20200)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="1385"/><!-- 284 (-533.0,273.3552646636963); 285 (-532.90185546875,273.3604431152344); 295 (-532.4288940429688,273.8861083984375); 307 (-532.476318359375,274.78485107421875); 333 (-532.7154560089111,275.0); 1 -->
+    <boundaries passable_part="253 (of 255)" unknown2="69921 (11121)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="1392"/><!-- 0; 2; 3; 333 (-532.7154560089111,275.0); 307 (-532.476318359375,274.78485107421875); 295 (-532.4288940429688,273.8861083984375); 285 (-532.90185546875,273.3604431152344); 284 (-533.0,273.3552646636963) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>01 bf 7c 01 ; f5 ec 01 e9</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="182 (of 255)" unknown2="65569 (10021)" path_type="1 (sea boundary)" path_id="0 (?)"/>
+   <bin6><!-- 1 Empty Cells -->
+    ff 01 ff ff ; 01 ff ff 01 ; 10 00 11 6d
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff ff ff ff ; ff ff ff ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="247 (of 255)" unknown2="70165 (11215)" path_type="0 (passable area)" path_id="0 (?)" vertex_index="1401"/><!-- 0; 314 (-566.2488555908203,275.0); 339 (-566.2375354766846,275.07480812072754); 350 (-566.1712760925293,275.2583017349243); 355 (-566.0398397445679,275.4024705886841); 358 (-565.8632373809814,275.4853677749634); 359 (-565.6683559417725,275.49437141418457); 356 (-565.4848623275757,275.4281120300293); 354 (-565.3406934738159,275.29667568206787); 341 (-565.2577962875366,275.12007331848145); 315 (-565.2522487640381,275.0); 2; 390 (-565.0,276.74933338165283); 389 (-565.0005493164062,276.7485656738281); 383 (-565.2990713119507,276.5596933364868); 394 (-565.1737022399902,277.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1419"/><!-- 3; 394 (-565.1737022399902,277.0); 383 (-565.2990713119507,276.5596933364868); 389 (-565.0005493164062,276.7485656738281); 390 (-565.0,276.74933338165283) -->
+    <boundaries passable_part="32 (of 255)" unknown2="258 (00102)" path_type="0 (passable area)" path_id="5 (?)" vertex_index="1425"/><!-- 315 (-565.2522487640381,275.0); 341 (-565.2577962875366,275.12007331848145); 354 (-565.3406934738159,275.29667568206787); 356 (-565.4848623275757,275.4281120300293); 359 (-565.6683559417725,275.49437141418457); 358 (-565.8632373809814,275.4853677749634); 355 (-566.0398397445679,275.4024705886841); 350 (-566.1712760925293,275.2583017349243); 339 (-566.2375354766846,275.07480812072754); 314 (-566.2488555908203,275.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff ff ff ff ; ff ff ff ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1436"/><!-- 390 (-565.0,276.74933338165283); 395 (-564.8207006454468,277.0); 1 -->
+    <boundaries passable_part="253 (of 255)" unknown2="135185 (21011)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="1440"/><!-- 0; 2; 3; 395 (-564.8207006454468,277.0); 390 (-565.0,276.74933338165283) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff ff ff ff ; ff ff d3 ff</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="135185 (21011)" path_type="0 (passable area)" path_id="1 (?)"/>
+   <bin6><!-- 2 Empty Cells -->
+    ff ff ff ff ; ff be 72 ff ; 10 01 21 ff
+    48 ff ff 62 ; 8b 47 44 ff ; 10 01 11 ff
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 6d 40 40 ; 40 40 40 48</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="191 (of 255)" unknown2="70161 (11211)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="1446"/><!-- 0; 316 (-555.4244441986084,275.0); 351 (-555.1635131835938,275.2609558105469); 352 (-555.0,275.2609558105469); 3; 1 -->
+    <boundaries passable_part="97 (of 255)" unknown2="8450 (02102)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="1453"/><!-- 2; 352 (-555.0,275.2609558105469); 351 (-555.1635131835938,275.2609558105469); 316 (-555.4244441986084,275.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="239 (of 255)" unknown2="70162 (11212)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="1458"/><!-- 352 (-555.0,275.2609558105469); 353 (-554.4563598632812,275.2609558105469); 317 (-554.1954288482666,275.0); 2; 3; 1 -->
+    <boundaries passable_part="176 (of 255)" unknown2="289 (00121)" path_type="4 (land bridge area)" path_id="1 (?)" vertex_index="1465"/><!-- 0; 317 (-554.1954288482666,275.0); 353 (-554.4563598632812,275.2609558105469); 352 (-555.0,275.2609558105469) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="247 (of 255)" unknown2="139793 (22211)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="1470"/><!-- 0; 2; 384 (-551.0,276.5922031402588); 386 (-551.3573999404907,276.6355209350586); 396 (-551.8422203063965,277.0); 1 -->
+    <boundaries passable_part="13 (of 255)" unknown2="69888 (11100)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="1477"/><!-- 3; 396 (-551.8422203063965,277.0); 386 (-551.3573999404907,276.6355209350586); 384 (-551.0,276.5922031402588) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="143 (of 255)" unknown2="135712 (21220)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="1482"/><!-- 384 (-551.0,276.5922031402588); 381 (-550.0046644210815,276.4715642929077); 379 (-549.3778314590454,276.3955955505371); 374 (-549.0,276.25820446014404); 3; 1 -->
+    <boundaries passable_part="241 (of 255)" unknown2="16657 (04111)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="1489"/><!-- 0; 2; 374 (-549.0,276.25820446014404); 379 (-549.3778314590454,276.3955955505371); 381 (-550.0046644210815,276.4715642929077); 384 (-551.0,276.5922031402588) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="231 (of 255)" unknown2="151058 (24e12)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="1496"/><!-- 374 (-549.0,276.25820446014404); 366 (-548.2877817153931,275.9992208480835); 357 (-547.8197355270386,275.445969581604); 318 (-547.7227630615234,275.0); 2; 367 (-547.0,276.01239013671875); 376 (-547.305908203125,276.31829833984375); 378 (-547.2744693756104,276.3497371673584); 392 (-547.6961050033569,276.84813022613525); 397 (-548.1137542724609,277.0); 1 -->
+    <boundaries passable_part="1 (of 255)" unknown2="10496 (02900)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="1508"/><!-- 385 (-547.0,276.62420654296875); 378 (-547.2744693756104,276.3497371673584); 376 (-547.305908203125,276.31829833984375); 367 (-547.0,276.01239013671875) -->
+    <boundaries passable_part="176 (of 255)" unknown2="289 (00121)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="1513"/><!-- 0; 318 (-547.7227630615234,275.0); 357 (-547.8197355270386,275.445969581604); 366 (-548.2877817153931,275.9992208480835); 374 (-549.0,276.25820446014404) -->
+    <boundaries passable_part="13 (of 255)" unknown2="70400 (11300)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1519"/><!-- 385 (-547.0,276.62420654296875); 3; 397 (-548.1137542724609,277.0); 392 (-547.6961050033569,276.84813022613525); 378 (-547.2744693756104,276.3497371673584) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="66176 (10280)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1525"/><!-- 385 (-547.0,276.62420654296875); 398 (-546.6242065429688,277.0); 1 -->
+    <boundaries passable_part="173 (of 255)" unknown2="138530 (21d22)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="1529"/><!-- 367 (-547.0,276.01239013671875); 365 (-546.9290752410889,275.9414653778076); 320 (-545.9876098632812,275.0); 321 (-545.2296752929688,275.0); 346 (-545.0,275.22967529296875); 3; 398 (-546.6242065429688,277.0); 385 (-547.0,276.62420654296875) -->
+    <boundaries passable_part="176 (of 255)" unknown2="529 (00211)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="1538"/><!-- 0; 319 (-546.6922435760498,275.0); 340 (-546.7254657745361,275.1198902130127); 363 (-546.8954744338989,275.90174770355225); 365 (-546.9290752410889,275.9414653778076); 367 (-547.0,276.01239013671875) -->
+    <boundaries passable_part="97 (of 255)" unknown2="33284 (08204)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1545"/><!-- 2; 346 (-545.0,275.22967529296875); 321 (-545.2296752929688,275.0) -->
+    <boundaries passable_part="32 (of 255)" unknown2="1540 (00604)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1549"/><!-- 320 (-545.9876098632812,275.0); 365 (-546.9290752410889,275.9414653778076); 363 (-546.8954744338989,275.90174770355225); 340 (-546.7254657745361,275.1198902130127); 319 (-546.6922435760498,275.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>55 40 40 40 ; 40 78 bf 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="133152 (20820)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="1555"/><!-- 346 (-545.0,275.22967529296875); 369 (-544.179220199585,276.0504550933838); 382 (-544.093976020813,276.50089740753174); 399 (-544.5930786132812,277.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1561"/><!-- 323 (-543.3602657318115,275.0); 362 (-543.2061185836792,275.8145341873169); 361 (-543.0,275.6224422454834); 393 (-543.0,276.9893789291382); 401 (-543.011396408081,277.0); 400 (-543.9995222091675,277.0); 382 (-544.093976020813,276.50089740753174); 377 (-543.911376953125,276.31829833984375); 369 (-544.179220199585,276.0504550933838); 338 (-544.3648633956909,275.06949520111084); 322 (-544.371241569519,275.0) -->
+    <boundaries passable_part="13 (of 255)" unknown2="69632 (11000)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1573"/><!-- 3; 401 (-543.011396408081,277.0); 393 (-543.0,276.9893789291382) -->
+    <boundaries passable_part="97 (of 255)" unknown2="4097 (01001)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="1577"/><!-- 2; 361 (-543.0,275.6224422454834); 362 (-543.2061185836792,275.8145341873169); 323 (-543.3602657318115,275.0) -->
+    <boundaries passable_part="4 (of 255)" unknown2="65792 (10100)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1582"/><!-- 400 (-543.9995222091675,277.0); 399 (-544.5930786132812,277.0); 382 (-544.093976020813,276.50089740753174) -->
+    <boundaries passable_part="176 (of 255)" unknown2="385 (00181)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1586"/><!-- 0; 322 (-544.371241569519,275.0); 338 (-544.3648633956909,275.06949520111084); 369 (-544.179220199585,276.0504550933838); 346 (-545.0,275.22967529296875) -->
+    <boundaries passable_part="0 (of 255)" unknown2="256 (00100)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="1592"/><!-- 382 (-544.093976020813,276.50089740753174); 369 (-544.179220199585,276.0504550933838); 377 (-543.911376953125,276.31829833984375) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; f4 78 40 78</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="239 (of 255)" unknown2="69665 (11021)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1596"/><!-- 393 (-543.0,276.9893789291382); 371 (-542.1221761703491,276.1712942123413); 334 (-541.4313793182373,275.0173807144165); 325 (-541.4403991699219,275.0); 2; 3; 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1604"/><!-- 361 (-543.0,275.6224422454834); 360 (-542.9074859619141,275.5362243652344); 324 (-542.5864725112915,275.0); 325 (-541.4403991699219,275.0); 334 (-541.4313793182373,275.0173807144165); 371 (-542.1221761703491,276.1712942123413); 393 (-543.0,276.9893789291382) -->
+    <boundaries passable_part="176 (of 255)" unknown2="33 (00021)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="1612"/><!-- 0; 324 (-542.5864725112915,275.0); 360 (-542.9074859619141,275.5362243652344); 361 (-543.0,275.6224422454834) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="247 (of 255)" unknown2="82449 (14211)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1617"/><!-- 0; 2; 380 (-539.0,276.4477195739746); 402 (-539.0376043319702,277.0); 1 -->
+    <boundaries passable_part="13 (of 255)" unknown2="135424 (21100)" path_type="0 (passable area)" path_id="7 (?)" vertex_index="1623"/><!-- 3; 402 (-539.0376043319702,277.0); 380 (-539.0,276.4477195739746) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="166 (of 255)" unknown2="67108 (10624)" path_type="0 (passable area)" path_id="7 (?)" vertex_index="1627"/><!-- 380 (-539.0,276.4477195739746); 326 (-538.9014253616333,275.0); 327 (-537.8991136550903,275.0); 335 (-537.9013090133667,275.03227043151855); 403 (-538.0352907180786,277.0); 1 -->
+    <boundaries passable_part="109 (of 255)" unknown2="266498 (41102)" path_type="0 (passable area)" path_id="4 (?)" vertex_index="1634"/><!-- 2; 3; 403 (-538.0352907180786,277.0); 335 (-537.9013090133667,275.03227043151855); 327 (-537.8991136550903,275.0) -->
+    <boundaries passable_part="176 (of 255)" unknown2="273 (00111)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1640"/><!-- 0; 326 (-538.9014253616333,275.0); 380 (-539.0,276.4477195739746) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="183 (of 255)" unknown2="135713 (21221)" path_type="0 (passable area)" path_id="4 (?)" vertex_index="1644"/><!-- 0; 328 (-535.0412006378174,275.0); 336 (-535.0,275.04579162597656); 375 (-535.0,276.2859630584717); 388 (-535.4094352722168,276.6556692123413); 404 (-535.5728540420532,277.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1652"/><!-- 3; 404 (-535.5728540420532,277.0); 388 (-535.4094352722168,276.6556692123413); 375 (-535.0,276.2859630584717) -->
+    <boundaries passable_part="97 (of 255)" unknown2="33026 (08102)" path_type="4 (land bridge area)" path_id="4 (?)" vertex_index="1657"/><!-- 2; 336 (-535.0,275.04579162597656); 328 (-535.0412006378174,275.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>54 40 54 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1661"/><!-- 375 (-535.0,276.2859630584717); 370 (-534.7667541503906,276.07534980773926); 343 (-534.4291772842407,275.18247985839844); 344 (-534.0006103515625,275.2051086425781); 330 (-533.9897832870483,275.0); 331 (-533.8896522521973,275.0); 345 (-533.9007568359375,275.2103576660156); 347 (-533.3810081481934,275.23780155181885); 387 (-533.9169607162476,276.6553611755371); 405 (-534.2986345291138,277.0); 1 -->
+    <boundaries passable_part="128 (of 255)" unknown2="2064 (00810)" path_type="0 (passable area)" path_id="4 (?)" vertex_index="1673"/><!-- 336 (-535.0,275.04579162597656); 342 (-534.8993530273438,275.15765380859375); 343 (-534.4291772842407,275.18247985839844); 370 (-534.7667541503906,276.07534980773926); 375 (-535.0,276.2859630584717) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1679"/><!-- 3; 406 (-533.2984495162964,277.0); 372 (-533.203372001648,276.18098545074463); 368 (-533.0,276.03695583343506) -->
+    <boundaries passable_part="97 (of 255)" unknown2="8192 (02000)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="1684"/><!-- 2; 348 (-533.0,275.2560005187988); 349 (-533.0020141601562,275.2578125); 347 (-533.3810081481934,275.23780155181885); 337 (-533.3144063949585,275.06164360046387); 332 (-533.3108339309692,275.0) -->
+    <boundaries passable_part="32 (of 255)" unknown2="2056 (00808)" path_type="4 (land bridge area)" path_id="4 (?)" vertex_index="1691"/><!-- 329 (-534.3601846694946,275.0); 330 (-533.9897832870483,275.0); 344 (-534.0006103515625,275.2051086425781); 343 (-534.4291772842407,275.18247985839844) -->
+    <boundaries passable_part="176 (of 255)" unknown2="1313 (00521)" path_type="4 (land bridge area)" path_id="4 (?)" vertex_index="1696"/><!-- 0; 329 (-534.3601846694946,275.0); 343 (-534.4291772842407,275.18247985839844); 342 (-534.8993530273438,275.15765380859375); 336 (-535.0,275.04579162597656) -->
+    <boundaries passable_part="32 (of 255)" unknown2="512 (00200)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="1702"/><!-- 332 (-533.3108339309692,275.0); 337 (-533.3144063949585,275.06164360046387); 347 (-533.3810081481934,275.23780155181885); 345 (-533.9007568359375,275.2103576660156); 331 (-533.8896522521973,275.0) -->
+    <boundaries passable_part="5 (of 255)" unknown2="69888 (11100)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="1708"/><!-- 368 (-533.0,276.03695583343506); 372 (-533.203372001648,276.18098545074463); 406 (-533.2984495162964,277.0); 405 (-534.2986345291138,277.0); 387 (-533.9169607162476,276.6553611755371); 347 (-533.3810081481934,275.23780155181885); 349 (-533.0020141601562,275.2578125); 348 (-533.0,275.2560005187988) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>5e 40 40 40 ; 40 95 bf 78</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1717"/><!-- 368 (-533.0,276.03695583343506); 364 (-532.8394193649292,275.92323112487793); 373 (-531.4451751708984,276.23911571502686); 391 (-531.0,276.81586360931396); 3; 1 -->
+    <boundaries passable_part="225 (of 255)" unknown2="4610 (01202)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="1724"/><!-- 348 (-533.0,275.2560005187988); 333 (-532.7154560089111,275.0); 2; 391 (-531.0,276.81586360931396); 373 (-531.4451751708984,276.23911571502686); 364 (-532.8394193649292,275.92323112487793); 368 (-533.0,276.03695583343506) -->
+    <boundaries passable_part="176 (of 255)" unknown2="289 (00121)" path_type="4 (land bridge area)" path_id="2 (?)" vertex_index="1732"/><!-- 0; 333 (-532.7154560089111,275.0); 348 (-533.0,275.2560005187988) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>01 40 5e 01 ; f5 ea 01 95</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1736"/><!-- 391 (-531.0,276.81586360931396); 407 (-530.8578701019287,277.0); 1 -->
+    <boundaries passable_part="180 (of 255)" unknown2="65553 (10011)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="1740"/><!-- 0; 2; 3; 407 (-530.8578701019287,277.0); 391 (-531.0,276.81586360931396) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff 01 ff ff ; 01 ff ff 01</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="109 (of 255)" unknown2="69633 (11001)" path_type="0 (passable area)" path_id="0 (?)"/>
+   <bin6><!-- 0 Empty Cells -->
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff ff ff ff ; ff ff ff ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="191 (of 255)" unknown2="69649 (11011)" path_type="0 (passable area)" path_id="0 (?)" vertex_index="1746"/><!-- 0; 394 (-565.1737022399902,277.0); 419 (-565.0007934570312,277.6072692871094); 420 (-565.0,277.60981369018555); 3; 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1753"/><!-- 2; 420 (-565.0,277.60981369018555); 419 (-565.0007934570312,277.6072692871094); 394 (-565.1737022399902,277.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff ff ff ff ; ff ff ff ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="65552 (10010)" path_type="0 (passable area)" path_id="0 (?)" vertex_index="1758"/><!-- 420 (-565.0,277.60981369018555); 442 (-564.6790771484375,278.6392822265625); 447 (-564.5666160583496,279.0); 1 -->
+    <boundaries passable_part="97 (of 255)" unknown2="9217 (02401)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="1763"/><!-- 2; 425 (-563.0,277.9697914123535); 428 (-563.7355241775513,278.0429525375366); 430 (-563.9221591949463,278.0997648239136); 434 (-563.9926099777222,278.1576957702637); 395 (-564.8207006454468,277.0) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1770"/><!-- 0; 395 (-564.8207006454468,277.0); 434 (-563.9926099777222,278.1576957702637); 439 (-563.763916015625,278.4774169921875); 440 (-563.68603515625,278.5404968261719); 446 (-563.1337194442749,278.9880256652832); 448 (-563.1189413070679,279.0); 447 (-564.5666160583496,279.0); 442 (-564.6790771484375,278.6392822265625); 420 (-565.0,277.60981369018555) -->
+    <boundaries passable_part="1 (of 255)" unknown2="18944 (04a00)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="1781"/><!-- 445 (-563.0,278.9747247695923); 446 (-563.1337194442749,278.9880256652832); 440 (-563.68603515625,278.5404968261719); 439 (-563.763916015625,278.4774169921875); 434 (-563.9926099777222,278.1576957702637); 430 (-563.9221591949463,278.0997648239136); 428 (-563.7355241775513,278.0429525375366); 425 (-563.0,277.9697914123535) -->
+    <boundaries passable_part="13 (of 255)" unknown2="136192 (21400)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1790"/><!-- 3; 448 (-563.1189413070679,279.0); 446 (-563.1337194442749,278.9880256652832); 445 (-563.0,278.9747247695923) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff ff ff ff ; ff ff ff ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="66688 (10480)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1795"/><!-- 445 (-563.0,278.9747247695923); 444 (-562.275447845459,278.90265560150146); 449 (-562.0767669677734,279.0); 1 -->
+    <boundaries passable_part="241 (of 255)" unknown2="9249 (02421)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="1800"/><!-- 0; 2; 436 (-561.0,278.45013332366943); 435 (-561.0918464660645,278.3689880371094); 423 (-562.0911293029785,277.8793878555298); 425 (-563.0,277.9697914123535) -->
+    <boundaries passable_part="141 (of 255)" unknown2="136000 (21340)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="1807"/><!-- 425 (-563.0,277.9697914123535); 423 (-562.0911293029785,277.8793878555298); 435 (-561.0918464660645,278.3689880371094); 436 (-561.0,278.45013332366943); 3; 449 (-562.0767669677734,279.0); 444 (-562.275447845459,278.90265560150146); 445 (-563.0,278.9747247695923) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff ff ff ff ; ff ff ff ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="262720 (40240)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="1816"/><!-- 436 (-561.0,278.45013332366943); 450 (-560.3776226043701,279.0); 1 -->
+    <boundaries passable_part="253 (of 255)" unknown2="135457 (21121)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="1820"/><!-- 0; 2; 3; 450 (-560.3776226043701,279.0); 436 (-561.0,278.45013332366943) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ab ff ff e0 ; ff ff 6d ff</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="135201 (21021)" path_type="0 (passable area)" path_id="1 (?)"/>
+   <bin6><!-- 1 Empty Cells -->
+    40 b4 40 40 ; 62 40 40 ab ; 10 01 21 ff
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="247 (of 255)" unknown2="139793 (22211)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="1826"/><!-- 0; 2; 422 (-553.0,277.870397567749); 451 (-554.5025672912598,279.0); 1 -->
+    <boundaries passable_part="13 (of 255)" unknown2="266496 (41100)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="1832"/><!-- 3; 451 (-554.5025672912598,279.0); 422 (-553.0,277.870397567749) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="231 (of 255)" unknown2="140834 (22622)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="1836"/><!-- 422 (-553.0,277.870397567749); 396 (-551.8422203063965,277.0); 2; 421 (-551.0,277.617901802063); 452 (-552.8384304046631,279.0); 1 -->
+    <boundaries passable_part="176 (of 255)" unknown2="273 (00111)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="1843"/><!-- 0; 396 (-551.8422203063965,277.0); 422 (-553.0,277.870397567749) -->
+    <boundaries passable_part="13 (of 255)" unknown2="69888 (11100)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1847"/><!-- 3; 452 (-552.8384304046631,279.0); 421 (-551.0,277.617901802063) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="143 (of 255)" unknown2="70208 (11240)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1851"/><!-- 421 (-551.0,277.617901802063); 418 (-550.9708471298218,277.59598541259766); 416 (-549.9965562820435,277.4778985977173); 414 (-549.1437749862671,277.3745460510254); 412 (-549.0,277.322265625); 3; 1 -->
+    <boundaries passable_part="241 (of 255)" unknown2="8465 (02111)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="1859"/><!-- 0; 2; 412 (-549.0,277.322265625); 414 (-549.1437749862671,277.3745460510254); 416 (-549.9965562820435,277.4778985977173); 418 (-550.9708471298218,277.59598541259766); 421 (-551.0,277.617901802063) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="239 (of 255)" unknown2="70168 (11218)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1867"/><!-- 412 (-549.0,277.322265625); 397 (-548.1137542724609,277.0); 2; 3; 1 -->
+    <boundaries passable_part="176 (of 255)" unknown2="289 (00121)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="1873"/><!-- 0; 397 (-548.1137542724609,277.0); 412 (-549.0,277.322265625) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="191 (of 255)" unknown2="70161 (11211)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1877"/><!-- 0; 398 (-546.6242065429688,277.0); 427 (-545.608642578125,278.01556396484375); 415 (-545.0,277.40692138671875); 3; 1 -->
+    <boundaries passable_part="97 (of 255)" unknown2="8450 (02102)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="1884"/><!-- 2; 415 (-545.0,277.40692138671875); 427 (-545.608642578125,278.01556396484375); 398 (-546.6242065429688,277.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="239 (of 255)" unknown2="135702 (21216)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1889"/><!-- 415 (-545.0,277.40692138671875); 399 (-544.5930786132812,277.0); 400 (-543.9995222091675,277.0); 410 (-543.9651165008545,277.1818027496338); 413 (-543.4038934707642,277.3657865524292); 401 (-543.011396408081,277.0); 2; 3; 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1899"/><!-- 401 (-543.011396408081,277.0); 413 (-543.4038934707642,277.3657865524292); 410 (-543.9651165008545,277.1818027496338); 400 (-543.9995222091675,277.0) -->
+    <boundaries passable_part="176 (of 255)" unknown2="289 (00121)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="1904"/><!-- 0; 399 (-544.5930786132812,277.0); 415 (-545.0,277.40692138671875) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="255 (of 255)" unknown2="69649 (11011)" path_type="0 (passable area)" path_id="3 (?)"/>
+   <bin6><!-- 0 Empty Cells -->
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="182 (of 255)" unknown2="66065 (10211)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="1908"/><!-- 0; 402 (-539.0376043319702,277.0); 453 (-539.1737833023071,279.0); 1 -->
+    <boundaries passable_part="109 (of 255)" unknown2="135426 (21102)" path_type="0 (passable area)" path_id="7 (?)" vertex_index="1913"/><!-- 2; 3; 453 (-539.1737833023071,279.0); 402 (-539.0376043319702,277.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="182 (of 255)" unknown2="66593 (10421)" path_type="0 (passable area)" path_id="7 (?)" vertex_index="1918"/><!-- 0; 403 (-538.0352907180786,277.0); 454 (-538.1714696884155,279.0); 1 -->
+    <boundaries passable_part="13 (of 255)" unknown2="136192 (21400)" path_type="4 (land bridge area)" path_id="4 (?)" vertex_index="1923"/><!-- 3; 455 (-537.8746643066406,279.0); 431 (-537.0,278.1253356933594) -->
+    <boundaries passable_part="101 (of 255)" unknown2="533250 (82302)" path_type="0 (passable area)" path_id="4 (?)" vertex_index="1927"/><!-- 2; 431 (-537.0,278.1253356933594); 455 (-537.8746643066406,279.0); 454 (-538.1714696884155,279.0); 403 (-538.0352907180786,277.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="66080 (10220)" path_type="4 (land bridge area)" path_id="4 (?)" vertex_index="1933"/><!-- 431 (-537.0,278.1253356933594); 426 (-536.8737182617188,277.9990539550781); 456 (-535.8727722167969,279.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1938"/><!-- 2; 3; 457 (-535.6175861358643,279.0); 432 (-536.115966796875,278.14436626434326); 404 (-535.5728540420532,277.0) -->
+    <boundaries passable_part="180 (of 255)" unknown2="131393 (20141)" path_type="0 (passable area)" path_id="4 (?)" vertex_index="1944"/><!-- 0; 404 (-535.5728540420532,277.0); 432 (-536.115966796875,278.14436626434326); 457 (-535.6175861358643,279.0); 456 (-535.8727722167969,279.0); 426 (-536.8737182617188,277.9990539550781); 431 (-537.0,278.1253356933594) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 78 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1952"/><!-- 0; 405 (-534.2986345291138,277.0); 411 (-534.591420173645,277.2643756866455); 429 (-534.9864501953125,278.09672260284424); 438 (-534.7734355926514,278.4624309539795); 433 (-533.8444137573242,278.15125274658203); 417 (-533.3605270385742,277.53475284576416); 406 (-533.2984495162964,277.0); 2; 443 (-533.0,278.69505500793457); 458 (-533.2393493652344,279.0); 1 -->
+    <boundaries passable_part="13 (of 255)" unknown2="69632 (11000)" path_type="0 (passable area)" path_id="4 (?)" vertex_index="1965"/><!-- 3; 458 (-533.2393493652344,279.0); 443 (-533.0,278.69505500793457) -->
+    <boundaries passable_part="32 (of 255)" unknown2="0 (00000)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="1969"/><!-- 406 (-533.2984495162964,277.0); 417 (-533.3605270385742,277.53475284576416); 433 (-533.8444137573242,278.15125274658203); 438 (-534.7734355926514,278.4624309539795); 429 (-534.9864501953125,278.09672260284424); 411 (-534.591420173645,277.2643756866455); 405 (-534.2986345291138,277.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 40 40 40 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="143 (of 255)" unknown2="69648 (11010)" path_type="0 (passable area)" path_id="4 (?)" vertex_index="1977"/><!-- 443 (-533.0,278.69505500793457); 424 (-532.3997268676758,277.9302730560303); 408 (-532.2999534606934,277.07079696655273); 409 (-532.0169830322266,277.13490772247314); 437 (-531.0,278.4524621963501); 3; 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1985"/><!-- 0; 2; 437 (-531.0,278.4524621963501); 409 (-532.0169830322266,277.13490772247314); 408 (-532.2999534606934,277.07079696655273); 424 (-532.3997268676758,277.9302730560303); 443 (-533.0,278.69505500793457) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>01 40 54 01 ; 40 95 01 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="134 (of 255)" unknown2="65552 (10010)" path_type="0 (passable area)" path_id="4 (?)" vertex_index="1993"/><!-- 437 (-531.0,278.4524621963501); 459 (-530.57737159729,279.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="1997"/><!-- 0; 407 (-530.8578701019287,277.0); 441 (-529.6326217651367,278.5873737335205); 460 (-529.1732311248779,279.0); 459 (-530.57737159729,279.0); 437 (-531.0,278.4524621963501) -->
+    <boundaries passable_part="36 (of 255)" unknown2="65537 (10001)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="2004"/><!-- 2; 3; 460 (-529.1732311248779,279.0); 441 (-529.6326217651367,278.5873737335205); 407 (-530.8578701019287,277.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff 01 01 01 ; 01 ff ff 01</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="97 (of 255)" unknown2="4097 (01001)" path_type="0 (passable area)" path_id="0 (?)"/>
+   <bin6><!-- 1 Empty Cells -->
+    ff 01 01 01 ; ff ff ff ff ; 10 01 01 f1
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff 01 01 01 ; ff ff ff ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="176 (of 255)" unknown2="17 (00011)" path_type="0 (passable area)" path_id="0 (?)" vertex_index="2010"/><!-- 0; 447 (-564.5666160583496,279.0); 486 (-564.2548828125,279.9998779296875); 501 (-563.9274415969849,281.0); 1 -->
+    <boundaries passable_part="97 (of 255)" unknown2="4104 (01008)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="2016"/><!-- 2; 464 (-563.0,279.09637451171875); 448 (-563.1189413070679,279.0) -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="2020"/><!-- 448 (-563.1189413070679,279.0); 464 (-563.0,279.09637451171875); 3; 501 (-563.9274415969849,281.0); 486 (-564.2548828125,279.9998779296875); 447 (-564.5666160583496,279.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff 01 01 01 ; ff ff ff ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="2027"/><!-- 464 (-563.0,279.09637451171875); 487 (-561.8846435546875,280.0001220703125); 502 (-561.0393972396851,281.0); 1 -->
+    <boundaries passable_part="177 (of 255)" unknown2="4641 (01221)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="2032"/><!-- 0; 449 (-562.0767669677734,279.0); 467 (-561.652904510498,279.2076721191406); 484 (-561.0,279.78450870513916); 3; 502 (-561.0393972396851,281.0); 487 (-561.8846435546875,280.0001220703125); 464 (-563.0,279.09637451171875) -->
+    <boundaries passable_part="97 (of 255)" unknown2="16644 (04104)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="2041"/><!-- 2; 484 (-561.0,279.78450870513916); 467 (-561.652904510498,279.2076721191406); 449 (-562.0767669677734,279.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>ff 01 01 01 ; ff ff ff ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="129 (of 255)" unknown2="5136 (01410)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="2046"/><!-- 484 (-561.0,279.78450870513916); 493 (-560.2083854675293,280.48389434814453); 496 (-559.0,280.5904378890991); 3; 1 -->
+    <boundaries passable_part="97 (of 255)" unknown2="9218 (02402)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="2052"/><!-- 2; 475 (-559.0,279.5865602493286); 474 (-559.7928352355957,279.5166549682617); 450 (-560.3776226043701,279.0) -->
+    <boundaries passable_part="177 (of 255)" unknown2="17185 (04321)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="2057"/><!-- 0; 450 (-560.3776226043701,279.0); 474 (-559.7928352355957,279.5166549682617); 475 (-559.0,279.5865602493286); 496 (-559.0,280.5904378890991); 493 (-560.2083854675293,280.48389434814453); 484 (-561.0,279.78450870513916) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>e0 01 01 01 ; ff ff b4 ff</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="129 (of 255)" unknown2="5136 (01410)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="2065"/><!-- 496 (-559.0,280.5904378890991); 499 (-557.390944480896,280.73230934143066); 498 (-557.0,280.69470405578613); 3; 1 -->
+    <boundaries passable_part="241 (of 255)" unknown2="9249 (02421)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="2071"/><!-- 0; 2; 478 (-557.0,279.69008922576904); 483 (-557.3949451446533,279.7280788421631); 475 (-559.0,279.5865602493286) -->
+    <boundaries passable_part="129 (of 255)" unknown2="17216 (04340)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="2077"/><!-- 475 (-559.0,279.5865602493286); 483 (-557.3949451446533,279.7280788421631); 478 (-557.0,279.69008922576904); 498 (-557.0,280.69470405578613); 499 (-557.390944480896,280.73230934143066); 496 (-559.0,280.5904378890991) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 01 01 01 ; e0 40 40 e0</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="129 (of 255)" unknown2="5136 (01410)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="2084"/><!-- 498 (-557.0,280.69470405578613); 495 (-555.0,280.50232219696045); 3; 1 -->
+    <boundaries passable_part="241 (of 255)" unknown2="9249 (02421)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="2089"/><!-- 0; 2; 471 (-555.0,279.37396144866943); 473 (-555.1887559890747,279.5158643722534); 478 (-557.0,279.69008922576904) -->
+    <boundaries passable_part="129 (of 255)" unknown2="17216 (04340)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="2095"/><!-- 478 (-557.0,279.69008922576904); 473 (-555.1887559890747,279.5158643722534); 471 (-555.0,279.37396144866943); 495 (-555.0,280.50232219696045); 498 (-557.0,280.69470405578613) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 01 01 01 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="129 (of 255)" unknown2="5136 (01410)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="2101"/><!-- 495 (-555.0,280.50232219696045); 494 (-554.8128309249878,280.48431873321533); 465 (-553.0,279.1214656829834); 3; 1 -->
+    <boundaries passable_part="176 (of 255)" unknown2="1057 (00421)" path_type="0 (passable area)" path_id="1 (?)" vertex_index="2107"/><!-- 0; 451 (-554.5025672912598,279.0); 471 (-555.0,279.37396144866943) -->
+    <boundaries passable_part="225 (of 255)" unknown2="9026 (02342)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="2111"/><!-- 471 (-555.0,279.37396144866943); 451 (-554.5025672912598,279.0); 2; 465 (-553.0,279.1214656829834); 494 (-554.8128309249878,280.48431873321533); 495 (-555.0,280.50232219696045) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 01 01 01 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="225 (of 255)" unknown2="4628 (01214)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="2118"/><!-- 465 (-553.0,279.1214656829834); 452 (-552.8384304046631,279.0); 2; 3; 1 -->
+    <boundaries passable_part="176 (of 255)" unknown2="321 (00141)" path_type="0 (passable area)" path_id="6 (?)" vertex_index="2124"/><!-- 0; 452 (-552.8384304046631,279.0); 465 (-553.0,279.1214656829834) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 01 01 01 ; 40 40 40 40</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="241 (of 255)" unknown2="4113 (01011)" path_type="0 (passable area)" path_id="3 (?)"/>
+   <bin6><!-- 1 Empty Cells -->
+    40 01 01 01 ; 40 40 40 40 ; 10 01 01 f1
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 01 01 01 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="241 (of 255)" unknown2="12817 (03211)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="2128"/><!-- 0; 2; 468 (-545.0,279.23375129699707); 479 (-545.457275390625,279.6910705566406); 491 (-545.457275390625,280.3981628417969); 500 (-545.0,280.85548210144043); 3; 1 -->
+    <boundaries passable_part="1 (of 255)" unknown2="16640 (04100)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="2137"/><!-- 500 (-545.0,280.85548210144043); 491 (-545.457275390625,280.3981628417969); 479 (-545.457275390625,279.6910705566406); 468 (-545.0,279.23375129699707) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 01 01 01 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="128 (of 255)" unknown2="1040 (00410)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="2142"/><!-- 500 (-545.0,280.85548210144043); 503 (-544.8554964065552,281.0); 1 -->
+    <boundaries passable_part="241 (of 255)" unknown2="5137 (01411)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="2146"/><!-- 0; 2; 3; 504 (-544.0791959762573,281.0); 492 (-543.4774169921875,280.3981628417969); 480 (-543.4774169921875,279.6910705566406); 463 (-544.11376953125,279.0546569824219); 462 (-544.8209228515625,279.0546569824219); 468 (-545.0,279.23375129699707) -->
+    <boundaries passable_part="128 (of 255)" unknown2="800 (00320)" path_type="4 (land bridge area)" path_id="3 (?)" vertex_index="2156"/><!-- 468 (-545.0,279.23375129699707); 462 (-544.8209228515625,279.0546569824219); 463 (-544.11376953125,279.0546569824219); 480 (-543.4774169921875,279.6910705566406); 492 (-543.4774169921875,280.3981628417969); 504 (-544.0791959762573,281.0); 503 (-544.8554964065552,281.0); 500 (-545.0,280.85548210144043) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 01 01 01 ; 40 40 40 40</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="241 (of 255)" unknown2="4129 (01021)" path_type="0 (passable area)" path_id="3 (?)"/>
+   <bin6><!-- 0 Empty Cells -->
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 01 01 01 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="176 (of 255)" unknown2="529 (00211)" path_type="0 (passable area)" path_id="3 (?)" vertex_index="2165"/><!-- 0; 453 (-539.1737833023071,279.0); 485 (-539.2395668029785,279.96612548828125); 505 (-539.3099641799927,281.0); 1 -->
+    <boundaries passable_part="97 (of 255)" unknown2="4354 (01102)" path_type="0 (passable area)" path_id="7 (?)" vertex_index="2171"/><!-- 2; 3; 505 (-539.3099641799927,281.0); 485 (-539.2395668029785,279.96612548828125); 453 (-539.1737833023071,279.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 01 01 01 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="176 (of 255)" unknown2="3617 (00e21)" path_type="0 (passable area)" path_id="7 (?)" vertex_index="2177"/><!-- 0; 454 (-538.1714696884155,279.0); 470 (-538.1931562423706,279.31849193573); 481 (-538.5709838867188,279.6963195800781); 488 (-538.2413282394409,280.02597522735596); 489 (-538.2418785095215,280.0340576171875); 506 (-538.3076505661011,281.0); 1 -->
+    <boundaries passable_part="97 (of 255)" unknown2="7426 (01d02)" path_type="4 (land bridge area)" path_id="4 (?)" vertex_index="2186"/><!-- 2; 3; 507 (-537.2673034667969,281.0); 488 (-538.2413282394409,280.02597522735596); 481 (-538.5709838867188,279.6963195800781); 470 (-538.1931562423706,279.31849193573); 455 (-537.8746643066406,279.0) -->
+    <boundaries passable_part="0 (of 255)" unknown2="768 (00300)" path_type="0 (passable area)" path_id="4 (?)" vertex_index="2194"/><!-- 507 (-537.2673034667969,281.0); 506 (-538.3076505661011,281.0); 489 (-538.2418785095215,280.0340576171875); 488 (-538.2413282394409,280.02597522735596) -->
+    <boundaries passable_part="32 (of 255)" unknown2="772 (00304)" path_type="0 (passable area)" path_id="4 (?)" vertex_index="2199"/><!-- 455 (-537.8746643066406,279.0); 470 (-538.1931562423706,279.31849193573); 454 (-538.1714696884155,279.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 01 01 01 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="176 (of 255)" unknown2="545 (00221)" path_type="4 (land bridge area)" path_id="4 (?)" vertex_index="2203"/><!-- 0; 456 (-535.8727722167969,279.0); 482 (-535.1764526367188,279.6963195800781); 508 (-536.4801330566406,281.0); 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="2209"/><!-- 2; 476 (-535.0,279.592924118042); 477 (-535.0103921890259,279.5964050292969); 472 (-535.3431758880615,279.4711151123047); 457 (-535.6175861358643,279.0) -->
+    <boundaries passable_part="33 (of 255)" unknown2="4354 (01102)" path_type="0 (passable area)" path_id="4 (?)" vertex_index="2215"/><!-- 457 (-535.6175861358643,279.0); 472 (-535.3431758880615,279.4711151123047); 477 (-535.0103921890259,279.5964050292969); 476 (-535.0,279.592924118042); 3; 508 (-536.4801330566406,281.0); 482 (-535.1764526367188,279.6963195800781); 456 (-535.8727722167969,279.0) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 01 01 01 ; 40 40 40 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="225 (of 255)" unknown2="4129 (01021)" path_type="0 (passable area)" path_id="4 (?)" vertex_index="2224"/><!-- 476 (-535.0,279.592924118042); 461 (-533.2427453994751,279.00432682037354); 458 (-533.2393493652344,279.0); 2; 3; 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="2231"/><!-- 0; 458 (-533.2393493652344,279.0); 461 (-533.2427453994751,279.00432682037354); 476 (-535.0,279.592924118042) -->
+   </ary>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>40 01 01 01 ; 40 40 40 40</bin6>
+   <ary type="boundaries"/>
+   <boundaries_empty passable_part="241 (of 255)" unknown2="4113 (01011)" path_type="0 (passable area)" path_id="4 (?)"/>
+   <bin6><!-- 0 Empty Cells -->
+   </bin6>
+  </rec>
+  <rec type="grid_cells">
+   <bin6>01 01 01 01 ; 40 78 01 40</bin6>
+   <ary type="boundaries">
+    <boundaries passable_part="176 (of 255)" unknown2="17 (00011)" path_type="0 (passable area)" path_id="4 (?)" vertex_index="2236"/><!-- 0; 459 (-530.57737159729,279.0); 469 (-530.3685989379883,279.27047538757324); 490 (-529.1869735717773,280.3318157196045); 497 (-529.0,280.60559368133545); 3; 1 -->
+    <boundaries passable_part="0 (of 255)" unknown2="0 (00000)" path_type="2 (transition area)" path_id="255 (?)" vertex_index="2244"/><!-- 460 (-529.1732311248779,279.0); 466 (-529.0,279.15559673309326); 497 (-529.0,280.60559368133545); 490 (-529.1869735717773,280.3318157196045); 469 (-530.3685989379883,279.27047538757324); 459 (-530.57737159729,279.0) -->
+    <boundaries passable_part="32 (of 255)" unknown2="1 (00001)" path_type="1 (sea boundary)" path_id="0 (?)" vertex_index="2251"/><!-- 460 (-529.1732311248779,279.0); 2; 466 (-529.0,279.15559673309326) -->
+   </ary>
+  </rec>
+ </ary>
+</rec>
