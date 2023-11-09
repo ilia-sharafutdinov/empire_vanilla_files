@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>ontario</s>
+ <asc>land</asc>
+ <v2 x="-589.25427" y="298.48822"/>
+ <v2 x="-520.41003" y="337.81027"/>
+ <ary type="areas">
+  <xml_include path="area-1/ontario-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

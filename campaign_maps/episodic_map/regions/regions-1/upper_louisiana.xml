@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>upper_louisiana</s>
+ <asc>land</asc>
+ <v2 x="-663.31995" y="240.94444"/>
+ <v2 x="-601.84167" y="299.99988"/>
+ <ary type="areas">
+  <xml_include path="area-1/upper_louisiana-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

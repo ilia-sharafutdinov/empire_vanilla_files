@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>england</s>
+ <asc>land</asc>
+ <v2 x="-40.52546691894531" y="355.40036"/>
+ <v2 x="13.38134" y="394.99985"/>
+ <ary type="areas">
+  <xml_include path="area-1/england-0000.xml"/>
+  <xml_include path="area-1/england-0001.xml"/>
+  <xml_include path="area-1/england-0002.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

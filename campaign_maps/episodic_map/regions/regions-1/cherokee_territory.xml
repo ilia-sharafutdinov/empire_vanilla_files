@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>cherokee_territory</s>
+ <asc>land</asc>
+ <v2 x="-648.23517" y="222.94179"/>
+ <v2 x="-585.00061" y="270.94461"/>
+ <ary type="areas">
+  <xml_include path="area-1/cherokee_territory-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

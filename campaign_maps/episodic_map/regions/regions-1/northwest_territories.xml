@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>northwest_territories</s>
+ <asc>land</asc>
+ <v2 x="-682.9729" y="395.89435"/>
+ <v2 x="-635.00073" y="419.39529"/>
+ <ary type="areas">
+  <xml_include path="area-1/northwest_territories-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>dense_forest</s>
+ <asc>land</asc>
+ <v2 x="-570.2019" y="259.05435"/>
+ <v2 x="-537.7403" y="305.5419"/>
+ <ary type="areas">
+  <xml_include path="area-2/dense_forest-0000.xml"/>
+  <xml_include path="area-2/dense_forest-0001.xml"/>
+  <xml_include path="area-2/dense_forest-0002.xml"/>
+  <xml_include path="area-2/dense_forest-0003.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<esf magic="43982 0 1231517480">
+ <node_types>
+  <node_type name="root"/>
+  <node_type name="SPLINES"/>
+  <node_type name="PORTS"/>
+  <node_type name="SETTLEMENTS"/>
+  <node_type name="ROUTES"/>
+  <node_type name="TRADE_NODE_ROUTES"/>
+ </node_types>
+ <rec type="root">
+  <ary type="SPLINES"/>
+  <ports/>
+  <settlements>
+   maryland
+   virginia
+   pennsylvania
+  </settlements>
+  <ary type="ROUTES">
+   <rec type="ROUTES">
+    <u>0</u><!-- Port OR Settlement Indice Start Point (maryland) -->
+    <u>1</u><!-- Port OR Settlement Indice End Point (virginia) -->
+    <u4_ary/>
+    <flt>8.54321</flt><!-- Length Of Route -->
+   </rec>
+   <rec type="ROUTES">
+    <u>0</u><!-- Port OR Settlement Indice Start Point (maryland) -->
+    <u>2</u><!-- Port OR Settlement Indice End Point (pennsylvania) -->
+    <u4_ary/>
+    <flt>22.33549</flt><!-- Length Of Route -->
+   </rec>
+   <rec type="ROUTES">
+    <u>1</u><!-- Port OR Settlement Indice Start Point (virginia) -->
+    <u>2</u><!-- Port OR Settlement Indice End Point (pennsylvania) -->
+    <u4_ary/>
+    <flt>29.519338607788086</flt><!-- Length Of Route -->
+   </rec>
+  </ary>
+  <ary type="TRADE_NODE_ROUTES">
+   <xml_include path="trade_node/0001.xml"/>
+  </ary>
+ </rec>
+</esf>

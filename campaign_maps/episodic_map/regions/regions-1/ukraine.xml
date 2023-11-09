@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>ukraine</s>
+ <asc>land</asc>
+ <v2 x="212.96909" y="344.05994"/>
+ <v2 x="279.09488" y="373.15817"/>
+ <ary type="areas">
+  <xml_include path="area-1/ukraine-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

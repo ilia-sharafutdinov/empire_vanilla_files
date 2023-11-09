@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>great_plains</s>
+ <asc>land</asc>
+ <v2 x="-736.99109" y="298.17862"/>
+ <v2 x="-684.11444" y="383.16086"/>
+ <ary type="areas">
+  <xml_include path="area-1/great_plains-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

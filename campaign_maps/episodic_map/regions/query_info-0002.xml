@@ -1,0 +1,673 @@
+<?xml version="1.0"?>
+<rec type="query_info">
+ <u>49</u><!-- Number Of Quads -->
+ <u>37</u><!-- Number Of Cells (cell = quad not empty) -->
+ <rec type="node">
+  <v2 x="-1280.0" y="-640.0"/>
+  <v2 x="1280.0" y="640.0"/>
+  <rec type="bottom_left">
+   <v2 x="-1280.0" y="-640.0"/>
+   <v2 x="0.0" y="0.0"/>
+   <cell x='-1280.0' y='-640.0' region='0 (grassland)' area='0'>
+   </cell>
+  </rec>
+  <rec type="top_left">
+   <v2 x="-1280.0" y="0.0"/>
+   <v2 x="0.0" y="640.0"/>
+   <rec type="bottom_left">
+    <v2 x="-1280.0" y="0.0"/>
+    <v2 x="-640.0" y="320.0"/>
+    <cell x='-1280.0' y='0.0' region='0 (grassland)' area='0'>
+    </cell>
+   </rec>
+   <rec type="top_left">
+    <v2 x="-1280.0" y="320.0"/>
+    <v2 x="-640.0" y="640.0"/>
+    <cell x='-1280.0' y='320.0' region='0 (grassland)' area='0'>
+    </cell>
+   </rec>
+   <rec type="bottom_right">
+    <v2 x="-640.0" y="0.0"/>
+    <v2 x="0.0" y="320.0"/>
+    <rec type="bottom_left">
+     <v2 x="-640.0" y="0.0"/>
+     <v2 x="-320.0" y="160.0"/>
+     <cell x='-640.0' y='0.0' region='0 (grassland)' area='0'>
+     </cell>
+    </rec>
+    <rec type="top_left">
+     <v2 x="-640.0" y="160.0"/>
+     <v2 x="-320.0" y="320.0"/>
+     <rec type="bottom_left">
+      <v2 x="-640.0" y="160.0"/>
+      <v2 x="-480.0" y="240.0"/>
+      <cell x='-640.0' y='160.0' region='0 (grassland)' area='0'>
+      </cell>
+     </rec>
+     <rec type="top_left">
+      <v2 x="-640.0" y="240.0"/>
+      <v2 x="-480.0" y="320.0"/>
+      <rec type="bottom_left">
+       <v2 x="-640.0" y="240.0"/>
+       <v2 x="-560.0" y="280.0"/>
+       <cell x='-640.0' y='240.0' region='0 (grassland)' area='0'>
+        <line_segment v1='44690 (-570.00061,259.05435)' region1='4 (dense_forest)' area1='0' v2='40993 (-570.2019,260.4213)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='40993 (-570.2019,260.4213)' region1='4 (dense_forest)' area1='0' v2='33314 (-569.86359,265.04517)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='33314 (-569.86359,265.04517)' region1='4 (dense_forest)' area1='0' v2='23543 (-569.86359,266.09036)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='1234 (-558.81732,261.47061)' region1='3 (hills)' area1='0' v2='1997 (-560.00055,261.33463)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='44690 (-570.00061,259.05435)' region1='0 (grassland)' area1='0' v2='44229 (-568.94049,260.56195)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='1997 (-560.00055,261.33463)' region1='3 (hills)' area1='0' v2='31971 (-561.1333,261.63599)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='31971 (-561.1333,261.63599)' region1='3 (hills)' area1='0' v2='35327 (-562.11267,262.7283)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='35153 (-563.65698,262.01263)' region1='3 (hills)' area1='0' v2='34552 (-564.46198,261.98169)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='34552 (-564.46198,261.98169)' region1='3 (hills)' area1='0' v2='40851 (-563.72565,264.39127)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='40851 (-563.72565,264.39127)' region1='3 (hills)' area1='0' v2='35965 (-563.80792,264.99982)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='35965 (-563.80792,264.99982)' region1='3 (hills)' area1='0' v2='18111 (-564.06036,266.86783)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='18111 (-564.06036,266.86783)' region1='3 (hills)' area1='0' v2='13304 (-565.00061,267.68549)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='13304 (-565.00061,267.68549)' region1='3 (hills)' area1='0' v2='13490 (-565.59979,268.20651)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='13490 (-565.59979,268.20651)' region1='3 (hills)' area1='0' v2='13584 (-567.7417,268.87585)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='15858 (-565.00043,279.99988)' region1='0 (grassland)' area1='0' v2='11122 (-570.00061,279.99988)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='13584 (-567.7417,268.87585)' region1='3 (hills)' area1='0' v2='18061 (-570.00061,268.742)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='18061 (-570.00061,268.742)' region1='3 (hills)' area1='0' v2='15555 (-570.00061,270.00009)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='15555 (-570.00061,270.00009)' region1='3 (hills)' area1='0' v2='7794 (-570.00061,272.62427)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='17473 (-560.3526,274.07523)' region1='3 (hills)' area1='0' v2='17300 (-560.00043,274.28171)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='35153 (-563.65698,262.01263)' region1='1 (hilly_light_forest)' area1='0' v2='35327 (-562.11267,262.7283)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='17300 (-560.00043,274.28171)' region1='3 (hills)' area1='0' v2='13192 (-559.2627,274.71417)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='7794 (-570.00061,272.62427)' region1='1 (hilly_light_forest)' area1='1' v2='5681 (-570.00061,274.04239)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='5681 (-570.00061,274.04239)' region1='1 (hilly_light_forest)' area1='1' v2='2300 (-570.00061,274.99979)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='2300 (-570.00061,274.99979)' region1='1 (hilly_light_forest)' area1='1' v2='11122 (-570.00061,279.99988)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='15858 (-565.00043,279.99988)' region1='1 (hilly_light_forest)' area1='1' v2='5650 (-565.00061,284.99997)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='17473 (-560.3526,274.07523)' region1='1 (hilly_light_forest)' area1='1' v2='8164 (-562.15674,273.32352)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='8164 (-562.15674,273.32352)' region1='1 (hilly_light_forest)' area1='1' v2='11676 (-564.29907,273.21078)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='11676 (-564.29907,273.21078)' region1='1 (hilly_light_forest)' area1='1' v2='12152 (-565.00061,273.26581)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='23543 (-569.86359,266.09036)' region1='1 (hilly_light_forest)' area1='0' v2='18061 (-570.00061,268.742)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='21983 (-568.73999,266.04523)' region1='1 (hilly_light_forest)' area1='0' v2='23543 (-569.86359,266.09036)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='34521 (-567.16144,265.66937)' region1='1 (hilly_light_forest)' area1='0' v2='21983 (-568.73999,266.04523)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='33659 (-566.74603,265.09457)' region1='1 (hilly_light_forest)' area1='0' v2='34521 (-567.16144,265.66937)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='33286 (-566.37347,264.31482)' region1='1 (hilly_light_forest)' area1='0' v2='33659 (-566.74603,265.09457)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='40636 (-566.66998,262.87802)' region1='1 (hilly_light_forest)' area1='0' v2='33286 (-566.37347,264.31482)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='38768 (-567.94897,261.03143)' region1='1 (hilly_light_forest)' area1='0' v2='40636 (-566.66998,262.87802)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='44229 (-568.94049,260.56195)' region1='1 (hilly_light_forest)' area1='0' v2='38768 (-567.94897,261.03143)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='48338 (-565.86743,259.99994)' region1='1 (hilly_light_forest)' area1='0' v2='44229 (-568.94049,260.56195)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='48931 (-565.00079,259.99991)' region1='1 (hilly_light_forest)' area1='0' v2='48338 (-565.86743,259.99994)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='32522 (-560.00061,260.00012)' region1='1 (hilly_light_forest)' area1='0' v2='48931 (-565.00079,259.99991)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='33776 (-557.17822,260.00012)' region1='1 (hilly_light_forest)' area1='0' v2='32522 (-560.00061,260.00012)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='4797 (-568.29846,273.35904)' region1='1 (hilly_light_forest)' area1='1' v2='7794 (-570.00061,272.62427)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='2376 (-566.21594,273.36111)' region1='1 (hilly_light_forest)' area1='1' v2='4797 (-568.29846,273.35904)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='12152 (-565.00061,273.26581)' region1='1 (hilly_light_forest)' area1='1' v2='2376 (-566.21594,273.36111)' region2='-1 (invalid)' area2='65535'/>
+       </cell>
+      </rec>
+      <rec type="top_left">
+       <v2 x="-640.0" y="280.0"/>
+       <v2 x="-560.0" y="320.0"/>
+       <cell x='-640.0' y='280.0' region='0 (grassland)' area='0'>
+        <line_segment v1='10460 (-559.04034,284.47159)' region1='3 (hills)' area1='0' v2='11123 (-560.00098,284.99997)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='11123 (-560.00098,284.99997)' region1='3 (hills)' area1='0' v2='29614 (-560.51294,286.07803)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='29614 (-560.51294,286.07803)' region1='3 (hills)' area1='0' v2='27378 (-560.00085,287.68414)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='21572 (-560.00079,290.00009)' region1='0 (grassland)' area1='0' v2='37832 (-565.00061,290.00009)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='22841 (-558.89819,290.00009)' region1='0 (grassland)' area1='0' v2='21572 (-560.00079,290.00009)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='27378 (-560.00085,287.68414)' region1='3 (hills)' area1='0' v2='22436 (-558.50488,288.68845)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='15858 (-565.00043,279.99988)' region1='1 (hilly_light_forest)' area1='1' v2='5650 (-565.00061,284.99997)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='5650 (-565.00061,284.99997)' region1='1 (hilly_light_forest)' area1='1' v2='35291 (-565.00061,286.3703)' region2='-1 (invalid)' area2='65535'/>
+        <line_segment v1='35291 (-565.00061,286.3703)' region1='1 (hilly_light_forest)' area1='1' v2='37832 (-565.00061,290.00009)' region2='-1 (invalid)' area2='65535'/>
+       </cell>
+      </rec>
+      <rec type="bottom_right">
+       <v2 x="-560.0" y="240.0"/>
+       <v2 x="-480.0" y="280.0"/>
+       <rec type="bottom_left">
+        <v2 x="-560.0" y="240.0"/>
+        <v2 x="-520.0" y="260.0"/>
+        <cell x='-560.0' y='240.0' region='0 (grassland)' area='0'>
+         <line_segment v1='37896 (-545.00079,260.00012)' region1='2 (light_forest)' area1='1' v2='34245 (-550.00061,259.99991)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='34245 (-550.00061,259.99991)' region1='2 (light_forest)' area1='1' v2='40439 (-553.01636,260.16034)' region2='-1 (invalid)' area2='65535'/>
+        </cell>
+       </rec>
+       <rec type="top_left">
+        <v2 x="-560.0" y="260.0"/>
+        <v2 x="-520.0" y="280.0"/>
+        <rec type="bottom_left">
+         <v2 x="-560.0" y="260.0"/>
+         <v2 x="-540.0" y="270.0"/>
+         <cell x='-560.0' y='265.0' region='3 (hills)' area='0'>
+          <line_segment v1='35229 (-539.24731,263.89197)' region1='2 (light_forest)' area1='3' v2='36683 (-540.00079,264.12552)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='36683 (-540.00079,264.12552)' region1='2 (light_forest)' area1='3' v2='34222 (-540.57349,265.0)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='33776 (-557.17822,260.00012)' region1='0 (grassland)' area1='0' v2='34268 (-557.36664,260.76965)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='32522 (-560.00061,260.00012)' region1='0 (grassland)' area1='0' v2='33776 (-557.17822,260.00012)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='15352 (-548.2627,269.5011)' region1='0 (grassland)' area1='0' v2='15041 (-548.07428,270.00003)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='15096 (-548.75232,269.19977)' region1='0 (grassland)' area1='0' v2='15352 (-548.2627,269.5011)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='34222 (-540.57349,265.0)' region1='2 (light_forest)' area1='3' v2='5948 (-540.00061,267.20367)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='5948 (-540.00061,267.20367)' region1='2 (light_forest)' area1='3' v2='6746 (-539.31055,268.12943)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='40439 (-553.01636,260.16034)' region1='2 (light_forest)' area1='1' v2='44157 (-552.34698,261.44647)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='10701 (-555.00061,269.99991)' region1='0 (grassland)' area1='0' v2='18301 (-554.26385,271.50418)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='12302 (-556.39789,267.65344)' region1='0 (grassland)' area1='0' v2='10701 (-555.00061,269.99991)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='44835 (-556.95807,265.00006)' region1='0 (grassland)' area1='0' v2='12302 (-556.39789,267.65344)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='42104 (-557.30688,263.34772)' region1='0 (grassland)' area1='0' v2='44835 (-556.95807,265.00006)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='1234 (-558.81732,261.47061)' region1='0 (grassland)' area1='0' v2='42104 (-557.30688,263.34772)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='41206 (-543.51172,260.16028)' region1='0 (grassland)' area1='0' v2='22831 (-540.87073,260.03979)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='37896 (-545.00079,260.00012)' region1='0 (grassland)' area1='0' v2='41206 (-543.51172,260.16028)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='34245 (-550.00061,259.99991)' region1='0 (grassland)' area1='0' v2='37896 (-545.00079,260.00012)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='40439 (-553.01636,260.16034)' region1='0 (grassland)' area1='0' v2='34245 (-550.00061,259.99991)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='44157 (-552.34698,261.44647)' region1='2 (light_forest)' area1='1' v2='28600 (-551.0083,262.24963)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='28600 (-551.0083,262.24963)' region1='2 (light_forest)' area1='1' v2='28632 (-550.00061,262.4071)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='28632 (-550.00061,262.4071)' region1='2 (light_forest)' area1='1' v2='30388 (-547.56671,262.272)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='24370 (-545.00073,261.0029)' region1='2 (light_forest)' area1='1' v2='24461 (-544.18091,261.1456)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='24370 (-545.00073,261.0029)' region1='0 (grassland)' area1='0' v2='30388 (-547.56671,262.272)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='24461 (-544.18091,261.1456)' region1='2 (light_forest)' area1='1' v2='23613 (-542.96118,261.21735)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='15096 (-548.75232,269.19977)' region1='2 (light_forest)' area1='0' v2='13431 (-550.00079,269.12448)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='21814 (-541.13171,260.64337)' region1='0 (grassland)' area1='0' v2='23613 (-542.96118,261.21735)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='22831 (-540.87073,260.03979)' region1='0 (grassland)' area1='0' v2='21814 (-541.13171,260.64337)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='13431 (-550.00079,269.12448)' region1='2 (light_forest)' area1='0' v2='13459 (-550.59802,269.42578)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='13459 (-550.59802,269.42578)' region1='2 (light_forest)' area1='0' v2='12018 (-551.12531,270.00006)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='1234 (-558.81732,261.47061)' region1='1 (hilly_light_forest)' area1='0' v2='46981 (-558.15765,261.44763)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='46981 (-558.15765,261.44763)' region1='1 (hilly_light_forest)' area1='0' v2='34268 (-557.36664,260.76965)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='1997 (-560.00055,261.33463)' region1='1 (hilly_light_forest)' area1='0' v2='1234 (-558.81732,261.47061)' region2='-1 (invalid)' area2='65535'/>
+         </cell>
+        </rec>
+        <rec type="top_left">
+         <v2 x="-560.0" y="270.0"/>
+         <v2 x="-540.0" y="280.0"/>
+         <rec type="bottom_left">
+          <v2 x="-560.0" y="270.0"/>
+          <v2 x="-550.0" y="275.0"/>
+          <cell x='-560.0' y='270.0' region='3 (hills)' area='0'>
+           <line_segment v1='582 (-549.771,274.39923)' region1='3 (hills)' area1='0' v2='979 (-550.00049,274.51077)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='979 (-550.00049,274.51077)' region1='3 (hills)' area1='0' v2='280 (-550.52271,274.99982)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='280 (-550.52271,274.99982)' region1='3 (hills)' area1='0' v2='23622 (-550.86169,275.60312)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='846 (-552.60663,275.70773)' region1='3 (hills)' area1='0' v2='22870 (-553.57367,274.99994)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='13459 (-550.59802,269.42578)' region1='2 (light_forest)' area1='0' v2='12018 (-551.12531,270.00006)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='10701 (-555.00061,269.99991)' region1='0 (grassland)' area1='0' v2='18301 (-554.26385,271.50418)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='13192 (-559.2627,274.71417)' region1='1 (hilly_light_forest)' area1='1' v2='17300 (-560.00043,274.28171)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='14949 (-558.92908,275.00015)' region1='1 (hilly_light_forest)' area1='1' v2='13192 (-559.2627,274.71417)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='12018 (-551.12531,270.00006)' region1='2 (light_forest)' area1='0' v2='12936 (-551.76569,270.48044)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='12936 (-551.76569,270.48044)' region1='2 (light_forest)' area1='0' v2='14575 (-552.82037,270.85712)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='14575 (-552.82037,270.85712)' region1='2 (light_forest)' area1='0' v2='17350 (-553.72437,271.15845)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='17350 (-553.72437,271.15845)' region1='2 (light_forest)' area1='0' v2='18301 (-554.26385,271.50418)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='23517 (-553.91272,274.13412)' region1='2 (light_forest)' area1='0' v2='22870 (-553.57367,274.99994)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='15791 (-554.36469,272.74045)' region1='2 (light_forest)' area1='0' v2='23517 (-553.91272,274.13412)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='13381 (-554.47772,272.2131)' region1='2 (light_forest)' area1='0' v2='15791 (-554.36469,272.74045)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='18301 (-554.26385,271.50418)' region1='2 (light_forest)' area1='0' v2='13381 (-554.47772,272.2131)' region2='-1 (invalid)' area2='65535'/>
+          </cell>
+         </rec>
+         <rec type="top_left">
+          <v2 x="-560.0" y="275.0"/>
+          <v2 x="-550.0" y="280.0"/>
+          <cell x='-560.0' y='275.0' region='1 (hilly_light_forest)' area='1'>
+           <line_segment v1='13323 (-550.00079,279.99988)' region1='0 (grassland)' area1='0' v2='11696 (-546.82977,282.29279)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='17278 (-550.98535,278.71454)' region1='0 (grassland)' area1='0' v2='13323 (-550.00079,279.99988)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='18895 (-550.74554,277.93405)' region1='0 (grassland)' area1='0' v2='17278 (-550.98535,278.71454)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='21180 (-550.00061,277.36005)' region1='0 (grassland)' area1='0' v2='18895 (-550.74554,277.93405)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='18668 (-549.48999,277.25247)' region1='0 (grassland)' area1='0' v2='21180 (-550.00061,277.36005)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='13192 (-559.2627,274.71417)' region1='3 (hills)' area1='0' v2='14949 (-558.92908,275.00015)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='14949 (-558.92908,275.00015)' region1='3 (hills)' area1='0' v2='6780 (-557.68408,276.06723)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='6780 (-557.68408,276.06723)' region1='3 (hills)' area1='0' v2='9971 (-556.40619,278.02164)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='9971 (-556.40619,278.02164)' region1='3 (hills)' area1='0' v2='2045 (-556.14313,279.41232)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='2045 (-556.14313,279.41232)' region1='3 (hills)' area1='0' v2='3222 (-556.1095,280.00012)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='280 (-550.52271,274.99982)' region1='3 (hills)' area1='0' v2='23622 (-550.86169,275.60312)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='23622 (-550.86169,275.60312)' region1='3 (hills)' area1='0' v2='49886 (-551.46436,275.86679)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='49886 (-551.46436,275.86679)' region1='3 (hills)' area1='0' v2='610 (-552.06702,275.82913)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='846 (-552.60663,275.70773)' region1='2 (light_forest)' area1='0' v2='610 (-552.06702,275.82913)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='22870 (-553.57367,274.99994)' region1='2 (light_forest)' area1='0' v2='846 (-552.60663,275.70773)' region2='-1 (invalid)' area2='65535'/>
+          </cell>
+         </rec>
+         <rec type="bottom_right">
+          <v2 x="-550.0" y="270.0"/>
+          <v2 x="-540.0" y="275.0"/>
+          <cell x='-550.0' y='270.0' region='2 (light_forest)' area='0'>
+           <line_segment v1='1686 (-548.77258,275.53055)' region1='3 (hills)' area1='0' v2='1248 (-549.27478,274.99982)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='1248 (-549.27478,274.99982)' region1='3 (hills)' area1='0' v2='582 (-549.771,274.39923)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='2919 (-549.27966,274.02112)' region1='0 (grassland)' area1='0' v2='582 (-549.771,274.39923)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='7136 (-548.79004,273.11713)' region1='0 (grassland)' area1='0' v2='2919 (-549.27966,274.02112)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='10255 (-548.14966,272.17545)' region1='0 (grassland)' area1='0' v2='7136 (-548.79004,273.11713)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='6267 (-548.03668,270.97012)' region1='0 (grassland)' area1='0' v2='10255 (-548.14966,272.17545)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='15041 (-548.07428,270.00003)' region1='0 (grassland)' area1='0' v2='6267 (-548.03668,270.97012)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='15352 (-548.2627,269.5011)' region1='0 (grassland)' area1='0' v2='15041 (-548.07428,270.00003)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='582 (-549.771,274.39923)' region1='3 (hills)' area1='0' v2='979 (-550.00049,274.51077)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='12915 (-539.47369,273.42633)' region1='2 (light_forest)' area1='2' v2='13406 (-540.00085,273.50244)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='4299 (-541.62976,272.86826)' region1='0 (grassland)' area1='0' v2='15428 (-540.79272,273.29947)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='2295 (-542.05627,272.46179)' region1='0 (grassland)' area1='0' v2='4299 (-541.62976,272.86826)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='13406 (-540.00085,273.50244)' region1='2 (light_forest)' area1='2' v2='15428 (-540.79272,273.29947)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='2295 (-542.05627,272.46179)' region1='2 (light_forest)' area1='2' v2='1996 (-542.46686,272.43704)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='1996 (-542.46686,272.43704)' region1='2 (light_forest)' area1='2' v2='5659 (-542.92346,273.88293)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='5659 (-542.92346,273.88293)' region1='2 (light_forest)' area1='2' v2='10220 (-542.5683,275.0)' region2='-1 (invalid)' area2='65535'/>
+          </cell>
+         </rec>
+         <rec type="top_right">
+          <v2 x="-550.0" y="275.0"/>
+          <v2 x="-540.0" y="280.0"/>
+          <cell x='-550.0' y='275.0' region='3 (hills)' area='0'>
+           <line_segment v1='18668 (-549.48999,277.25247)' region1='0 (grassland)' area1='0' v2='21180 (-550.00061,277.36005)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='23048 (-548.8443,276.35562)' region1='0 (grassland)' area1='0' v2='18668 (-549.48999,277.25247)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='1686 (-548.77258,275.53055)' region1='0 (grassland)' area1='0' v2='23048 (-548.8443,276.35562)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='1248 (-549.27478,274.99982)' region1='0 (grassland)' area1='0' v2='1686 (-548.77258,275.53055)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='10220 (-542.5683,275.0)' region1='2 (light_forest)' area1='2' v2='7908 (-542.82196,275.55704)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='7908 (-542.82196,275.55704)' region1='2 (light_forest)' area1='2' v2='16133 (-542.79602,276.11581)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='16133 (-542.79602,276.11581)' region1='2 (light_forest)' area1='2' v2='17374 (-542.06097,277.10437)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='6432 (-540.00073,278.09363)' region1='0 (grassland)' area1='0' v2='6865 (-540.51367,278.19507)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='7557 (-538.96637,276.85071)' region1='0 (grassland)' area1='0' v2='6432 (-540.00073,278.09363)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='17374 (-542.06097,277.10437)' region1='2 (light_forest)' area1='2' v2='7857 (-540.97028,277.91611)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='7857 (-540.97028,277.91611)' region1='2 (light_forest)' area1='2' v2='6865 (-540.51367,278.19507)' region2='-1 (invalid)' area2='65535'/>
+          </cell>
+         </rec>
+        </rec>
+        <rec type="bottom_right">
+         <v2 x="-540.0" y="260.0"/>
+         <v2 x="-520.0" y="270.0"/>
+         <cell x='-540.0' y='260.0' region='0 (grassland)' area='0'>
+          <line_segment v1='36294 (-537.96722,265.0)' region1='2 (light_forest)' area1='3' v2='35229 (-539.24731,263.89197)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='10237 (-534.73029,269.03802)' region1='0 (grassland)' area1='0' v2='6070 (-534.24823,269.99991)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='35229 (-539.24731,263.89197)' region1='2 (light_forest)' area1='3' v2='36683 (-540.00079,264.12552)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='7296 (-533.89319,270.55997)' region1='2 (light_forest)' area1='2' v2='6070 (-534.24823,269.99991)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='10237 (-534.73029,269.03802)' region1='2 (light_forest)' area1='2' v2='10313 (-535.00061,268.91855)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='10313 (-535.00061,268.91855)' region1='2 (light_forest)' area1='2' v2='8345 (-535.82098,268.55603)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='8345 (-535.82098,268.55603)' region1='2 (light_forest)' area1='2' v2='49941 (-536.40442,268.02338)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='49941 (-536.40442,268.02338)' region1='2 (light_forest)' area1='2' v2='7255 (-536.88635,267.26242)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='7255 (-536.88635,267.26242)' region1='2 (light_forest)' area1='2' v2='7271 (-537.1142,267.3194)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='7271 (-537.1142,267.3194)' region1='2 (light_forest)' area1='2' v2='7379 (-537.59662,267.43997)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='4799 (-537.77417,269.99991)' region1='0 (grassland)' area1='0' v2='462 (-538.2561,269.31705)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='17064 (-536.91174,271.19412)' region1='0 (grassland)' area1='0' v2='4799 (-537.77417,269.99991)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='6746 (-539.31055,268.12943)' region1='0 (grassland)' area1='0' v2='5948 (-540.00061,267.20367)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='6753 (-537.3996,266.54343)' region1='0 (grassland)' area1='0' v2='6746 (-539.31055,268.12943)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='36294 (-537.96722,265.0)' region1='0 (grassland)' area1='0' v2='6753 (-537.3996,266.54343)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='7379 (-537.59662,267.43997)' region1='2 (light_forest)' area1='2' v2='841 (-538.10394,268.37851)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='841 (-538.10394,268.37851)' region1='2 (light_forest)' area1='2' v2='462 (-538.2561,269.31705)' region2='-1 (invalid)' area2='65535'/>
+         </cell>
+        </rec>
+        <rec type="top_right">
+         <v2 x="-540.0" y="270.0"/>
+         <v2 x="-520.0" y="280.0"/>
+         <cell x='-540.0' y='270.0' region='0 (grassland)' area='0'>
+          <line_segment v1='7557 (-538.96637,276.85071)' region1='0 (grassland)' area1='0' v2='6432 (-540.00073,278.09363)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='7561 (-538.50977,276.62241)' region1='0 (grassland)' area1='0' v2='7557 (-538.96637,276.85071)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='12136 (-537.64734,276.82535)' region1='0 (grassland)' area1='0' v2='7561 (-538.50977,276.62241)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='9981 (-536.81024,276.67316)' region1='0 (grassland)' area1='0' v2='12136 (-537.64734,276.82535)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='6836 (-536.15076,276.01364)' region1='0 (grassland)' area1='0' v2='9981 (-536.81024,276.67316)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='17251 (-535.84637,275.25266)' region1='0 (grassland)' area1='0' v2='6836 (-536.15076,276.01364)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='16613 (-535.66888,274.99988)' region1='0 (grassland)' area1='0' v2='17251 (-535.84637,275.25266)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='20321 (-535.46588,273.52777)' region1='0 (grassland)' area1='0' v2='16613 (-535.66888,274.99988)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='12206 (-535.00067,272.86829)' region1='0 (grassland)' area1='0' v2='20321 (-535.46588,273.52777)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='10454 (-534.7049,272.2341)' region1='0 (grassland)' area1='0' v2='12206 (-535.00067,272.86829)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='15533 (-534.19757,271.85364)' region1='0 (grassland)' area1='0' v2='10454 (-534.7049,272.2341)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='15122 (-534.01642,271.63367)' region1='0 (grassland)' area1='0' v2='15533 (-534.19757,271.85364)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='11704 (-533.84247,271.42242)' region1='0 (grassland)' area1='0' v2='15122 (-534.01642,271.63367)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='7296 (-533.89319,270.55997)' region1='0 (grassland)' area1='0' v2='11704 (-533.84247,271.42242)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='6070 (-534.24823,269.99991)' region1='0 (grassland)' area1='0' v2='7296 (-533.89319,270.55997)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='4799 (-537.77417,269.99991)' region1='2 (light_forest)' area1='2' v2='17064 (-536.91174,271.19412)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='17064 (-536.91174,271.19412)' region1='2 (light_forest)' area1='2' v2='18277 (-537.46979,272.38632)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='18277 (-537.46979,272.38632)' region1='2 (light_forest)' area1='2' v2='12635 (-538.48444,273.19803)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='12635 (-538.48444,273.19803)' region1='2 (light_forest)' area1='2' v2='12915 (-539.47369,273.42633)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='12915 (-539.47369,273.42633)' region1='2 (light_forest)' area1='2' v2='13406 (-540.00085,273.50244)' region2='-1 (invalid)' area2='65535'/>
+         </cell>
+        </rec>
+       </rec>
+       <rec type="bottom_right">
+        <v2 x="-520.0" y="240.0"/>
+        <v2 x="-480.0" y="260.0"/>
+        <cell x='-520.0' y='240.0' region='0 (grassland)' area='0'>
+        </cell>
+       </rec>
+       <rec type="top_right">
+        <v2 x="-520.0" y="260.0"/>
+        <v2 x="-480.0" y="280.0"/>
+        <cell x='-520.0' y='260.0' region='0 (grassland)' area='0'>
+        </cell>
+       </rec>
+      </rec>
+      <rec type="top_right">
+       <v2 x="-560.0" y="280.0"/>
+       <v2 x="-480.0" y="320.0"/>
+       <rec type="bottom_left">
+        <v2 x="-560.0" y="280.0"/>
+        <v2 x="-520.0" y="300.0"/>
+        <rec type="bottom_left">
+         <v2 x="-560.0" y="280.0"/>
+         <v2 x="-540.0" y="290.0"/>
+         <rec type="bottom_left">
+          <v2 x="-560.0" y="280.0"/>
+          <v2 x="-550.0" y="285.0"/>
+          <cell x='-560.0' y='280.0' region='1 (hilly_light_forest)' area='1'>
+           <line_segment v1='13323 (-550.00079,279.99988)' region1='0 (grassland)' area1='0' v2='11696 (-546.82977,282.29279)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='2045 (-556.14313,279.41232)' region1='3 (hills)' area1='0' v2='3222 (-556.1095,280.00012)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='3222 (-556.1095,280.00012)' region1='3 (hills)' area1='0' v2='15147 (-556.06787,280.72784)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='15147 (-556.06787,280.72784)' region1='3 (hills)' area1='0' v2='12204 (-555.65448,282.30643)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='12204 (-555.65448,282.30643)' region1='3 (hills)' area1='0' v2='18198 (-555.96143,284.27078)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='18198 (-555.96143,284.27078)' region1='3 (hills)' area1='0' v2='15629 (-556.89844,284.99997)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='15629 (-556.89844,284.99997)' region1='3 (hills)' area1='0' v2='10460 (-559.04034,284.47159)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='10460 (-559.04034,284.47159)' region1='3 (hills)' area1='0' v2='11123 (-560.00098,284.99997)' region2='-1 (invalid)' area2='65535'/>
+          </cell>
+         </rec>
+         <rec type="top_left">
+          <v2 x="-560.0" y="285.0"/>
+          <v2 x="-550.0" y="290.0"/>
+          <cell x='-560.0' y='285.0' region='3 (hills)' area='0'>
+           <line_segment v1='22436 (-558.50488,288.68845)' region1='1 (hilly_light_forest)' area1='1' v2='27378 (-560.00085,287.68414)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='24019 (-557.63477,290.00009)' region1='1 (hilly_light_forest)' area1='1' v2='22436 (-558.50488,288.68845)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='48417 (-550.00073,286.89001)' region1='1 (hilly_light_forest)' area1='2' v2='48606 (-549.7442,287.67896)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='804 (-550.73035,286.32654)' region1='1 (hilly_light_forest)' area1='2' v2='48417 (-550.00073,286.89001)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='23602 (-553.91516,287.76041)' region1='4 (dense_forest)' area1='1' v2='22936 (-554.33234,287.76828)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='22936 (-554.33234,287.76828)' region1='4 (dense_forest)' area1='1' v2='22131 (-555.00061,287.62698)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='22131 (-555.00061,287.62698)' region1='4 (dense_forest)' area1='1' v2='21574 (-555.64484,287.83542)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='21574 (-555.64484,287.83542)' region1='4 (dense_forest)' area1='1' v2='21456 (-556.53735,288.15213)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='22257 (-553.9422,287.05914)' region1='1 (hilly_light_forest)' area1='2' v2='23602 (-553.91516,287.76041)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='21440 (-553.01239,286.24203)' region1='1 (hilly_light_forest)' area1='2' v2='22257 (-553.9422,287.05914)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='21374 (-551.66003,285.62219)' region1='1 (hilly_light_forest)' area1='2' v2='21440 (-553.01239,286.24203)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='1612 (-550.89929,285.65036)' region1='1 (hilly_light_forest)' area1='2' v2='21374 (-551.66003,285.62219)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='21456 (-556.53735,288.15213)' region1='4 (dense_forest)' area1='1' v2='24019 (-557.63477,290.00009)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='804 (-550.73035,286.32654)' region1='4 (dense_forest)' area1='1' v2='22867 (-551.49109,286.32657)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='468 (-550.00073,286.3548)' region1='3 (hills)' area1='0' v2='46412 (-549.4624,286.97458)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='1612 (-550.89929,285.65036)' region1='3 (hills)' area1='0' v2='468 (-550.00073,286.3548)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='22867 (-551.49109,286.32657)' region1='4 (dense_forest)' area1='1' v2='24630 (-551.99823,286.86188)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='24630 (-551.99823,286.86188)' region1='4 (dense_forest)' area1='1' v2='24996 (-552.34027,287.73071)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='24996 (-552.34027,287.73071)' region1='4 (dense_forest)' area1='1' v2='23602 (-553.91516,287.76041)' region2='-1 (invalid)' area2='65535'/>
+          </cell>
+         </rec>
+         <rec type="bottom_right">
+          <v2 x="-550.0" y="280.0"/>
+          <v2 x="-540.0" y="285.0"/>
+          <cell x='-550.0' y='282.5' region='3 (hills)' area='0'>
+           <line_segment v1='16180 (-541.26349,284.24164)' region1='0 (grassland)' area1='0' v2='15801 (-539.91913,284.86572)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='16180 (-541.26349,284.24164)' region1='1 (hilly_light_forest)' area1='2' v2='11736 (-542.40247,284.36465)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='8374 (-542.71539,284.06293)' region1='0 (grassland)' area1='0' v2='11736 (-542.40247,284.36465)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='11963 (-545.00085,283.07965)' region1='0 (grassland)' area1='0' v2='8374 (-542.71539,284.06293)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='11696 (-546.82977,282.29279)' region1='0 (grassland)' area1='0' v2='11963 (-545.00085,283.07965)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='13323 (-550.00079,279.99988)' region1='0 (grassland)' area1='0' v2='11696 (-546.82977,282.29279)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='5841 (-547.57458,284.99997)' region1='1 (hilly_light_forest)' area1='2' v2='46733 (-547.63098,286.32657)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='6182 (-547.29291,284.43884)' region1='1 (hilly_light_forest)' area1='2' v2='5841 (-547.57458,284.99997)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='5070 (-546.8421,283.98804)' region1='1 (hilly_light_forest)' area1='2' v2='6182 (-547.29291,284.43884)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='12623 (-545.00085,283.93173)' region1='1 (hilly_light_forest)' area1='2' v2='5070 (-546.8421,283.98804)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='12889 (-543.68652,284.29797)' region1='1 (hilly_light_forest)' area1='2' v2='12623 (-545.00085,283.93173)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='11736 (-542.40247,284.36465)' region1='1 (hilly_light_forest)' area1='2' v2='12889 (-543.68652,284.29797)' region2='-1 (invalid)' area2='65535'/>
+          </cell>
+         </rec>
+         <rec type="top_right">
+          <v2 x="-550.0" y="285.0"/>
+          <v2 x="-540.0" y="290.0"/>
+          <cell x='-550.0' y='285.0' region='3 (hills)' area='0'>
+           <line_segment v1='42493 (-549.33276,289.99991)' region1='1 (hilly_light_forest)' area1='2' v2='39745 (-549.7724,290.49646)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='40869 (-549.15253,289.34128)' region1='1 (hilly_light_forest)' area1='2' v2='42493 (-549.33276,289.99991)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='46101 (-549.12439,288.89047)' region1='1 (hilly_light_forest)' area1='2' v2='40869 (-549.15253,289.34128)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='740 (-547.85651,287.62262)' region1='4 (dense_forest)' area1='3' v2='43946 (-547.82831,288.27063)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='46658 (-545.00049,289.51044)' region1='4 (dense_forest)' area1='3' v2='49646 (-544.56006,290.00009)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='36771 (-540.00073,286.6806)' region1='4 (dense_forest)' area1='3' v2='38835 (-541.30267,286.68057)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='46412 (-549.4624,286.97458)' region1='1 (hilly_light_forest)' area1='2' v2='468 (-550.00073,286.3548)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='47467 (-549.0116,287.17181)' region1='1 (hilly_light_forest)' area1='2' v2='46412 (-549.4624,286.97458)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='1097 (-548.33539,287.11551)' region1='1 (hilly_light_forest)' area1='2' v2='47467 (-549.0116,287.17181)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='46733 (-547.63098,286.32657)' region1='1 (hilly_light_forest)' area1='2' v2='1097 (-548.33539,287.11551)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='5841 (-547.57458,284.99997)' region1='1 (hilly_light_forest)' area1='2' v2='46733 (-547.63098,286.32657)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='38835 (-541.30267,286.68057)' region1='4 (dense_forest)' area1='3' v2='44590 (-541.44171,286.76169)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='41415 (-543.37671,286.1857)' region1='4 (dense_forest)' area1='3' v2='46146 (-545.00073,286.12933)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='46146 (-545.00073,286.12933)' region1='4 (dense_forest)' area1='3' v2='104 (-546.41956,286.66467)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='104 (-546.41956,286.66467)' region1='4 (dense_forest)' area1='3' v2='1526 (-546.89856,287.31268)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='43760 (-547.12396,288.77777)' region1='1 (hilly_light_forest)' area1='2' v2='43946 (-547.82831,288.27063)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='358 (-545.99695,288.89047)' region1='1 (hilly_light_forest)' area1='2' v2='43760 (-547.12396,288.77777)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='46658 (-545.00049,289.51044)' region1='1 (hilly_light_forest)' area1='2' v2='358 (-545.99695,288.89047)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='1526 (-546.89856,287.31268)' region1='4 (dense_forest)' area1='3' v2='740 (-547.85651,287.62262)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='34758 (-539.09387,288.6886)' region1='1 (hilly_light_forest)' area1='2' v2='32434 (-540.00098,290.00009)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='36771 (-540.00073,286.6806)' region1='1 (hilly_light_forest)' area1='2' v2='37656 (-539.42853,287.34991)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='46101 (-549.12439,288.89047)' region1='4 (dense_forest)' area1='1' v2='44395 (-549.49066,288.327)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='44395 (-549.49066,288.327)' region1='4 (dense_forest)' area1='1' v2='48606 (-549.7442,287.67896)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='41415 (-543.37671,286.1857)' region1='1 (hilly_light_forest)' area1='2' v2='44590 (-541.44171,286.76169)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='48606 (-549.7442,287.67896)' region1='4 (dense_forest)' area1='1' v2='48417 (-550.00073,286.89001)' region2='-1 (invalid)' area2='65535'/>
+          </cell>
+         </rec>
+        </rec>
+        <rec type="top_left">
+         <v2 x="-560.0" y="290.0"/>
+         <v2 x="-540.0" y="300.0"/>
+         <rec type="bottom_left">
+          <v2 x="-560.0" y="290.0"/>
+          <v2 x="-550.0" y="295.0"/>
+          <cell x='-560.0' y='292.5' region='0 (grassland)' area='0'>
+           <line_segment v1='21456 (-556.53735,288.15213)' region1='4 (dense_forest)' area1='1' v2='24019 (-557.63477,290.00009)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='22841 (-558.89819,290.00009)' region1='4 (dense_forest)' area1='1' v2='41624 (-559.12848,291.5495)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='41624 (-559.12848,291.5495)' region1='4 (dense_forest)' area1='1' v2='35057 (-559.31055,292.88434)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='35057 (-559.31055,292.88434)' region1='4 (dense_forest)' area1='1' v2='35916 (-558.49512,294.45734)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='35916 (-558.49512,294.45734)' region1='4 (dense_forest)' area1='1' v2='34613 (-558.08459,294.99991)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='38377 (-555.00061,294.99979)' region1='0 (grassland)' area1='0' v2='34613 (-558.08459,294.99991)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='38377 (-555.00061,294.99979)' region1='4 (dense_forest)' area1='1' v2='44030 (-555.00061,297.50745)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='22436 (-558.50488,288.68845)' region1='3 (hills)' area1='0' v2='24019 (-557.63477,290.00009)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='22841 (-558.89819,290.00009)' region1='1 (hilly_light_forest)' area1='1' v2='24019 (-557.63477,290.00009)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='21572 (-560.00079,290.00009)' region1='1 (hilly_light_forest)' area1='1' v2='22841 (-558.89819,290.00009)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='33365 (-550.86548,293.88153)' region1='1 (hilly_light_forest)' area1='2' v2='43316 (-551.57861,295.29852)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='34764 (-551.09576,293.13297)' region1='1 (hilly_light_forest)' area1='2' v2='33365 (-550.86548,293.88153)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='35658 (-551.29565,292.32959)' region1='1 (hilly_light_forest)' area1='2' v2='34764 (-551.09576,293.13297)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='37636 (-551.16064,291.95074)' region1='1 (hilly_light_forest)' area1='2' v2='35658 (-551.29565,292.32959)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='37796 (-550.81488,291.70801)' region1='1 (hilly_light_forest)' area1='2' v2='37636 (-551.16064,291.95074)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='40784 (-550.22321,290.89093)' region1='1 (hilly_light_forest)' area1='2' v2='37796 (-550.81488,291.70801)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='40371 (-550.00073,290.69629)' region1='1 (hilly_light_forest)' area1='2' v2='40784 (-550.22321,290.89093)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='39745 (-549.7724,290.49646)' region1='1 (hilly_light_forest)' area1='2' v2='40371 (-550.00073,290.69629)' region2='-1 (invalid)' area2='65535'/>
+          </cell>
+         </rec>
+         <rec type="top_left">
+          <v2 x="-560.0" y="295.0"/>
+          <v2 x="-550.0" y="300.0"/>
+          <cell x='-560.0' y='295.0' region='0 (grassland)' area='0'>
+           <line_segment v1='25337 (-548.93658,296.84702)' region1='4 (dense_forest)' area1='2' v2='27658 (-550.00049,297.04044)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='27658 (-550.00049,297.04044)' region1='4 (dense_forest)' area1='2' v2='24968 (-550.52008,297.13492)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='24968 (-550.52008,297.13492)' region1='4 (dense_forest)' area1='2' v2='24524 (-551.00952,297.62436)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='45529 (-554.32037,297.39407)' region1='1 (hilly_light_forest)' area1='2' v2='44030 (-555.00061,297.50745)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='44538 (-553.84467,297.22028)' region1='1 (hilly_light_forest)' area1='2' v2='45529 (-554.32037,297.39407)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='47742 (-552.82324,296.84705)' region1='1 (hilly_light_forest)' area1='2' v2='44538 (-553.84467,297.22028)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='45472 (-552.16107,295.98328)' region1='1 (hilly_light_forest)' area1='2' v2='47742 (-552.82324,296.84705)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='43316 (-551.57861,295.29852)' region1='1 (hilly_light_forest)' area1='2' v2='45472 (-552.16107,295.98328)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='33365 (-550.86548,293.88153)' region1='1 (hilly_light_forest)' area1='2' v2='43316 (-551.57861,295.29852)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='24524 (-551.00952,297.62436)' region1='4 (dense_forest)' area1='2' v2='23430 (-551.1535,298.40173)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='23430 (-551.1535,298.40173)' region1='4 (dense_forest)' area1='2' v2='22527 (-550.77917,299.17908)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='22527 (-550.77917,299.17908)' region1='4 (dense_forest)' area1='2' v2='20646 (-550.40491,299.99988)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='20646 (-550.40491,299.99988)' region1='4 (dense_forest)' area1='2' v2='17329 (-550.40112,301.04468)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='38377 (-555.00061,294.99979)' region1='4 (dense_forest)' area1='1' v2='44030 (-555.00061,297.50745)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='44030 (-555.00061,297.50745)' region1='1 (hilly_light_forest)' area1='2' v2='49516 (-555.00061,299.99988)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='49516 (-555.00061,299.99988)' region1='1 (hilly_light_forest)' area1='2' v2='13631 (-555.00061,302.87854)' region2='-1 (invalid)' area2='65535'/>
+          </cell>
+         </rec>
+         <rec type="bottom_right">
+          <v2 x="-550.0" y="290.0"/>
+          <v2 x="-540.0" y="295.0"/>
+          <cell x='-550.0' y='290.0' region='4 (dense_forest)' area='1'>
+           <line_segment v1='39745 (-549.7724,290.49646)' region1='1 (hilly_light_forest)' area1='2' v2='40371 (-550.00073,290.69629)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='42493 (-549.33276,289.99991)' region1='1 (hilly_light_forest)' area1='2' v2='39745 (-549.7724,290.49646)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='39084 (-543.46637,294.99997)' region1='1 (hilly_light_forest)' area1='2' v2='22212 (-543.31561,295.50204)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='40172 (-543.6098,294.40891)' region1='1 (hilly_light_forest)' area1='2' v2='39084 (-543.46637,294.99997)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='40204 (-543.82507,293.65555)' region1='1 (hilly_light_forest)' area1='2' v2='40172 (-543.6098,294.40891)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='46658 (-545.00049,289.51044)' region1='4 (dense_forest)' area1='3' v2='49646 (-544.56006,290.00009)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='49646 (-544.56006,290.00009)' region1='4 (dense_forest)' area1='3' v2='49153 (-544.16559,290.32739)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='49153 (-544.16559,290.32739)' region1='4 (dense_forest)' area1='3' v2='31691 (-543.5451,290.86026)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='31691 (-543.5451,290.86026)' region1='4 (dense_forest)' area1='3' v2='29870 (-542.86957,291.08813)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='40204 (-543.82507,293.65555)' region1='4 (dense_forest)' area1='2' v2='38994 (-545.00055,293.36856)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='38994 (-545.00055,293.36856)' region1='4 (dense_forest)' area1='2' v2='39187 (-545.47522,293.44031)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='39187 (-545.47522,293.44031)' region1='4 (dense_forest)' area1='2' v2='39093 (-545.81616,293.80508)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='39093 (-545.81616,293.80508)' region1='4 (dense_forest)' area1='2' v2='32887 (-546.69489,293.97839)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='32887 (-546.69489,293.97839)' region1='4 (dense_forest)' area1='2' v2='33889 (-547.28552,294.2128)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='33889 (-547.28552,294.2128)' region1='4 (dense_forest)' area1='2' v2='35280 (-547.81372,294.45737)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='35280 (-547.81372,294.45737)' region1='4 (dense_forest)' area1='2' v2='33489 (-548.33197,294.99997)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='33489 (-548.33197,294.99997)' region1='4 (dense_forest)' area1='2' v2='26874 (-548.44714,295.66656)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='32389 (-541.96796,290.97543)' region1='1 (hilly_light_forest)' area1='2' v2='29870 (-542.86957,291.08813)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='1924 (-540.83417,290.6297)' region1='1 (hilly_light_forest)' area1='2' v2='32389 (-541.96796,290.97543)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='32434 (-540.00098,290.00009)' region1='1 (hilly_light_forest)' area1='2' v2='1924 (-540.83417,290.6297)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='34758 (-539.09387,288.6886)' region1='1 (hilly_light_forest)' area1='2' v2='32434 (-540.00098,290.00009)' region2='-1 (invalid)' area2='65535'/>
+          </cell>
+         </rec>
+         <rec type="top_right">
+          <v2 x="-550.0" y="295.0"/>
+          <v2 x="-540.0" y="300.0"/>
+          <cell x='-550.0' y='295.0' region='1 (hilly_light_forest)' area='2'>
+           <line_segment v1='8204 (-540.42035,299.8512)' region1='1 (hilly_light_forest)' area1='2' v2='29128 (-540.58722,300.33072)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='11483 (-540.30798,299.52832)' region1='1 (hilly_light_forest)' area1='2' v2='8204 (-540.42035,299.8512)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='11489 (-540.12634,299.43146)' region1='1 (hilly_light_forest)' area1='2' v2='11483 (-540.30798,299.52832)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='9459 (-539.52032,299.10825)' region1='1 (hilly_light_forest)' area1='2' v2='11489 (-540.12634,299.43146)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='18139 (-539.80078,296.29282)' region1='4 (dense_forest)' area1='2' v2='15358 (-540.02167,296.52762)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='15358 (-540.02167,296.52762)' region1='4 (dense_forest)' area1='2' v2='15596 (-540.5965,296.77649)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='15596 (-540.5965,296.77649)' region1='4 (dense_forest)' area1='2' v2='15351 (-541.13458,297.24283)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='15351 (-541.13458,297.24283)' region1='4 (dense_forest)' area1='2' v2='23702 (-541.69128,297.42404)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='23702 (-541.69128,297.42404)' region1='4 (dense_forest)' area1='2' v2='24426 (-542.22601,297.32376)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='19189 (-542.8924,296.16666)' region1='1 (hilly_light_forest)' area1='2' v2='24426 (-542.22601,297.32376)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='22212 (-543.31561,295.50204)' region1='1 (hilly_light_forest)' area1='2' v2='19189 (-542.8924,296.16666)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='39084 (-543.46637,294.99997)' region1='1 (hilly_light_forest)' area1='2' v2='22212 (-543.31561,295.50204)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='33489 (-548.33197,294.99997)' region1='4 (dense_forest)' area1='2' v2='26874 (-548.44714,295.66656)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='26874 (-548.44714,295.66656)' region1='4 (dense_forest)' area1='2' v2='26065 (-548.44714,296.01208)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='26065 (-548.44714,296.01208)' region1='4 (dense_forest)' area1='2' v2='25337 (-548.93658,296.84702)' region2='-1 (invalid)' area2='65535'/>
+           <line_segment v1='25337 (-548.93658,296.84702)' region1='4 (dense_forest)' area1='2' v2='27658 (-550.00049,297.04044)' region2='-1 (invalid)' area2='65535'/>
+          </cell>
+         </rec>
+        </rec>
+        <rec type="bottom_right">
+         <v2 x="-540.0" y="280.0"/>
+         <v2 x="-520.0" y="290.0"/>
+         <cell x='-540.0' y='280.0' region='0 (grassland)' area='0'>
+          <line_segment v1='34758 (-539.09387,288.6886)' region1='4 (dense_forest)' area1='3' v2='37656 (-539.42853,287.34991)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='32142 (-538.33319,288.46786)' region1='0 (grassland)' area1='0' v2='34847 (-538.4278,289.20581)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='39725 (-538.33325,287.48175)' region1='0 (grassland)' area1='0' v2='32142 (-538.33319,288.46786)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='37656 (-539.42853,287.34991)' region1='4 (dense_forest)' area1='3' v2='36771 (-540.00073,286.6806)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='34758 (-539.09387,288.6886)' region1='1 (hilly_light_forest)' area1='2' v2='32434 (-540.00098,290.00009)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='34966 (-537.40503,290.00009)' region1='1 (hilly_light_forest)' area1='2' v2='34847 (-538.4278,289.20581)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='39725 (-538.33325,287.48175)' region1='1 (hilly_light_forest)' area1='2' v2='40780 (-539.04193,286.52621)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='15801 (-539.91913,284.86572)' region1='1 (hilly_light_forest)' area1='2' v2='16180 (-541.26349,284.24164)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='39857 (-539.18231,285.90509)' region1='1 (hilly_light_forest)' area1='2' v2='15801 (-539.91913,284.86572)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='40780 (-539.04193,286.52621)' region1='1 (hilly_light_forest)' area1='2' v2='39857 (-539.18231,285.90509)' region2='-1 (invalid)' area2='65535'/>
+         </cell>
+        </rec>
+        <rec type="top_right">
+         <v2 x="-540.0" y="290.0"/>
+         <v2 x="-520.0" y="300.0"/>
+         <cell x='-540.0' y='290.0' region='1 (hilly_light_forest)' area='2'>
+          <line_segment v1='49725 (-530.00079,299.99988)' region1='0 (grassland)' area1='0' v2='41886 (-529.12061,301.53983)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='3992 (-530.00079,294.99997)' region1='0 (grassland)' area1='0' v2='49725 (-530.00079,299.99988)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='17555 (-537.7403,297.38385)' region1='4 (dense_forest)' area1='2' v2='14811 (-538.04956,296.38187)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='34966 (-537.40503,290.00009)' region1='0 (grassland)' area1='0' v2='159 (-535.00067,293.39188)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='34847 (-538.4278,289.20581)' region1='0 (grassland)' area1='0' v2='34966 (-537.40503,290.00009)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='14811 (-538.04956,296.38187)' region1='4 (dense_forest)' area1='2' v2='15845 (-538.73114,295.80792)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='15845 (-538.73114,295.80792)' region1='4 (dense_forest)' area1='2' v2='17412 (-539.52032,295.80792)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='17412 (-539.52032,295.80792)' region1='4 (dense_forest)' area1='2' v2='18139 (-539.80078,296.29282)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='18139 (-539.80078,296.29282)' region1='4 (dense_forest)' area1='2' v2='15358 (-540.02167,296.52762)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='159 (-535.00067,293.39188)' region1='3 (hills)' area1='2' v2='49642 (-535.98248,294.24716)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='49642 (-535.98248,294.24716)' region1='3 (hills)' area1='2' v2='45909 (-536.54053,294.99985)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='45909 (-536.54053,294.99985)' region1='3 (hills)' area1='2' v2='14623 (-536.46442,295.61691)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='8451 (-536.41656,297.92542)' region1='1 (hilly_light_forest)' area1='2' v2='17729 (-537.1922,296.51898)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='17437 (-535.00061,298.05923)' region1='1 (hilly_light_forest)' area1='2' v2='8451 (-536.41656,297.92542)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='16418 (-532.3335,298.46088)' region1='1 (hilly_light_forest)' area1='2' v2='17437 (-535.00061,298.05923)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='49725 (-530.00079,299.99988)' region1='1 (hilly_light_forest)' area1='2' v2='16418 (-532.3335,298.46088)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='14623 (-536.46442,295.61691)' region1='3 (hills)' area1='2' v2='17055 (-537.02246,296.2511)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='9459 (-539.52032,299.10825)' region1='1 (hilly_light_forest)' area1='2' v2='11489 (-540.12634,299.43146)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='9536 (-538.87463,298.47531)' region1='1 (hilly_light_forest)' area1='2' v2='9459 (-539.52032,299.10825)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='10458 (-538.12128,297.96027)' region1='1 (hilly_light_forest)' area1='2' v2='9536 (-538.87463,298.47531)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='17555 (-537.7403,297.38385)' region1='1 (hilly_light_forest)' area1='2' v2='10458 (-538.12128,297.96027)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='17055 (-537.02246,296.2511)' region1='3 (hills)' area1='2' v2='17729 (-537.1922,296.51898)' region2='-1 (invalid)' area2='65535'/>
+          <line_segment v1='3992 (-530.00079,294.99997)' region1='3 (hills)' area1='2' v2='159 (-535.00067,293.39188)' region2='-1 (invalid)' area2='65535'/>
+         </cell>
+        </rec>
+       </rec>
+       <rec type="top_left">
+        <v2 x="-560.0" y="300.0"/>
+        <v2 x="-520.0" y="320.0"/>
+        <cell x='-560.0' y='300.0' region='0 (grassland)' area='0'>
+         <line_segment v1='14346 (-554.22107,303.68176)' region1='4 (dense_forest)' area1='2' v2='11587 (-553.96741,304.51431)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='11587 (-553.96741,304.51431)' region1='4 (dense_forest)' area1='2' v2='12453 (-553.43018,304.99997)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='12453 (-553.43018,304.99997)' region1='4 (dense_forest)' area1='2' v2='17512 (-553.05371,305.34036)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='17858 (-545.00085,302.81161)' region1='4 (dense_forest)' area1='2' v2='18402 (-544.15729,303.32498)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='18402 (-544.15729,303.32498)' region1='4 (dense_forest)' area1='2' v2='13905 (-543.46631,303.64169)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='17395 (-552.47784,305.5419)' region1='0 (grassland)' area1='0' v2='17512 (-553.05371,305.34036)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='15227 (-551.29742,305.34036)' region1='0 (grassland)' area1='0' v2='17395 (-552.47784,305.5419)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='7967 (-550.94226,304.99997)' region1='0 (grassland)' area1='0' v2='15227 (-551.29742,305.34036)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='9496 (-550.00079,304.99997)' region1='0 (grassland)' area1='0' v2='7967 (-550.94226,304.99997)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='14056 (-546.18896,304.99997)' region1='0 (grassland)' area1='0' v2='9496 (-550.00079,304.99997)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='15809 (-545.00098,304.99997)' region1='0 (grassland)' area1='0' v2='14056 (-546.18896,304.99997)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='21033 (-540.00098,304.99997)' region1='0 (grassland)' area1='0' v2='15809 (-545.00098,304.99997)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='20089 (-537.21362,302.6777)' region1='0 (grassland)' area1='0' v2='21033 (-540.00098,304.99997)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='29603 (-536.16107,302.67773)' region1='0 (grassland)' area1='0' v2='20089 (-537.21362,302.6777)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='20646 (-550.40491,299.99988)' region1='4 (dense_forest)' area1='2' v2='17329 (-550.40112,301.04468)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='26320 (-535.00061,304.99997)' region1='0 (grassland)' area1='0' v2='24884 (-536.01764,304.99997)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='38024 (-530.00043,304.99997)' region1='0 (grassland)' area1='0' v2='26320 (-535.00061,304.99997)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='37955 (-530.00049,304.01645)' region1='0 (grassland)' area1='0' v2='38024 (-530.00043,304.99997)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='40605 (-529.32141,303.34705)' region1='0 (grassland)' area1='0' v2='37955 (-530.00049,304.01645)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='41886 (-529.12061,301.53983)' region1='0 (grassland)' area1='0' v2='40605 (-529.32141,303.34705)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='49725 (-530.00079,299.99988)' region1='0 (grassland)' area1='0' v2='41886 (-529.12061,301.53983)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='17329 (-550.40112,301.04468)' region1='4 (dense_forest)' area1='2' v2='15520 (-550.83679,301.88544)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='15520 (-550.83679,301.88544)' region1='4 (dense_forest)' area1='2' v2='7693 (-551.49896,302.2597)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='7693 (-551.49896,302.2597)' region1='4 (dense_forest)' area1='2' v2='7149 (-552.62183,302.49005)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='7149 (-552.62183,302.49005)' region1='4 (dense_forest)' area1='2' v2='12752 (-553.83105,302.86432)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='26927 (-533.93988,303.01239)' region1='1 (hilly_light_forest)' area1='2' v2='28002 (-531.66412,304.01639)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='28680 (-535.00061,302.67773)' region1='1 (hilly_light_forest)' area1='2' v2='26927 (-533.93988,303.01239)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='12752 (-553.83105,302.86432)' region1='4 (dense_forest)' area1='2' v2='14346 (-554.22107,303.68176)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='37955 (-530.00049,304.01645)' region1='3 (hills)' area1='3' v2='28002 (-531.66412,304.01639)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='27356 (-540.00079,302.20923)' region1='1 (hilly_light_forest)' area1='2' v2='20089 (-537.21362,302.6777)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='25760 (-541.04297,302.07715)' region1='1 (hilly_light_forest)' area1='2' v2='27356 (-540.00079,302.20923)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='28170 (-540.8175,301.33841)' region1='1 (hilly_light_forest)' area1='2' v2='25760 (-541.04297,302.07715)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='29128 (-540.58722,300.33072)' region1='1 (hilly_light_forest)' area1='2' v2='28170 (-540.8175,301.33841)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='8204 (-540.42035,299.8512)' region1='1 (hilly_light_forest)' area1='2' v2='29128 (-540.58722,300.33072)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='28680 (-535.00061,302.67773)' region1='3 (hills)' area1='3' v2='29603 (-536.16107,302.67773)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='29603 (-536.16107,302.67773)' region1='3 (hills)' area1='3' v2='24884 (-536.01764,304.99997)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='17858 (-545.00085,302.81161)' region1='3 (hills)' area1='1' v2='14056 (-546.18896,304.99997)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='25760 (-541.04297,302.07715)' region1='3 (hills)' area1='1' v2='14733 (-541.71002,303.18103)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='14733 (-541.71002,303.18103)' region1='3 (hills)' area1='1' v2='14764 (-542.57379,303.64169)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='14764 (-542.57379,303.64169)' region1='3 (hills)' area1='1' v2='13905 (-543.46631,303.64169)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='13631 (-555.00061,302.87854)' region1='1 (hilly_light_forest)' area1='2' v2='14346 (-554.22107,303.68176)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='49516 (-555.00061,299.99988)' region1='1 (hilly_light_forest)' area1='2' v2='13631 (-555.00061,302.87854)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='9460 (-550.60651,304.67816)' region1='1 (hilly_light_forest)' area1='3' v2='7967 (-550.94226,304.99997)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='11392 (-550.00079,304.33264)' region1='1 (hilly_light_forest)' area1='3' v2='9460 (-550.60651,304.67816)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='9974 (-549.2533,304.24634)' region1='1 (hilly_light_forest)' area1='3' v2='11392 (-550.00079,304.33264)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='13246 (-547.84253,304.01596)' region1='1 (hilly_light_forest)' area1='3' v2='9974 (-549.2533,304.24634)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='10181 (-546.51813,303.38257)' region1='1 (hilly_light_forest)' area1='3' v2='13246 (-547.84253,304.01596)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='18772 (-545.65442,302.77795)' region1='1 (hilly_light_forest)' area1='3' v2='10181 (-546.51813,303.38257)' region2='-1 (invalid)' area2='65535'/>
+         <line_segment v1='17858 (-545.00085,302.81161)' region1='1 (hilly_light_forest)' area1='3' v2='18772 (-545.65442,302.77795)' region2='-1 (invalid)' area2='65535'/>
+        </cell>
+       </rec>
+       <rec type="bottom_right">
+        <v2 x="-520.0" y="280.0"/>
+        <v2 x="-480.0" y="300.0"/>
+        <cell x='-520.0' y='280.0' region='0 (grassland)' area='0'>
+        </cell>
+       </rec>
+       <rec type="top_right">
+        <v2 x="-520.0" y="300.0"/>
+        <v2 x="-480.0" y="320.0"/>
+        <cell x='-520.0' y='300.0' region='0 (grassland)' area='0'>
+        </cell>
+       </rec>
+      </rec>
+     </rec>
+     <rec type="bottom_right">
+      <v2 x="-480.0" y="160.0"/>
+      <v2 x="-320.0" y="240.0"/>
+      <cell x='-480.0' y='160.0' region='0 (grassland)' area='0'>
+      </cell>
+     </rec>
+     <rec type="top_right">
+      <v2 x="-480.0" y="240.0"/>
+      <v2 x="-320.0" y="320.0"/>
+      <cell x='-480.0' y='240.0' region='0 (grassland)' area='0'>
+      </cell>
+     </rec>
+    </rec>
+    <rec type="bottom_right">
+     <v2 x="-320.0" y="0.0"/>
+     <v2 x="0.0" y="160.0"/>
+     <cell x='-320.0' y='0.0' region='0 (grassland)' area='0'>
+     </cell>
+    </rec>
+    <rec type="top_right">
+     <v2 x="-320.0" y="160.0"/>
+     <v2 x="0.0" y="320.0"/>
+     <cell x='-320.0' y='160.0' region='0 (grassland)' area='0'>
+     </cell>
+    </rec>
+   </rec>
+   <rec type="top_right">
+    <v2 x="-640.0" y="320.0"/>
+    <v2 x="0.0" y="640.0"/>
+    <cell x='-640.0' y='320.0' region='0 (grassland)' area='0'>
+    </cell>
+   </rec>
+  </rec>
+  <rec type="bottom_right">
+   <v2 x="0.0" y="-640.0"/>
+   <v2 x="1280.0" y="0.0"/>
+   <cell x='0.0' y='-640.0' region='0 (grassland)' area='0'>
+   </cell>
+  </rec>
+  <rec type="top_right">
+   <v2 x="0.0" y="0.0"/>
+   <v2 x="1280.0" y="640.0"/>
+   <cell x='0.0' y='0.0' region='0 (grassland)' area='0'>
+   </cell>
+  </rec>
+ </rec>
+</rec>

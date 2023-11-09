@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>pennsylvania</s>
+ <asc>land</asc>
+ <v2 x="-560.60413" y="273.31238"/>
+ <v2 x="-527.34027" y="298.76297"/>
+ <ary type="areas">
+  <xml_include path="area-1/pennsylvania-0000.xml"/>
+  <xml_include path="area-1/pennsylvania-0001.xml"/>
+  <xml_include path="area-1/pennsylvania-0002.xml"/>
+  <xml_include path="area-1/pennsylvania-0003.xml"/>
+  <xml_include path="area-1/pennsylvania-0004.xml"/>
+  <xml_include path="area-1/pennsylvania-0005.xml"/>
+ </ary>
+ <i>0</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-541.46509" y="295.31482"/>
+  <v2_ary>
+   -541.46509,297.01208
+   -543.16235,295.31482
+   -541.46509,293.61755
+   -539.76782,295.31482
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-pennsylvania-ep_1_philadelphia-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-pennsylvania-ep_1_philadelphia-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-pennsylvania-ep_1_philadelphia-settlement_road.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

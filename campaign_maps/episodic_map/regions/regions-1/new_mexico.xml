@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>new_mexico</s>
+ <asc>land</asc>
+ <v2 x="-760.0838" y="196.73482"/>
+ <v2 x="-742.01233" y="256.27475"/>
+ <ary type="areas">
+  <xml_include path="area-1/new_mexico-0000.xml"/>
+  <xml_include path="area-1/new_mexico-0001.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>
