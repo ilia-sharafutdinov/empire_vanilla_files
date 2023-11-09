@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>maryland</s>
+ <asc>land</asc>
+ <v2 x="-556.49115" y="269.99991"/>
+ <v2 x="-533.69434" y="282.40079"/>
+ <ary type="areas">
+  <xml_include path="area-1/maryland-0000.xml"/>
+ </ary>
+ <i>0</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-542.86731" y="278.38519"/>
+  <v2_ary>
+   -542.86731,280.08246
+   -544.56458,278.38519
+   -542.86731,276.68793
+   -541.17004,278.38519
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-maryland-annapolis-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-maryland-annapolis-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-maryland-annapolis-settlement_road.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

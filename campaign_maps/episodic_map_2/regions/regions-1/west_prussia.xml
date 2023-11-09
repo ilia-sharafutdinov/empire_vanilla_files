@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>west_prussia</s>
+ <asc>land</asc>
+ <v2 x="104.97618" y="366.59738"/>
+ <v2 x="143.01604" y="389.99994"/>
+ <ary type="areas">
+  <xml_include path="area-1/west_prussia-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

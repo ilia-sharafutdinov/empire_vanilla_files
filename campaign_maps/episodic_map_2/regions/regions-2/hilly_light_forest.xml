@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>hilly_light_forest</s>
+ <asc>land</asc>
+ <v2 x="-615.00073" y="259.99991"/>
+ <v2 x="-420.00061" y="410.87463"/>
+ <ary type="areas">
+  <xml_include path="area-2/hilly_light_forest-0000.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0001.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0002.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0003.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0004.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0005.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0006.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0007.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0008.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0009.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0010.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0011.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0012.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0013.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0014.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0015.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0016.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0017.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0018.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0019.xml"/>
+  <xml_include path="area-2/hilly_light_forest-0020.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

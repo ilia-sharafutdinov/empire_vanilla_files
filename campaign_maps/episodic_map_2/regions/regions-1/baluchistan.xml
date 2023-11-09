@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>baluchistan</s>
+ <asc>land</asc>
+ <v2 x="404.37994" y="178.25441"/>
+ <v2 x="484.99982" y="217.6385"/>
+ <ary type="areas">
+  <xml_include path="area-1/baluchistan-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>hills</s>
+ <asc>land</asc>
+ <v2 x="-614.1369" y="261.33463"/>
+ <v2 x="-402.76221" y="409.99994"/>
+ <ary type="areas">
+  <xml_include path="area-2/hills-0000.xml"/>
+  <xml_include path="area-2/hills-0001.xml"/>
+  <xml_include path="area-2/hills-0002.xml"/>
+  <xml_include path="area-2/hills-0003.xml"/>
+  <xml_include path="area-2/hills-0004.xml"/>
+  <xml_include path="area-2/hills-0005.xml"/>
+  <xml_include path="area-2/hills-0006.xml"/>
+  <xml_include path="area-2/hills-0007.xml"/>
+  <xml_include path="area-2/hills-0008.xml"/>
+  <xml_include path="area-2/hills-0009.xml"/>
+  <xml_include path="area-2/hills-0010.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

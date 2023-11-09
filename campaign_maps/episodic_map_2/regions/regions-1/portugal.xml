@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>portugal</s>
+ <asc>land</asc>
+ <v2 x="-67.64499" y="262.92142"/>
+ <v2 x="-42.61433" y="299.28464"/>
+ <ary type="areas">
+  <xml_include path="area-1/portugal-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

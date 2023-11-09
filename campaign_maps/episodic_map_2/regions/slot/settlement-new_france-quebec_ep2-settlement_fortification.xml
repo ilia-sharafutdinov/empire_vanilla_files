@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:new_france:quebec_ep2:settlement_fortification</s>
+ <s>settlement_fortification</s>
+ <v2 x="-506.83423" y="335.80887"/>
+ <v2 x="-506.83423" y="335.80887"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -507.18777,336.79883
+  -506.48068,336.79883
+  -505.84427,336.16241
+  -505.84427,335.45532
+  -506.48068,334.81891
+  -507.18777,334.81891
+  -507.82419,335.45532
+  -507.82419,336.16241
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -507.18777,336.79883
+  -506.48068,336.79883
+  -505.84427,336.16241
+  -505.84427,335.45532
+  -506.48068,334.81891
+  -507.18777,334.81891
+  -507.82419,335.45532
+  -507.82419,336.16241
+ </v2_ary>
+</rec>

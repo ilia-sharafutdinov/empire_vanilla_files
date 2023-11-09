@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>west_pommerania</s>
+ <asc>land</asc>
+ <v2 x="74.03003" y="364.61179"/>
+ <v2 x="123.29587" y="388.91022"/>
+ <ary type="areas">
+  <xml_include path="area-1/west_pommerania-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

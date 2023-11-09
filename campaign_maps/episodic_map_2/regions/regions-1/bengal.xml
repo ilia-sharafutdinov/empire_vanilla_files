@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>bengal</s>
+ <asc>land</asc>
+ <v2 x="586.32697" y="150.64571"/>
+ <v2 x="647.91125" y="200.00018"/>
+ <ary type="areas">
+  <xml_include path="area-1/bengal-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

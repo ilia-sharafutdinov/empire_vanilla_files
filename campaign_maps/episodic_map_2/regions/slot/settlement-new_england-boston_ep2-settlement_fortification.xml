@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:new_england:boston_ep2:settlement_fortification</s>
+ <s>settlement_fortification</s>
+ <v2 x="-507.50458" y="301.61008"/>
+ <v2 x="-507.50458" y="301.61008"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -507.85812,302.60004
+  -507.15103,302.60004
+  -506.51462,301.96362
+  -506.51462,301.25653
+  -507.15103,300.62012
+  -507.85812,300.62012
+  -508.49454,301.25653
+  -508.49454,301.96362
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -507.85812,302.60004
+  -507.15103,302.60004
+  -506.51462,301.96362
+  -506.51462,301.25653
+  -507.15103,300.62012
+  -507.85812,300.62012
+  -508.49454,301.25653
+  -508.49454,301.96362
+ </v2_ary>
+</rec>

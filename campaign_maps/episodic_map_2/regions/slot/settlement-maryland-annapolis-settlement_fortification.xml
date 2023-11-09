@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:maryland:annapolis:settlement_fortification</s>
+ <s>settlement_fortification</s>
+ <v2 x="-543.44244" y="278.9603"/>
+ <v2 x="-543.44244" y="278.9603"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -543.79602,279.95026
+  -543.08887,279.95026
+  -542.45251,279.31384
+  -542.45251,278.60675
+  -543.08887,277.97034
+  -543.79602,277.97034
+  -544.43237,278.60675
+  -544.43237,279.31384
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -543.79602,279.95026
+  -543.08887,279.95026
+  -542.45251,279.31384
+  -542.45251,278.60675
+  -543.08887,277.97034
+  -543.79602,277.97034
+  -544.43237,278.60675
+  -544.43237,279.31384
+ </v2_ary>
+</rec>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>estonia_and_livonia</s>
+ <asc>land</asc>
+ <v2 x="155.51564" y="401.59955"/>
+ <v2 x="196.8252" y="424.0401"/>
+ <ary type="areas">
+  <xml_include path="area-1/estonia_and_livonia-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

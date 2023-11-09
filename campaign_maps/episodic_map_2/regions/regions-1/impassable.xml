@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>impassable</s>
+ <asc>sea</asc>
+ <v2 x="-816.47681" y="-20.000015258789062"/>
+ <v2 x="439.99988" y="540.00018"/>
+ <ary type="areas">
+  <xml_include path="area-1/impassable-0000.xml"/>
+  <xml_include path="area-1/impassable-0001.xml"/>
+  <xml_include path="area-1/impassable-0002.xml"/>
+  <xml_include path="area-1/impassable-0003.xml"/>
+  <xml_include path="area-1/impassable-0004.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

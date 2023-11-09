@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>guatemala</s>
+ <asc>land</asc>
+ <v2 x="-653.96716" y="76.69673"/>
+ <v2 x="-590.64996" y="115.35466"/>
+ <ary type="areas">
+  <xml_include path="area-1/guatemala-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

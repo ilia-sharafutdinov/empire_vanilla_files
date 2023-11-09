@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>new_france</s>
+ <asc>land</asc>
+ <v2 x="-551.02747" y="320.27386"/>
+ <v2 x="-456.33057" y="350.26865"/>
+ <ary type="areas">
+  <xml_include path="area-1/new_france-0000.xml"/>
+  <xml_include path="area-1/new_france-0001.xml"/>
+  <xml_include path="area-1/new_france-0002.xml"/>
+  <xml_include path="area-1/new_france-0003.xml"/>
+  <xml_include path="area-1/new_france-0004.xml"/>
+  <xml_include path="area-1/new_france-0005.xml"/>
+  <xml_include path="area-1/new_france-0006.xml"/>
+ </ary>
+ <i>0</i>
+ <rec type="settlement_and_slots">
+  <v2 x="-506.25909" y="335.23376"/>
+  <v2_ary>
+   -506.25909,336.93103
+   -507.95636,335.23376
+   -506.25909,333.5365
+   -504.56183,335.23376
+  </v2_ary>
+  <ary type="slot_descriptions">
+   <xml_include path="slot/settlement-new_france-quebec_ep2-settlement_minor.xml"/>
+   <xml_include path="slot/settlement-new_france-quebec_ep2-settlement_fortification.xml"/>
+   <xml_include path="slot/settlement-new_france-quebec_ep2-settlement_road.xml"/>
+   <xml_include path="slot/port-new_france-tadoussac.xml"/>
+   <xml_include path="slot/fur-new_france-central.xml"/>
+   <xml_include path="slot/corn-new_france-south_river.xml"/>
+   <xml_include path="slot/iron-new_france-south.xml"/>
+   <xml_include path="slot/timber-new_france-east.xml"/>
+  </ary>
+  <rec type="roads">
+   <ary type="links"/>
+  </rec>
+  <rec type="railways">
+   <ary type="links"/>
+  </rec>
+  <rec type="canals">
+   <ary type="links"/>
+  </rec>
+ </rec>
+</rec>

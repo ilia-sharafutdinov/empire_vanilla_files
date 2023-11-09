@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rec type="regions">
+ <s>ingria</s>
+ <asc>land</asc>
+ <v2 x="195.94235" y="416.65231"/>
+ <v2 x="231.65582" y="428.35886"/>
+ <ary type="areas">
+  <xml_include path="area-1/ingria-0000.xml"/>
+ </ary>
+ <i>-1</i>
+</rec>

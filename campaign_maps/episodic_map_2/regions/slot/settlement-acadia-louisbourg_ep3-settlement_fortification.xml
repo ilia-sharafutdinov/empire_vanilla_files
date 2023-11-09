@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rec type="slot_descriptions">
+ <s>settlement:acadia:louisbourg_ep3:settlement_fortification</s>
+ <s>settlement_fortification</s>
+ <v2 x="-428.82544" y="327.91046"/>
+ <v2 x="-428.82544" y="327.91046"/>
+ <angle>315.0</angle>
+ <yes/>
+ <v2_ary><!-- Land Area -->
+  -429.17899,328.90042
+  -428.47189,328.90042
+  -427.83548,328.26401
+  -427.83548,327.55692
+  -428.47189,326.9205
+  -429.17899,326.9205
+  -429.8154,327.55692
+  -429.8154,328.26401
+ </v2_ary>
+ <v2_ary/><!-- Sea Area (present only for ports) -->
+ <v2_ary><!-- Total Area (different from land area only in ports) -->
+  -429.17899,328.90042
+  -428.47189,328.90042
+  -427.83548,328.26401
+  -427.83548,327.55692
+  -428.47189,326.9205
+  -429.17899,326.9205
+  -429.8154,327.55692
+  -429.8154,328.26401
+ </v2_ary>
+</rec>
