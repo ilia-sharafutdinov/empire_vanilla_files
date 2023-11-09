@@ -1,2 +1,5 @@
+esf_scripts/**/__pycache__
+esf_scripts/projects/*/temp
+esf_scripts/tutorials/*/temp
 dist/
 packs/main/groupformations.bin
