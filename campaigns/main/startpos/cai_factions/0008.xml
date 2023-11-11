@@ -68,6 +68,6 @@
   <rec type="CAI_BDI_NEW_TURN">
   </rec>
   <u>656</u><!-- Region AI ID Of Capital -->
-  <u4_ary>656 500 694 793 823 733 478 669 562 746</u4_ary><!-- Region AI IDs Of Faction's Needed For Victory Conditions -->
+  <u4_ary>656 603 500 694 793 823 733 478 669 562 746</u4_ary><!-- Region AI IDs Of Faction's Needed For Victory Conditions -->
  </rec>
 </rec>

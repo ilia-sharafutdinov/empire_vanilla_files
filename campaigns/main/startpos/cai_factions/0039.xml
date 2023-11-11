@@ -68,6 +68,6 @@
   <rec type="CAI_BDI_NEW_TURN">
   </rec>
   <u>0</u><!-- Region AI ID Of Capital -->
-  <u4_ary/><!-- Region AI IDs Of Faction's Needed For Victory Conditions -->
+  <u4_ary>1164 1195</u4_ary><!-- Region AI IDs Of Faction's Needed For Victory Conditions -->
  </rec>
 </rec>

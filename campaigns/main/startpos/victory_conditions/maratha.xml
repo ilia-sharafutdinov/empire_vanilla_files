@@ -3,7 +3,7 @@
  <s>maratha</s>
  <ary type="VICTORY_CONDITIONS_BLOCK">
   <rec type="VICTORY_CONDITIONS_BLOCK">
-   <victory_conditions year="1799" region_count="24" prestige_victory="no" campaign_type="1 (Long)">
+   <victory_conditions year="1799" region_count="25" prestige_victory="no" campaign_type="1 (Long)">
     malwa
     mysore
     bijapur

@@ -5,6 +5,7 @@
   <rec type="VICTORY_CONDITIONS_BLOCK">
    <victory_conditions year="1799" region_count="30" prestige_victory="no" campaign_type="1 (Long)">
     rumelia
+    anatolia
     persia
     austria
     galicia
@@ -21,6 +22,7 @@
     venice
     galicia
     rumelia
+    anatolia
     austria
     persia
     chechenya-dagestan
@@ -32,6 +34,7 @@
     venice
     galicia
     rumelia
+    anatolia
     austria
     persia
     chechenya-dagestan
@@ -41,6 +44,7 @@
   <rec type="VICTORY_CONDITIONS_BLOCK">
    <victory_conditions year="1799" region_count="45" prestige_victory="no" campaign_type="3 (Global Domination)">
     rumelia
+    anatolia
    </victory_conditions>
   </rec>
  </ary>
