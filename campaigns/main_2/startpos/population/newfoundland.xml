@@ -107,12 +107,12 @@
    rel_hindu=0.0
    rel_nonconformist=0.0
    rel_sikh=0.0
-   rel_animist=0.0476190485060215
+   rel_animist=0.05
    rel_orthodox=0.0
    rel_buddhist=0.0
-   rel_catholic=0.2380952388048172
+   rel_catholic=0.25
    rel_islamic=0.0
-   rel_protestant=0.7142857313156128
+   rel_protestant=0.70
   </religion_breakdown>
  </rec>
  <u>8190</u><!-- Minimum Population for Army/Navy Recruiment -->

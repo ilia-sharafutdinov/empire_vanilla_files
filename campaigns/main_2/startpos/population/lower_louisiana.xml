@@ -107,10 +107,10 @@
    rel_hindu=0.0
    rel_nonconformist=0.0
    rel_sikh=0.0
-   rel_animist=0.6666666865348816
+   rel_animist=0.65
    rel_orthodox=0.0
    rel_buddhist=0.0
-   rel_catholic=0.3333333432674408
+   rel_catholic=0.35
    rel_islamic=0.0
    rel_protestant=0.0
   </religion_breakdown>
