@@ -3,29 +3,109 @@ local historic_events = require "export_historic_events"
 local scripting = require "EpisodicScripting"
 local camera_pan = 0
 
+-- USER OPTIONS
+local handover_protectorates = true -- Set to 'true' if you wish protectorates to be handed over to AI after a certain number of turns
+local enable_missions = true -- Set to 'false' if you wish to disable missions
+local decrease_ai_aggression_towards_player = false -- Set to 'true' to make the AI see the player as a fellow AI and adjust it's aggression equally
+local disable_shroud = false -- Set to 'true' to disable fog of war and make the entire campaign map visible
+local enable_pirate_diplomacy = false -- Set to 'true' to enable diplomacy while playing pirates. Not recommended - may cause instability
+local test_as_plains = false -- For testing purposes. Set to 'true' to make automated playtests using Plains Nations
+
+-- VARIABLES
+thirteen_colonies_is_human = false
+new_spain_is_human = false
+louisiana_is_human = false
+
+local all_factions_list = {
+	"afghanistan",
+	"austria",
+	"barbary_states",
+	"bavaria",
+	"britain",
+	"chechenya_dagestan",
+	"cherokee",
+	"colombia",
+	"courland",
+	"crimean_khanate",
+	"denmark",
+	"france",
+	"genoa",
+	"georgia",
+	"greece",
+	"hannover",
+	"hessen",
+	"hungary",
+	"huron",
+	"inuit",
+	"ireland",
+	"iroquoi",
+	"knights_stjohn",
+	"louisiana",
+	"mamelukes",
+	"maratha",
+	"mexico",
+	"morocco",
+	"mughal",
+	"mysore",
+	"naples_sicily",
+	"netherlands",
+	"new_spain",
+	"norway",
+	"ottomans",
+	"papal_states",
+	"piedmont_savoy",
+	"pirates",
+	"plains",
+	"poland_lithuania",
+	"portugal",
+	"prussia",
+	"pueblo",
+	"punjab",
+	"quebec",
+	"russia",
+	"safavids",
+	"saxony",
+	"scotland",
+	"spain",
+	"sweden",
+	"thirteen_colonies",
+	"united_states",
+	"venice",
+	"westphalia",
+	"wurttemberg"
+}
+
 local function OnFactionTurnStart(context)
-	if conditions.TurnNumber(context) == 1 then
-		if conditions.FactionName("cherokee", context) and conditions.FactionIsHuman("cherokee", context) then
-			scripting.game_interface:trigger_custom_mission("britain_protectorate", "cherokee", "capture_city", 0, "Acadia", "", "main_mission_capture_city_text", "main_protectorate_new_spain_reward", 2000, "", context)
+	if enable_missions then
+		if conditions.TurnNumber(context) == 2 then
+			if conditions.FactionName("britain", context) and conditions.FactionIsHuman("britain", context) then
+				scripting.game_interface:trigger_custom_mission("britain_protectorate", "britain", "protectorate_region_capture", 0, "georgia_usa+cherokee_territory+new_france", "", "mission_text_text_main_protectorate_thirteen_colonies_text", "mission_text_text_main_protectorate_thirteen_colonies_reward", 0, "thirteen_colonies", context)
+			elseif conditions.FactionName("spain", context) and conditions.FactionIsHuman("spain", context) then
+				scripting.game_interface:trigger_custom_mission("spain_protectorate", "spain", "protectorate_region_capture", 0, "trinidad_tobago+tejas+curacao", "", "mission_text_text_main_protectorate_new_spain_text", "mission_text_text_main_protectorate_new_spain_reward", 0, "new_spain", context)
+			elseif conditions.FactionName("france", context) and conditions.FactionIsHuman("france", context) then
+				scripting.game_interface:trigger_custom_mission("france_protectorate", "france", "protectorate_region_capture", 0, "michigan_territory+algonquin_territory+cherokee_territory", "", "mission_text_text_main_protectorate_louisiana_text", "mission_text_text_main_protectorate_louisiana_reward", 0, "louisiana", context)
+			end
+		elseif conditions.TurnNumber(context) == 5 then
+			scripting.game_interface:enable_auto_generated_missions(true)
 		end
-	elseif conditions.TurnNumber(context) == 2 then
-		if conditions.FactionName("britain", context) and conditions.FactionIsHuman("britain", context) then
-			scripting.game_interface:trigger_custom_mission("britain_protectorate", "britain", "protectorate_region_capture", 0, "georgia_usa+cherokee_territory+new_france", "", "mission_text_text_main_protectorate_thirteen_colonies_text", "mission_text_text_main_protectorate_thirteen_colonies_reward", 0, "thirteen_colonies", context)
-		elseif conditions.FactionName("spain", context) and conditions.FactionIsHuman("spain", context) then
-			scripting.game_interface:trigger_custom_mission("spain_protectorate", "spain", "protectorate_region_capture", 0, "trinidad_tobago+tejas+curacao", "", "mission_text_text_main_protectorate_new_spain_text", "mission_text_text_main_protectorate_new_spain_reward", 0, "new_spain", context)
-		elseif conditions.FactionName("france", context) and conditions.FactionIsHuman("france", context) then
-			scripting.game_interface:trigger_custom_mission("france_protectorate", "france", "protectorate_region_capture", 0, "michigan_territory+algonquin_territory+cherokee_territory", "", "mission_text_text_main_protectorate_louisiana_text", "mission_text_text_main_protectorate_louisiana_reward", 0, "louisiana", context)
-		end
-	elseif conditions.TurnNumber(context) == 5 then
-		scripting.game_interface:enable_auto_generated_missions(true)
 	end
-	
-	if conditions.FactionName("britain", context) and not conditions.FactionIsHuman("britain", context) then
-		scripting.game_interface:grant_faction_handover("britain", "thirteen_colonies", 6, 15, context)
-	elseif conditions.FactionName("spain", context) and not conditions.FactionIsHuman("spain", context) then
-		scripting.game_interface:grant_faction_handover("spain", "new_spain", 6, 15, context)
-	elseif conditions.FactionName("france", context) and not conditions.FactionIsHuman("france", context) then
-		scripting.game_interface:grant_faction_handover("france", "louisiana", 6, 15, context)
+
+	if conditions.FactionName("thirteen_colonies", context) and conditions.FactionIsHuman("thirteen_colonies", context) then
+		thirteen_colonies_is_human = true
+	elseif conditions.FactionName("new_spain", context) and conditions.FactionIsHuman("new_spain", context) then
+		new_spain_is_human = true
+	elseif conditions.FactionName("louisiana", context) and conditions.FactionIsHuman("louisiana", context) then
+		louisiana_is_human = true
+	end
+
+	if handover_protectorates then
+		if conditions.FactionName("britain", context) and (not conditions.FactionIsHuman("britain", context) or not enable_missions) and not thirteen_colonies_is_human then
+			scripting.game_interface:grant_faction_handover("britain", "thirteen_colonies", 6, 15, context)
+		elseif conditions.FactionName("spain", context) and (not conditions.FactionIsHuman("spain", context) or not enable_missions) and not new_spain_is_human then
+			scripting.game_interface:grant_faction_handover("spain", "new_spain", 6, 15, context)
+		elseif conditions.FactionName("france", context) and (not conditions.FactionIsHuman("france", context) or not enable_missions) and not louisiana_is_human then
+			scripting.game_interface:grant_faction_handover("france", "louisiana", 6, 15, context)
+		end
 	end
 end
 
@@ -891,6 +971,53 @@ end
 local function OnWorldCreated()
 	scripting.game_interface:technology_osmosis_for_playables_enable_culture("european")
 	scripting.game_interface:technology_osmosis_for_playables_enable_all()
+
+	if decrease_ai_aggression_towards_player then
+		scripting.game_interface:set_campaign_ai_force_all_factions_boardering_humans_to_have_invasion_behaviour(false)
+		scripting.game_interface:set_campaign_ai_force_all_factions_boardering_human_protectorates_to_have_invasion_behaviour(false)
+	end
+
+	if disable_shroud then
+		scripting.game_interface:show_shroud(false)
+	end
+
+	if not enable_pirate_diplomacy then
+		for key, faction in ipairs(all_factions_list) do
+			if faction ~= "pirates" then
+				scripting.game_interface:force_diplomacy("pirates", faction, "peace", false, false)
+				scripting.game_interface:force_diplomacy(faction, "pirates", "peace", false, false)
+			end
+		end
+	end
+
+	if test_as_plains then
+		for key, faction in ipairs(all_factions_list) do
+			if faction ~= "plains" then
+				scripting.game_interface:force_diplomacy("plains", faction, "trade agreement", false, false)
+				scripting.game_interface:force_diplomacy("plains", faction, "military access", false, false)
+				scripting.game_interface:force_diplomacy("plains", faction, "cancel military access", false, false)
+				scripting.game_interface:force_diplomacy("plains", faction, "alliance", false, false)
+				scripting.game_interface:force_diplomacy("plains", faction, "regions", false, false)
+				scripting.game_interface:force_diplomacy("plains", faction, "technology", false, false)
+				scripting.game_interface:force_diplomacy("plains", faction, "state_gift", false, false)
+				scripting.game_interface:force_diplomacy("plains", faction, "payments", false, false)
+				scripting.game_interface:force_diplomacy("plains", faction, "protectorate", false, false)
+				scripting.game_interface:force_diplomacy("plains", faction, "peace", false, false)
+				scripting.game_interface:force_diplomacy("plains", faction, "war", false, false)
+				scripting.game_interface:force_diplomacy(faction, "plains", "trade agreement", false, false)
+				scripting.game_interface:force_diplomacy(faction, "plains", "military access", false, false)
+				scripting.game_interface:force_diplomacy(faction, "plains", "cancel military access", false, false)
+				scripting.game_interface:force_diplomacy(faction, "plains", "alliance", false, false)
+				scripting.game_interface:force_diplomacy(faction, "plains", "regions", false, false)
+				scripting.game_interface:force_diplomacy(faction, "plains", "technology", false, false)
+				scripting.game_interface:force_diplomacy(faction, "plains", "state_gift", false, false)
+				scripting.game_interface:force_diplomacy(faction, "plains", "payments", false, false)
+				scripting.game_interface:force_diplomacy(faction, "plains", "protectorate", false, false)
+				scripting.game_interface:force_diplomacy(faction, "plains", "peace", false, false)
+				scripting.game_interface:force_diplomacy(faction, "plains", "war", false, false)
+			end
+		end
+	end
 end
 
 
